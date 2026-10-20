@@ -23,5 +23,13 @@ This dataset contains real-world macOS desktop UI interaction traces, accessibil
 - `training_inventory/`: Data indexes and splits.
 
 ## Associated Repositories
-- **GitHub Monorepo**: [llmos](https://github.com/chhola14bhatoora/llmos)
+- **GitHub Monorepo**: [llmos](https://github.com/HARSHITJAIS14/llmos)
 - **Model Checkpoint**: [screen-understanding-micro-v2](https://huggingface.co/chhola14bhatoora/screen-understanding-micro-v2)
+- **Hugging Face Dataset**: [screen-understanding-captures](https://huggingface.co/datasets/chhola14bhatoora/screen-understanding-captures)
+
+## Downloading the Dataset Locally
+The raw captures and contextual runs (~4 GB) are hosted on Hugging Face to keep the repository lightweight. To download the dataset locally:
+```bash
+hf download chhola14bhatoora/screen-understanding-captures --repo-type dataset --local-dir screen_understanding/dataset
+```
+

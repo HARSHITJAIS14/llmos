@@ -1,0 +1,283 @@
+{
+  "model": "docling-project/ScreenVLM",
+  "revision": "78df0cc8498bbea1a03eb2816056fc0a76d2f63d",
+  "gpu": "NVIDIA A40",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.49.0",
+  "dtype": "bfloat16",
+  "use_cache": true,
+  "attention": "eager",
+  "max_tokens": 512,
+  "max_generation_seconds": 30.0,
+  "image_size": [
+    2398,
+    1830
+  ],
+  "load_seconds": 2.125537319108844,
+  "runs": [
+    {
+      "preprocess_seconds": 0.5174562782049179,
+      "generation_seconds": 20.921539595350623,
+      "total_seconds": 21.440141580998898,
+      "output_tokens": 512,
+      "hit_token_limit": true,
+      "hit_time_limit": false,
+      "count": 25,
+      "geometry_issues": [],
+      "elements": [
+        {
+          "label": "App_Icon",
+          "bbox": [
+            148.676,
+            153.72,
+            177.452,
+            190.32
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            196.636,
+            153.72,
+            225.412,
+            190.32
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            244.596,
+            153.72,
+            268.576,
+            190.32
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            321.332,
+            146.4,
+            364.496,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "Button",
+          "bbox": [
+            460.416,
+            124.44,
+            527.56,
+            215.94
+          ],
+          "text": ""
+        },
+        {
+          "label": "Button",
+          "bbox": [
+            527.56,
+            124.44,
+            599.5,
+            215.94
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            690.624,
+            146.4,
+            728.992,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            776.952,
+            153.72,
+            805.728,
+            190.32
+          ],
+          "text": ""
+        },
+        {
+          "label": "Utility_Button",
+          "bbox": [
+            1597.068,
+            153.72,
+            1621.048,
+            190.32
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1990.34,
+            142.74,
+            2028.708,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            2062.28,
+            142.74,
+            2100.648,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "Utility_Button",
+          "bbox": [
+            2134.22,
+            142.74,
+            2172.588,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "Utility_Button",
+          "bbox": [
+            2206.16,
+            142.74,
+            2244.528,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            187.044,
+            259.86,
+            220.616,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            230.208,
+            263.52,
+            354.904,
+            303.78
+          ],
+          "text": "(11) You..."
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            681.032,
+            259.86,
+            714.604,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            724.196,
+            263.52,
+            848.892,
+            303.78
+          ],
+          "text": "High-Frequency"
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            431.64,
+            259.86,
+            465.212,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            474.804,
+            263.52,
+            599.5,
+            303.78
+          ],
+          "text": "diffusion..."
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            930.424,
+            259.86,
+            963.996,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            973.588,
+            263.52,
+            1103.08,
+            303.78
+          ],
+          "text": "keys | Go..."
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1179.816,
+            259.86,
+            1213.388,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1222.98,
+            263.52,
+            1357.268,
+            303.78
+          ],
+          "text": "Keys - Gr..."
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1434.004,
+            259.86,
+            1467.576,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1477.168,
+            263.52,
+            1745.744,
+            303.78
+          ],
+          "text": "(11) Brian Singer..."
+        }
+      ]
+    }
+  ],
+  "peak_allocated_gpu_mb": 3068.8857421875,
+  "parser_note": "Only completed leaf tags are counted; raw output remains unchanged."
+}

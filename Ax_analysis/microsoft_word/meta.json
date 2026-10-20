@@ -1,0 +1,104 @@
+{
+  "app": "Microsoft Word",
+  "was_running": false,
+  "captures": {
+    "windows": 9,
+    "skeleton": {
+      "ok": true,
+      "bytes": 4005,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 21605,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26857,
+  "bundle_id": "com.microsoft.Word",
+  "framework_signals": {
+    "exe": "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word",
+    "bundle": "/Applications/Microsoft Word.app",
+    "frameworks": [
+      "ADAL4.framework",
+      "COMBase.framework",
+      "Chart.framework",
+      "CocoaUI.framework",
+      "FluentUI.framework",
+      "Forms.framework",
+      "Gfx.framework",
+      "Hlink.framework",
+      "MSXML.framework",
+      "MetEx.framework",
+      "MicrosoftCSI.framework",
+      "MicrosoftCloudServices.framework",
+      "MicrosoftConversionLibrary.framework",
+      "MicrosoftCredui.framework",
+      "MicrosoftFBA.framework",
+      "MicrosoftFontLibrary.framework",
+      "MicrosoftIvy.framework",
+      "MicrosoftPTLS.framework",
+      "MicrosoftPTLS7.framework",
+      "MicrosoftProofing.framework",
+      "MicrosoftRichEdit.framework",
+      "MicrosoftWebServices.framework",
+      "MsgrLibClient.framework",
+      "MsoCF.framework",
+      "Netlib.framework",
+      "OLE.framework",
+      "OLEAutomation.framework",
+      "OPF.framework",
+      "OcsClient.framework",
+      "OfficeAddressBook.framework",
+      "OfficeArt.framework",
+      "Oimg.framework",
+      "OutlookCore.framework",
+      "OutlookFoundation.framework",
+      "OutlookRightsFramework.framework",
+      "SmartArt.framework",
+      "Uniscribe.framework",
+      "Visual Basic for Applications.framework",
+      "WLMGraphicsDevice.framework",
+      "WLMKernel.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 803.0,
+      "width": 1087.0,
+      "x": 1374.0,
+      "y": 333.0
+    },
+    "id": "w-28255",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 103,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 103,
+    "truncated_after": 0,
+    "bytes": 41833
+  }
+}

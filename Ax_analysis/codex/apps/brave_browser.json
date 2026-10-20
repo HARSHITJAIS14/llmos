@@ -1,0 +1,596 @@
+{
+  "schema_version": "1.0",
+  "app_key": "brave_browser",
+  "identity": {
+    "name": "Brave Browser",
+    "bundle_id": "com.brave.Browser",
+    "bundle_id_match": "exact",
+    "framework": "chromium_browser",
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "single Brave Browser Framework.framework, no Electron/Squirrel helpers"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 7 nodes, root_kids 4 (Chromium shell)"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "webarea at depth 8 via window > 7 unnamed groups"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.393 default, 0.276 forced (web-content band, below Electron 0.45)"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "forced 170: group 48, statictext 40, button 29, link 15, combobox 11; shell has 3 toolbars"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "forced max depth 16 (web); default stops at cap 10"
+      }
+    ]
+  },
+  "category": "browser",
+  "fidelity": {
+    "default": {
+      "nodes": 56,
+      "max_depth": 10,
+      "max_depth_requested": 10,
+      "frontier_nodes": 2,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 28,
+      "ref_count": 37,
+      "has_webarea": true,
+      "offscreen_nodes": 4,
+      "skeleton_nodes": 7,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 170,
+      "max_depth": 16,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 101,
+      "ref_count": 151,
+      "has_webarea": true,
+      "offscreen_nodes": 19,
+      "skeleton_nodes": 7,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 3.04,
+    "default_score": 0.329,
+    "forced_score": 1.0,
+    "best_capture": "forced",
+    "ladder_verdict": "recapture_deeper"
+  },
+  "readiness": {
+    "default_rung": "R4_depth_frontier",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "depth_frontier"
+      ],
+      "chromium_shell_skeleton": true,
+      "cause": "depth_cap"
+    },
+    "capture_plan": {
+      "max_depth": 40,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": true,
+      "reason": "only visible WS entry is a 129x146 thumbnail vs AX root 1036x802 on display 2"
+    },
+    "handshake": {
+      "status": "unproven",
+      "note": "56/56 default paths reappear in forced with equal bounds; gain is all below 2 depth-10 frontiers"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1,
+        "height": 1,
+        "x": 0,
+        "y": 0,
+        "count": 2,
+        "kind": "helper_surface"
+      },
+      {
+        "width": 500,
+        "height": 500,
+        "x": 0,
+        "y": 940,
+        "count": 1,
+        "kind": "helper_surface"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": true,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 16.7,
+      "kinds": [
+        "ax_dom_identifier"
+      ],
+      "reject_patterns": [
+        "^(:r[0-9a-z]+:|_r_[0-9a-z]+_)$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 95.3,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "link"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1000",
+      "match": "exact",
+      "tier": "session",
+      "role": "toolbar",
+      "purpose": "main browser toolbar",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1001",
+      "match": "exact",
+      "tier": "session",
+      "role": "button",
+      "purpose": "back button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1002",
+      "match": "exact",
+      "tier": "session",
+      "role": "button",
+      "purpose": "forward button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1003",
+      "match": "exact",
+      "tier": "session",
+      "role": "button",
+      "purpose": "reload button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1005",
+      "match": "exact",
+      "tier": "session",
+      "role": "button",
+      "purpose": "bookmark this tab button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1012",
+      "match": "exact",
+      "tier": "session",
+      "role": "textfield",
+      "purpose": "address and search bar",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1011",
+      "match": "exact",
+      "tier": "session",
+      "role": "image",
+      "purpose": "address bar search icon",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1006",
+      "match": "exact",
+      "tier": "session",
+      "role": "combobox",
+      "purpose": "extensions menu",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1007",
+      "match": "exact",
+      "tier": "session",
+      "role": "combobox",
+      "purpose": "main app menu",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1009",
+      "match": "exact",
+      "tier": "session",
+      "role": "combobox",
+      "purpose": "toolbar extension button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_1025",
+      "match": "exact",
+      "tier": "session",
+      "role": "toolbar",
+      "purpose": "bookmarks bar",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_21",
+      "match": "exact",
+      "tier": "session",
+      "role": "group",
+      "purpose": "tab strip container",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "view_20",
+      "match": "exact",
+      "tier": "session",
+      "role": "radiobutton",
+      "purpose": "first tab in tab strip",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "root",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "web page root container",
+      "seen_in_captures": 2
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": true,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "typetext_present",
+    "offscreen_recovery": "scroll_to",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 29,
+        "verb": "Click"
+      },
+      {
+        "role": "image",
+        "actions": [
+          "Click"
+        ],
+        "count": 14,
+        "verb": "Click",
+        "note": "1 of 14 carry a real action"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetValue",
+          "SetFocus",
+          "TypeText"
+        ],
+        "count": 2,
+        "verb": "TypeText"
+      },
+      {
+        "role": "combobox",
+        "actions": [
+          "Click",
+          "ScrollTo",
+          "SetValue",
+          "SetFocus",
+          "TypeText",
+          "Select",
+          "Expand",
+          "Collapse"
+        ],
+        "count": 11,
+        "verb": "Expand"
+      },
+      {
+        "role": "link",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 15,
+        "verb": "Click"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "Select"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "radiobutton",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetValue",
+          "SetFocus",
+          "Toggle"
+        ],
+        "count": 1,
+        "verb": "Toggle"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role==statictext",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==textfield and 'TypeText' in actions; empty field has no value key",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role==radiobutton under tablist (tab); value 'true' plus states checked/selected when active",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-10",
+          "LAW-ACT-1"
+        ]
+      },
+      {
+        "target": "heading",
+        "match": "role==heading",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-6"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "checked_state",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "ax_root",
+    "ws_matches_ax_root": false,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 19,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "depth_capped_husk",
+      "detect": "has_webarea and any(children_count > len(children)) or max_depth == 10",
+      "workaround": "recapture same window at --max-depth 40, no activation",
+      "severity": "high",
+      "observed": "default 56 nodes, depth 10, 2 frontiers; forced 170 nodes, depth 16, 0 frontiers (3.04x)",
+      "laws": [
+        "LAW-STR-6",
+        "LAW-LIFE-1",
+        "LAW-LIFE-2",
+        "LAW-LIFE-3"
+      ]
+    },
+    {
+      "kind": "thumbnail_proxy_window",
+      "detect": "only visible WS entry <= 200x200 and bounds != ax_root.bounds",
+      "workaround": "use WS title only; bounds from AX root; activate before coordinate actions",
+      "severity": "high",
+      "observed": "WS 129x146 vs AX root 1036x802",
+      "laws": [
+        "LAW-WIN-4",
+        "LAW-WIN-5"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick window by ghost filter each session; never cache window id",
+      "severity": "low",
+      "observed": "window id changed between default and forced capture; bounds and 56/56 paths identical",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "gate on disabled state, not on Click",
+      "severity": "high",
+      "observed": "2/2 disabled buttons (back, forward) keep Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    },
+    {
+      "kind": "readonly_control_as_button",
+      "detect": "role==combobox and 'readonly' in states",
+      "workaround": "Click/Expand it; never type into it",
+      "severity": "low",
+      "observed": "3 readonly unnamed comboboxes in web content (forced)",
+      "laws": [
+        "LAW-TXT-11"
+      ]
+    },
+    {
+      "kind": "volatile_dom_ids",
+      "detect": "native_id matches ^view_\\d+$",
+      "workaround": "use view_<n> only within one launch (tier session); re-resolve by role+name after relaunch",
+      "severity": "low",
+      "observed": "15 view_<n>/root ids identical across 2 captures of one launch; cross-launch stability unmeasured",
+      "laws": [
+        "LAW-ID-3"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first: depth-10 snapshot of best window by --window-id",
+      "tested": true
+    },
+    {
+      "channel": "ax_deep",
+      "when": "frontier nodes or max_depth == 10 in default capture",
+      "precondition": "--max-depth 40",
+      "tested": true
+    },
+    {
+      "channel": "cdp",
+      "when": "dense page content beyond what depth 40 gives",
+      "precondition": "app launched with --remote-debugging-port",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "browser chrome shortcuts (new tab, focus address bar, close tab)",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "verify page rendering the tree cannot express",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:58:48+05:30",
+      "2026-08-30T20:58:48+05:30",
+      "2026-08-30T21:14:54+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "activated",
+      "forced"
+    ],
+    "surface": "start_page",
+    "sources": [
+      "brave_browser/meta.json",
+      "brave_browser/windows.json",
+      "brave_browser/skeleton.json",
+      "brave_browser/full.json",
+      "brave_browser/forced.json",
+      "brave_browser/analysis.md"
+    ],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

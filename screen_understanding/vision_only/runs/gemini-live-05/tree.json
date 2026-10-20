@@ -1,0 +1,494 @@
+{
+  "version": 1,
+  "mode": "vision-only",
+  "source_size": [
+    2398,
+    1830
+  ],
+  "regions": [
+    {
+      "id": "r0",
+      "parent": null,
+      "depth": 0,
+      "label": "browser_youtube_page",
+      "box": [
+        0,
+        0,
+        2398,
+        1830
+      ],
+      "status": "analyzed",
+      "crop_file": "crops/r0.png",
+      "crop_box": [
+        0,
+        0,
+        2398,
+        1830
+      ],
+      "observations": [
+        "macOS Safari-style browser window showing YouTube Premium on desktop",
+        "The video currently playing displays a Founders Fund portfolio slide with logos including Polymarket, Lighter, Figma, Varda, General Matter, Impulse, Hadrian",
+        "Sidebar recommendations column on the right",
+        "Video metadata and channel bar beneath the player"
+      ],
+      "interpretations": [
+        "Desktop browser view displaying a YouTube watch page."
+      ],
+      "uncertainties": [],
+      "proposal_issues": []
+    },
+    {
+      "id": "r1",
+      "parent": "r0",
+      "depth": 1,
+      "label": "video_player_container",
+      "box": [
+        144,
+        390,
+        1549,
+        1180
+      ],
+      "status": "analyzed",
+      "reason": "Main video player area displaying video frame",
+      "crop_file": "crops/r1.png",
+      "crop_box": [
+        97,
+        343,
+        1596,
+        1227
+      ],
+      "observations": [
+        "Rounded rectangle container displaying the playing video frame",
+        "White background within the video displaying company logos (Polymarket, Lighter, Figma, Varda, General Matter, Impulse Space, Hadrian, Enter) and header 'FOUNDERS FUND'",
+        "Overlay text reading 'AT THE BEST PRICE POSSIBLE' in serif italic font over bottom logos",
+        "Sourcery channel watermark icon in bottom right of the video screen",
+        "A portion of the video title visible immediately below the player container"
+      ],
+      "interpretations": [
+        "Main HTML5 video player element on YouTube desktop watch page."
+      ],
+      "uncertainties": [
+        "Player controls (play/pause, seekbar) are currently hidden/auto-faded."
+      ],
+      "proposal_issues": [
+        "Region is too small or outside its parent"
+      ]
+    },
+    {
+      "id": "r2",
+      "parent": "r0",
+      "depth": 1,
+      "label": "video_details_and_metadata",
+      "box": [
+        144,
+        1215,
+        1549,
+        1629
+      ],
+      "status": "analyzed",
+      "reason": "Video title, channel info, action buttons, and description",
+      "crop_file": "crops/r2.png",
+      "crop_box": [
+        119,
+        1190,
+        1574,
+        1654
+      ],
+      "observations": [
+        "Video title: 'Brian Singerman: \"If SpaceX Didn't Work, Founders Fund Wouldn't Exist\"' with an 'Auto-dubbed' badge beneath it.",
+        "Channel info showing profile icon 'S', title 'Sourcery with Molly O'Shea', and subscriber count '68.8k subscribers'.",
+        "Interactive action buttons: 'Subscribe', like button showing '314', dislike button, 'Share' button, and an overflow menu '...' button.",
+        "Collapsible video description box with stats '12k views 2 months ago Sourcery' and several lines of text summarizing the interview, ending with '...more'."
+      ],
+      "interpretations": [
+        "Primary information section below a YouTube video player providing context, channel subscription controls, social engagement actions, and expanded description."
+      ],
+      "uncertainties": [],
+      "proposal_issues": []
+    },
+    {
+      "id": "r3",
+      "parent": "r0",
+      "depth": 1,
+      "label": "sidebar_recommendations",
+      "box": [
+        1575,
+        390,
+        2213,
+        1649
+      ],
+      "status": "analyzed",
+      "reason": "Related video recommendation list on the right rail",
+      "crop_file": "crops/r3.png",
+      "crop_box": [
+        1537,
+        352,
+        2251,
+        1687
+      ],
+      "observations": [
+        "A column of recommended/related video items on the right side of the YouTube watch interface",
+        "Top filter chip row with options: 'All', 'From the series', 'From Source...'",
+        "Five video recommendation cards stacked vertically, each containing a thumbnail on the left, video title, channel name ('Sourcery with Moll...'), view counts, relative timestamps ('2 mo ago', '3 mo ago'), and an 'Auto-dubbed' badge"
+      ],
+      "interpretations": [
+        "Related video recommendation list tailored to the currently playing video/series."
+      ],
+      "uncertainties": [],
+      "proposal_issues": []
+    },
+    {
+      "id": "r4",
+      "parent": "r0",
+      "depth": 1,
+      "label": "youtube_header_bar",
+      "box": [
+        144,
+        269,
+        2213,
+        366
+      ],
+      "status": "analyzed",
+      "reason": "YouTube main header with logo, search input, and profile icon",
+      "crop_file": "crops/r4.png",
+      "crop_box": [
+        132,
+        257,
+        2225,
+        378
+      ],
+      "observations": [
+        "Top navigation bar of YouTube interface with dark theme",
+        "Left side features a hamburger menu button and the YouTube Premium logo with 'IN' region tag",
+        "Center features a search bar with placeholder 'Search' and a magnifying glass search submit button",
+        "Right of the search bar is a circular voice search button (microphone icon)",
+        "Right side features a '+ Create' pill button, a notification bell icon with a red '9+' badge, and a circular user profile avatar with letter 'H'"
+      ],
+      "interpretations": [
+        "Main application header providing site-wide navigation, search, content creation, notification, and profile management functions."
+      ],
+      "uncertainties": [],
+      "proposal_issues": []
+    },
+    {
+      "id": "r5",
+      "parent": "r1",
+      "depth": 2,
+      "label": "video_display_frame",
+      "box": [
+        145,
+        391,
+        1548,
+        1153
+      ],
+      "status": "uninspected",
+      "reason": "The core video presentation canvas itself"
+    },
+    {
+      "id": "r6",
+      "parent": "r1",
+      "depth": 2,
+      "label": "channel_watermark",
+      "box": [
+        1443,
+        1028,
+        1526,
+        1109
+      ],
+      "status": "uninspected",
+      "reason": "Branding overlay in player bottom right"
+    },
+    {
+      "id": "r7",
+      "parent": "r2",
+      "depth": 2,
+      "label": "video_title",
+      "box": [
+        145,
+        1215,
+        1414,
+        1245
+      ],
+      "status": "uninspected",
+      "reason": "Clearly legible headline text for the video."
+    },
+    {
+      "id": "r8",
+      "parent": "r2",
+      "depth": 2,
+      "label": "channel_info_bar",
+      "box": [
+        145,
+        1308,
+        876,
+        1380
+      ],
+      "status": "uninspected",
+      "reason": "Channel branding, avatar, name, and subscribe button."
+    },
+    {
+      "id": "r9",
+      "parent": "r2",
+      "depth": 2,
+      "label": "engagement_controls",
+      "box": [
+        956,
+        1308,
+        1548,
+        1380
+      ],
+      "status": "uninspected",
+      "reason": "Set of user engagement action buttons (like/dislike pill, share, options)."
+    },
+    {
+      "id": "r10",
+      "parent": "r2",
+      "depth": 2,
+      "label": "video_description_box",
+      "box": [
+        145,
+        1409,
+        1548,
+        1602
+      ],
+      "status": "uninspected",
+      "reason": "Standard expandable YouTube description panel showing view count, date, and summary text."
+    },
+    {
+      "id": "r11",
+      "parent": "r3",
+      "depth": 2,
+      "label": "filter_chip_bar",
+      "box": [
+        1575,
+        390,
+        2213,
+        456
+      ],
+      "status": "uninspected",
+      "reason": "Filter chips for narrowing recommended videos"
+    },
+    {
+      "id": "r12",
+      "parent": "r3",
+      "depth": 2,
+      "label": "video_card_item",
+      "box": [
+        1575,
+        465,
+        2213,
+        680
+      ],
+      "status": "uninspected",
+      "reason": "First recommended video card"
+    },
+    {
+      "id": "r13",
+      "parent": "r3",
+      "depth": 2,
+      "label": "video_card_item",
+      "box": [
+        1575,
+        696,
+        2213,
+        911
+      ],
+      "status": "uninspected",
+      "reason": "Second recommended video card"
+    },
+    {
+      "id": "r14",
+      "parent": "r3",
+      "depth": 2,
+      "label": "video_card_item",
+      "box": [
+        1575,
+        929,
+        2213,
+        1144
+      ],
+      "status": "uninspected",
+      "reason": "Third recommended video card"
+    },
+    {
+      "id": "r15",
+      "parent": "r3",
+      "depth": 2,
+      "label": "video_card_item",
+      "box": [
+        1575,
+        1160,
+        2213,
+        1375
+      ],
+      "status": "uninspected",
+      "reason": "Fourth recommended video card"
+    },
+    {
+      "id": "r16",
+      "parent": "r3",
+      "depth": 2,
+      "label": "video_card_item",
+      "box": [
+        1575,
+        1392,
+        2213,
+        1607
+      ],
+      "status": "uninspected",
+      "reason": "Fifth recommended video card"
+    },
+    {
+      "id": "r17",
+      "parent": "r4",
+      "depth": 2,
+      "label": "menu_button",
+      "box": [
+        170,
+        299,
+        216,
+        336
+      ],
+      "status": "uninspected",
+      "reason": "Hamburger menu icon button to toggle navigation sidebar"
+    },
+    {
+      "id": "r18",
+      "parent": "r4",
+      "depth": 2,
+      "label": "youtube_logo",
+      "box": [
+        295,
+        292,
+        565,
+        342
+      ],
+      "status": "uninspected",
+      "reason": "YouTube Premium logo linking to home"
+    },
+    {
+      "id": "r19",
+      "parent": "r4",
+      "depth": 2,
+      "label": "search_bar",
+      "box": [
+        712,
+        274,
+        1620,
+        360
+      ],
+      "status": "uninspected",
+      "reason": "Text input field and search button combination"
+    },
+    {
+      "id": "r20",
+      "parent": "r4",
+      "depth": 2,
+      "label": "voice_search_button",
+      "box": [
+        1672,
+        274,
+        1756,
+        360
+      ],
+      "status": "uninspected",
+      "reason": "Microphone button for voice query"
+    },
+    {
+      "id": "r21",
+      "parent": "r4",
+      "depth": 2,
+      "label": "create_button",
+      "box": [
+        1808,
+        274,
+        1997,
+        360
+      ],
+      "status": "uninspected",
+      "reason": "Create video or post button"
+    },
+    {
+      "id": "r22",
+      "parent": "r4",
+      "depth": 2,
+      "label": "notifications_button",
+      "box": [
+        2032,
+        290,
+        2104,
+        345
+      ],
+      "status": "uninspected",
+      "reason": "Bell icon for notification panel with unread badge"
+    },
+    {
+      "id": "r23",
+      "parent": "r4",
+      "depth": 2,
+      "label": "user_profile_avatar",
+      "box": [
+        2137,
+        289,
+        2200,
+        346
+      ],
+      "status": "uninspected",
+      "reason": "User account avatar button"
+    }
+  ],
+  "reconciliation": {
+    "description": "A macOS browser window showing a YouTube watch page with dark theme enabled. The video playing features a Founders Fund portfolio slide, accompanied by video metadata, channel details for 'Sourcery with Molly O'Shea', interaction controls, and a right-hand sidebar of recommended videos.",
+    "regions": [
+      {
+        "id": "r0",
+        "context": "The overall browser window displaying the YouTube video watch page."
+      },
+      {
+        "id": "r1",
+        "context": "The main video player displaying a presentation slide with portfolio company logos."
+      },
+      {
+        "id": "r2",
+        "context": "The video metadata section below the player containing title, channel information, action buttons, and description."
+      },
+      {
+        "id": "r3",
+        "context": "The right-hand sidebar displaying category filter chips and recommended video cards."
+      },
+      {
+        "id": "r4",
+        "context": "The top YouTube header bar containing logo, search bar, and user account actions."
+      }
+    ],
+    "conflicts": [],
+    "unknowns": []
+  },
+  "limits": {
+    "depth": 1,
+    "analyses": 6,
+    "inspect_all": true
+  },
+  "uninspected_ids": [
+    "r5",
+    "r6",
+    "r7",
+    "r8",
+    "r9",
+    "r10",
+    "r11",
+    "r12",
+    "r13",
+    "r14",
+    "r15",
+    "r16",
+    "r17",
+    "r18",
+    "r19",
+    "r20",
+    "r21",
+    "r22",
+    "r23"
+  ],
+  "analysis_count": 5
+}

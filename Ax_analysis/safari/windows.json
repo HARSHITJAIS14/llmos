@@ -1,0 +1,183 @@
+[
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 151.0,
+      "width": 108.0,
+      "x": 2576.0,
+      "y": 655.0
+    },
+    "id": "w-27784",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Start Page",
+    "visible": true
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 500.0,
+      "width": 500.0,
+      "x": 0.0,
+      "y": 940.0
+    },
+    "id": "w-27783",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27781",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27780",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27779",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27778",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27777",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27776",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27775",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27782",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 803.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 565.0
+    },
+    "id": "w-27823",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  },
+  {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 543.0,
+      "width": 602.0,
+      "x": 2995.0,
+      "y": 617.0
+    },
+    "id": "w-27792",
+    "is_focused": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Safari",
+    "visible": false
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "seconds": 14.808833333023358,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"browser_window\", \"observations\":[\"macOS-style browser window (dark theme) displaying a YouTube video page\", \"URL bar shows 'youtube.com'\", \"Video player displays slide/graphic with company logos: Polymarket, Lighter, Figma, VARDA, General Matter, Impulse, Hadrian, ENTER\", \"Video title: 'Brian Singerman: \\\"If SpaceX Didn\\'t Work, Founders Fund Wouldn\\'t Exist\\\"'\", \"Channel: 'Sourcery with Molly O\\'Shea' with 68.8k subscribers\", \"Right sidebar contains recommendation feed with related videos\"], \"interpretations\":[\"Active YouTube video watch page with dark mode enabled\", \"Video content appears to be a podcast or business discussion regarding Founders Fund portfolio\"], \"uncertainties\":[], \"children\":[{\"label\":\"navigation_bar\", \"bbox\":[48,46,952,135], \"inspect\":false, \"reason\":\"standard browser controls, tabs, and URL bar\"}, {\"label\":\"youtube_header\", \"bbox\":[48,137,952,204], \"inspect\":false, \"reason\":\"YouTube app header containing logo, search bar, create button, notifications, and profile icon\"}, {\"label\":\"video_player\", \"bbox\":[60,213,646,645], \"inspect\":true, \"reason\":\"Inspect content inside the video display area\"}, {\"label\":\"video_details\", \"bbox\":[60,664,646,766], \"inspect\":false, \"reason\":\"Video title, channel info, subscribe button, like/dislike, and share actions\"}, {\"label\":\"video_description\", \"bbox\":[60,777,646,890], \"inspect\":false, \"reason\":\"Expandable video metadata description box\"}, {\"label\":\"sidebar_recommendations\", \"bbox\":[655,213,927,908], \"inspect\":true, \"reason\":\"Inspect recommended video cards and category chips\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0TVKVIdMXEe0JW7HrOHlLQqJHpGtmN/8Tq8nDMZrI2ChUb1y5u1mYnoVTozUM+qAEarzpVuBrYr29fhVHDoTuPW0PZlgc9quoLkJYGQz6jhJqZ0huz6HU8ozOTeppjwxLF2UU="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247115,
+    "id": "PoXTaraeB6Olg8UP8tGO-Qw",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 427,
+      "prompt_tokens": 2489,
+      "total_tokens": 2916
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Discord",
+    "complete": true,
+    "ref_count": 18,
+    "snapshot_id": "s2pyhi55vjybki",
+    "tree": {
+      "bounds": {
+        "height": 918.0,
+        "width": 1248.0,
+        "x": 244.0,
+        "y": 522.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 918.0,
+            "width": 1248.0,
+            "x": 244.0,
+            "y": 522.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 918.0,
+                "width": 1248.0,
+                "x": 244.0,
+                "y": 522.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 918.0,
+                    "width": 1248.0,
+                    "x": 244.0,
+                    "y": 522.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 918.0,
+                        "width": 1248.0,
+                        "x": 244.0,
+                        "y": 522.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 918.0,
+                            "width": 1248.0,
+                            "x": 244.0,
+                            "y": 522.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 918.0,
+                                "width": 1248.0,
+                                "x": 244.0,
+                                "y": 522.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 918.0,
+                                    "width": 1248.0,
+                                    "x": 244.0,
+                                    "y": 522.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 918.0,
+                                        "width": 1248.0,
+                                        "x": 244.0,
+                                        "y": 522.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "bounds": {
+                                            "height": 1.0,
+                                            "width": 1.0,
+                                            "x": 244.0,
+                                            "y": 522.0
+                                          },
+                                          "ref_id": "@s2pyhi55vjybki:e3",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 918.0,
+                                            "width": 1248.0,
+                                            "x": 244.0,
+                                            "y": 522.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 918.0,
+                                                "width": 1248.0,
+                                                "x": 244.0,
+                                                "y": 522.0
+                                              },
+                                              "children_count": 2,
+                                              "ref_id": "@s2pyhi55vjybki:e5",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "ref_id": "@s2pyhi55vjybki:e4",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 918.0,
+                                            "width": 1248.0,
+                                            "x": 244.0,
+                                            "y": 522.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 1.0,
+                                                "width": 1.0,
+                                                "x": 244.0,
+                                                "y": 522.0
+                                              },
+                                              "ref_id": "@s2pyhi55vjybki:e7",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "ref_id": "@s2pyhi55vjybki:e6",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 0.0,
+                                            "width": 1248.0,
+                                            "x": 244.0,
+                                            "y": 1440.0
+                                          },
+                                          "native_id": {
+                                            "kind": "ax_dom_identifier",
+                                            "value": "popover-portal"
+                                          },
+                                          "ref_id": "@s2pyhi55vjybki:e8",
+                                          "role": "group",
+                                          "states": [
+                                            "offscreen"
+                                          ]
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 918.0,
+                                            "width": 1248.0,
+                                            "x": 244.0,
+                                            "y": 522.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 918.0,
+                                                "width": 1248.0,
+                                                "x": 244.0,
+                                                "y": 522.0
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@s2pyhi55vjybki:e10",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "ref_id": "@s2pyhi55vjybki:e9",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 918.0,
+                                            "width": 1248.0,
+                                            "x": 244.0,
+                                            "y": 522.0
+                                          },
+                                          "ref_id": "@s2pyhi55vjybki:e11",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 878.0,
+                                            "width": 624.0,
+                                            "x": 868.0,
+                                            "y": 562.0
+                                          },
+                                          "ref_id": "@s2pyhi55vjybki:e12",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 918.0,
+                                            "width": 1248.0,
+                                            "x": 244.0,
+                                            "y": 522.0
+                                          },
+                                          "ref_id": "@s2pyhi55vjybki:e13",
+                                          "role": "image"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "bounds": {
+                                            "height": 1.0,
+                                            "width": 1.0,
+                                            "x": 244.0,
+                                            "y": 522.0
+                                          },
+                                          "ref_id": "@s2pyhi55vjybki:e14",
+                                          "role": "group"
+                                        }
+                                      ],
+                                      "native_id": {
+                                        "kind": "ax_dom_identifier",
+                                        "value": "app-mount"
+                                      },
+                                      "ref_id": "@s2pyhi55vjybki:e2",
+                                      "role": "group"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 1.0,
+                                        "width": 1248.0,
+                                        "x": 244.0,
+                                        "y": 522.0
+                                      },
+                                      "ref_id": "@s2pyhi55vjybki:e15",
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "name": "Friends",
+                                  "ref_id": "@s2pyhi55vjybki:e1",
+                                  "role": "webarea",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "role": "group"
+                            }
+                          ],
+                          "role": "group"
+                        }
+                      ],
+                      "role": "group"
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "name": "Friends - Discord",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 252.0,
+            "y": 530.0
+          },
+          "ref_id": "@s2pyhi55vjybki:e16",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 298.0,
+            "y": 530.0
+          },
+          "ref_id": "@s2pyhi55vjybki:e17",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 275.0,
+            "y": 530.0
+          },
+          "ref_id": "@s2pyhi55vjybki:e18",
+          "role": "button"
+        }
+      ],
+      "name": "Friends - Discord",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28267",
+      "title": "Friends - Discord"
+    }
+  }
+}

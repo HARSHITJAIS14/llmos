@@ -1,0 +1,132 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+release/
+*.dmg
+*.zip
+*.blockmap
+
+# Node-gyp generated files (regenerated on npm install)
+build/Makefile
+build/config.gypi
+build/Release/
+build/*.target.mk
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.signing
+.env.*
+# Allow committed example/template env files so contributors know the shape.
+!.env.example
+!.env.posthog.example
+!scripts/notarization/.env.example
+!scripts/notarization/.env.posthog.example
+!scripts/notarization/.env.signing.example
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Logs
+*.log
+logs/
+
+# Electron specific
+app/dist/
+app/release/
+
+# Audio files (temporary)
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Downloaded whisper files (if any)
+models/
+firebase-debug.log
+data/memory/*.json
+
+# Private deployment scripts (not for open source)
+scripts/notarization/.env.signing
+
+# Unnecessary root-level scripts (duplicates or dev-only)
+/update-server.js
+/update-metadata.js
+/create-dmg.sh
+
+# Certificates and signing
+certificates/
+*.p12
+*.cer
+*.pem
+*.key
+
+# Release artifacts
+*.dmg
+Jarvis-*.dmg
+rw.*.dmg
+dmg_path.txt
+temp-dmg/
+dmg-assets/
+
+# Build info
+deploy-info.json
+
+# Notarization tracking
+.last-submission-id
+.last-dmg-path
+
+# Notarization scripts
+notarize-*.sh
+
+# Additional ignores  
+bin/
+
+# Build folder (node-gyp generated - regenerated on npm install)
+build/
+
+# Scripts folder - ignore .env.signing but keep scripts
+scripts/notarization/.env.signing
+scripts/notarization/*.log
+scripts/*
+!scripts/notarization
+!scripts/notarization/.env.posthog.example
+build/*
+build/Makefile
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+
+# Build artifacts
+build/
+build/*
+inspiration/
+personal/*
+scripts/*

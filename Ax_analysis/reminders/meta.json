@@ -1,0 +1,61 @@
+{
+  "app": "Reminders",
+  "was_running": false,
+  "captures": {
+    "windows": 1,
+    "skeleton": {
+      "ok": true,
+      "bytes": 2351,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 19368,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 161,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26057,
+  "bundle_id": "com.apple.reminders",
+  "framework_signals": {
+    "exe": "/System/Applications/Reminders.app/Contents/MacOS/Reminders",
+    "bundle": "/System/Applications/Reminders.app",
+    "frameworks": [],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Reminders",
+    "bounds": {
+      "height": 692.0,
+      "width": 768.0,
+      "x": 567.0,
+      "y": 565.0
+    },
+    "id": "w-28179",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26057,
+    "process_instance": "macos-proc-v1:1788103734:657709",
+    "title": "Reminders",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "note": "",
+    "nodes_before_drill": 88,
+    "drill": {
+      "requests": 4,
+      "ok": 0,
+      "failed": 4,
+      "seconds": 0.4
+    },
+    "nodes_after_drill": 88,
+    "bytes": 41538
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "\u200eWhatsApp",
+    "complete": true,
+    "ref_count": 9,
+    "snapshot_id": "sv2w7o10exooh",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "available_actions": [
+                "RightClick",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "children_count": 1,
+                  "ref_id": "@sv2w7o10exooh:e2",
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo",
+                    "SetValue"
+                  ],
+                  "ref_id": "@sv2w7o10exooh:e3",
+                  "role": "splitter",
+                  "value": "6.1637535"
+                },
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "children_count": 2,
+                  "ref_id": "@sv2w7o10exooh:e4",
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo",
+                    "SetValue"
+                  ],
+                  "ref_id": "@sv2w7o10exooh:e5",
+                  "role": "splitter",
+                  "value": "34.49862"
+                },
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "children_count": 1,
+                  "ref_id": "@sv2w7o10exooh:e6",
+                  "role": "group"
+                }
+              ],
+              "ref_id": "@sv2w7o10exooh:e1",
+              "role": "group"
+            }
+          ],
+          "role": "group",
+          "states": [
+            "focused",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@sv2w7o10exooh:e7",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@sv2w7o10exooh:e8",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@sv2w7o10exooh:e9",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        }
+      ],
+      "name": "\u200eWhatsApp",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "SceneWindow"
+      },
+      "role": "window",
+      "states": [
+        "offscreen"
+      ]
+    },
+    "window": {
+      "id": "w-28243",
+      "title": "\u200eWhatsApp"
+    }
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "version": 1,
+  "source": "Apple Vision OCR fast + OpenCV closed-contour proposals; not a trained UI detector",
+  "image_sha256": "6c1bdd5850d3b505410106779e200d321a4910dd98ab8fb4401bb4feae3ba8c1",
+  "status": "empty_or_failed",
+  "image_size": [
+    460,
+    816
+  ],
+  "items": [
+    {
+      "id": "S0001",
+      "kind": "shape_proposal",
+      "bbox": [
+        277,
+        410,
+        291,
+        424
+      ]
+    },
+    {
+      "id": "S0002",
+      "kind": "shape_proposal",
+      "bbox": [
+        278,
+        529,
+        292,
+        543
+      ]
+    },
+    {
+      "id": "S0003",
+      "kind": "shape_proposal",
+      "bbox": [
+        61,
+        306,
+        78,
+        323
+      ]
+    },
+    {
+      "id": "S0004",
+      "kind": "shape_proposal",
+      "bbox": [
+        264,
+        295,
+        280,
+        315
+      ]
+    },
+    {
+      "id": "S0005",
+      "kind": "shape_proposal",
+      "bbox": [
+        288,
+        315,
+        304,
+        335
+      ]
+    },
+    {
+      "id": "S0006",
+      "kind": "shape_proposal",
+      "bbox": [
+        166,
+        406,
+        183,
+        425
+      ]
+    },
+    {
+      "id": "S0007",
+      "kind": "shape_proposal",
+      "bbox": [
+        169,
+        734,
+        184,
+        759
+      ]
+    },
+    {
+      "id": "S0008",
+      "kind": "shape_proposal",
+      "bbox": [
+        85,
+        42,
+        111,
+        62
+      ]
+    },
+    {
+      "id": "S0009",
+      "kind": "shape_proposal",
+      "bbox": [
+        244,
+        40,
+        265,
+        66
+      ]
+    },
+    {
+      "id": "S0010",
+      "kind": "shape_proposal",
+      "bbox": [
+        410,
+        199,
+        431,
+        234
+      ]
+    },
+    {
+      "id": "S0011",
+      "kind": "shape_proposal",
+      "bbox": [
+        165,
+        406,
+        188,
+        439
+      ]
+    },
+    {
+      "id": "S0012",
+      "kind": "shape_proposal",
+      "bbox": [
+        165,
+        730,
+        188,
+        763
+      ]
+    },
+    {
+      "id": "S0013",
+      "kind": "shape_proposal",
+      "bbox": [
+        273,
+        406,
+        296,
+        439
+      ]
+    },
+    {
+      "id": "S0014",
+      "kind": "shape_proposal",
+      "bbox": [
+        273,
+        514,
+        296,
+        547
+      ]
+    },
+    {
+      "id": "S0015",
+      "kind": "shape_proposal",
+      "bbox": [
+        56,
+        515,
+        81,
+        546
+      ]
+    },
+    {
+      "id": "S0016",
+      "kind": "shape_proposal",
+      "bbox": [
+        395,
+        34,
+        420,
+        69
+      ]
+    },
+    {
+      "id": "S0017",
+      "kind": "shape_proposal",
+      "bbox": [
+        83,
+        39,
+        119,
+        64
+      ]
+    },
+    {
+      "id": "S0018",
+      "kind": "shape_proposal",
+      "bbox": [
+        48,
+        299,
+        85,
+        330
+      ]
+    },
+    {
+      "id": "S0019",
+      "kind": "shape_proposal",
+      "bbox": [
+        228,
+        37,
+        268,
+        68
+      ]
+    },
+    {
+      "id": "S0020",
+      "kind": "shape_proposal",
+      "bbox": [
+        404,
+        193,
+        437,
+        239
+      ]
+    },
+    {
+      "id": "S0021",
+      "kind": "shape_proposal",
+      "bbox": [
+        44,
+        296,
+        88,
+        333
+      ]
+    },
+    {
+      "id": "S0022",
+      "kind": "shape_proposal",
+      "bbox": [
+        32,
+        32,
+        164,
+        72
+      ]
+    },
+    {
+      "id": "S0023",
+      "kind": "shape_proposal",
+      "bbox": [
+        20,
+        482,
+        116,
+        578
+      ]
+    },
+    {
+      "id": "S0024",
+      "kind": "shape_proposal",
+      "bbox": [
+        20,
+        590,
+        116,
+        686
+      ]
+    },
+    {
+      "id": "S0025",
+      "kind": "shape_proposal",
+      "bbox": [
+        20,
+        698,
+        116,
+        794
+      ]
+    },
+    {
+      "id": "S0026",
+      "kind": "shape_proposal",
+      "bbox": [
+        128,
+        482,
+        224,
+        578
+      ]
+    },
+    {
+      "id": "S0027",
+      "kind": "shape_proposal",
+      "bbox": [
+        128,
+        590,
+        224,
+        686
+      ]
+    },
+    {
+      "id": "S0028",
+      "kind": "shape_proposal",
+      "bbox": [
+        128,
+        698,
+        224,
+        794
+      ]
+    },
+    {
+      "id": "S0029",
+      "kind": "shape_proposal",
+      "bbox": [
+        20,
+        266,
+        116,
+        363
+      ]
+    },
+    {
+      "id": "S0030",
+      "kind": "shape_proposal",
+      "bbox": [
+        20,
+        373,
+        116,
+        470
+      ]
+    },
+    {
+      "id": "S0031",
+      "kind": "shape_proposal",
+      "bbox": [
+        128,
+        266,
+        224,
+        363
+      ]
+    },
+    {
+      "id": "S0032",
+      "kind": "shape_proposal",
+      "bbox": [
+        128,
+        373,
+        224,
+        470
+      ]
+    },
+    {
+      "id": "S0033",
+      "kind": "shape_proposal",
+      "bbox": [
+        236,
+        482,
+        333,
+        578
+      ]
+    },
+    {
+      "id": "S0034",
+      "kind": "shape_proposal",
+      "bbox": [
+        236,
+        590,
+        333,
+        686
+      ]
+    },
+    {
+      "id": "S0035",
+      "kind": "shape_proposal",
+      "bbox": [
+        236,
+        698,
+        333,
+        794
+      ]
+    },
+    {
+      "id": "S0036",
+      "kind": "shape_proposal",
+      "bbox": [
+        343,
+        266,
+        440,
+        362
+      ]
+    },
+    {
+      "id": "S0037",
+      "kind": "shape_proposal",
+      "bbox": [
+        343,
+        374,
+        440,
+        470
+      ]
+    },
+    {
+      "id": "S0038",
+      "kind": "shape_proposal",
+      "bbox": [
+        343,
+        482,
+        440,
+        578
+      ]
+    },
+    {
+      "id": "S0039",
+      "kind": "shape_proposal",
+      "bbox": [
+        343,
+        590,
+        440,
+        686
+      ]
+    },
+    {
+      "id": "S0040",
+      "kind": "shape_proposal",
+      "bbox": [
+        343,
+        698,
+        440,
+        794
+      ]
+    },
+    {
+      "id": "S0041",
+      "kind": "shape_proposal",
+      "bbox": [
+        236,
+        266,
+        333,
+        363
+      ]
+    },
+    {
+      "id": "S0042",
+      "kind": "shape_proposal",
+      "bbox": [
+        236,
+        373,
+        333,
+        470
+      ]
+    }
+  ],
+  "processing_ms": 43.85241703130305,
+  "warning": "OCR can miss or misread visible text; it does not prove clickability."
+}

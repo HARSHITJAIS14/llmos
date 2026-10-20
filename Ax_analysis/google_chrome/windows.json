@@ -1,0 +1,213 @@
+[
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 500.0,
+      "width": 500.0,
+      "x": 0.0,
+      "y": 940.0
+    },
+    "id": "w-28150",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 1.0,
+      "width": 1.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28148",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 89.0,
+      "width": 1033.0,
+      "x": 343.0,
+      "y": 58.0
+    },
+    "id": "w-28147",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 88.0,
+      "width": 1033.0,
+      "x": 343.0,
+      "y": 58.0
+    },
+    "id": "w-28146",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28122",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28121",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28119",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28118",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28115",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28117",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28116",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 923.0,
+      "width": 1249.0,
+      "x": 244.0,
+      "y": 33.0
+    },
+    "id": "w-28145",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "New tab",
+    "visible": true
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28120",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  },
+  {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 1.0,
+      "width": 1.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28149",
+    "is_focused": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "Google Chrome",
+    "visible": false
+  }
+]

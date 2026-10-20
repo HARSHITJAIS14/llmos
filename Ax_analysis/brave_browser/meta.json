@@ -1,0 +1,65 @@
+{
+  "app": "Brave Browser",
+  "was_running": false,
+  "captures": {
+    "windows": 12,
+    "skeleton": {
+      "ok": true,
+      "bytes": 822,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 11593,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "activated",
+  "pid": 25785,
+  "bundle_id": "com.brave.Browser",
+  "framework_signals": {
+    "exe": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+    "bundle": "/Applications/Brave Browser.app",
+    "frameworks": [
+      "Brave Browser Framework.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 146.0,
+      "width": 129.0,
+      "x": 2332.0,
+      "y": 1051.0
+    },
+    "id": "w-28087",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "New tab",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 170,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 170,
+    "truncated_after": 0,
+    "bytes": 109507
+  }
+}

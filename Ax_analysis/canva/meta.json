@@ -1,0 +1,9 @@
+{
+  "app": "Canva",
+  "was_running": false,
+  "captures": {},
+  "errors": [
+    "process never appeared"
+  ],
+  "capture_mode": "background"
+}

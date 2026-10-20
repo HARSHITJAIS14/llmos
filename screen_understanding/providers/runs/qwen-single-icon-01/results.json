@@ -1,0 +1,338 @@
+{
+  "model": "qwen/qwen3.8-27b",
+  "source_sha256": "7ad9dc2a1754fd1bd6755b0371bfb0712a4aba0218bed0c50d414e363ac33a38",
+  "reasoning": false,
+  "repeats": 3,
+  "providers": [
+    "ModelRun",
+    "Cerebras",
+    "DeepInfra"
+  ],
+  "results": [
+    {
+      "requested_provider": "ModelRun",
+      "task": "single_icon",
+      "repeat": 1,
+      "file": "modelrun-single_icon-1.json",
+      "total_seconds": 0.5753200000035577,
+      "headers_seconds": 0.5551470000064,
+      "first_visible_seconds": 0.5553696670103818,
+      "content": "Search",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 2.5e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.5e-05,
+          "upstream_inference_prompt_cost": 2e-05,
+          "upstream_inference_completions_cost": 5e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    },
+    {
+      "requested_provider": "ModelRun",
+      "task": "single_icon",
+      "repeat": 2,
+      "file": "modelrun-single_icon-2.json",
+      "total_seconds": 0.6096259589539841,
+      "headers_seconds": 0.6007840419770218,
+      "first_visible_seconds": 0.6009632499772124,
+      "content": "Search",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 2.5e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.5e-05,
+          "upstream_inference_prompt_cost": 2e-05,
+          "upstream_inference_completions_cost": 5e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    },
+    {
+      "requested_provider": "ModelRun",
+      "task": "single_icon",
+      "repeat": 3,
+      "file": "modelrun-single_icon-3.json",
+      "total_seconds": 0.6499484580126591,
+      "headers_seconds": 0.6295502909924835,
+      "first_visible_seconds": 0.6296796249807812,
+      "content": "Search",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 2.5e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.5e-05,
+          "upstream_inference_prompt_cost": 2e-05,
+          "upstream_inference_completions_cost": 5e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "single_icon",
+      "repeat": 1,
+      "file": "cerebras-single_icon-1.json",
+      "total_seconds": 0.9081272499752231,
+      "headers_seconds": 0.8929563339916058,
+      "first_visible_seconds": 0.8976850839680992,
+      "content": " search",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 0.00010198,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00010198,
+          "upstream_inference_prompt_cost": 9.9e-05,
+          "upstream_inference_completions_cost": 2.98e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "single_icon",
+      "repeat": 2,
+      "file": "cerebras-single_icon-2.json",
+      "total_seconds": 0.7813067079987377,
+      "headers_seconds": 0.596310833003372,
+      "first_visible_seconds": 0.7707940829568543,
+      "content": " search",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 0.00010198,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00010198,
+          "upstream_inference_prompt_cost": 9.9e-05,
+          "upstream_inference_completions_cost": 2.98e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "single_icon",
+      "repeat": 3,
+      "file": "cerebras-single_icon-3.json",
+      "total_seconds": 0.634180125023704,
+      "headers_seconds": 0.6338400410022587,
+      "first_visible_seconds": 0.633992750023026,
+      "content": " search",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 0.00010198,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00010198,
+          "upstream_inference_prompt_cost": 9.9e-05,
+          "upstream_inference_completions_cost": 2.98e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "single_icon",
+      "repeat": 1,
+      "file": "deepinfra-single_icon-1.json",
+      "total_seconds": 0.6911214999854565,
+      "headers_seconds": 0.5236980839981697,
+      "first_visible_seconds": 0.6765344999730587,
+      "content": "Search",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 1.875e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.875e-05,
+          "upstream_inference_prompt_cost": 1.5e-05,
+          "upstream_inference_completions_cost": 3.75e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "single_icon",
+      "repeat": 2,
+      "file": "deepinfra-single_icon-2.json",
+      "total_seconds": 0.7548110419884324,
+      "headers_seconds": 0.6388116669841111,
+      "first_visible_seconds": 0.7488005839986727,
+      "content": "Search",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 1.875e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.875e-05,
+          "upstream_inference_prompt_cost": 1.5e-05,
+          "upstream_inference_completions_cost": 3.75e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "single_icon",
+      "repeat": 3,
+      "file": "deepinfra-single_icon-3.json",
+      "total_seconds": 0.5430803330382332,
+      "headers_seconds": 0.483857125043869,
+      "first_visible_seconds": 0.5429287499864586,
+      "content": "Search",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 1.875e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 1.875e-05,
+          "upstream_inference_prompt_cost": 1.5e-05,
+          "upstream_inference_completions_cost": 3.75e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true
+    }
+  ],
+  "timing_scope": "Mac-to-OpenRouter request through completed streamed response, including network, routing and generation; excludes image capture and preparation. Persistent HTTPS connection, no concurrent requests or automatic retries."
+}

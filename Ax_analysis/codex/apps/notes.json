@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "app_key": "notes",
+  "identity": {
+    "name": "Notes",
+    "bundle_id": "com.apple.Notes",
+    "bundle_id_match": "exact",
+    "framework": "appkit",
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "system app, 0 bundled frameworks, 0 framework hints"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.061 (3/49 unnamed group/unknown), inside native band < 0.15"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "button 12, cell 9, treeitem 6, textfield 3, menubutton 3 of 49; outline+table three-pane layout, 0 webarea"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 7 at depth-10 and depth-40 capture; interactive median depth 3"
+      }
+    ]
+  },
+  "category": "documents",
+  "fidelity": {
+    "default": {
+      "nodes": 49,
+      "max_depth": 7,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 28,
+      "ref_count": 44,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 29,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 49,
+      "max_depth": 7,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 28,
+      "ref_count": 44,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": null,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.0,
+    "default_score": 1.0,
+    "forced_score": 1.0,
+    "best_capture": "default",
+    "ladder_verdict": "trust"
+  },
+  "readiness": {
+    "default_rung": "TRUST",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "background capture 49 nodes = foreground 49; 48/49 text equal. Toolbar search is disabled+readonly only in background"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "no webarea"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 500,
+        "height": 500,
+        "x": 0,
+        "y": 940,
+        "count": 1,
+        "kind": "helper_surface"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "textfield_value",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "mixed",
+    "native_id": {
+      "coverage_interactive_pct": 23.5,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 100.0,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": []
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "Note Body Text View",
+      "match": "exact",
+      "tier": "high",
+      "role": "textfield",
+      "purpose": "note body editor",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Note Body Scroll View",
+      "match": "exact",
+      "tier": "high",
+      "role": "scrollarea",
+      "purpose": "note body scroll container",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "ICMNoteListTableView_asList",
+      "match": "exact",
+      "tier": "high",
+      "role": "table",
+      "purpose": "note list table",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "ICMNoteListCell",
+      "match": "exact",
+      "tier": "high",
+      "role": "cell",
+      "purpose": "note list row cell",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "FolderCell",
+      "match": "exact",
+      "tier": "high",
+      "role": "unknown",
+      "purpose": "sidebar folder cell wrapper",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:50",
+      "match": "exact",
+      "tier": "low",
+      "role": "outline",
+      "purpose": "folders sidebar outline",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:46",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollarea",
+      "purpose": "folders sidebar scroll container",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:120",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollarea",
+      "purpose": "note list scroll container",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:11",
+      "match": "exact",
+      "tier": "low",
+      "role": "textfield",
+      "purpose": "folder name field in sidebar cell",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:7",
+      "match": "exact",
+      "tier": "low",
+      "role": "statictext",
+      "purpose": "window-level text label under top group",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:6",
+      "match": "exact",
+      "tier": "low",
+      "role": "window",
+      "purpose": "main window root",
+      "seen_in_captures": 3
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": true,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus"
+        ],
+        "count": 12,
+        "verb": "Click",
+        "note": "toolbar and window buttons; 4 disabled keep Click"
+      },
+      {
+        "role": "menubutton",
+        "actions": [
+          "Click",
+          "Collapse",
+          "Expand",
+          "SetFocus"
+        ],
+        "count": 3,
+        "verb": "Expand"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 6,
+        "verb": "Click",
+        "note": "sidebar folders; name lives in child cell"
+      },
+      {
+        "role": "row",
+        "actions": [
+          "Click"
+        ],
+        "count": 2,
+        "verb": "Click"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "table",
+        "actions": [
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus",
+          "SetValue",
+          "TypeText"
+        ],
+        "count": 3,
+        "verb": "TypeText",
+        "note": "body has TypeText; folder field SetValue only; search field readonly in background"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 3,
+        "verb": "Scroll"
+      },
+      {
+        "role": "scrollbar",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "document_body",
+        "match": "role==textfield and native_id=='Note Body Text View'",
+        "read_from": "value",
+        "parse": "split_lines",
+        "laws": [
+          "LAW-TXT-12"
+        ]
+      },
+      {
+        "target": "cell",
+        "match": "role==cell and native_id=='ICMNoteListCell'",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-5",
+          "LAW-TXT-4"
+        ]
+      },
+      {
+        "target": "list_item_label",
+        "match": "role==unknown and native_id=='FolderCell'",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==textfield and no name and parent.role==unknown",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-3"
+        ]
+      },
+      {
+        "target": "statictext",
+        "match": "role==statictext",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "document_value_contains",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": false,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 0,
+    "offscreen_click": "forbidden",
+    "root_role_varies": true
+  },
+  "quirks": [
+    {
+      "kind": "document_as_single_value",
+      "detect": "role==textfield and native_id=='Note Body Text View' and 'value' in node",
+      "workaround": "read the whole value and split on U+2028 and newline; append with TypeText, never SetValue (replaces the whole note)",
+      "severity": "high",
+      "observed": "1 unnamed textfield holds the full note body (130 chars in capture)",
+      "laws": [
+        "LAW-TXT-12"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "check the disabled state before clicking; Click presence proves nothing",
+      "severity": "high",
+      "observed": "4 disabled buttons + 1 disabled textfield keep Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    },
+    {
+      "kind": "readonly_control_as_button",
+      "detect": "toolbar textfield with states disabled+readonly and no SetFocus",
+      "workaround": "activate the window and re-snapshot; foreground it gains SetValue+SetFocus. Never type into it while readonly",
+      "severity": "high",
+      "observed": "search field: background disabled+readonly (Click only), foreground SetValue+SetFocus",
+      "laws": [
+        "LAW-TXT-11",
+        "LAW-ACT-8"
+      ]
+    },
+    {
+      "kind": "mass_focused",
+      "detect": "count(nodes with 'focused') > 3",
+      "workaround": "real focus is the focused container (outline/table), not its items",
+      "severity": "low",
+      "observed": "9 focused nodes in 49",
+      "laws": [
+        "LAW-ACT-10"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs from cached id",
+      "workaround": "re-pick the window by title/bounds each session",
+      "severity": "low",
+      "observed": "w-28183 in background pass, w-28609 in forced pass, same 49-node content",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "default; full tree readable in background",
+      "tested": true
+    },
+    {
+      "channel": "keyboard",
+      "when": "formatting or shortcuts (Cmd+N new note) not exposed as buttons",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "rich-text structure (checklists, tables inside a note) is flattened into one value",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:59:08+05:30",
+      "2026-08-30T21:15:39+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "notes/meta.json",
+      "notes/windows.json",
+      "notes/skeleton.json",
+      "notes/full.json",
+      "notes/forced.json",
+      "notes/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

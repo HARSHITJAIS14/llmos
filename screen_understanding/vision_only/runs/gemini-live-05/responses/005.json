@@ -1,0 +1,29 @@
+{
+  "seconds": 13.833104250021279,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"youtube_header_bar\",\"observations\":[\"Top navigation bar of YouTube interface with dark theme\",\"Left side features a hamburger menu button and the YouTube Premium logo with 'IN' region tag\",\"Center features a search bar with placeholder 'Search' and a magnifying glass search submit button\",\"Right of the search bar is a circular voice search button (microphone icon)\",\"Right side features a '+ Create' pill button, a notification bell icon with a red '9+' badge, and a circular user profile avatar with letter 'H'\"],\"interpretations\":[\"Main application header providing site-wide navigation, search, content creation, notification, and profile management functions.\"],\"uncertainties\":[],\"children\":[{\"label\":\"menu_button\",\"bbox\":[18,347,40,653],\"inspect\":false,\"reason\":\"Hamburger menu icon button to toggle navigation sidebar\"},{\"label\":\"youtube_logo\",\"bbox\":[78,289,207,702],\"inspect\":false,\"reason\":\"YouTube Premium logo linking to home\"},{\"label\":\"search_bar\",\"bbox\":[277,140,711,851],\"inspect\":false,\"reason\":\"Text input field and search button combination\"},{\"label\":\"voice_search_button\",\"bbox\":[736,140,776,851],\"inspect\":false,\"reason\":\"Microphone button for voice query\"},{\"label\":\"create_button\",\"bbox\":[801,140,891,851],\"inspect\":false,\"reason\":\"Create video or post button\"},{\"label\":\"notifications_button\",\"bbox\":[908,273,942,727],\"inspect\":false,\"reason\":\"Bell icon for notification panel with unread badge\"},{\"label\":\"user_profile_avatar\",\"bbox\":[958,264,988,736],\"inspect\":false,\"reason\":\"User account avatar button\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0TaPIvB5B3aS3xNRe7pSng6/YyWQVX3sv8Mxx/xJcKIjV/AULORKIWtu4xRxS+BQlXbyzs/nAAfoD0lFue/CgQ4s9E2axBDs/v4Qi/AwW/cO/flneBmcORwYX2Ba4nDNfyndI="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247262,
+    "id": "1IXTaoaoCLmjqfkP35nMuQU",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 403,
+      "prompt_tokens": 3703,
+      "total_tokens": 4106
+    }
+  }
+}

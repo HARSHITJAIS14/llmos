@@ -1,0 +1,49 @@
+{
+  "route": "direct TypeSafe /v1/systemone",
+  "model": "jev-1.14.0",
+  "timings": [
+    {
+      "task": "icons",
+      "n": 3,
+      "median_seconds": 0.8090241670142859,
+      "minimum_seconds": 0.4939402919844724,
+      "maximum_seconds": 0.9615113330073655,
+      "under_500ms": 1
+    },
+    {
+      "task": "grounding",
+      "n": 3,
+      "median_seconds": 1.2711769589805044,
+      "minimum_seconds": 1.2691263330052607,
+      "maximum_seconds": 1.6145655409782194,
+      "under_500ms": 0
+    },
+    {
+      "task": "single_icon",
+      "n": 3,
+      "median_seconds": 0.4269285000045784,
+      "minimum_seconds": 0.37654904200462624,
+      "maximum_seconds": 0.8554297090158798,
+      "under_500ms": 2
+    }
+  ],
+  "total_valid_visual_calls": 9,
+  "under_500ms": 3,
+  "manual_references": {
+    "38": "navigation",
+    "39": "sidebar",
+    "41": "search",
+    "47": "notifications",
+    "48": "profile",
+    "53": "window_controls",
+    "54": "tab_overview",
+    "58": "main_menu"
+  },
+  "notes": [
+    "One screenshot, three repeats per task, not a tail-latency or general accuracy benchmark.",
+    "Eight labels from predefined choices differs from Qwen free-form labels.",
+    "Image sizes differ from Qwen because of Jev API limits.",
+    "Grounding reference boxes are previous detector proposals, not human-certified clickable bounds.",
+    "First image attempt was rejected at 1568x256; direct API requires at least 280 pixels per side. This failed request is preserved separately and excluded from successful-call timings."
+  ]
+}

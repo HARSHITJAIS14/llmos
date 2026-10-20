@@ -1,0 +1,126 @@
+{
+  "algorithm": "screen-map-v1",
+  "cases": [
+    {
+      "case": "notion",
+      "coverage": {
+        "ax_records": 1170,
+        "accounted_ax_records": 1170,
+        "native_interaction_records": 483,
+        "statuses": {
+          "visually_supported": 50,
+          "unresolved": 164,
+          "context_only": 322,
+          "excluded": 634
+        },
+        "visual_regions": 192,
+        "visual_regions_without_ax_support": 109,
+        "visual_clickable_recall": null
+      },
+      "candidate_groups": 50,
+      "capture_status": "blocked",
+      "capture_reasons": [
+        "capture_time_skew",
+        "visible_AX_changed_during_capture",
+        "AX_changed_without_visible_stability_check"
+      ],
+      "timing_ms": {
+        "mapping": 40.83329194691032,
+        "ocr": 83.00987503025681,
+        "shapes": 42.812207946553826,
+        "saved_image_to_map_wall": 361.06387502513826,
+        "scope": "Single saved-image run; includes file reads, OCR subprocess startup, shapes and mapping. Excludes live capture/AX IPC, controller/hit-test and report rendering. Not p95."
+      }
+    },
+    {
+      "case": "finder",
+      "coverage": {
+        "ax_records": 268,
+        "accounted_ax_records": 268,
+        "native_interaction_records": 111,
+        "statuses": {
+          "visually_supported": 37,
+          "unresolved": 37,
+          "context_only": 138,
+          "excluded": 56
+        },
+        "visual_regions": 213,
+        "visual_regions_without_ax_support": 169,
+        "visual_clickable_recall": null
+      },
+      "candidate_groups": 27,
+      "capture_status": "unverified",
+      "capture_reasons": [],
+      "timing_ms": {
+        "mapping": 13.590542017482221,
+        "ocr": 56.100083980709314,
+        "shapes": 14.600042020902038,
+        "saved_image_to_map_wall": 251.6403750050813,
+        "scope": "Single saved-image run; includes file reads, OCR subprocess startup, shapes and mapping. Excludes live capture/AX IPC, controller/hit-test and report rendering. Not p95."
+      }
+    },
+    {
+      "case": "calculator",
+      "coverage": {
+        "ax_records": 35,
+        "accounted_ax_records": 35,
+        "native_interaction_records": 26,
+        "statuses": {
+          "visually_supported": 20,
+          "unresolved": 5,
+          "context_only": 9,
+          "excluded": 1
+        },
+        "visual_regions": 42,
+        "visual_regions_without_ax_support": 22,
+        "visual_clickable_recall": null
+      },
+      "candidate_groups": 20,
+      "capture_status": "unverified",
+      "capture_reasons": [],
+      "timing_ms": {
+        "mapping": 0.8969580521807075,
+        "ocr": 40.62712506856769,
+        "shapes": 3.225291962735355,
+        "saved_image_to_map_wall": 207.4109580134973,
+        "scope": "Single saved-image run; includes file reads, OCR subprocess startup, shapes and mapping. Excludes live capture/AX IPC, controller/hit-test and report rendering. Not p95."
+      }
+    },
+    {
+      "case": "settings",
+      "coverage": {
+        "ax_records": 199,
+        "accounted_ax_records": 199,
+        "native_interaction_records": 88,
+        "statuses": {
+          "visually_supported": 27,
+          "unresolved": 28,
+          "context_only": 74,
+          "excluded": 70
+        },
+        "visual_regions": 321,
+        "visual_regions_without_ax_support": 271,
+        "visual_clickable_recall": null
+      },
+      "candidate_groups": 27,
+      "capture_status": "blocked",
+      "capture_reasons": [
+        "capture_time_skew"
+      ],
+      "timing_ms": {
+        "mapping": 11.097999988123775,
+        "ocr": 59.79075003415346,
+        "shapes": 29.645208967849612,
+        "saved_image_to_map_wall": 265.73041698429734,
+        "scope": "Single saved-image run; includes file reads, OCR subprocess startup, shapes and mapping. Excludes live capture/AX IPC, controller/hit-test and report rendering. Not p95."
+      }
+    }
+  ],
+  "code_sha256": {
+    "screen_map.py": "18b5ae0e88d1fdb1ba85e97e86a32a5bf601819365e7104181c6940a31888fac",
+    "canonicalize.py": "758543814f6ec62519044e242375bc6753d5be8859c1dc68f70c0d9b437d596c",
+    "extract_shapes.py": "de9a6a52721e23723253961441fe31f2ff788c6ca9bb7d9bcdfecb72ca84e740",
+    "extract_visual_text.py": "7180bb4bd9c1d89cefa025656f02e592c3dda860707c6a7310f7fa67613bc4b4"
+  },
+  "warning": "Unlabeled diagnostic. All AX nodes accounted for does not mean all clickable visual objects matched. No actual input executed."
+}

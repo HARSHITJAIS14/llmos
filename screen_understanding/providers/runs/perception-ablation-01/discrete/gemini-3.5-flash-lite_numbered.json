@@ -1,0 +1,39 @@
+{
+  "provider": "gemini-3.5-flash-lite",
+  "condition": "numbered",
+  "usage": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 83,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 2096,
+    "prompt_tokens_details": [
+      {
+        "modality": "IMAGE",
+        "token_count": 1066
+      },
+      {
+        "modality": "TEXT",
+        "token_count": 1030
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 2179,
+    "traffic_type": null
+  },
+  "seconds": 4.460969542036764,
+  "answers": {
+    "q1": "b1",
+    "q2": "b2",
+    "q3": "b3",
+    "q4": "b4",
+    "q5": "b5",
+    "q6": "b6",
+    "q7": "b7",
+    "q8": "b8"
+  },
+  "correct": 8,
+  "total": 8
+}

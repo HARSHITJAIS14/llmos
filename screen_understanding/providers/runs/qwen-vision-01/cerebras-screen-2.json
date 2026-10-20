@@ -1,0 +1,400 @@
+{
+  "total_seconds": 3.0281916669919156,
+  "headers_seconds": 2.9258981670136563,
+  "first_visible_seconds": 2.9482329589664005,
+  "content": "```json\n{\"app\":\"YouTube\",\"page\":\"Video watch page\",\"regions\":[\"Browser toolbar and tabs\",\"YouTube header with search and navigation\",\"Main video player area\",\"Video title, channel info and action buttons\",\"Sidebar with related video suggestions\"],\"uncertainties\":[\"Exact video playback state not visible\",\"Some sidebar video titles are truncated\"]}\n```",
+  "finish_reason": "stop",
+  "provider": "Cerebras",
+  "usage": {
+    "prompt_tokens": 1771,
+    "completion_tokens": 69,
+    "total_tokens": 1840,
+    "cost": 0.0018561,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0018561,
+      "upstream_inference_prompt_cost": 0.00175329,
+      "upstream_inference_completions_cost": 0.00010281
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "received_done": true,
+  "chunks": [
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "```",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "json\n{\"app\":\"YouTube\",\"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "page\":\"Video watch page",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\",\"regions\":[\"Browser toolbar and",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " tabs\",\"YouTube header",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " with search and navigation\",\"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Main video player area\",\"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Video title, channel",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " info and action",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " buttons\",\"Sidebar with",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " related video suggestions\"],\"unc",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "ertainties\":[\"Exact video playback",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " state not visible\",\"Some",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " sidebar video titles",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " are truncated\"]}",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n```",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "",
+            "role": "assistant"
+          },
+          "finish_reason": "stop",
+          "native_finish_reason": "stop"
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294725-p4ziSGrqBVOcFeUrw7ox",
+      "object": "chat.completion.chunk",
+      "created": 1792294725,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "",
+            "role": "assistant"
+          },
+          "finish_reason": "stop",
+          "native_finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1771,
+        "completion_tokens": 69,
+        "total_tokens": 1840,
+        "cost": 0.0018561,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0018561,
+          "upstream_inference_prompt_cost": 0.00175329,
+          "upstream_inference_completions_cost": 0.00010281
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "app_name": "\u200eWhatsApp",
+    "bounds": {
+      "height": 96.0,
+      "width": 130.0,
+      "x": -146.0,
+      "y": 627.0
+    },
+    "id": "w-28243",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26627,
+    "process_instance": "macos-proc-v1:1788103832:942680",
+    "title": "\u200eWhatsApp",
+    "visible": false
+  }
+]

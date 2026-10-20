@@ -1,0 +1,57 @@
+{
+  "response": {
+    "id": "gen-1792294664-q44MTYdZS1eUGuDg3Vwu",
+    "object": "chat.completion",
+    "created": 1792294664,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Cerebras",
+    "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "\n\nYes, 3.",
+          "refusal": null,
+          "reasoning": "We need answer briefly. User challenges: \"Are you sure? Think carefully. Answer briefly.\" Need ensure count of r's in 'strawberry'. Word: strawberry. Spelling: s t r a w b e r r y. Contains r after t, and double r near end: total 3. Are there any hidden? No. Need answer briefly, maybe \"Yes, 3.\" Ensure not overdo. Final only brief.\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "We need answer briefly. User challenges: \"Are you sure? Think carefully. Answer briefly.\" Need ensure count of r's in 'strawberry'. Word: strawberry. Spelling: s t r a w b e r r y. Contains r after t, and double r near end: total 3. Are there any hidden? No. Need answer briefly, maybe \"Yes, 3.\" Ensure not overdo. Final only brief.\n",
+              "format": "unknown",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 197,
+      "completion_tokens": 100,
+      "total_tokens": 297,
+      "cost": 0.00034403,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00034403,
+        "upstream_inference_prompt_cost": 0.00019503,
+        "upstream_inference_completions_cost": 0.000149
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 93,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "total_seconds": 0.6958094589645043
+}

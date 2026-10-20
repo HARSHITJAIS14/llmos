@@ -1,0 +1,120 @@
+{
+  "task": "grounding",
+  "repeat": 1,
+  "image": {
+    "original_size": [
+      2398,
+      1830
+    ],
+    "submitted_size": [
+      1568,
+      1197
+    ],
+    "scale_x": 0.6538782318598833,
+    "scale_y": 0.6540983606557377,
+    "padding": "right/bottom only"
+  },
+  "questions": {
+    "search_box": {
+      "type": "box",
+      "instructions": "the magnifying-glass search-submit button in the YouTube header in the screenshot in `image`"
+    },
+    "search_present": {
+      "type": "noul",
+      "instructions": "Is the magnifying-glass search-submit button in the YouTube header visibly present in the screenshot in `image`?"
+    },
+    "sidebar_box": {
+      "type": "box",
+      "instructions": "the browser sidebar toggle button near the upper left, shaped like a divided window in the screenshot in `image`"
+    },
+    "sidebar_present": {
+      "type": "noul",
+      "instructions": "Is the browser sidebar toggle button near the upper left, shaped like a divided window visibly present in the screenshot in `image`?"
+    },
+    "tabs_box": {
+      "type": "box",
+      "instructions": "the tab-overview button at the upper right, shaped like overlapping rectangles in the screenshot in `image`"
+    },
+    "tabs_present": {
+      "type": "noul",
+      "instructions": "Is the tab-overview button at the upper right, shaped like overlapping rectangles visibly present in the screenshot in `image`?"
+    },
+    "absent_box": {
+      "type": "box",
+      "instructions": "a button explicitly labeled Delete account in the screenshot in `image`"
+    },
+    "absent_present": {
+      "type": "noul",
+      "instructions": "Is a button explicitly labeled Delete account visibly present in the screenshot in `image`?"
+    }
+  },
+  "seconds": 1.2711769589805044,
+  "headers_seconds": 1.2710999170085415,
+  "http_status": 200,
+  "response": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "search_box": {
+        "type": "box",
+        "box": {
+          "top": 0.16,
+          "bottom": 0.2,
+          "left": 0.64,
+          "right": 0.68
+        },
+        "confidence": 0.68
+      },
+      "search_present": {
+        "type": "noul",
+        "noul": 0.95
+      },
+      "sidebar_box": {
+        "type": "box",
+        "box": {
+          "top": 0.06,
+          "bottom": 0.08,
+          "left": 0.13,
+          "right": 0.16
+        },
+        "confidence": 0.78
+      },
+      "sidebar_present": {
+        "type": "noul",
+        "noul": 0.9
+      },
+      "tabs_box": {
+        "type": "box",
+        "box": {
+          "top": 0.07,
+          "bottom": 0.09,
+          "left": 0.9,
+          "right": 0.93
+        },
+        "confidence": 0.56
+      },
+      "tabs_present": {
+        "type": "noul",
+        "noul": 0.94
+      },
+      "absent_box": {
+        "type": "box",
+        "box": {
+          "top": 0.03,
+          "bottom": 0.56,
+          "left": 0.03,
+          "right": 0.65
+        },
+        "confidence": 0.04
+      },
+      "absent_present": {
+        "type": "noul",
+        "noul": 0.0
+      }
+    },
+    "usage": {
+      "input_tokens": 5369,
+      "output_tokens": 142
+    }
+  },
+  "validation_issues": []
+}

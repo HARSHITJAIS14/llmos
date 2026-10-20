@@ -1,0 +1,16 @@
+{
+  "app_name": "Notion",
+  "bounds": {
+    "height": 161.0,
+    "width": 168.0,
+    "x": -233.0,
+    "y": 414.0
+  },
+  "id": "w-48180",
+  "is_focused": false,
+  "minimized": false,
+  "pid": 82850,
+  "process_instance": "macos-proc-v1:1792429467:366130",
+  "title": "LLM OS ",
+  "visible": true
+}

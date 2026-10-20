@@ -1,0 +1,29 @@
+{
+  "seconds": 8.759962458978407,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"browser_window\",\"observations\":[\"A desktop browser window displaying a YouTube video page in dark theme.\",\"Top contains macOS window controls, tab bar, and address bar pointing to 'youtube.com'.\",\"Middle content has YouTube navigation header (YouTube Premium logo, search bar, create, notifications, profile).\",\"Main page area is split into video player with metadata/description on left, and recommendation sidebar on right.\"],\"interpretations\":[\"The user is watching a video titled 'Brian Singerman: \\\"If SpaceX Didn't Work, Founders Fund Wouldn't Exist\\\"' on YouTube.\"],\"uncertainties\":[],\"children\":[{\"label\":\"browser_chrome\",\"bbox\":[47,44,953,137],\"inspect\":false,\"reason\":\"Standard browser navigation and tab interface.\"},{\"label\":\"youtube_header\",\"bbox\":[47,137,953,205],\"inspect\":false,\"reason\":\"Standard YouTube top bar with search and actions.\"},{\"label\":\"video_player\",\"bbox\":[59,214,646,645],\"inspect\":false,\"reason\":\"Main video playback area showing sponsor or company logos.\"},{\"label\":\"video_details\",\"bbox\":[59,664,646,890],\"inspect\":false,\"reason\":\"Video title, channel info, subscribe button, like/share controls, and description box.\"},{\"label\":\"sidebar_recommendations\",\"bbox\":[658,214,929,905],\"inspect\":false,\"reason\":\"Sidebar containing related video recommendations list.\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0Tnp3lyTwqjHWH/C2dD1tlfuruGZ/UCK085oZ2ET4UCcbqwBJwyFFe2ool6oiqQyg9+zCfU64hdmDXVPbd80aa2zxuR1DSkVF7LdccJ2yxKQOXXOItJs+M6M5vsxSc5gVWjuk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247124,
+    "id": "TYXTarWIFIbFg8UPpqKHgAs",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 329,
+      "prompt_tokens": 2516,
+      "total_tokens": 2845
+    }
+  }
+}

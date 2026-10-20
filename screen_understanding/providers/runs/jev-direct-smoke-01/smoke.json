@@ -1,0 +1,24 @@
+{
+  "seconds": 1.2632777080289088,
+  "headers_seconds": 1.263143417018,
+  "http_status": 200,
+  "response": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "category": {
+        "type": "choice",
+        "choice": "browser",
+        "confidence": 1.0,
+        "probabilities": {
+          "browser": 1.0,
+          "spreadsheet": 0.0,
+          "unknown": 0.0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 338,
+      "output_tokens": 40
+    }
+  }
+}

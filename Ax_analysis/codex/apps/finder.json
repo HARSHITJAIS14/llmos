@@ -1,0 +1,532 @@
+{
+  "schema_version": "1.0",
+  "app_key": "finder",
+  "identity": {
+    "name": "Finder",
+    "bundle_id": "com.apple.finder",
+    "bundle_id_match": "exact",
+    "framework": "appkit",
+    "secondary_frameworks": [],
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "system app in /System/Library/CoreServices, 0 bundled frameworks, 0 hints"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "textfield 751/1571 (47.8%), group 753; AppKit is textfield-heavy"
+      },
+      {
+        "source": "wrapper_chain_length",
+        "observation": "max single-child wrapper chain = 1 (AppKit stays at 1)"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.479: per-item group wrappers (list-view exception), no webarea"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 7 (native <= 9)"
+      }
+    ]
+  },
+  "category": "file_manager",
+  "fidelity": {
+    "default": {
+      "nodes": 1571,
+      "max_depth": 7,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 2374,
+      "named_nodes": 58,
+      "ref_count": 817,
+      "has_webarea": false,
+      "offscreen_nodes": 1507,
+      "error_code": null,
+      "skeleton_nodes": 23
+    },
+    "forced": {
+      "nodes": 1599,
+      "max_depth": 7,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 2417,
+      "named_nodes": 58,
+      "ref_count": 831,
+      "has_webarea": false,
+      "offscreen_nodes": 1535,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.018,
+    "default_score": 0.65,
+    "forced_score": 0.662,
+    "best_capture": "forced",
+    "ladder_verdict": "navigate_partial"
+  },
+  "readiness": {
+    "default_rung": "R5_partial_prefix",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "Pass-1 target was a 2560x30 ghost; after re-pick the tree matched forced 1571/1571 text. Activation fixed targeting, not readiness."
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "native AppKit, no webarea"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 64,
+        "height": 64,
+        "x": 0,
+        "y": 940,
+        "count": 1,
+        "kind": "helper_surface"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": true,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": false
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "textfield_value",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "value",
+    "native_id": {
+      "coverage_interactive_pct": 0.5,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 100.0,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "textfield"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "FinderWindow",
+      "match": "exact",
+      "tier": "high",
+      "role": "window",
+      "purpose": "Finder browser window root",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "ColumnView",
+      "match": "exact",
+      "tier": "high",
+      "role": "browser",
+      "purpose": "column-view file browser",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "statusBar",
+      "match": "exact",
+      "tier": "high",
+      "role": "unknown",
+      "purpose": "window status bar",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:8",
+      "match": "exact",
+      "tier": "low",
+      "role": "outline",
+      "purpose": "sidebar outline",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:61",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollarea",
+      "purpose": "sidebar scroll area",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:70",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollbar",
+      "purpose": "sidebar scrollbar",
+      "seen_in_captures": 3
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "text_entry": "setfocus_keys",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": true,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 27,
+        "verb": "Click",
+        "note": "sidebar rows, 27/27 named"
+      },
+      {
+        "role": "cell",
+        "actions": [
+          "Click"
+        ],
+        "count": 27,
+        "verb": "Click",
+        "note": "24/27 have Click"
+      },
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "count": 5,
+        "verb": "Click"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetValue"
+        ],
+        "count": 751,
+        "verb": "Click",
+        "note": "751 file-name labels: SetValue present but 0/751 SetFocus -> read-only label"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select",
+        "note": "file list container; select items via container"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "RightClick",
+          "Select"
+        ],
+        "count": 1,
+        "verb": "Select",
+        "note": "sidebar container"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Scroll",
+        "note": "offscreen recovery target"
+      },
+      {
+        "role": "browser",
+        "actions": [
+          "RightClick",
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Scroll",
+        "note": "column view"
+      },
+      {
+        "role": "menubutton",
+        "actions": [
+          "Click",
+          "Collapse",
+          "Expand",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Click",
+        "note": "toolbar Group/Action menus; Expand/Collapse present"
+      },
+      {
+        "role": "combobox",
+        "actions": [
+          "Click",
+          "Collapse",
+          "Expand",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Expand",
+        "note": "view-mode picker, readonly"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "partial",
+    "recipes": [
+      {
+        "target": "list_item_label",
+        "match": "role=='textfield' and no name and parent.role=='group' and ancestor.role=='list'",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-3",
+          "LAW-ID-4"
+        ]
+      },
+      {
+        "target": "list_item_label",
+        "match": "role=='treeitem' and ancestor.role=='outline'",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "cell",
+        "match": "role=='cell'",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role=='textfield' and 'SetFocus' in actions",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-ACT-8"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "ax_root",
+    "ws_matches_ax_root": false,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 3,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "enumeration_partial",
+      "detect": "complete == false and nodes_observed > n",
+      "workaround": "trust the prefix; scroll the list scrollarea or use Go to Folder / search, then re-snapshot",
+      "severity": "high",
+      "observed": "1571/2374 delivered (66%), forced 1599/2417; 6 subtree_truncated markers window>group>group>browser>scrollarea>list; full root lost 5 of 6 skeleton root kids incl. toolbar",
+      "laws": [
+        "LAW-STR-7",
+        "LAW-STR-8",
+        "LAW-LIFE-7"
+      ]
+    },
+    {
+      "kind": "ghost_only_window_list",
+      "detect": "every window-server entry is a ghost (menubar strip or helper surface)",
+      "workaround": "snapshot anyway; take bounds from the AX root",
+      "severity": "high",
+      "observed": "9/9 entries ghosts (4x 2560x30, 4x 1280x29, 1x 64x64); AX root is a real 920x436 window",
+      "laws": [
+        "LAW-WIN-10",
+        "LAW-LIFE-10"
+      ]
+    },
+    {
+      "kind": "textfield_is_label",
+      "detect": "role=='textfield' and 'SetFocus' not in actions",
+      "workaround": "treat as statictext; never SetValue",
+      "severity": "high",
+      "observed": "751/751 textfields lack SetFocus; all expose SetValue",
+      "laws": [
+        "LAW-ACT-8"
+      ]
+    },
+    {
+      "kind": "identity_in_value",
+      "detect": "role=='textfield' and 'value' in node and no name",
+      "workaround": "resolve file items by norm(value) + nth",
+      "severity": "high",
+      "observed": "751/751 value-only; values unique for 681/751",
+      "laws": [
+        "LAW-ID-4",
+        "LAW-TXT-3"
+      ]
+    },
+    {
+      "kind": "mass_focused",
+      "detect": "count('focused' in states) > 3",
+      "workaround": "real focus = focused list container, not its items",
+      "severity": "low",
+      "observed": "779/1571 nodes focused",
+      "laws": [
+        "LAW-ACT-10"
+      ]
+    },
+    {
+      "kind": "offscreen_needs_container_scroll",
+      "detect": "'offscreen' in states and 'ScrollTo' not in actions",
+      "workaround": "Scroll nearest scrollarea/browser ancestor, re-snapshot",
+      "severity": "high",
+      "observed": "1507 offscreen nodes, 0 with ScrollTo",
+      "laws": [
+        "LAW-ACT-11"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "check disabled state before acting",
+      "severity": "low",
+      "observed": "skeleton: 2/2 disabled toolbar buttons keep Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first; depth 10 is enough (max depth 7)",
+      "tested": true
+    },
+    {
+      "channel": "keyboard",
+      "when": "target beyond the delivered prefix: Cmd+Shift+G Go to Folder, or type-to-select, then re-snapshot",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "AX read fails after scroll + re-snapshot",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:59:02+05:30",
+      "2026-08-30T20:59:04+05:30",
+      "2026-08-30T20:59:07+05:30",
+      "2026-08-30T21:15:05+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "activated",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "finder/meta.json",
+      "finder/windows.json",
+      "finder/skeleton.json",
+      "finder/full.json",
+      "finder/forced.json",
+      "finder/surfaces.json",
+      "finder/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

@@ -1,0 +1,765 @@
+{
+  "schema_version": "1.0",
+  "app_key": "safari",
+  "identity": {
+    "name": "Safari",
+    "bundle_id": "com.apple.Safari",
+    "bundle_id_match": "exact",
+    "framework": "webkit_native",
+    "secondary_frameworks": [
+      "appkit"
+    ],
+    "framework_confidence": "medium",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "meta framework_signals: 0 embedded frameworks, 0 hints; system app in the Safari cryptex, no Electron/Qt/Chromium markers"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "0 webarea nodes in full or forced (157 nodes each): the Start Page surface is native chrome only"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "button 121/157 (77%), group 9, link 8, list 6, textfield 1; 91 of 121 buttons disabled"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "group 9/157 = 5.7% structural wrappers"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 8 at both --max-depth 10 and 40; 88 of 157 nodes at depth 6"
+      }
+    ]
+  },
+  "category": "browser",
+  "fidelity": {
+    "default": {
+      "nodes": 157,
+      "max_depth": 8,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 229,
+      "named_nodes": 132,
+      "ref_count": 145,
+      "has_webarea": false,
+      "offscreen_nodes": 157,
+      "skeleton_nodes": 25,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 157,
+      "max_depth": 8,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 229,
+      "named_nodes": 132,
+      "ref_count": 145,
+      "has_webarea": false,
+      "offscreen_nodes": 51,
+      "skeleton_nodes": 25,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.0,
+    "default_score": 0.686,
+    "forced_score": 0.686,
+    "best_capture": "forced",
+    "ladder_verdict": "navigate_partial"
+  },
+  "readiness": {
+    "default_rung": "R5_partial_prefix",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": true,
+      "reason": "background root offscreen, 157/157 nodes offscreen; foreground 51/157 with 157/157 same names, values, bounds"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "no webarea on the Start Page surface; a loaded page was never captured"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 500,
+        "height": 500,
+        "x": 0,
+        "y": 940,
+        "count": 1,
+        "kind": "helper_surface"
+      },
+      {
+        "width": 108,
+        "height": 151,
+        "x": 2576,
+        "y": 655,
+        "count": 1,
+        "kind": "thumbnail_proxy"
+      },
+      {
+        "width": 1280,
+        "height": 803,
+        "x": 2560,
+        "y": 565,
+        "count": 1
+      },
+      {
+        "width": 602,
+        "height": 543,
+        "x": 2995,
+        "y": 617,
+        "count": 1
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": true,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": false
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 2,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 88.7,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 80.2,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "button",
+        "switch"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "SafariWindow?IsSecure=",
+      "match": "prefix",
+      "tier": "session",
+      "role": "window",
+      "purpose": "browser window root (tail holds a per-window UUID)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "WEB_BROWSER_ADDRESS_AND_SEARCH_FIELD",
+      "match": "exact",
+      "tier": "high",
+      "role": "textfield",
+      "purpose": "address and search bar",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "UnifiedField._magnifyingGlassButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "search menu button in address bar",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "BackForwardSegmentedControl",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "back/forward control group",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "BackButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "back button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "ForwardButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "forward button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "SidebarButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "sidebar toggle",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TabGroupPickerButton?TabGroup=",
+      "match": "prefix",
+      "tier": "high",
+      "role": "menubutton",
+      "purpose": "tab group picker (tail can hold a group name)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "DownloadsButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "downloads button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "ShareButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "share button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "NewTabButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "new tab button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TabOverviewButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "tab overview button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "customizationsPopoverButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "start page customize button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TabBar?isSeparate=",
+      "match": "prefix",
+      "tier": "high",
+      "role": "unknown",
+      "purpose": "tab bar container (name holds tab count)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TabBarTab?isPinned=",
+      "match": "prefix",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "tab; query encodes pinned/narrow/active state",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "StartPageCollectionView",
+      "match": "exact",
+      "tier": "high",
+      "role": "list",
+      "purpose": "start page section list",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "favoritesItemIdentifier",
+      "match": "exact",
+      "tier": "high",
+      "role": "list",
+      "purpose": "favorites section",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "favoritesItemIdentifierHeader",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "favorites section header",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "suggestionsItemIdentifier",
+      "match": "exact",
+      "tier": "high",
+      "role": "list",
+      "purpose": "suggestions section",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "suggestionsItemIdentifierHeader",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "suggestions section header",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "linkRecommendationCollectionViewItem",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "favorite tile (class id, many per list)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "StartPageTouchIconViewItem._titleTextField",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "favorite tile title",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "highlightItem",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "suggestion tile (class id)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "readingListItem",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "reading list tile (class id)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "recentlyClosedTabsItem",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "recently closed tab tile (class id)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:21",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollarea",
+      "purpose": "start page scroll area",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:25",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "section header title button (one per section)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:41",
+      "match": "exact",
+      "tier": "low",
+      "role": "switch",
+      "purpose": "section Show All switch (one per section)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:28",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollbar",
+      "purpose": "start page scrollbar",
+      "seen_in_captures": 2
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": false,
+    "text_entry": "set_value",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": true,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus"
+        ],
+        "count": 121,
+        "verb": "Click",
+        "note": "only 16/121 have Click; 91 disabled in both captures (5 keep Click); start page tiles expose RightClick only"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "RightClick",
+          "Select",
+          "SetFocus",
+          "ScrollTo"
+        ],
+        "count": 6,
+        "verb": "Select"
+      },
+      {
+        "role": "switch",
+        "actions": [
+          "Click",
+          "Toggle",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Toggle",
+        "note": "value '0'/'1'"
+      },
+      {
+        "role": "radiobutton",
+        "actions": [
+          "Click",
+          "Toggle",
+          "RightClick",
+          "ScrollTo"
+        ],
+        "count": 2,
+        "verb": "Toggle",
+        "note": "tabs under the TabBar unknown node; value 'true'/'false' = active"
+      },
+      {
+        "role": "menubutton",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "Expand",
+          "Collapse"
+        ],
+        "count": 1,
+        "verb": "Expand"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetValue",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "SetValue",
+        "note": "address bar; no TypeText"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Scroll"
+      },
+      {
+        "role": "scrollbar",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "handle",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "partial",
+    "recipes": [
+      {
+        "target": "list_item_label",
+        "match": "role==button and parent.role==list",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-5",
+          "LAW-ID-10"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "native_id==WEB_BROWSER_ADDRESS_AND_SEARCH_FIELD",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      },
+      {
+        "target": "placeholder",
+        "match": "role==textfield and 'value' not in node",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-7"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role==switch",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role==radiobutton and parent.native_id startswith 'TabBar?'",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-10",
+          "LAW-ACT-1"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "ax_root",
+    "ws_matches_ax_root": false,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 3,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "enumeration_partial",
+      "detect": "data.complete==false and data.nodes_observed > n",
+      "workaround": "trust the delivered prefix; scroll the start page scrollarea or search, then re-snapshot; never drill",
+      "severity": "high",
+      "observed": "157 of 229 observed nodes delivered (69%) in both default and forced captures",
+      "laws": [
+        "LAW-STR-7",
+        "LAW-LIFE-7"
+      ]
+    },
+    {
+      "kind": "silent_enumeration_loss",
+      "detect": "complete==false and count(subtree_truncated)==0",
+      "workaround": "the missing nodes cannot be located; reach items by scroll or search",
+      "severity": "high",
+      "observed": "0 subtree_truncated markers and 0 frontier nodes in 157-node trees",
+      "laws": [
+        "LAW-STR-7"
+      ]
+    },
+    {
+      "kind": "hidden_window_offscreen",
+      "detect": "'offscreen' in root.states or offscreen/n >= 0.9 with complete",
+      "workaround": "read is fine; activate the window and re-snapshot before any coordinate action",
+      "severity": "high",
+      "observed": "background 157/157 offscreen, root offscreen; foreground 51/157",
+      "laws": [
+        "LAW-LIFE-5"
+      ]
+    },
+    {
+      "kind": "thumbnail_proxy_window",
+      "detect": "only visible window entry has width<=200 and height<=200",
+      "workaround": "use its title only; take bounds from the AX root",
+      "severity": "high",
+      "observed": "only visible WS entry 108x151 vs AX root 1087x803; 0 of 12 entries match AX root",
+      "laws": [
+        "LAW-WIN-4",
+        "LAW-WIN-5"
+      ]
+    },
+    {
+      "kind": "user_data_in_id",
+      "detect": "native_id matches UUID or has a '?key=value' payload",
+      "workaround": "match on the non-personal prefix; tier session for the window id",
+      "severity": "low",
+      "observed": "window id carries a UUID; tab ids encode pinned/narrow/active; tab group id carries a payload",
+      "laws": [
+        "LAW-ID-2"
+      ]
+    },
+    {
+      "kind": "bidi_salted_text",
+      "detect": "name or value contains U+200E/200F/202A-E/2066-9/200B-D/2060/FEFF/00AD",
+      "workaround": "strip invisible chars before every compare",
+      "severity": "low",
+      "observed": "2 invisible chars per capture (4 across full+forced), leading position",
+      "laws": [
+        "LAW-ID-10"
+      ]
+    },
+    {
+      "kind": "offscreen_needs_container_scroll",
+      "detect": "'offscreen' in states and 'ScrollTo' not in actions",
+      "workaround": "scroll the nearest scrollarea (Scroll), then re-snapshot",
+      "severity": "low",
+      "observed": "foreground: 3 of 51 offscreen nodes have ScrollTo; background 7 of 157",
+      "laws": [
+        "LAW-ACT-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first; chrome controls have semantic ax_identifier",
+      "tested": true
+    },
+    {
+      "channel": "ax_deep",
+      "when": "a webarea appears (a real page is loaded) and a frontier node or max depth == cap",
+      "precondition": "a page other than the Start Page is frontmost",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "a target button is disabled or has no Click (start page tiles)",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "target not in the delivered 69% prefix after scroll or search",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:58:44+05:30",
+      "2026-08-30T21:15:45+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "start_page",
+    "sources": [
+      "safari/meta.json",
+      "safari/windows.json",
+      "safari/skeleton.json",
+      "safari/full.json",
+      "safari/forced.json",
+      "safari/surfaces.json",
+      "safari/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

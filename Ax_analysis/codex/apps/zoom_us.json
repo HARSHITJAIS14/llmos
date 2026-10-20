@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "app_key": "zoom_us",
+  "identity": {
+    "name": "zoom.us",
+    "bundle_id": "us.zoom.xos",
+    "bundle_id_match": "exact",
+    "framework": "custom_cpp",
+    "secondary_frameworks": [
+      "appkit",
+      "wkwebview_webapp"
+    ],
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "proprietary bundles (ZoomKit, Prism, zUI with zui:: C++ symbols); 0 CEF, Electron or Qt frameworks"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "67 nodes: 34 button, 15 group, 8 unknown (6 clickable nav tabs), 1 webarea"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "window>group>group>group>group>unknown>webarea, depth 6, 20-node WKWebView calendar"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 9 default (0 frontier), 4 in forced window with no webarea"
+      }
+    ]
+  },
+  "category": "meeting",
+  "fidelity": {
+    "default": {
+      "nodes": 67,
+      "max_depth": 9,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 43,
+      "ref_count": 48,
+      "has_webarea": true,
+      "offscreen_nodes": 6,
+      "skeleton_nodes": 38,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 44,
+      "max_depth": 4,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 28,
+      "ref_count": 28,
+      "has_webarea": false,
+      "offscreen_nodes": 6,
+      "skeleton_nodes": null,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 0.657,
+    "default_score": 1.0,
+    "forced_score": 0.657,
+    "best_capture": "default",
+    "ladder_verdict": "trust"
+  },
+  "readiness": {
+    "default_rung": "TRUST",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "background capture complete, root 'focused', WS bounds = AX root; 6/67 offscreen are 0x0 buttons, not a hidden window"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "embedded web view is WKWebView, not Chromium"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 500,
+        "height": 500,
+        "x": 0,
+        "y": 940,
+        "count": 1,
+        "kind": "helper_surface"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 20.9,
+      "kinds": [
+        "ax_identifier",
+        "ax_dom_identifier"
+      ],
+      "reject_patterns": [
+        "^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 100.0,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": []
+    },
+    "exclude_zero_area": false,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_dom_identifier",
+      "value": "sidebar-prev",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "calendar previous-day button",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "sidebar-next",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "calendar next-day button",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "calendarMainFilter",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "calendar filter group",
+      "seen_in_captures": 1
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "none",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "RightClick",
+          "ScrollTo"
+        ],
+        "count": 34,
+        "verb": "Click",
+        "note": "6 home action buttons are 0x0 + offscreen: resolve by name, press by AX Click; account button name holds user identity"
+      },
+      {
+        "role": "unknown",
+        "actions": [
+          "Click",
+          "RightClick"
+        ],
+        "count": 8,
+        "verb": "Click",
+        "note": "6 nav tabs named '<tab>, n of 6', each with an unnamed inner button"
+      },
+      {
+        "role": "combobox",
+        "actions": [
+          "Click",
+          "ScrollTo",
+          "SetFocus",
+          "Expand",
+          "Collapse"
+        ],
+        "count": 1,
+        "verb": "Click",
+        "note": "readonly date picker in calendar webarea"
+      },
+      {
+        "role": "link",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Click",
+        "note": "1 of 2 has Click"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "list_item_label",
+        "match": "role==unknown and parent.name=='Navigation tabs'",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-ACT-12"
+        ]
+      },
+      {
+        "target": "statictext",
+        "match": "role==statictext under webarea",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==combobox",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-11"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": null,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 6,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "unknown_role_actionable",
+      "detect": "role==unknown and 'Click' in actions",
+      "workaround": "treat as button; click by parent name",
+      "severity": "high",
+      "observed": "6/8 unknown nodes have Click (nav tabs)",
+      "laws": [
+        "LAW-ACT-12"
+      ]
+    },
+    {
+      "kind": "readonly_control_as_button",
+      "detect": "'readonly' in states and role in (textfield, combobox)",
+      "workaround": "Click it, never type into it",
+      "severity": "low",
+      "observed": "1 readonly promo textfield + 1 readonly date combobox",
+      "laws": [
+        "LAW-TXT-11"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "check disabled state",
+      "severity": "low",
+      "observed": "4/4 disabled buttons keep Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs from cached id",
+      "workaround": "re-pick window each session; expect different layout",
+      "severity": "high",
+      "observed": "default w-27980 1280x960 (67 nodes, webarea) vs forced w-28690 960x660 (44 nodes, no webarea); 6/43 bounds same",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    },
+    {
+      "kind": "volatile_dom_ids",
+      "detect": "ax_identifier is a UUID",
+      "workaround": "never persist; resolve by name",
+      "severity": "low",
+      "observed": "5/5 UUID ids on home action buttons changed between captures",
+      "laws": [
+        "LAW-ID-2",
+        "LAW-ID-3"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first",
+      "tested": true
+    },
+    {
+      "channel": "keyboard",
+      "when": "in-meeting controls or AX action fails (hotkeys are in button names)",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "video content or unnamed edge buttons",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:57:50+05:30",
+      "2026-08-30T21:16:06+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "zoom_us/meta.json",
+      "zoom_us/windows.json",
+      "zoom_us/skeleton.json",
+      "zoom_us/full.json",
+      "zoom_us/forced.json",
+      "zoom_us/surfaces.json",
+      "zoom_us/analysis.md"
+    ],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

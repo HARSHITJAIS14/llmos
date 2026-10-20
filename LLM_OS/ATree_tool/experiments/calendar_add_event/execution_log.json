@@ -1,0 +1,71 @@
+{
+  "cmd_n": {
+    "version": "2.3",
+    "ok": true,
+    "command": "press",
+    "data": {
+      "action": "press_key",
+      "disposition": {
+        "delivery": "delivered_unverified",
+        "retry": "unsafe"
+      },
+      "steps": [
+        {
+          "label": "CGEventPost",
+          "mechanism": "physical_synthetic",
+          "outcome": "succeeded",
+          "verified": false
+        }
+      ]
+    }
+  },
+  "clipboard": {
+    "version": "2.3",
+    "ok": true,
+    "command": "clipboard-set",
+    "data": {
+      "ok": true,
+      "type": "text"
+    }
+  },
+  "paste": {
+    "version": "2.3",
+    "ok": true,
+    "command": "press",
+    "data": {
+      "action": "press_key",
+      "disposition": {
+        "delivery": "delivered_unverified",
+        "retry": "unsafe"
+      },
+      "steps": [
+        {
+          "label": "CGEventPost",
+          "mechanism": "physical_synthetic",
+          "outcome": "succeeded",
+          "verified": false
+        }
+      ]
+    }
+  },
+  "return": {
+    "version": "2.3",
+    "ok": true,
+    "command": "press",
+    "data": {
+      "action": "press_key",
+      "disposition": {
+        "delivery": "delivered_unverified",
+        "retry": "unsafe"
+      },
+      "steps": [
+        {
+          "label": "CGEventPost",
+          "mechanism": "physical_synthetic",
+          "outcome": "succeeded",
+          "verified": false
+        }
+      ]
+    }
+  }
+}

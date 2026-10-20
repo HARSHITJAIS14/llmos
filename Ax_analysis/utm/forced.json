@@ -1,0 +1,486 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "UTM",
+  "complete": true,
+  "ref_count": 26,
+  "snapshot_id": "s28eis1meqsd8a",
+  "tree": {
+   "bounds": {
+    "height": 1410.0,
+    "width": 1393.0,
+    "x": 1167.0,
+    "y": 30.0
+   },
+   "children": [
+    {
+     "bounds": {
+      "height": 1410.0,
+      "width": 1393.0,
+      "x": 1167.0,
+      "y": 30.0
+     },
+     "children": [
+      {
+       "bounds": {
+        "height": 1410.0,
+        "width": 1393.0,
+        "x": 1167.0,
+        "y": 30.0
+       },
+       "children": [
+        {
+         "bounds": {
+          "height": 1394.0,
+          "width": 250.0,
+          "x": 1175.0,
+          "y": 38.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Scroll",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 1350.0,
+            "width": 250.0,
+            "x": 1175.0,
+            "y": 82.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Select",
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 1350.0,
+              "width": 250.0,
+              "x": 1175.0,
+              "y": 82.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "Click"
+               ],
+               "bounds": {
+                "height": 59.5,
+                "width": 250.0,
+                "x": 1175.0,
+                "y": 82.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 59.5,
+                  "width": 230.0,
+                  "x": 1185.0,
+                  "y": 82.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "RightClick"
+                   ],
+                   "bounds": {
+                    "height": 30.0,
+                    "width": 30.0,
+                    "x": 1191.0,
+                    "y": 97.0
+                   },
+                   "ref_id": "@s28eis1meqsd8a:e5",
+                   "role": "image"
+                  },
+                  {
+                   "available_actions": [
+                    "RightClick"
+                   ],
+                   "bounds": {
+                    "height": 16.0,
+                    "width": 59.0,
+                    "x": 1229.0,
+                    "y": 96.0
+                   },
+                   "name": "Windows",
+                   "ref_id": "@s28eis1meqsd8a:e6",
+                   "role": "statictext",
+                   "value": "Windows"
+                  },
+                  {
+                   "available_actions": [
+                    "RightClick"
+                   ],
+                   "bounds": {
+                    "height": 14.0,
+                    "width": 132.0,
+                    "x": 1229.0,
+                    "y": 113.5
+                   },
+                   "name": "QEMU 10.0 ARM Virtual Machine (alias of virt-10.0) (virt)",
+                   "ref_id": "@s28eis1meqsd8a:e7",
+                   "role": "statictext",
+                   "value": "QEMU 10.0 ARM Virtual Machine (alias of virt-10.0) (virt)"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 26.0,
+                    "width": 26.0,
+                    "x": 1380.5,
+                    "y": 99.0
+                   },
+                   "name": "Run",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "play.circle.fill"
+                   },
+                   "ref_id": "@s28eis1meqsd8a:e8",
+                   "role": "button"
+                  }
+                 ],
+                 "name": "Windows QEMU 10.0 ARM Virtual Machine (alias of virt-10.0) (virt)",
+                 "ref_id": "@s28eis1meqsd8a:e4",
+                 "role": "cell",
+                 "states": [
+                  "focused"
+                 ]
+                }
+               ],
+               "name": "Windows QEMU 10.0 ARM Virtual Machine (alias of virt-10.0) (virt)",
+               "ref_id": "@s28eis1meqsd8a:e3",
+               "role": "treeitem"
+              },
+              {
+               "available_actions": [
+                "Click"
+               ],
+               "bounds": {
+                "height": 59.5,
+                "width": 250.0,
+                "x": 1175.0,
+                "y": 141.5
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 59.5,
+                  "width": 230.0,
+                  "x": 1185.0,
+                  "y": 141.5
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "RightClick"
+                   ],
+                   "bounds": {
+                    "height": 30.0,
+                    "width": 30.0,
+                    "x": 1191.0,
+                    "y": 156.5
+                   },
+                   "ref_id": "@s28eis1meqsd8a:e11",
+                   "role": "image"
+                  },
+                  {
+                   "available_actions": [
+                    "RightClick"
+                   ],
+                   "bounds": {
+                    "height": 16.0,
+                    "width": 35.0,
+                    "x": 1229.0,
+                    "y": 155.5
+                   },
+                   "name": "Linux",
+                   "ref_id": "@s28eis1meqsd8a:e12",
+                   "role": "statictext",
+                   "value": "Linux"
+                  },
+                  {
+                   "available_actions": [
+                    "RightClick"
+                   ],
+                   "bounds": {
+                    "height": 14.0,
+                    "width": 132.0,
+                    "x": 1229.0,
+                    "y": 173.0
+                   },
+                   "name": "QEMU 10.0 ARM Virtual Machine (alias of virt-10.0) (virt)",
+                   "ref_id": "@s28eis1meqsd8a:e13",
+                   "role": "statictext",
+                   "value": "QEMU 10.0 ARM Virtual Machine (alias of virt-10.0) (virt)"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 26.0,
+                    "width": 26.0,
+                    "x": 1380.5,
+                    "y": 158.5
+                   },
+                   "name": "Run",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "play.circle.fill"
+                   },
+                   "ref_id": "@s28eis1meqsd8a:e14",
+                   "role": "button"
+                  }
+                 ],
+                 "name": "Linux QEMU 10.0 ARM Virtual Machine (alias of virt-10.0) (virt)",
+                 "ref_id": "@s28eis1meqsd8a:e10",
+                 "role": "cell",
+                 "states": [
+                  "focused"
+                 ]
+                }
+               ],
+               "name": "Linux QEMU 10.0 ARM Virtual Machine (alias of virt-10.0) (virt)",
+               "ref_id": "@s28eis1meqsd8a:e9",
+               "role": "treeitem"
+              }
+             ],
+             "name": "Sidebar",
+             "ref_id": "@s28eis1meqsd8a:e2",
+             "role": "outline",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "ref_id": "@s28eis1meqsd8a:e1",
+           "role": "scrollarea"
+          }
+         ],
+         "role": "group"
+        },
+        {
+         "bounds": {
+          "height": 1410.0,
+          "width": 1393.0,
+          "x": 1167.0,
+          "y": 30.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 158.0,
+            "width": 174.0,
+            "x": 1814.5,
+            "y": 585.5
+           },
+           "name": "Create a New Virtual Machine",
+           "ref_id": "@s28eis1meqsd8a:e15",
+           "role": "button"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 158.0,
+            "width": 174.0,
+            "x": 1996.5,
+            "y": 585.5
+           },
+           "name": "Browse UTM Gallery",
+           "ref_id": "@s28eis1meqsd8a:e16",
+           "role": "button"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 158.0,
+            "width": 174.0,
+            "x": 1814.5,
+            "y": 751.5
+           },
+           "name": "User Guide",
+           "ref_id": "@s28eis1meqsd8a:e17",
+           "role": "button"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 158.0,
+            "width": 174.0,
+            "x": 1996.5,
+            "y": 751.5
+           },
+           "name": "Support",
+           "ref_id": "@s28eis1meqsd8a:e18",
+           "role": "button"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 58.0,
+            "width": 356.0,
+            "x": 1814.5,
+            "y": 917.5
+           },
+           "name": "Server",
+           "ref_id": "@s28eis1meqsd8a:e19",
+           "role": "button"
+          }
+         ],
+         "role": "group"
+        }
+       ],
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "home, SidebarNavigationSplitView"
+       },
+       "role": "group"
+      }
+     ],
+     "role": "group"
+    },
+    {
+     "available_actions": [
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 52.0,
+      "width": 1393.0,
+      "x": 1167.0,
+      "y": 30.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "Click",
+        "RightClick",
+        "SetValue",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 44.0,
+        "x": 1429.0,
+        "y": 30.0
+       },
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "plus"
+       },
+       "ref_id": "@s28eis1meqsd8a:e21",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "RightClick",
+        "SetValue",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 47.0,
+        "x": 1378.0,
+        "y": 30.0
+       },
+       "ref_id": "@s28eis1meqsd8a:e22",
+       "role": "button"
+      }
+     ],
+     "ref_id": "@s28eis1meqsd8a:e20",
+     "role": "toolbar"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 1185.0,
+      "y": 48.0
+     },
+     "ref_id": "@s28eis1meqsd8a:e23",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 1231.0,
+      "y": 48.0
+     },
+     "ref_id": "@s28eis1meqsd8a:e24",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 1208.0,
+      "y": 48.0
+     },
+     "ref_id": "@s28eis1meqsd8a:e25",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 52.0,
+      "width": 1083.0,
+      "x": 1473.0,
+      "y": 30.0
+     },
+     "name": "UTM",
+     "ref_id": "@s28eis1meqsd8a:e26",
+     "role": "statictext",
+     "value": "UTM"
+    }
+   ],
+   "name": "UTM",
+   "native_id": {
+    "kind": "ax_identifier",
+    "value": "home"
+   },
+   "role": "window"
+  },
+  "window": {
+   "id": "w-28782",
+   "title": "UTM"
+  }
+ }
+}

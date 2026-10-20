@@ -1,0 +1,62 @@
+{
+  "app": "Finder",
+  "was_running": true,
+  "captures": {
+    "windows": 9,
+    "skeleton": {
+      "ok": true,
+      "bytes": 2880,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 310836,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 97,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "activated",
+  "pid": 1450,
+  "bundle_id": "com.apple.finder",
+  "framework_signals": {
+    "exe": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+    "bundle": "/System/Library/CoreServices/Finder.app",
+    "frameworks": [],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27686",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 1599,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 1599,
+    "truncated_after": 0,
+    "bytes": 769148
+  }
+}

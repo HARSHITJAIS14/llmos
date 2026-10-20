@@ -1,0 +1,865 @@
+{
+  "version": 1,
+  "source": "Apple Vision OCR fast",
+  "image_sha256": "bc2b22b30578ff67fab6fdaaac166341473632342209ba66044b2dac9e42dd65",
+  "image_size": [
+    2498,
+    1846
+  ],
+  "items": [
+    {
+      "id": "T0001",
+      "kind": "text",
+      "bbox": [
+        638.0,
+        23.999999999999954,
+        792.0,
+        42.00000000000007
+      ],
+      "text": "cursor for che",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0002",
+      "kind": "text",
+      "bbox": [
+        999.0,
+        25.00000000000006,
+        1079.0,
+        47.0
+      ],
+      "text": "My Day",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0003",
+      "kind": "text",
+      "bbox": [
+        1362.9999999999998,
+        23.999999999999954,
+        1486.0,
+        42.99999999999997
+      ],
+      "text": "O LLMOS",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0004",
+      "kind": "text",
+      "bbox": [
+        38.0,
+        94.9999999999999,
+        194.99999999999997,
+        115.00000000000003
+      ],
+      "text": "Search or ask",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0005",
+      "kind": "text",
+      "bbox": [
+        521.0,
+        94.9999999999999,
+        645.0,
+        115.00000000000003
+      ],
+      "text": "O LLMOS",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0006",
+      "kind": "text",
+      "bbox": [
+        1516.0,
+        94.9999999999999,
+        1538.0,
+        117.00000000000004
+      ],
+      "text": ">>",
+      "confidence": 1.0
+    },
+    {
+      "id": "T0007",
+      "kind": "text",
+      "bbox": [
+        35.0,
+        171.0,
+        213.99999999999997,
+        198.99999999999997
+      ],
+      "text": "*tHome \u2022",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0008",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        252.0,
+        192.0,
+        271.0
+      ],
+      "text": "New chat",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0009",
+      "kind": "text",
+      "bbox": [
+        1758.0,
+        290.00000000000006,
+        1822.0,
+        332.0000000000001
+      ],
+      "text": "rla",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0010",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        307.99999999999994,
+        164.0,
+        332.0000000000001
+      ],
+      "text": "Library",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0011",
+      "kind": "text",
+      "bbox": [
+        30.0,
+        384.00000000000006,
+        208.99999999999997,
+        405.0000000000001
+      ],
+      "text": "Upcoming events",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0012",
+      "kind": "text",
+      "bbox": [
+        1974.0,
+        393.0,
+        2103.0,
+        412.99999999999994
+      ],
+      "text": "Not started",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0013",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        439.0000000000001,
+        456.00000000000006,
+        462.9999999999999
+      ],
+      "text": "Daily CP + ... Tomorrow 10:00PM",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0014",
+      "kind": "text",
+      "bbox": [
+        1678.0,
+        461.99999999999994,
+        1754.0,
+        486.0000000000001
+      ],
+      "text": "Assign",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0015",
+      "kind": "text",
+      "bbox": [
+        1938.0,
+        462.99999999999983,
+        2010.0000000000002,
+        486.00000000000006
+      ],
+      "text": "Empty",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0016",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        492.99999999999983,
+        456.00000000000006,
+        517.0
+      ],
+      "text": "Daily CP + ML W... Wed 10:00PM",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0017",
+      "kind": "text",
+      "bbox": [
+        1678.0,
+        530.0,
+        1731.0,
+        550.0000000000001
+      ],
+      "text": "Crux",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0018",
+      "kind": "text",
+      "bbox": [
+        1938.0,
+        529.0000000000001,
+        2010.0000000000002,
+        552.0
+      ],
+      "text": "Empty",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0019",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        547.0,
+        456.00000000000006,
+        571.0000000000001
+      ],
+      "text": "Daily CP + ML W... Thu 10:00PM",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0020",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        601.0000000000001,
+        456.00000000000006,
+        624.9999999999999
+      ],
+      "text": "Daily CP + ML Wa... Fri 10:00PM",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0021",
+      "kind": "text",
+      "bbox": [
+        1679.0,
+        598.9999999999999,
+        1731.0,
+        617.0
+      ],
+      "text": "Date",
+      "confidence": 1.0
+    },
+    {
+      "id": "T0022",
+      "kind": "text",
+      "bbox": [
+        1938.0,
+        598.0,
+        2010.0000000000002,
+        620.9999999999999
+      ],
+      "text": "Empty",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0023",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        654.9999999999999,
+        456.00000000000006,
+        679.0
+      ],
+      "text": "Daily CP + ML Wa... Sat 10:00PM",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0024",
+      "kind": "text",
+      "bbox": [
+        1943.0,
+        658.9999999999999,
+        2227.0,
+        692.0
+      ],
+      "text": "O SlMILAR PRODUCTS",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0025",
+      "kind": "text",
+      "bbox": [
+        1638.0,
+        667.0,
+        1771.0,
+        691.0000000000001
+      ],
+      "text": "7 Projects",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0026",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        709.0,
+        456.00000000000006,
+        733.0
+      ],
+      "text": "Daily CP + ML W... Sun 10:00PM",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0027",
+      "kind": "text",
+      "bbox": [
+        1643.9999999999998,
+        731.9999999999999,
+        1820.0,
+        754.0
+      ],
+      "text": "? Related Link",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0028",
+      "kind": "text",
+      "bbox": [
+        1938.0,
+        734.0000000000001,
+        2343.0,
+        758.0000000000001
+      ],
+      "text": "https:Ilgithub.comlMacPawlGUlrilla",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0029",
+      "kind": "text",
+      "bbox": [
+        83.0,
+        763.0,
+        170.0,
+        782.0
+      ],
+      "text": "View all",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0030",
+      "kind": "text",
+      "bbox": [
+        676.0,
+        795.0,
+        929.9999999999999,
+        851.0
+      ],
+      "text": "LLM OS",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0031",
+      "kind": "text",
+      "bbox": [
+        1638.0,
+        803.0,
+        1847.0,
+        827.0
+      ],
+      "text": "+ Add a property",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0032",
+      "kind": "text",
+      "bbox": [
+        30.0,
+        848.0,
+        111.99999999999999,
+        863.9999999999999
+      ],
+      "text": "Recents",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0033",
+      "kind": "text",
+      "bbox": [
+        1635.0,
+        893.0,
+        1754.0,
+        910.9999999999999
+      ],
+      "text": "Comments",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0034",
+      "kind": "text",
+      "bbox": [
+        40.0,
+        902.0,
+        174.0,
+        922.0000000000001
+      ],
+      "text": "O LLMOS",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0035",
+      "kind": "text",
+      "bbox": [
+        676.0,
+        955.9999999999999,
+        993.0,
+        996.0
+      ],
+      "text": "How to operate?",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0036",
+      "kind": "text",
+      "bbox": [
+        1650.0,
+        949.0,
+        1893.0,
+        969.0000000000001
+      ],
+      "text": "H Add a comment...",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0037",
+      "kind": "text",
+      "bbox": [
+        84.0,
+        957.9999999999999,
+        163.0,
+        978.0
+      ],
+      "text": "GUlrrla",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0038",
+      "kind": "text",
+      "bbox": [
+        84.0,
+        1014.0000000000001,
+        204.0,
+        1034.0
+      ],
+      "text": "GUI Based",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0039",
+      "kind": "text",
+      "bbox": [
+        686.0,
+        1039.0,
+        1481.0,
+        1067.0
+      ],
+      "text": "1. Write work done each day in the timeline by creating a not",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0040",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        1069.0,
+        190.0,
+        1089.0000000000002
+      ],
+      "text": "Research",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0041",
+      "kind": "text",
+      "bbox": [
+        684.0,
+        1093.0,
+        1377.0,
+        1121.0
+      ],
+      "text": "2. Overall Task has to be written in Task( By Project).",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0042",
+      "kind": "text",
+      "bbox": [
+        45.0,
+        1125.0,
+        322.0,
+        1145.0
+      ],
+      "text": "> SIMILAR PRODUCTS",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0043",
+      "kind": "text",
+      "bbox": [
+        1901.0000000000002,
+        1140.0,
+        2295.0,
+        1170.0
+      ],
+      "text": "GitHub- MacPawlGUlrilla: ...",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0044",
+      "kind": "text",
+      "bbox": [
+        84.0,
+        1181.0,
+        213.0,
+        1205.0
+      ],
+      "text": "OpenJarvis",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0045",
+      "kind": "text",
+      "bbox": [
+        699.0,
+        1187.0,
+        802.0,
+        1202.0
+      ],
+      "text": "PROJECTS",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0046",
+      "kind": "text",
+      "bbox": [
+        1901.0000000000002,
+        1185.0,
+        2298.0,
+        1207.9999999999998
+      ],
+      "text": "Repository for the implementation of",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0047",
+      "kind": "text",
+      "bbox": [
+        1901.0000000000002,
+        1217.0,
+        2136.0,
+        1235.9999999999998
+      ],
+      "text": "GUlrilla. Contribute to",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0048",
+      "kind": "text",
+      "bbox": [
+        83.0,
+        1237.0,
+        152.0,
+        1261.0
+      ],
+      "text": "Adept",
+      "confidence": 1.0
+    },
+    {
+      "id": "T0049",
+      "kind": "text",
+      "bbox": [
+        732.0,
+        1274.0,
+        860.0,
+        1299.0
+      ],
+      "text": "Projects v",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0050",
+      "kind": "text",
+      "bbox": [
+        1348.9999999999998,
+        1281.0,
+        1382.0,
+        1296.0
+      ],
+      "text": "ew",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0051",
+      "kind": "text",
+      "bbox": [
+        1901.0000000000002,
+        1280.0,
+        2281.0,
+        1303.0
+      ],
+      "text": "https:Ilgithub.comlMacPawlGUlrilla",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0052",
+      "kind": "text",
+      "bbox": [
+        84.0,
+        1293.0,
+        153.0,
+        1317.0
+      ],
+      "text": "plugin",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0053",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        1348.0,
+        190.0,
+        1367.0
+      ],
+      "text": "Research",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0054",
+      "kind": "text",
+      "bbox": [
+        741.0,
+        1375.0,
+        870.0000000000001,
+        1397.0
+      ],
+      "text": "GUI Based",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0055",
+      "kind": "text",
+      "bbox": [
+        1158.0,
+        1375.0,
+        1389.0,
+        1397.0
+      ],
+      "text": "Screenshot-Based",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0056",
+      "kind": "text",
+      "bbox": [
+        84.0,
+        1404.0,
+        297.0,
+        1424.0
+      ],
+      "text": "Screenshot-Based",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0057",
+      "kind": "text",
+      "bbox": [
+        694.0,
+        1435.0,
+        808.0,
+        1452.0
+      ],
+      "text": "2 Tasks left",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0058",
+      "kind": "text",
+      "bbox": [
+        1111.0,
+        1435.0,
+        1225.0,
+        1452.0
+      ],
+      "text": "2 Tasks left",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0059",
+      "kind": "text",
+      "bbox": [
+        83.0,
+        1460.0,
+        170.0,
+        1479.0
+      ],
+      "text": "View all",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0060",
+      "kind": "text",
+      "bbox": [
+        1164.0,
+        1537.0,
+        1456.0,
+        1563.0000000000002
+      ],
+      "text": "Agent-desktop review .",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0061",
+      "kind": "text",
+      "bbox": [
+        30.0,
+        1543.0,
+        123.0,
+        1560.0
+      ],
+      "text": "Favorites",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0062",
+      "kind": "text",
+      "bbox": [
+        40.0,
+        1599.0,
+        174.0,
+        1619.0000000000002
+      ],
+      "text": "O LLMOS",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0063",
+      "kind": "text",
+      "bbox": [
+        1111.0,
+        1636.0,
+        1451.0,
+        1662.0
+      ],
+      "text": "https:Ilarxiv.orglpdfl2510.0",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0064",
+      "kind": "text",
+      "bbox": [
+        741.0,
+        1638.0,
+        816.0000000000001,
+        1664.0
+      ],
+      "text": "plugin",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0065",
+      "kind": "text",
+      "bbox": [
+        85.0,
+        1655.0,
+        169.0,
+        1677.9999999999998
+      ],
+      "text": "My Day",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0066",
+      "kind": "text",
+      "bbox": [
+        1111.0,
+        1678.0,
+        1169.0,
+        1699.0
+      ],
+      "text": "4371",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0067",
+      "kind": "text",
+      "bbox": [
+        30.0,
+        1739.0,
+        100.99999999999999,
+        1756.0
+      ],
+      "text": "Shared",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0068",
+      "kind": "text",
+      "bbox": [
+        741.9999999999999,
+        1776.0,
+        939.0,
+        1802.0
+      ],
+      "text": "Figma Template",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0069",
+      "kind": "text",
+      "bbox": [
+        1202.0,
+        1778.0,
+        1358.0,
+        1803.0
+      ],
+      "text": "+ New page",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0070",
+      "kind": "text",
+      "bbox": [
+        41.0,
+        1797.0,
+        296.0,
+        1817.0
+      ],
+      "text": "H HARSHIT JAISW...",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0071",
+      "kind": "text",
+      "bbox": [
+        434.0,
+        1808.0,
+        458.0,
+        1819.0
+      ],
+      "text": "00",
+      "confidence": 0.5
+    }
+  ],
+  "processing_ms": 179.25633303821087,
+  "warning": "OCR can miss or misread visible text; it does not prove clickability."
+}

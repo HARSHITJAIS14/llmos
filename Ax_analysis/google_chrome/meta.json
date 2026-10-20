@@ -1,0 +1,65 @@
+{
+  "app": "Google Chrome",
+  "was_running": false,
+  "captures": {
+    "windows": 14,
+    "skeleton": {
+      "ok": true,
+      "bytes": 868,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 9455,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 25787,
+  "bundle_id": "com.google.Chrome",
+  "framework_signals": {
+    "exe": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "bundle": "/Applications/Google Chrome.app",
+    "frameworks": [
+      "Google Chrome Framework.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Google Chrome",
+    "bounds": {
+      "height": 923.0,
+      "width": 1249.0,
+      "x": 244.0,
+      "y": 33.0
+    },
+    "id": "w-28145",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25787,
+    "process_instance": "macos-proc-v1:1788103714:321676",
+    "title": "New tab",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 69,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 69,
+    "truncated_after": 0,
+    "bytes": 45366
+  }
+}

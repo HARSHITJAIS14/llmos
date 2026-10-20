@@ -1,0 +1,238 @@
+{
+  "request_build_seconds": 0.030558208003640175,
+  "question_count": 16,
+  "questions": {
+    "app": {
+      "type": "choice",
+      "instructions": "What application category is visible in `image`?",
+      "criteria": {
+        "browser": "Web browser",
+        "editor": "Code or text editor",
+        "spreadsheet": "Spreadsheet",
+        "file_manager": "File manager",
+        "terminal": "Terminal",
+        "media": "Dedicated media app",
+        "settings": "Settings/preferences",
+        "other": "Another kind of application",
+        "unknown": "Cannot determine"
+      }
+    },
+    "view": {
+      "type": "choice",
+      "instructions": "What type of view is visible in `image`?",
+      "criteria": {
+        "video_watch": "Video watch page",
+        "search_results": "Search results",
+        "document": "Document or article",
+        "code_workspace": "Code editing workspace",
+        "table": "Spreadsheet/table",
+        "form": "Data entry form",
+        "conversation": "Messaging conversation",
+        "file_listing": "File listing",
+        "settings": "Settings/preferences view",
+        "other": "Other view",
+        "unknown": "Cannot determine"
+      }
+    },
+    "browser_chrome_present": {
+      "type": "noul",
+      "instructions": "Is there a visible region corresponding to the browser toolbar, address bar and tab strip at the top, excluding the web page itself in `image`?"
+    },
+    "browser_chrome_box": {
+      "type": "box",
+      "instructions": "the browser toolbar, address bar and tab strip at the top, excluding the web page itself in `image`"
+    },
+    "app_header_present": {
+      "type": "noul",
+      "instructions": "Is there a visible region corresponding to the application or webpage top navigation header, excluding browser chrome in `image`?"
+    },
+    "app_header_box": {
+      "type": "box",
+      "instructions": "the application or webpage top navigation header, excluding browser chrome in `image`"
+    },
+    "main_content_present": {
+      "type": "noul",
+      "instructions": "Is there a visible region corresponding to the primary content or workspace area of the application or webpage in `image`?"
+    },
+    "main_content_box": {
+      "type": "box",
+      "instructions": "the primary content or workspace area of the application or webpage in `image`"
+    },
+    "secondary_panel_present": {
+      "type": "noul",
+      "instructions": "Is there a visible region corresponding to the secondary side panel of recommendations, tools, or navigation alongside the main content in `image`?"
+    },
+    "secondary_panel_box": {
+      "type": "box",
+      "instructions": "the secondary side panel of recommendations, tools, or navigation alongside the main content in `image`"
+    },
+    "details_panel_present": {
+      "type": "noul",
+      "instructions": "Is there a visible region corresponding to the descriptive metadata/details area accompanying the primary content in `image`?"
+    },
+    "details_panel_box": {
+      "type": "box",
+      "instructions": "the descriptive metadata/details area accompanying the primary content in `image`"
+    },
+    "dialog_present": {
+      "type": "noul",
+      "instructions": "Is there a visible region corresponding to a foreground modal dialog or popup overlay in `image`?"
+    },
+    "dialog_box": {
+      "type": "box",
+      "instructions": "a foreground modal dialog or popup overlay in `image`"
+    },
+    "status_bar_present": {
+      "type": "noul",
+      "instructions": "Is there a visible region corresponding to the application bottom status bar in `image`?"
+    },
+    "status_bar_box": {
+      "type": "box",
+      "instructions": "the application bottom status bar in `image`"
+    }
+  },
+  "seconds": 2.5142666670144536,
+  "headers_seconds": 2.5140757500194013,
+  "http_status": 200,
+  "response": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "app": {
+        "type": "choice",
+        "choice": "browser",
+        "confidence": 1.0,
+        "probabilities": {
+          "browser": 1.0,
+          "editor": 0.0,
+          "spreadsheet": 0.0,
+          "file_manager": 0.0,
+          "terminal": 0.0,
+          "media": 0.0,
+          "settings": 0.0,
+          "other": 0.0,
+          "unknown": 0.0
+        }
+      },
+      "view": {
+        "type": "choice",
+        "choice": "video_watch",
+        "confidence": 1.0,
+        "probabilities": {
+          "video_watch": 1.0,
+          "search_results": 0.0,
+          "document": 0.0,
+          "code_workspace": 0.0,
+          "table": 0.0,
+          "form": 0.0,
+          "conversation": 0.0,
+          "file_listing": 0.0,
+          "settings": 0.0,
+          "other": 0.0,
+          "unknown": 0.0
+        }
+      },
+      "browser_chrome_present": {
+        "type": "noul",
+        "noul": 0.99
+      },
+      "browser_chrome_box": {
+        "type": "box",
+        "box": {
+          "top": 0.05,
+          "bottom": 0.13,
+          "left": 0.04,
+          "right": 0.97
+        },
+        "confidence": 0.65
+      },
+      "app_header_present": {
+        "type": "noul",
+        "noul": 0.98
+      },
+      "app_header_box": {
+        "type": "box",
+        "box": {
+          "top": 0.14,
+          "bottom": 0.2,
+          "left": 0.02,
+          "right": 0.65
+        },
+        "confidence": 0.34
+      },
+      "main_content_present": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "main_content_box": {
+        "type": "box",
+        "box": {
+          "top": 0.22,
+          "bottom": 0.66,
+          "left": 0.04,
+          "right": 0.65
+        },
+        "confidence": 0.62
+      },
+      "secondary_panel_present": {
+        "type": "noul",
+        "noul": 0.94
+      },
+      "secondary_panel_box": {
+        "type": "box",
+        "box": {
+          "top": 0.23,
+          "bottom": 0.91,
+          "left": 0.64,
+          "right": 0.97
+        },
+        "confidence": 0.41
+      },
+      "details_panel_present": {
+        "type": "noul",
+        "noul": 0.99
+      },
+      "details_panel_box": {
+        "type": "box",
+        "box": {
+          "top": 0.78,
+          "bottom": 0.88,
+          "left": 0.05,
+          "right": 0.64
+        },
+        "confidence": 0.84
+      },
+      "dialog_present": {
+        "type": "noul",
+        "noul": 0.09
+      },
+      "dialog_box": {
+        "type": "box",
+        "box": {
+          "top": 0.22,
+          "bottom": 0.64,
+          "left": 0.03,
+          "right": 0.64
+        },
+        "confidence": 0.08
+      },
+      "status_bar_present": {
+        "type": "noul",
+        "noul": 0.02
+      },
+      "status_bar_box": {
+        "type": "box",
+        "box": {
+          "top": 0.04,
+          "bottom": 0.97,
+          "left": 0.02,
+          "right": 0.96
+        },
+        "confidence": 0.02
+      }
+    },
+    "usage": {
+      "input_tokens": 5840,
+      "output_tokens": 432
+    }
+  }
+}

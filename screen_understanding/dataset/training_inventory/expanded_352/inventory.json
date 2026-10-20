@@ -1,0 +1,202 @@
+{
+  "counts": {
+    "screens": 352,
+    "nodes": 23408,
+    "proposals": 21650,
+    "human_reviewed_screens": 0,
+    "level_screen": 352,
+    "nodes_with_visible_text": 0,
+    "level_region": 2715,
+    "level_element": 20341,
+    "candidate_nonroot_nodes": 21124,
+    "disposition_retained": 18409,
+    "disposition_unresolved": 2772,
+    "disposition_rejected": 469
+  },
+  "applications": {
+    "System Settings": 40,
+    "Finder": 43,
+    "Google Chrome": 40,
+    "Desktop": 3,
+    "Calendar": 8,
+    "Activity Monitor": 10,
+    "Clock": 8,
+    "Stocks": 12,
+    "Maps": 8,
+    "App Store": 14,
+    "Podcasts": 12,
+    "Music": 4,
+    "TV": 8,
+    "Font Book": 12,
+    "TextEdit": 12,
+    "Terminal": 23,
+    "Code": 14,
+    "Preview": 18,
+    "Numbers": 8,
+    "Pages": 8,
+    "Keynote": 6,
+    "Safari": 41
+  },
+  "unique_pixel_images": 300,
+  "exact_duplicate_groups": [
+    [
+      "screen_0049",
+      "screen_0051",
+      "screen_0053"
+    ],
+    [
+      "screen_0057",
+      "screen_0059",
+      "screen_0061"
+    ],
+    [
+      "screen_0067",
+      "screen_0069"
+    ],
+    [
+      "screen_0073",
+      "screen_0075",
+      "screen_0077"
+    ],
+    [
+      "screen_0081",
+      "screen_0083",
+      "screen_0085"
+    ],
+    [
+      "screen_0087",
+      "screen_0089"
+    ],
+    [
+      "screen_0236",
+      "screen_0238"
+    ],
+    [
+      "screen_0242",
+      "screen_0244"
+    ],
+    [
+      "screen_0245",
+      "screen_0247"
+    ],
+    [
+      "screen_0262",
+      "screen_0264",
+      "screen_0266",
+      "screen_0268"
+    ],
+    [
+      "screen_0274",
+      "screen_0276"
+    ],
+    [
+      "screen_0284",
+      "screen_0286"
+    ],
+    [
+      "screen_0296",
+      "screen_0298"
+    ],
+    [
+      "screen_0302",
+      "screen_0304"
+    ],
+    [
+      "screen_0310",
+      "screen_0312"
+    ],
+    [
+      "screen_0314",
+      "screen_0316"
+    ],
+    [
+      "screen_0315",
+      "screen_0317"
+    ],
+    [
+      "screen_0320",
+      "screen_0322",
+      "screen_0324",
+      "screen_0326",
+      "screen_0328"
+    ],
+    [
+      "screen_0321",
+      "screen_0323"
+    ],
+    [
+      "screen_0325",
+      "screen_0327",
+      "screen_0329"
+    ],
+    [
+      "screen_0369",
+      "screen_0373"
+    ],
+    [
+      "screen_0370",
+      "screen_0376"
+    ],
+    [
+      "screen_0372",
+      "screen_0374"
+    ],
+    [
+      "screen_0379",
+      "screen_0381",
+      "screen_0385"
+    ],
+    [
+      "screen_0380",
+      "screen_0382",
+      "screen_0384",
+      "screen_0386"
+    ],
+    [
+      "screen_0388",
+      "screen_0390",
+      "screen_0392",
+      "screen_0394",
+      "screen_0396"
+    ],
+    [
+      "screen_0391",
+      "screen_0393",
+      "screen_0397"
+    ],
+    [
+      "screen_0400",
+      "screen_0402"
+    ],
+    [
+      "screen_0403",
+      "screen_0405"
+    ],
+    [
+      "screen_0409",
+      "screen_0411",
+      "screen_0413"
+    ],
+    [
+      "screen_0410",
+      "screen_0412"
+    ],
+    [
+      "screen_0418",
+      "screen_0420"
+    ],
+    [
+      "screen_0478",
+      "screen_0480",
+      "screen_0484"
+    ]
+  ],
+  "errors": [],
+  "status": "Candidate teacher data; semantic quality unverified; no train/test split created.",
+  "notes": [
+    "Unresolved/rejected proposal-linked nodes are excluded from candidate supervision.",
+    "Exact decoded-pixel grouping is not near-duplicate detection. Group related captures before splitting.",
+    "Field masks are eligibility hints, not assertions of ground truth.",
+    "Current role aliases such as slider->toggle and radio->checkbox require correction or masking before training."
+  ]
+}

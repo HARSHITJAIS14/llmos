@@ -1,0 +1,29 @@
+{
+  "seconds": 5.796919042011723,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\n  \"description\": \"A dark-themed desktop browser window showing a YouTube video watch page with a video player displaying startup logos, video metadata below it, and recommended videos on the right.\",\n  \"regions\": [\n    {\n      \"id\": \"r0\",\n      \"context\": \"Complete browser application window with the YouTube interface loaded.\"\n    },\n    {\n      \"id\": \"r1\",\n      \"context\": \"Top browser chrome featuring macOS window control buttons, tab bar with multiple open tabs, and URL navigation bar.\"\n    },\n    {\n      \"id\": \"r2\",\n      \"context\": \"YouTube top header containing the YouTube Premium logo, search bar, microphone icon, Create button, notification bell, and user profile avatar.\"\n    },\n    {\n      \"id\": \"r3\",\n      \"context\": \"Main video playback viewport showing a slide with 'FOUNDERS FUND' and various portfolio company logos (Polymarket, Lighter, Figma, Varda, etc.).\"\n    },\n    {\n      \"id\": \"r4\",\n      \"context\": \"Video metadata section including video title, channel information ('Sourcery with Molly O'Shea'), subscribe button, engagement controls (like/dislike/share), and description panel.\"\n    },\n    {\n      \"id\": \"r5\",\n      \"context\": \"Right sidebar presenting category filter pills and a vertical list of recommended videos from 'Sourcery with Molly O'Shea'.\"\n    }\n  ],\n  \"conflicts\": [],\n  \"unknowns\": []\n}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0TAY6eIqm1+np+BNze2/RrUmXW3GIT0N4a8/xnK0KCTWvEtfomgI60UvRgpoeKJb9xdX9G3+P0rZpsNe9t8FL6YYkGU4g9s8mHit2NFbEBzR9sAsPGQkCnxyNOmn7USo6vaWk="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247129,
+    "id": "VYXTaqXaFa7Rg8UPi4H28As",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 340,
+      "prompt_tokens": 1855,
+      "total_tokens": 2195
+    }
+  }
+}

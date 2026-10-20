@@ -1,0 +1,29 @@
+{
+  "seconds": 8.893936833017506,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"video_player_container\",\"observations\":[\"Rounded rectangle container displaying the playing video frame\",\"White background within the video displaying company logos (Polymarket, Lighter, Figma, Varda, General Matter, Impulse Space, Hadrian, Enter) and header 'FOUNDERS FUND'\",\"Overlay text reading 'AT THE BEST PRICE POSSIBLE' in serif italic font over bottom logos\",\"Sourcery channel watermark icon in bottom right of the video screen\",\"A portion of the video title visible immediately below the player container\"],\"interpretations\":[\"Main HTML5 video player element on YouTube desktop watch page.\"],\"uncertainties\":[\"Player controls (play/pause, seekbar) are currently hidden/auto-faded.\"],\"children\":[{\"label\":\"video_display_frame\",\"bbox\":[32,54,968,916],\"inspect\":false,\"reason\":\"The core video presentation canvas itself\"},{\"label\":\"channel_watermark\",\"bbox\":[898, 775, 953, 866],\"inspect\":false,\"reason\":\"Branding overlay in player bottom right\"},{\"label\":\"video_title_snippet\",\"bbox\":[32,957,890,1000],\"inspect\":false,\"reason\":\"Top line of video title partially visible at bottom edge\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0TguQccSoHvbr8a62LNF1jusxbD37+XOrjw4tx9rPXaphSZYnoMx7iZte7yQXi2/vH6bi/QUkR3c67eXRt/jU4GK9FCHNpTuVXkmADQz8/DyhXobyRN26pnQSSToyE5QxUSMo="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247223,
+    "id": "sYXTasykEMzOg8UPzLr78As",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 267,
+      "prompt_tokens": 3667,
+      "total_tokens": 3934
+    }
+  }
+}

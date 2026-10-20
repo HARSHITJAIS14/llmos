@@ -1,0 +1,307 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Notion",
+    "complete": true,
+    "ref_count": 10,
+    "snapshot_id": "sxztsd8wtxais",
+    "tree": {
+      "bounds": {
+        "height": 803.0,
+        "width": 1087.0,
+        "x": 854.0,
+        "y": 30.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 803.0,
+            "width": 1087.0,
+            "x": 854.0,
+            "y": 30.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 803.0,
+                "width": 1087.0,
+                "x": 854.0,
+                "y": 30.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 803.0,
+                    "width": 1087.0,
+                    "x": 854.0,
+                    "y": 30.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 803.0,
+                        "width": 1087.0,
+                        "x": 854.0,
+                        "y": 30.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 803.0,
+                            "width": 1087.0,
+                            "x": 854.0,
+                            "y": 30.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 803.0,
+                                "width": 1087.0,
+                                "x": 854.0,
+                                "y": 30.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 29.0,
+                                    "width": 1087.0,
+                                    "x": 854.0,
+                                    "y": 30.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 1087.0,
+                                        "x": 854.0,
+                                        "y": 30.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 29.0,
+                                            "width": 1087.0,
+                                            "x": 854.0,
+                                            "y": 30.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 29.0,
+                                                "width": 1087.0,
+                                                "x": 854.0,
+                                                "y": 30.0
+                                              },
+                                              "children_count": 6,
+                                              "ref_id": "@sxztsd8wtxais:e3",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "native_id": {
+                                            "kind": "ax_dom_identifier",
+                                            "value": "root"
+                                          },
+                                          "ref_id": "@sxztsd8wtxais:e2",
+                                          "role": "group"
+                                        }
+                                      ],
+                                      "name": "Tab Bar",
+                                      "ref_id": "@sxztsd8wtxais:e1",
+                                      "role": "webarea",
+                                      "states": [
+                                        "focused"
+                                      ]
+                                    }
+                                  ],
+                                  "role": "group"
+                                },
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 774.0,
+                                    "width": 1087.0,
+                                    "x": 854.0,
+                                    "y": 59.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 774.0,
+                                        "width": 1087.0,
+                                        "x": 854.0,
+                                        "y": 59.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 774.0,
+                                            "width": 1087.0,
+                                            "x": 854.0,
+                                            "y": 59.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 774.0,
+                                                "width": 1087.0,
+                                                "x": 854.0,
+                                                "y": 59.0
+                                              },
+                                              "children_count": 4,
+                                              "native_id": {
+                                                "kind": "ax_dom_identifier",
+                                                "value": "notion-app"
+                                              },
+                                              "ref_id": "@sxztsd8wtxais:e6",
+                                              "role": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 13.0,
+                                                "width": 30.0,
+                                                "x": 854.0,
+                                                "y": 59.0
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@sxztsd8wtxais:e7",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "ref_id": "@sxztsd8wtxais:e5",
+                                          "role": "group"
+                                        }
+                                      ],
+                                      "name": "LLM OS",
+                                      "ref_id": "@sxztsd8wtxais:e4",
+                                      "role": "webarea",
+                                      "states": [
+                                        "focused"
+                                      ]
+                                    }
+                                  ],
+                                  "role": "group"
+                                }
+                              ],
+                              "role": "group"
+                            }
+                          ],
+                          "role": "group"
+                        }
+                      ],
+                      "role": "group"
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "name": "LLM OS ",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 867.0,
+            "y": 37.0
+          },
+          "ref_id": "@sxztsd8wtxais:e8",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 913.0,
+            "y": 37.0
+          },
+          "ref_id": "@sxztsd8wtxais:e9",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 890.0,
+            "y": 37.0
+          },
+          "ref_id": "@sxztsd8wtxais:e10",
+          "role": "button"
+        }
+      ],
+      "name": "LLM OS ",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28279",
+      "title": "LLM OS "
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "app": "YT Music",
+  "was_running": true,
+  "captures": {
+    "windows": 10,
+    "skeleton": {
+      "ok": true,
+      "bytes": 1333,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 106145,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "activated",
+  "pid": 11656,
+  "bundle_id": "com.apple.Safari.WebApp.4E77B8ED-130F-4DF1-A14B-151070D6DBB0",
+  "framework_signals": {
+    "exe": "/System/Volumes/Preboot/Cryptexes/App/System/Library/CoreServices/Web App.app/Contents/MacOS/Web App",
+    "bundle": "/System/Volumes/Preboot/Cryptexes/App/System/Library/CoreServices/Web App.app",
+    "frameworks": [],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 145.0,
+      "width": 125.0,
+      "x": 2576.0,
+      "y": 1033.0
+    },
+    "id": "w-27259",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "Pehli Mohabbat | YouTube Music",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 975,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 975,
+    "truncated_after": 0,
+    "bytes": 708944
+  }
+}

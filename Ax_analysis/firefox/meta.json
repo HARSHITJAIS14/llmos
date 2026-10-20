@@ -1,0 +1,65 @@
+{
+  "app": "Firefox",
+  "was_running": false,
+  "captures": {
+    "windows": 2,
+    "skeleton": {
+      "ok": true,
+      "bytes": 6616,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 21715,
+      "error": null
+    },
+    "surfaces": {
+      "ok": false,
+      "bytes": 1299,
+      "error": "AMBIGUOUS_TARGET"
+    }
+  },
+  "errors": [],
+  "capture_mode": "activated",
+  "pid": 25827,
+  "bundle_id": "org.mozilla.firefox",
+  "framework_signals": {
+    "exe": "/Applications/Firefox.app/Contents/MacOS/firefox",
+    "bundle": "/Applications/Firefox.app",
+    "frameworks": [
+      "ChannelPrefs.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Firefox",
+    "bounds": {
+      "height": 108.0,
+      "width": 92.0,
+      "x": 15.0,
+      "y": 775.0
+    },
+    "id": "w-28142",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25827,
+    "process_instance": "macos-proc-v1:1788103718:965662",
+    "title": "New Tab",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 288,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 288,
+    "truncated_after": 0,
+    "bytes": 215717
+  }
+}

@@ -1,0 +1,1591 @@
+{
+  "source": "OpenCV closed-contour proposals; not a trained UI detector",
+  "image_sha256": "45c99e383ce40036a21537d9061ddba43270372ba3a0edc2d5c0d620977b8dd8",
+  "image_size": [
+    1840,
+    872
+  ],
+  "items": [
+    {
+      "id": "S0001",
+      "kind": "shape_proposal",
+      "bbox": [
+        1125,
+        300,
+        1140,
+        321
+      ]
+    },
+    {
+      "id": "S0002",
+      "kind": "shape_proposal",
+      "bbox": [
+        1125,
+        540,
+        1140,
+        561
+      ]
+    },
+    {
+      "id": "S0003",
+      "kind": "shape_proposal",
+      "bbox": [
+        1125,
+        580,
+        1140,
+        601
+      ]
+    },
+    {
+      "id": "S0004",
+      "kind": "shape_proposal",
+      "bbox": [
+        1142,
+        180,
+        1157,
+        201
+      ]
+    },
+    {
+      "id": "S0005",
+      "kind": "shape_proposal",
+      "bbox": [
+        1142,
+        380,
+        1157,
+        401
+      ]
+    },
+    {
+      "id": "S0006",
+      "kind": "shape_proposal",
+      "bbox": [
+        1146,
+        340,
+        1161,
+        361
+      ]
+    },
+    {
+      "id": "S0007",
+      "kind": "shape_proposal",
+      "bbox": [
+        1146,
+        420,
+        1161,
+        441
+      ]
+    },
+    {
+      "id": "S0008",
+      "kind": "shape_proposal",
+      "bbox": [
+        1147,
+        500,
+        1162,
+        521
+      ]
+    },
+    {
+      "id": "S0009",
+      "kind": "shape_proposal",
+      "bbox": [
+        1178,
+        260,
+        1193,
+        281
+      ]
+    },
+    {
+      "id": "S0010",
+      "kind": "shape_proposal",
+      "bbox": [
+        1183,
+        500,
+        1198,
+        521
+      ]
+    },
+    {
+      "id": "S0011",
+      "kind": "shape_proposal",
+      "bbox": [
+        1232,
+        260,
+        1247,
+        281
+      ]
+    },
+    {
+      "id": "S0012",
+      "kind": "shape_proposal",
+      "bbox": [
+        1232,
+        340,
+        1247,
+        361
+      ]
+    },
+    {
+      "id": "S0013",
+      "kind": "shape_proposal",
+      "bbox": [
+        1268,
+        460,
+        1283,
+        481
+      ]
+    },
+    {
+      "id": "S0014",
+      "kind": "shape_proposal",
+      "bbox": [
+        1279,
+        420,
+        1294,
+        441
+      ]
+    },
+    {
+      "id": "S0015",
+      "kind": "shape_proposal",
+      "bbox": [
+        110,
+        575,
+        129,
+        594
+      ]
+    },
+    {
+      "id": "S0016",
+      "kind": "shape_proposal",
+      "bbox": [
+        1528,
+        541,
+        1547,
+        560
+      ]
+    },
+    {
+      "id": "S0017",
+      "kind": "shape_proposal",
+      "bbox": [
+        601,
+        380,
+        619,
+        401
+      ]
+    },
+    {
+      "id": "S0018",
+      "kind": "shape_proposal",
+      "bbox": [
+        1116,
+        502,
+        1138,
+        521
+      ]
+    },
+    {
+      "id": "S0019",
+      "kind": "shape_proposal",
+      "bbox": [
+        1184,
+        622,
+        1206,
+        641
+      ]
+    },
+    {
+      "id": "S0020",
+      "kind": "shape_proposal",
+      "bbox": [
+        1201,
+        222,
+        1223,
+        241
+      ]
+    },
+    {
+      "id": "S0021",
+      "kind": "shape_proposal",
+      "bbox": [
+        1201,
+        262,
+        1223,
+        281
+      ]
+    },
+    {
+      "id": "S0022",
+      "kind": "shape_proposal",
+      "bbox": [
+        1201,
+        462,
+        1223,
+        481
+      ]
+    },
+    {
+      "id": "S0023",
+      "kind": "shape_proposal",
+      "bbox": [
+        1202,
+        342,
+        1224,
+        361
+      ]
+    },
+    {
+      "id": "S0024",
+      "kind": "shape_proposal",
+      "bbox": [
+        1202,
+        422,
+        1224,
+        441
+      ]
+    },
+    {
+      "id": "S0025",
+      "kind": "shape_proposal",
+      "bbox": [
+        1180,
+        302,
+        1203,
+        321
+      ]
+    },
+    {
+      "id": "S0026",
+      "kind": "shape_proposal",
+      "bbox": [
+        1180,
+        542,
+        1203,
+        561
+      ]
+    },
+    {
+      "id": "S0027",
+      "kind": "shape_proposal",
+      "bbox": [
+        1180,
+        582,
+        1203,
+        601
+      ]
+    },
+    {
+      "id": "S0028",
+      "kind": "shape_proposal",
+      "bbox": [
+        1197,
+        182,
+        1220,
+        201
+      ]
+    },
+    {
+      "id": "S0029",
+      "kind": "shape_proposal",
+      "bbox": [
+        1197,
+        382,
+        1220,
+        401
+      ]
+    },
+    {
+      "id": "S0030",
+      "kind": "shape_proposal",
+      "bbox": [
+        1774,
+        38,
+        1795,
+        59
+      ]
+    },
+    {
+      "id": "S0031",
+      "kind": "shape_proposal",
+      "bbox": [
+        85,
+        42,
+        111,
+        62
+      ]
+    },
+    {
+      "id": "S0032",
+      "kind": "shape_proposal",
+      "bbox": [
+        1037,
+        180,
+        1063,
+        201
+      ]
+    },
+    {
+      "id": "S0033",
+      "kind": "shape_proposal",
+      "bbox": [
+        1037,
+        380,
+        1063,
+        401
+      ]
+    },
+    {
+      "id": "S0034",
+      "kind": "shape_proposal",
+      "bbox": [
+        171,
+        387,
+        206,
+        403
+      ]
+    },
+    {
+      "id": "S0035",
+      "kind": "shape_proposal",
+      "bbox": [
+        636,
+        625,
+        664,
+        645
+      ]
+    },
+    {
+      "id": "S0036",
+      "kind": "shape_proposal",
+      "bbox": [
+        525,
+        225,
+        561,
+        241
+      ]
+    },
+    {
+      "id": "S0037",
+      "kind": "shape_proposal",
+      "bbox": [
+        54,
+        196,
+        87,
+        214
+      ]
+    },
+    {
+      "id": "S0038",
+      "kind": "shape_proposal",
+      "bbox": [
+        57,
+        708,
+        90,
+        726
+      ]
+    },
+    {
+      "id": "S0039",
+      "kind": "shape_proposal",
+      "bbox": [
+        1251,
+        380,
+        1280,
+        401
+      ]
+    },
+    {
+      "id": "S0040",
+      "kind": "shape_proposal",
+      "bbox": [
+        1252,
+        180,
+        1281,
+        201
+      ]
+    },
+    {
+      "id": "S0041",
+      "kind": "shape_proposal",
+      "bbox": [
+        54,
+        392,
+        93,
+        408
+      ]
+    },
+    {
+      "id": "S0042",
+      "kind": "shape_proposal",
+      "bbox": [
+        1037,
+        220,
+        1067,
+        241
+      ]
+    },
+    {
+      "id": "S0043",
+      "kind": "shape_proposal",
+      "bbox": [
+        1037,
+        260,
+        1067,
+        281
+      ]
+    },
+    {
+      "id": "S0044",
+      "kind": "shape_proposal",
+      "bbox": [
+        1037,
+        340,
+        1067,
+        361
+      ]
+    },
+    {
+      "id": "S0045",
+      "kind": "shape_proposal",
+      "bbox": [
+        1037,
+        420,
+        1067,
+        441
+      ]
+    },
+    {
+      "id": "S0046",
+      "kind": "shape_proposal",
+      "bbox": [
+        1037,
+        460,
+        1067,
+        481
+      ]
+    },
+    {
+      "id": "S0047",
+      "kind": "shape_proposal",
+      "bbox": [
+        1142,
+        300,
+        1172,
+        321
+      ]
+    },
+    {
+      "id": "S0048",
+      "kind": "shape_proposal",
+      "bbox": [
+        1142,
+        540,
+        1172,
+        561
+      ]
+    },
+    {
+      "id": "S0049",
+      "kind": "shape_proposal",
+      "bbox": [
+        1142,
+        580,
+        1172,
+        601
+      ]
+    },
+    {
+      "id": "S0050",
+      "kind": "shape_proposal",
+      "bbox": [
+        1159,
+        180,
+        1189,
+        201
+      ]
+    },
+    {
+      "id": "S0051",
+      "kind": "shape_proposal",
+      "bbox": [
+        1159,
+        380,
+        1189,
+        401
+      ]
+    },
+    {
+      "id": "S0052",
+      "kind": "shape_proposal",
+      "bbox": [
+        1163,
+        340,
+        1193,
+        361
+      ]
+    },
+    {
+      "id": "S0053",
+      "kind": "shape_proposal",
+      "bbox": [
+        1163,
+        420,
+        1193,
+        441
+      ]
+    },
+    {
+      "id": "S0054",
+      "kind": "shape_proposal",
+      "bbox": [
+        1236,
+        540,
+        1266,
+        561
+      ]
+    },
+    {
+      "id": "S0055",
+      "kind": "shape_proposal",
+      "bbox": [
+        56,
+        380,
+        90,
+        399
+      ]
+    },
+    {
+      "id": "S0056",
+      "kind": "shape_proposal",
+      "bbox": [
+        1204,
+        501,
+        1239,
+        520
+      ]
+    },
+    {
+      "id": "S0057",
+      "kind": "shape_proposal",
+      "bbox": [
+        1288,
+        181,
+        1323,
+        200
+      ]
+    },
+    {
+      "id": "S0058",
+      "kind": "shape_proposal",
+      "bbox": [
+        147,
+        574,
+        179,
+        595
+      ]
+    },
+    {
+      "id": "S0059",
+      "kind": "shape_proposal",
+      "bbox": [
+        56,
+        321,
+        90,
+        341
+      ]
+    },
+    {
+      "id": "S0060",
+      "kind": "shape_proposal",
+      "bbox": [
+        483,
+        539,
+        513,
+        562
+      ]
+    },
+    {
+      "id": "S0061",
+      "kind": "shape_proposal",
+      "bbox": [
+        144,
+        702,
+        177,
+        723
+      ]
+    },
+    {
+      "id": "S0062",
+      "kind": "shape_proposal",
+      "bbox": [
+        1517,
+        39,
+        1542,
+        67
+      ]
+    },
+    {
+      "id": "S0063",
+      "kind": "shape_proposal",
+      "bbox": [
+        109,
+        702,
+        141,
+        724
+      ]
+    },
+    {
+      "id": "S0064",
+      "kind": "shape_proposal",
+      "bbox": [
+        62,
+        441,
+        85,
+        472
+      ]
+    },
+    {
+      "id": "S0065",
+      "kind": "shape_proposal",
+      "bbox": [
+        1286,
+        380,
+        1322,
+        400
+      ]
+    },
+    {
+      "id": "S0066",
+      "kind": "shape_proposal",
+      "bbox": [
+        1288,
+        260,
+        1324,
+        280
+      ]
+    },
+    {
+      "id": "S0067",
+      "kind": "shape_proposal",
+      "bbox": [
+        1293,
+        340,
+        1329,
+        360
+      ]
+    },
+    {
+      "id": "S0068",
+      "kind": "shape_proposal",
+      "bbox": [
+        1265,
+        581,
+        1303,
+        600
+      ]
+    },
+    {
+      "id": "S0069",
+      "kind": "shape_proposal",
+      "bbox": [
+        1270,
+        301,
+        1308,
+        320
+      ]
+    },
+    {
+      "id": "S0070",
+      "kind": "shape_proposal",
+      "bbox": [
+        1271,
+        541,
+        1309,
+        560
+      ]
+    },
+    {
+      "id": "S0071",
+      "kind": "shape_proposal",
+      "bbox": [
+        1274,
+        621,
+        1312,
+        640
+      ]
+    },
+    {
+      "id": "S0072",
+      "kind": "shape_proposal",
+      "bbox": [
+        1286,
+        221,
+        1324,
+        240
+      ]
+    },
+    {
+      "id": "S0073",
+      "kind": "shape_proposal",
+      "bbox": [
+        1287,
+        461,
+        1325,
+        480
+      ]
+    },
+    {
+      "id": "S0074",
+      "kind": "shape_proposal",
+      "bbox": [
+        1299,
+        421,
+        1337,
+        440
+      ]
+    },
+    {
+      "id": "S0075",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        177,
+        512,
+        203
+      ]
+    },
+    {
+      "id": "S0076",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        217,
+        512,
+        243
+      ]
+    },
+    {
+      "id": "S0077",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        257,
+        512,
+        283
+      ]
+    },
+    {
+      "id": "S0078",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        297,
+        512,
+        323
+      ]
+    },
+    {
+      "id": "S0079",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        337,
+        512,
+        363
+      ]
+    },
+    {
+      "id": "S0080",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        377,
+        512,
+        403
+      ]
+    },
+    {
+      "id": "S0081",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        417,
+        512,
+        443
+      ]
+    },
+    {
+      "id": "S0082",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        457,
+        512,
+        483
+      ]
+    },
+    {
+      "id": "S0083",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        497,
+        512,
+        523
+      ]
+    },
+    {
+      "id": "S0084",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        577,
+        512,
+        603
+      ]
+    },
+    {
+      "id": "S0085",
+      "kind": "shape_proposal",
+      "bbox": [
+        484,
+        617,
+        512,
+        643
+      ]
+    },
+    {
+      "id": "S0086",
+      "kind": "shape_proposal",
+      "bbox": [
+        590,
+        420,
+        625,
+        441
+      ]
+    },
+    {
+      "id": "S0087",
+      "kind": "shape_proposal",
+      "bbox": [
+        1399,
+        121,
+        1441,
+        139
+      ]
+    },
+    {
+      "id": "S0088",
+      "kind": "shape_proposal",
+      "bbox": [
+        1593,
+        121,
+        1637,
+        139
+      ]
+    },
+    {
+      "id": "S0089",
+      "kind": "shape_proposal",
+      "bbox": [
+        1231,
+        620,
+        1269,
+        641
+      ]
+    },
+    {
+      "id": "S0090",
+      "kind": "shape_proposal",
+      "bbox": [
+        59,
+        123,
+        88,
+        152
+      ]
+    },
+    {
+      "id": "S0091",
+      "kind": "shape_proposal",
+      "bbox": [
+        59,
+        507,
+        88,
+        536
+      ]
+    },
+    {
+      "id": "S0092",
+      "kind": "shape_proposal",
+      "bbox": [
+        1037,
+        121,
+        1084,
+        139
+      ]
+    },
+    {
+      "id": "S0093",
+      "kind": "shape_proposal",
+      "bbox": [
+        563,
+        225,
+        616,
+        241
+      ]
+    },
+    {
+      "id": "S0094",
+      "kind": "shape_proposal",
+      "bbox": [
+        56,
+        828,
+        92,
+        852
+      ]
+    },
+    {
+      "id": "S0095",
+      "kind": "shape_proposal",
+      "bbox": [
+        83,
+        39,
+        119,
+        64
+      ]
+    },
+    {
+      "id": "S0096",
+      "kind": "shape_proposal",
+      "bbox": [
+        1131,
+        260,
+        1176,
+        281
+      ]
+    },
+    {
+      "id": "S0097",
+      "kind": "shape_proposal",
+      "bbox": [
+        1589,
+        37,
+        1620,
+        68
+      ]
+    },
+    {
+      "id": "S0098",
+      "kind": "shape_proposal",
+      "bbox": [
+        59,
+        438,
+        88,
+        474
+      ]
+    },
+    {
+      "id": "S0099",
+      "kind": "shape_proposal",
+      "bbox": [
+        525,
+        460,
+        567,
+        485
+      ]
+    },
+    {
+      "id": "S0100",
+      "kind": "shape_proposal",
+      "bbox": [
+        1771,
+        35,
+        1803,
+        68
+      ]
+    },
+    {
+      "id": "S0101",
+      "kind": "shape_proposal",
+      "bbox": [
+        524,
+        580,
+        575,
+        601
+      ]
+    },
+    {
+      "id": "S0102",
+      "kind": "shape_proposal",
+      "bbox": [
+        582,
+        620,
+        633,
+        641
+      ]
+    },
+    {
+      "id": "S0103",
+      "kind": "shape_proposal",
+      "bbox": [
+        1378,
+        40,
+        1415,
+        69
+      ]
+    },
+    {
+      "id": "S0104",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        540,
+        1646,
+        561
+      ]
+    },
+    {
+      "id": "S0105",
+      "kind": "shape_proposal",
+      "bbox": [
+        525,
+        121,
+        586,
+        139
+      ]
+    },
+    {
+      "id": "S0106",
+      "kind": "shape_proposal",
+      "bbox": [
+        1056,
+        300,
+        1101,
+        325
+      ]
+    },
+    {
+      "id": "S0107",
+      "kind": "shape_proposal",
+      "bbox": [
+        1056,
+        540,
+        1101,
+        565
+      ]
+    },
+    {
+      "id": "S0108",
+      "kind": "shape_proposal",
+      "bbox": [
+        1056,
+        580,
+        1101,
+        605
+      ]
+    },
+    {
+      "id": "S0109",
+      "kind": "shape_proposal",
+      "bbox": [
+        1060,
+        620,
+        1105,
+        645
+      ]
+    },
+    {
+      "id": "S0110",
+      "kind": "shape_proposal",
+      "bbox": [
+        1077,
+        220,
+        1122,
+        245
+      ]
+    },
+    {
+      "id": "S0111",
+      "kind": "shape_proposal",
+      "bbox": [
+        1077,
+        460,
+        1122,
+        485
+      ]
+    },
+    {
+      "id": "S0112",
+      "kind": "shape_proposal",
+      "bbox": [
+        1514,
+        32,
+        1545,
+        69
+      ]
+    },
+    {
+      "id": "S0113",
+      "kind": "shape_proposal",
+      "bbox": [
+        57,
+        120,
+        91,
+        154
+      ]
+    },
+    {
+      "id": "S0114",
+      "kind": "shape_proposal",
+      "bbox": [
+        57,
+        504,
+        91,
+        538
+      ]
+    },
+    {
+      "id": "S0115",
+      "kind": "shape_proposal",
+      "bbox": [
+        525,
+        262,
+        586,
+        281
+      ]
+    },
+    {
+      "id": "S0116",
+      "kind": "shape_proposal",
+      "bbox": [
+        54,
+        697,
+        93,
+        728
+      ]
+    },
+    {
+      "id": "S0117",
+      "kind": "shape_proposal",
+      "bbox": [
+        110,
+        382,
+        168,
+        403
+      ]
+    },
+    {
+      "id": "S0118",
+      "kind": "shape_proposal",
+      "bbox": [
+        53,
+        313,
+        93,
+        344
+      ]
+    },
+    {
+      "id": "S0119",
+      "kind": "shape_proposal",
+      "bbox": [
+        53,
+        377,
+        93,
+        408
+      ]
+    },
+    {
+      "id": "S0120",
+      "kind": "shape_proposal",
+      "bbox": [
+        194,
+        830,
+        255,
+        851
+      ]
+    },
+    {
+      "id": "S0121",
+      "kind": "shape_proposal",
+      "bbox": [
+        1114,
+        620,
+        1175,
+        641
+      ]
+    },
+    {
+      "id": "S0122",
+      "kind": "shape_proposal",
+      "bbox": [
+        1131,
+        220,
+        1192,
+        241
+      ]
+    },
+    {
+      "id": "S0123",
+      "kind": "shape_proposal",
+      "bbox": [
+        1131,
+        460,
+        1192,
+        481
+      ]
+    },
+    {
+      "id": "S0124",
+      "kind": "shape_proposal",
+      "bbox": [
+        51,
+        185,
+        96,
+        216
+      ]
+    },
+    {
+      "id": "S0125",
+      "kind": "shape_proposal",
+      "bbox": [
+        524,
+        542,
+        585,
+        565
+      ]
+    },
+    {
+      "id": "S0126",
+      "kind": "shape_proposal",
+      "bbox": [
+        1585,
+        34,
+        1623,
+        72
+      ]
+    },
+    {
+      "id": "S0127",
+      "kind": "shape_proposal",
+      "bbox": [
+        525,
+        182,
+        592,
+        205
+      ]
+    },
+    {
+      "id": "S0128",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        180,
+        1668,
+        201
+      ]
+    },
+    {
+      "id": "S0129",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        220,
+        1668,
+        241
+      ]
+    },
+    {
+      "id": "S0130",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        260,
+        1668,
+        281
+      ]
+    },
+    {
+      "id": "S0131",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        300,
+        1668,
+        321
+      ]
+    },
+    {
+      "id": "S0132",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        340,
+        1668,
+        361
+      ]
+    },
+    {
+      "id": "S0133",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        380,
+        1668,
+        401
+      ]
+    },
+    {
+      "id": "S0134",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        420,
+        1668,
+        441
+      ]
+    },
+    {
+      "id": "S0135",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        460,
+        1668,
+        481
+      ]
+    },
+    {
+      "id": "S0136",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        500,
+        1668,
+        521
+      ]
+    },
+    {
+      "id": "S0137",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        580,
+        1668,
+        601
+      ]
+    },
+    {
+      "id": "S0138",
+      "kind": "shape_proposal",
+      "bbox": [
+        1594,
+        620,
+        1668,
+        641
+      ]
+    },
+    {
+      "id": "S0139",
+      "kind": "shape_proposal",
+      "bbox": [
+        109,
+        830,
+        184,
+        851
+      ]
+    },
+    {
+      "id": "S0140",
+      "kind": "shape_proposal",
+      "bbox": [
+        1092,
+        121,
+        1181,
+        139
+      ]
+    },
+    {
+      "id": "S0141",
+      "kind": "shape_proposal",
+      "bbox": [
+        109,
+        190,
+        192,
+        211
+      ]
+    },
+    {
+      "id": "S0142",
+      "kind": "shape_proposal",
+      "bbox": [
+        525,
+        505,
+        621,
+        524
+      ]
+    },
+    {
+      "id": "S0143",
+      "kind": "shape_proposal",
+      "bbox": [
+        49,
+        783,
+        153,
+        801
+      ]
+    },
+    {
+      "id": "S0144",
+      "kind": "shape_proposal",
+      "bbox": [
+        110,
+        127,
+        205,
+        147
+      ]
+    },
+    {
+      "id": "S0145",
+      "kind": "shape_proposal",
+      "bbox": [
+        622,
+        380,
+        715,
+        401
+      ]
+    },
+    {
+      "id": "S0146",
+      "kind": "shape_proposal",
+      "bbox": [
+        49,
+        271,
+        160,
+        289
+      ]
+    },
+    {
+      "id": "S0147",
+      "kind": "shape_proposal",
+      "bbox": [
+        110,
+        318,
+        208,
+        343
+      ]
+    },
+    {
+      "id": "S0148",
+      "kind": "shape_proposal",
+      "bbox": [
+        110,
+        447,
+        245,
+        467
+      ]
+    },
+    {
+      "id": "S0149",
+      "kind": "shape_proposal",
+      "bbox": [
+        593,
+        180,
+        702,
+        205
+      ]
+    },
+    {
+      "id": "S0150",
+      "kind": "shape_proposal",
+      "bbox": [
+        110,
+        510,
+        241,
+        531
+      ]
+    },
+    {
+      "id": "S0151",
+      "kind": "shape_proposal",
+      "bbox": [
+        108,
+        638,
+        256,
+        663
+      ]
+    },
+    {
+      "id": "S0152",
+      "kind": "shape_proposal",
+      "bbox": [
+        621,
+        500,
+        794,
+        525
+      ]
+    },
+    {
+      "id": "S0153",
+      "kind": "shape_proposal",
+      "bbox": [
+        32,
+        32,
+        164,
+        72
+      ]
+    },
+    {
+      "id": "S0154",
+      "kind": "shape_proposal",
+      "bbox": [
+        1750,
+        16,
+        1824,
+        88
+      ]
+    },
+    {
+      "id": "S0155",
+      "kind": "shape_proposal",
+      "bbox": [
+        1228,
+        16,
+        1326,
+        88
+      ]
+    },
+    {
+      "id": "S0156",
+      "kind": "shape_proposal",
+      "bbox": [
+        1359,
+        16,
+        1458,
+        88
+      ]
+    },
+    {
+      "id": "S0157",
+      "kind": "shape_proposal",
+      "bbox": [
+        446,
+        15,
+        592,
+        88
+      ]
+    },
+    {
+      "id": "S0158",
+      "kind": "shape_proposal",
+      "bbox": [
+        1494,
+        15,
+        1714,
+        88
+      ]
+    }
+  ],
+  "processing_ms": 14.600042020902038
+}

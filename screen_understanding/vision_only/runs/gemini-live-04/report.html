@@ -1,0 +1,117 @@
+<!doctype html><meta charset="utf-8"><title>Recursive screen interpretation</title><style>body{font:16px system-ui;background:#f5f5f5;max-width:1200px;margin:32px auto;padding:16px}img{max-width:100%;height:auto}article{background:white;padding:24px;margin:24px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}</style><h1>Recursive screen interpretation</h1><p>Model hypotheses; inspect evidence and uncertainty.</p><img src="overview.png"><h2>Reconciled context</h2><pre>{}</pre><article id="r0"><h2>r0: browser_window</h2><img src="crops/r0.png"><pre>{
+  &quot;id&quot;: &quot;r0&quot;,
+  &quot;parent&quot;: null,
+  &quot;depth&quot;: 0,
+  &quot;label&quot;: &quot;browser_window&quot;,
+  &quot;box&quot;: [
+    0,
+    0,
+    2398,
+    1830
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;crop_file&quot;: &quot;crops/r0.png&quot;,
+  &quot;crop_box&quot;: [
+    0,
+    0,
+    2398,
+    1830
+  ],
+  &quot;observations&quot;: [
+    &quot;macOS dark-themed browser window displaying YouTube Premium&quot;,
+    &quot;Video player showing a slide with &#x27;FOUNDERS FUND&#x27; and various startup logos (Polymarket, Lighter, Figma, VARDA, General Matter, IMPULSE, HADRIAN, ENTER)&quot;,
+    &quot;Video title: &#x27;Brian Singerman: \&quot;If SpaceX Didn&#x27;t Work, Founders Fund Wouldn&#x27;t Exist\&quot;&#x27;&quot;,
+    &quot;Channel: &#x27;Sourcery with Molly O&#x27;Shea&#x27;&quot;,
+    &quot;Right sidebar with recommended/series videos related to Sourcery and SpaceX/finance topics&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;Standard YouTube desktop interface watching a business/tech podcast interview episode&quot;
+  ],
+  &quot;uncertainties&quot;: [],
+  &quot;proposal_issues&quot;: []
+}</pre></article><article id="r1"><h2>r1: video_player</h2><img src="crops/r1.png"><pre>{
+  &quot;id&quot;: &quot;r1&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_player&quot;,
+  &quot;box&quot;: [
+    139,
+    388,
+    1549,
+    1180
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Main video player area&quot;,
+  &quot;crop_file&quot;: &quot;crops/r1.png&quot;,
+  &quot;crop_box&quot;: [
+    91,
+    340,
+    1597,
+    1228
+  ]
+}</pre></article><article id="r2"><h2>r2: video_details</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r2&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_details&quot;,
+  &quot;box&quot;: [
+    139,
+    1210,
+    1549,
+    1404
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Title, channel info, subscribe button, and engagement actions&quot;
+}</pre></article><article id="r3"><h2>r3: video_description</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r3&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_description&quot;,
+  &quot;box&quot;: [
+    139,
+    1420,
+    1549,
+    1627
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Video description box containing summary text&quot;
+}</pre></article><article id="r4"><h2>r4: sidebar_recommendations</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r4&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;sidebar_recommendations&quot;,
+  &quot;box&quot;: [
+    1573,
+    388,
+    2233,
+    1651
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;List of recommended next videos in the series&quot;
+}</pre></article><article id="r5"><h2>r5: youtube_header</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r5&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;youtube_header&quot;,
+  &quot;box&quot;: [
+    139,
+    253,
+    2233,
+    366
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;YouTube top navigation bar with search and profile icon&quot;
+}</pre></article><article id="r6"><h2>r6: browser_tabbar_and_url</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r6&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;browser_tabbar_and_url&quot;,
+  &quot;box&quot;: [
+    110,
+    82,
+    2283,
+    242
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Safari browser address bar and tab bar&quot;
+}</pre></article>

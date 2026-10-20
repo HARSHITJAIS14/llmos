@@ -1,0 +1,470 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Firefox",
+    "complete": true,
+    "ref_count": 36,
+    "snapshot_id": "sx58x08ua5c9r",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "Click",
+            "RightClick",
+            "ScrollTo",
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Sidebars",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "sidebar-button"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e3",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Back",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "back-button"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e4",
+                  "role": "button",
+                  "states": [
+                    "disabled"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Forward",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "forward-button"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e5",
+                  "role": "button",
+                  "states": [
+                    "disabled"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Reload",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "reload-button"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e6",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "customizableui-special-spring1"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e7",
+                  "role": "splitter"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "vertical-spacer"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e8",
+                  "role": "splitter"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "children_count": 2,
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "urlbar"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e9",
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "customizableui-special-spring2"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e10",
+                  "role": "splitter"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Account",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "fxa-toolbar-menu-button"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e11",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Extensions",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "unified-extensions-button"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e12",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "List all tabs",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "alltabs-button"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e13",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Firefox",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "PanelUI-menu-button"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e14",
+                  "role": "button"
+                }
+              ],
+              "name": "Navigation",
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "nav-bar"
+              },
+              "ref_id": "@sx58x08ua5c9r:e2",
+              "role": "toolbar"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Problemset - Codeforces",
+                  "ref_id": "@sx58x08ua5c9r:e16",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Surge",
+                  "ref_id": "@sx58x08ua5c9r:e17",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Machine_learning",
+                  "ref_id": "@sx58x08ua5c9r:e18",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "CS315: Principles of Database Systems",
+                  "ref_id": "@sx58x08ua5c9r:e19",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "CS220",
+                  "ref_id": "@sx58x08ua5c9r:e20",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "HDLBits",
+                  "ref_id": "@sx58x08ua5c9r:e21",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "AtCoder Problems",
+                  "ref_id": "@sx58x08ua5c9r:e22",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "IITK_Resources_Semester_4/CS220/Prev Offerings/CS220/Exams/Midsem solutions.pdf at main \u00b7 AritraAmbudhDutta/IITK_Resources_Semester_4 \u00b7 GitHub",
+                  "ref_id": "@sx58x08ua5c9r:e23",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Department of CSE, IIT Kanpur - Login",
+                  "ref_id": "@sx58x08ua5c9r:e24",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Show more bookmarks",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "PlacesChevron"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e25",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "name": "Other Bookmarks",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "OtherBookmarks"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e26",
+                  "role": "button"
+                }
+              ],
+              "name": "Bookmarks",
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "PersonalToolbar"
+              },
+              "ref_id": "@sx58x08ua5c9r:e15",
+              "role": "toolbar"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "notifications-toolbar"
+              },
+              "ref_id": "@sx58x08ua5c9r:e27",
+              "role": "toolbar"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "children_count": 2,
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "tabbrowser-tabs"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e29",
+                  "role": "tablist"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "children_count": 1,
+                  "ref_id": "@sx58x08ua5c9r:e30",
+                  "role": "group"
+                }
+              ],
+              "ref_id": "@sx58x08ua5c9r:e28",
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "children_count": 1,
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "panel-3-1"
+                  },
+                  "ref_id": "@sx58x08ua5c9r:e32",
+                  "role": "tabpanel"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "tabbrowser-tabpanels"
+              },
+              "ref_id": "@sx58x08ua5c9r:e31",
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "a11y-announcement"
+              },
+              "ref_id": "@sx58x08ua5c9r:e33",
+              "role": "alert",
+              "states": [
+                "offscreen"
+              ]
+            }
+          ],
+          "name": "New Tab",
+          "ref_id": "@sx58x08ua5c9r:e1",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@sx58x08ua5c9r:e34",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@sx58x08ua5c9r:e35",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@sx58x08ua5c9r:e36",
+          "role": "button"
+        }
+      ],
+      "name": "New Tab",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28142",
+      "title": "New Tab"
+    }
+  }
+}

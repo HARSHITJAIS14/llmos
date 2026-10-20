@@ -1,0 +1,1730 @@
+{
+  "metadata": {
+    "capture_bounds": {
+      "height": 408.0,
+      "width": 230.0,
+      "x": 387.0,
+      "y": 267.0
+    },
+    "image_size": [
+      460,
+      816
+    ],
+    "ax_origin": "top_left",
+    "screenshot_time": 1792426155.5811796,
+    "ax_time": 1792426155.426791,
+    "max_skew_ms": 250,
+    "screenshot_window_id": "w-47190",
+    "ax_window_id": "w-47190",
+    "ax_snapshot_id": "s10ye2ulmqsjlu",
+    "validation": {
+      "window_geometry_unchanged": true,
+      "process_instance_unchanged": true,
+      "ax_signature_unchanged": true,
+      "ax_root_matches_capture_bounds": true,
+      "screenshot_sha256": "6c1bdd5850d3b505410106779e200d321a4910dd98ab8fb4401bb4feae3ba8c1",
+      "ax_before_ms": 191.21217727661133,
+      "screenshot_ms": 116.57905578613281,
+      "ax_after_ms": 192.98982620239258,
+      "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim."
+    }
+  },
+  "observation": {
+    "snapshot_id": "s10ye2ulmqsjlu",
+    "app": "Calculator",
+    "reported_complete": true,
+    "frontier_count": 0,
+    "frontiers": [],
+    "filtered": {
+      "invalid_bounds": 0,
+      "outside_capture": 0,
+      "hidden": 0
+    },
+    "total_nodes": 35,
+    "projected_nodes": 35
+  },
+  "all_projected_nodes": [
+    {
+      "id": "0",
+      "ref": null,
+      "parent": null,
+      "role": "window",
+      "name": "Calculator",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0",
+      "ref": null,
+      "parent": "0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0",
+      "ref": null,
+      "parent": "0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [
+        "SetFocus"
+      ],
+      "bbox": [
+        0.0,
+        106.0,
+        460.0,
+        814.0
+      ],
+      "full_bbox": [
+        0.0,
+        106.0,
+        460.0,
+        814.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.0",
+      "ref": "@s10ye2ulmqsjlu:e1",
+      "parent": "0.0.0.0.0",
+      "role": "scrollarea",
+      "name": "Edit field",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Scroll"
+      ],
+      "bbox": [
+        20.0,
+        172.0,
+        440.0,
+        256.0
+      ],
+      "full_bbox": [
+        20.0,
+        172.0,
+        440.0,
+        256.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0.0.0.0",
+      "role": "statictext",
+      "name": "\u200e0",
+      "value": "\u200e0",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        402.0,
+        178.0,
+        440.0,
+        250.0
+      ],
+      "full_bbox": [
+        402.0,
+        178.0,
+        440.0,
+        250.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A006"
+    },
+    {
+      "id": "0.0.0.0.0.1",
+      "ref": "@s10ye2ulmqsjlu:e2",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Delete",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        266.0,
+        116.0,
+        362.0
+      ],
+      "full_bbox": [
+        20.0,
+        266.0,
+        116.0,
+        362.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A007"
+    },
+    {
+      "id": "0.0.0.0.0.2",
+      "ref": "@s10ye2ulmqsjlu:e3",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "All Clear",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        266.0,
+        224.0,
+        362.0
+      ],
+      "full_bbox": [
+        128.0,
+        266.0,
+        224.0,
+        362.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A008"
+    },
+    {
+      "id": "0.0.0.0.0.3",
+      "ref": "@s10ye2ulmqsjlu:e4",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Per cent",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        266.0,
+        332.0,
+        362.0
+      ],
+      "full_bbox": [
+        236.0,
+        266.0,
+        332.0,
+        362.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A009"
+    },
+    {
+      "id": "0.0.0.0.0.4",
+      "ref": "@s10ye2ulmqsjlu:e5",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Divide",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        266.0,
+        440.0,
+        362.0
+      ],
+      "full_bbox": [
+        344.0,
+        266.0,
+        440.0,
+        362.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A010"
+    },
+    {
+      "id": "0.0.0.0.0.5",
+      "ref": "@s10ye2ulmqsjlu:e6",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "7",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        374.0,
+        116.0,
+        470.0
+      ],
+      "full_bbox": [
+        20.0,
+        374.0,
+        116.0,
+        470.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A011"
+    },
+    {
+      "id": "0.0.0.0.0.6",
+      "ref": "@s10ye2ulmqsjlu:e7",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "8",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        374.0,
+        224.0,
+        470.0
+      ],
+      "full_bbox": [
+        128.0,
+        374.0,
+        224.0,
+        470.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A012"
+    },
+    {
+      "id": "0.0.0.0.0.7",
+      "ref": "@s10ye2ulmqsjlu:e8",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "9",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        374.0,
+        332.0,
+        470.0
+      ],
+      "full_bbox": [
+        236.0,
+        374.0,
+        332.0,
+        470.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A013"
+    },
+    {
+      "id": "0.0.0.0.0.8",
+      "ref": "@s10ye2ulmqsjlu:e9",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Multiply",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        374.0,
+        440.0,
+        470.0
+      ],
+      "full_bbox": [
+        344.0,
+        374.0,
+        440.0,
+        470.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A014"
+    },
+    {
+      "id": "0.0.0.0.0.9",
+      "ref": "@s10ye2ulmqsjlu:e10",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "4",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        482.0,
+        116.0,
+        578.0
+      ],
+      "full_bbox": [
+        20.0,
+        482.0,
+        116.0,
+        578.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A015"
+    },
+    {
+      "id": "0.0.0.0.0.10",
+      "ref": "@s10ye2ulmqsjlu:e11",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "5",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        482.0,
+        224.0,
+        578.0
+      ],
+      "full_bbox": [
+        128.0,
+        482.0,
+        224.0,
+        578.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A016"
+    },
+    {
+      "id": "0.0.0.0.0.11",
+      "ref": "@s10ye2ulmqsjlu:e12",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "6",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        482.0,
+        332.0,
+        578.0
+      ],
+      "full_bbox": [
+        236.0,
+        482.0,
+        332.0,
+        578.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A017"
+    },
+    {
+      "id": "0.0.0.0.0.12",
+      "ref": "@s10ye2ulmqsjlu:e13",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Subtract",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        482.0,
+        440.0,
+        578.0
+      ],
+      "full_bbox": [
+        344.0,
+        482.0,
+        440.0,
+        578.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A018"
+    },
+    {
+      "id": "0.0.0.0.0.13",
+      "ref": "@s10ye2ulmqsjlu:e14",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "1",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        590.0,
+        116.0,
+        686.0
+      ],
+      "full_bbox": [
+        20.0,
+        590.0,
+        116.0,
+        686.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A019"
+    },
+    {
+      "id": "0.0.0.0.0.14",
+      "ref": "@s10ye2ulmqsjlu:e15",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "2",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        590.0,
+        224.0,
+        686.0
+      ],
+      "full_bbox": [
+        128.0,
+        590.0,
+        224.0,
+        686.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A020"
+    },
+    {
+      "id": "0.0.0.0.0.15",
+      "ref": "@s10ye2ulmqsjlu:e16",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "3",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        590.0,
+        332.0,
+        686.0
+      ],
+      "full_bbox": [
+        236.0,
+        590.0,
+        332.0,
+        686.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A021"
+    },
+    {
+      "id": "0.0.0.0.0.16",
+      "ref": "@s10ye2ulmqsjlu:e17",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Add",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        590.0,
+        440.0,
+        686.0
+      ],
+      "full_bbox": [
+        344.0,
+        590.0,
+        440.0,
+        686.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A022"
+    },
+    {
+      "id": "0.0.0.0.0.17",
+      "ref": "@s10ye2ulmqsjlu:e18",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Change Sign",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        698.0,
+        116.0,
+        794.0
+      ],
+      "full_bbox": [
+        20.0,
+        698.0,
+        116.0,
+        794.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A023"
+    },
+    {
+      "id": "0.0.0.0.0.18",
+      "ref": "@s10ye2ulmqsjlu:e19",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "0",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        698.0,
+        224.0,
+        794.0
+      ],
+      "full_bbox": [
+        128.0,
+        698.0,
+        224.0,
+        794.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A024"
+    },
+    {
+      "id": "0.0.0.0.0.19",
+      "ref": "@s10ye2ulmqsjlu:e20",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Point",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        698.0,
+        332.0,
+        794.0
+      ],
+      "full_bbox": [
+        236.0,
+        698.0,
+        332.0,
+        794.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A025"
+    },
+    {
+      "id": "0.0.0.0.0.20",
+      "ref": "@s10ye2ulmqsjlu:e21",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Equals",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        698.0,
+        440.0,
+        794.0
+      ],
+      "full_bbox": [
+        344.0,
+        698.0,
+        440.0,
+        794.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A026"
+    },
+    {
+      "id": "0.1",
+      "ref": "@s10ye2ulmqsjlu:e22",
+      "parent": "0",
+      "role": "toolbar",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        104.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        104.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.1.0",
+      "ref": "@s10ye2ulmqsjlu:e23",
+      "parent": "0.1",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetValue",
+        "SetFocus"
+      ],
+      "bbox": [
+        200.0,
+        0.0,
+        296.0,
+        104.0
+      ],
+      "full_bbox": [
+        200.0,
+        0.0,
+        296.0,
+        104.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A001"
+    },
+    {
+      "id": "0.1.1",
+      "ref": "@s10ye2ulmqsjlu:e24",
+      "parent": "0.1",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetValue"
+      ],
+      "bbox": [
+        364.0,
+        0.0,
+        452.0,
+        104.0
+      ],
+      "full_bbox": [
+        364.0,
+        0.0,
+        452.0,
+        104.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A002"
+    },
+    {
+      "id": "0.2",
+      "ref": "@s10ye2ulmqsjlu:e25",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "full_bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A003"
+    },
+    {
+      "id": "0.3",
+      "ref": "@s10ye2ulmqsjlu:e26",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [
+        "disabled"
+      ],
+      "actions": [
+        "Click",
+        "RightClick"
+      ],
+      "bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "full_bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A005"
+    },
+    {
+      "id": "0.3.0",
+      "ref": null,
+      "parent": "0.3",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "full_bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.3.0.0",
+      "ref": null,
+      "parent": "0.3.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "full_bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.4",
+      "ref": "@s10ye2ulmqsjlu:e27",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "full_bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A004"
+    }
+  ],
+  "display_nodes": [
+    {
+      "id": "0.1.0",
+      "ref": "@s10ye2ulmqsjlu:e23",
+      "parent": "0.1",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetValue",
+        "SetFocus"
+      ],
+      "bbox": [
+        200.0,
+        0.0,
+        296.0,
+        104.0
+      ],
+      "full_bbox": [
+        200.0,
+        0.0,
+        296.0,
+        104.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A001"
+    },
+    {
+      "id": "0.1.1",
+      "ref": "@s10ye2ulmqsjlu:e24",
+      "parent": "0.1",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetValue"
+      ],
+      "bbox": [
+        364.0,
+        0.0,
+        452.0,
+        104.0
+      ],
+      "full_bbox": [
+        364.0,
+        0.0,
+        452.0,
+        104.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A002"
+    },
+    {
+      "id": "0.2",
+      "ref": "@s10ye2ulmqsjlu:e25",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "full_bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A003"
+    },
+    {
+      "id": "0.4",
+      "ref": "@s10ye2ulmqsjlu:e27",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "full_bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A004"
+    },
+    {
+      "id": "0.3",
+      "ref": "@s10ye2ulmqsjlu:e26",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [
+        "disabled"
+      ],
+      "actions": [
+        "Click",
+        "RightClick"
+      ],
+      "bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "full_bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A005"
+    },
+    {
+      "id": "0.0.0.0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0.0.0.0",
+      "role": "statictext",
+      "name": "\u200e0",
+      "value": "\u200e0",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        402.0,
+        178.0,
+        440.0,
+        250.0
+      ],
+      "full_bbox": [
+        402.0,
+        178.0,
+        440.0,
+        250.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A006"
+    },
+    {
+      "id": "0.0.0.0.0.1",
+      "ref": "@s10ye2ulmqsjlu:e2",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Delete",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        266.0,
+        116.0,
+        362.0
+      ],
+      "full_bbox": [
+        20.0,
+        266.0,
+        116.0,
+        362.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A007"
+    },
+    {
+      "id": "0.0.0.0.0.2",
+      "ref": "@s10ye2ulmqsjlu:e3",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "All Clear",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        266.0,
+        224.0,
+        362.0
+      ],
+      "full_bbox": [
+        128.0,
+        266.0,
+        224.0,
+        362.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A008"
+    },
+    {
+      "id": "0.0.0.0.0.3",
+      "ref": "@s10ye2ulmqsjlu:e4",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Per cent",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        266.0,
+        332.0,
+        362.0
+      ],
+      "full_bbox": [
+        236.0,
+        266.0,
+        332.0,
+        362.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A009"
+    },
+    {
+      "id": "0.0.0.0.0.4",
+      "ref": "@s10ye2ulmqsjlu:e5",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Divide",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        266.0,
+        440.0,
+        362.0
+      ],
+      "full_bbox": [
+        344.0,
+        266.0,
+        440.0,
+        362.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A010"
+    },
+    {
+      "id": "0.0.0.0.0.5",
+      "ref": "@s10ye2ulmqsjlu:e6",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "7",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        374.0,
+        116.0,
+        470.0
+      ],
+      "full_bbox": [
+        20.0,
+        374.0,
+        116.0,
+        470.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A011"
+    },
+    {
+      "id": "0.0.0.0.0.6",
+      "ref": "@s10ye2ulmqsjlu:e7",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "8",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        374.0,
+        224.0,
+        470.0
+      ],
+      "full_bbox": [
+        128.0,
+        374.0,
+        224.0,
+        470.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A012"
+    },
+    {
+      "id": "0.0.0.0.0.7",
+      "ref": "@s10ye2ulmqsjlu:e8",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "9",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        374.0,
+        332.0,
+        470.0
+      ],
+      "full_bbox": [
+        236.0,
+        374.0,
+        332.0,
+        470.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A013"
+    },
+    {
+      "id": "0.0.0.0.0.8",
+      "ref": "@s10ye2ulmqsjlu:e9",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Multiply",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        374.0,
+        440.0,
+        470.0
+      ],
+      "full_bbox": [
+        344.0,
+        374.0,
+        440.0,
+        470.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A014"
+    },
+    {
+      "id": "0.0.0.0.0.9",
+      "ref": "@s10ye2ulmqsjlu:e10",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "4",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        482.0,
+        116.0,
+        578.0
+      ],
+      "full_bbox": [
+        20.0,
+        482.0,
+        116.0,
+        578.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A015"
+    },
+    {
+      "id": "0.0.0.0.0.10",
+      "ref": "@s10ye2ulmqsjlu:e11",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "5",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        482.0,
+        224.0,
+        578.0
+      ],
+      "full_bbox": [
+        128.0,
+        482.0,
+        224.0,
+        578.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A016"
+    },
+    {
+      "id": "0.0.0.0.0.11",
+      "ref": "@s10ye2ulmqsjlu:e12",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "6",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        482.0,
+        332.0,
+        578.0
+      ],
+      "full_bbox": [
+        236.0,
+        482.0,
+        332.0,
+        578.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A017"
+    },
+    {
+      "id": "0.0.0.0.0.12",
+      "ref": "@s10ye2ulmqsjlu:e13",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Subtract",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        482.0,
+        440.0,
+        578.0
+      ],
+      "full_bbox": [
+        344.0,
+        482.0,
+        440.0,
+        578.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A018"
+    },
+    {
+      "id": "0.0.0.0.0.13",
+      "ref": "@s10ye2ulmqsjlu:e14",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "1",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        590.0,
+        116.0,
+        686.0
+      ],
+      "full_bbox": [
+        20.0,
+        590.0,
+        116.0,
+        686.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A019"
+    },
+    {
+      "id": "0.0.0.0.0.14",
+      "ref": "@s10ye2ulmqsjlu:e15",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "2",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        590.0,
+        224.0,
+        686.0
+      ],
+      "full_bbox": [
+        128.0,
+        590.0,
+        224.0,
+        686.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A020"
+    },
+    {
+      "id": "0.0.0.0.0.15",
+      "ref": "@s10ye2ulmqsjlu:e16",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "3",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        590.0,
+        332.0,
+        686.0
+      ],
+      "full_bbox": [
+        236.0,
+        590.0,
+        332.0,
+        686.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A021"
+    },
+    {
+      "id": "0.0.0.0.0.16",
+      "ref": "@s10ye2ulmqsjlu:e17",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Add",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        590.0,
+        440.0,
+        686.0
+      ],
+      "full_bbox": [
+        344.0,
+        590.0,
+        440.0,
+        686.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A022"
+    },
+    {
+      "id": "0.0.0.0.0.17",
+      "ref": "@s10ye2ulmqsjlu:e18",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Change Sign",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        698.0,
+        116.0,
+        794.0
+      ],
+      "full_bbox": [
+        20.0,
+        698.0,
+        116.0,
+        794.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A023"
+    },
+    {
+      "id": "0.0.0.0.0.18",
+      "ref": "@s10ye2ulmqsjlu:e19",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "0",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        698.0,
+        224.0,
+        794.0
+      ],
+      "full_bbox": [
+        128.0,
+        698.0,
+        224.0,
+        794.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A024"
+    },
+    {
+      "id": "0.0.0.0.0.19",
+      "ref": "@s10ye2ulmqsjlu:e20",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Point",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        698.0,
+        332.0,
+        794.0
+      ],
+      "full_bbox": [
+        236.0,
+        698.0,
+        332.0,
+        794.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A025"
+    },
+    {
+      "id": "0.0.0.0.0.20",
+      "ref": "@s10ye2ulmqsjlu:e21",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Equals",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        698.0,
+        440.0,
+        794.0
+      ],
+      "full_bbox": [
+        344.0,
+        698.0,
+        440.0,
+        794.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A026"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+llmos_env/
+
+# Environment / Secret keys
+.env
+.env.local
+
+# Logs
+*.log
+
+# MCP Configs (Contains API Keys)
+.agents/mcp_config.json

@@ -1,0 +1,42 @@
+{
+  "image_size": [
+    1446,
+    1606
+  ],
+  "projected_nodes": 131,
+  "display_boxes": 111,
+  "named_controls_in_clean_view": 49,
+  "frame_check": {
+    "status": "blocked",
+    "reasons": [
+      "capture_time_skew"
+    ],
+    "skew_ms": 285.4440212249756,
+    "note": "Time proximity does not establish identical UI or occlusion."
+  },
+  "capture_validation": {
+    "window_geometry_unchanged": true,
+    "process_instance_unchanged": true,
+    "ax_signature_unchanged": false,
+    "ax_root_matches_capture_bounds": true,
+    "screenshot_sha256": "bd8fd453237e3e7b3c9d72b5bd83dbfc12492039b899b0496c47354e3e3cc4eb",
+    "ax_before_ms": 386.4729404449463,
+    "screenshot_ms": 183.02297592163086,
+    "ax_after_ms": 373.0330467224121,
+    "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim."
+  },
+  "observation": {
+    "snapshot_id": "szls3hralbl4",
+    "app": "System Settings",
+    "reported_complete": true,
+    "frontier_count": 0,
+    "frontiers": [],
+    "filtered": {
+      "invalid_bounds": 16,
+      "outside_capture": 0,
+      "hidden": 50
+    },
+    "total_nodes": 199,
+    "projected_nodes": 131
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "app_name": "Reminders",
+    "bounds": {
+      "height": 692.0,
+      "width": 768.0,
+      "x": 567.0,
+      "y": 565.0
+    },
+    "id": "w-28179",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26057,
+    "process_instance": "macos-proc-v1:1788103734:657709",
+    "title": "Reminders",
+    "visible": false
+  }
+]

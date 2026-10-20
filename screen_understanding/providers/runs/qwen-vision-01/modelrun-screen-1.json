@@ -1,0 +1,1714 @@
+{
+  "total_seconds": 4.226494917005766,
+  "headers_seconds": 3.8880197920370847,
+  "first_visible_seconds": 3.8881198330200277,
+  "content": "```json\n{\n  \"app\": \"YouTube\",\n  \"page\": \"Video Watch Page\",\n  \"regions\": [\n    \"Browser navigation and tabs\",\n    \"YouTube header with search and user controls\",\n    \"Main video player and description panel\",\n    \"Related video sidebar\"\n  ],\n  \"uncertainties\": [\n    \"Exact video playback state\"\n  ]\n}\n```",
+  "finish_reason": "stop",
+  "provider": "ModelRun",
+  "usage": {
+    "prompt_tokens": 4354,
+    "completion_tokens": 91,
+    "total_tokens": 4445,
+    "cost": 0.0010983,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0010983,
+      "upstream_inference_prompt_cost": 0.0008708,
+      "upstream_inference_completions_cost": 0.0002275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "received_done": true,
+  "chunks": [
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "```",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "json",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "{",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "app",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\":",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "YouTube",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\",",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "page",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\":",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Video",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " Watch",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " Page",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\",",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "regions",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\":",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " [",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "   ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Browser",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " navigation",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " and",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " tabs",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\",",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "   ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "YouTube",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " header",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " with",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " search",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " and",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " user",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " controls",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\",",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "   ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Main",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " video",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " player",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " and",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " description",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " panel",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\",",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "   ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Related",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " video",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " sidebar",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " ],",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "unc",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "ert",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "ainties",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\":",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " [",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "   ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " \"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Exact",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " video",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " playback",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " state",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " ",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " ]",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "}",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\n",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "```",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "",
+            "role": "assistant"
+          },
+          "finish_reason": "stop",
+          "native_finish_reason": "stop"
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294687-OAuFb4BvjYIusuw0ecNu",
+      "object": "chat.completion.chunk",
+      "created": 1792294687,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "",
+            "role": "assistant"
+          },
+          "finish_reason": "stop",
+          "native_finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 4354,
+        "completion_tokens": 91,
+        "total_tokens": 4445,
+        "cost": 0.0010983,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010983,
+          "upstream_inference_prompt_cost": 0.0008708,
+          "upstream_inference_completions_cost": 0.0002275
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

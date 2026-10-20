@@ -1,0 +1,138 @@
+[
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28354",
+    "is_focused": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": false
+  },
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28353",
+    "is_focused": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": false
+  },
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28351",
+    "is_focused": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": false
+  },
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28350",
+    "is_focused": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": false
+  },
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28349",
+    "is_focused": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": false
+  },
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28348",
+    "is_focused": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": false
+  },
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28347",
+    "is_focused": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": false
+  },
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 803.0,
+      "width": 1087.0,
+      "x": 1374.0,
+      "y": 333.0
+    },
+    "id": "w-28255",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": true
+  },
+  {
+    "app_name": "Microsoft Word",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28352",
+    "is_focused": false,
+    "pid": 26857,
+    "process_instance": "macos-proc-v1:1788103838:904612",
+    "title": "Microsoft Word",
+    "visible": false
+  }
+]

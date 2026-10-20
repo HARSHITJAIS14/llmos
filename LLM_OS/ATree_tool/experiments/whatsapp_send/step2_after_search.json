@@ -1,0 +1,1048 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "‎WhatsApp",
+    "complete": true,
+    "ref_count": 57,
+    "snapshot_id": "s1a166leaaxqu2",
+    "tree": {
+      "bounds": {
+        "height": 803,
+        "width": 1087,
+        "x": 2753,
+        "y": 565
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 803,
+            "width": 1087,
+            "x": 2753,
+            "y": 565
+          },
+          "children": [
+            {
+              "available_actions": [
+                "RightClick",
+                "ScrollTo"
+              ],
+              "bounds": {
+                "height": 803,
+                "width": 1087,
+                "x": 2753,
+                "y": 565
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 167,
+                    "x": 2653,
+                    "y": 565
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 803,
+                        "width": 167,
+                        "x": 2653,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 693,
+                            "width": 67,
+                            "x": 2753,
+                            "y": 565
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 609
+                              },
+                              "name": "‎Chats",
+                              "ref_id": "@s1a166leaaxqu2:e5",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 661
+                              },
+                              "name": "‎Calls",
+                              "ref_id": "@s1a166leaaxqu2:e6",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 713
+                              },
+                              "name": "‎Updates",
+                              "ref_id": "@s1a166leaaxqu2:e7",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 777.5
+                              },
+                              "name": "‎Archived",
+                              "ref_id": "@s1a166leaaxqu2:e8",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 829.5
+                              },
+                              "name": "‎Starred",
+                              "ref_id": "@s1a166leaaxqu2:e9",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 894
+                              },
+                              "name": "‎Chats",
+                              "ref_id": "@s1a166leaaxqu2:e10",
+                              "role": "button"
+                            }
+                          ],
+                          "name": "‎Main Navigation",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Sidebar_view"
+                          },
+                          "ref_id": "@s1a166leaaxqu2:e4",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 100,
+                            "width": 67,
+                            "x": 2753,
+                            "y": 1258
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 67,
+                                "x": 2753,
+                                "y": 1258
+                              },
+                              "name": "‎Settings",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "MediaHub"
+                              },
+                              "ref_id": "@s1a166leaaxqu2:e12",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 67,
+                                "x": 2753,
+                                "y": 1310
+                              },
+                              "name": "‎Settings",
+                              "ref_id": "@s1a166leaaxqu2:e13",
+                              "role": "button"
+                            }
+                          ],
+                          "ref_id": "@s1a166leaaxqu2:e11",
+                          "role": "group"
+                        }
+                      ],
+                      "ref_id": "@s1a166leaaxqu2:e3",
+                      "role": "group"
+                    }
+                  ],
+                  "ref_id": "@s1a166leaaxqu2:e2",
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo",
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 1,
+                    "x": 2820,
+                    "y": 565
+                  },
+                  "ref_id": "@s1a166leaaxqu2:e14",
+                  "role": "splitter",
+                  "value": "6.1637535"
+                },
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 375,
+                    "x": 2821,
+                    "y": 565
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 92,
+                        "width": 375,
+                        "x": 2821,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 20,
+                            "width": 48,
+                            "x": 2841,
+                            "y": 581
+                          },
+                          "name": "‎Chats",
+                          "ref_id": "@s1a166leaaxqu2:e17",
+                          "role": "heading"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 32,
+                            "width": 32.5,
+                            "x": 3154,
+                            "y": 575
+                          },
+                          "name": "‎New Chat",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "NavigationBar_NewChatButton"
+                          },
+                          "ref_id": "@s1a166leaaxqu2:e18",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 32,
+                            "width": 355,
+                            "x": 2831,
+                            "y": 617
+                          },
+                          "description": "‎Search",
+                          "name": "silicon gaddha",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "TokenizedSearchBar_TextView"
+                          },
+                          "ref_id": "@s1a166leaaxqu2:e19",
+                          "role": "textfield",
+                          "value": "silicon gaddha"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 17,
+                            "width": 13,
+                            "x": 3166,
+                            "y": 624
+                          },
+                          "name": "‎Clear text",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "TokenizedSearchBar_DeleteButton"
+                          },
+                          "ref_id": "@s1a166leaaxqu2:e20",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 32,
+                            "width": 355,
+                            "x": 2831,
+                            "y": 617
+                          },
+                          "ref_id": "@s1a166leaaxqu2:e21",
+                          "role": "button"
+                        }
+                      ],
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "Toolbar"
+                      },
+                      "ref_id": "@s1a166leaaxqu2:e16",
+                      "role": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 803,
+                        "width": 375,
+                        "x": 2821,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 803,
+                            "width": 375,
+                            "x": 2821,
+                            "y": 565
+                          },
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "PopoverDismissRegion"
+                          },
+                          "ref_id": "@s1a166leaaxqu2:e23",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 803,
+                            "width": 375,
+                            "x": 2821,
+                            "y": 565
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo"
+                              ],
+                              "bounds": {
+                                "height": 51,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 657
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 19,
+                                    "width": 355,
+                                    "x": 2831,
+                                    "y": 681
+                                  },
+                                  "name": "‎Chats",
+                                  "ref_id": "@s1a166leaaxqu2:e26",
+                                  "role": "heading"
+                                }
+                              ],
+                              "ref_id": "@s1a166leaaxqu2:e25",
+                              "role": "heading"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 708
+                              },
+                              "name": "Silicon Gaddha",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "ChatListSearchView_ChatResult"
+                              },
+                              "ref_id": "@s1a166leaaxqu2:e27",
+                              "role": "button",
+                              "value": "‎Your message, To kaafi help aayega orchestration waale layer me, 20Augustat9:19 PM, ‎Sent to Silicon Gaddha, ‎Delivered"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo"
+                              ],
+                              "bounds": {
+                                "height": 51,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 776
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 19,
+                                    "width": 355,
+                                    "x": 2831,
+                                    "y": 800
+                                  },
+                                  "name": "‎Messages",
+                                  "ref_id": "@s1a166leaaxqu2:e29",
+                                  "role": "heading"
+                                }
+                              ],
+                              "ref_id": "@s1a166leaaxqu2:e28",
+                              "role": "heading"
+                            },
+                            {
+                              "available_actions": [
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 99,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 827
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 99,
+                                    "width": 375,
+                                    "x": 2821,
+                                    "y": 827
+                                  },
+                                  "name": "‎Preparing results (23%)",
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "ChatListSearchView_LoadingRow"
+                                  },
+                                  "ref_id": "@s1a166leaaxqu2:e31",
+                                  "role": "statictext"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 16,
+                                    "width": 16,
+                                    "x": 2891,
+                                    "y": 869
+                                  },
+                                  "name": "In progress",
+                                  "ref_id": "@s1a166leaaxqu2:e32",
+                                  "role": "group",
+                                  "value": "1"
+                                }
+                              ],
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "ChatListSearchView_LoadingRow"
+                              },
+                              "ref_id": "@s1a166leaaxqu2:e30",
+                              "role": "group"
+                            }
+                          ],
+                          "name": "Search results",
+                          "ref_id": "@s1a166leaaxqu2:e24",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo",
+                            "Scroll"
+                          ],
+                          "bounds": {
+                            "height": 803,
+                            "width": 375,
+                            "x": 2821,
+                            "y": 565
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 657
+                              },
+                              "name": "@justharshitj",
+                              "ref_id": "@s1a166leaaxqu2:e34",
+                              "role": "button",
+                              "value": "‎Your photo, 21Augustat3:18 AM, ‎Sent to ‎You, ‎Pinned"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 725.5
+                              },
+                              "name": "Harshita",
+                              "ref_id": "@s1a166leaaxqu2:e35",
+                              "role": "button",
+                              "value": "‎Your message, Koshish to krta hu 🫶🫶, 3:27 AM, ‎Sent to Harshita, ‎Delivered"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 794
+                              },
+                              "name": "Arul Gupta B3",
+                              "ref_id": "@s1a166leaaxqu2:e36",
+                              "role": "button",
+                              "value": "‎Reacted 😮 to \"Rohan\""
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 862.5
+                              },
+                              "name": "Anurag Che",
+                              "ref_id": "@s1a166leaaxqu2:e37",
+                              "role": "button",
+                              "value": "‎message, And all, 12:51 AM, ‎Received from Anurag Che"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 931
+                              },
+                              "name": "Vishesh Che",
+                              "ref_id": "@s1a166leaaxqu2:e38",
+                              "role": "button",
+                              "value": "‎message, accha theek hai, 6Julyat3:17 PM, ‎Received from Vishesh Che"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 999.5
+                              },
+                              "name": "IITK Y23 Community, ‎Announcement group",
+                              "ref_id": "@s1a166leaaxqu2:e39",
+                              "role": "button",
+                              "value": "‎Group members have changed. Click to view., 4:03 AM"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1068
+                              },
+                              "name": "INFO GROUP Y23",
+                              "ref_id": "@s1a166leaaxqu2:e40",
+                              "role": "button",
+                              "value": "‎Message from ‎Maybe Muskan, ‎Link, THE CITY CLASH. ⚡\n\nOne battleground. Countless squads.\nA ₹50,000 Prize Pool awaits! 🏆🔥\n\nBATTLEGROUNDS CITY CLASH — BGMI is taking the fight across India, bringing together the best squads from Jaipur, Patna, Noida, Lucknow, Ghaziabad, Prayagraj & Bhopal.\n\nCity Qualifiers: August–September\n Prize Pool: ₹50,000 — Cash Prizes + Exciting Goodies + Certificates + More Rewards\nGame: BGMI\n\nYour city has a squad.\nYour squad has a story.\nNow, make it legendary.\n\nAnd when the action goes live, catch every intense moment on Udghosh IIT Kanpur YouTube.🔥\n\n#BattlegroundsCityClash #BGMI #UdghoshIITKanpur #IITKanpur #esports\n               https://www.instagram.com/p/DcT7SpBjBQK/?igsi=NW53MjF0M3F2d25j, Udghosh, IIT Kanpur on Instagram: \"THE CITY CLASH. ⚡\n\nOne battleground. Countless squads.\nA ₹50,000 Prize Pool awaits! 🏆🔥\n\nBATTLEGROUNDS CITY CLASH — BGMI is taking the fight across India, bringing together the best squads from Jaipur, Patna, Noida, Lucknow, Ghaziabad, Prayagraj & Bhopal.\n\nCity Qualifiers: August–September\n Prize Pool: ₹50,000 — Cash Prizes + Exciting Goodies + Certificates + More Rewards\nGame: BGMI\n\nYour city has a squad.\nYour squad has a story.\nNow, make it legendary.\n\nAnd when the action goes live, catch every intense moment on Udghosh IIT Kanpur YouTube.🔥\n\n#BattlegroundsCityClash #BGMI #UdghoshIITKanpur #IITKanpur #esports\", 21Augustat11:59 PM, ‎Received in INFO GROUP Y23, ‎Muted"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1136.5
+                              },
+                              "name": "Che 453 2.0 🥹",
+                              "ref_id": "@s1a166leaaxqu2:e41",
+                              "role": "button",
+                              "value": "‎Harshit Anand reacted 🔥 to \"Kudos @⁨Harshit Anand Chemical⁩\""
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1205
+                              },
+                              "name": "Arpit B",
+                              "ref_id": "@s1a166leaaxqu2:e42",
+                              "role": "button",
+                              "value": "‎Your album with 2 photos, ‎Sent to Arpit B, ‎Delivered"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1273.5
+                              },
+                              "name": "Ankit Yadav C-410 Yadav C-410",
+                              "ref_id": "@s1a166leaaxqu2:e43",
+                              "role": "button",
+                              "value": "‎message, Theek h, 21Augustat6:50 PM, ‎Received from Ankit Yadav C-410 Yadav C-410"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1342
+                              },
+                              "name": "Love (IITK) 🚩🚩bhai",
+                              "ref_id": "@s1a166leaaxqu2:e44",
+                              "role": "button",
+                              "value": "‎Your message, ye le le, 21Augustat6:13 PM, ‎Sent to Love (IITK) 🚩🚩bhai, ‎Red"
+                            },
+                            {
+                              "available_actions": [
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 15,
+                                "width": 266,
+                                "x": 2876,
+                                "y": 43176.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "Scroll"
+                                  ],
+                                  "bounds": {
+                                    "height": 13,
+                                    "width": 251,
+                                    "x": 2891,
+                                    "y": 43176.5
+                                  },
+                                  "name": "‎Your personal messages are end-to-end encrypted",
+                                  "ref_id": "@s1a166leaaxqu2:e46",
+                                  "role": "statictext"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "Scroll",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 13,
+                                    "width": 111.52931809425354,
+                                    "x": 3029.9736222028732,
+                                    "y": 43176.5
+                                  },
+                                  "name": "end-to-end encrypted",
+                                  "ref_id": "@s1a166leaaxqu2:e47",
+                                  "role": "link"
+                                }
+                              ],
+                              "ref_id": "@s1a166leaaxqu2:e45",
+                              "role": "group"
+                            }
+                          ],
+                          "name": "‎List of chats",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "ChatListView_TableView"
+                          },
+                          "ref_id": "@s1a166leaaxqu2:e33",
+                          "role": "group"
+                        }
+                      ],
+                      "ref_id": "@s1a166leaaxqu2:e22",
+                      "role": "group"
+                    }
+                  ],
+                  "ref_id": "@s1a166leaaxqu2:e15",
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo",
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 1,
+                    "x": 3196,
+                    "y": 565
+                  },
+                  "ref_id": "@s1a166leaaxqu2:e48",
+                  "role": "splitter",
+                  "value": "34.49862"
+                },
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 643,
+                    "x": 3197,
+                    "y": 565
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 803,
+                        "width": 643,
+                        "x": 3197,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 103,
+                            "width": 603,
+                            "x": 3217,
+                            "y": 915
+                          },
+                          "ref_id": "@s1a166leaaxqu2:e51",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 15,
+                            "width": 266,
+                            "x": 3386,
+                            "y": 1287
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo"
+                              ],
+                              "bounds": {
+                                "height": 13,
+                                "width": 251,
+                                "x": 3401,
+                                "y": 1287
+                              },
+                              "name": "‎Your personal messages are end-to-end encrypted",
+                              "ref_id": "@s1a166leaaxqu2:e53",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 13,
+                                "width": 111.52931809425354,
+                                "x": 3539.9736222028732,
+                                "y": 1287
+                              },
+                              "name": "end-to-end encrypted",
+                              "ref_id": "@s1a166leaaxqu2:e54",
+                              "role": "link"
+                            }
+                          ],
+                          "ref_id": "@s1a166leaaxqu2:e52",
+                          "role": "group"
+                        }
+                      ],
+                      "ref_id": "@s1a166leaaxqu2:e50",
+                      "role": "group"
+                    }
+                  ],
+                  "ref_id": "@s1a166leaaxqu2:e49",
+                  "role": "group"
+                }
+              ],
+              "ref_id": "@s1a166leaaxqu2:e1",
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 14,
+            "width": 12,
+            "x": 2761,
+            "y": 572
+          },
+          "ref_id": "@s1a166leaaxqu2:e55",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 14,
+            "width": 12,
+            "x": 2801,
+            "y": 572
+          },
+          "ref_id": "@s1a166leaaxqu2:e56",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 14,
+            "width": 12,
+            "x": 2781,
+            "y": 572
+          },
+          "ref_id": "@s1a166leaaxqu2:e57",
+          "role": "button"
+        }
+      ],
+      "name": "‎WhatsApp",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "SceneWindow"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-68232",
+      "title": "‎WhatsApp"
+    }
+  }
+}

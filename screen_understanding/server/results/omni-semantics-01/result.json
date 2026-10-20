@@ -1,0 +1,3913 @@
+{
+  "gpu": "NVIDIA A40",
+  "torch": "2.5.1+cu124",
+  "load_seconds": 7.328668426722288,
+  "variant": "OmniParser V2 detector + EasyOCR GPU + Florence2 icon captions; upstream overlap merge",
+  "settings": {
+    "imgsz": 1280,
+    "detector_conf": 0.1,
+    "detector_nms_iou": 0.1,
+    "merge_iou": 0.7,
+    "ocr_text_threshold": 0.9,
+    "crop_size": 64,
+    "caption_batch": 128,
+    "caption_max_tokens": 20,
+    "cpu_threads": 4
+  },
+  "image_size": [
+    2398,
+    1830
+  ],
+  "runs": [
+    {
+      "ocr_seconds": 2.8893501181155443,
+      "detector_seconds": 0.7110748831182718,
+      "merge_crop_seconds": 0.021135829389095306,
+      "caption_seconds": 0.4842016529291868,
+      "total_seconds": 4.105762483552098,
+      "ocr_count": 97,
+      "caption_count": 20,
+      "count": 80,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.4653878231859883,
+            0.060109289617486336,
+            0.5350291909924938,
+            0.08032786885245902
+          ],
+          "interactivity": false,
+          "content": "youtube.com",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8156797331109258,
+            0.22404371584699453,
+            0.8849040867389492,
+            0.24043715846994534
+          ],
+          "interactivity": false,
+          "content": "From Source",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10758965804837364,
+            0.25956284153005466,
+            0.18306922435362802,
+            0.27049180327868855
+          ],
+          "interactivity": false,
+          "content": "FOUNDERS FUND",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8315262718932444,
+            0.2633879781420765,
+            0.9028356964136781,
+            0.2797814207650273
+          ],
+          "interactivity": false,
+          "content": "Tom Mueller:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8306922435362802,
+            0.2830601092896175,
+            0.8969974979149291,
+            0.3043715846994536
+          ],
+          "interactivity": false,
+          "content": "SpaceXs #1",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8302752293577982,
+            0.307103825136612,
+            0.9174311926605505,
+            0.32459016393442625
+          ],
+          "interactivity": false,
+          "content": "Sourcery with Moll:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8440366972477065,
+            0.3300546448087432,
+            0.8698915763135947,
+            0.3453551912568306
+          ],
+          "interactivity": false,
+          "content": "361k",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8815679733110926,
+            0.33114754098360655,
+            0.9174311926605505,
+            0.346448087431694
+          ],
+          "interactivity": false,
+          "content": "mo ago",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8498748957464554,
+            0.3519125683060109,
+            0.9107589658048374,
+            0.36721311475409835
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09841534612176814,
+            0.5224043715846994,
+            0.1651376146788991,
+            0.5366120218579234
+          ],
+          "interactivity": false,
+          "content": "General Matter",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.25771476230191825,
+            0.521311475409836,
+            0.31693077564637195,
+            0.5377049180327869
+          ],
+          "interactivity": false,
+          "content": "MPULSE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3273561301084237,
+            0.5163934426229508,
+            0.3798999165971643,
+            0.5382513661202186
+          ],
+          "interactivity": false,
+          "content": "AT THE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.38824020016680566,
+            0.5174863387978142,
+            0.4691409507923269,
+            0.5415300546448087
+          ],
+          "interactivity": false,
+          "content": "HADRIAN",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5400333611342786,
+            0.5174863387978142,
+            0.6201000834028357,
+            0.5415300546448087
+          ],
+          "interactivity": false,
+          "content": "ENTERJ",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.24228523769808175,
+            0.5371584699453552,
+            0.46747289407839865,
+            0.5710382513661202
+          ],
+          "interactivity": false,
+          "content": "BEST PRICE POSSIBLE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.057964970809007504,
+            0.6601092896174864,
+            0.5963302752293578,
+            0.6934426229508197
+          ],
+          "interactivity": false,
+          "content": "Brian Singerman: \"If SpaceX Didnt Work, Founders Fund Wouldnt Exist\"",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07756463719766472,
+            0.6907103825136612,
+            0.13844870725604672,
+            0.7071038251366121
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10133444537114263,
+            0.7191256830601093,
+            0.26688907422852376,
+            0.7437158469945355
+          ],
+          "interactivity": false,
+          "content": "Sourcery with Molly 0'Shea",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10175145954962468,
+            0.7453551912568306,
+            0.1834862385321101,
+            0.760655737704918
+          ],
+          "interactivity": false,
+          "content": "68.8k subscribers",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8490408673894912,
+            0.7453551912568306,
+            0.9107589658048374,
+            0.7633879781420765
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06922435362802336,
+            0.7923497267759563,
+            0.12343619683069225,
+            0.8098360655737705
+          ],
+          "interactivity": false,
+          "content": "12k views",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13636363636363635,
+            0.7918032786885246,
+            0.25396163469557964,
+            0.812568306010929
+          ],
+          "interactivity": false,
+          "content": "months ago Sourcery",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06880733944954129,
+            0.8131147540983606,
+            0.19099249374478733,
+            0.8360655737704918
+          ],
+          "interactivity": false,
+          "content": "Brian Singerman spent",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20391993327773145,
+            0.8131147540983606,
+            0.6376146788990825,
+            0.8366120218579235
+          ],
+          "interactivity": false,
+          "content": "years at Founders Fund, where he helped drive large concentrated investments into",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06880733944954129,
+            0.8344262295081967,
+            0.6242702251876564,
+            0.8579234972677595
+          ],
+          "interactivity": false,
+          "content": "companies like SpaceX, Palantir; Airbnb, Stripe, Stemcentrx, Anduril; and Affirm. He recently left to co-found",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06922435362802336,
+            0.8590163934426229,
+            0.09591326105087573,
+            0.8765027322404372
+          ],
+          "interactivity": false,
+          "content": "GPx,",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10383653044203503,
+            0.8568306010928962,
+            0.30900750625521267,
+            0.8792349726775956
+          ],
+          "interactivity": false,
+          "content": "new fund backing emerging managers:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.31984987489574646,
+            0.8562841530054645,
+            0.5846538782318599,
+            0.8792349726775956
+          ],
+          "interactivity": false,
+          "content": "this episode we break down the philosophy behind",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.603836530442035,
+            0.8601092896174863,
+            0.6330275229357798,
+            0.8743169398907104
+          ],
+          "interactivity": false,
+          "content": "more",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6564894573603003,
+            0.39213637054943645,
+            0.8262349972633445,
+            0.5177771062798838
+          ],
+          "interactivity": true,
+          "content": "Etle Romo Cnl coo Imei SPACEX EMPLOYEES #18#13 47:58 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6558952426989939,
+            0.7872058972634904,
+            0.8263469883757297,
+            0.9138697889984632
+          ],
+          "interactivity": true,
+          "content": "Michol Dol Buono dlbti SPACEX IPO 57:12 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6559668661058695,
+            0.26001772020683916,
+            0.8263554895192609,
+            0.3860968918096824
+          ],
+          "interactivity": true,
+          "content": "SpaceX #1 44.00 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.7462242196459289,
+            0.1476234144200393,
+            0.8356406217420768,
+            0.19363868588306865
+          ],
+          "interactivity": true,
+          "content": "Create ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6565936090948186,
+            0.6553221322148224,
+            0.826533249957647,
+            0.7821844048838797
+          ],
+          "interactivity": true,
+          "content": "S50 BILLION DEAL CcO 1:07:18 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.28418938491223156,
+            0.7178817665642077,
+            0.3653697824358841,
+            0.7640407541410519
+          ],
+          "interactivity": true,
+          "content": "Subscribe ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5224124758913679,
+            0.7179888282317282,
+            0.6067321624628597,
+            0.7643030385502049
+          ],
+          "interactivity": true,
+          "content": "Share ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.39719279514341377,
+            0.7177733707949112,
+            0.5182847889191514,
+            0.7641317398821721
+          ],
+          "interactivity": true,
+          "content": "314 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.574520871478185,
+            0.09910483438460553,
+            0.7375992750306245,
+            0.13254964859759222
+          ],
+          "interactivity": true,
+          "content": "Brian Singerman. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.18727883027930176,
+            0.048425092853483606,
+            0.25197068724262406,
+            0.09113999663806352
+          ],
+          "interactivity": true,
+          "content": "Code",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.1247351028404204,
+            0.04858968349102416,
+            0.184363027131985,
+            0.09101377393378586
+          ],
+          "interactivity": true,
+          "content": "Video",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6979075376941722,
+            0.2138338683081455,
+            0.8009100906842942,
+            0.2505669098734204
+          ],
+          "interactivity": true,
+          "content": "From the series ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.637637331646815,
+            0.14793886278496413,
+            0.6923191302810936,
+            0.19286260552745046
+          ],
+          "interactivity": true,
+          "content": "Clear",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.7033671553280078,
+            0.14791443204619195,
+            0.7391503519371612,
+            0.19372988841572747
+          ],
+          "interactivity": true,
+          "content": "Dictation",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6110142444550146,
+            0.7182027514515027,
+            0.6467678652294881,
+            0.7641586220329577
+          ],
+          "interactivity": true,
+          "content": "More options",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.27920494047774186,
+            0.049636936708877644,
+            0.31179045994546234,
+            0.09164877302659666
+          ],
+          "interactivity": true,
+          "content": "PowerPoint",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6555173745047956,
+            0.5230829291004953,
+            0.8264162192452044,
+            0.6503179164532104
+          ],
+          "interactivity": true,
+          "content": "Als BIGGEST ThREAT 55.06 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.657240459578946,
+            0.2130064917392418,
+            0.6938225600598155,
+            0.2503756163550205
+          ],
+          "interactivity": true,
+          "content": "AII ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8433170525405286,
+            0.1494902563876793,
+            0.880688334028357,
+            0.19344587482389858
+          ],
+          "interactivity": true,
+          "content": "Notifications",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8913910192087156,
+            0.15168725519232412,
+            0.9200363095548374,
+            0.18952194797536714
+          ],
+          "interactivity": true,
+          "content": "Horton",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8314724143491973,
+            0.7883579608521175,
+            0.9318871072573499,
+            0.8757651073685109
+          ],
+          "interactivity": true,
+          "content": "CIO of Marc Bens Multi-_ Sourcery with Moll: 56k mo ago ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.10480657073236486,
+            0.15262597923070356,
+            0.20355577126853758,
+            0.18623460446550547
+          ],
+          "interactivity": true,
+          "content": "Premium ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8310815144619214,
+            0.6570161746499317,
+            0.9310570494943703,
+            0.7461016212004782
+          ],
+          "interactivity": true,
+          "content": "She Bought Bank for S56M: Sourcery with Moll: 5.1k mo ago ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8311216276421758,
+            0.5247434188759392,
+            0.9312826606807757,
+            0.6291636649376707
+          ],
+          "interactivity": true,
+          "content": "\"We Don't Trust Agents\" What Sourcery with Moll: 12k mo ago Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.055906593252759464,
+            0.049354086287034665,
+            0.11843079224141863,
+            0.08914441384904372
+          ],
+          "interactivity": true,
+          "content": "Color picker",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.9154010992233111,
+            0.05007526418550418,
+            0.9450641851608111,
+            0.09011688232421874
+          ],
+          "interactivity": true,
+          "content": "Copy",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.31675171712918315,
+            0.05110600372481216,
+            0.3395256443357746,
+            0.09063573118116035
+          ],
+          "interactivity": true,
+          "content": "Right",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8861319165711009,
+            0.05020180373895364,
+            0.9114526998410133,
+            0.0878937851535818
+          ],
+          "interactivity": true,
+          "content": "Add (Ctrl+F)",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8580407786110822,
+            0.09770306029606386,
+            0.9478958295324229,
+            0.13415457303406764
+          ],
+          "interactivity": true,
+          "content": "Feed Li: ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05758219027737959,
+            0.15025739826139856,
+            0.09332797803711752,
+            0.19238866587154202
+          ],
+          "interactivity": true,
+          "content": "Center",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05219152035367201,
+            0.09758420850409837,
+            0.1582901471848285,
+            0.13388099045049948
+          ],
+          "interactivity": true,
+          "content": "(11) YouT. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8555853225669829,
+            0.05020683580408982,
+            0.8801610595092264,
+            0.08735290694106472
+          ],
+          "interactivity": true,
+          "content": "Share",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.07383281971833625,
+            0.30738285252305325,
+            0.23375622365154555,
+            0.3554585774739583
+          ],
+          "interactivity": true,
+          "content": "Polymarket ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.39307096225207205,
+            0.3084781834336578,
+            0.4646051580255682,
+            0.35306589929132515
+          ],
+          "interactivity": true,
+          "content": "Figma ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6017190839371351,
+            0.5760680151767418,
+            0.6365756049963511,
+            0.6214126003244536
+          ],
+          "interactivity": true,
+          "content": "Sourcery ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8251247580991973,
+            0.051224392750224126,
+            0.8494432718183121,
+            0.08741793606450649
+          ],
+          "interactivity": true,
+          "content": "Download.",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5403684690855661,
+            0.3090110570355191,
+            0.64260347571544,
+            0.35415122443860997
+          ],
+          "interactivity": true,
+          "content": "VARDA ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.23621259598656433,
+            0.30709602064122266,
+            0.3903558904474432,
+            0.3563469558465676
+          ],
+          "interactivity": true,
+          "content": "Lighter ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6628369099900959,
+            0.059685879066342214,
+            0.6808164213178951,
+            0.0871855605495432
+          ],
+          "interactivity": true,
+          "content": "Refresh",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.4883361765501199,
+            0.10412304153859289,
+            0.569297249661176,
+            0.12697281967746754
+          ],
+          "interactivity": true,
+          "content": "Keys Gr. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.385410719259865,
+            0.10503568388725239,
+            0.4658346168193547,
+            0.12631467391884393
+          ],
+          "interactivity": true,
+          "content": "keys Go_. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.2822607961468542,
+            0.1051940334299223,
+            0.36534728240330483,
+            0.12719861640304816
+          ],
+          "interactivity": true,
+          "content": "High-Fre. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8316126068598833,
+            0.3935417133602288,
+            0.9328863734101335,
+            0.49861927136697404
+          ],
+          "interactivity": true,
+          "content": "Why Impulse Raised SSOOM Sourcery with Moll: 104k mo ago Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8907249775203294,
+            0.21479830715825649,
+            0.9216782010725083,
+            0.25236781386078383
+          ],
+          "interactivity": true,
+          "content": "Next",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05894162875597829,
+            0.7173262465846995,
+            0.0941685795088029,
+            0.7629762743340164
+          ],
+          "interactivity": true,
+          "content": "Scratchpad",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.26241350213719766,
+            0.14831979887081626,
+            0.6422652116509852,
+            0.19644953826737535
+          ],
+          "interactivity": true,
+          "content": "Search ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8313537546751198,
+            0.8759269339139344,
+            0.9248245404699229,
+            0.8975963488302595
+          ],
+          "interactivity": true,
+          "content": "Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5925083239939533,
+            0.24561384023864413,
+            0.6241823121644339,
+            0.2826840927040642
+          ],
+          "interactivity": true,
+          "content": "All Sheets",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.17254078716313073,
+            0.09774398386804133,
+            0.25566094711087367,
+            0.13266323902567878
+          ],
+          "interactivity": true,
+          "content": "diffusion __. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.23616777408908465,
+            0.5196905417520492,
+            0.25500363563874845,
+            0.5438262105639515
+          ],
+          "interactivity": true,
+          "content": "Ink Pro",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.755096155569094,
+            0.0994228759098574,
+            0.8368049729755265,
+            0.12960361001270065
+          ],
+          "interactivity": true,
+          "content": "(4093) II_ ",
+          "source": "box_yolo_content_ocr"
+        }
+      ]
+    },
+    {
+      "ocr_seconds": 2.211513640359044,
+      "detector_seconds": 0.06687911227345467,
+      "merge_crop_seconds": 0.020605923607945442,
+      "caption_seconds": 0.24917041324079037,
+      "total_seconds": 2.5481690894812346,
+      "ocr_count": 97,
+      "caption_count": 20,
+      "count": 80,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.4653878231859883,
+            0.060109289617486336,
+            0.5350291909924938,
+            0.08032786885245902
+          ],
+          "interactivity": false,
+          "content": "youtube.com",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8156797331109258,
+            0.22404371584699453,
+            0.8849040867389492,
+            0.24043715846994534
+          ],
+          "interactivity": false,
+          "content": "From Source",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10758965804837364,
+            0.25956284153005466,
+            0.18306922435362802,
+            0.27049180327868855
+          ],
+          "interactivity": false,
+          "content": "FOUNDERS FUND",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8315262718932444,
+            0.2633879781420765,
+            0.9028356964136781,
+            0.2797814207650273
+          ],
+          "interactivity": false,
+          "content": "Tom Mueller:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8306922435362802,
+            0.2830601092896175,
+            0.8969974979149291,
+            0.3043715846994536
+          ],
+          "interactivity": false,
+          "content": "SpaceXs #1",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8302752293577982,
+            0.307103825136612,
+            0.9174311926605505,
+            0.32459016393442625
+          ],
+          "interactivity": false,
+          "content": "Sourcery with Moll:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8440366972477065,
+            0.3300546448087432,
+            0.8698915763135947,
+            0.3453551912568306
+          ],
+          "interactivity": false,
+          "content": "361k",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8815679733110926,
+            0.33114754098360655,
+            0.9174311926605505,
+            0.346448087431694
+          ],
+          "interactivity": false,
+          "content": "mo ago",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8498748957464554,
+            0.3519125683060109,
+            0.9107589658048374,
+            0.36721311475409835
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09841534612176814,
+            0.5224043715846994,
+            0.1651376146788991,
+            0.5366120218579234
+          ],
+          "interactivity": false,
+          "content": "General Matter",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.25771476230191825,
+            0.521311475409836,
+            0.31693077564637195,
+            0.5377049180327869
+          ],
+          "interactivity": false,
+          "content": "MPULSE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3273561301084237,
+            0.5163934426229508,
+            0.3798999165971643,
+            0.5382513661202186
+          ],
+          "interactivity": false,
+          "content": "AT THE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.38824020016680566,
+            0.5174863387978142,
+            0.4691409507923269,
+            0.5415300546448087
+          ],
+          "interactivity": false,
+          "content": "HADRIAN",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5400333611342786,
+            0.5174863387978142,
+            0.6201000834028357,
+            0.5415300546448087
+          ],
+          "interactivity": false,
+          "content": "ENTERJ",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.24228523769808175,
+            0.5371584699453552,
+            0.46747289407839865,
+            0.5710382513661202
+          ],
+          "interactivity": false,
+          "content": "BEST PRICE POSSIBLE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.057964970809007504,
+            0.6601092896174864,
+            0.5963302752293578,
+            0.6934426229508197
+          ],
+          "interactivity": false,
+          "content": "Brian Singerman: \"If SpaceX Didnt Work, Founders Fund Wouldnt Exist\"",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07756463719766472,
+            0.6907103825136612,
+            0.13844870725604672,
+            0.7071038251366121
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10133444537114263,
+            0.7191256830601093,
+            0.26688907422852376,
+            0.7437158469945355
+          ],
+          "interactivity": false,
+          "content": "Sourcery with Molly 0'Shea",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10175145954962468,
+            0.7453551912568306,
+            0.1834862385321101,
+            0.760655737704918
+          ],
+          "interactivity": false,
+          "content": "68.8k subscribers",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8490408673894912,
+            0.7453551912568306,
+            0.9107589658048374,
+            0.7633879781420765
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06922435362802336,
+            0.7923497267759563,
+            0.12343619683069225,
+            0.8098360655737705
+          ],
+          "interactivity": false,
+          "content": "12k views",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13636363636363635,
+            0.7918032786885246,
+            0.25396163469557964,
+            0.812568306010929
+          ],
+          "interactivity": false,
+          "content": "months ago Sourcery",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06880733944954129,
+            0.8131147540983606,
+            0.19099249374478733,
+            0.8360655737704918
+          ],
+          "interactivity": false,
+          "content": "Brian Singerman spent",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20391993327773145,
+            0.8131147540983606,
+            0.6376146788990825,
+            0.8366120218579235
+          ],
+          "interactivity": false,
+          "content": "years at Founders Fund, where he helped drive large concentrated investments into",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06880733944954129,
+            0.8344262295081967,
+            0.6242702251876564,
+            0.8579234972677595
+          ],
+          "interactivity": false,
+          "content": "companies like SpaceX, Palantir; Airbnb, Stripe, Stemcentrx, Anduril; and Affirm. He recently left to co-found",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06922435362802336,
+            0.8590163934426229,
+            0.09591326105087573,
+            0.8765027322404372
+          ],
+          "interactivity": false,
+          "content": "GPx,",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10383653044203503,
+            0.8568306010928962,
+            0.30900750625521267,
+            0.8792349726775956
+          ],
+          "interactivity": false,
+          "content": "new fund backing emerging managers:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.31984987489574646,
+            0.8562841530054645,
+            0.5846538782318599,
+            0.8792349726775956
+          ],
+          "interactivity": false,
+          "content": "this episode we break down the philosophy behind",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.603836530442035,
+            0.8601092896174863,
+            0.6330275229357798,
+            0.8743169398907104
+          ],
+          "interactivity": false,
+          "content": "more",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6564894573603003,
+            0.39213637054943645,
+            0.8262349972633445,
+            0.5177771062798838
+          ],
+          "interactivity": true,
+          "content": "Etle Romo Cnl coo Imei SPACEX EMPLOYEES #18#13 47:58 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6558952426989939,
+            0.7872058972634904,
+            0.8263469883757297,
+            0.9138697889984632
+          ],
+          "interactivity": true,
+          "content": "Michol Dol Buono dlbti SPACEX IPO 57:12 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6559668661058695,
+            0.26001772020683916,
+            0.8263554895192609,
+            0.3860968918096824
+          ],
+          "interactivity": true,
+          "content": "SpaceX #1 44.00 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.7462242196459289,
+            0.1476234144200393,
+            0.8356406217420768,
+            0.19363868588306865
+          ],
+          "interactivity": true,
+          "content": "Create ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6565936090948186,
+            0.6553221322148224,
+            0.826533249957647,
+            0.7821844048838797
+          ],
+          "interactivity": true,
+          "content": "S50 BILLION DEAL CcO 1:07:18 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.28418938491223156,
+            0.7178817665642077,
+            0.3653697824358841,
+            0.7640407541410519
+          ],
+          "interactivity": true,
+          "content": "Subscribe ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5224124758913679,
+            0.7179888282317282,
+            0.6067321624628597,
+            0.7643030385502049
+          ],
+          "interactivity": true,
+          "content": "Share ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.39719279514341377,
+            0.7177733707949112,
+            0.5182847889191514,
+            0.7641317398821721
+          ],
+          "interactivity": true,
+          "content": "314 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.574520871478185,
+            0.09910483438460553,
+            0.7375992750306245,
+            0.13254964859759222
+          ],
+          "interactivity": true,
+          "content": "Brian Singerman. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.18727883027930176,
+            0.048425092853483606,
+            0.25197068724262406,
+            0.09113999663806352
+          ],
+          "interactivity": true,
+          "content": "Code",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.1247351028404204,
+            0.04858968349102416,
+            0.184363027131985,
+            0.09101377393378586
+          ],
+          "interactivity": true,
+          "content": "Video",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6979075376941722,
+            0.2138338683081455,
+            0.8009100906842942,
+            0.2505669098734204
+          ],
+          "interactivity": true,
+          "content": "From the series ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.637637331646815,
+            0.14793886278496413,
+            0.6923191302810936,
+            0.19286260552745046
+          ],
+          "interactivity": true,
+          "content": "Clear",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.7033671553280078,
+            0.14791443204619195,
+            0.7391503519371612,
+            0.19372988841572747
+          ],
+          "interactivity": true,
+          "content": "Dictation",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6110142444550146,
+            0.7182027514515027,
+            0.6467678652294881,
+            0.7641586220329577
+          ],
+          "interactivity": true,
+          "content": "More options",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.27920494047774186,
+            0.049636936708877644,
+            0.31179045994546234,
+            0.09164877302659666
+          ],
+          "interactivity": true,
+          "content": "PowerPoint",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6555173745047956,
+            0.5230829291004953,
+            0.8264162192452044,
+            0.6503179164532104
+          ],
+          "interactivity": true,
+          "content": "Als BIGGEST ThREAT 55.06 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.657240459578946,
+            0.2130064917392418,
+            0.6938225600598155,
+            0.2503756163550205
+          ],
+          "interactivity": true,
+          "content": "AII ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8433170525405286,
+            0.1494902563876793,
+            0.880688334028357,
+            0.19344587482389858
+          ],
+          "interactivity": true,
+          "content": "Notifications",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8913910192087156,
+            0.15168725519232412,
+            0.9200363095548374,
+            0.18952194797536714
+          ],
+          "interactivity": true,
+          "content": "Horton",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8314724143491973,
+            0.7883579608521175,
+            0.9318871072573499,
+            0.8757651073685109
+          ],
+          "interactivity": true,
+          "content": "CIO of Marc Bens Multi-_ Sourcery with Moll: 56k mo ago ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.10480657073236486,
+            0.15262597923070356,
+            0.20355577126853758,
+            0.18623460446550547
+          ],
+          "interactivity": true,
+          "content": "Premium ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8310815144619214,
+            0.6570161746499317,
+            0.9310570494943703,
+            0.7461016212004782
+          ],
+          "interactivity": true,
+          "content": "She Bought Bank for S56M: Sourcery with Moll: 5.1k mo ago ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8311216276421758,
+            0.5247434188759392,
+            0.9312826606807757,
+            0.6291636649376707
+          ],
+          "interactivity": true,
+          "content": "\"We Don't Trust Agents\" What Sourcery with Moll: 12k mo ago Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.055906593252759464,
+            0.049354086287034665,
+            0.11843079224141863,
+            0.08914441384904372
+          ],
+          "interactivity": true,
+          "content": "Color picker",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.9154010992233111,
+            0.05007526418550418,
+            0.9450641851608111,
+            0.09011688232421874
+          ],
+          "interactivity": true,
+          "content": "Copy",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.31675171712918315,
+            0.05110600372481216,
+            0.3395256443357746,
+            0.09063573118116035
+          ],
+          "interactivity": true,
+          "content": "Right",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8861319165711009,
+            0.05020180373895364,
+            0.9114526998410133,
+            0.0878937851535818
+          ],
+          "interactivity": true,
+          "content": "Add (Ctrl+F)",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8580407786110822,
+            0.09770306029606386,
+            0.9478958295324229,
+            0.13415457303406764
+          ],
+          "interactivity": true,
+          "content": "Feed Li: ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05758219027737959,
+            0.15025739826139856,
+            0.09332797803711752,
+            0.19238866587154202
+          ],
+          "interactivity": true,
+          "content": "Center",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05219152035367201,
+            0.09758420850409837,
+            0.1582901471848285,
+            0.13388099045049948
+          ],
+          "interactivity": true,
+          "content": "(11) YouT. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8555853225669829,
+            0.05020683580408982,
+            0.8801610595092264,
+            0.08735290694106472
+          ],
+          "interactivity": true,
+          "content": "Share",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.07383281971833625,
+            0.30738285252305325,
+            0.23375622365154555,
+            0.3554585774739583
+          ],
+          "interactivity": true,
+          "content": "Polymarket ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.39307096225207205,
+            0.3084781834336578,
+            0.4646051580255682,
+            0.35306589929132515
+          ],
+          "interactivity": true,
+          "content": "Figma ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6017190839371351,
+            0.5760680151767418,
+            0.6365756049963511,
+            0.6214126003244536
+          ],
+          "interactivity": true,
+          "content": "Sourcery ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8251247580991973,
+            0.051224392750224126,
+            0.8494432718183121,
+            0.08741793606450649
+          ],
+          "interactivity": true,
+          "content": "Download.",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5403684690855661,
+            0.3090110570355191,
+            0.64260347571544,
+            0.35415122443860997
+          ],
+          "interactivity": true,
+          "content": "VARDA ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.23621259598656433,
+            0.30709602064122266,
+            0.3903558904474432,
+            0.3563469558465676
+          ],
+          "interactivity": true,
+          "content": "Lighter ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6628369099900959,
+            0.059685879066342214,
+            0.6808164213178951,
+            0.0871855605495432
+          ],
+          "interactivity": true,
+          "content": "Refresh",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.4883361765501199,
+            0.10412304153859289,
+            0.569297249661176,
+            0.12697281967746754
+          ],
+          "interactivity": true,
+          "content": "Keys Gr. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.385410719259865,
+            0.10503568388725239,
+            0.4658346168193547,
+            0.12631467391884393
+          ],
+          "interactivity": true,
+          "content": "keys Go_. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.2822607961468542,
+            0.1051940334299223,
+            0.36534728240330483,
+            0.12719861640304816
+          ],
+          "interactivity": true,
+          "content": "High-Fre. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8316126068598833,
+            0.3935417133602288,
+            0.9328863734101335,
+            0.49861927136697404
+          ],
+          "interactivity": true,
+          "content": "Why Impulse Raised SSOOM Sourcery with Moll: 104k mo ago Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8907249775203294,
+            0.21479830715825649,
+            0.9216782010725083,
+            0.25236781386078383
+          ],
+          "interactivity": true,
+          "content": "Next",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05894162875597829,
+            0.7173262465846995,
+            0.0941685795088029,
+            0.7629762743340164
+          ],
+          "interactivity": true,
+          "content": "Scratchpad",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.26241350213719766,
+            0.14831979887081626,
+            0.6422652116509852,
+            0.19644953826737535
+          ],
+          "interactivity": true,
+          "content": "Search ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8313537546751198,
+            0.8759269339139344,
+            0.9248245404699229,
+            0.8975963488302595
+          ],
+          "interactivity": true,
+          "content": "Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5925083239939533,
+            0.24561384023864413,
+            0.6241823121644339,
+            0.2826840927040642
+          ],
+          "interactivity": true,
+          "content": "All Sheets",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.17254078716313073,
+            0.09774398386804133,
+            0.25566094711087367,
+            0.13266323902567878
+          ],
+          "interactivity": true,
+          "content": "diffusion __. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.23616777408908465,
+            0.5196905417520492,
+            0.25500363563874845,
+            0.5438262105639515
+          ],
+          "interactivity": true,
+          "content": "Ink Pro",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.755096155569094,
+            0.0994228759098574,
+            0.8368049729755265,
+            0.12960361001270065
+          ],
+          "interactivity": true,
+          "content": "(4093) II_ ",
+          "source": "box_yolo_content_ocr"
+        }
+      ]
+    },
+    {
+      "ocr_seconds": 2.2459765132516623,
+      "detector_seconds": 0.06581627950072289,
+      "merge_crop_seconds": 0.020530404523015022,
+      "caption_seconds": 0.17043890804052353,
+      "total_seconds": 2.5027621053159237,
+      "ocr_count": 97,
+      "caption_count": 20,
+      "count": 80,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.4653878231859883,
+            0.060109289617486336,
+            0.5350291909924938,
+            0.08032786885245902
+          ],
+          "interactivity": false,
+          "content": "youtube.com",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8156797331109258,
+            0.22404371584699453,
+            0.8849040867389492,
+            0.24043715846994534
+          ],
+          "interactivity": false,
+          "content": "From Source",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10758965804837364,
+            0.25956284153005466,
+            0.18306922435362802,
+            0.27049180327868855
+          ],
+          "interactivity": false,
+          "content": "FOUNDERS FUND",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8315262718932444,
+            0.2633879781420765,
+            0.9028356964136781,
+            0.2797814207650273
+          ],
+          "interactivity": false,
+          "content": "Tom Mueller:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8306922435362802,
+            0.2830601092896175,
+            0.8969974979149291,
+            0.3043715846994536
+          ],
+          "interactivity": false,
+          "content": "SpaceXs #1",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8302752293577982,
+            0.307103825136612,
+            0.9174311926605505,
+            0.32459016393442625
+          ],
+          "interactivity": false,
+          "content": "Sourcery with Moll:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8440366972477065,
+            0.3300546448087432,
+            0.8698915763135947,
+            0.3453551912568306
+          ],
+          "interactivity": false,
+          "content": "361k",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8815679733110926,
+            0.33114754098360655,
+            0.9174311926605505,
+            0.346448087431694
+          ],
+          "interactivity": false,
+          "content": "mo ago",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8498748957464554,
+            0.3519125683060109,
+            0.9107589658048374,
+            0.36721311475409835
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09841534612176814,
+            0.5224043715846994,
+            0.1651376146788991,
+            0.5366120218579234
+          ],
+          "interactivity": false,
+          "content": "General Matter",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.25771476230191825,
+            0.521311475409836,
+            0.31693077564637195,
+            0.5377049180327869
+          ],
+          "interactivity": false,
+          "content": "MPULSE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3273561301084237,
+            0.5163934426229508,
+            0.3798999165971643,
+            0.5382513661202186
+          ],
+          "interactivity": false,
+          "content": "AT THE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.38824020016680566,
+            0.5174863387978142,
+            0.4691409507923269,
+            0.5415300546448087
+          ],
+          "interactivity": false,
+          "content": "HADRIAN",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5400333611342786,
+            0.5174863387978142,
+            0.6201000834028357,
+            0.5415300546448087
+          ],
+          "interactivity": false,
+          "content": "ENTERJ",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.24228523769808175,
+            0.5371584699453552,
+            0.46747289407839865,
+            0.5710382513661202
+          ],
+          "interactivity": false,
+          "content": "BEST PRICE POSSIBLE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.057964970809007504,
+            0.6601092896174864,
+            0.5963302752293578,
+            0.6934426229508197
+          ],
+          "interactivity": false,
+          "content": "Brian Singerman: \"If SpaceX Didnt Work, Founders Fund Wouldnt Exist\"",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07756463719766472,
+            0.6907103825136612,
+            0.13844870725604672,
+            0.7071038251366121
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10133444537114263,
+            0.7191256830601093,
+            0.26688907422852376,
+            0.7437158469945355
+          ],
+          "interactivity": false,
+          "content": "Sourcery with Molly 0'Shea",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10175145954962468,
+            0.7453551912568306,
+            0.1834862385321101,
+            0.760655737704918
+          ],
+          "interactivity": false,
+          "content": "68.8k subscribers",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8490408673894912,
+            0.7453551912568306,
+            0.9107589658048374,
+            0.7633879781420765
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06922435362802336,
+            0.7923497267759563,
+            0.12343619683069225,
+            0.8098360655737705
+          ],
+          "interactivity": false,
+          "content": "12k views",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13636363636363635,
+            0.7918032786885246,
+            0.25396163469557964,
+            0.812568306010929
+          ],
+          "interactivity": false,
+          "content": "months ago Sourcery",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06880733944954129,
+            0.8131147540983606,
+            0.19099249374478733,
+            0.8360655737704918
+          ],
+          "interactivity": false,
+          "content": "Brian Singerman spent",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20391993327773145,
+            0.8131147540983606,
+            0.6376146788990825,
+            0.8366120218579235
+          ],
+          "interactivity": false,
+          "content": "years at Founders Fund, where he helped drive large concentrated investments into",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06880733944954129,
+            0.8344262295081967,
+            0.6242702251876564,
+            0.8579234972677595
+          ],
+          "interactivity": false,
+          "content": "companies like SpaceX, Palantir; Airbnb, Stripe, Stemcentrx, Anduril; and Affirm. He recently left to co-found",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06922435362802336,
+            0.8590163934426229,
+            0.09591326105087573,
+            0.8765027322404372
+          ],
+          "interactivity": false,
+          "content": "GPx,",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10383653044203503,
+            0.8568306010928962,
+            0.30900750625521267,
+            0.8792349726775956
+          ],
+          "interactivity": false,
+          "content": "new fund backing emerging managers:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.31984987489574646,
+            0.8562841530054645,
+            0.5846538782318599,
+            0.8792349726775956
+          ],
+          "interactivity": false,
+          "content": "this episode we break down the philosophy behind",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.603836530442035,
+            0.8601092896174863,
+            0.6330275229357798,
+            0.8743169398907104
+          ],
+          "interactivity": false,
+          "content": "more",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6564894573603003,
+            0.39213637054943645,
+            0.8262349972633445,
+            0.5177771062798838
+          ],
+          "interactivity": true,
+          "content": "Etle Romo Cnl coo Imei SPACEX EMPLOYEES #18#13 47:58 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6558952426989939,
+            0.7872058972634904,
+            0.8263469883757297,
+            0.9138697889984632
+          ],
+          "interactivity": true,
+          "content": "Michol Dol Buono dlbti SPACEX IPO 57:12 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6559668661058695,
+            0.26001772020683916,
+            0.8263554895192609,
+            0.3860968918096824
+          ],
+          "interactivity": true,
+          "content": "SpaceX #1 44.00 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.7462242196459289,
+            0.1476234144200393,
+            0.8356406217420768,
+            0.19363868588306865
+          ],
+          "interactivity": true,
+          "content": "Create ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6565936090948186,
+            0.6553221322148224,
+            0.826533249957647,
+            0.7821844048838797
+          ],
+          "interactivity": true,
+          "content": "S50 BILLION DEAL CcO 1:07:18 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.28418938491223156,
+            0.7178817665642077,
+            0.3653697824358841,
+            0.7640407541410519
+          ],
+          "interactivity": true,
+          "content": "Subscribe ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5224124758913679,
+            0.7179888282317282,
+            0.6067321624628597,
+            0.7643030385502049
+          ],
+          "interactivity": true,
+          "content": "Share ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.39719279514341377,
+            0.7177733707949112,
+            0.5182847889191514,
+            0.7641317398821721
+          ],
+          "interactivity": true,
+          "content": "314 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.574520871478185,
+            0.09910483438460553,
+            0.7375992750306245,
+            0.13254964859759222
+          ],
+          "interactivity": true,
+          "content": "Brian Singerman. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.18727883027930176,
+            0.048425092853483606,
+            0.25197068724262406,
+            0.09113999663806352
+          ],
+          "interactivity": true,
+          "content": "Code",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.1247351028404204,
+            0.04858968349102416,
+            0.184363027131985,
+            0.09101377393378586
+          ],
+          "interactivity": true,
+          "content": "Video",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6979075376941722,
+            0.2138338683081455,
+            0.8009100906842942,
+            0.2505669098734204
+          ],
+          "interactivity": true,
+          "content": "From the series ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.637637331646815,
+            0.14793886278496413,
+            0.6923191302810936,
+            0.19286260552745046
+          ],
+          "interactivity": true,
+          "content": "Clear",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.7033671553280078,
+            0.14791443204619195,
+            0.7391503519371612,
+            0.19372988841572747
+          ],
+          "interactivity": true,
+          "content": "Dictation",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6110142444550146,
+            0.7182027514515027,
+            0.6467678652294881,
+            0.7641586220329577
+          ],
+          "interactivity": true,
+          "content": "More options",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.27920494047774186,
+            0.049636936708877644,
+            0.31179045994546234,
+            0.09164877302659666
+          ],
+          "interactivity": true,
+          "content": "PowerPoint",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6555173745047956,
+            0.5230829291004953,
+            0.8264162192452044,
+            0.6503179164532104
+          ],
+          "interactivity": true,
+          "content": "Als BIGGEST ThREAT 55.06 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.657240459578946,
+            0.2130064917392418,
+            0.6938225600598155,
+            0.2503756163550205
+          ],
+          "interactivity": true,
+          "content": "AII ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8433170525405286,
+            0.1494902563876793,
+            0.880688334028357,
+            0.19344587482389858
+          ],
+          "interactivity": true,
+          "content": "Notifications",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8913910192087156,
+            0.15168725519232412,
+            0.9200363095548374,
+            0.18952194797536714
+          ],
+          "interactivity": true,
+          "content": "Horton",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8314724143491973,
+            0.7883579608521175,
+            0.9318871072573499,
+            0.8757651073685109
+          ],
+          "interactivity": true,
+          "content": "CIO of Marc Bens Multi-_ Sourcery with Moll: 56k mo ago ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.10480657073236486,
+            0.15262597923070356,
+            0.20355577126853758,
+            0.18623460446550547
+          ],
+          "interactivity": true,
+          "content": "Premium ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8310815144619214,
+            0.6570161746499317,
+            0.9310570494943703,
+            0.7461016212004782
+          ],
+          "interactivity": true,
+          "content": "She Bought Bank for S56M: Sourcery with Moll: 5.1k mo ago ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8311216276421758,
+            0.5247434188759392,
+            0.9312826606807757,
+            0.6291636649376707
+          ],
+          "interactivity": true,
+          "content": "\"We Don't Trust Agents\" What Sourcery with Moll: 12k mo ago Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.055906593252759464,
+            0.049354086287034665,
+            0.11843079224141863,
+            0.08914441384904372
+          ],
+          "interactivity": true,
+          "content": "Color picker",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.9154010992233111,
+            0.05007526418550418,
+            0.9450641851608111,
+            0.09011688232421874
+          ],
+          "interactivity": true,
+          "content": "Copy",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.31675171712918315,
+            0.05110600372481216,
+            0.3395256443357746,
+            0.09063573118116035
+          ],
+          "interactivity": true,
+          "content": "Right",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8861319165711009,
+            0.05020180373895364,
+            0.9114526998410133,
+            0.0878937851535818
+          ],
+          "interactivity": true,
+          "content": "Add (Ctrl+F)",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8580407786110822,
+            0.09770306029606386,
+            0.9478958295324229,
+            0.13415457303406764
+          ],
+          "interactivity": true,
+          "content": "Feed Li: ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05758219027737959,
+            0.15025739826139856,
+            0.09332797803711752,
+            0.19238866587154202
+          ],
+          "interactivity": true,
+          "content": "Center",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05219152035367201,
+            0.09758420850409837,
+            0.1582901471848285,
+            0.13388099045049948
+          ],
+          "interactivity": true,
+          "content": "(11) YouT. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8555853225669829,
+            0.05020683580408982,
+            0.8801610595092264,
+            0.08735290694106472
+          ],
+          "interactivity": true,
+          "content": "Share",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.07383281971833625,
+            0.30738285252305325,
+            0.23375622365154555,
+            0.3554585774739583
+          ],
+          "interactivity": true,
+          "content": "Polymarket ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.39307096225207205,
+            0.3084781834336578,
+            0.4646051580255682,
+            0.35306589929132515
+          ],
+          "interactivity": true,
+          "content": "Figma ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6017190839371351,
+            0.5760680151767418,
+            0.6365756049963511,
+            0.6214126003244536
+          ],
+          "interactivity": true,
+          "content": "Sourcery ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8251247580991973,
+            0.051224392750224126,
+            0.8494432718183121,
+            0.08741793606450649
+          ],
+          "interactivity": true,
+          "content": "Download.",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5403684690855661,
+            0.3090110570355191,
+            0.64260347571544,
+            0.35415122443860997
+          ],
+          "interactivity": true,
+          "content": "VARDA ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.23621259598656433,
+            0.30709602064122266,
+            0.3903558904474432,
+            0.3563469558465676
+          ],
+          "interactivity": true,
+          "content": "Lighter ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6628369099900959,
+            0.059685879066342214,
+            0.6808164213178951,
+            0.0871855605495432
+          ],
+          "interactivity": true,
+          "content": "Refresh",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.4883361765501199,
+            0.10412304153859289,
+            0.569297249661176,
+            0.12697281967746754
+          ],
+          "interactivity": true,
+          "content": "Keys Gr. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.385410719259865,
+            0.10503568388725239,
+            0.4658346168193547,
+            0.12631467391884393
+          ],
+          "interactivity": true,
+          "content": "keys Go_. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.2822607961468542,
+            0.1051940334299223,
+            0.36534728240330483,
+            0.12719861640304816
+          ],
+          "interactivity": true,
+          "content": "High-Fre. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8316126068598833,
+            0.3935417133602288,
+            0.9328863734101335,
+            0.49861927136697404
+          ],
+          "interactivity": true,
+          "content": "Why Impulse Raised SSOOM Sourcery with Moll: 104k mo ago Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8907249775203294,
+            0.21479830715825649,
+            0.9216782010725083,
+            0.25236781386078383
+          ],
+          "interactivity": true,
+          "content": "Next",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05894162875597829,
+            0.7173262465846995,
+            0.0941685795088029,
+            0.7629762743340164
+          ],
+          "interactivity": true,
+          "content": "Scratchpad",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.26241350213719766,
+            0.14831979887081626,
+            0.6422652116509852,
+            0.19644953826737535
+          ],
+          "interactivity": true,
+          "content": "Search ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8313537546751198,
+            0.8759269339139344,
+            0.9248245404699229,
+            0.8975963488302595
+          ],
+          "interactivity": true,
+          "content": "Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5925083239939533,
+            0.24561384023864413,
+            0.6241823121644339,
+            0.2826840927040642
+          ],
+          "interactivity": true,
+          "content": "All Sheets",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.17254078716313073,
+            0.09774398386804133,
+            0.25566094711087367,
+            0.13266323902567878
+          ],
+          "interactivity": true,
+          "content": "diffusion __. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.23616777408908465,
+            0.5196905417520492,
+            0.25500363563874845,
+            0.5438262105639515
+          ],
+          "interactivity": true,
+          "content": "Ink Pro",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.755096155569094,
+            0.0994228759098574,
+            0.8368049729755265,
+            0.12960361001270065
+          ],
+          "interactivity": true,
+          "content": "(4093) II_ ",
+          "source": "box_yolo_content_ocr"
+        }
+      ]
+    },
+    {
+      "ocr_seconds": 2.278803277760744,
+      "detector_seconds": 0.06642845645546913,
+      "merge_crop_seconds": 0.020075032487511635,
+      "caption_seconds": 0.1675897128880024,
+      "total_seconds": 2.5328964795917273,
+      "ocr_count": 97,
+      "caption_count": 20,
+      "count": 80,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.4653878231859883,
+            0.060109289617486336,
+            0.5350291909924938,
+            0.08032786885245902
+          ],
+          "interactivity": false,
+          "content": "youtube.com",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8156797331109258,
+            0.22404371584699453,
+            0.8849040867389492,
+            0.24043715846994534
+          ],
+          "interactivity": false,
+          "content": "From Source",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10758965804837364,
+            0.25956284153005466,
+            0.18306922435362802,
+            0.27049180327868855
+          ],
+          "interactivity": false,
+          "content": "FOUNDERS FUND",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8315262718932444,
+            0.2633879781420765,
+            0.9028356964136781,
+            0.2797814207650273
+          ],
+          "interactivity": false,
+          "content": "Tom Mueller:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8306922435362802,
+            0.2830601092896175,
+            0.8969974979149291,
+            0.3043715846994536
+          ],
+          "interactivity": false,
+          "content": "SpaceXs #1",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8302752293577982,
+            0.307103825136612,
+            0.9174311926605505,
+            0.32459016393442625
+          ],
+          "interactivity": false,
+          "content": "Sourcery with Moll:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8440366972477065,
+            0.3300546448087432,
+            0.8698915763135947,
+            0.3453551912568306
+          ],
+          "interactivity": false,
+          "content": "361k",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8815679733110926,
+            0.33114754098360655,
+            0.9174311926605505,
+            0.346448087431694
+          ],
+          "interactivity": false,
+          "content": "mo ago",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8498748957464554,
+            0.3519125683060109,
+            0.9107589658048374,
+            0.36721311475409835
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.09841534612176814,
+            0.5224043715846994,
+            0.1651376146788991,
+            0.5366120218579234
+          ],
+          "interactivity": false,
+          "content": "General Matter",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.25771476230191825,
+            0.521311475409836,
+            0.31693077564637195,
+            0.5377049180327869
+          ],
+          "interactivity": false,
+          "content": "MPULSE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.3273561301084237,
+            0.5163934426229508,
+            0.3798999165971643,
+            0.5382513661202186
+          ],
+          "interactivity": false,
+          "content": "AT THE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.38824020016680566,
+            0.5174863387978142,
+            0.4691409507923269,
+            0.5415300546448087
+          ],
+          "interactivity": false,
+          "content": "HADRIAN",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.5400333611342786,
+            0.5174863387978142,
+            0.6201000834028357,
+            0.5415300546448087
+          ],
+          "interactivity": false,
+          "content": "ENTERJ",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.24228523769808175,
+            0.5371584699453552,
+            0.46747289407839865,
+            0.5710382513661202
+          ],
+          "interactivity": false,
+          "content": "BEST PRICE POSSIBLE",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.057964970809007504,
+            0.6601092896174864,
+            0.5963302752293578,
+            0.6934426229508197
+          ],
+          "interactivity": false,
+          "content": "Brian Singerman: \"If SpaceX Didnt Work, Founders Fund Wouldnt Exist\"",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.07756463719766472,
+            0.6907103825136612,
+            0.13844870725604672,
+            0.7071038251366121
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10133444537114263,
+            0.7191256830601093,
+            0.26688907422852376,
+            0.7437158469945355
+          ],
+          "interactivity": false,
+          "content": "Sourcery with Molly 0'Shea",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10175145954962468,
+            0.7453551912568306,
+            0.1834862385321101,
+            0.760655737704918
+          ],
+          "interactivity": false,
+          "content": "68.8k subscribers",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8490408673894912,
+            0.7453551912568306,
+            0.9107589658048374,
+            0.7633879781420765
+          ],
+          "interactivity": false,
+          "content": "Auto-dubbed",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06922435362802336,
+            0.7923497267759563,
+            0.12343619683069225,
+            0.8098360655737705
+          ],
+          "interactivity": false,
+          "content": "12k views",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13636363636363635,
+            0.7918032786885246,
+            0.25396163469557964,
+            0.812568306010929
+          ],
+          "interactivity": false,
+          "content": "months ago Sourcery",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06880733944954129,
+            0.8131147540983606,
+            0.19099249374478733,
+            0.8360655737704918
+          ],
+          "interactivity": false,
+          "content": "Brian Singerman spent",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.20391993327773145,
+            0.8131147540983606,
+            0.6376146788990825,
+            0.8366120218579235
+          ],
+          "interactivity": false,
+          "content": "years at Founders Fund, where he helped drive large concentrated investments into",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06880733944954129,
+            0.8344262295081967,
+            0.6242702251876564,
+            0.8579234972677595
+          ],
+          "interactivity": false,
+          "content": "companies like SpaceX, Palantir; Airbnb, Stripe, Stemcentrx, Anduril; and Affirm. He recently left to co-found",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.06922435362802336,
+            0.8590163934426229,
+            0.09591326105087573,
+            0.8765027322404372
+          ],
+          "interactivity": false,
+          "content": "GPx,",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.10383653044203503,
+            0.8568306010928962,
+            0.30900750625521267,
+            0.8792349726775956
+          ],
+          "interactivity": false,
+          "content": "new fund backing emerging managers:",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.31984987489574646,
+            0.8562841530054645,
+            0.5846538782318599,
+            0.8792349726775956
+          ],
+          "interactivity": false,
+          "content": "this episode we break down the philosophy behind",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.603836530442035,
+            0.8601092896174863,
+            0.6330275229357798,
+            0.8743169398907104
+          ],
+          "interactivity": false,
+          "content": "more",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6564894573603003,
+            0.39213637054943645,
+            0.8262349972633445,
+            0.5177771062798838
+          ],
+          "interactivity": true,
+          "content": "Etle Romo Cnl coo Imei SPACEX EMPLOYEES #18#13 47:58 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6558952426989939,
+            0.7872058972634904,
+            0.8263469883757297,
+            0.9138697889984632
+          ],
+          "interactivity": true,
+          "content": "Michol Dol Buono dlbti SPACEX IPO 57:12 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6559668661058695,
+            0.26001772020683916,
+            0.8263554895192609,
+            0.3860968918096824
+          ],
+          "interactivity": true,
+          "content": "SpaceX #1 44.00 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.7462242196459289,
+            0.1476234144200393,
+            0.8356406217420768,
+            0.19363868588306865
+          ],
+          "interactivity": true,
+          "content": "Create ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6565936090948186,
+            0.6553221322148224,
+            0.826533249957647,
+            0.7821844048838797
+          ],
+          "interactivity": true,
+          "content": "S50 BILLION DEAL CcO 1:07:18 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.28418938491223156,
+            0.7178817665642077,
+            0.3653697824358841,
+            0.7640407541410519
+          ],
+          "interactivity": true,
+          "content": "Subscribe ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5224124758913679,
+            0.7179888282317282,
+            0.6067321624628597,
+            0.7643030385502049
+          ],
+          "interactivity": true,
+          "content": "Share ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.39719279514341377,
+            0.7177733707949112,
+            0.5182847889191514,
+            0.7641317398821721
+          ],
+          "interactivity": true,
+          "content": "314 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.574520871478185,
+            0.09910483438460553,
+            0.7375992750306245,
+            0.13254964859759222
+          ],
+          "interactivity": true,
+          "content": "Brian Singerman. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.18727883027930176,
+            0.048425092853483606,
+            0.25197068724262406,
+            0.09113999663806352
+          ],
+          "interactivity": true,
+          "content": "Code",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.1247351028404204,
+            0.04858968349102416,
+            0.184363027131985,
+            0.09101377393378586
+          ],
+          "interactivity": true,
+          "content": "Video",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6979075376941722,
+            0.2138338683081455,
+            0.8009100906842942,
+            0.2505669098734204
+          ],
+          "interactivity": true,
+          "content": "From the series ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.637637331646815,
+            0.14793886278496413,
+            0.6923191302810936,
+            0.19286260552745046
+          ],
+          "interactivity": true,
+          "content": "Clear",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.7033671553280078,
+            0.14791443204619195,
+            0.7391503519371612,
+            0.19372988841572747
+          ],
+          "interactivity": true,
+          "content": "Dictation",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6110142444550146,
+            0.7182027514515027,
+            0.6467678652294881,
+            0.7641586220329577
+          ],
+          "interactivity": true,
+          "content": "More options",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.27920494047774186,
+            0.049636936708877644,
+            0.31179045994546234,
+            0.09164877302659666
+          ],
+          "interactivity": true,
+          "content": "PowerPoint",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6555173745047956,
+            0.5230829291004953,
+            0.8264162192452044,
+            0.6503179164532104
+          ],
+          "interactivity": true,
+          "content": "Als BIGGEST ThREAT 55.06 ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.657240459578946,
+            0.2130064917392418,
+            0.6938225600598155,
+            0.2503756163550205
+          ],
+          "interactivity": true,
+          "content": "AII ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8433170525405286,
+            0.1494902563876793,
+            0.880688334028357,
+            0.19344587482389858
+          ],
+          "interactivity": true,
+          "content": "Notifications",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8913910192087156,
+            0.15168725519232412,
+            0.9200363095548374,
+            0.18952194797536714
+          ],
+          "interactivity": true,
+          "content": "Horton",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8314724143491973,
+            0.7883579608521175,
+            0.9318871072573499,
+            0.8757651073685109
+          ],
+          "interactivity": true,
+          "content": "CIO of Marc Bens Multi-_ Sourcery with Moll: 56k mo ago ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.10480657073236486,
+            0.15262597923070356,
+            0.20355577126853758,
+            0.18623460446550547
+          ],
+          "interactivity": true,
+          "content": "Premium ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8310815144619214,
+            0.6570161746499317,
+            0.9310570494943703,
+            0.7461016212004782
+          ],
+          "interactivity": true,
+          "content": "She Bought Bank for S56M: Sourcery with Moll: 5.1k mo ago ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8311216276421758,
+            0.5247434188759392,
+            0.9312826606807757,
+            0.6291636649376707
+          ],
+          "interactivity": true,
+          "content": "\"We Don't Trust Agents\" What Sourcery with Moll: 12k mo ago Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.055906593252759464,
+            0.049354086287034665,
+            0.11843079224141863,
+            0.08914441384904372
+          ],
+          "interactivity": true,
+          "content": "Color picker",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.9154010992233111,
+            0.05007526418550418,
+            0.9450641851608111,
+            0.09011688232421874
+          ],
+          "interactivity": true,
+          "content": "Copy",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.31675171712918315,
+            0.05110600372481216,
+            0.3395256443357746,
+            0.09063573118116035
+          ],
+          "interactivity": true,
+          "content": "Right",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8861319165711009,
+            0.05020180373895364,
+            0.9114526998410133,
+            0.0878937851535818
+          ],
+          "interactivity": true,
+          "content": "Add (Ctrl+F)",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8580407786110822,
+            0.09770306029606386,
+            0.9478958295324229,
+            0.13415457303406764
+          ],
+          "interactivity": true,
+          "content": "Feed Li: ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05758219027737959,
+            0.15025739826139856,
+            0.09332797803711752,
+            0.19238866587154202
+          ],
+          "interactivity": true,
+          "content": "Center",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05219152035367201,
+            0.09758420850409837,
+            0.1582901471848285,
+            0.13388099045049948
+          ],
+          "interactivity": true,
+          "content": "(11) YouT. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8555853225669829,
+            0.05020683580408982,
+            0.8801610595092264,
+            0.08735290694106472
+          ],
+          "interactivity": true,
+          "content": "Share",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.07383281971833625,
+            0.30738285252305325,
+            0.23375622365154555,
+            0.3554585774739583
+          ],
+          "interactivity": true,
+          "content": "Polymarket ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.39307096225207205,
+            0.3084781834336578,
+            0.4646051580255682,
+            0.35306589929132515
+          ],
+          "interactivity": true,
+          "content": "Figma ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6017190839371351,
+            0.5760680151767418,
+            0.6365756049963511,
+            0.6214126003244536
+          ],
+          "interactivity": true,
+          "content": "Sourcery ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8251247580991973,
+            0.051224392750224126,
+            0.8494432718183121,
+            0.08741793606450649
+          ],
+          "interactivity": true,
+          "content": "Download.",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5403684690855661,
+            0.3090110570355191,
+            0.64260347571544,
+            0.35415122443860997
+          ],
+          "interactivity": true,
+          "content": "VARDA ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.23621259598656433,
+            0.30709602064122266,
+            0.3903558904474432,
+            0.3563469558465676
+          ],
+          "interactivity": true,
+          "content": "Lighter ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.6628369099900959,
+            0.059685879066342214,
+            0.6808164213178951,
+            0.0871855605495432
+          ],
+          "interactivity": true,
+          "content": "Refresh",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.4883361765501199,
+            0.10412304153859289,
+            0.569297249661176,
+            0.12697281967746754
+          ],
+          "interactivity": true,
+          "content": "Keys Gr. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.385410719259865,
+            0.10503568388725239,
+            0.4658346168193547,
+            0.12631467391884393
+          ],
+          "interactivity": true,
+          "content": "keys Go_. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.2822607961468542,
+            0.1051940334299223,
+            0.36534728240330483,
+            0.12719861640304816
+          ],
+          "interactivity": true,
+          "content": "High-Fre. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8316126068598833,
+            0.3935417133602288,
+            0.9328863734101335,
+            0.49861927136697404
+          ],
+          "interactivity": true,
+          "content": "Why Impulse Raised SSOOM Sourcery with Moll: 104k mo ago Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8907249775203294,
+            0.21479830715825649,
+            0.9216782010725083,
+            0.25236781386078383
+          ],
+          "interactivity": true,
+          "content": "Next",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.05894162875597829,
+            0.7173262465846995,
+            0.0941685795088029,
+            0.7629762743340164
+          ],
+          "interactivity": true,
+          "content": "Scratchpad",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.26241350213719766,
+            0.14831979887081626,
+            0.6422652116509852,
+            0.19644953826737535
+          ],
+          "interactivity": true,
+          "content": "Search ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.8313537546751198,
+            0.8759269339139344,
+            0.9248245404699229,
+            0.8975963488302595
+          ],
+          "interactivity": true,
+          "content": "Auto-dubbed ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.5925083239939533,
+            0.24561384023864413,
+            0.6241823121644339,
+            0.2826840927040642
+          ],
+          "interactivity": true,
+          "content": "All Sheets",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.17254078716313073,
+            0.09774398386804133,
+            0.25566094711087367,
+            0.13266323902567878
+          ],
+          "interactivity": true,
+          "content": "diffusion __. ",
+          "source": "box_yolo_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.23616777408908465,
+            0.5196905417520492,
+            0.25500363563874845,
+            0.5438262105639515
+          ],
+          "interactivity": true,
+          "content": "Ink Pro",
+          "source": "box_yolo_content_florence"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.755096155569094,
+            0.0994228759098574,
+            0.8368049729755265,
+            0.12960361001270065
+          ],
+          "interactivity": true,
+          "content": "(4093) II_ ",
+          "source": "box_yolo_content_ocr"
+        }
+      ]
+    }
+  ],
+  "peak_allocated_gpu_mb": 3977.03857421875,
+  "warm_median_seconds": 2.5328964795917273
+}

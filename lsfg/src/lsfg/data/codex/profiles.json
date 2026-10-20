@@ -1,0 +1,1179 @@
+{
+ "com.google.antigravity-ide": {
+  "name": "Antigravity IDE",
+  "framework": "electron",
+  "match": "exact",
+  "anchors": [],
+  "quirks": [
+   "depth_capped_husk",
+   "thumbnail_proxy_window",
+   "zero_area_clones",
+   "refmap_overflow"
+  ],
+  "act_needs_activation": true,
+  "text_entry": "type_text"
+ },
+ "com.brave.Browser": {
+  "name": "Brave Browser",
+  "framework": "chromium_browser",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "groupdom#root",
+    "purpose": "web page root container"
+   },
+   {
+    "selector": "toolbardom#view_1000",
+    "purpose": "main browser toolbar"
+   },
+   {
+    "selector": "buttondom#view_1001",
+    "purpose": "back button"
+   },
+   {
+    "selector": "buttondom#view_1002",
+    "purpose": "forward button"
+   },
+   {
+    "selector": "buttondom#view_1003",
+    "purpose": "reload button"
+   },
+   {
+    "selector": "buttondom#view_1005",
+    "purpose": "bookmark this tab button"
+   },
+   {
+    "selector": "textfielddom#view_1012",
+    "purpose": "address and search bar"
+   },
+   {
+    "selector": "imagedom#view_1011",
+    "purpose": "address bar search icon"
+   },
+   {
+    "selector": "comboboxdom#view_1006",
+    "purpose": "extensions menu"
+   },
+   {
+    "selector": "comboboxdom#view_1007",
+    "purpose": "main app menu"
+   },
+   {
+    "selector": "comboboxdom#view_1009",
+    "purpose": "toolbar extension button"
+   },
+   {
+    "selector": "toolbardom#view_1025",
+    "purpose": "bookmarks bar"
+   },
+   {
+    "selector": "groupdom#view_21",
+    "purpose": "tab strip container"
+   },
+   {
+    "selector": "radiobuttondom#view_20",
+    "purpose": "first tab in tab strip"
+   }
+  ],
+  "quirks": [
+   "depth_capped_husk",
+   "thumbnail_proxy_window",
+   "disabled_keeps_click",
+   "window_id_drift",
+   "readonly_control_as_button",
+   "volatile_dom_ids"
+  ],
+  "act_needs_activation": true,
+  "text_entry": "type_text"
+ },
+ "com.apple.iCal": {
+  "name": "Calendar",
+  "framework": "appkit",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "window#CALMainWindow",
+    "purpose": "main window root (role flips window/dialog)"
+   },
+   {
+    "selector": "button#MiniCalPrevMonthButton",
+    "purpose": "mini calendar previous month"
+   },
+   {
+    "selector": "button#MiniCalNextMonthButton",
+    "purpose": "mini calendar next month"
+   },
+   {
+    "selector": "unknown#sidebar-mini-month",
+    "purpose": "sidebar mini month grid"
+   },
+   {
+    "selector": "group#active-view",
+    "purpose": "main calendar view area"
+   },
+   {
+    "selector": "statictext#title-field",
+    "purpose": "event inspector title"
+   },
+   {
+    "selector": "statictext#notes-field",
+    "purpose": "event inspector notes"
+   },
+   {
+    "selector": "combobox#calendar-button",
+    "purpose": "event calendar picker"
+   },
+   {
+    "selector": "button#date-time-button",
+    "purpose": "event date and time"
+   },
+   {
+    "selector": "button#\"previous day\"",
+    "purpose": "previous period button"
+   },
+   {
+    "selector": "button#today-button",
+    "purpose": "today button"
+   },
+   {
+    "selector": "button#\"next day\"",
+    "purpose": "next period button"
+   },
+   {
+    "selector": "radiogroup#CalendarsControl",
+    "purpose": "calendars/inbox switcher"
+   },
+   {
+    "selector": "radiogroup#views-switcher",
+    "purpose": "day/week/month/year switcher"
+   },
+   {
+    "selector": "outline#CalendarsView",
+    "purpose": "sidebar calendar list"
+   },
+   {
+    "selector": "textfield#calendarlist-title-field:*",
+    "purpose": "calendar list row title (tail is user data)"
+   },
+   {
+    "selector": "checkbox#calendar-checkbox-button",
+    "purpose": "calendar visibility checkbox (repeats per row)"
+   },
+   {
+    "selector": "radiobutton#calendars-button",
+    "purpose": "show calendars list"
+   },
+   {
+    "selector": "radiobutton#inbox-button",
+    "purpose": "show inbox"
+   },
+   {
+    "selector": "radiobutton#day-button",
+    "purpose": "day view"
+   }
+  ],
+  "quirks": [
+   "non_unique_role_name",
+   "user_data_in_id",
+   "mass_focused",
+   "zero_area_clones",
+   "window_id_drift"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "set_value"
+ },
+ "com.anthropic.claudefordesktop": {
+  "name": "Claude",
+  "framework": "electron",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "groupdom#root",
+    "purpose": "web app root container (one per webarea)"
+   },
+   {
+    "selector": "groupdom#portal-root",
+    "purpose": "overlay/portal container (zero height when empty)"
+   }
+  ],
+  "quirks": [
+   "depth_capped_husk",
+   "volatile_dom_ids",
+   "window_id_drift"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "type_text"
+ },
+ "com.hnc.Discord": {
+  "name": "Discord",
+  "framework": "electron",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "groupdom#app-mount",
+    "purpose": "React app root container"
+   },
+   {
+    "selector": "groupdom#popover-portal",
+    "purpose": "popover / menu portal layer"
+   },
+   {
+    "selector": "tabpaneldom#online-tab",
+    "purpose": "friends list tab panel (Online tab)"
+   }
+  ],
+  "quirks": [
+   "volatile_dom_ids",
+   "readonly_control_as_button",
+   "window_id_drift",
+   "disabled_keeps_click",
+   "depth_capped_husk"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "type_text"
+ },
+ "com.apple.finder": {
+  "name": "Finder",
+  "framework": "appkit",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "window#FinderWindow",
+    "purpose": "Finder browser window root"
+   },
+   {
+    "selector": "browser#ColumnView",
+    "purpose": "column-view file browser"
+   },
+   {
+    "selector": "unknown#statusBar",
+    "purpose": "window status bar"
+   }
+  ],
+  "quirks": [
+   "enumeration_partial",
+   "ghost_only_window_list",
+   "textfield_is_label",
+   "identity_in_value",
+   "offscreen_needs_container_scroll",
+   "mass_focused",
+   "disabled_keeps_click"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "setfocus_keys"
+ },
+ "org.mozilla.firefox": {
+  "name": "Firefox",
+  "framework": "gecko",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "toolbardom#nav-bar",
+    "purpose": "navigation toolbar"
+   },
+   {
+    "selector": "buttondom#back-button",
+    "purpose": "back button"
+   },
+   {
+    "selector": "buttondom#forward-button",
+    "purpose": "forward button"
+   },
+   {
+    "selector": "buttondom#reload-button",
+    "purpose": "reload button"
+   },
+   {
+    "selector": "buttondom#sidebar-button",
+    "purpose": "sidebar toggle button"
+   },
+   {
+    "selector": "groupdom#urlbar",
+    "purpose": "address bar container"
+   },
+   {
+    "selector": "buttondom#fxa-toolbar-menu-button",
+    "purpose": "account menu button"
+   },
+   {
+    "selector": "buttondom#unified-extensions-button",
+    "purpose": "extensions menu button"
+   },
+   {
+    "selector": "buttondom#alltabs-button",
+    "purpose": "list all tabs button"
+   },
+   {
+    "selector": "buttondom#PanelUI-menu-button",
+    "purpose": "app menu (hamburger) button"
+   },
+   {
+    "selector": "toolbardom#PersonalToolbar",
+    "purpose": "bookmarks toolbar"
+   },
+   {
+    "selector": "buttondom#PlacesChevron",
+    "purpose": "more bookmarks overflow button"
+   },
+   {
+    "selector": "buttondom#OtherBookmarks",
+    "purpose": "other bookmarks folder button"
+   },
+   {
+    "selector": "tablistdom#tabbrowser-tabs",
+    "purpose": "tab strip"
+   },
+   {
+    "selector": "groupdom#tabbrowser-tabpanels",
+    "purpose": "tab content panels container"
+   },
+   {
+    "selector": "toolbardom#notifications-toolbar",
+    "purpose": "notification bar"
+   },
+   {
+    "selector": "alertdom#a11y-announcement",
+    "purpose": "screen-reader announcement region"
+   },
+   {
+    "selector": "comboboxdom#urlbar-input",
+    "purpose": "address / search input"
+   },
+   {
+    "selector": "buttondom#tabs-newtab-button",
+    "purpose": "new tab button"
+   },
+   {
+    "selector": "statusdom#statuspanel-label",
+    "purpose": "link hover status label"
+   }
+  ],
+  "quirks": [
+   "depth_capped_husk",
+   "click_everywhere",
+   "ambiguous_process",
+   "thumbnail_proxy_window",
+   "ghost_only_window_list",
+   "volatile_dom_ids",
+   "window_id_drift",
+   "disabled_keeps_click"
+  ],
+  "act_needs_activation": true,
+  "text_entry": "type_text"
+ },
+ "com.google.GeminiMacOS": {
+  "name": "Gemini",
+  "framework": "swiftui",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "button#tempChat_button",
+    "purpose": "temporary chat button"
+   },
+   {
+    "selector": "button#collapse_button",
+    "purpose": "collapse button in toolbar"
+   },
+   {
+    "selector": "button#sidebar_toggle",
+    "purpose": "sidebar toggle button"
+   },
+   {
+    "selector": "button#mic_button",
+    "purpose": "microphone / dictation button"
+   },
+   {
+    "selector": "button#stc_button",
+    "purpose": "speak to window button"
+   },
+   {
+    "selector": "button#newNotebookRow",
+    "purpose": "new notebook row button"
+   },
+   {
+    "selector": "button#notebooks/*",
+    "purpose": "notebook entry button (UUID tail is user data)"
+   }
+  ],
+  "quirks": [
+   "unnamed_list_items",
+   "menubutton_no_expand",
+   "thumbnail_proxy_window",
+   "offscreen_needs_container_scroll",
+   "enumeration_partial",
+   "silent_enumeration_loss",
+   "window_id_drift",
+   "user_data_in_id",
+   "mass_focused",
+   "zero_area_clones",
+   "disabled_keeps_click",
+   "write_only_surface"
+  ],
+  "act_needs_activation": true,
+  "text_entry": "type_text"
+ },
+ "com.google.Chrome": {
+  "name": "Google Chrome",
+  "framework": "chromium_browser",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "groupdom#content",
+    "purpose": "new tab page content container (webarea)"
+   },
+   {
+    "selector": "groupdom#backgroundImage",
+    "purpose": "new tab page background container"
+   },
+   {
+    "selector": "groupdom#mainView",
+    "purpose": "profile picker main view"
+   },
+   {
+    "selector": "buttondom#profileCardButton",
+    "purpose": "profile picker: open a profile card"
+   },
+   {
+    "selector": "buttondom#moreActionsButton",
+    "purpose": "profile picker: profile card more actions"
+   },
+   {
+    "selector": "buttondom#addProfile",
+    "purpose": "profile picker: add profile"
+   },
+   {
+    "selector": "buttondom#browseAsGuestButton",
+    "purpose": "profile picker: browse as guest"
+   },
+   {
+    "selector": "groupdom#askOnStartup",
+    "purpose": "profile picker: show-on-startup option"
+   },
+   {
+    "selector": "checkboxdom#checkbox",
+    "purpose": "profile picker: show-on-startup checkbox"
+   }
+  ],
+  "quirks": [
+   "depth_capped_husk",
+   "window_id_drift",
+   "disabled_keeps_click"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "type_text"
+ },
+ "com.apple.iWork.Keynote": {
+  "name": "Keynote",
+  "framework": "iwork",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "window#open-panel",
+    "purpose": "open panel window"
+   },
+   {
+    "selector": "browser#ColumnView",
+    "purpose": "open panel column file browser"
+   }
+  ],
+  "quirks": [
+   "launch_transient_window",
+   "window_id_drift",
+   "enumeration_partial",
+   "textfield_is_label",
+   "identity_in_value",
+   "offscreen_needs_container_scroll",
+   "drill_timeout",
+   "mass_focused",
+   "embedded_file_browser",
+   "disabled_keeps_click"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "setfocus_keys"
+ },
+ "com.microsoft.Word": {
+  "name": "Microsoft Word",
+  "framework": "custom_cpp",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "window#DocStage",
+    "purpose": "start screen window (new and recent files)"
+   }
+  ],
+  "quirks": [
+   "bidi_salted_text",
+   "unnamed_list_items",
+   "menubutton_no_expand",
+   "offscreen_needs_container_scroll",
+   "mass_focused",
+   "window_id_drift"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "set_value"
+ },
+ "com.apple.Music": {
+  "name": "Music",
+  "framework": "appkit",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "button#Music.accountButton",
+    "purpose": "account button"
+   },
+   {
+    "selector": "scrollarea#sidebarScroller",
+    "purpose": "sidebar scroll area"
+   },
+   {
+    "selector": "outline#outline",
+    "purpose": "sidebar navigation outline"
+   },
+   {
+    "selector": "group#Music.miniPlayer.contentView*",
+    "purpose": "mini player container (id carries view state)"
+   },
+   {
+    "selector": "button#Music.miniPlayer.shuffleButton",
+    "purpose": "shuffle"
+   },
+   {
+    "selector": "button#Music.miniPlayer.leadingTransportControl",
+    "purpose": "previous track"
+   },
+   {
+    "selector": "button#Music.miniPlayer.playbackTransportControl",
+    "purpose": "play / pause"
+   },
+   {
+    "selector": "button#Music.miniPlayer.trailingTransportControl",
+    "purpose": "next track"
+   },
+   {
+    "selector": "button#Music.miniPlayer.repeatButton",
+    "purpose": "repeat"
+   },
+   {
+    "selector": "group#Music.miniPlayer.metadataRegion*",
+    "purpose": "now playing metadata region (id carries state)"
+   },
+   {
+    "selector": "button#Music.miniPlayer.appleLogoButton*",
+    "purpose": "now playing logo button (id carries hover state)"
+   },
+   {
+    "selector": "button#Music.miniPlayer.lyricsButton",
+    "purpose": "lyrics"
+   },
+   {
+    "selector": "button#Music.miniPlayer.queueButton",
+    "purpose": "playing next queue"
+   },
+   {
+    "selector": "button#Music.miniPlayer.airplayButton",
+    "purpose": "AirPlay output"
+   },
+   {
+    "selector": "button#Music.miniPlayer.volumeButton",
+    "purpose": "volume"
+   }
+  ],
+  "quirks": [
+   "mass_focused",
+   "disabled_keeps_click"
+  ],
+  "act_needs_activation": false,
+  "text_entry": null
+ },
+ "com.apple.Notes": {
+  "name": "Notes",
+  "framework": "appkit",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "textfield#\"Note Body Text View\"",
+    "purpose": "note body editor"
+   },
+   {
+    "selector": "scrollarea#\"Note Body Scroll View\"",
+    "purpose": "note body scroll container"
+   },
+   {
+    "selector": "table#ICMNoteListTableView_asList",
+    "purpose": "note list table"
+   },
+   {
+    "selector": "cell#ICMNoteListCell",
+    "purpose": "note list row cell"
+   },
+   {
+    "selector": "unknown#FolderCell",
+    "purpose": "sidebar folder cell wrapper"
+   }
+  ],
+  "quirks": [
+   "document_as_single_value",
+   "disabled_keeps_click",
+   "readonly_control_as_button",
+   "mass_focused",
+   "window_id_drift"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "type_text"
+ },
+ "notion.id": {
+  "name": "Notion",
+  "framework": "electron",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "groupdom#root",
+    "purpose": "renderer root container"
+   },
+   {
+    "selector": "groupdom#notion-app",
+    "purpose": "app root container"
+   },
+   {
+    "selector": "maindom#main",
+    "purpose": "page content region"
+   },
+   {
+    "selector": "linkdom#skip-to-content",
+    "purpose": "skip to content link"
+   },
+   {
+    "selector": "radiobuttondom#sidebar-tab-home",
+    "purpose": "sidebar home tab"
+   },
+   {
+    "selector": "radiobuttondom#sidebar-tab-chats",
+    "purpose": "sidebar chats tab"
+   },
+   {
+    "selector": "radiobuttondom#sidebar-tab-meetings",
+    "purpose": "sidebar meetings tab"
+   },
+   {
+    "selector": "radiobuttondom#sidebar-tab-inbox",
+    "purpose": "sidebar inbox tab"
+   },
+   {
+    "selector": "tabpaneldom#sidebar-tabpanel-home",
+    "purpose": "sidebar home tab panel"
+   }
+  ],
+  "quirks": [
+   "volatile_dom_ids",
+   "zero_area_clones",
+   "non_unique_role_name",
+   "document_as_single_value",
+   "readonly_control_as_button",
+   "window_id_drift",
+   "depth_capped_husk"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "type_text"
+ },
+ "com.obsproject.obs-studio": {
+  "name": "OBS Studio",
+  "framework": "qt",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "button#OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.streamButton",
+    "purpose": "start/stop streaming"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.recordButton",
+    "purpose": "start/stop recording"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.virtualCamButton",
+    "purpose": "start/stop virtual camera"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.virtualCamConfigButton",
+    "purpose": "configure virtual camera"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.modeSwitch",
+    "purpose": "studio mode toggle"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.settingsButton",
+    "purpose": "open settings"
+   },
+   {
+    "selector": "list#OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenes",
+    "purpose": "scenes list"
+   },
+   {
+    "selector": "list#OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources",
+    "purpose": "sources list"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenesToolbar.QToolButton",
+    "purpose": "scenes toolbar button (5 share id; add name)"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sourcesToolbar.QToolButton",
+    "purpose": "sources toolbar button (5 share id; add name)"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.mixerToolbar.QToolButton",
+    "purpose": "mixer toolbar button (2 share id; add name)"
+   },
+   {
+    "selector": "checkbox#OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.*",
+    "purpose": "per-channel mute (tail = channel name, then .MuteCheckBox)"
+   },
+   {
+    "selector": "group#OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea",
+    "purpose": "audio mixer area"
+   },
+   {
+    "selector": "menubutton#OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitions",
+    "purpose": "transition type picker"
+   },
+   {
+    "selector": "incrementor#OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionDuration",
+    "purpose": "transition duration"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionAdd",
+    "purpose": "add transition"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionRemove",
+    "purpose": "remove transition"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionProps",
+    "purpose": "transition properties"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewZoomInButton",
+    "purpose": "preview zoom in"
+   },
+   {
+    "selector": "button#OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewZoomOutButton",
+    "purpose": "preview zoom out"
+   }
+  ],
+  "quirks": [
+   "user_data_in_id",
+   "readonly_control_as_button",
+   "unnamed_list_items",
+   "non_unique_role_name"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "set_value"
+ },
+ "com.apple.reminders": {
+  "name": "Reminders",
+  "framework": "appkit",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "layoutitem#Reminders",
+    "purpose": "main list layout container"
+   },
+   {
+    "selector": "group#TTRMRemindersListCellView",
+    "purpose": "reminder row"
+   },
+   {
+    "selector": "cell#TTRMRemindersListCompletedCellView",
+    "purpose": "completed reminders cell"
+   },
+   {
+    "selector": "unknown#TTRMAccountsListsTableCellView",
+    "purpose": "sidebar user list cell"
+   },
+   {
+    "selector": "unknown#TTRMAccountsListsRecentlyDeletedCellView",
+    "purpose": "sidebar recently deleted cell"
+   },
+   {
+    "selector": "unknown#TTRMAccountsListsSuggestGroceriesCellView",
+    "purpose": "sidebar suggested list cell"
+   },
+   {
+    "selector": "group#TipView",
+    "purpose": "tip banner"
+   },
+   {
+    "selector": "button#xmark.circle.fill",
+    "purpose": "close tip button"
+   }
+  ],
+  "quirks": [
+   "enumeration_partial",
+   "identity_in_value",
+   "drill_timeout",
+   "readonly_control_as_button",
+   "mass_focused",
+   "menubutton_no_expand",
+   "zero_area_clones",
+   "window_id_drift"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "set_value"
+ },
+ "com.apple.Safari": {
+  "name": "Safari",
+  "framework": "webkit_native",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "textfield#WEB_BROWSER_ADDRESS_AND_SEARCH_FIELD",
+    "purpose": "address and search bar"
+   },
+   {
+    "selector": "button#UnifiedField._magnifyingGlassButton",
+    "purpose": "search menu button in address bar"
+   },
+   {
+    "selector": "group#BackForwardSegmentedControl",
+    "purpose": "back/forward control group"
+   },
+   {
+    "selector": "button#SidebarButton",
+    "purpose": "sidebar toggle"
+   },
+   {
+    "selector": "menubutton#TabGroupPickerButton?TabGroup=*",
+    "purpose": "tab group picker (tail can hold a group name)"
+   },
+   {
+    "selector": "button#DownloadsButton",
+    "purpose": "downloads button"
+   },
+   {
+    "selector": "button#ShareButton",
+    "purpose": "share button"
+   },
+   {
+    "selector": "button#NewTabButton",
+    "purpose": "new tab button"
+   },
+   {
+    "selector": "button#TabOverviewButton",
+    "purpose": "tab overview button"
+   },
+   {
+    "selector": "button#customizationsPopoverButton",
+    "purpose": "start page customize button"
+   },
+   {
+    "selector": "unknown#TabBar?isSeparate=*",
+    "purpose": "tab bar container (name holds tab count)"
+   },
+   {
+    "selector": "radiobutton#TabBarTab?isPinned=*",
+    "purpose": "tab; query encodes pinned/narrow/active state"
+   },
+   {
+    "selector": "button#BackButton",
+    "purpose": "back button"
+   },
+   {
+    "selector": "button#ForwardButton",
+    "purpose": "forward button"
+   },
+   {
+    "selector": "list#StartPageCollectionView",
+    "purpose": "start page section list"
+   },
+   {
+    "selector": "list#favoritesItemIdentifier",
+    "purpose": "favorites section"
+   },
+   {
+    "selector": "group#favoritesItemIdentifierHeader",
+    "purpose": "favorites section header"
+   },
+   {
+    "selector": "list#suggestionsItemIdentifier",
+    "purpose": "suggestions section"
+   },
+   {
+    "selector": "group#suggestionsItemIdentifierHeader",
+    "purpose": "suggestions section header"
+   },
+   {
+    "selector": "button#linkRecommendationCollectionViewItem",
+    "purpose": "favorite tile (class id, many per list)"
+   }
+  ],
+  "quirks": [
+   "enumeration_partial",
+   "silent_enumeration_loss",
+   "hidden_window_offscreen",
+   "thumbnail_proxy_window",
+   "user_data_in_id",
+   "bidi_salted_text",
+   "offscreen_needs_container_scroll"
+  ],
+  "act_needs_activation": true,
+  "text_entry": "set_value"
+ },
+ "ru.keepcoder.Telegram": {
+  "name": "Telegram",
+  "framework": "appkit",
+  "match": "exact",
+  "anchors": [],
+  "quirks": [
+   "window_id_drift",
+   "opaque_root"
+  ],
+  "act_needs_activation": false,
+  "text_entry": null
+ },
+ "com.apple.TextEdit": {
+  "name": "TextEdit",
+  "framework": "appkit",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "window#open-panel",
+    "purpose": "open panel window root"
+   },
+   {
+    "selector": "browser#ColumnView",
+    "purpose": "file browser column view"
+   },
+   {
+    "selector": "menubutton#\"View Options\"",
+    "purpose": "view mode picker"
+   },
+   {
+    "selector": "menubutton#\"Group or Sort By\"",
+    "purpose": "group/sort picker"
+   },
+   {
+    "selector": "combobox#\"where popup\"",
+    "purpose": "location (Where:) popup"
+   },
+   {
+    "selector": "textfield#Search",
+    "purpose": "search field (the only editable textfield)"
+   },
+   {
+    "selector": "button#NewDocumentButton",
+    "purpose": "new document button"
+   },
+   {
+    "selector": "button#OptionsButton",
+    "purpose": "show options button"
+   },
+   {
+    "selector": "button#CancelButton",
+    "purpose": "cancel button"
+   },
+   {
+    "selector": "button#OKButton",
+    "purpose": "open (confirm) button"
+   }
+  ],
+  "quirks": [
+   "textfield_is_label",
+   "identity_in_value",
+   "embedded_file_browser",
+   "mass_focused",
+   "offscreen_needs_container_scroll",
+   "window_id_drift",
+   "disabled_keeps_click"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "set_value"
+ },
+ "com.utmapp.UTM": {
+  "name": "UTM",
+  "framework": "swiftui",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "dialog#home",
+    "purpose": "main library window root (role flips dialog/window)"
+   },
+   {
+    "selector": "group#\"home, SidebarNavigationSplitView\"",
+    "purpose": "sidebar split view"
+   },
+   {
+    "selector": "button#plus",
+    "purpose": "new VM toolbar button (unnamed)"
+   },
+   {
+    "selector": "button#play.circle.fill",
+    "purpose": "per-VM Run button (one per row)"
+   }
+  ],
+  "quirks": [
+   "window_id_drift"
+  ],
+  "act_needs_activation": false,
+  "text_entry": null
+ },
+ "org.videolan.vlc": {
+  "name": "VLC",
+  "framework": "appkit",
+  "match": "exact",
+  "anchors": [],
+  "quirks": [
+   "thumbnail_proxy_window",
+   "hidden_window_offscreen",
+   "disabled_keeps_click",
+   "window_id_drift"
+  ],
+  "act_needs_activation": true,
+  "text_entry": "set_value"
+ },
+ "net.whatsapp.WhatsApp": {
+  "name": "WhatsApp",
+  "framework": "catalyst",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "window#SceneWindow",
+    "purpose": "main window (root role flips window/dialog)"
+   },
+   {
+    "selector": "group#Sidebar_view",
+    "purpose": "left navigation rail"
+   },
+   {
+    "selector": "button#MediaHub",
+    "purpose": "bottom-rail button (labelled Settings in this build)"
+   },
+   {
+    "selector": "group#Toolbar",
+    "purpose": "chat-list header toolbar"
+   },
+   {
+    "selector": "button#NavigationBar_NewChatButton",
+    "purpose": "new chat button"
+   },
+   {
+    "selector": "textfield#TokenizedSearchBar_TextView",
+    "purpose": "chat search field"
+   },
+   {
+    "selector": "group#ChatListView_TableView",
+    "purpose": "chat list container (Scroll)"
+   }
+  ],
+  "quirks": [
+   "packed_record_value",
+   "bidi_salted_text",
+   "hidden_window_offscreen",
+   "thumbnail_proxy_window",
+   "non_unique_role_name",
+   "ghost_only_window_list",
+   "window_id_drift"
+  ],
+  "act_needs_activation": true,
+  "text_entry": "setfocus_keys"
+ },
+ "com.apple.Safari.WebApp.": {
+  "name": "YT Music",
+  "framework": "wkwebview_webapp",
+  "match": "prefix",
+  "anchors": [
+   {
+    "selector": "window#WebAppWindow-*",
+    "purpose": "web app main window"
+   },
+   {
+    "selector": "group#BackForwardSegmentedControl",
+    "purpose": "back/forward control group"
+   },
+   {
+    "selector": "button#WebAppShareButton",
+    "purpose": "share button"
+   },
+   {
+    "selector": "button#BackButton",
+    "purpose": "back button"
+   },
+   {
+    "selector": "button#ForwardButton",
+    "purpose": "forward button"
+   },
+   {
+    "selector": "comboboxdom#input",
+    "purpose": "search field (TypeText)"
+   },
+   {
+    "selector": "sliderdom#volume-slider",
+    "purpose": "volume slider"
+   },
+   {
+    "selector": "progressbardom#progress-bar",
+    "purpose": "playback seek bar"
+   },
+   {
+    "selector": "groupdom#player-bar-background",
+    "purpose": "player bar container"
+   },
+   {
+    "selector": "maindom#content",
+    "purpose": "main content region"
+   },
+   {
+    "selector": "groupdom#header",
+    "purpose": "page header"
+   },
+   {
+    "selector": "groupdom#history-link",
+    "purpose": "history navigation entry"
+   },
+   {
+    "selector": "groupdom#alert-banner",
+    "purpose": "alert banner region"
+   },
+   {
+    "selector": "group#BrowserView?*",
+    "purpose": "web content host (id carries a process id)"
+   }
+  ],
+  "quirks": [
+   "depth_capped_husk",
+   "thumbnail_proxy_window",
+   "non_unique_role_name",
+   "disabled_keeps_click"
+  ],
+  "act_needs_activation": false,
+  "text_entry": "type_text"
+ },
+ "us.zoom.xos": {
+  "name": "zoom.us",
+  "framework": "custom_cpp",
+  "match": "exact",
+  "anchors": [
+   {
+    "selector": "buttondom#sidebar-prev",
+    "purpose": "calendar previous-day button"
+   },
+   {
+    "selector": "buttondom#sidebar-next",
+    "purpose": "calendar next-day button"
+   },
+   {
+    "selector": "groupdom#calendarMainFilter",
+    "purpose": "calendar filter group"
+   }
+  ],
+  "quirks": [
+   "unknown_role_actionable",
+   "window_id_drift",
+   "readonly_control_as_button",
+   "disabled_keeps_click",
+   "volatile_dom_ids"
+  ],
+  "act_needs_activation": false,
+  "text_entry": null
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "list-surfaces",
+  "data": {
+    "pid": 26061,
+    "surfaces": [
+      {
+        "id": "focused-window",
+        "title": "Music",
+        "type": "alert"
+      }
+    ]
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "roster": [
+    "zoom.us",
+    "Telegram",
+    "Notion",
+    "WhatsApp",
+    "Discord",
+    "Claude",
+    "Postman",
+    "Canva",
+    "Visual Studio Code",
+    "Cursor",
+    "Antigravity IDE",
+    "OBS",
+    "VLC",
+    "UTM",
+    "Safari",
+    "Brave Browser",
+    "Google Chrome",
+    "Firefox",
+    "Finder",
+    "Calendar",
+    "Notes",
+    "Reminders",
+    "TextEdit",
+    "Music",
+    "Keynote",
+    "Microsoft Word",
+    "Gemini",
+    "YT Music"
+  ],
+  "skipped": {
+    "Messages/1Password/etc": "privacy denylist",
+    "Xcode, MATLAB, Docker, GarageBand, iMovie": "heavyweight launches, marginal CUA value",
+    "AltTab, Rectangle, Raycast, LinearMouse, BetterDisplay, HeyClicky, darker, ...": "menubar/background utilities without a main window",
+    "BitTorrent*, SmartBrowser, MSB, GtJson, Unstop, HackerRank, Wallper, iwallpaper, MacDroid, EasyCopy, AdBlock, Android File Transfer, Wispr Flow, AClock, Canva? no - included": "kiosk/wrapper/utility apps",
+    "Microsoft Excel/PowerPoint, Pages/Numbers": "same framework as Word/Keynote (dedup)"
+  },
+  "apps": {
+    "zoom.us": {
+      "pid": 25165,
+      "bundle_id": "us.zoom.xos",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 4,
+        "skeleton": {
+          "ok": true,
+          "bytes": 4438,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 14138,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "Telegram": {
+      "pid": 25167,
+      "bundle_id": "ru.keepcoder.Telegram",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 9,
+        "skeleton": {
+          "ok": true,
+          "bytes": 397,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 466,
+          "error": null
+        },
+        "surfaces": {
+          "ok": false,
+          "bytes": 386,
+          "error": "APP_UNRESPONSIVE"
+        }
+      }
+    },
+    "Notion": {
+      "pid": 25169,
+      "bundle_id": "notion.id",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 9,
+        "skeleton": {
+          "ok": true,
+          "bytes": 749,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 3441,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "WhatsApp": {
+      "pid": null,
+      "bundle_id": null,
+      "capture_mode": "background",
+      "errors": [
+        "process never appeared"
+      ],
+      "captures": {}
+    },
+    "Discord": {
+      "pid": 25177,
+      "bundle_id": "com.hnc.Discord",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 1,
+        "skeleton": {
+          "ok": false,
+          "bytes": 387,
+          "error": "PERM_DENIED"
+        },
+        "full": {
+          "ok": false,
+          "bytes": 233,
+          "error": "APP_NOT_FOUND"
+        },
+        "surfaces": {
+          "ok": false,
+          "bytes": 233,
+          "error": "APP_NOT_FOUND"
+        }
+      }
+    },
+    "Claude": {
+      "pid": 25181,
+      "bundle_id": "com.anthropic.claudefordesktop",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 1,
+        "skeleton": {
+          "ok": true,
+          "bytes": 750,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 3572,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "Postman": {
+      "pid": null,
+      "bundle_id": null,
+      "capture_mode": "background",
+      "errors": [
+        "launch blocked: open(1) succeeds but process never spawns (Gatekeeper/first-run suspected)"
+      ],
+      "captures": {}
+    },
+    "Canva": {
+      "pid": null,
+      "bundle_id": null,
+      "capture_mode": "background",
+      "errors": [
+        "launch blocked: open(1) succeeds but process never spawns (Gatekeeper/first-run suspected)"
+      ],
+      "captures": {}
+    },
+    "Visual Studio Code": {
+      "pid": null,
+      "bundle_id": null,
+      "capture_mode": "background",
+      "errors": [
+        "launch blocked: open(1) succeeds but process never spawns (Gatekeeper/first-run suspected)"
+      ],
+      "captures": {}
+    },
+    "Cursor": {
+      "pid": null,
+      "bundle_id": null,
+      "capture_mode": "background",
+      "errors": [
+        "launch blocked: open(1) succeeds but process never spawns (Gatekeeper/first-run suspected)"
+      ],
+      "captures": {}
+    },
+    "Antigravity IDE": {
+      "pid": 10858,
+      "bundle_id": "com.google.antigravity-ide",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 10,
+        "skeleton": {
+          "ok": true,
+          "bytes": 861,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 4267,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "OBS": {
+      "pid": null,
+      "bundle_id": null,
+      "capture_mode": "background",
+      "errors": [
+        "process never appeared"
+      ],
+      "captures": {}
+    },
+    "VLC": {
+      "pid": 25780,
+      "bundle_id": "org.videolan.vlc",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 9,
+        "skeleton": {
+          "ok": true,
+          "bytes": 5360,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 13344,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "UTM": {
+      "pid": 25783,
+      "bundle_id": "com.utmapp.UTM",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 1,
+        "skeleton": {
+          "ok": true,
+          "bytes": 1347,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 6305,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 155,
+          "error": null
+        }
+      }
+    },
+    "Safari": {
+      "pid": 22839,
+      "bundle_id": "com.apple.Safari",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 12,
+        "skeleton": {
+          "ok": true,
+          "bytes": 4636,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 45241,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "Brave Browser": {
+      "pid": 25785,
+      "bundle_id": "com.brave.Browser",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 12,
+        "skeleton": {
+          "ok": true,
+          "bytes": 822,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 11593,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "Google Chrome": {
+      "pid": 25787,
+      "bundle_id": "com.google.Chrome",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 14,
+        "skeleton": {
+          "ok": true,
+          "bytes": 868,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 9455,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "Firefox": {
+      "pid": 25827,
+      "bundle_id": "org.mozilla.firefox",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 2,
+        "skeleton": {
+          "ok": true,
+          "bytes": 6616,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 21715,
+          "error": null
+        },
+        "surfaces": {
+          "ok": false,
+          "bytes": 1299,
+          "error": "AMBIGUOUS_TARGET"
+        }
+      }
+    },
+    "Finder": {
+      "pid": 1450,
+      "bundle_id": "com.apple.finder",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 9,
+        "skeleton": {
+          "ok": true,
+          "bytes": 2880,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 310836,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 97,
+          "error": null
+        }
+      }
+    },
+    "Calendar": {
+      "pid": 26053,
+      "bundle_id": "com.apple.iCal",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 4,
+        "skeleton": {
+          "ok": true,
+          "bytes": 3833,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 35522,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 160,
+          "error": null
+        }
+      }
+    },
+    "Notes": {
+      "pid": 26055,
+      "bundle_id": "com.apple.Notes",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 2,
+        "skeleton": {
+          "ok": true,
+          "bytes": 4304,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 10439,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 177,
+          "error": null
+        }
+      }
+    },
+    "Reminders": {
+      "pid": 26057,
+      "bundle_id": "com.apple.reminders",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 1,
+        "skeleton": {
+          "ok": true,
+          "bytes": 2351,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 19368,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 161,
+          "error": null
+        }
+      }
+    },
+    "TextEdit": {
+      "pid": 26059,
+      "bundle_id": "com.apple.TextEdit",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 2,
+        "skeleton": {
+          "ok": true,
+          "bytes": 3191,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 25617,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "Music": {
+      "pid": 26061,
+      "bundle_id": "com.apple.Music",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 1,
+        "skeleton": {
+          "ok": true,
+          "bytes": 1259,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 9439,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 157,
+          "error": null
+        }
+      }
+    },
+    "Keynote": {
+      "pid": 26229,
+      "bundle_id": "com.apple.iWork.Keynote",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 1,
+        "skeleton": {
+          "ok": true,
+          "bytes": 1224,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 1847,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 178,
+          "error": null
+        }
+      }
+    },
+    "Microsoft Word": {
+      "pid": 26231,
+      "bundle_id": "com.microsoft.Word",
+      "capture_mode": "background",
+      "errors": [],
+      "captures": {
+        "windows": 1,
+        "skeleton": {
+          "ok": true,
+          "bytes": 2077,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 3357,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "Gemini": {
+      "pid": 74766,
+      "bundle_id": "com.google.GeminiMacOS",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 10,
+        "skeleton": {
+          "ok": true,
+          "bytes": 1490,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 40300,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    },
+    "YT Music": {
+      "pid": 11656,
+      "bundle_id": "com.apple.Safari.WebApp.4E77B8ED-130F-4DF1-A14B-151070D6DBB0",
+      "capture_mode": "activated",
+      "errors": [],
+      "captures": {
+        "windows": 10,
+        "skeleton": {
+          "ok": true,
+          "bytes": 1333,
+          "error": null
+        },
+        "full": {
+          "ok": true,
+          "bytes": 106145,
+          "error": null
+        },
+        "surfaces": {
+          "ok": true,
+          "bytes": 98,
+          "error": null
+        }
+      }
+    }
+  }
+}

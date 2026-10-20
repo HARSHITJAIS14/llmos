@@ -1,0 +1,1709 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Microsoft Word",
+    "complete": true,
+    "ref_count": 95,
+    "snapshot_id": "s3fjju075yyg6r",
+    "tree": {
+      "bounds": {
+        "height": 803.0,
+        "width": 1087.0,
+        "x": 1374.0,
+        "y": 333.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "Scroll"
+          ],
+          "bounds": {
+            "height": 709.0,
+            "width": 994.0,
+            "x": 1467.0,
+            "y": 385.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Select",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 188.5,
+                "width": 994.0,
+                "x": 1467.0,
+                "y": 437.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "ScrollTo",
+                    "Select"
+                  ],
+                  "bounds": {
+                    "height": 182.39999999999998,
+                    "width": 147.04000000000002,
+                    "x": 1507.0,
+                    "y": 447.0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 182.39999999999998,
+                        "width": 147.04000000000002,
+                        "x": 1507.0,
+                        "y": 447.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 182.39999999999998,
+                            "width": 147.04000000000002,
+                            "x": 1507.0,
+                            "y": 447.0
+                          },
+                          "name": "Blank Document",
+                          "ref_id": "@s3fjju075yyg6r:e4",
+                          "role": "button"
+                        }
+                      ],
+                      "role": "group",
+                      "states": [
+                        "disabled"
+                      ]
+                    },
+                    {
+                      "bounds": {
+                        "height": 182.39999999999998,
+                        "width": 147.04000000000002,
+                        "x": 1660.5,
+                        "y": 447.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 182.39999999999998,
+                            "width": 147.04000000000002,
+                            "x": 1660.5,
+                            "y": 447.0
+                          },
+                          "name": "Welcome to Word",
+                          "ref_id": "@s3fjju075yyg6r:e5",
+                          "role": "button"
+                        }
+                      ],
+                      "role": "group",
+                      "states": [
+                        "disabled"
+                      ]
+                    },
+                    {
+                      "bounds": {
+                        "height": 182.39999999999998,
+                        "width": 147.04000000000002,
+                        "x": 1814.0,
+                        "y": 447.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 182.39999999999998,
+                            "width": 147.04000000000002,
+                            "x": 1814.0,
+                            "y": 447.0
+                          },
+                          "name": "Take Notes",
+                          "ref_id": "@s3fjju075yyg6r:e6",
+                          "role": "button"
+                        }
+                      ],
+                      "role": "group",
+                      "states": [
+                        "disabled"
+                      ]
+                    },
+                    {
+                      "bounds": {
+                        "height": 182.39999999999998,
+                        "width": 147.04000000000002,
+                        "x": 1967.0,
+                        "y": 447.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 182.39999999999998,
+                            "width": 147.04000000000002,
+                            "x": 1967.0,
+                            "y": 447.0
+                          },
+                          "name": "Calendar",
+                          "ref_id": "@s3fjju075yyg6r:e7",
+                          "role": "button"
+                        }
+                      ],
+                      "role": "group",
+                      "states": [
+                        "disabled"
+                      ]
+                    },
+                    {
+                      "bounds": {
+                        "height": 182.39999999999998,
+                        "width": 147.04000000000002,
+                        "x": 2120.5,
+                        "y": 447.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 182.39999999999998,
+                            "width": 147.04000000000002,
+                            "x": 2120.5,
+                            "y": 447.0
+                          },
+                          "name": "Creative resume, designed by MOO",
+                          "ref_id": "@s3fjju075yyg6r:e8",
+                          "role": "button"
+                        }
+                      ],
+                      "role": "group",
+                      "states": [
+                        "disabled"
+                      ]
+                    },
+                    {
+                      "bounds": {
+                        "height": 182.39999999999998,
+                        "width": 147.04000000000002,
+                        "x": 2274.0,
+                        "y": 447.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 182.39999999999998,
+                            "width": 147.04000000000002,
+                            "x": 2274.0,
+                            "y": 447.0
+                          },
+                          "name": "Creative cover letter, designed by MOO",
+                          "ref_id": "@s3fjju075yyg6r:e9",
+                          "role": "button"
+                        }
+                      ],
+                      "role": "group",
+                      "states": [
+                        "disabled"
+                      ]
+                    }
+                  ],
+                  "ref_id": "@s3fjju075yyg6r:e3",
+                  "role": "list",
+                  "states": [
+                    "disabled"
+                  ]
+                }
+              ],
+              "ref_id": "@s3fjju075yyg6r:e2",
+              "role": "list",
+              "states": [
+                "focused"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 30.0,
+                "width": 15.0,
+                "x": 1481.0,
+                "y": 396.0
+              },
+              "name": "Templates",
+              "ref_id": "@s3fjju075yyg6r:e10",
+              "role": "disclosure",
+              "value": "1"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 19.0,
+                "width": 107.0,
+                "x": 2315.0,
+                "y": 401.5
+              },
+              "name": "More templates",
+              "ref_id": "@s3fjju075yyg6r:e11",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 32.0,
+                "width": 83.0,
+                "x": 1495.0,
+                "y": 643.5
+              },
+              "name": "Recent",
+              "ref_id": "@s3fjju075yyg6r:e12",
+              "role": "radiobutton",
+              "states": [
+                "checked"
+              ],
+              "value": "1"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 32.0,
+                "width": 109.0,
+                "x": 1580.0,
+                "y": 643.5
+              },
+              "name": "Favourites",
+              "ref_id": "@s3fjju075yyg6r:e13",
+              "role": "radiobutton",
+              "value": "0"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 32.0,
+                "width": 150.0,
+                "x": 1691.0,
+                "y": 643.5
+              },
+              "name": "Shared with me",
+              "ref_id": "@s3fjju075yyg6r:e14",
+              "role": "radiobutton",
+              "value": "0"
+            },
+            {
+              "bounds": {
+                "height": 636.0,
+                "width": 994.0,
+                "x": 1467.0,
+                "y": 681.5
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 636.0,
+                    "width": 994.0,
+                    "x": 1467.0,
+                    "y": 681.5
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "Select",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 628.0,
+                        "width": 996.0,
+                        "x": 1466.0,
+                        "y": 708.5
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 714.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 714.5
+                              },
+                              "name": "Steve_Jobs_Experiment_Formatted",
+                              "ref_id": "@s3fjju075yyg6r:e18",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 714.5
+                              },
+                              "name": "Steve_Jobs_Experiment_Formatted Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Desktop \u200e\u00bb Aspire \u200e\u00bb Quick \u200e\u00bb harshit \u200e\u00bb resumes \u200e\u00bb pvfs",
+                              "ref_id": "@s3fjju075yyg6r:e19",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 714.5
+                              },
+                              "name": "Tue at 2:35\u202fAM",
+                              "ref_id": "@s3fjju075yyg6r:e20",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e17",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 761.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 761.5
+                              },
+                              "name": "Steve_Jobs_Experiment",
+                              "ref_id": "@s3fjju075yyg6r:e22",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 761.5
+                              },
+                              "name": "Steve_Jobs_Experiment Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Desktop \u200e\u00bb Aspire \u200e\u00bb Quick \u200e\u00bb harshit \u200e\u00bb resumes \u200e\u00bb pvfs",
+                              "ref_id": "@s3fjju075yyg6r:e23",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 761.5
+                              },
+                              "name": "Tue at 2:33\u202fAM",
+                              "ref_id": "@s3fjju075yyg6r:e24",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e21",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 808.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 808.5
+                              },
+                              "name": "Group6 Bi-Weekly Report 2_fdb39bee-d89d-486f-aa91-be5fa4da0d3d",
+                              "ref_id": "@s3fjju075yyg6r:e26",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 808.5
+                              },
+                              "name": "Group6 Bi-Weekly Report 2_fdb39bee-d89d-486f-aa91-be5fa4da0d3d Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Downloads",
+                              "ref_id": "@s3fjju075yyg6r:e27",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 808.5
+                              },
+                              "name": "23 Aug",
+                              "ref_id": "@s3fjju075yyg6r:e28",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e25",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 855.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 855.5
+                              },
+                              "name": "Biweekly_Report_2",
+                              "ref_id": "@s3fjju075yyg6r:e30",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 855.5
+                              },
+                              "name": "Biweekly_Report_2 Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Desktop \u200e\u00bb dassa \u200e\u00bb che453 \u200e\u00bb reports \u200e\u00bb Report_2",
+                              "ref_id": "@s3fjju075yyg6r:e31",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 855.5
+                              },
+                              "name": "23 Aug",
+                              "ref_id": "@s3fjju075yyg6r:e32",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e29",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 902.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 902.5
+                              },
+                              "name": "Bi-Weekly Report No",
+                              "ref_id": "@s3fjju075yyg6r:e34",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 902.5
+                              },
+                              "name": "Bi-Weekly Report No Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Desktop \u200e\u00bb dassa \u200e\u00bb che453 \u200e\u00bb reports \u200e\u00bb Report_1",
+                              "ref_id": "@s3fjju075yyg6r:e35",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 902.5
+                              },
+                              "name": "23 Aug",
+                              "ref_id": "@s3fjju075yyg6r:e36",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e33",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 949.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 949.5
+                              },
+                              "name": "report_format_763645b1-6657-4292-868d-5d5ef67b9d68",
+                              "ref_id": "@s3fjju075yyg6r:e38",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 949.5
+                              },
+                              "name": "report_format_763645b1-6657-4292-868d-5d5ef67b9d68 Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Downloads",
+                              "ref_id": "@s3fjju075yyg6r:e39",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 949.5
+                              },
+                              "name": "10 Aug",
+                              "ref_id": "@s3fjju075yyg6r:e40",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e37",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 996.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 996.5
+                              },
+                              "name": "endee",
+                              "ref_id": "@s3fjju075yyg6r:e42",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 996.5
+                              },
+                              "name": "endee Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Downloads",
+                              "ref_id": "@s3fjju075yyg6r:e43",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 996.5
+                              },
+                              "name": "2 Jul",
+                              "ref_id": "@s3fjju075yyg6r:e44",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e41",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 1043.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 1043.5
+                              },
+                              "name": "endee",
+                              "ref_id": "@s3fjju075yyg6r:e46",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 1043.5
+                              },
+                              "name": "endee Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Desktop \u200e\u00bb Aspire \u200e\u00bb Quick \u200e\u00bb harshit \u200e\u00bb resumes \u200e\u00bb pvfs",
+                              "ref_id": "@s3fjju075yyg6r:e47",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 1043.5
+                              },
+                              "name": "2 Jul",
+                              "ref_id": "@s3fjju075yyg6r:e48",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e45",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 1090.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 1090.5
+                              },
+                              "name": "PVF_format",
+                              "ref_id": "@s3fjju075yyg6r:e50",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 1090.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 26.0,
+                                    "width": 26.0,
+                                    "x": 2137.0,
+                                    "y": 1100.5
+                                  },
+                                  "name": "Share",
+                                  "ref_id": "@s3fjju075yyg6r:e52",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 26.0,
+                                    "width": 26.0,
+                                    "x": 2169.0,
+                                    "y": 1100.5
+                                  },
+                                  "name": "Add to Favourites",
+                                  "ref_id": "@s3fjju075yyg6r:e53",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 26.0,
+                                    "width": 26.0,
+                                    "x": 2201.0,
+                                    "y": 1100.5
+                                  },
+                                  "name": "More options",
+                                  "ref_id": "@s3fjju075yyg6r:e54",
+                                  "role": "button"
+                                }
+                              ],
+                              "name": "PVF_format Macintosh HD \u200e\u00bb Users \u200e\u00bb harshit \u200e\u00bb Downloads",
+                              "ref_id": "@s3fjju075yyg6r:e51",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 1090.5
+                              },
+                              "name": "30 Jun",
+                              "ref_id": "@s3fjju075yyg6r:e55",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e49",
+                          "role": "row"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 1137.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 1137.5
+                              },
+                              "name": "PVF",
+                              "ref_id": "@s3fjju075yyg6r:e57",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 1137.5
+                              },
+                              "ref_id": "@s3fjju075yyg6r:e58",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 1137.5
+                              },
+                              "name": "30 Jun",
+                              "ref_id": "@s3fjju075yyg6r:e59",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e56",
+                          "role": "row",
+                          "states": [
+                            "offscreen"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 1184.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 1184.5
+                              },
+                              "name": "Internship form_2018 DOAA",
+                              "ref_id": "@s3fjju075yyg6r:e61",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 1184.5
+                              },
+                              "ref_id": "@s3fjju075yyg6r:e62",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 1184.5
+                              },
+                              "name": "23 May",
+                              "ref_id": "@s3fjju075yyg6r:e63",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e60",
+                          "role": "row",
+                          "states": [
+                            "offscreen"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 1231.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 1231.5
+                              },
+                              "name": "FARE-Travel-Support",
+                              "ref_id": "@s3fjju075yyg6r:e65",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 1231.5
+                              },
+                              "ref_id": "@s3fjju075yyg6r:e66",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 1231.5
+                              },
+                              "name": "8 Apr",
+                              "ref_id": "@s3fjju075yyg6r:e67",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e64",
+                          "role": "row",
+                          "states": [
+                            "offscreen"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 47.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 1278.5
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 40.0,
+                                "x": 1483.0,
+                                "y": 1278.5
+                              },
+                              "ref_id": "@s3fjju075yyg6r:e69",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 710.0,
+                                "x": 1524.0,
+                                "y": 1278.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 2.0,
+                                    "width": 2.0,
+                                    "x": 1523.0,
+                                    "y": 1323.5
+                                  },
+                                  "name": "More documents",
+                                  "ref_id": "@s3fjju075yyg6r:e71",
+                                  "role": "button",
+                                  "states": [
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s3fjju075yyg6r:e70",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 210.0,
+                                "x": 2235.0,
+                                "y": 1278.5
+                              },
+                              "ref_id": "@s3fjju075yyg6r:e72",
+                              "role": "cell",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3fjju075yyg6r:e68",
+                          "role": "row",
+                          "states": [
+                            "offscreen"
+                          ]
+                        },
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 994.0,
+                            "x": 1467.0,
+                            "y": 681.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 47.0,
+                                "x": 1477.0,
+                                "y": 681.5
+                              },
+                              "ref_id": "@s3fjju075yyg6r:e73",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 711.0,
+                                "x": 1524.0,
+                                "y": 681.5
+                              },
+                              "name": "Name",
+                              "ref_id": "@s3fjju075yyg6r:e74",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 216.0,
+                                "x": 2235.0,
+                                "y": 681.5
+                              },
+                              "name": "Last opened by you",
+                              "ref_id": "@s3fjju075yyg6r:e75",
+                              "role": "button"
+                            }
+                          ],
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "_NS:131"
+                          },
+                          "role": "group"
+                        }
+                      ],
+                      "name": "Recent documents",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "_NS:126"
+                      },
+                      "ref_id": "@s3fjju075yyg6r:e16",
+                      "role": "table"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:120"
+                  },
+                  "ref_id": "@s3fjju075yyg6r:e15",
+                  "role": "scrollarea"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:192"
+              },
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "SetValue"
+              ],
+              "bounds": {
+                "height": 711.0,
+                "width": 19.0,
+                "x": 2443.0,
+                "y": 384.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 537.0,
+                    "width": 11.0,
+                    "x": 2447.0,
+                    "y": 388.0
+                  },
+                  "ref_id": "@s3fjju075yyg6r:e77",
+                  "role": "handle",
+                  "value": "0"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 0.0,
+                    "width": 0.0,
+                    "x": 2444.0,
+                    "y": 385.0
+                  },
+                  "ref_id": "@s3fjju075yyg6r:e78",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 0.0,
+                    "width": 0.0,
+                    "x": 2444.0,
+                    "y": 385.0
+                  },
+                  "ref_id": "@s3fjju075yyg6r:e79",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 165.5,
+                    "width": 11.0,
+                    "x": 2447.0,
+                    "y": 925.5
+                  },
+                  "ref_id": "@s3fjju075yyg6r:e80",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 0.0,
+                    "width": 11.0,
+                    "x": 2447.0,
+                    "y": 388.0
+                  },
+                  "ref_id": "@s3fjju075yyg6r:e81",
+                  "role": "button"
+                }
+              ],
+              "ref_id": "@s3fjju075yyg6r:e76",
+              "role": "scrollbar",
+              "value": "0"
+            }
+          ],
+          "ref_id": "@s3fjju075yyg6r:e1",
+          "role": "scrollarea"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 20.0,
+            "width": 71.5,
+            "x": 2291.0,
+            "y": 1105.0
+          },
+          "name": "Cancel",
+          "ref_id": "@s3fjju075yyg6r:e82",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 20.0,
+            "width": 71.5,
+            "x": 2370.5,
+            "y": 1105.0
+          },
+          "name": "Create",
+          "ref_id": "@s3fjju075yyg6r:e83",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 79.0,
+            "width": 74.0,
+            "x": 1383.0,
+            "y": 391.0
+          },
+          "name": "Harshit Jaiswal, Account Settings",
+          "ref_id": "@s3fjju075yyg6r:e84",
+          "role": "menubutton"
+        },
+        {
+          "bounds": {
+            "height": 400.0,
+            "width": 80.0,
+            "x": 1380.0,
+            "y": 479.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 74.0,
+                "width": 74.0,
+                "x": 1383.0,
+                "y": 478.0
+              },
+              "name": "Home",
+              "ref_id": "@s3fjju075yyg6r:e85",
+              "role": "radiobutton",
+              "states": [
+                "checked"
+              ],
+              "value": "true"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 74.0,
+                "width": 74.0,
+                "x": 1383.0,
+                "y": 560.0
+              },
+              "name": "New",
+              "ref_id": "@s3fjju075yyg6r:e86",
+              "role": "radiobutton",
+              "value": "false"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 74.0,
+                "width": 74.0,
+                "x": 1383.0,
+                "y": 642.0
+              },
+              "name": "Recent",
+              "ref_id": "@s3fjju075yyg6r:e87",
+              "role": "radiobutton",
+              "value": "false"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 74.0,
+                "width": 74.0,
+                "x": 1383.0,
+                "y": 806.0
+              },
+              "name": "Open",
+              "ref_id": "@s3fjju075yyg6r:e88",
+              "role": "radiobutton",
+              "value": "false"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 74.0,
+                "width": 74.0,
+                "x": 1383.0,
+                "y": 724.0
+              },
+              "name": "Shared",
+              "ref_id": "@s3fjju075yyg6r:e89",
+              "role": "radiobutton",
+              "value": "false"
+            }
+          ],
+          "role": "tablist"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 1087.0,
+            "x": 1374.0,
+            "y": 333.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 128.0,
+                "x": 2329.0,
+                "y": 333.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 122.0,
+                    "x": 2332.0,
+                    "y": 340.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 9.0,
+                        "width": 16.0,
+                        "x": 2343.0,
+                        "y": 355.5
+                      },
+                      "name": "Search",
+                      "ref_id": "@s3fjju075yyg6r:e92",
+                      "role": "button"
+                    }
+                  ],
+                  "name": "Search",
+                  "ref_id": "@s3fjju075yyg6r:e91",
+                  "role": "textfield"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s3fjju075yyg6r:e90",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 1392.0,
+            "y": 351.0
+          },
+          "ref_id": "@s3fjju075yyg6r:e93",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 1438.0,
+            "y": 351.0
+          },
+          "ref_id": "@s3fjju075yyg6r:e94",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 1415.0,
+            "y": 351.0
+          },
+          "ref_id": "@s3fjju075yyg6r:e95",
+          "role": "button"
+        }
+      ],
+      "name": "Open new and recent files",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "DocStage"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28255",
+      "title": "Microsoft Word"
+    }
+  }
+}

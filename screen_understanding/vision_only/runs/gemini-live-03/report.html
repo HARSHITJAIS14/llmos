@@ -1,0 +1,126 @@
+<!doctype html><meta charset="utf-8"><title>Recursive screen interpretation</title><style>body{font:16px system-ui;background:#f5f5f5;max-width:1200px;margin:32px auto;padding:16px}img{max-width:100%;height:auto}article{background:white;padding:24px;margin:24px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}</style><h1>Recursive screen interpretation</h1><p>Model hypotheses; inspect evidence and uncertainty.</p><img src="overview.png"><h2>Reconciled context</h2><pre>{
+  &quot;description&quot;: &quot;A dark-themed desktop browser window showing a YouTube video watch page with a video player displaying startup logos, video metadata below it, and recommended videos on the right.&quot;,
+  &quot;regions&quot;: [
+    {
+      &quot;id&quot;: &quot;r0&quot;,
+      &quot;context&quot;: &quot;Complete browser application window with the YouTube interface loaded.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r1&quot;,
+      &quot;context&quot;: &quot;Top browser chrome featuring macOS window control buttons, tab bar with multiple open tabs, and URL navigation bar.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r2&quot;,
+      &quot;context&quot;: &quot;YouTube top header containing the YouTube Premium logo, search bar, microphone icon, Create button, notification bell, and user profile avatar.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r3&quot;,
+      &quot;context&quot;: &quot;Main video playback viewport showing a slide with &#x27;FOUNDERS FUND&#x27; and various portfolio company logos (Polymarket, Lighter, Figma, Varda, etc.).&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r4&quot;,
+      &quot;context&quot;: &quot;Video metadata section including video title, channel information (&#x27;Sourcery with Molly O&#x27;Shea&#x27;), subscribe button, engagement controls (like/dislike/share), and description panel.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r5&quot;,
+      &quot;context&quot;: &quot;Right sidebar presenting category filter pills and a vertical list of recommended videos from &#x27;Sourcery with Molly O&#x27;Shea&#x27;.&quot;
+    }
+  ],
+  &quot;conflicts&quot;: [],
+  &quot;unknowns&quot;: []
+}</pre><article id="r0"><h2>r0: browser_window</h2><img src="crops/r0.png"><pre>{
+  &quot;id&quot;: &quot;r0&quot;,
+  &quot;parent&quot;: null,
+  &quot;depth&quot;: 0,
+  &quot;label&quot;: &quot;browser_window&quot;,
+  &quot;box&quot;: [
+    0,
+    0,
+    2398,
+    1830
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;crop_file&quot;: &quot;crops/r0.png&quot;,
+  &quot;crop_box&quot;: [
+    0,
+    0,
+    2398,
+    1830
+  ],
+  &quot;observations&quot;: [
+    &quot;A desktop browser window displaying a YouTube video page in dark theme.&quot;,
+    &quot;Top contains macOS window controls, tab bar, and address bar pointing to &#x27;youtube.com&#x27;.&quot;,
+    &quot;Middle content has YouTube navigation header (YouTube Premium logo, search bar, create, notifications, profile).&quot;,
+    &quot;Main page area is split into video player with metadata/description on left, and recommendation sidebar on right.&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;The user is watching a video titled &#x27;Brian Singerman: \&quot;If SpaceX Didn&#x27;t Work, Founders Fund Wouldn&#x27;t Exist\&quot;&#x27; on YouTube.&quot;
+  ],
+  &quot;uncertainties&quot;: [],
+  &quot;proposal_issues&quot;: []
+}</pre></article><article id="r1"><h2>r1: browser_chrome</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r1&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;browser_chrome&quot;,
+  &quot;box&quot;: [
+    113,
+    81,
+    2285,
+    251
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Standard browser navigation and tab interface.&quot;
+}</pre></article><article id="r2"><h2>r2: youtube_header</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r2&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;youtube_header&quot;,
+  &quot;box&quot;: [
+    113,
+    251,
+    2285,
+    375
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Standard YouTube top bar with search and actions.&quot;
+}</pre></article><article id="r3"><h2>r3: video_player</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r3&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_player&quot;,
+  &quot;box&quot;: [
+    141,
+    392,
+    1549,
+    1180
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Main video playback area showing sponsor or company logos.&quot;
+}</pre></article><article id="r4"><h2>r4: video_details</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r4&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_details&quot;,
+  &quot;box&quot;: [
+    141,
+    1215,
+    1549,
+    1629
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Video title, channel info, subscribe button, like/share controls, and description box.&quot;
+}</pre></article><article id="r5"><h2>r5: sidebar_recommendations</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r5&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;sidebar_recommendations&quot;,
+  &quot;box&quot;: [
+    1578,
+    392,
+    2228,
+    1656
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Sidebar containing related video recommendations list.&quot;
+}</pre></article>

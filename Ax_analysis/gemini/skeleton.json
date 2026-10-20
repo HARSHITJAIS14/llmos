@@ -1,0 +1,130 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Gemini",
+    "complete": true,
+    "ref_count": 8,
+    "snapshot_id": "s2ysbbl8aeqcog",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children_count": 6,
+                  "role": "group"
+                },
+                {
+                  "children_count": 6,
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Temporary chat",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "tempChat_button"
+                  },
+                  "ref_id": "@s2ysbbl8aeqcog:e2",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Temporary chat",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "collapse_button"
+                  },
+                  "ref_id": "@s2ysbbl8aeqcog:e3",
+                  "role": "button"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s2ysbbl8aeqcog:e1",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2ysbbl8aeqcog:e4",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s2ysbbl8aeqcog:e5",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2ysbbl8aeqcog:e6",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2ysbbl8aeqcog:e7",
+          "role": "statictext"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Next",
+                  "ref_id": "@s2ysbbl8aeqcog:e8",
+                  "role": "button"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "sheet"
+        }
+      ],
+      "name": "Gemini \u2013 New chat",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-23839",
+      "title": "Gemini"
+    }
+  }
+}

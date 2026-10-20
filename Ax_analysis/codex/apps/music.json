@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0",
+  "app_key": "music",
+  "identity": {
+    "name": "Music",
+    "bundle_id": "com.apple.Music",
+    "bundle_id_match": "exact",
+    "framework": "appkit",
+    "secondary_frameworks": [],
+    "framework_confidence": "medium",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "system app in /System/Applications, 0 embedded frameworks, no hints"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "47 nodes: button 14, treeitem 12, cell 12, group 6, outline 1; no webarea, no textfield"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 6 at --max-depth 10, 0 frontier nodes"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 11 nodes, root_kids 4, 2 frontier; not the 7-node Chromium shell"
+      }
+    ]
+  },
+  "category": "media",
+  "fidelity": {
+    "default": {
+      "nodes": 47,
+      "max_depth": 6,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 38,
+      "ref_count": 40,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 11,
+      "error_code": null
+    },
+    "forced": null,
+    "forced_over_default_ratio": null,
+    "default_score": 1.0,
+    "forced_score": null,
+    "best_capture": "default",
+    "ladder_verdict": "trust"
+  },
+  "readiness": {
+    "default_rung": "TRUST",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "background tree has sidebar and mini player only; content pane not captured, foreground behavior untested"
+    },
+    "handshake": {
+      "status": "not_applicable"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": false
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 28.9,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": [
+        "\\[[^\\]]*\\]$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 100.0,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": []
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "Music.accountButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "account button",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "sidebarScroller",
+      "match": "exact",
+      "tier": "high",
+      "role": "scrollarea",
+      "purpose": "sidebar scroll area",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "outline",
+      "match": "exact",
+      "tier": "high",
+      "role": "outline",
+      "purpose": "sidebar navigation outline",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.contentView",
+      "match": "prefix",
+      "tier": "high",
+      "role": "group",
+      "purpose": "mini player container (id carries view state)",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.shuffleButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "shuffle",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.leadingTransportControl",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "previous track",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.playbackTransportControl",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "play / pause",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.trailingTransportControl",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "next track",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.repeatButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "repeat",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.metadataRegion",
+      "match": "prefix",
+      "tier": "high",
+      "role": "group",
+      "purpose": "now playing metadata region (id carries state)",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.appleLogoButton",
+      "match": "prefix",
+      "tier": "high",
+      "role": "button",
+      "purpose": "now playing logo button (id carries hover state)",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.lyricsButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "lyrics",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.queueButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "playing next queue",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.airplayButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "AirPlay output",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Music.miniPlayer.volumeButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "volume",
+      "seen_in_captures": 1
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus"
+        ],
+        "count": 14,
+        "verb": "Click",
+        "note": "3 transport buttons disabled with empty queue, still carry Click"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 12,
+        "verb": "Click",
+        "note": "sidebar entries"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Scroll"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "cell",
+        "match": "role==cell and parent.role==treeitem",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4",
+          "LAW-ID-5"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": null,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 0,
+    "offscreen_click": "forbidden",
+    "root_role_varies": true
+  },
+  "quirks": [
+    {
+      "kind": "mass_focused",
+      "detect": "count(focused) > 3",
+      "workaround": "real focus = the focused outline; do not verify with focused on cells",
+      "severity": "low",
+      "observed": "13/47 focused (12 sidebar cells + root)",
+      "laws": [
+        "LAW-ACT-10"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and Click in actions",
+      "workaround": "check disabled state before Click",
+      "severity": "low",
+      "observed": "3/3 disabled transport buttons keep Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "sidebar navigation and transport controls",
+      "tested": true
+    },
+    {
+      "channel": "app_api",
+      "when": "library, playback or now-playing reads the tree does not show",
+      "precondition": "AppleScript automation permission",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "menu bar commands (Space play/pause, Cmd+F search)",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "content pane still absent after foreground re-snapshot",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:59:13+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background"
+    ],
+    "surface": "main",
+    "sources": [
+      "music/meta.json",
+      "music/windows.json",
+      "music/skeleton.json",
+      "music/full.json",
+      "music/analysis.md"
+    ],
+    "excluded_sources": [
+      {
+        "path": "music/forced.json",
+        "reason": "captured YT Music web app (window id WebAppWindow-YT Music), not Apple Music"
+      }
+    ],
+    "verified": false,
+    "codex_confidence": "medium"
+  }
+}

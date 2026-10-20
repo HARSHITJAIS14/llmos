@@ -1,0 +1,326 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "zoom.us",
+    "complete": true,
+    "ref_count": 22,
+    "snapshot_id": "s30z5q5cx4htcy",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "name": "Back in Chat(\u2318 + left bracket)",
+          "ref_id": "@s30z5q5cx4htcy:e1",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "name": "Forward in Chat(\u2318 + right bracket)",
+          "ref_id": "@s30z5q5cx4htcy:e2",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "name": "History",
+          "ref_id": "@s30z5q5cx4htcy:e3",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Search (\u2318E)  \u2318E",
+          "ref_id": "@s30z5q5cx4htcy:e4",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Create new",
+          "ref_id": "@s30z5q5cx4htcy:e5",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Open activity center, New messages",
+          "ref_id": "@s30z5q5cx4htcy:e6",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Zoom, HARSHIT JAISWAL, Available, Basic account",
+          "ref_id": "@s30z5q5cx4htcy:e7",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "name": "Calendar always shows on the home screen.",
+          "ref_id": "@s30z5q5cx4htcy:e8",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "ref_id": "@s30z5q5cx4htcy:e9",
+                  "role": "button"
+                }
+              ],
+              "name": "Home, selected, 1 of 6",
+              "role": "unknown",
+              "value": "Home, selected"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "ref_id": "@s30z5q5cx4htcy:e10",
+                  "role": "button"
+                }
+              ],
+              "name": "Chat, 2 of 6",
+              "role": "unknown",
+              "value": "Chat"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "ref_id": "@s30z5q5cx4htcy:e11",
+                  "role": "button"
+                }
+              ],
+              "name": "Canvas, 3 of 6",
+              "role": "unknown",
+              "value": "Canvas"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "ref_id": "@s30z5q5cx4htcy:e12",
+                  "role": "button"
+                }
+              ],
+              "name": "Whiteboards, 4 of 6",
+              "role": "unknown",
+              "value": "Whiteboards"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "ref_id": "@s30z5q5cx4htcy:e13",
+                  "role": "button"
+                }
+              ],
+              "name": "Clips, 5 of 6",
+              "role": "unknown",
+              "value": "Clips"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "ref_id": "@s30z5q5cx4htcy:e14",
+                  "role": "button"
+                }
+              ],
+              "name": "More with new items, 6 of 6",
+              "role": "unknown",
+              "value": "More with new items"
+            }
+          ],
+          "name": "Navigation tabs",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Settings",
+          "ref_id": "@s30z5q5cx4htcy:e15",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "name": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply.",
+              "ref_id": "@s30z5q5cx4htcy:e16",
+              "role": "textfield",
+              "states": [
+                "readonly"
+              ]
+            },
+            {
+              "name": "Redeem offer",
+              "ref_id": "@s30z5q5cx4htcy:e17",
+              "role": "link"
+            }
+          ],
+          "name": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply. Redeem offer",
+          "role": "unknown",
+          "value": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply. Redeem offer"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Close",
+          "ref_id": "@s30z5q5cx4htcy:e18",
+          "role": "button"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children_count": 2,
+                  "role": "group"
+                },
+                {
+                  "children_count": 1,
+                  "role": "group"
+                },
+                {
+                  "children_count": 1,
+                  "role": "group"
+                },
+                {
+                  "children_count": 1,
+                  "role": "group"
+                },
+                {
+                  "children_count": 1,
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Open AI Companion (\u21e7\u2318O)",
+                  "ref_id": "@s30z5q5cx4htcy:e19",
+                  "role": "button"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s30z5q5cx4htcy:e20",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s30z5q5cx4htcy:e21",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s30z5q5cx4htcy:e22",
+          "role": "button"
+        }
+      ],
+      "name": "Zoom Workplace",
+      "role": "window",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-27980",
+      "title": "Zoom Workplace"
+    }
+  }
+}

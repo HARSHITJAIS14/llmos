@@ -1,0 +1,183 @@
+[
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28098",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28096",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28095",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28094",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28097",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28093",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28092",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28091",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 1.0,
+      "width": 1.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28089",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 1.0,
+      "width": 1.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28088",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 146.0,
+      "width": 129.0,
+      "x": 2332.0,
+      "y": 1051.0
+    },
+    "id": "w-28087",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "New tab",
+    "visible": true
+  },
+  {
+    "app_name": "Brave Browser",
+    "bounds": {
+      "height": 500.0,
+      "width": 500.0,
+      "x": 0.0,
+      "y": 940.0
+    },
+    "id": "w-28100",
+    "is_focused": false,
+    "pid": 25785,
+    "process_instance": "macos-proc-v1:1788103714:226268",
+    "title": "Brave Browser",
+    "visible": false
+  }
+]

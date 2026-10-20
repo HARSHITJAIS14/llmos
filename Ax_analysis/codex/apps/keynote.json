@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "app_key": "keynote",
+  "identity": {
+    "name": "Keynote",
+    "bundle_id": "com.apple.iWork.Keynote",
+    "bundle_id_match": "exact",
+    "framework": "iwork",
+    "secondary_frameworks": [
+      "appkit"
+    ],
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "18 embedded frameworks, 13 are TS* iWork shared kits (TSKit, TSText, TSTables, TSAccessibility...) plus KNAnimation"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "forced 689 nodes: group 312, textfield 310 (45%), treeitem 26, cell 26; no webarea"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "forced max depth 7 at --max-depth 40 (native band <= 9)"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 9 nodes, root_kids 5 (not the 7-node Chromium shell)"
+      }
+    ]
+  },
+  "category": "office",
+  "fidelity": {
+    "default": {
+      "nodes": 9,
+      "max_depth": 3,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 3,
+      "ref_count": 7,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 9,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 689,
+      "max_depth": 7,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 1072,
+      "named_nodes": 56,
+      "ref_count": 376,
+      "has_webarea": false,
+      "offscreen_nodes": 604,
+      "skeleton_nodes": null,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 76.556,
+    "default_score": 0.008,
+    "forced_score": 0.643,
+    "best_capture": "forced",
+    "ladder_verdict": "navigate_partial"
+  },
+  "readiness": {
+    "default_rung": "R3_unsettled",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "tiny_tree"
+      ],
+      "chromium_shell_skeleton": false,
+      "cause": "launch_transient"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": false,
+    "needs_activation": {
+      "read": true,
+      "act": false,
+      "reason": "post-launch capture was a 9-node splash window; the real window came later with a new id"
+    },
+    "handshake": {
+      "status": "not_applicable"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 2000
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "textfield_value",
+      "value_prefix",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "value",
+    "native_id": {
+      "coverage_interactive_pct": 0.0,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 100.0,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": []
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "open-panel",
+      "match": "exact",
+      "tier": "high",
+      "role": "window",
+      "purpose": "open panel window",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "ColumnView",
+      "match": "exact",
+      "tier": "high",
+      "role": "browser",
+      "purpose": "open panel column file browser",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:8",
+      "match": "exact",
+      "tier": "low",
+      "role": "outline",
+      "purpose": "open panel sidebar locations outline",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:61",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollarea",
+      "purpose": "open panel sidebar scroll area",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:70",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollbar",
+      "purpose": "open panel sidebar scrollbar",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:32",
+      "match": "exact",
+      "tier": "low",
+      "role": "window",
+      "purpose": "launch splash window",
+      "seen_in_captures": 1
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "text_entry": "setfocus_keys",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetValue"
+        ],
+        "count": 310,
+        "verb": "Click",
+        "note": "list item labels, 0/310 SetFocus: never SetValue"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 26,
+        "verb": "Click",
+        "note": "sidebar locations"
+      },
+      {
+        "role": "cell",
+        "actions": [
+          "Click"
+        ],
+        "count": 26,
+        "verb": "Click"
+      },
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "count": 5,
+        "verb": "Click"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Select"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "browser",
+        "actions": [
+          "RightClick",
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Scroll"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 3,
+        "verb": "Scroll"
+      },
+      {
+        "role": "scrollbar",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "handle",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "partial",
+    "recipes": [
+      {
+        "target": "list_item_label",
+        "match": "role==textfield and no name and parent.role==group and parent.parent.role==list",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-3",
+          "LAW-ID-4"
+        ]
+      },
+      {
+        "target": "cell",
+        "match": "role==cell and parent.role==treeitem",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4",
+          "LAW-ID-5"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": null,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 3,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "launch_transient_window",
+      "detect": "n <= 12 right after launch and root not opaque",
+      "workaround": "re-list windows ~2s apart, activate, recapture once; still <= 12 -> non-AX",
+      "severity": "high",
+      "observed": "default 9 nodes in splash w-28256 (910x608); 15 min later w-28758 (891x448) had 689 nodes",
+      "laws": [
+        "LAW-LIFE-11",
+        "LAW-LIFE-2"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick best window every session",
+      "severity": "high",
+      "observed": "w-28256 -> w-28758",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    },
+    {
+      "kind": "enumeration_partial",
+      "detect": "complete==false and nodes_observed > n",
+      "workaround": "trust the prefix; scroll the list or use search, then re-snapshot",
+      "severity": "high",
+      "observed": "forced 689 delivered of 1072 observed (64%), 6 subtree_truncated markers",
+      "laws": [
+        "LAW-STR-7",
+        "LAW-LIFE-7"
+      ]
+    },
+    {
+      "kind": "drill_timeout",
+      "detect": "snapshot --root on a truncation boundary returns TIMEOUT",
+      "workaround": "never drill; scroll instead",
+      "severity": "low",
+      "observed": "3/3 drills TIMEOUT (browser, scrollarea, list), 9.2s total",
+      "laws": [
+        "LAW-LIFE-7"
+      ]
+    },
+    {
+      "kind": "textfield_is_label",
+      "detect": "role==textfield and SetFocus not in actions",
+      "workaround": "treat as statictext; never SetValue",
+      "severity": "high",
+      "observed": "310/310 textfields lack SetFocus, all value-only under list>group",
+      "laws": [
+        "LAW-ACT-8"
+      ]
+    },
+    {
+      "kind": "identity_in_value",
+      "detect": "role==textfield with value and no name",
+      "workaround": "resolve item by value",
+      "severity": "high",
+      "observed": "310/310 list labels carry text only in value",
+      "laws": [
+        "LAW-ID-4",
+        "LAW-TXT-3"
+      ]
+    },
+    {
+      "kind": "mass_focused",
+      "detect": "count(focused) > 3",
+      "workaround": "real focus = the focused list container",
+      "severity": "low",
+      "observed": "337/689 focused (310 group, 26 cell, 1 list)",
+      "laws": [
+        "LAW-ACT-10"
+      ]
+    },
+    {
+      "kind": "embedded_file_browser",
+      "detect": "role==browser at depth ~3",
+      "workaround": "drive it like Finder (column browser)",
+      "severity": "low",
+      "observed": "ColumnView browser at depth 3 in open-panel window",
+      "laws": [
+        "LAW-STR-11"
+      ]
+    },
+    {
+      "kind": "offscreen_needs_container_scroll",
+      "detect": "offscreen node without ScrollTo",
+      "workaround": "Scroll the nearest scrollarea, then re-snapshot",
+      "severity": "high",
+      "observed": "604/689 offscreen, 0 with ScrollTo",
+      "laws": [
+        "LAW-ACT-11"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and Click in actions",
+      "workaround": "check disabled state before Click",
+      "severity": "low",
+      "observed": "1/1 disabled button keeps Click (splash)",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "window n > 12 and window id stable",
+      "tested": true
+    },
+    {
+      "channel": "app_api",
+      "when": "document or slide tasks the open panel tree cannot reach",
+      "precondition": "AppleScript automation permission",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "list item beyond delivered prefix; Cmd+O / Cmd+N, type-to-select",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "n <= 12 after one activate + recapture",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T21:03:40+05:30",
+      "2026-08-30T21:19:07+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "open_panel",
+    "sources": [
+      "keynote/meta.json",
+      "keynote/windows.json",
+      "keynote/skeleton.json",
+      "keynote/full.json",
+      "keynote/forced.json"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "medium"
+  }
+}

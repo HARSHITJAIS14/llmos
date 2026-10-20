@@ -1,0 +1,1520 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "Reminders",
+  "complete": false,
+  "nodes_observed": 103,
+  "ref_count": 78,
+  "snapshot_id": "s30j0kxhpiy6ad",
+  "tree": {
+   "bounds": {
+    "height": 692.0,
+    "width": 768.0,
+    "x": 567.0,
+    "y": 567.0
+   },
+   "children": [
+    {
+     "bounds": {
+      "height": 692.0,
+      "width": 768.0,
+      "x": 567.0,
+      "y": 567.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "Scroll",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 632.0,
+        "width": 271.0,
+        "x": 575.0,
+        "y": 619.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 634.0,
+          "width": 273.0,
+          "x": 574.0,
+          "y": 618.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 203.0,
+            "width": 271.0,
+            "x": 575.0,
+            "y": 619.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 203.0,
+              "width": 251.0,
+              "x": 585.0,
+              "y": 619.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 192.0,
+                "width": 245.0,
+                "x": 589.0,
+                "y": 622.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "RightClick"
+                 ],
+                 "bounds": {
+                  "height": 60.0,
+                  "width": 119.5,
+                  "x": 589.0,
+                  "y": 622.0
+                 },
+                 "name": "Today, 1 reminder",
+                 "ref_id": "@s30j0kxhpiy6ad:e5",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "RightClick"
+                 ],
+                 "bounds": {
+                  "height": 60.0,
+                  "width": 119.5,
+                  "x": 714.5,
+                  "y": 622.0
+                 },
+                 "name": "Scheduled, 1 reminder",
+                 "ref_id": "@s30j0kxhpiy6ad:e6",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "RightClick"
+                 ],
+                 "bounds": {
+                  "height": 60.0,
+                  "width": 119.5,
+                  "x": 589.0,
+                  "y": 688.0
+                 },
+                 "name": "All, 5 reminders",
+                 "ref_id": "@s30j0kxhpiy6ad:e7",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "RightClick"
+                 ],
+                 "bounds": {
+                  "height": 60.0,
+                  "width": 119.5,
+                  "x": 714.5,
+                  "y": 688.0
+                 },
+                 "name": "Flagged, 0 reminders",
+                 "ref_id": "@s30j0kxhpiy6ad:e8",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "RightClick"
+                 ],
+                 "bounds": {
+                  "height": 60.0,
+                  "width": 119.5,
+                  "x": 589.0,
+                  "y": 754.0
+                 },
+                 "name": "Urgent, 0 reminders",
+                 "ref_id": "@s30j0kxhpiy6ad:e9",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "RightClick"
+                 ],
+                 "bounds": {
+                  "height": 60.0,
+                  "width": 119.5,
+                  "x": 714.5,
+                  "y": 754.0
+                 },
+                 "name": "Completed",
+                 "ref_id": "@s30j0kxhpiy6ad:e10",
+                 "role": "button"
+                }
+               ],
+               "name": "Pinned lists and system Smart Lists",
+               "role": "grid"
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e4",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "ref_id": "@s30j0kxhpiy6ad:e3",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 130.0,
+            "width": 271.0,
+            "x": 575.0,
+            "y": 835.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 130.0,
+              "width": 251.0,
+              "x": 585.0,
+              "y": 835.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 130.0,
+                "width": 245.0,
+                "x": 589.0,
+                "y": 835.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 130.0,
+                  "width": 245.0,
+                  "x": 589.0,
+                  "y": 835.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 213.0,
+                    "x": 605.0,
+                    "y": 921.0
+                   },
+                   "name": "Go to System Settings",
+                   "ref_id": "@s30j0kxhpiy6ad:e13",
+                   "role": "button"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 20.0,
+                    "width": 20.0,
+                    "x": 796.5,
+                    "y": 852.5
+                   },
+                   "name": "Close",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "xmark.circle.fill"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e14",
+                   "role": "button"
+                  }
+                 ],
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "TipView"
+                 },
+                 "role": "group"
+                }
+               ],
+               "role": "group"
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e12",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "ref_id": "@s30j0kxhpiy6ad:e11",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 20.0,
+            "width": 271.0,
+            "x": 575.0,
+            "y": 965.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 20.0,
+              "width": 251.0,
+              "x": 585.0,
+              "y": 965.0
+             },
+             "ref_id": "@s30j0kxhpiy6ad:e16",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "ref_id": "@s30j0kxhpiy6ad:e15",
+           "role": "treeitem",
+           "states": [
+            "expanded"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 41.0,
+            "width": 271.0,
+            "x": 575.0,
+            "y": 985.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 41.0,
+              "width": 251.0,
+              "x": 585.0,
+              "y": 985.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 41.0,
+                "width": 218.0,
+                "x": 612.0,
+                "y": 985.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 24.0,
+                  "width": 24.0,
+                  "x": 602.0,
+                  "y": 991.0
+                 },
+                 "name": "Shopping badge, Green",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "_NS:40"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e19",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 22.0,
+                  "width": 26.0,
+                  "x": 801.0,
+                  "y": 992.0
+                 },
+                 "name": "Add List: Shopping",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "_NS:46"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e20",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "RightClick"
+                 ],
+                 "bounds": {
+                  "height": 31.0,
+                  "width": 163.0,
+                  "x": 634.0,
+                  "y": 990.0
+                 },
+                 "description": "Title",
+                 "name": "Suggested List: Shopping\nAutomatically categorises items",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "_NS:7"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e21",
+                 "role": "statictext",
+                 "value": "Suggested List: Shopping\nAutomatically categorises items"
+                }
+               ],
+               "name": "Suggested List: Shopping, Shopping badge, Green",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "TTRMAccountsListsSuggestGroceriesCellView"
+               },
+               "role": "unknown"
+              }
+             ],
+             "description": "Suggested List: Shopping, Shopping badge, Green",
+             "name": "Suggested List: Shopping\nAutomatically categorises items",
+             "ref_id": "@s30j0kxhpiy6ad:e18",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "ref_id": "@s30j0kxhpiy6ad:e17",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 22.0,
+            "width": 271.0,
+            "x": 575.0,
+            "y": 1039.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 22.0,
+              "width": 251.0,
+              "x": 585.0,
+              "y": 1039.0
+             },
+             "name": "My Lists",
+             "ref_id": "@s30j0kxhpiy6ad:e23",
+             "role": "cell",
+             "states": [
+              "focused"
+             ],
+             "subtree_truncated": true,
+             "drill_result": "TIMEOUT"
+            }
+           ],
+           "ref_id": "@s30j0kxhpiy6ad:e22",
+           "role": "treeitem",
+           "states": [
+            "expanded"
+           ],
+           "subtree_truncated": true,
+           "drill_result": "TIMEOUT"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 36.0,
+            "width": 271.0,
+            "x": 575.0,
+            "y": 1061.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 36.0,
+              "width": 251.0,
+              "x": 585.0,
+              "y": 1061.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 36.0,
+                "width": 230.0,
+                "x": 600.0,
+                "y": 1061.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 24.0,
+                  "width": 24.0,
+                  "x": 602.0,
+                  "y": 1067.0
+                 },
+                 "name": "List badge, Custom",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "_NS:57"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e26",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 143.0,
+                  "x": 634.0,
+                  "y": 1070.0
+                 },
+                 "name": "Reminders",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "_NS:7"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e27",
+                 "role": "textfield",
+                 "value": "Reminders"
+                }
+               ],
+               "name": "Reminders, 5 reminders, List badge, Custom",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "TTRMAccountsListsTableCellView"
+               },
+               "role": "unknown"
+              }
+             ],
+             "description": "Reminders, 5 reminders, List badge, Custom",
+             "name": "Reminders",
+             "ref_id": "@s30j0kxhpiy6ad:e25",
+             "role": "cell",
+             "states": [
+              "focused",
+              "selected"
+             ]
+            }
+           ],
+           "ref_id": "@s30j0kxhpiy6ad:e24",
+           "role": "treeitem",
+           "states": [
+            "selected"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 36.0,
+            "width": 271.0,
+            "x": 575.0,
+            "y": 1097.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 36.0,
+              "width": 251.0,
+              "x": 585.0,
+              "y": 1097.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 36.0,
+                "width": 230.0,
+                "x": 600.0,
+                "y": 1097.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 24.0,
+                  "width": 24.0,
+                  "x": 602.0,
+                  "y": 1103.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "_NS:57"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e30",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "RightClick"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 143.0,
+                  "x": 634.0,
+                  "y": 1106.0
+                 },
+                 "description": "Recently Deleted",
+                 "name": "Recently Deleted",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "_NS:7"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e31",
+                 "role": "statictext",
+                 "value": "Recently Deleted"
+                }
+               ],
+               "name": "Recently Deleted, 1 reminder",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "TTRMAccountsListsRecentlyDeletedCellView"
+               },
+               "role": "unknown"
+              }
+             ],
+             "description": "Recently Deleted, 1 reminder",
+             "name": "Recently Deleted",
+             "ref_id": "@s30j0kxhpiy6ad:e29",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "ref_id": "@s30j0kxhpiy6ad:e28",
+           "role": "treeitem"
+          }
+         ],
+         "name": "Account Lists",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "_NS:41"
+         },
+         "ref_id": "@s30j0kxhpiy6ad:e2",
+         "role": "outline",
+         "subtree_truncated": true,
+         "drill_result": "TIMEOUT"
+        }
+       ],
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:37"
+       },
+       "ref_id": "@s30j0kxhpiy6ad:e1",
+       "role": "scrollarea",
+       "subtree_truncated": true,
+       "drill_result": "TIMEOUT"
+      },
+      {
+       "bounds": {
+        "height": 692.0,
+        "width": 768.0,
+        "x": 567.0,
+        "y": 567.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Scroll",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 591.0,
+          "width": 488.0,
+          "x": 847.0,
+          "y": 668.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "RightClick",
+            "Select",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 593.0,
+            "width": 490.0,
+            "x": 846.0,
+            "y": 667.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 36.0,
+              "width": 488.0,
+              "x": 847.0,
+              "y": 668.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 36.0,
+                "width": 488.0,
+                "x": 847.0,
+                "y": 668.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 36.0,
+                  "width": 467.0,
+                  "x": 862.0,
+                  "y": 668.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 39.0,
+                    "x": 1283.0,
+                    "y": 677.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "Click",
+                      "SetFocus"
+                     ],
+                     "bounds": {
+                      "height": 18.0,
+                      "width": 39.0,
+                      "x": 1283.0,
+                      "y": 677.0
+                     },
+                     "name": "Show",
+                     "ref_id": "@s30j0kxhpiy6ad:e38",
+                     "role": "button"
+                    }
+                   ],
+                   "name": "Show",
+                   "ref_id": "@s30j0kxhpiy6ad:e37",
+                   "role": "button"
+                  },
+                  {
+                   "available_actions": [
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 33.5,
+                    "x": 952.5,
+                    "y": 677.0
+                   },
+                   "name": "Clear",
+                   "ref_id": "@s30j0kxhpiy6ad:e39",
+                   "role": "menubutton"
+                  }
+                 ],
+                 "name": "1 Completed, Hiding completed reminders",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "TTRMRemindersListCompletedCellView"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e36",
+                 "role": "cell"
+                }
+               ],
+               "name": "1 Completed, Hiding completed reminders",
+               "ref_id": "@s30j0kxhpiy6ad:e35",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e34",
+             "role": "treeitem"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 0.0,
+              "width": 488.0,
+              "x": 847.0,
+              "y": 704.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "Click"
+               ],
+               "bounds": {
+                "height": 0.0,
+                "width": 488.0,
+                "x": 847.0,
+                "y": 704.0
+               },
+               "ref_id": "@s30j0kxhpiy6ad:e41",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e40",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 488.0,
+              "x": 847.0,
+              "y": 704.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "Click"
+               ],
+               "bounds": {
+                "height": 32.0,
+                "width": 488.0,
+                "x": 847.0,
+                "y": 704.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click"
+                 ],
+                 "bounds": {
+                  "height": 32.0,
+                  "width": 467.0,
+                  "x": 862.0,
+                  "y": 704.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "Toggle",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 11.0,
+                    "width": 22.0,
+                    "x": 862.0,
+                    "y": 715.0
+                   },
+                   "name": "Mark as Completed",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:97"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e45",
+                   "role": "switch",
+                   "value": "0"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 429.0,
+                    "x": 892.0,
+                    "y": 711.0
+                   },
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:31"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e46",
+                   "role": "textfield",
+                   "value": "Hennesy"
+                  }
+                 ],
+                 "name": "Incomplete, Hennesy",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "TTRMRemindersListCellView"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e44",
+                 "role": "group"
+                }
+               ],
+               "name": "Incomplete, Hennesy",
+               "ref_id": "@s30j0kxhpiy6ad:e43",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e42",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 488.0,
+              "x": 847.0,
+              "y": 736.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "Click"
+               ],
+               "bounds": {
+                "height": 32.0,
+                "width": 488.0,
+                "x": 847.0,
+                "y": 736.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click"
+                 ],
+                 "bounds": {
+                  "height": 32.0,
+                  "width": 467.0,
+                  "x": 862.0,
+                  "y": 736.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "Toggle",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 11.0,
+                    "width": 22.0,
+                    "x": 862.0,
+                    "y": 747.0
+                   },
+                   "name": "Mark as Completed",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:97"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e50",
+                   "role": "switch",
+                   "value": "0"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 429.0,
+                    "x": 892.0,
+                    "y": 743.0
+                   },
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:31"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e51",
+                   "role": "textfield",
+                   "value": "Bioprocess(after contest)"
+                  }
+                 ],
+                 "name": "Incomplete, Bioprocess(after contest)",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "TTRMRemindersListCellView"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e49",
+                 "role": "group"
+                }
+               ],
+               "name": "Incomplete, Bioprocess(after contest)",
+               "ref_id": "@s30j0kxhpiy6ad:e48",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e47",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 488.0,
+              "x": 847.0,
+              "y": 768.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "Click"
+               ],
+               "bounds": {
+                "height": 32.0,
+                "width": 488.0,
+                "x": 847.0,
+                "y": 768.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click"
+                 ],
+                 "bounds": {
+                  "height": 32.0,
+                  "width": 467.0,
+                  "x": 862.0,
+                  "y": 768.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "Toggle",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 11.0,
+                    "width": 22.0,
+                    "x": 862.0,
+                    "y": 779.0
+                   },
+                   "name": "Mark as Completed",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:97"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e55",
+                   "role": "switch",
+                   "value": "0"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 429.0,
+                    "x": 892.0,
+                    "y": 775.0
+                   },
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:31"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e56",
+                   "role": "textfield",
+                   "value": "Contest"
+                  }
+                 ],
+                 "name": "Incomplete, Contest",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "TTRMRemindersListCellView"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e54",
+                 "role": "group"
+                }
+               ],
+               "name": "Incomplete, Contest",
+               "ref_id": "@s30j0kxhpiy6ad:e53",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e52",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 488.0,
+              "x": 847.0,
+              "y": 800.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "Click"
+               ],
+               "bounds": {
+                "height": 32.0,
+                "width": 488.0,
+                "x": 847.0,
+                "y": 800.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click"
+                 ],
+                 "bounds": {
+                  "height": 32.0,
+                  "width": 467.0,
+                  "x": 862.0,
+                  "y": 800.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "Toggle",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 11.0,
+                    "width": 22.0,
+                    "x": 862.0,
+                    "y": 811.0
+                   },
+                   "name": "Mark as Completed",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:97"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e60",
+                   "role": "switch",
+                   "value": "0"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 429.0,
+                    "x": 892.0,
+                    "y": 807.0
+                   },
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:31"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e61",
+                   "role": "textfield",
+                   "value": "(6-8 practice for contest)"
+                  }
+                 ],
+                 "name": "Incomplete, (6-8 practice for contest)",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "TTRMRemindersListCellView"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e59",
+                 "role": "group"
+                }
+               ],
+               "name": "Incomplete, (6-8 practice for contest)",
+               "ref_id": "@s30j0kxhpiy6ad:e58",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e57",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 48.0,
+              "width": 488.0,
+              "x": 847.0,
+              "y": 832.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "Click"
+               ],
+               "bounds": {
+                "height": 48.0,
+                "width": 488.0,
+                "x": 847.0,
+                "y": 832.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click"
+                 ],
+                 "bounds": {
+                  "height": 48.0,
+                  "width": 467.0,
+                  "x": 862.0,
+                  "y": 832.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "Toggle",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 11.0,
+                    "width": 22.0,
+                    "x": 862.0,
+                    "y": 843.0
+                   },
+                   "name": "Mark as Completed",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:97"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e65",
+                   "role": "switch",
+                   "value": "0"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 429.0,
+                    "x": 892.0,
+                    "y": 839.0
+                   },
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:31"
+                   },
+                   "ref_id": "@s30j0kxhpiy6ad:e66",
+                   "role": "textfield",
+                   "value": "Clean the laptop."
+                  }
+                 ],
+                 "name": "Incomplete, Clean the laptop., 4 Jul 2026 at 9:00\u202fPM, Overdue",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "TTRMRemindersListCellView"
+                 },
+                 "ref_id": "@s30j0kxhpiy6ad:e64",
+                 "role": "group"
+                }
+               ],
+               "name": "Incomplete, Clean the laptop., 4 Jul 2026 at 9:00\u202fPM, Overdue",
+               "ref_id": "@s30j0kxhpiy6ad:e63",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s30j0kxhpiy6ad:e62",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            }
+           ],
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:13"
+           },
+           "ref_id": "@s30j0kxhpiy6ad:e33",
+           "role": "outline",
+           "states": [
+            "focused"
+           ]
+          }
+         ],
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "_NS:7"
+         },
+         "ref_id": "@s30j0kxhpiy6ad:e32",
+         "role": "scrollarea"
+        }
+       ],
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "Reminders"
+       },
+       "role": "layoutitem"
+      },
+      {
+       "bounds": {
+        "height": 40.0,
+        "width": 456.0,
+        "x": 863.0,
+        "y": 619.0
+       },
+       "name": "Reminders , 5 reminders",
+       "ref_id": "@s30j0kxhpiy6ad:e67",
+       "role": "textfield",
+       "states": [
+        "readonly"
+       ]
+      }
+     ],
+     "native_id": {
+      "kind": "ax_identifier",
+      "value": "_NS:15"
+     },
+     "role": "group",
+     "subtree_truncated": true
+    },
+    {
+     "available_actions": [
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 52.0,
+      "width": 768.0,
+      "x": 567.0,
+      "y": 567.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 44.0,
+        "x": 759.0,
+        "y": 567.0
+       },
+       "name": "Add List",
+       "ref_id": "@s30j0kxhpiy6ad:e69",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 44.0,
+        "x": 803.0,
+        "y": 567.0
+       },
+       "name": "Sidebar",
+       "ref_id": "@s30j0kxhpiy6ad:e70",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 41.0,
+        "x": 979.0,
+        "y": 567.0
+       },
+       "name": "Share List",
+       "ref_id": "@s30j0kxhpiy6ad:e71",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 38.0,
+        "x": 1020.0,
+        "y": 567.0
+       },
+       "name": "Add Section",
+       "ref_id": "@s30j0kxhpiy6ad:e72",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 41.0,
+        "x": 1058.0,
+        "y": 567.0
+       },
+       "name": "Add Reminder",
+       "ref_id": "@s30j0kxhpiy6ad:e73",
+       "role": "button"
+      },
+      {
+       "bounds": {
+        "height": 52.0,
+        "width": 232.0,
+        "x": 1099.0,
+        "y": 567.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "RightClick",
+          "SetValue",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 38.0,
+          "width": 226.0,
+          "x": 1102.0,
+          "y": 574.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 9.0,
+            "width": 16.0,
+            "x": 1113.0,
+            "y": 589.0
+           },
+           "name": "Search",
+           "ref_id": "@s30j0kxhpiy6ad:e75",
+           "role": "button"
+          }
+         ],
+         "ref_id": "@s30j0kxhpiy6ad:e74",
+         "role": "textfield"
+        }
+       ],
+       "role": "group"
+      }
+     ],
+     "ref_id": "@s30j0kxhpiy6ad:e68",
+     "role": "toolbar"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 585.0,
+      "y": 585.0
+     },
+     "ref_id": "@s30j0kxhpiy6ad:e76",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 631.0,
+      "y": 585.0
+     },
+     "ref_id": "@s30j0kxhpiy6ad:e77",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 608.0,
+      "y": 585.0
+     },
+     "ref_id": "@s30j0kxhpiy6ad:e78",
+     "role": "button"
+    }
+   ],
+   "name": "Reminders",
+   "native_id": {
+    "kind": "ax_identifier",
+    "value": "_NS:10"
+   },
+   "role": "window",
+   "subtree_truncated": true
+  },
+  "truncated": true,
+  "window": {
+   "id": "w-28759",
+   "title": "Reminders"
+  }
+ }
+}

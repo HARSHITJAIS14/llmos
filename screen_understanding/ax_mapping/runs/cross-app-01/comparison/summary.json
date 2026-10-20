@@ -1,0 +1,125 @@
+{
+  "scope": "Six app attempts; three paired captures, including the earlier Finder baseline. One surface per app; not an accuracy benchmark.",
+  "rules_sha256": {
+    "render_overlay.py": "06d22eca45e0ff81a3b2748b04ffe40165ba95802ecff9d6660e66675b15f2e9",
+    "canonicalize.py": "758543814f6ec62519044e242375bc6753d5be8859c1dc68f70c0d9b437d596c"
+  },
+  "results": [
+    {
+      "app": "Finder",
+      "source": "/Users/harshit/Desktop/YC/screen_understanding/ax_mapping/runs/finder-live-01",
+      "counts": {
+        "projected": 216,
+        "entities": 195,
+        "controls": 55,
+        "merged_nodes": 21,
+        "ambiguous_controls": 8
+      },
+      "lossless_membership": true,
+      "capture_status": "unverified",
+      "capture_reasons": [],
+      "validation": {
+        "window_geometry_unchanged": true,
+        "process_instance_unchanged": true,
+        "ax_signature_unchanged": true,
+        "ax_root_matches_capture_bounds": true,
+        "screenshot_sha256": "45c99e383ce40036a21537d9061ddba43270372ba3a0edc2d5c0d620977b8dd8",
+        "ax_before_ms": 340.15607833862305,
+        "screenshot_ms": 124.38607215881348,
+        "ax_after_ms": 358.6618900299072,
+        "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim.",
+        "visible_ax_signature_unchanged": true
+      },
+      "skew_ms": 233.12997817993164,
+      "p50_processing_ms": 3.4338959958404303,
+      "p95_processing_ms": 4.158583004027605,
+      "node_count_is_not_accuracy": true
+    },
+    {
+      "app": "Calculator",
+      "source": "/Users/harshit/Desktop/YC/screen_understanding/ax_mapping/runs/cross-app-01/calculator",
+      "counts": {
+        "projected": 35,
+        "entities": 30,
+        "controls": 25,
+        "merged_nodes": 5,
+        "ambiguous_controls": 0
+      },
+      "lossless_membership": true,
+      "capture_status": "unverified",
+      "capture_reasons": [],
+      "validation": {
+        "window_geometry_unchanged": true,
+        "process_instance_unchanged": true,
+        "ax_signature_unchanged": true,
+        "ax_root_matches_capture_bounds": true,
+        "screenshot_sha256": "6c1bdd5850d3b505410106779e200d321a4910dd98ab8fb4401bb4feae3ba8c1",
+        "ax_before_ms": 191.21217727661133,
+        "screenshot_ms": 116.57905578613281,
+        "ax_after_ms": 192.98982620239258,
+        "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim.",
+        "visible_ax_signature_unchanged": true
+      },
+      "skew_ms": 154.3886661529541,
+      "p50_processing_ms": 0.36068749614059925,
+      "p95_processing_ms": 0.6752499612048268,
+      "node_count_is_not_accuracy": true
+    },
+    {
+      "app": "System Settings",
+      "source": "/Users/harshit/Desktop/YC/screen_understanding/ax_mapping/runs/cross-app-01/settings",
+      "counts": {
+        "projected": 131,
+        "entities": 103,
+        "controls": 53,
+        "merged_nodes": 28,
+        "ambiguous_controls": 0
+      },
+      "lossless_membership": true,
+      "capture_status": "blocked",
+      "capture_reasons": [
+        "capture_time_skew"
+      ],
+      "validation": {
+        "window_geometry_unchanged": true,
+        "process_instance_unchanged": true,
+        "ax_signature_unchanged": false,
+        "ax_root_matches_capture_bounds": true,
+        "screenshot_sha256": "bd8fd453237e3e7b3c9d72b5bd83dbfc12492039b899b0496c47354e3e3cc4eb",
+        "ax_before_ms": 386.4729404449463,
+        "screenshot_ms": 183.02297592163086,
+        "ax_after_ms": 373.0330467224121,
+        "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim.",
+        "visible_ax_signature_unchanged": true
+      },
+      "skew_ms": 285.4440212249756,
+      "p50_processing_ms": 1.7902710242196918,
+      "p95_processing_ms": 2.1692499285563827,
+      "node_count_is_not_accuracy": true
+    }
+  ],
+  "failures": [
+    {
+      "app": "Safari (isolated local fixture)",
+      "status": "collector_failed",
+      "detail": "Exact CGWindow ID rejected by agent-desktop as window_without_accessibility_element. Original attempt and isolated-window retry both failed. No app-wide tree captured."
+    },
+    {
+      "app": "Antigravity IDE (Electron)",
+      "status": "collector_failed",
+      "detail": "Exact CGWindow ID rejected as window_without_accessibility_element. CUA could read its tree, so this does not establish that the app lacks AX."
+    },
+    {
+      "app": "TextEdit",
+      "status": "capture_tool_failed",
+      "detail": "CUA returned ScreenCaptureKit audio/video capture failure (-3811); no usable paired capture."
+    }
+  ],
+  "limits": [
+    "No manually labeled cross-app precision/recall benchmark.",
+    "No detector/OCR visual proposals used in these live tests; native AX projection and canonicalization only.",
+    "Full screenshots retained. Canonical control counts do not measure visual coverage.",
+    "Mapping timing excludes screenshot capture, AX IPC and downstream model inference.",
+    "Controlled Safari fixture authored for this test; its native paired capture failed."
+  ]
+}

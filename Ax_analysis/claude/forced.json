@@ -1,0 +1,586 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "Claude",
+  "complete": true,
+  "ref_count": 27,
+  "snapshot_id": "s3oqadwm8a3h3e",
+  "tree": {
+   "bounds": {
+    "height": 600.0,
+    "width": 600.0,
+    "x": 388.0,
+    "y": 158.0
+   },
+   "children": [
+    {
+     "available_actions": [
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 600.0,
+      "width": 600.0,
+      "x": 388.0,
+      "y": 158.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 600.0,
+        "width": 600.0,
+        "x": 388.0,
+        "y": 158.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 600.0,
+          "width": 600.0,
+          "x": 388.0,
+          "y": 158.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 600.0,
+            "width": 600.0,
+            "x": 388.0,
+            "y": 158.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 600.0,
+              "width": 600.0,
+              "x": 388.0,
+              "y": 158.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 600.0,
+                "width": 600.0,
+                "x": 388.0,
+                "y": 158.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "RightClick",
+                  "ScrollTo",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 600.0,
+                  "width": 600.0,
+                  "x": 388.0,
+                  "y": 158.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                   ],
+                   "bounds": {
+                    "height": 1.0,
+                    "width": 600.0,
+                    "x": 388.0,
+                    "y": 158.0
+                   },
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "root"
+                   },
+                   "ref_id": "@s3oqadwm8a3h3e:e2",
+                   "role": "group"
+                  }
+                 ],
+                 "ref_id": "@s3oqadwm8a3h3e:e1",
+                 "role": "webarea",
+                 "states": [
+                  "focused"
+                 ]
+                }
+               ],
+               "role": "group"
+              },
+              {
+               "available_actions": [
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 600.0,
+                "width": 600.0,
+                "x": 388.0,
+                "y": 158.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 600.0,
+                  "width": 600.0,
+                  "x": 388.0,
+                  "y": 158.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "RightClick",
+                    "ScrollTo",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 600.0,
+                    "width": 600.0,
+                    "x": 388.0,
+                    "y": 158.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 600.0,
+                      "width": 600.0,
+                      "x": 388.0,
+                      "y": 158.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 600.0,
+                        "width": 600.0,
+                        "x": 388.0,
+                        "y": 158.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 600.0,
+                          "width": 600.0,
+                          "x": 388.0,
+                          "y": 158.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 36.0,
+                            "width": 215.0,
+                            "x": 581.0,
+                            "y": 478.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 38.0,
+                              "width": 102.0,
+                              "x": 581.0,
+                              "y": 477.0
+                             },
+                             "name": "Claude",
+                             "ref_id": "@s3oqadwm8a3h3e:e8",
+                             "role": "statictext",
+                             "value": "Claude"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 38.0,
+                              "width": 5.0,
+                              "x": 683.0,
+                              "y": 477.0
+                             },
+                             "ref_id": "@s3oqadwm8a3h3e:e9",
+                             "role": "statictext",
+                             "value": " "
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 38.0,
+                              "width": 41.0,
+                              "x": 688.0,
+                              "y": 477.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "RightClick",
+                                "ScrollTo"
+                               ],
+                               "bounds": {
+                                "height": 38.0,
+                                "width": 41.0,
+                                "x": 688.0,
+                                "y": 477.0
+                               },
+                               "name": "for",
+                               "ref_id": "@s3oqadwm8a3h3e:e11",
+                               "role": "statictext",
+                               "value": "for"
+                              }
+                             ],
+                             "ref_id": "@s3oqadwm8a3h3e:e10",
+                             "role": "group"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 38.0,
+                              "width": 6.0,
+                              "x": 729.0,
+                              "y": 477.0
+                             },
+                             "ref_id": "@s3oqadwm8a3h3e:e12",
+                             "role": "statictext",
+                             "value": " "
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 38.0,
+                              "width": 62.0,
+                              "x": 734.0,
+                              "y": 477.0
+                             },
+                             "name": "Mac",
+                             "ref_id": "@s3oqadwm8a3h3e:e13",
+                             "role": "statictext",
+                             "value": "Mac"
+                            }
+                           ],
+                           "ref_id": "@s3oqadwm8a3h3e:e7",
+                           "role": "group"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 44.0,
+                            "width": 296.0,
+                            "x": 540.0,
+                            "y": 514.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 22.0,
+                              "width": 296.0,
+                              "x": 540.0,
+                              "y": 533.0
+                             },
+                             "name": "The fastest way to talk with Claude",
+                             "ref_id": "@s3oqadwm8a3h3e:e15",
+                             "role": "statictext",
+                             "value": "The fastest way to talk with Claude"
+                            }
+                           ],
+                           "ref_id": "@s3oqadwm8a3h3e:e14",
+                           "role": "group"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 40.0,
+                            "width": 440.0,
+                            "x": 468.0,
+                            "y": 670.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "Click",
+                              "RightClick",
+                              "ScrollTo",
+                              "SetFocus"
+                             ],
+                             "bounds": {
+                              "height": 40.0,
+                              "width": 440.0,
+                              "x": 468.0,
+                              "y": 670.0
+                             },
+                             "name": "Get started",
+                             "ref_id": "@s3oqadwm8a3h3e:e17",
+                             "role": "button"
+                            }
+                           ],
+                           "ref_id": "@s3oqadwm8a3h3e:e16",
+                           "role": "group"
+                          }
+                         ],
+                         "ref_id": "@s3oqadwm8a3h3e:e6",
+                         "role": "group"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 36.0,
+                          "width": 600.0,
+                          "x": 388.0,
+                          "y": 158.0
+                         },
+                         "ref_id": "@s3oqadwm8a3h3e:e18",
+                         "role": "group"
+                        }
+                       ],
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "root"
+                       },
+                       "ref_id": "@s3oqadwm8a3h3e:e5",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 0.0,
+                        "width": 600.0,
+                        "x": 388.0,
+                        "y": 758.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "portal-root"
+                       },
+                       "ref_id": "@s3oqadwm8a3h3e:e19",
+                       "role": "group",
+                       "states": [
+                        "offscreen"
+                       ]
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 0.0,
+                        "width": 600.0,
+                        "x": 388.0,
+                        "y": 758.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 0.0,
+                          "width": 360.0,
+                          "x": 612.0,
+                          "y": 742.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 1.0,
+                            "width": 1.0,
+                            "x": 611.0,
+                            "y": 742.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 1.0,
+                              "width": 1.0,
+                              "x": 611.0,
+                              "y": 742.0
+                             },
+                             "ref_id": "@s3oqadwm8a3h3e:e23",
+                             "role": "status"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo",
+                              "SetFocus"
+                             ],
+                             "bounds": {
+                              "height": 0.0,
+                              "width": 360.0,
+                              "x": 612.0,
+                              "y": 742.0
+                             },
+                             "name": "Notifications",
+                             "ref_id": "@s3oqadwm8a3h3e:e24",
+                             "role": "group"
+                            }
+                           ],
+                           "ref_id": "@s3oqadwm8a3h3e:e22",
+                           "role": "group"
+                          }
+                         ],
+                         "ref_id": "@s3oqadwm8a3h3e:e21",
+                         "role": "group"
+                        }
+                       ],
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "_r_0_"
+                       },
+                       "ref_id": "@s3oqadwm8a3h3e:e20",
+                       "role": "group",
+                       "states": [
+                        "offscreen"
+                       ]
+                      }
+                     ],
+                     "ref_id": "@s3oqadwm8a3h3e:e4",
+                     "role": "group"
+                    }
+                   ],
+                   "name": "Sign in - Claude",
+                   "ref_id": "@s3oqadwm8a3h3e:e3",
+                   "role": "webarea",
+                   "states": [
+                    "focused"
+                   ]
+                  }
+                 ],
+                 "role": "group"
+                }
+               ],
+               "role": "group"
+              }
+             ],
+             "role": "group"
+            }
+           ],
+           "role": "group"
+          }
+         ],
+         "role": "group"
+        }
+       ],
+       "role": "group"
+      }
+     ],
+     "name": "Claude",
+     "role": "group"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 404.0,
+      "y": 174.0
+     },
+     "ref_id": "@s3oqadwm8a3h3e:e25",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 450.0,
+      "y": 174.0
+     },
+     "ref_id": "@s3oqadwm8a3h3e:e26",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 427.0,
+      "y": 174.0
+     },
+     "ref_id": "@s3oqadwm8a3h3e:e27",
+     "role": "button"
+    }
+   ],
+   "name": "Claude",
+   "role": "window"
+  },
+  "window": {
+   "id": "w-28460",
+   "title": "Claude"
+  }
+ }
+}

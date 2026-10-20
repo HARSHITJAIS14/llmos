@@ -1,0 +1,15 @@
+{
+  "name": "atree",
+  "description": "macOS desktop automation plugins built on accessibility trees (agent-desktop).",
+  "owner": {
+    "name": "Suryansh Kumar",
+    "email": "suryansh.kumar@scalerailabs.com"
+  },
+  "plugins": [
+    {
+      "name": "atree",
+      "source": "./",
+      "description": "macOS desktop automation via accessibility trees (agent-desktop): diff-tracked perception, enforced verification, compounding per-app memory."
+    }
+  ]
+}

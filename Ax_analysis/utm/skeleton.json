@@ -1,0 +1,114 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "UTM",
+    "complete": true,
+    "ref_count": 7,
+    "snapshot_id": "s1y8o020gtfxzs",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children_count": 1,
+                  "role": "group"
+                },
+                {
+                  "children_count": 6,
+                  "role": "group"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "home, SidebarNavigationSplitView"
+              },
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "SetValue",
+                "SetFocus"
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "plus"
+              },
+              "ref_id": "@s1y8o020gtfxzs:e2",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "SetValue",
+                "SetFocus"
+              ],
+              "ref_id": "@s1y8o020gtfxzs:e3",
+              "role": "button"
+            }
+          ],
+          "ref_id": "@s1y8o020gtfxzs:e1",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s1y8o020gtfxzs:e4",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s1y8o020gtfxzs:e5",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s1y8o020gtfxzs:e6",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "name": "UTM",
+          "ref_id": "@s1y8o020gtfxzs:e7",
+          "role": "statictext",
+          "value": "UTM"
+        }
+      ],
+      "name": "UTM",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "home"
+      },
+      "role": "dialog",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28085",
+      "title": "UTM"
+    }
+  }
+}

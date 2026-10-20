@@ -1,0 +1,15 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "list-surfaces",
+  "data": {
+    "pid": 25783,
+    "surfaces": [
+      {
+        "id": "focused-window",
+        "title": "UTM",
+        "type": "alert"
+      }
+    ]
+  }
+}

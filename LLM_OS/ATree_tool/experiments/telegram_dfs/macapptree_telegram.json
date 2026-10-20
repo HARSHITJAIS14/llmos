@@ -1,0 +1,29 @@
+[
+  {
+    "id": "dabc7b646c5344b0b247291bacf570e8",
+    "name": "Telegram",
+    "role": "AXWindow",
+    "description": null,
+    "role_description": "standard window",
+    "value": null,
+    "absolute_position": "2753.00;565.00",
+    "position": "0.00;0.00",
+    "size": "1087;803",
+    "enabled": false,
+    "bbox": [
+      0,
+      0,
+      1087,
+      803
+    ],
+    "visible_bbox": [
+      0,
+      0,
+      1087,
+      803
+    ],
+    "visible": true,
+    "children": [],
+    "app_name": "Telegram"
+  }
+]

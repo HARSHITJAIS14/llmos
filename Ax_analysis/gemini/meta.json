@@ -1,0 +1,62 @@
+{
+  "app": "Gemini",
+  "was_running": true,
+  "captures": {
+    "windows": 10,
+    "skeleton": {
+      "ok": true,
+      "bytes": 1490,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 40300,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "activated",
+  "pid": 74766,
+  "bundle_id": "com.google.GeminiMacOS",
+  "framework_signals": {
+    "exe": "/Applications/Gemini.app/Contents/MacOS/Gemini",
+    "bundle": "/Applications/Gemini.app",
+    "frameworks": [
+      "libswiftCompatibilitySpan.dylib"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27671",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "note": "",
+    "nodes_before_drill": 222,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 222,
+    "bytes": 103425
+  }
+}

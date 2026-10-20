@@ -1,0 +1,29 @@
+{
+  "seconds": 7.490397791028954,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"video_player_content_area\",\"observations\":[\"A white-to-grey gradient background displayed within the YouTube video player viewport.\",\"Upper left contains Founders Fund logo with stripes icon.\",\"Upper right shows a hamburger menu icon inside the video frame.\",\"Rows of company logos displayed: Polymarket, Lighter, Figma, Varda Space Industries, General Matter, Impulse Space, Hadrian, ENTER.\",\"Overlayed italic stylized text 'AT THE BEST PRICE POSSIBLE' centered over Impulse and Hadrian.\",\"Bottom right corner features a square watermark icon with 'S Sourcery'.\"],\"interpretations\":[\"Frame from an interview video displaying portfolio companies or investments associated with Founders Fund.\"],\"uncertainties\":[],\"children\":[{\"label\":\"video_viewport\",\"bbox\":[37,56,966,913],\"inspect\":false,\"reason\":\"Main video player screen showing graphic slides.\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0TDddjix2XrXxr1XkB6yjYYDV73ScSskCKBrRBLxEBRSiCg18bp8V18x+Qm9ghtPxn4erWPm9dMC+PkqlTcsAY8O4nRgXxYfqbp4/x1vhygpYuiGw5NGVa34wHV/8m5pGtFwI="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247068,
+    "id": "FoXTaqHyPIHEg8UPidPB8A0",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 181,
+      "prompt_tokens": 3772,
+      "total_tokens": 3953
+    }
+  }
+}

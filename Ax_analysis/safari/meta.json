@@ -1,0 +1,63 @@
+{
+  "app": "Safari",
+  "was_running": true,
+  "captures": {
+    "windows": 12,
+    "skeleton": {
+      "ok": true,
+      "bytes": 4636,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 45241,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 22839,
+  "bundle_id": "com.apple.Safari",
+  "framework_signals": {
+    "exe": "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/MacOS/Safari",
+    "bundle": "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app",
+    "frameworks": [],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Safari",
+    "bounds": {
+      "height": 151.0,
+      "width": 108.0,
+      "x": 2576.0,
+      "y": 655.0
+    },
+    "id": "w-27784",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 22839,
+    "process_instance": "macos-proc-v1:1788102763:219439",
+    "title": "Start Page",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 157,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 157,
+    "truncated_after": 0,
+    "bytes": 88172
+  }
+}

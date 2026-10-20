@@ -1,0 +1,1130 @@
+{
+  "model": "qwen/qwen3.8-27b",
+  "source_sha256": "7ad9dc2a1754fd1bd6755b0371bfb0712a4aba0218bed0c50d414e363ac33a38",
+  "reasoning": false,
+  "repeats": 3,
+  "providers": [
+    "ModelRun",
+    "Cerebras",
+    "DeepInfra"
+  ],
+  "results": [
+    {
+      "requested_provider": "ModelRun",
+      "task": "icons",
+      "repeat": 1,
+      "file": "modelrun-icons-1.json",
+      "total_seconds": 2.33493750001071,
+      "headers_seconds": 2.0297390000196174,
+      "first_visible_seconds": 2.0298450000118464,
+      "content": "```json\n{\"labels\":[{\"id\":38,\"label\":\"Navigate forward and backward\"},{\"id\":39,\"label\":\"Toggle sidebar\"},{\"id\":41,\"label\":\"Search\"},{\"id\":47,\"label\":\"View notifications\"},{\"id\":48,\"label\":\"View profile\"},{\"id\":53,\"label\":\"Window controls\"},{\"id\":54,\"label\":\"Manage tabs\"},{\"id\":58,\"label\":\"Open menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 91,
+        "total_tokens": 1318,
+        "cost": 0.0004729,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004729,
+          "upstream_inference_prompt_cost": 0.0002454,
+          "upstream_inference_completions_cost": 0.0002275
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigate forward and backward"
+          },
+          {
+            "id": 39,
+            "label": "Toggle sidebar"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "View notifications"
+          },
+          {
+            "id": 48,
+            "label": "View profile"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "Manage tabs"
+          },
+          {
+            "id": 58,
+            "label": "Open menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "ModelRun",
+      "task": "icons",
+      "repeat": 2,
+      "file": "modelrun-icons-2.json",
+      "total_seconds": 1.530575749988202,
+      "headers_seconds": 1.1314737079665065,
+      "first_visible_seconds": 1.1315971249714494,
+      "content": "```json\n{\"labels\":[{\"id\":38,\"label\":\"Navigate forward and backward\"},{\"id\":39,\"label\":\"Toggle sidebar\"},{\"id\":41,\"label\":\"Search\"},{\"id\":47,\"label\":\"View notifications\"},{\"id\":48,\"label\":\"View profile\"},{\"id\":53,\"label\":\"Window controls\"},{\"id\":54,\"label\":\"Manage tabs\"},{\"id\":58,\"label\":\"Open main menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 92,
+        "total_tokens": 1319,
+        "cost": 0.00036276,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00036276,
+          "upstream_inference_prompt_cost": 0.00013276,
+          "upstream_inference_completions_cost": 0.00023
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigate forward and backward"
+          },
+          {
+            "id": 39,
+            "label": "Toggle sidebar"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "View notifications"
+          },
+          {
+            "id": 48,
+            "label": "View profile"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "Manage tabs"
+          },
+          {
+            "id": 58,
+            "label": "Open main menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "ModelRun",
+      "task": "icons",
+      "repeat": 3,
+      "file": "modelrun-icons-3.json",
+      "total_seconds": 1.403264541993849,
+      "headers_seconds": 1.0519367500091903,
+      "first_visible_seconds": 1.0519902920350432,
+      "content": "```json\n{\"labels\":[{\"id\":38,\"label\":\"Navigate forward and backward\"},{\"id\":39,\"label\":\"Toggle sidebar\"},{\"id\":41,\"label\":\"Search\"},{\"id\":47,\"label\":\"View notifications\"},{\"id\":48,\"label\":\"View profile\"},{\"id\":53,\"label\":\"Window controls\"},{\"id\":54,\"label\":\"Manage tabs\"},{\"id\":58,\"label\":\"Open main menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 92,
+        "total_tokens": 1319,
+        "cost": 0.00036276,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00036276,
+          "upstream_inference_prompt_cost": 0.00013276,
+          "upstream_inference_completions_cost": 0.00023
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigate forward and backward"
+          },
+          {
+            "id": 39,
+            "label": "Toggle sidebar"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "View notifications"
+          },
+          {
+            "id": 48,
+            "label": "View profile"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "Manage tabs"
+          },
+          {
+            "id": 58,
+            "label": "Open main menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "ModelRun",
+      "task": "screen",
+      "repeat": 1,
+      "file": "modelrun-screen-1.json",
+      "total_seconds": 4.226494917005766,
+      "headers_seconds": 3.8880197920370847,
+      "first_visible_seconds": 3.8881198330200277,
+      "content": "```json\n{\n  \"app\": \"YouTube\",\n  \"page\": \"Video Watch Page\",\n  \"regions\": [\n    \"Browser navigation and tabs\",\n    \"YouTube header with search and user controls\",\n    \"Main video player and description panel\",\n    \"Related video sidebar\"\n  ],\n  \"uncertainties\": [\n    \"Exact video playback state\"\n  ]\n}\n```",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 4354,
+        "completion_tokens": 91,
+        "total_tokens": 4445,
+        "cost": 0.0010983,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010983,
+          "upstream_inference_prompt_cost": 0.0008708,
+          "upstream_inference_completions_cost": 0.0002275
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video Watch Page",
+        "regions": [
+          "Browser navigation and tabs",
+          "YouTube header with search and user controls",
+          "Main video player and description panel",
+          "Related video sidebar"
+        ],
+        "uncertainties": [
+          "Exact video playback state"
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "ModelRun",
+      "task": "screen",
+      "repeat": 2,
+      "file": "modelrun-screen-2.json",
+      "total_seconds": 3.3219138749991544,
+      "headers_seconds": 2.861990124976728,
+      "first_visible_seconds": 2.86214108299464,
+      "content": "```json\n{\n  \"app\": \"YouTube\",\n  \"page\": \"Video Watch Page\",\n  \"regions\": [\n    \"Browser navigation bar\",\n    \"YouTube header with search and user profile\",\n    \"Main video player area displaying sponsor logos\",\n    \"Video metadata, channel info, and action buttons\",\n    \"Right sidebar with recommended video list\"\n  ],\n  \"uncertainties\": [\n    \"Exact video playback state\",\n    \"Hidden controls within the video player\"\n  ]\n}\n```",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 4354,
+        "completion_tokens": 117,
+        "total_tokens": 4471,
+        "cost": 0.0011633,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011633,
+          "upstream_inference_prompt_cost": 0.0008708,
+          "upstream_inference_completions_cost": 0.0002925
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video Watch Page",
+        "regions": [
+          "Browser navigation bar",
+          "YouTube header with search and user profile",
+          "Main video player area displaying sponsor logos",
+          "Video metadata, channel info, and action buttons",
+          "Right sidebar with recommended video list"
+        ],
+        "uncertainties": [
+          "Exact video playback state",
+          "Hidden controls within the video player"
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "ModelRun",
+      "task": "screen",
+      "repeat": 3,
+      "file": "modelrun-screen-3.json",
+      "total_seconds": 2.2215663749957457,
+      "headers_seconds": 2.0249193749623373,
+      "first_visible_seconds": 2.0250972499488853,
+      "content": "```json\n{\n  \"app\": \"YouTube\",\n  \"page\": \"Video Watch Page\",\n  \"regions\": [\n    \"Browser toolbar and tabs\",\n    \"YouTube header with search and navigation\",\n    \"Main video player and description panel\",\n    \"Related video suggestions sidebar\"\n  ],\n  \"uncertainties\": [\n    \"Specific video playback state\"\n  ]\n}\n```",
+      "finish_reason": "stop",
+      "provider": "ModelRun",
+      "usage": {
+        "prompt_tokens": 4354,
+        "completion_tokens": 91,
+        "total_tokens": 4445,
+        "cost": 0.0010983,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0010983,
+          "upstream_inference_prompt_cost": 0.0008708,
+          "upstream_inference_completions_cost": 0.0002275
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video Watch Page",
+        "regions": [
+          "Browser toolbar and tabs",
+          "YouTube header with search and navigation",
+          "Main video player and description panel",
+          "Related video suggestions sidebar"
+        ],
+        "uncertainties": [
+          "Specific video playback state"
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "icons",
+      "repeat": 1,
+      "file": "cerebras-icons-1.json",
+      "total_seconds": 2.53081695799483,
+      "headers_seconds": 2.2515819579712115,
+      "first_visible_seconds": 2.4581991249579005,
+      "content": "```json\n{\"labels\":[{\"id\":38,\"label\":\"Navigate forward\"},{\"id\":39,\"label\":\"Manage tabs\"},{\"id\":41,\"label\":\"Search\"},{\"id\":47,\"label\":\"View notifications\"},{\"id\":48,\"label\":\"User profile\"},{\"id\":53,\"label\":\"Window controls\"},{\"id\":54,\"label\":\"New tab\"},{\"id\":58,\"label\":\"Main menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 89,
+        "total_tokens": 745,
+        "cost": 0.00078205,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00078205,
+          "upstream_inference_prompt_cost": 0.00064944,
+          "upstream_inference_completions_cost": 0.00013261
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigate forward"
+          },
+          {
+            "id": 39,
+            "label": "Manage tabs"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "View notifications"
+          },
+          {
+            "id": 48,
+            "label": "User profile"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "New tab"
+          },
+          {
+            "id": 58,
+            "label": "Main menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "icons",
+      "repeat": 2,
+      "file": "cerebras-icons-2.json",
+      "total_seconds": 1.1513778750086203,
+      "headers_seconds": 1.0815016250126064,
+      "first_visible_seconds": 1.09147354203742,
+      "content": "```json\n{\"labels\":[{\"id\":38,\"label\":\"Navigate forward\"},{\"id\":39,\"label\":\"Manage tabs\"},{\"id\":41,\"label\":\"Search\"},{\"id\":47,\"label\":\"View notifications\"},{\"id\":48,\"label\":\"User profile\"},{\"id\":53,\"label\":\"Window controls\"},{\"id\":54,\"label\":\"New tab\"},{\"id\":58,\"label\":\"Main menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 89,
+        "total_tokens": 745,
+        "cost": 0.00078205,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00078205,
+          "upstream_inference_prompt_cost": 0.00064944,
+          "upstream_inference_completions_cost": 0.00013261
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigate forward"
+          },
+          {
+            "id": 39,
+            "label": "Manage tabs"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "View notifications"
+          },
+          {
+            "id": 48,
+            "label": "User profile"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "New tab"
+          },
+          {
+            "id": 58,
+            "label": "Main menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "icons",
+      "repeat": 3,
+      "file": "cerebras-icons-3.json",
+      "total_seconds": 1.0762907920288853,
+      "headers_seconds": 0.8540191249921918,
+      "first_visible_seconds": 1.0174278750200756,
+      "content": "```json\n{\"labels\":[{\"id\":38,\"label\":\"Navigate forward\"},{\"id\":39,\"label\":\"Manage tabs\"},{\"id\":41,\"label\":\"Search\"},{\"id\":47,\"label\":\"View notifications\"},{\"id\":48,\"label\":\"User profile\"},{\"id\":53,\"label\":\"Window controls\"},{\"id\":54,\"label\":\"New tab\"},{\"id\":58,\"label\":\"Main menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 89,
+        "total_tokens": 745,
+        "cost": 0.00078205,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00078205,
+          "upstream_inference_prompt_cost": 0.00064944,
+          "upstream_inference_completions_cost": 0.00013261
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigate forward"
+          },
+          {
+            "id": 39,
+            "label": "Manage tabs"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "View notifications"
+          },
+          {
+            "id": 48,
+            "label": "User profile"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "New tab"
+          },
+          {
+            "id": 58,
+            "label": "Main menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "screen",
+      "repeat": 1,
+      "file": "cerebras-screen-1.json",
+      "total_seconds": 24.03972195798997,
+      "headers_seconds": 22.349754374998156,
+      "first_visible_seconds": 24.03806141600944,
+      "content": "```json\n{\n  \"app\": \"YouTube\",\n  \"page\": \"Video Watch Page\",\n  \"regions\": [\n    \"Browser toolbar and tabs\",\n    \"YouTube header with search and navigation\",\n    \"Main video player area\",\n    \"Video title, channel info, and action buttons\",\n    \"Related videos sidebar\"\n  ],\n  \"uncertainties\": []\n}\n```",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 1771,
+        "completion_tokens": 90,
+        "total_tokens": 1861,
+        "cost": 0.00188739,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00188739,
+          "upstream_inference_prompt_cost": 0.00175329,
+          "upstream_inference_completions_cost": 0.0001341
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video Watch Page",
+        "regions": [
+          "Browser toolbar and tabs",
+          "YouTube header with search and navigation",
+          "Main video player area",
+          "Video title, channel info, and action buttons",
+          "Related videos sidebar"
+        ],
+        "uncertainties": []
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "screen",
+      "repeat": 2,
+      "file": "cerebras-screen-2.json",
+      "total_seconds": 3.0281916669919156,
+      "headers_seconds": 2.9258981670136563,
+      "first_visible_seconds": 2.9482329589664005,
+      "content": "```json\n{\"app\":\"YouTube\",\"page\":\"Video watch page\",\"regions\":[\"Browser toolbar and tabs\",\"YouTube header with search and navigation\",\"Main video player area\",\"Video title, channel info and action buttons\",\"Sidebar with related video suggestions\"],\"uncertainties\":[\"Exact video playback state not visible\",\"Some sidebar video titles are truncated\"]}\n```",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 1771,
+        "completion_tokens": 69,
+        "total_tokens": 1840,
+        "cost": 0.0018561,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0018561,
+          "upstream_inference_prompt_cost": 0.00175329,
+          "upstream_inference_completions_cost": 0.00010281
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video watch page",
+        "regions": [
+          "Browser toolbar and tabs",
+          "YouTube header with search and navigation",
+          "Main video player area",
+          "Video title, channel info and action buttons",
+          "Sidebar with related video suggestions"
+        ],
+        "uncertainties": [
+          "Exact video playback state not visible",
+          "Some sidebar video titles are truncated"
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "Cerebras",
+      "task": "screen",
+      "repeat": 3,
+      "file": "cerebras-screen-3.json",
+      "total_seconds": 2.142035124998074,
+      "headers_seconds": 1.9685038750176318,
+      "first_visible_seconds": 2.037801667000167,
+      "content": "```json\n{\"app\":\"YouTube\",\"page\":\"Video watch page\",\"regions\":[\"Browser toolbar and tabs\",\"YouTube header with search and navigation\",\"Main video player with sponsor logos\",\"Video title, channel info, and action buttons\",\"Description panel\",\"Upnext sidebar with recommended videos\"],\"uncertainties\":[\"Exact video playback state (paused/playing) not determinable from still image\"]}\n```",
+      "finish_reason": "stop",
+      "provider": "Cerebras",
+      "usage": {
+        "prompt_tokens": 1771,
+        "completion_tokens": 78,
+        "total_tokens": 1849,
+        "cost": 0.00186951,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00186951,
+          "upstream_inference_prompt_cost": 0.00175329,
+          "upstream_inference_completions_cost": 0.00011622
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video watch page",
+        "regions": [
+          "Browser toolbar and tabs",
+          "YouTube header with search and navigation",
+          "Main video player with sponsor logos",
+          "Video title, channel info, and action buttons",
+          "Description panel",
+          "Upnext sidebar with recommended videos"
+        ],
+        "uncertainties": [
+          "Exact video playback state (paused/playing) not determinable from still image"
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "icons",
+      "repeat": 1,
+      "file": "deepinfra-icons-1.json",
+      "total_seconds": 2.9747387089882977,
+      "headers_seconds": 0.8560111250262707,
+      "first_visible_seconds": 1.1933373340289108,
+      "content": "```json\n{\"labels\": [{\"id\": 38, \"label\": \"Navigation controls\"}, {\"id\": 39, \"label\": \"Sidebar toggle\"}, {\"id\": 41, \"label\": \"Search\"}, {\"id\": 47, \"label\": \"Notifications\"}, {\"id\": 48, \"label\": \"Profile menu\"}, {\"id\": 53, \"label\": \"Window controls\"}, {\"id\": 54, \"label\": \"Tab overview\"}, {\"id\": 58, \"label\": \"Main menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 120,
+        "total_tokens": 1347,
+        "cost": 0.00040905,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00040905,
+          "upstream_inference_prompt_cost": 0.00018405,
+          "upstream_inference_completions_cost": 0.000225
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigation controls"
+          },
+          {
+            "id": 39,
+            "label": "Sidebar toggle"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "Notifications"
+          },
+          {
+            "id": 48,
+            "label": "Profile menu"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "Tab overview"
+          },
+          {
+            "id": 58,
+            "label": "Main menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "icons",
+      "repeat": 2,
+      "file": "deepinfra-icons-2.json",
+      "total_seconds": 3.1449398329714313,
+      "headers_seconds": 0.6387590829981491,
+      "first_visible_seconds": 0.7657507919939235,
+      "content": "```json\n{\"labels\": [{\"id\": 38, \"label\": \"Navigation controls\"}, {\"id\": 39, \"label\": \"Sidebar toggle\"}, {\"id\": 41, \"label\": \"Search\"}, {\"id\": 47, \"label\": \"Notifications\"}, {\"id\": 48, \"label\": \"Profile menu\"}, {\"id\": 53, \"label\": \"Window controls\"}, {\"id\": 54, \"label\": \"Tab overview\"}, {\"id\": 58, \"label\": \"Main menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 120,
+        "total_tokens": 1347,
+        "cost": 0.00032085,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 784,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00032085,
+          "upstream_inference_prompt_cost": 9.585e-05,
+          "upstream_inference_completions_cost": 0.000225
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigation controls"
+          },
+          {
+            "id": 39,
+            "label": "Sidebar toggle"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "Notifications"
+          },
+          {
+            "id": 48,
+            "label": "Profile menu"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "Tab overview"
+          },
+          {
+            "id": 58,
+            "label": "Main menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "icons",
+      "repeat": 3,
+      "file": "deepinfra-icons-3.json",
+      "total_seconds": 2.4000947079621255,
+      "headers_seconds": 0.70532208296936,
+      "first_visible_seconds": 0.8268407079740427,
+      "content": "```json\n{\"labels\": [{\"id\": 38, \"label\": \"Navigation controls\"}, {\"id\": 39, \"label\": \"Sidebar toggle\"}, {\"id\": 41, \"label\": \"Search\"}, {\"id\": 47, \"label\": \"Notifications\"}, {\"id\": 48, \"label\": \"Profile menu\"}, {\"id\": 53, \"label\": \"Window controls\"}, {\"id\": 54, \"label\": \"New tab\"}, {\"id\": 58, \"label\": \"Main menu\"}]}\n```",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 120,
+        "total_tokens": 1347,
+        "cost": 0.00032085,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 784,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00032085,
+          "upstream_inference_prompt_cost": 9.585e-05,
+          "upstream_inference_completions_cost": 0.000225
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "labels": [
+          {
+            "id": 38,
+            "label": "Navigation controls"
+          },
+          {
+            "id": 39,
+            "label": "Sidebar toggle"
+          },
+          {
+            "id": 41,
+            "label": "Search"
+          },
+          {
+            "id": 47,
+            "label": "Notifications"
+          },
+          {
+            "id": 48,
+            "label": "Profile menu"
+          },
+          {
+            "id": 53,
+            "label": "Window controls"
+          },
+          {
+            "id": 54,
+            "label": "New tab"
+          },
+          {
+            "id": 58,
+            "label": "Main menu"
+          }
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "screen",
+      "repeat": 1,
+      "file": "deepinfra-screen-1.json",
+      "total_seconds": 8.272340666968375,
+      "headers_seconds": 2.6046634999802336,
+      "first_visible_seconds": 6.594947583973408,
+      "content": "```json\n{\n  \"app\": \"YouTube\",\n  \"page\": \"Video Watch Page\",\n  \"regions\": [\n    \"Browser navigation and tabs\",\n    \"YouTube header with search and profile\",\n    \"Main video player area\",\n    \"Video title, channel info, and action buttons\",\n    \"Right sidebar video recommendations\"\n  ],\n  \"uncertainties\": [\n    \"Specific video playback state (paused/playing)\"\n  ]\n}\n```",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 4354,
+        "completion_tokens": 106,
+        "total_tokens": 4460,
+        "cost": 0.00085185,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00085185,
+          "upstream_inference_prompt_cost": 0.0006531,
+          "upstream_inference_completions_cost": 0.00019875
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video Watch Page",
+        "regions": [
+          "Browser navigation and tabs",
+          "YouTube header with search and profile",
+          "Main video player area",
+          "Video title, channel info, and action buttons",
+          "Right sidebar video recommendations"
+        ],
+        "uncertainties": [
+          "Specific video playback state (paused/playing)"
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "screen",
+      "repeat": 2,
+      "file": "deepinfra-screen-2.json",
+      "total_seconds": 3.8271270419936627,
+      "headers_seconds": 1.8086703749722801,
+      "first_visible_seconds": 1.9054709589690901,
+      "content": "```json\n{\n  \"app\": \"YouTube\",\n  \"page\": \"Video Watch Page\",\n  \"regions\": [\n    \"Browser navigation and tabs\",\n    \"YouTube header with search and profile\",\n    \"Main video player area\",\n    \"Video title, channel info, and action buttons\",\n    \"Right sidebar video recommendations\"\n  ],\n  \"uncertainties\": [\n    \"Specific video playback state\"\n  ]\n}\n```",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 4354,
+        "completion_tokens": 102,
+        "total_tokens": 4456,
+        "cost": 0.00040335,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 3920,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00040335,
+          "upstream_inference_prompt_cost": 0.0002121,
+          "upstream_inference_completions_cost": 0.00019125
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video Watch Page",
+        "regions": [
+          "Browser navigation and tabs",
+          "YouTube header with search and profile",
+          "Main video player area",
+          "Video title, channel info, and action buttons",
+          "Right sidebar video recommendations"
+        ],
+        "uncertainties": [
+          "Specific video playback state"
+        ]
+      },
+      "valid_json": true
+    },
+    {
+      "requested_provider": "DeepInfra",
+      "task": "screen",
+      "repeat": 3,
+      "file": "deepinfra-screen-3.json",
+      "total_seconds": 4.458552207972389,
+      "headers_seconds": 1.5190705829882063,
+      "first_visible_seconds": 1.8676738750073127,
+      "content": "```json\n{\n  \"app\": \"YouTube\",\n  \"page\": \"Video Watch Page\",\n  \"regions\": [\n    \"Browser navigation and tabs\",\n    \"YouTube header with search and profile\",\n    \"Main video player area\",\n    \"Video title, channel info, and action buttons\",\n    \"Related videos sidebar\"\n  ],\n  \"uncertainties\": [\n    \"Specific video playback state\",\n    \"Hidden controls within the video player\"\n  ]\n}\n```",
+      "finish_reason": "stop",
+      "provider": "DeepInfra",
+      "usage": {
+        "prompt_tokens": 4354,
+        "completion_tokens": 111,
+        "total_tokens": 4465,
+        "cost": 0.000420225,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 3920,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000420225,
+          "upstream_inference_prompt_cost": 0.0002121,
+          "upstream_inference_completions_cost": 0.000208125
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "received_done": true,
+      "parsed": {
+        "app": "YouTube",
+        "page": "Video Watch Page",
+        "regions": [
+          "Browser navigation and tabs",
+          "YouTube header with search and profile",
+          "Main video player area",
+          "Video title, channel info, and action buttons",
+          "Related videos sidebar"
+        ],
+        "uncertainties": [
+          "Specific video playback state",
+          "Hidden controls within the video player"
+        ]
+      },
+      "valid_json": true
+    }
+  ],
+  "timing_scope": "Mac-to-OpenRouter request through completed streamed response, including network, routing and generation; excludes image capture and preparation. Persistent HTTPS connection, no concurrent requests or automatic retries."
+}

@@ -1,0 +1,368 @@
+{
+  "schema_version": "1.0",
+  "app_key": "antigravity_ide",
+  "identity": {
+    "name": "Antigravity IDE",
+    "bundle_id": "com.google.antigravity-ide",
+    "bundle_id_match": "exact",
+    "framework": "electron",
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "Electron Framework.framework + Squirrel + 4 Helper apps; main exe is Contents/MacOS/Electron"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 7 nodes, root_kids 4, 3 unnamed buttons (Chromium shell)"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "webarea at depth 7 via window > 6 unnamed groups"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "default noise 0.636 (14/22 unnamed groups) > 0.45 Electron band"
+      },
+      {
+        "source": "wrapper_chain_length",
+        "observation": "max single-child unnamed group chain 5"
+      }
+    ]
+  },
+  "category": "ide",
+  "fidelity": {
+    "default": {
+      "nodes": 22,
+      "max_depth": 10,
+      "max_depth_requested": 10,
+      "frontier_nodes": 5,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 5,
+      "ref_count": 15,
+      "has_webarea": true,
+      "offscreen_nodes": 6,
+      "skeleton_nodes": 7,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 0,
+      "max_depth": 0,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": null,
+      "ref_count": 0,
+      "has_webarea": false,
+      "skeleton_nodes": 7,
+      "error_code": "INTERNAL"
+    },
+    "forced_over_default_ratio": null,
+    "default_score": 1.0,
+    "forced_score": null,
+    "best_capture": "default",
+    "ladder_verdict": "refmap_split"
+  },
+  "readiness": {
+    "default_rung": "R4_depth_frontier",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "depth_frontier",
+        "refmap_overflow"
+      ],
+      "chromium_shell_skeleton": true,
+      "cause": "size_limit"
+    },
+    "capture_plan": {
+      "max_depth": 40,
+      "skeleton_first": true,
+      "scoped_drill": true,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": true,
+      "reason": "only visible WS entry is a 178x161 thumbnail vs AX root 2560x1410: window minimized/other Space"
+    },
+    "handshake": {
+      "status": "unproven",
+      "note": "default has a webarea and hits depth 10, so tool gate never sends AXManualAccessibility; depth explains the husk"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 64,
+        "height": 64,
+        "x": 0,
+        "y": 940,
+        "count": 1,
+        "kind": "helper_surface"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": true,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "webarea",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 0.0,
+      "kinds": [
+        "ax_dom_identifier"
+      ],
+      "reject_patterns": [
+        "^(:r[0-9a-z]+:|_r_[0-9a-z]+_)$",
+        "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 0.0,
+      "with_bounds_unique_pct": 0.0,
+      "nth_required_roles": [
+        "list"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": true,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "typetext_present",
+    "offscreen_recovery": "scroll_to",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "list",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "Select"
+        ],
+        "count": 2,
+        "verb": "Select"
+      },
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick"
+        ],
+        "count": 3,
+        "verb": "Click"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "partial",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role==statictext under webarea (none seen at depth 10)",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==textfield and 'TypeText' in actions (none seen at depth 10)",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree_then_vision",
+    "after_type": "value_key_equals",
+    "after_toggle": "checked_state",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "ax_root",
+    "ws_matches_ax_root": false,
+    "stable_across_activation": null,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 6,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "depth_capped_husk",
+      "detect": "has_webarea and any(children_count > len(children)) or max_depth == 10",
+      "workaround": "recapture at depth 40; if RefMap error, snapshot --root each frontier ref",
+      "severity": "high",
+      "observed": "default 22 nodes, max depth 10, 5 frontier nodes, 0 named inside webarea besides 2 zero-height lists",
+      "laws": [
+        "LAW-STR-6",
+        "LAW-LIFE-1",
+        "LAW-LIFE-2",
+        "LAW-LIFE-3"
+      ]
+    },
+    {
+      "kind": "refmap_overflow",
+      "detect": "error.code=='INTERNAL' and 'RefMap' in error.message",
+      "workaround": "do not retry same scope or drop -i; drill each frontier ref_id at --max-depth 40, or step depth 10->20->30",
+      "severity": "blocker",
+      "observed": "forced depth-40 capture failed twice (with and without -i); 5/5 frontier nodes carry ref_id",
+      "laws": [
+        "LAW-LIFE-9"
+      ]
+    },
+    {
+      "kind": "thumbnail_proxy_window",
+      "detect": "only visible WS entry <= 200x200 and bounds != ax_root.bounds",
+      "workaround": "use WS title only; take bounds from AX root; activate before coordinate actions",
+      "severity": "high",
+      "observed": "WS 178x161 vs AX root 2560x1410 (126x area)",
+      "laws": [
+        "LAW-WIN-4",
+        "LAW-WIN-5"
+      ]
+    },
+    {
+      "kind": "zero_area_clones",
+      "detect": "two nodes share role+name and have height 0",
+      "workaround": "drop zero-area nodes from resolution",
+      "severity": "low",
+      "observed": "2 named lists, same name, both height 0 and offscreen; 6 zero-area nodes total",
+      "laws": [
+        "LAW-ID-7"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first: depth-10 snapshot of best window by --window-id",
+      "tested": true
+    },
+    {
+      "channel": "ax_deep",
+      "when": "frontier nodes present in default capture",
+      "precondition": "--max-depth 40",
+      "tested": true
+    },
+    {
+      "channel": "ax_scoped",
+      "when": "ax_deep returns INTERNAL RefMap",
+      "precondition": "frontier ref_ids from a fresh depth-10 snapshot",
+      "tested": false
+    },
+    {
+      "channel": "cdp",
+      "when": "scoped drill still overflows or misses editor content",
+      "precondition": "app launched with --remote-debugging-port",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "need to act without a readable tree (command palette, quick open)",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "verify state when tree stays partial",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:58:32+05:30",
+      "2026-08-30T20:58:32+05:30",
+      "2026-08-30T21:19:16+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "activated",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "antigravity_ide/meta.json",
+      "antigravity_ide/windows.json",
+      "antigravity_ide/skeleton.json",
+      "antigravity_ide/full.json",
+      "antigravity_ide/forced.json",
+      "antigravity_ide/analysis.md"
+    ],
+    "excluded_sources": [
+      {
+        "path": "antigravity_ide/forced.json",
+        "reason": "INTERNAL RefMap exceeds 1MB; no tree"
+      }
+    ],
+    "verified": false,
+    "codex_confidence": "medium"
+  }
+}

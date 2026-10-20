@@ -1,0 +1,585 @@
+{
+  "schema_version": "1.0",
+  "app_key": "vlc",
+  "identity": {
+    "name": "VLC",
+    "bundle_id": "org.videolan.vlc",
+    "bundle_id_match": "exact",
+    "framework": "appkit",
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "3 bundled frameworks (Sparkle, Growl, Breakpad); no Electron, CEF, Qt or Chromium framework"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 27 nodes, root_kids 19, 0 webarea: not the 7-node / 4-root-kid Chromium shell"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "57 nodes: 17 button, 15 treeitem, 15 cell, 2 slider, 1 outline, 1 switch, 0 webarea"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 5 at both --max-depth 10 and 40 (native band <= 9)"
+      },
+      {
+        "source": "bundle_hint",
+        "observation": "22/22 native_ids are Interface Builder ordinals '_NS:<n>' (AppKit nib signature)"
+      }
+    ]
+  },
+  "category": "media",
+  "fidelity": {
+    "default": {
+      "nodes": 57,
+      "max_depth": 5,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 47,
+      "ref_count": 54,
+      "has_webarea": false,
+      "offscreen_nodes": 53,
+      "skeleton_nodes": 27,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 57,
+      "max_depth": 5,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 47,
+      "ref_count": 54,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 27,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.0,
+    "default_score": 1.0,
+    "forced_score": 1.0,
+    "best_capture": "default",
+    "ladder_verdict": "activate_first"
+  },
+  "readiness": {
+    "default_rung": "R6_hidden_window",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": true,
+      "reason": "background capture 53/57 (93%) offscreen on a complete tree = hidden window; forced foreground 0/57 offscreen, 57/57 text and bounds same"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "native AppKit, no webarea"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 125,
+        "height": 157,
+        "x": 2576,
+        "y": 1121,
+        "count": 1,
+        "kind": "thumbnail_proxy"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": true,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 48.7,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 100.0,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": []
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:122",
+      "match": "exact",
+      "tier": "low",
+      "role": "window",
+      "purpose": "main player window",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:193",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollarea",
+      "purpose": "sidebar scroll container",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:197",
+      "match": "exact",
+      "tier": "low",
+      "role": "outline",
+      "purpose": "sidebar source list (Select)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:357",
+      "match": "exact",
+      "tier": "low",
+      "role": "textfield",
+      "purpose": "playlist search field",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:66",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "open media button in empty playlist",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:626",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "previous-item button (name says Next, description says previous)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:612",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "play / pause button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:599",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "next-item button (name says Forward)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:570",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "stop button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:547",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "show / hide playlist button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:533",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "repeat mode button (2px wide)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:519",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "shuffle button (2px wide)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:505",
+      "match": "exact",
+      "tier": "low",
+      "role": "slider",
+      "purpose": "playback position slider",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:487",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "mute button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:477",
+      "match": "exact",
+      "tier": "low",
+      "role": "slider",
+      "purpose": "volume slider",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:468",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "full volume button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:446",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "audio effects button (2px wide)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:431",
+      "match": "exact",
+      "tier": "low",
+      "role": "switch",
+      "purpose": "fullscreen switch",
+      "seen_in_captures": 3
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "text_entry": "set_value",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "RightClick"
+        ],
+        "count": 17,
+        "verb": "Click",
+        "note": "5/5 disabled buttons keep Click; 3 transport buttons are 2px wide: press by AX Click, never by coordinates"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 15,
+        "verb": "Click",
+        "note": "sidebar sources; label also on child cell"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetValue",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "SetValue",
+        "note": "playlist search; SetFocus present = editable"
+      },
+      {
+        "role": "slider",
+        "actions": [
+          "SetValue",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "SetValue",
+        "note": "position slider is disabled+readonly with no media loaded"
+      },
+      {
+        "role": "handle",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "switch",
+        "actions": [
+          "Click",
+          "Toggle",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Toggle"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Scroll"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "toggle_state",
+        "match": "role==switch",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10"
+        ]
+      },
+      {
+        "target": "cell",
+        "match": "role in (treeitem, cell) under outline",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4",
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==textfield and 'SetFocus' in actions",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==slider",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1"
+        ]
+      },
+      {
+        "target": "placeholder",
+        "match": "role==textfield",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-7"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "ax_root",
+    "ws_matches_ax_root": false,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 0,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "thumbnail_proxy_window",
+      "detect": "only visible WS entry is 125x157 while AX root is 1280x803",
+      "workaround": "pick window by title, take bounds from AX root",
+      "severity": "high",
+      "observed": "9 WS entries: 8 invisible strips + 1 visible 125x157 proxy",
+      "laws": [
+        "LAW-WIN-4",
+        "LAW-WIN-5"
+      ]
+    },
+    {
+      "kind": "hidden_window_offscreen",
+      "detect": "offscreen_nodes/n >= 0.9 and complete==true",
+      "workaround": "read as trusted; activate and re-snapshot before any coordinate action",
+      "severity": "high",
+      "observed": "background 53/57 offscreen -> foreground 0/57, 57/57 text same",
+      "laws": [
+        "LAW-LIFE-5"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "check disabled state before pressing",
+      "severity": "low",
+      "observed": "5/5 disabled buttons expose Click (no media loaded)",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs from cached id",
+      "workaround": "re-pick window by title each session",
+      "severity": "low",
+      "observed": "w-28113 (default) vs w-28689 (forced), same content",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first: every control named with a semantic action",
+      "tested": true
+    },
+    {
+      "channel": "keyboard",
+      "when": "control is 2px wide or AX action fails",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "need to check rendered video frames (canvas is a blank group)",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:58:42+05:30",
+      "2026-08-30T21:16:02+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "vlc/meta.json",
+      "vlc/windows.json",
+      "vlc/skeleton.json",
+      "vlc/full.json",
+      "vlc/forced.json",
+      "vlc/surfaces.json",
+      "vlc/analysis.md"
+    ],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

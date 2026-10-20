@@ -1,0 +1,416 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "VLC",
+    "complete": true,
+    "ref_count": 24,
+    "snapshot_id": "smkzvw2vvnask",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "children_count": 16,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:197"
+                  },
+                  "ref_id": "@smkzvw2vvnask:e2",
+                  "role": "outline",
+                  "states": [
+                    "focused"
+                  ]
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:193"
+              },
+              "ref_id": "@smkzvw2vvnask:e1",
+              "role": "scrollarea"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "SetValue",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "name": "search",
+                  "ref_id": "@smkzvw2vvnask:e4",
+                  "role": "button",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "name": "Search the playlist. Results will be selected in the table.",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:357"
+              },
+              "ref_id": "@smkzvw2vvnask:e3",
+              "role": "textfield",
+              "states": [
+                "offscreen"
+              ]
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "description": "Open a dialog to select the media to play",
+                  "name": "Open media...",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:66"
+                  },
+                  "ref_id": "@smkzvw2vvnask:e5",
+                  "role": "button",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:9"
+              },
+              "role": "group",
+              "states": [
+                "offscreen"
+              ]
+            }
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:187"
+          },
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:639"
+          },
+          "ref_id": "@smkzvw2vvnask:e6",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Go to previous item",
+          "name": "Next",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:626"
+          },
+          "ref_id": "@smkzvw2vvnask:e7",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Play",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:612"
+          },
+          "ref_id": "@smkzvw2vvnask:e8",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Go to next item",
+          "name": "Forward",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:599"
+          },
+          "ref_id": "@smkzvw2vvnask:e9",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:585"
+          },
+          "ref_id": "@smkzvw2vvnask:e10",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "name": "Stop",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:570"
+          },
+          "ref_id": "@smkzvw2vvnask:e11",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Show/Hide Playlist",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:547"
+          },
+          "ref_id": "@smkzvw2vvnask:e12",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "description": "Change repeat mode. Modes: repeat one, repeat all and no repeat.",
+          "name": "Repeat",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:533"
+          },
+          "ref_id": "@smkzvw2vvnask:e13",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Shuffle",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:519"
+          },
+          "ref_id": "@smkzvw2vvnask:e14",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "SetValue"
+          ],
+          "description": "Playback position",
+          "name": "Position",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:505"
+          },
+          "ref_id": "@smkzvw2vvnask:e15",
+          "role": "slider",
+          "states": [
+            "disabled",
+            "readonly",
+            "offscreen"
+          ],
+          "value": "0"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Mute",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:487"
+          },
+          "ref_id": "@smkzvw2vvnask:e16",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "SetValue",
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "SetValue"
+              ],
+              "ref_id": "@smkzvw2vvnask:e18",
+              "role": "handle",
+              "states": [
+                "offscreen"
+              ],
+              "value": "320"
+            }
+          ],
+          "name": "Volume",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:477"
+          },
+          "ref_id": "@smkzvw2vvnask:e17",
+          "role": "slider",
+          "states": [
+            "offscreen"
+          ],
+          "value": "320"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Full Volume",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:468"
+          },
+          "ref_id": "@smkzvw2vvnask:e19",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "description": "Open Audio Effects window",
+          "name": "Audio Effects",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:446"
+          },
+          "ref_id": "@smkzvw2vvnask:e20",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "Toggle",
+            "SetFocus"
+          ],
+          "name": "Fullscreen",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:431"
+          },
+          "ref_id": "@smkzvw2vvnask:e21",
+          "role": "switch",
+          "states": [
+            "offscreen"
+          ],
+          "value": "0"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@smkzvw2vvnask:e22",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@smkzvw2vvnask:e23",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@smkzvw2vvnask:e24",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        }
+      ],
+      "name": "VLC media player",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:122"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28113",
+      "title": "VLC media player"
+    }
+  }
+}

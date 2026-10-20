@@ -1,0 +1,29 @@
+{
+  "seconds": 17.952301749959588,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"browser_youtube_page\", \"observations\":[\"macOS Safari-style browser window showing YouTube Premium on desktop\", \"The video currently playing displays a Founders Fund portfolio slide with logos including Polymarket, Lighter, Figma, Varda, General Matter, Impulse, Hadrian\", \"Sidebar recommendations column on the right\", \"Video metadata and channel bar beneath the player\"], \"interpretations\":[\"Desktop browser view displaying a YouTube watch page.\"], \"uncertainties\":[], \"children\":[{\"label\":\"video_player\", \"bbox\":[60,213,646,645], \"inspect\":false, \"reason\":\"Main video player area displaying video frame\"}, {\"label\":\"video_info_panel\", \"bbox\":[60,664,646,890], \"inspect\":false, \"reason\":\"Video title, channel info, action buttons, and description\"}, {\"label\":\"up_next_recommendations\", \"bbox\":[657,213,923,901], \"inspect\":false, \"reason\":\"Related video recommendation list on the right rail\"}, {\"label\":\"top_navigation_bar\", \"bbox\":[60,147,923,200], \"inspect\":false, \"reason\":\"YouTube main header with logo, search input, and profile icon\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0TK65Yg0mKGRgVkiC2q+iyuQ2lvRrQNI2sE760F1lp3z0HC+brY6WriwroSexttsomNHnA2yM+ccs+U3Cj0y1sunDS+1H/2vZbLS9HL51larar7Ff7U3oIy4wYsfQweWRCfUA="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247214,
+    "id": "qoXTavChA8WJjuMPzo652Qc",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 277,
+      "prompt_tokens": 2489,
+      "total_tokens": 2766
+    }
+  }
+}

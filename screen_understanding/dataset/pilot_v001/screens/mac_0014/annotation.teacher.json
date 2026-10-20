@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.1.0",
+  "screen_id": "mac_0014",
+  "image": {
+    "path": "source.png",
+    "sha256": "394b9d62bc968de36ea024dc22a2fb7fd9ab951a1c244eaa6b3383dacb1e0be1",
+    "width": 1312,
+    "height": 844,
+    "scale_factor": 2.0,
+    "coordinate_space": "source_pixels_xyxy"
+  },
+  "screen_context": {
+    "description": "Native macOS TextEdit window editing a plain text notes document with headings and lists",
+    "view_types": [
+      "text_editor",
+      "document_viewer"
+    ],
+    "visible_app_names": [
+      "TextEdit"
+    ],
+    "uncertainties": []
+  },
+  "nodes": [
+    {
+      "id": "n_0000",
+      "level": "window",
+      "bbox": [
+        0,
+        0,
+        1312,
+        844
+      ],
+      "parent_id": null,
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "window",
+      "semantic_name": "TextEdit Window",
+      "description": "Native TextEdit document window",
+      "context_description": "Top-level canvas",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0001",
+      "level": "region",
+      "bbox": [
+        0,
+        0,
+        1312,
+        60
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "toolbar",
+      "semantic_name": "TextEdit Title Bar",
+      "description": "Window header and title bar",
+      "context_description": "Located inside n_0000",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0002",
+      "level": "region",
+      "bbox": [
+        0,
+        60,
+        1312,
+        844
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "document",
+      "semantic_name": "TextEdit Document Canvas",
+      "description": "Text buffer and editing canvas",
+      "context_description": "Located inside n_0000",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0003",
+      "level": "group",
+      "bbox": [
+        20,
+        15,
+        130,
+        50
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "button_group",
+      "semantic_name": "Traffic Light Buttons",
+      "description": "Close, minimize, and full-screen controls",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0004",
+      "level": "element",
+      "bbox": [
+        140,
+        10,
+        350,
+        50
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "heading",
+      "semantic_name": "Document Title Header",
+      "description": "Document filename and proxy icon",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "notes.txt",
+          "bbox": [
+            140,
+            10,
+            350,
+            50
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0005",
+      "level": "group",
+      "bbox": [
+        15,
+        70,
+        700,
+        140
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "heading",
+      "semantic_name": "Project Title and Status",
+      "description": "Top heading text and current status",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Project Odyssey: Screen Understanding Dataset\nStatus: In Production Validation",
+          "bbox": [
+            15,
+            70,
+            700,
+            140
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0006",
+      "level": "group",
+      "bbox": [
+        15,
+        160,
+        800,
+        320
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "list",
+      "semantic_name": "Key Milestones List",
+      "description": "Numbered list of project pipeline stages",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0007",
+      "level": "element",
+      "bbox": [
+        15,
+        340,
+        750,
+        400
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "paragraph",
+      "semantic_name": "Pilot Scope Summary",
+      "description": "Summary statement of dataset scope",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Pilot Scope: 30 Real macOS Screens across 6 Strata.",
+          "bbox": [
+            15,
+            340,
+            750,
+            400
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    }
+  ],
+  "relations": [],
+  "coverage": {
+    "status": "complete",
+    "uninspected_regions": [],
+    "unresolved_proposal_ids": [],
+    "proposals_disposition": {
+      "d_0001": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0002": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0003": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0004": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0005": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Enclosed within n_0006"
+      },
+      "d_0006": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Enclosed within n_0006"
+      },
+      "d_0007": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Enclosed within n_0006"
+      },
+      "d_0008": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Enclosed within n_0006"
+      }
+    }
+  },
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true,
+    "audit_applied": true
+  }
+}

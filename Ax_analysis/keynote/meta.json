@@ -1,0 +1,80 @@
+{
+  "app": "Keynote",
+  "was_running": false,
+  "captures": {
+    "windows": 9,
+    "skeleton": {
+      "ok": true,
+      "bytes": 1224,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 1832,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26863,
+  "bundle_id": "com.apple.iWork.Keynote",
+  "framework_signals": {
+    "exe": "/Applications/Keynote.app/Contents/MacOS/Keynote",
+    "bundle": "/Applications/Keynote.app",
+    "frameworks": [
+      "AppAnalytics.framework",
+      "AppleMediaServicesKit.framework",
+      "EquationKit.framework",
+      "KNAnimation.framework",
+      "TSAccessibility.framework",
+      "TSApplication.framework",
+      "TSCalculationEngine.framework",
+      "TSCharts.framework",
+      "TSCollaborationKit.framework",
+      "TSContentLanguage.framework",
+      "TSCoreSOS.framework",
+      "TSDrawables.framework",
+      "TSKit.framework",
+      "TSPersistence.framework",
+      "TSStyles.framework",
+      "TSTables.framework",
+      "TSText.framework",
+      "TSUtility.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 608.0,
+      "width": 910.0,
+      "x": 826.0,
+      "y": 431.0
+    },
+    "id": "w-28256",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "What\u2019s New in Keynote",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "note": "",
+    "nodes_before_drill": 689,
+    "drill": {
+      "requests": 3,
+      "ok": 0,
+      "failed": 3,
+      "seconds": 9.2
+    },
+    "nodes_after_drill": 689,
+    "bytes": 328997
+  }
+}

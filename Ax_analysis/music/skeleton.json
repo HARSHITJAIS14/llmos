@@ -1,0 +1,106 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Music",
+    "complete": true,
+    "ref_count": 6,
+    "snapshot_id": "s2c6uy4k73wpxs",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "children_count": 13,
+                  "name": "Sidebar",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "outline"
+                  },
+                  "ref_id": "@s2c6uy4k73wpxs:e2",
+                  "role": "outline"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "sidebarScroller"
+              },
+              "ref_id": "@s2c6uy4k73wpxs:e1",
+              "role": "scrollarea"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "name": "harshit jaiswal",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "Music.accountButton"
+                  },
+                  "ref_id": "@s2c6uy4k73wpxs:e3",
+                  "role": "button"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "children": [
+                {
+                  "children_count": 1,
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2c6uy4k73wpxs:e4",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s2c6uy4k73wpxs:e5",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2c6uy4k73wpxs:e6",
+          "role": "button"
+        }
+      ],
+      "name": "Music",
+      "role": "dialog",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28190",
+      "title": "Music"
+    }
+  }
+}

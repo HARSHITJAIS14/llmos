@@ -1,0 +1,607 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Calendar",
+    "complete": true,
+    "ref_count": 26,
+    "snapshot_id": "s992mrhqnrsb7",
+    "tree": {
+      "bounds": {
+        "height": 796.0,
+        "width": 326.0,
+        "x": 1677.0,
+        "y": 235.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 30.0,
+            "width": 282.0,
+            "x": 1699.0,
+            "y": 257.5
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 28.0,
+                "width": 140.0,
+                "x": 1700.0,
+                "y": 258.5
+              },
+              "name": "Event",
+              "ref_id": "@s992mrhqnrsb7:e1",
+              "role": "radiobutton",
+              "value": "0"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 28.0,
+                "width": 139.0,
+                "x": 1841.0,
+                "y": 258.5
+              },
+              "name": "Reminder",
+              "ref_id": "@s992mrhqnrsb7:e2",
+              "role": "radiobutton",
+              "states": [
+                "checked"
+              ],
+              "value": "1"
+            }
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "EventReminderControl"
+          },
+          "role": "radiogroup"
+        },
+        {
+          "bounds": {
+            "height": 731.5,
+            "width": 300.0,
+            "x": 1690.0,
+            "y": 286.5
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Scroll"
+              ],
+              "bounds": {
+                "height": 731.5,
+                "width": 300.0,
+                "x": 1690.0,
+                "y": 286.5
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 103.0,
+                    "width": 280.0,
+                    "x": 1700.0,
+                    "y": 296.5
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 26.0,
+                        "width": 260.0,
+                        "x": 1710.0,
+                        "y": 306.5
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "SetValue",
+                            "SetFocus",
+                            "TypeText"
+                          ],
+                          "bounds": {
+                            "height": 26.0,
+                            "width": 260.0,
+                            "x": 1710.0,
+                            "y": 306.5
+                          },
+                          "name": "Title",
+                          "ref_id": "@s992mrhqnrsb7:e5",
+                          "role": "textfield",
+                          "states": [
+                            "focused"
+                          ],
+                          "value": "visit Hc"
+                        }
+                      ],
+                      "ref_id": "@s992mrhqnrsb7:e4",
+                      "role": "scrollarea"
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 16.0,
+                        "width": 260.0,
+                        "x": 1710.0,
+                        "y": 336.5
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "SetValue",
+                            "SetFocus",
+                            "TypeText"
+                          ],
+                          "bounds": {
+                            "height": 16.0,
+                            "width": 260.0,
+                            "x": 1710.0,
+                            "y": 336.5
+                          },
+                          "name": "Notes",
+                          "ref_id": "@s992mrhqnrsb7:e7",
+                          "role": "textfield"
+                        }
+                      ],
+                      "ref_id": "@s992mrhqnrsb7:e6",
+                      "role": "scrollarea"
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 16.0,
+                        "width": 260.0,
+                        "x": 1710.0,
+                        "y": 373.5
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "SetValue",
+                            "SetFocus",
+                            "TypeText"
+                          ],
+                          "bounds": {
+                            "height": 16.0,
+                            "width": 260.0,
+                            "x": 1710.0,
+                            "y": 373.5
+                          },
+                          "name": "URL",
+                          "ref_id": "@s992mrhqnrsb7:e9",
+                          "role": "textfield"
+                        }
+                      ],
+                      "ref_id": "@s992mrhqnrsb7:e8",
+                      "role": "scrollarea"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 105.0,
+                    "width": 280.0,
+                    "x": 1700.0,
+                    "y": 429.5
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "Toggle"
+                      ],
+                      "bounds": {
+                        "height": 16.0,
+                        "width": 36.0,
+                        "x": 1934.0,
+                        "y": 440.0
+                      },
+                      "name": "Date",
+                      "ref_id": "@s992mrhqnrsb7:e10",
+                      "role": "switch",
+                      "states": [
+                        "disabled",
+                        "checked"
+                      ],
+                      "value": "1"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "Toggle",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 16.0,
+                        "width": 36.0,
+                        "x": 1934.0,
+                        "y": 495.0
+                      },
+                      "name": "Time",
+                      "ref_id": "@s992mrhqnrsb7:e11",
+                      "role": "switch",
+                      "states": [
+                        "checked"
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 75.5,
+                    "width": 280.0,
+                    "x": 1700.0,
+                    "y": 544.5
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus",
+                        "Expand",
+                        "Collapse"
+                      ],
+                      "bounds": {
+                        "height": 24.0,
+                        "width": 83.5,
+                        "x": 1886.5,
+                        "y": 551.0
+                      },
+                      "name": "Repeat",
+                      "ref_id": "@s992mrhqnrsb7:e12",
+                      "role": "combobox",
+                      "states": [
+                        "readonly"
+                      ],
+                      "value": "Never"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus",
+                        "Expand",
+                        "Collapse"
+                      ],
+                      "bounds": {
+                        "height": 24.0,
+                        "width": 80.0,
+                        "x": 1890.0,
+                        "y": 589.0
+                      },
+                      "name": "Early Reminder",
+                      "ref_id": "@s992mrhqnrsb7:e13",
+                      "role": "combobox",
+                      "states": [
+                        "readonly"
+                      ],
+                      "value": "None"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 74.5,
+                    "width": 280.0,
+                    "x": 1700.0,
+                    "y": 650.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus",
+                        "Expand",
+                        "Collapse"
+                      ],
+                      "bounds": {
+                        "height": 24.0,
+                        "width": 125.0,
+                        "x": 1845.0,
+                        "y": 656.5
+                      },
+                      "name": "List",
+                      "ref_id": "@s992mrhqnrsb7:e14",
+                      "role": "combobox",
+                      "states": [
+                        "readonly"
+                      ],
+                      "value": "Reminders"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 280.0,
+                        "x": 1700.0,
+                        "y": 688.5
+                      },
+                      "name": "Tags",
+                      "ref_id": "@s992mrhqnrsb7:e15",
+                      "role": "button"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 74.5,
+                    "width": 280.0,
+                    "x": 1700.0,
+                    "y": 734.5
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "Toggle",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 16.0,
+                        "width": 36.0,
+                        "x": 1934.0,
+                        "y": 745.0
+                      },
+                      "name": "Flag",
+                      "ref_id": "@s992mrhqnrsb7:e16",
+                      "role": "switch",
+                      "value": "0"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus",
+                        "Expand",
+                        "Collapse"
+                      ],
+                      "bounds": {
+                        "height": 24.0,
+                        "width": 80.0,
+                        "x": 1890.0,
+                        "y": 778.0
+                      },
+                      "name": "Priority",
+                      "ref_id": "@s992mrhqnrsb7:e17",
+                      "role": "combobox",
+                      "states": [
+                        "readonly",
+                        "offscreen"
+                      ],
+                      "value": "None"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 36.5,
+                    "width": 280.0,
+                    "x": 1700.0,
+                    "y": 839.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "Toggle",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 16.0,
+                        "width": 36.0,
+                        "x": 1934.0,
+                        "y": 849.5
+                      },
+                      "name": "Location",
+                      "ref_id": "@s992mrhqnrsb7:e18",
+                      "role": "switch",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "value": "0"
+                    }
+                  ],
+                  "role": "group",
+                  "states": [
+                    "offscreen"
+                  ]
+                },
+                {
+                  "bounds": {
+                    "height": 38.5,
+                    "width": 280.0,
+                    "x": 1700.0,
+                    "y": 885.5
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "Toggle",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 16.0,
+                        "width": 36.0,
+                        "x": 1934.0,
+                        "y": 898.0
+                      },
+                      "name": "When Messaging",
+                      "ref_id": "@s992mrhqnrsb7:e19",
+                      "role": "switch",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "value": "0"
+                    }
+                  ],
+                  "role": "group",
+                  "states": [
+                    "offscreen"
+                  ]
+                },
+                {
+                  "bounds": {
+                    "height": 36.0,
+                    "width": 280.0,
+                    "x": 1700.0,
+                    "y": 986.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 280.0,
+                        "x": 1700.0,
+                        "y": 986.0
+                      },
+                      "name": "Add Image\u2026",
+                      "ref_id": "@s992mrhqnrsb7:e20",
+                      "role": "button",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "role": "group",
+                  "states": [
+                    "offscreen"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 733.5,
+                    "width": 19.0,
+                    "x": 1972.0,
+                    "y": 285.5
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetValue"
+                      ],
+                      "bounds": {
+                        "height": 711.5,
+                        "width": 11.0,
+                        "x": 1976.0,
+                        "y": 289.5
+                      },
+                      "ref_id": "@s992mrhqnrsb7:e22",
+                      "role": "handle",
+                      "value": "0"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 1973.0,
+                        "y": 286.5
+                      },
+                      "ref_id": "@s992mrhqnrsb7:e23",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 1973.0,
+                        "y": 286.5
+                      },
+                      "ref_id": "@s992mrhqnrsb7:e24",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 13.5,
+                        "width": 11.0,
+                        "x": 1976.0,
+                        "y": 1001.5
+                      },
+                      "ref_id": "@s992mrhqnrsb7:e25",
+                      "role": "button",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 11.0,
+                        "x": 1976.0,
+                        "y": 289.5
+                      },
+                      "ref_id": "@s992mrhqnrsb7:e26",
+                      "role": "button"
+                    }
+                  ],
+                  "ref_id": "@s992mrhqnrsb7:e21",
+                  "role": "scrollbar",
+                  "value": "0"
+                }
+              ],
+              "ref_id": "@s992mrhqnrsb7:e3",
+              "role": "scrollarea"
+            }
+          ],
+          "role": "group"
+        }
+      ],
+      "role": "popover"
+    },
+    "window": {
+      "id": "w-79843",
+      "title": "Calendar"
+    }
+  }
+}

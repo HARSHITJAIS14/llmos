@@ -1,0 +1,261 @@
+import shutil
+from time import sleep
+
+import AppKit
+from PIL import Image, ImageDraw
+
+from macapptree.apps import get_visible_windows_for_bundles
+from macapptree.scale_utils import get_image_scale_factor
+from macapptree.screenshot_app_window import rect_subtract
+
+_screen_scaling_factor = 1
+
+
+
+def propagate_screen_rect(ui_element, screen_rect_tl):
+    ui_element.window_screen_rect = screen_rect_tl
+    for child in getattr(ui_element, "children", []):
+        propagate_screen_rect(child, screen_rect_tl)
+
+# get intersection over union for two bboxes
+def _iou(a, b):
+    ax1, ay1, ax2, ay2 = a
+    bx1, by1, bx2, by2 = b
+    ix1, iy1 = max(ax1, bx1), max(ay1, by1)
+    ix2, iy2 = min(ax2, bx2), min(ay2, by2)
+    iw, ih = max(0, ix2 - ix1), max(0, iy2 - iy1)
+    inter = iw * ih
+    if inter <= 0:
+        return 0.0
+    area_a = max(0, ax2 - ax1) * max(0, ay2 - ay1)
+    area_b = max(0, bx2 - bx1) * max(0, by2 - by1)
+    return inter / float(area_a + area_b - inter + 1e-9)
+
+# get the screen scaling factor
+def store_screen_scaling_factor():
+    for screen in AppKit.NSScreen.screens():
+        global _screen_scaling_factor
+        _screen_scaling_factor = screen.backingScaleFactor()
+        print(f"Screen scaling factor: {_screen_scaling_factor}")
+
+
+# convert point from screen coordinates to window coordinates
+def convert_point_to_window(point, window_element):
+    for screen in AppKit.NSScreen.screens():
+        if AppKit.NSPointInRect(point, screen.frame()):
+            return AppKit.NSMakePoint(
+                point.x + window_element.x, 
+                point.y - 1 + window_element.y,
+            )
+    return AppKit.NSMakePoint(0.0, 0.0)
+
+
+# check if the windows are equal
+def windows_are_equal(window1, window2):
+    if (
+        window1.name == window2.name
+        and window1.role == window2.role
+        and window1.position == window2.position
+        and window1.size == window2.size
+    ):
+        return True
+    return False
+
+
+# get color for the role
+def color_for_role(role):
+    color = "red"
+    if role == "AXButton":
+        color = "blue"
+    elif role == "AXTextField":
+        color = "green"
+    elif role == "AXStaticText":
+        color = "yellow"
+    elif role == "AXImage":
+        color = "purple"
+    elif role == "AXGroup":
+        color = "orange"
+    elif role == "AXScrollBar":
+        color = "brown"
+    elif role == "AXRow":
+        color = "pink"
+    elif role == "AXColumn":
+        color = "cyan"
+    elif role == "AXCell":
+        color = "magenta"
+    elif role == "AXTable":
+        color = "lightblue"
+    elif role == "AXOutline":
+        color = "lightgreen"
+    elif role == "AXLayoutArea":
+        color = "lightyellow"
+    elif role == "AXLayoutItem":
+        color = "lavender"
+    elif role == "AXHandle":
+        color = "peachpuff"
+    elif role == "AXSplitter":
+        color = "lightsalmon"
+    elif role == "AXIncrementor":
+        color = "lightpink"
+    elif role == "AXBusyIndicator":
+        color = "lightcyan"
+    elif role == "AXProgressIndicator":
+        color = "plum"
+    elif role == "AXToolbar":
+        color = "darkred"
+    elif role == "AXPopover":
+        color = "darkblue"
+    elif role == "AXMenu":
+        color = "darkgreen"
+    elif role == "AXMenuItem":
+        color = "olive"
+    elif role == "AXMenuBar":
+        color = "rebeccapurple"
+    elif role == "AXMenuBarItem":
+        color = "darkorange"
+    elif role == "AXMenuButton":
+        color = "saddlebrown"
+    elif role == "AXMenuItemCheckbox":
+        color = "palevioletred"
+    elif role == "AXMenuItemRadio":
+        color = "darkcyan"
+    elif role == "AXMenuItemPopover":
+        color = "darkmagenta"
+    elif role == "AXMenuItemSplitter":
+        color = "black"
+    elif role == "AXMenuItemTable":
+        color = "white"
+    elif role == "AXMenuItemTextField":
+        color = "lightgray"
+    elif role == "AXMenuItemStaticText":
+        color = "darkgray"
+    elif role == "AXMenuItemImage":
+        color = "salmon"
+    elif role == "AXMenuItemGroup":
+        color = "lightblue"
+    elif role == "AXMenuItemScrollBar":
+        color = "lightgreen"
+    elif role == "AXMenuItemRow":
+        color = "lightyellow"
+    elif role == "AXMenuItemColumn":
+        color = "lavender"
+    elif role == "AXMenuItemCell":
+        color = "peachpuff"
+    elif role == "AXMenuItemOutline":
+        color = "burlywood"
+    elif role == "AXMenuItemLayoutArea":
+        color = "lightpink"
+    elif role == "AXMenuItemLayoutItem":
+        color = "lightcyan"
+    elif role == "AXMenuItemHandle":
+        color = "plum"
+    elif role == "AXMenuItemSplitter":
+        color = "darkred"
+    elif role == "AXMenuItemIncrementor":
+        color = "darkblue"
+    elif role == "AXMenuItemBusyIndicator":
+        color = "darkgreen"
+    elif role == "AXMenuItemProgressIndicator":
+        color = "darkyellow"
+    elif role == "AXMenuItemToolbar":
+        color = "rebeccapurple"
+    elif role == "AXMenuItemPopover":
+        color = "darkorange"
+    return color
+
+
+
+# segment the window components
+def segment_window_components(window, image_path: str):
+    print(f"Segmenting window {window.name}")
+    if not image_path:
+        print(f"Image for window {window.name} not found")
+        return
+
+    segment_image_path = image_path.replace(".png", "_segmented.png")
+    shutil.copy2(image_path, segment_image_path)
+    sleep(0.5)
+
+    # segment the image
+    segment_image(segment_image_path, window)
+    sleep(0.5)
+
+    return segment_image_path
+
+
+def _build_global_visible_index(bundle_ids):
+    windows = get_visible_windows_for_bundles(bundle_ids) 
+    seen = []
+    out = []
+    for w in windows:
+        x, y, W, H = w["bounds"]
+        full = (x, y, W, H)
+        remaining = rect_subtract(full, seen)
+        if remaining:
+            out.append({"pid": w["pid"], "bounds": full, "visible": remaining})
+            seen.append(full)
+        else:
+            out.append({"pid": w["pid"], "bounds": full, "visible": []})
+    return out
+
+
+def segment_image(image_path, window_element, image_drawer=None, img=None, scale_factor=None):
+    if image_path is None:
+        return
+
+    should_save = False
+    if image_drawer is None:
+        should_save = True
+        img = Image.open(image_path)
+        image_drawer = ImageDraw.Draw(img)
+        
+        # Determine scale factor only once at the top level call
+        if scale_factor is None:
+            target_width = 0
+            if hasattr(window_element, 'window_screen_rect'):
+                bx, by, bx2, by2 = window_element.window_screen_rect
+                target_width = bx2 - bx
+            scale_factor = get_image_scale_factor(img.width, target_width)
+
+    use_scale_factor = scale_factor if scale_factor is not None else _screen_scaling_factor
+    
+    # iterate over all children
+    for child in getattr(window_element, "children", []):
+        if getattr(child, "children", None):
+            segment_image(image_path, child, image_drawer=image_drawer, img=img, scale_factor=use_scale_factor)
+
+        if not child.visible:
+            continue
+
+        bbox = child.visible_bbox
+        if not bbox:
+            continue
+        
+        size = child.size
+        if size is None or size.width == 0 or size.height == 0:
+            continue
+
+        height_offset = 0 if size.height < 2 else 2
+
+        # convert to device pixels 
+        x1, y1, x2, y2 = bbox
+        rx1 = int(x1 * use_scale_factor)
+        ry1 = int(y1 * use_scale_factor)
+        rx2 = int(x2 * use_scale_factor) - 1
+        ry2 = int(y2 * use_scale_factor) - height_offset + 1
+
+        if rx2 < rx1:
+            rx2 = rx1
+        if ry2 < ry1:
+            ry2 = ry1
+
+        color = color_for_role(getattr(child, "role", ""))
+
+        try:
+            image_drawer.rectangle([(rx1, ry1), (rx2, ry2)], outline=color, width=2)
+        except Exception as e:
+            print(f"Error drawing rectangle: {e}")
+
+    if should_save:
+        print(f"Saving segmented image to {image_path}")
+        img.save(image_path)

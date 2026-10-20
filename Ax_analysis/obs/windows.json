@@ -1,0 +1,49 @@
+[
+  {
+    "app_name": "OBS Studio",
+    "bounds": {
+      "height": 0.0,
+      "width": 0.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28288",
+    "is_focused": false,
+    "pid": 26845,
+    "process_instance": "macos-proc-v1:1788103838:578795",
+    "title": "OBS Studio",
+    "visible": false
+  },
+  {
+    "app_name": "OBS Studio",
+    "bounds": {
+      "height": 757.0,
+      "width": 1086.0,
+      "x": 2753.0,
+      "y": 609.0
+    },
+    "id": "w-28253",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26845,
+    "process_instance": "macos-proc-v1:1788103838:578795",
+    "title": "OBS 32.0.2 - Profile: Untitled - Scenes: Untitled",
+    "visible": true
+  },
+  {
+    "app_name": "OBS Studio",
+    "bounds": {
+      "height": 428.0,
+      "width": 600.0,
+      "x": 2890.0,
+      "y": 698.0
+    },
+    "id": "w-28266",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26845,
+    "process_instance": "macos-proc-v1:1788103838:578795",
+    "title": "Script Log",
+    "visible": true
+  }
+]

@@ -1,0 +1,527 @@
+{
+  "schema_version": "0.1.0",
+  "screen_id": "mac_0026",
+  "image": {
+    "path": "source.png",
+    "sha256": "fd4bb52e4652933e94b259ae6047d424b5e51182e78069826a60df10c4f74b6c",
+    "width": 2174,
+    "height": 1448,
+    "scale_factor": 2.0,
+    "coordinate_space": "source_pixels_xyxy"
+  },
+  "screen_context": {
+    "description": "Native macOS App Store Discover editorial showcase displaying hero media card with video preview and curated cards",
+    "view_types": [
+      "app_store",
+      "media_showcase"
+    ],
+    "visible_app_names": [
+      "App Store"
+    ],
+    "uncertainties": []
+  },
+  "nodes": [
+    {
+      "id": "n_0000",
+      "level": "window",
+      "bbox": [
+        0,
+        0,
+        2174,
+        1448
+      ],
+      "parent_id": null,
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "window",
+      "semantic_name": "App Store Window",
+      "description": "Native macOS App Store application window",
+      "context_description": "Top-level canvas",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0001",
+      "level": "region",
+      "bbox": [
+        0,
+        0,
+        440,
+        1448
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "sidebar",
+      "semantic_name": "Store Navigation Sidebar",
+      "description": "Navigation sidebar listing categories and search",
+      "context_description": "Located inside n_0000",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0002",
+      "level": "region",
+      "bbox": [
+        440,
+        0,
+        2174,
+        1448
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "main_content",
+      "semantic_name": "Discover Showcase Canvas",
+      "description": "Curated apps and games editorial canvas",
+      "context_description": "Located inside n_0000",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0003",
+      "level": "group",
+      "bbox": [
+        20,
+        15,
+        130,
+        50
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "button_group",
+      "semantic_name": "Traffic Light Buttons",
+      "description": "Window control buttons",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0004",
+      "level": "element",
+      "bbox": [
+        25,
+        75,
+        415,
+        125
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "text_input",
+      "semantic_name": "Store Search Field",
+      "description": "Search input field",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0005",
+      "level": "group",
+      "bbox": [
+        25,
+        140,
+        415,
+        600
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "list",
+      "semantic_name": "Category Navigation List",
+      "description": "Store category tabs (Discover, Arcade, Create, etc.)",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0006",
+      "level": "group",
+      "bbox": [
+        25,
+        1340,
+        415,
+        1420
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "card",
+      "semantic_name": "Account Summary Card",
+      "description": "Logged in user profile card",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0007",
+      "level": "element",
+      "bbox": [
+        480,
+        50,
+        1200,
+        150
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "heading",
+      "semantic_name": "Discover Header",
+      "description": "Section title Discover",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Discover",
+          "bbox": [
+            480,
+            50,
+            1200,
+            150
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0008",
+      "level": "group",
+      "bbox": [
+        480,
+        160,
+        2120,
+        680
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "card",
+      "semantic_name": "Hero Featured Banner Card",
+      "description": "Editorial showcase for Indie games we love with video player",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Indie games we love",
+          "bbox": [
+            480,
+            160,
+            2120,
+            680
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0009",
+      "level": "group",
+      "bbox": [
+        480,
+        710,
+        1280,
+        1400
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "card",
+      "semantic_name": "Action & Adventure Editorial Card",
+      "description": "Featured game recommendations",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0010",
+      "level": "group",
+      "bbox": [
+        1320,
+        710,
+        2120,
+        1400
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "card",
+      "semantic_name": "Pro Tip Productivity Card",
+      "description": "Editorial guide for window management",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    }
+  ],
+  "relations": [],
+  "coverage": {
+    "status": "complete",
+    "uninspected_regions": [],
+    "unresolved_proposal_ids": [],
+    "proposals_disposition": {
+      "d_0001": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0000"
+        ],
+        "reason": "Enclosed within n_0000"
+      },
+      "d_0002": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0003": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0000"
+        ],
+        "reason": "Enclosed within n_0000"
+      },
+      "d_0004": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0005": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0006": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0000"
+        ],
+        "reason": "Enclosed within n_0000"
+      },
+      "d_0007": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0000"
+        ],
+        "reason": "Enclosed within n_0000"
+      },
+      "d_0008": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0009": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0000"
+        ],
+        "reason": "Enclosed within n_0000"
+      },
+      "d_0010": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Enclosed within n_0008"
+      },
+      "d_0011": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0012": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0013": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0014": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0015": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0016": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Enclosed within n_0008"
+      }
+    }
+  },
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true,
+    "audit_applied": true
+  }
+}

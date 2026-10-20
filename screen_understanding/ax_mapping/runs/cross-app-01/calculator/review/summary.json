@@ -1,0 +1,40 @@
+{
+  "image_size": [
+    460,
+    816
+  ],
+  "projected_nodes": 35,
+  "display_boxes": 26,
+  "named_controls_in_clean_view": 20,
+  "frame_check": {
+    "status": "unverified",
+    "reasons": [],
+    "skew_ms": 154.3886661529541,
+    "note": "Time proximity does not establish identical UI or occlusion."
+  },
+  "capture_validation": {
+    "window_geometry_unchanged": true,
+    "process_instance_unchanged": true,
+    "ax_signature_unchanged": true,
+    "ax_root_matches_capture_bounds": true,
+    "screenshot_sha256": "6c1bdd5850d3b505410106779e200d321a4910dd98ab8fb4401bb4feae3ba8c1",
+    "ax_before_ms": 191.21217727661133,
+    "screenshot_ms": 116.57905578613281,
+    "ax_after_ms": 192.98982620239258,
+    "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim."
+  },
+  "observation": {
+    "snapshot_id": "s10ye2ulmqsjlu",
+    "app": "Calculator",
+    "reported_complete": true,
+    "frontier_count": 0,
+    "frontiers": [],
+    "filtered": {
+      "invalid_bounds": 0,
+      "outside_capture": 0,
+      "hidden": 0
+    },
+    "total_nodes": 35,
+    "projected_nodes": 35
+  }
+}

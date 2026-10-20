@@ -1,0 +1,11 @@
+# local-only state — never leaves the machine (privacy rule, pitch §5.7)
+registry/
+.atree/
+learnings/ledger.jsonl
+learnings/candidates/*.json
+learnings/archive/*.json
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/

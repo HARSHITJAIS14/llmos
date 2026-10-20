@@ -1,0 +1,188 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Reminders",
+    "complete": true,
+    "ref_count": 14,
+    "snapshot_id": "sc5r2xzel5uzc",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "children_count": 8,
+                  "name": "Account Lists",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:41"
+                  },
+                  "ref_id": "@sc5r2xzel5uzc:e2",
+                  "role": "outline"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:37"
+              },
+              "ref_id": "@sc5r2xzel5uzc:e1",
+              "role": "scrollarea"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:7"
+                  },
+                  "ref_id": "@sc5r2xzel5uzc:e3",
+                  "role": "scrollarea"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "Reminders"
+              },
+              "role": "layoutitem"
+            },
+            {
+              "name": "Reminders , 5 reminders",
+              "ref_id": "@sc5r2xzel5uzc:e4",
+              "role": "textfield",
+              "states": [
+                "readonly"
+              ]
+            }
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:15"
+          },
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Add List",
+              "ref_id": "@sc5r2xzel5uzc:e6",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Sidebar",
+              "ref_id": "@sc5r2xzel5uzc:e7",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Share List",
+              "ref_id": "@sc5r2xzel5uzc:e8",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Add Section",
+              "ref_id": "@sc5r2xzel5uzc:e9",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Add Reminder",
+              "ref_id": "@sc5r2xzel5uzc:e10",
+              "role": "button"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "ref_id": "@sc5r2xzel5uzc:e11",
+                  "role": "textfield"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@sc5r2xzel5uzc:e5",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@sc5r2xzel5uzc:e12",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@sc5r2xzel5uzc:e13",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@sc5r2xzel5uzc:e14",
+          "role": "button"
+        }
+      ],
+      "name": "Reminders",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:10"
+      },
+      "role": "dialog",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28179",
+      "title": "Reminders"
+    }
+  }
+}

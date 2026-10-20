@@ -1,0 +1,29 @@
+{
+  "seconds": 16.253720374952536,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"video_details_and_metadata\", \"observations\":[\"Video title: 'Brian Singerman: \\\"If SpaceX Didn't Work, Founders Fund Wouldn't Exist\\\"' with an 'Auto-dubbed' badge beneath it.\", \"Channel info showing profile icon 'S', title 'Sourcery with Molly O'Shea', and subscriber count '68.8k subscribers'.\", \"Interactive action buttons: 'Subscribe', like button showing '314', dislike button, 'Share' button, and an overflow menu '...' button.\", \"Collapsible video description box with stats '12k views 2 months ago Sourcery' and several lines of text summarizing the interview, ending with '...more'.\"], \"interpretations\":[\"Primary information section below a YouTube video player providing context, channel subscription controls, social engagement actions, and expanded description.\"], \"uncertainties\":[], \"children\":[{\"label\":\"video_title\", \"bbox\":[18,48,890,119], \"inspect\":false, \"reason\":\"Clearly legible headline text for the video.\"}, {\"label\":\"channel_info_bar\", \"bbox\":[18,255,520,410], \"inspect\":false, \"reason\":\"Channel branding, avatar, name, and subscribe button.\"}, {\"label\":\"engagement_controls\", \"bbox\":[575,255,982,410], \"inspect\":false, \"reason\":\"Set of user engagement action buttons (like/dislike pill, share, options).\"}, {\"label\":\"video_description_box\", \"bbox\":[18,473,982,887], \"inspect\":false, \"reason\":\"Standard expandable YouTube description panel showing view count, date, and summary text.\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0Tl6pgi6Q6Pq1/qviGA25Q252aI4mplyuSMk1zRicaX8/O/Npapyg0iHDTTUYLz1bYtxnspgiZEilVOXbbO9yiHBqj3u9I3hhhL0fI/zRpSGuIAF+h8druujgUOp9UHvhOKxw="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247239,
+    "id": "wIXTaoiZN4bVqfkP4JKt4Aw",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 371,
+      "prompt_tokens": 3657,
+      "total_tokens": 4028
+    }
+  }
+}

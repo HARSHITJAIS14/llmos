@@ -1,0 +1,770 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Music",
+    "complete": true,
+    "ref_count": 40,
+    "snapshot_id": "shdkjjqh9cwol",
+    "tree": {
+      "bounds": {
+        "height": 580.0,
+        "width": 980.0,
+        "x": 790.0,
+        "y": 238.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 580.0,
+            "width": 980.0,
+            "x": 790.0,
+            "y": 238.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 481.0,
+                "width": 200.0,
+                "x": 798.0,
+                "y": 280.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 483.0,
+                    "width": 202.0,
+                    "x": 797.0,
+                    "y": 279.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 280.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 280.0
+                          },
+                          "name": "Search",
+                          "ref_id": "@shdkjjqh9cwol:e4",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Search",
+                      "ref_id": "@shdkjjqh9cwol:e3",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 312.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 312.0
+                          },
+                          "name": "Home",
+                          "ref_id": "@shdkjjqh9cwol:e6",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Home",
+                      "ref_id": "@shdkjjqh9cwol:e5",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 344.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 344.0
+                          },
+                          "name": "Radio",
+                          "ref_id": "@shdkjjqh9cwol:e8",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Radio",
+                      "ref_id": "@shdkjjqh9cwol:e7",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 389.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 389.0
+                          },
+                          "name": "Library",
+                          "ref_id": "@shdkjjqh9cwol:e10",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Library",
+                      "ref_id": "@shdkjjqh9cwol:e9",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 408.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 408.0
+                          },
+                          "name": "Recently Added",
+                          "ref_id": "@shdkjjqh9cwol:e12",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Recently Added",
+                      "ref_id": "@shdkjjqh9cwol:e11",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 440.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 440.0
+                          },
+                          "name": "Artists",
+                          "ref_id": "@shdkjjqh9cwol:e14",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Artists",
+                      "ref_id": "@shdkjjqh9cwol:e13",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 472.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 472.0
+                          },
+                          "name": "Albums",
+                          "ref_id": "@shdkjjqh9cwol:e16",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Albums",
+                      "ref_id": "@shdkjjqh9cwol:e15",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 504.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 504.0
+                          },
+                          "name": "Songs",
+                          "ref_id": "@shdkjjqh9cwol:e18",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Songs",
+                      "ref_id": "@shdkjjqh9cwol:e17",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 549.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 549.0
+                          },
+                          "name": "Store",
+                          "ref_id": "@shdkjjqh9cwol:e20",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Store",
+                      "ref_id": "@shdkjjqh9cwol:e19",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 568.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 568.0
+                          },
+                          "name": "iTunes Store",
+                          "ref_id": "@shdkjjqh9cwol:e22",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "iTunes Store",
+                      "ref_id": "@shdkjjqh9cwol:e21",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 613.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 613.0
+                          },
+                          "name": "Playlists",
+                          "ref_id": "@shdkjjqh9cwol:e24",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Playlists",
+                      "ref_id": "@shdkjjqh9cwol:e23",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 200.0,
+                        "x": 798.0,
+                        "y": 632.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 180.0,
+                            "x": 808.0,
+                            "y": 632.0
+                          },
+                          "name": "All Playlists",
+                          "ref_id": "@shdkjjqh9cwol:e26",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "All Playlists",
+                      "ref_id": "@shdkjjqh9cwol:e25",
+                      "role": "treeitem"
+                    }
+                  ],
+                  "name": "Sidebar",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "outline"
+                  },
+                  "ref_id": "@shdkjjqh9cwol:e2",
+                  "role": "outline"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "sidebarScroller"
+              },
+              "ref_id": "@shdkjjqh9cwol:e1",
+              "role": "scrollarea"
+            },
+            {
+              "bounds": {
+                "height": 50.0,
+                "width": 200.0,
+                "x": 798.0,
+                "y": 761.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 50.0,
+                    "width": 200.0,
+                    "x": 798.0,
+                    "y": 761.0
+                  },
+                  "name": "harshit jaiswal",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "Music.accountButton"
+                  },
+                  "ref_id": "@shdkjjqh9cwol:e27",
+                  "role": "button"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "bounds": {
+                "height": 54.0,
+                "width": 700.0,
+                "x": 1034.0,
+                "y": 745.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 54.5,
+                    "width": 700.0,
+                    "x": 1034.0,
+                    "y": 744.75
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 682.0,
+                        "x": 1043.0,
+                        "y": 754.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 28.0,
+                            "x": 1043.0,
+                            "y": 758.0
+                          },
+                          "name": "do not shuffle",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.shuffleButton"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e28",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 28.0,
+                            "x": 1071.0,
+                            "y": 758.0
+                          },
+                          "name": "Previous",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.leadingTransportControl"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e29",
+                          "role": "button",
+                          "states": [
+                            "disabled"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 36.0,
+                            "width": 36.0,
+                            "x": 1099.0,
+                            "y": 754.0
+                          },
+                          "name": "Play",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.playbackTransportControl"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e30",
+                          "role": "button",
+                          "states": [
+                            "disabled"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 28.0,
+                            "x": 1135.0,
+                            "y": 758.0
+                          },
+                          "name": "Next",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.trailingTransportControl"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e31",
+                          "role": "button",
+                          "states": [
+                            "disabled"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 28.0,
+                            "x": 1163.0,
+                            "y": 758.0
+                          },
+                          "name": "do not repeat",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.repeatButton"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e32",
+                          "role": "button"
+                        },
+                        {
+                          "bounds": {
+                            "height": 34.0,
+                            "width": 369.0,
+                            "x": 1200.0,
+                            "y": 755.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 34.0,
+                                "width": 369.0,
+                                "x": 1200.0,
+                                "y": 755.0
+                              },
+                              "name": "Show Now Playing",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "Music.miniPlayer.appleLogoButton[hovered=false]"
+                              },
+                              "ref_id": "@shdkjjqh9cwol:e33",
+                              "role": "button"
+                            }
+                          ],
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.metadataRegion[state=empty]"
+                          },
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 36.0,
+                            "width": 36.0,
+                            "x": 1578.0,
+                            "y": 754.0
+                          },
+                          "name": "Lyrics",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.lyricsButton"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e34",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 36.0,
+                            "width": 36.0,
+                            "x": 1615.0,
+                            "y": 754.0
+                          },
+                          "name": "playing next",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.queueButton"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e35",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 36.0,
+                            "width": 36.0,
+                            "x": 1652.0,
+                            "y": 754.0
+                          },
+                          "name": "airplay",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.airplayButton"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e36",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 36.0,
+                            "width": 36.0,
+                            "x": 1689.0,
+                            "y": 754.0
+                          },
+                          "name": "Volume",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Music.miniPlayer.volumeButton"
+                          },
+                          "ref_id": "@shdkjjqh9cwol:e37",
+                          "role": "button"
+                        }
+                      ],
+                      "name": "Mini Player",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "Music.miniPlayer.contentView[viewState=mini,isPlaying=false]"
+                      },
+                      "role": "group"
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 798.0,
+            "y": 246.0
+          },
+          "ref_id": "@shdkjjqh9cwol:e38",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 844.0,
+            "y": 246.0
+          },
+          "ref_id": "@shdkjjqh9cwol:e39",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 821.0,
+            "y": 246.0
+          },
+          "ref_id": "@shdkjjqh9cwol:e40",
+          "role": "button"
+        }
+      ],
+      "name": "Music",
+      "role": "dialog",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28190",
+      "title": "Music"
+    }
+  }
+}

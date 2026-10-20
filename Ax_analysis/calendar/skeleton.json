@@ -1,0 +1,287 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Calendar",
+    "complete": true,
+    "ref_count": 18,
+    "snapshot_id": "s3ucecuytlq5i1",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "children_count": 2,
+                  "ref_id": "@s3ucecuytlq5i1:e1",
+                  "role": "scrollarea"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "previous month",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "MiniCalPrevMonthButton"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e2",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "next month",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "MiniCalNextMonthButton"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e3",
+                  "role": "button"
+                },
+                {
+                  "children_count": 42,
+                  "name": "August",
+                  "ref_id": "@s3ucecuytlq5i1:e4",
+                  "role": "grid"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "children_count": 4,
+                  "name": "Wednesday, 26 August",
+                  "ref_id": "@s3ucecuytlq5i1:e5",
+                  "role": "list",
+                  "states": [
+                    "focused"
+                  ]
+                },
+                {
+                  "children_count": 2,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "sidebar-mini-month"
+                  },
+                  "role": "unknown"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick"
+                  ],
+                  "name": "Milad un-Nabi",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "title-field"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e6",
+                  "role": "statictext",
+                  "value": "Milad un-Nabi"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus",
+                    "Expand",
+                    "Collapse"
+                  ],
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "calendar-button"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e7",
+                  "role": "combobox",
+                  "states": [
+                    "readonly"
+                  ],
+                  "value": "Holidays in India"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "name": "Wednesday, 26 August 2026  ",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "date-time-button"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e8",
+                  "role": "button",
+                  "value": "Wednesday, 26 August 2026"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick"
+                  ],
+                  "name": "Public holiday",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "notes-field"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e9",
+                  "role": "statictext",
+                  "value": "Public holiday"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "previous day",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "previous day"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e10",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Today",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "today-button"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e11",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "next day",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "next day"
+                  },
+                  "ref_id": "@s3ucecuytlq5i1:e12",
+                  "role": "button"
+                }
+              ],
+              "name": "Day Calendar Area",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "active-view"
+              },
+              "role": "group",
+              "value": "26 August 2026"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "children_count": 2,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "CalendarsControl"
+                  },
+                  "role": "radiogroup"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Add Event",
+              "ref_id": "@s3ucecuytlq5i1:e14",
+              "role": "button"
+            },
+            {
+              "children": [
+                {
+                  "children_count": 4,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "views-switcher"
+                  },
+                  "role": "radiogroup"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Search",
+                  "ref_id": "@s3ucecuytlq5i1:e15",
+                  "role": "textfield"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s3ucecuytlq5i1:e13",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s3ucecuytlq5i1:e16",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s3ucecuytlq5i1:e17",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s3ucecuytlq5i1:e18",
+          "role": "button"
+        }
+      ],
+      "name": "Calendar",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "CALMainWindow"
+      },
+      "role": "dialog"
+    },
+    "window": {
+      "id": "w-28188",
+      "title": "Calendar"
+    }
+  }
+}

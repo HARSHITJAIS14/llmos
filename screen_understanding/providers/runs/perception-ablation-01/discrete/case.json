@@ -1,0 +1,209 @@
+{
+  "questions": {
+    "q1": {
+      "type": "choice",
+      "instructions": "Which numbered region corresponds to The Calendar app preview with a month grid on the far left of the desktop in `image`? Return its region choice.",
+      "criteria": {
+        "b1": "Numbered region 1",
+        "b2": "Numbered region 2",
+        "b3": "Numbered region 3",
+        "b4": "Numbered region 4",
+        "b5": "Numbered region 5",
+        "b6": "Numbered region 6",
+        "b7": "Numbered region 7",
+        "b8": "Numbered region 8"
+      }
+    },
+    "q2": {
+      "type": "choice",
+      "instructions": "Which numbered region corresponds to The Varanasi weather widget showing 31 degrees in `image`? Return its region choice.",
+      "criteria": {
+        "b1": "Numbered region 1",
+        "b2": "Numbered region 2",
+        "b3": "Numbered region 3",
+        "b4": "Numbered region 4",
+        "b5": "Numbered region 5",
+        "b6": "Numbered region 6",
+        "b7": "Numbered region 7",
+        "b8": "Numbered region 8"
+      }
+    },
+    "q3": {
+      "type": "choice",
+      "instructions": "Which numbered region corresponds to The selected Bluetooth row in the settings sidebar in `image`? Return its region choice.",
+      "criteria": {
+        "b1": "Numbered region 1",
+        "b2": "Numbered region 2",
+        "b3": "Numbered region 3",
+        "b4": "Numbered region 4",
+        "b5": "Numbered region 5",
+        "b6": "Numbered region 6",
+        "b7": "Numbered region 7",
+        "b8": "Numbered region 8"
+      }
+    },
+    "q4": {
+      "type": "choice",
+      "instructions": "Which numbered region corresponds to The search field in the settings sidebar in `image`? Return its region choice.",
+      "criteria": {
+        "b1": "Numbered region 1",
+        "b2": "Numbered region 2",
+        "b3": "Numbered region 3",
+        "b4": "Numbered region 4",
+        "b5": "Numbered region 5",
+        "b6": "Numbered region 6",
+        "b7": "Numbered region 7",
+        "b8": "Numbered region 8"
+      }
+    },
+    "q5": {
+      "type": "choice",
+      "instructions": "Which numbered region corresponds to The Airdopes 800 device row in `image`? Return its region choice.",
+      "criteria": {
+        "b1": "Numbered region 1",
+        "b2": "Numbered region 2",
+        "b3": "Numbered region 3",
+        "b4": "Numbered region 4",
+        "b5": "Numbered region 5",
+        "b6": "Numbered region 6",
+        "b7": "Numbered region 7",
+        "b8": "Numbered region 8"
+      }
+    },
+    "q6": {
+      "type": "choice",
+      "instructions": "Which numbered region corresponds to The blue Bluetooth on/off toggle in `image`? Return its region choice.",
+      "criteria": {
+        "b1": "Numbered region 1",
+        "b2": "Numbered region 2",
+        "b3": "Numbered region 3",
+        "b4": "Numbered region 4",
+        "b5": "Numbered region 5",
+        "b6": "Numbered region 6",
+        "b7": "Numbered region 7",
+        "b8": "Numbered region 8"
+      }
+    },
+    "q7": {
+      "type": "choice",
+      "instructions": "Which numbered region corresponds to The back and forward navigation arrows at the top of the foreground window in `image`? Return its region choice.",
+      "criteria": {
+        "b1": "Numbered region 1",
+        "b2": "Numbered region 2",
+        "b3": "Numbered region 3",
+        "b4": "Numbered region 4",
+        "b5": "Numbered region 5",
+        "b6": "Numbered region 6",
+        "b7": "Numbered region 7",
+        "b8": "Numbered region 8"
+      }
+    },
+    "q8": {
+      "type": "choice",
+      "instructions": "Which numbered region corresponds to The Learn more link in the Bluetooth explanation in `image`? Return its region choice.",
+      "criteria": {
+        "b1": "Numbered region 1",
+        "b2": "Numbered region 2",
+        "b3": "Numbered region 3",
+        "b4": "Numbered region 4",
+        "b5": "Numbered region 5",
+        "b6": "Numbered region 6",
+        "b7": "Numbered region 7",
+        "b8": "Numbered region 8"
+      }
+    }
+  },
+  "truth": {
+    "q1": "b1",
+    "q2": "b2",
+    "q3": "b3",
+    "q4": "b4",
+    "q5": "b5",
+    "q6": "b6",
+    "q7": "b7",
+    "q8": "b8"
+  },
+  "auxiliary_boxes": [
+    {
+      "id": "b1",
+      "bbox": [
+        0.02669,
+        0.381423,
+        0.084918,
+        0.489012
+      ],
+      "label": "Slate"
+    },
+    {
+      "id": "b2",
+      "bbox": [
+        0.871721,
+        0.050361,
+        0.990497,
+        0.226119
+      ],
+      "label": "Weather"
+    },
+    {
+      "id": "b3",
+      "bbox": [
+        0.344976,
+        0.197505,
+        0.480918,
+        0.234064
+      ],
+      "label": "Bluetooth"
+    },
+    {
+      "id": "b4",
+      "bbox": [
+        0.344646,
+        0.158295,
+        0.481173,
+        0.193619
+      ],
+      "label": "Search"
+    },
+    {
+      "id": "b5",
+      "bbox": [
+        0.501078,
+        0.335465,
+        0.812119,
+        0.396757
+      ],
+      "label": "New tab"
+    },
+    {
+      "id": "b6",
+      "bbox": [
+        0.773293,
+        0.160026,
+        0.807973,
+        0.183358
+      ],
+      "label": "Window Icon"
+    },
+    {
+      "id": "b7",
+      "bbox": [
+        0.491231,
+        0.104236,
+        0.542374,
+        0.144006
+      ],
+      "label": "Control Center"
+    },
+    {
+      "id": "b8",
+      "bbox": [
+        0.675646,
+        0.196187,
+        0.727626,
+        0.212599
+      ],
+      "label": "Learn more"
+    }
+  ],
+  "note": "Same numbered image in both arms. Raw detector boxes, actual student labels; questions/references visually checked. Extra metadata is optional."
+}

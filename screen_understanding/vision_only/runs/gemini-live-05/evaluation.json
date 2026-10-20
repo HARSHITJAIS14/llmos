@@ -1,0 +1,14 @@
+{
+  "model": "gemini-3.8-flash",
+  "api_calls": 6,
+  "api_wait_seconds": 73.94232133193873,
+  "tokens": {
+    "prompt_tokens": 21210,
+    "completion_tokens": 1922,
+    "total_tokens": 23132
+  },
+  "analyses": 5,
+  "regions_including_root": 24,
+  "uninspected_regions": 19,
+  "assessment": "Manual single-screen inspection, not a benchmark"
+}

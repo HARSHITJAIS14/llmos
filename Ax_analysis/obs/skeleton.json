@@ -1,0 +1,823 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "OBS Studio",
+    "complete": true,
+    "ref_count": 55,
+    "snapshot_id": "s2f47282z2ww79",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "description": "Zoom Out",
+          "name": "Zoom Out",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewZoomOutButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e1",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "description": "Zoom In",
+          "name": "Zoom In",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewZoomInButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e2",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus",
+            "Expand",
+            "Collapse"
+          ],
+          "name": "Scale to Window",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewScalingMode"
+          },
+          "ref_id": "@s2f47282z2ww79:e3",
+          "role": "menubutton"
+        },
+        {
+          "available_actions": [
+            "SetValue"
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewXScrollBar"
+          },
+          "ref_id": "@s2f47282z2ww79:e4",
+          "role": "scrollbar",
+          "value": "0"
+        },
+        {
+          "available_actions": [
+            "SetValue"
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.centralwidget.previewContainer.previewYScrollBar"
+          },
+          "ref_id": "@s2f47282z2ww79:e5",
+          "role": "scrollbar",
+          "value": "0"
+        },
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "description": "Open Source Properties",
+          "name": "Properties",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.centralwidget.contextContainer.contextSubContainer.sourcePropertiesButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e6",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "description": "Open Source Filters",
+          "name": "Filters",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.centralwidget.contextContainer.contextSubContainer.sourceFiltersButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e7",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Select",
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Scene",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenes"
+                  },
+                  "ref_id": "@s2f47282z2ww79:e9",
+                  "role": "cell"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenes"
+              },
+              "role": "row"
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Insomnia'26",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenes"
+                  },
+                  "ref_id": "@s2f47282z2ww79:e10",
+                  "role": "cell"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenes"
+              },
+              "role": "row"
+            }
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenes"
+          },
+          "ref_id": "@s2f47282z2ww79:e8",
+          "role": "list"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Add scene",
+          "name": "Add",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e11",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Remove Selected Scene",
+          "name": "Remove",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e12",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Open Scene Filters",
+          "name": "Open Scene Filters",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e13",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Move Scene Up",
+          "name": "Move Up",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e14",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Move Scene Down",
+          "name": "Move Down",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e15",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Undocks and re-attaches the dock widget",
+          "name": "Float",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.scenesDock.qt_dockwidget_floatbutton"
+          },
+          "ref_id": "@s2f47282z2ww79:e16",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Select",
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Audio Input Capture",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources"
+                  },
+                  "ref_id": "@s2f47282z2ww79:e18",
+                  "role": "cell"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources"
+              },
+              "role": "row"
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Video Capture Device ",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources"
+                  },
+                  "ref_id": "@s2f47282z2ww79:e19",
+                  "role": "cell"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources"
+              },
+              "role": "row"
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Display Capture",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources"
+                  },
+                  "ref_id": "@s2f47282z2ww79:e20",
+                  "role": "cell"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources"
+              },
+              "role": "row"
+            }
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources"
+          },
+          "ref_id": "@s2f47282z2ww79:e17",
+          "role": "list"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Add Source",
+          "name": "Add",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sourcesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e21",
+          "role": "button"
+        },
+        {
+          "description": "Remove Selected Source(s)",
+          "name": "Remove",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sourcesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e22",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "description": "Open Source Properties",
+          "name": "Properties",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sourcesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e23",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "description": "Move Source(s) Up",
+          "name": "Move Up",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sourcesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e24",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "description": "Move Source(s) Down",
+          "name": "Move Down",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sourcesToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e25",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Undocks and re-attaches the dock widget",
+          "name": "Float",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.sourcesDock.qt_dockwidget_floatbutton"
+          },
+          "ref_id": "@s2f47282z2ww79:e26",
+          "role": "button"
+        },
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Properties for 'Mic/Aux'",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Mic/Aux.QPushButton"
+              },
+              "ref_id": "@s2f47282z2ww79:e27",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Mute 'Mic/Aux'",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Mic/Aux.MuteCheckBox"
+              },
+              "ref_id": "@s2f47282z2ww79:e28",
+              "role": "checkbox",
+              "value": "0"
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "name": "Volume slider for 'Mic/Aux':",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Mic/Aux.volMeterFrame.VolumeSlider"
+              },
+              "ref_id": "@s2f47282z2ww79:e29",
+              "role": "slider",
+              "states": [
+                "readonly"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Properties for 'Display Capture'",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Display Capture.QPushButton"
+              },
+              "ref_id": "@s2f47282z2ww79:e30",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Mute 'Display Capture'",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Display Capture.MuteCheckBox"
+              },
+              "ref_id": "@s2f47282z2ww79:e31",
+              "role": "checkbox",
+              "value": "0"
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "name": "Volume slider for 'Display Capture':",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Display Capture.volMeterFrame.VolumeSlider"
+              },
+              "ref_id": "@s2f47282z2ww79:e32",
+              "role": "slider",
+              "states": [
+                "readonly"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Properties for 'Audio Input Capture'",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Audio Input Capture.QPushButton"
+              },
+              "ref_id": "@s2f47282z2ww79:e33",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Mute 'Audio Input Capture'",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Audio Input Capture.MuteCheckBox"
+              },
+              "ref_id": "@s2f47282z2ww79:e34",
+              "role": "checkbox",
+              "value": "0"
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "name": "Volume slider for 'Audio Input Capture':",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.Audio Input Capture.volMeterFrame.VolumeSlider"
+              },
+              "ref_id": "@s2f47282z2ww79:e35",
+              "role": "slider",
+              "states": [
+                "readonly"
+              ]
+            },
+            {
+              "available_actions": [
+                "SetValue"
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_vcontainer.QScrollBar"
+              },
+              "ref_id": "@s2f47282z2ww79:e36",
+              "role": "scrollbar",
+              "value": "0"
+            }
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea"
+          },
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Advanced Audio Properties",
+          "name": "AdvAudioProps",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.mixerToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e37",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Audio mixer menu",
+          "name": "Audio mixer menu",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.mixerToolbar.QToolButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e38",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Undocks and re-attaches the dock widget",
+          "name": "Float",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.mixerDock.qt_dockwidget_floatbutton"
+          },
+          "ref_id": "@s2f47282z2ww79:e39",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus",
+            "Expand",
+            "Collapse"
+          ],
+          "name": "Fade",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitions"
+          },
+          "ref_id": "@s2f47282z2ww79:e40",
+          "role": "menubutton"
+        },
+        {
+          "available_actions": [
+            "SetValue",
+            "SetFocus"
+          ],
+          "name": "Duration",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionDuration"
+          },
+          "ref_id": "@s2f47282z2ww79:e41",
+          "role": "incrementor",
+          "value": "300"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "description": "Add Configurable Transition",
+          "name": "Add Configurable Transition",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionAdd"
+          },
+          "ref_id": "@s2f47282z2ww79:e42",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "description": "Remove Configurable Transition",
+          "name": "Remove Configurable Transition",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionRemove"
+          },
+          "ref_id": "@s2f47282z2ww79:e43",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "description": "Transition Properties",
+          "name": "Transition Properties",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionProps"
+          },
+          "ref_id": "@s2f47282z2ww79:e44",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Undocks and re-attaches the dock widget",
+          "name": "Float",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.transitionsDock.qt_dockwidget_floatbutton"
+          },
+          "ref_id": "@s2f47282z2ww79:e45",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Start Streaming",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.streamButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e46",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Start Recording",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.recordButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e47",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Start Virtual Camera",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.virtualCamButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e48",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "description": "Configure Virtual Camera",
+          "name": "Configure Virtual Camera",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.virtualCamConfigButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e49",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Studio Mode",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.modeSwitch"
+          },
+          "ref_id": "@s2f47282z2ww79:e50",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Settings",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.settingsButton"
+          },
+          "ref_id": "@s2f47282z2ww79:e51",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "description": "Undocks and re-attaches the dock widget",
+          "name": "Float",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "OBSApp.OBSBasic.controlsDock.qt_dockwidget_floatbutton"
+          },
+          "ref_id": "@s2f47282z2ww79:e52",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2f47282z2ww79:e53",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s2f47282z2ww79:e54",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2f47282z2ww79:e55",
+          "role": "button"
+        }
+      ],
+      "name": "OBS 32.0.2 - Profile: Untitled - Scenes: Untitled",
+      "role": "window",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28253",
+      "title": "OBS 32.0.2 - Profile: Untitled - Scenes: Untitled"
+    }
+  }
+}

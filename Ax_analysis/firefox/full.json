@@ -1,0 +1,1742 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Firefox",
+    "complete": true,
+    "ref_count": 92,
+    "snapshot_id": "sogvmsqtr8zvk",
+    "tree": {
+      "bounds": {
+        "height": 923.0,
+        "width": 1249.0,
+        "x": 1311.0,
+        "y": 273.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "Click",
+            "RightClick",
+            "ScrollTo",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 923.0,
+            "width": 1249.0,
+            "x": 1311.0,
+            "y": 273.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "bounds": {
+                "height": 40.0,
+                "width": 1249.0,
+                "x": 1311.0,
+                "y": 273.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 42.0,
+                    "x": 1383.0,
+                    "y": 273.0
+                  },
+                  "name": "Sidebars",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "sidebar-button"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e3",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 36.0,
+                    "x": 1425.0,
+                    "y": 273.0
+                  },
+                  "name": "Back",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "back-button"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e4",
+                  "role": "button",
+                  "states": [
+                    "disabled"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 36.0,
+                    "x": 1461.0,
+                    "y": 273.0
+                  },
+                  "name": "Forward",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "forward-button"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e5",
+                  "role": "button",
+                  "states": [
+                    "disabled"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 36.0,
+                    "x": 1497.0,
+                    "y": 273.0
+                  },
+                  "name": "Reload",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "reload-button"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e6",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 76.0,
+                    "x": 1533.0,
+                    "y": 273.0
+                  },
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "customizableui-special-spring1"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e7",
+                  "role": "splitter"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 20.0,
+                    "x": 1609.0,
+                    "y": 273.0
+                  },
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "vertical-spacer"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e8",
+                  "role": "splitter"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 32.0,
+                    "width": 695.0,
+                    "x": 1634.0,
+                    "y": 277.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 695.0,
+                        "x": 1634.0,
+                        "y": 277.0
+                      },
+                      "ref_id": "@sogvmsqtr8zvk:e10",
+                      "role": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 695.0,
+                        "x": 1634.0,
+                        "y": 277.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "Expand",
+                            "Collapse"
+                          ],
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 44.5,
+                            "x": 1636.0,
+                            "y": 279.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 44.5,
+                                "x": 1636.0,
+                                "y": 279.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 12.0,
+                                    "width": 12.0,
+                                    "x": 1663.0,
+                                    "y": 287.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 12.0,
+                                        "width": 12.0,
+                                        "x": 1663.0,
+                                        "y": 287.0
+                                      },
+                                      "name": "Pick a Search Engine",
+                                      "ref_id": "@sogvmsqtr8zvk:e15",
+                                      "role": "image"
+                                    }
+                                  ],
+                                  "ref_id": "@sogvmsqtr8zvk:e14",
+                                  "role": "group"
+                                }
+                              ],
+                              "name": "Pick a Search Engine",
+                              "native_id": {
+                                "kind": "ax_dom_identifier",
+                                "value": "main-button"
+                              },
+                              "ref_id": "@sogvmsqtr8zvk:e13",
+                              "role": "button"
+                            }
+                          ],
+                          "ref_id": "@sogvmsqtr8zvk:e12",
+                          "role": "combobox",
+                          "states": [
+                            "readonly"
+                          ],
+                          "value": "Pick a Search Engine"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "ScrollTo",
+                            "SetValue",
+                            "Select",
+                            "SetFocus",
+                            "TypeText",
+                            "Expand",
+                            "Collapse"
+                          ],
+                          "bounds": {
+                            "height": 30.0,
+                            "width": 634.5,
+                            "x": 1686.5,
+                            "y": 278.0
+                          },
+                          "name": "Search with Google or enter address",
+                          "native_id": {
+                            "kind": "ax_dom_identifier",
+                            "value": "urlbar-input"
+                          },
+                          "ref_id": "@sogvmsqtr8zvk:e16",
+                          "role": "combobox",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@sogvmsqtr8zvk:e11",
+                      "role": "group"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "urlbar"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e9",
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 76.0,
+                    "x": 2334.0,
+                    "y": 273.0
+                  },
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "customizableui-special-spring2"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e17",
+                  "role": "splitter"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 36.0,
+                    "x": 2410.0,
+                    "y": 273.0
+                  },
+                  "name": "Account",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "fxa-toolbar-menu-button"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e18",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 36.0,
+                    "x": 2446.0,
+                    "y": 273.0
+                  },
+                  "name": "Extensions",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "unified-extensions-button"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e19",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 36.0,
+                    "x": 2482.0,
+                    "y": 273.0
+                  },
+                  "name": "List all tabs",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "alltabs-button"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e20",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 40.0,
+                    "width": 42.0,
+                    "x": 2518.0,
+                    "y": 273.0
+                  },
+                  "name": "Firefox",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "PanelUI-menu-button"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e21",
+                  "role": "button"
+                }
+              ],
+              "name": "Navigation",
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "nav-bar"
+              },
+              "ref_id": "@sogvmsqtr8zvk:e2",
+              "role": "toolbar"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "bounds": {
+                "height": 28.0,
+                "width": 1249.0,
+                "x": 1311.0,
+                "y": 313.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 143.0,
+                    "x": 1318.5,
+                    "y": 315.0
+                  },
+                  "name": "Problemset - Codeforces",
+                  "ref_id": "@sogvmsqtr8zvk:e23",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 59.0,
+                    "x": 1465.5,
+                    "y": 315.0
+                  },
+                  "name": "Surge",
+                  "ref_id": "@sogvmsqtr8zvk:e24",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 120.5,
+                    "x": 1528.5,
+                    "y": 315.0
+                  },
+                  "name": "Machine_learning",
+                  "ref_id": "@sogvmsqtr8zvk:e25",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 143.0,
+                    "x": 1653.0,
+                    "y": 315.0
+                  },
+                  "name": "CS315: Principles of Database Systems",
+                  "ref_id": "@sogvmsqtr8zvk:e26",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 63.5,
+                    "x": 1800.0,
+                    "y": 315.0
+                  },
+                  "name": "CS220",
+                  "ref_id": "@sogvmsqtr8zvk:e27",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 70.5,
+                    "x": 1867.5,
+                    "y": 315.0
+                  },
+                  "name": "HDLBits",
+                  "ref_id": "@sogvmsqtr8zvk:e28",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 123.5,
+                    "x": 1942.0,
+                    "y": 315.0
+                  },
+                  "name": "AtCoder Problems",
+                  "ref_id": "@sogvmsqtr8zvk:e29",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 143.0,
+                    "x": 2069.5,
+                    "y": 315.0
+                  },
+                  "name": "IITK_Resources_Semester_4/CS220/Prev Offerings/CS220/Exams/Midsem solutions.pdf at main \u00b7 AritraAmbudhDutta/IITK_Resources_Semester_4 \u00b7 GitHub",
+                  "ref_id": "@sogvmsqtr8zvk:e30",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 143.0,
+                    "x": 2216.5,
+                    "y": 315.0
+                  },
+                  "name": "Department of CSE, IIT Kanpur - Login",
+                  "ref_id": "@sogvmsqtr8zvk:e31",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 28.0,
+                    "x": 2403.5,
+                    "y": 315.0
+                  },
+                  "name": "Show more bookmarks",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "PlacesChevron"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e32",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 119.0,
+                    "x": 2433.5,
+                    "y": 315.0
+                  },
+                  "name": "Other Bookmarks",
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "OtherBookmarks"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e33",
+                  "role": "button"
+                }
+              ],
+              "name": "Bookmarks",
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "PersonalToolbar"
+              },
+              "ref_id": "@sogvmsqtr8zvk:e22",
+              "role": "toolbar"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "bounds": {
+                "height": 0.0,
+                "width": 1249.0,
+                "x": 1311.0,
+                "y": 341.0
+              },
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "notifications-toolbar"
+              },
+              "ref_id": "@sogvmsqtr8zvk:e34",
+              "role": "toolbar"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "bounds": {
+                "height": 855.0,
+                "width": 239.5,
+                "x": 1311.0,
+                "y": 341.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 804.5,
+                    "width": 239.5,
+                    "x": 1311.0,
+                    "y": 341.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "Toggle",
+                        "RightClick",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 41.0,
+                        "width": 239.5,
+                        "x": 1311.0,
+                        "y": 341.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 13.5,
+                            "width": 45.0,
+                            "x": 1351.0,
+                            "y": 355.0
+                          },
+                          "name": "New Tab",
+                          "ref_id": "@sogvmsqtr8zvk:e38",
+                          "role": "statictext",
+                          "value": "New Tab"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 24.0,
+                            "width": 24.0,
+                            "x": 1513.5,
+                            "y": 350.0
+                          },
+                          "name": "Close tab",
+                          "ref_id": "@sogvmsqtr8zvk:e39",
+                          "role": "button"
+                        }
+                      ],
+                      "name": "New Tab",
+                      "ref_id": "@sogvmsqtr8zvk:e37",
+                      "role": "radiobutton",
+                      "states": [
+                        "checked",
+                        "selected"
+                      ],
+                      "value": "true"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 223.0,
+                        "x": 1319.5,
+                        "y": 384.0
+                      },
+                      "name": "New Tab",
+                      "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "tabs-newtab-button"
+                      },
+                      "ref_id": "@sogvmsqtr8zvk:e40",
+                      "role": "button"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "tabbrowser-tabs"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e36",
+                  "role": "tablist"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 43.0,
+                    "width": 239.5,
+                    "x": 1311.0,
+                    "y": 1153.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 37.5,
+                        "width": 182.0,
+                        "x": 1311.0,
+                        "y": 1158.5
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 32.0,
+                            "x": 1319.5,
+                            "y": 1158.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "Toggle",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 32.0,
+                                "x": 1319.5,
+                                "y": 1158.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 0.0,
+                                    "x": 1343.5,
+                                    "y": 1174.5
+                                  },
+                                  "ref_id": "@sogvmsqtr8zvk:e45",
+                                  "role": "group"
+                                }
+                              ],
+                              "name": "Customize sidebar",
+                              "native_id": {
+                                "kind": "ax_dom_identifier",
+                                "value": "main-button"
+                              },
+                              "ref_id": "@sogvmsqtr8zvk:e44",
+                              "role": "switch",
+                              "value": "0"
+                            }
+                          ],
+                          "ref_id": "@sogvmsqtr8zvk:e43",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 32.0,
+                            "x": 1352.5,
+                            "y": 1158.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "Toggle",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 32.0,
+                                "x": 1352.5,
+                                "y": 1158.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 0.0,
+                                    "x": 1376.5,
+                                    "y": 1174.5
+                                  },
+                                  "ref_id": "@sogvmsqtr8zvk:e48",
+                                  "role": "group"
+                                }
+                              ],
+                              "name": "Open ChatGPT (\u2303X)",
+                              "native_id": {
+                                "kind": "ax_dom_identifier",
+                                "value": "main-button"
+                              },
+                              "ref_id": "@sogvmsqtr8zvk:e47",
+                              "role": "switch",
+                              "value": "0"
+                            }
+                          ],
+                          "ref_id": "@sogvmsqtr8zvk:e46",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 32.0,
+                            "x": 1386.0,
+                            "y": 1158.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "Toggle",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 32.0,
+                                "x": 1386.0,
+                                "y": 1158.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 0.0,
+                                    "x": 1410.0,
+                                    "y": 1174.5
+                                  },
+                                  "ref_id": "@sogvmsqtr8zvk:e51",
+                                  "role": "group"
+                                }
+                              ],
+                              "name": "Tabs from other devices",
+                              "native_id": {
+                                "kind": "ax_dom_identifier",
+                                "value": "main-button"
+                              },
+                              "ref_id": "@sogvmsqtr8zvk:e50",
+                              "role": "switch",
+                              "value": "0"
+                            }
+                          ],
+                          "ref_id": "@sogvmsqtr8zvk:e49",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 32.0,
+                            "x": 1419.5,
+                            "y": 1158.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "Toggle",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 32.0,
+                                "x": 1419.5,
+                                "y": 1158.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 0.0,
+                                    "x": 1443.5,
+                                    "y": 1174.5
+                                  },
+                                  "ref_id": "@sogvmsqtr8zvk:e54",
+                                  "role": "group"
+                                }
+                              ],
+                              "name": "Open history (\u21e7\u2318H)",
+                              "native_id": {
+                                "kind": "ax_dom_identifier",
+                                "value": "main-button"
+                              },
+                              "ref_id": "@sogvmsqtr8zvk:e53",
+                              "role": "switch",
+                              "value": "0"
+                            }
+                          ],
+                          "ref_id": "@sogvmsqtr8zvk:e52",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 32.0,
+                            "x": 1453.0,
+                            "y": 1158.5
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "Toggle",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 32.0,
+                                "x": 1453.0,
+                                "y": 1158.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 0.0,
+                                    "x": 1477.0,
+                                    "y": 1174.5
+                                  },
+                                  "ref_id": "@sogvmsqtr8zvk:e57",
+                                  "role": "group"
+                                }
+                              ],
+                              "name": "Open bookmarks (\u2318B)",
+                              "native_id": {
+                                "kind": "ax_dom_identifier",
+                                "value": "main-button"
+                              },
+                              "ref_id": "@sogvmsqtr8zvk:e56",
+                              "role": "switch",
+                              "value": "0"
+                            }
+                          ],
+                          "ref_id": "@sogvmsqtr8zvk:e55",
+                          "role": "group"
+                        }
+                      ],
+                      "ref_id": "@sogvmsqtr8zvk:e42",
+                      "role": "tablist"
+                    }
+                  ],
+                  "ref_id": "@sogvmsqtr8zvk:e41",
+                  "role": "group"
+                }
+              ],
+              "ref_id": "@sogvmsqtr8zvk:e35",
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "bounds": {
+                "height": 855.0,
+                "width": 1009.5,
+                "x": 1550.5,
+                "y": 341.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 855.0,
+                    "width": 1009.5,
+                    "x": 1550.5,
+                    "y": 341.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick",
+                        "ScrollTo",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 855.0,
+                        "width": 1009.5,
+                        "x": 1550.5,
+                        "y": 341.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 0.0,
+                            "width": 0.0,
+                            "x": 0.0,
+                            "y": 0.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "RightClick",
+                                "ScrollTo"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 0.0,
+                                "y": 0.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 0.0,
+                                    "x": 0.0,
+                                    "y": 0.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 0.0,
+                                            "width": 0.0,
+                                            "x": 0.0,
+                                            "y": 0.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 0.0,
+                                                "width": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0
+                                              },
+                                              "name": "Mozilla Firefox",
+                                              "ref_id": "@sogvmsqtr8zvk:e66",
+                                              "role": "image",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            }
+                                          ],
+                                          "name": "Mozilla Firefox",
+                                          "ref_id": "@sogvmsqtr8zvk:e65",
+                                          "role": "heading",
+                                          "states": [
+                                            "offscreen"
+                                          ],
+                                          "value": "0"
+                                        }
+                                      ],
+                                      "ref_id": "@sogvmsqtr8zvk:e64",
+                                      "role": "complementary",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 0.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 0.0,
+                                            "width": 0.0,
+                                            "x": 0.0,
+                                            "y": 0.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo",
+                                                "SetFocus"
+                                              ],
+                                              "bounds": {
+                                                "height": 133.0,
+                                                "width": 161.0,
+                                                "x": 2372.5,
+                                                "y": 363.5
+                                              },
+                                              "name": "Kanpur",
+                                              "ref_id": "@sogvmsqtr8zvk:e69",
+                                              "role": "link"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 16.0,
+                                                "width": 43.0,
+                                                "x": 2384.0,
+                                                "y": 379.0
+                                              },
+                                              "children_count": 1,
+                                              "name": "Kanpur",
+                                              "ref_id": "@sogvmsqtr8zvk:e70",
+                                              "role": "heading",
+                                              "value": "3"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 24.0,
+                                                "width": 24.0,
+                                                "x": 2498.5,
+                                                "y": 375.0
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@sogvmsqtr8zvk:e71",
+                                              "role": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo",
+                                                "SetFocus"
+                                              ],
+                                              "bounds": {
+                                                "height": 40.5,
+                                                "width": 138.5,
+                                                "x": 2384.0,
+                                                "y": 424.0
+                                              },
+                                              "children_count": 7,
+                                              "name": "29\u00b0C High 33\u00b0 Low 26\u00b0",
+                                              "ref_id": "@sogvmsqtr8zvk:e72",
+                                              "role": "link"
+                                            }
+                                          ],
+                                          "ref_id": "@sogvmsqtr8zvk:e68",
+                                          "role": "article",
+                                          "states": [
+                                            "offscreen"
+                                          ]
+                                        }
+                                      ],
+                                      "ref_id": "@sogvmsqtr8zvk:e67",
+                                      "role": "complementary",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 97.0,
+                                        "width": 627.0,
+                                        "x": 1734.5,
+                                        "y": 437.5
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "bounds": {
+                                            "height": 52.0,
+                                            "width": 506.5,
+                                            "x": 1794.5,
+                                            "y": 460.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 18.5,
+                                                "width": 448.0,
+                                                "x": 1844.5,
+                                                "y": 476.5
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@sogvmsqtr8zvk:e75",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "name": "Search with Google or enter address",
+                                          "ref_id": "@sogvmsqtr8zvk:e74",
+                                          "role": "button"
+                                        }
+                                      ],
+                                      "ref_id": "@sogvmsqtr8zvk:e73",
+                                      "role": "group"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 630.0,
+                                        "width": 678.5,
+                                        "x": 1708.5,
+                                        "y": 575.5
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 114.5,
+                                            "width": 622.5,
+                                            "x": 1736.5,
+                                            "y": 575.5
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 114.5,
+                                                "width": 622.5,
+                                                "x": 1736.5,
+                                                "y": 575.5
+                                              },
+                                              "children_count": 6,
+                                              "name": "Shortcuts",
+                                              "ref_id": "@sogvmsqtr8zvk:e78",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "ref_id": "@sogvmsqtr8zvk:e77",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 0.0,
+                                            "width": 0.0,
+                                            "x": 0.0,
+                                            "y": 0.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 0.0,
+                                                "width": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@sogvmsqtr8zvk:e80",
+                                              "role": "group",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            }
+                                          ],
+                                          "ref_id": "@sogvmsqtr8zvk:e79",
+                                          "role": "group",
+                                          "states": [
+                                            "offscreen"
+                                          ]
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 230.0,
+                                            "width": 678.5,
+                                            "x": 1708.5,
+                                            "y": 720.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 230.0,
+                                                "width": 678.5,
+                                                "x": 1708.5,
+                                                "y": 720.0
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@sogvmsqtr8zvk:e82",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "ref_id": "@sogvmsqtr8zvk:e81",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 0.0,
+                                            "width": 0.0,
+                                            "x": 0.0,
+                                            "y": 0.0
+                                          },
+                                          "ref_id": "@sogvmsqtr8zvk:e83",
+                                          "role": "group",
+                                          "states": [
+                                            "offscreen"
+                                          ]
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 237.0,
+                                            "width": 678.5,
+                                            "x": 1708.5,
+                                            "y": 968.5
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 237.0,
+                                                "width": 678.5,
+                                                "x": 1708.5,
+                                                "y": 968.5
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@sogvmsqtr8zvk:e85",
+                                              "role": "group"
+                                            }
+                                          ],
+                                          "ref_id": "@sogvmsqtr8zvk:e84",
+                                          "role": "group"
+                                        }
+                                      ],
+                                      "ref_id": "@sogvmsqtr8zvk:e76",
+                                      "role": "main"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "ScrollTo",
+                                        "Select"
+                                      ],
+                                      "bounds": {
+                                        "height": 32.0,
+                                        "width": 32.0,
+                                        "x": 2490.5,
+                                        "y": 1141.5
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 32.0,
+                                            "width": 32.0,
+                                            "x": 2490.5,
+                                            "y": 1141.5
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo",
+                                                "SetFocus"
+                                              ],
+                                              "bounds": {
+                                                "height": 32.0,
+                                                "width": 32.0,
+                                                "x": 2490.5,
+                                                "y": 1141.5
+                                              },
+                                              "children_count": 1,
+                                              "name": "Customize",
+                                              "native_id": {
+                                                "kind": "ax_dom_identifier",
+                                                "value": "main-button"
+                                              },
+                                              "ref_id": "@sogvmsqtr8zvk:e88",
+                                              "role": "button"
+                                            }
+                                          ],
+                                          "ref_id": "@sogvmsqtr8zvk:e87",
+                                          "role": "group"
+                                        }
+                                      ],
+                                      "ref_id": "@sogvmsqtr8zvk:e86",
+                                      "role": "list"
+                                    }
+                                  ],
+                                  "ref_id": "@sogvmsqtr8zvk:e63",
+                                  "role": "group",
+                                  "states": [
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@sogvmsqtr8zvk:e62",
+                              "role": "group",
+                              "states": [
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "name": "New Tab",
+                          "ref_id": "@sogvmsqtr8zvk:e61",
+                          "role": "webarea",
+                          "states": [
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@sogvmsqtr8zvk:e60",
+                      "role": "scrollarea"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "panel-3-1"
+                  },
+                  "ref_id": "@sogvmsqtr8zvk:e59",
+                  "role": "tabpanel"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "tabbrowser-tabpanels"
+              },
+              "ref_id": "@sogvmsqtr8zvk:e58",
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "bounds": {
+                "height": 0.0,
+                "width": 1249.0,
+                "x": 1311.0,
+                "y": 1196.0
+              },
+              "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "a11y-announcement"
+              },
+              "ref_id": "@sogvmsqtr8zvk:e89",
+              "role": "alert",
+              "states": [
+                "offscreen"
+              ]
+            }
+          ],
+          "name": "New Tab",
+          "ref_id": "@sogvmsqtr8zvk:e1",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 1322.0,
+            "y": 285.0
+          },
+          "ref_id": "@sogvmsqtr8zvk:e90",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 1368.0,
+            "y": 285.0
+          },
+          "ref_id": "@sogvmsqtr8zvk:e91",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 1345.0,
+            "y": 285.0
+          },
+          "ref_id": "@sogvmsqtr8zvk:e92",
+          "role": "button"
+        }
+      ],
+      "name": "New Tab",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28142",
+      "title": "New Tab"
+    }
+  }
+}

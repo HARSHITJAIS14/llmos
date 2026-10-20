@@ -1,0 +1,69 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Google Chrome",
+    "complete": true,
+    "ref_count": 4,
+    "snapshot_id": "s1zl5in6dmm7sk",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "RightClick",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "role": "group"
+                }
+              ],
+              "ref_id": "@s1zl5in6dmm7sk:e1",
+              "role": "group"
+            }
+          ],
+          "name": "New tab - Google Chrome \u2013 HARSHIT",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s1zl5in6dmm7sk:e2",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s1zl5in6dmm7sk:e3",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s1zl5in6dmm7sk:e4",
+          "role": "button"
+        }
+      ],
+      "name": "New tab - Google Chrome \u2013 HARSHIT",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28145",
+      "title": "New tab"
+    }
+  }
+}

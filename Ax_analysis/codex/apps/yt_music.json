@@ -1,0 +1,605 @@
+{
+  "schema_version": "1.0",
+  "app_key": "yt_music",
+  "identity": {
+    "name": "YT Music",
+    "bundle_id": "com.apple.Safari.WebApp.",
+    "bundle_id_match": "prefix",
+    "framework": "wkwebview_webapp",
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_hint",
+        "observation": "exe is the system 'Web App.app' stub, 0 bundled frameworks; bundle id = Safari.WebApp + per-install UUID"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "window>group>tablist>group>group>scrollarea>webarea, webarea at depth 6 (tablist insert = WebKit)"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 11 nodes, root_kids 5: not the 7-node / 4-root-kid Chromium shell"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "default hits cap 10 with 177 frontier nodes; forced reaches depth 12"
+      }
+    ]
+  },
+  "category": "media",
+  "fidelity": {
+    "default": {
+      "nodes": 437,
+      "max_depth": 10,
+      "max_depth_requested": 10,
+      "frontier_nodes": 177,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 220,
+      "ref_count": 430,
+      "has_webarea": true,
+      "offscreen_nodes": 261,
+      "skeleton_nodes": 11,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 975,
+      "max_depth": 12,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 668,
+      "ref_count": 968,
+      "has_webarea": true,
+      "offscreen_nodes": 716,
+      "skeleton_nodes": 11,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 2.231,
+    "default_score": 0.448,
+    "forced_score": 1.0,
+    "best_capture": "forced",
+    "ladder_verdict": "recapture_deeper"
+  },
+  "readiness": {
+    "default_rung": "R4_depth_frontier",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "depth_frontier"
+      ],
+      "chromium_shell_skeleton": false,
+      "cause": "depth_cap"
+    },
+    "capture_plan": {
+      "max_depth": 40,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": false,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "both captures were activated, so background reading is untested; root not offscreen, 261/437 offscreen are scrolled shelves"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "WebKit, not Chromium; depth-40 recapture gave 975 nodes with no handshake"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 500,
+        "height": 500,
+        "x": 0,
+        "y": 940,
+        "count": 1,
+        "kind": "helper_surface"
+      },
+      {
+        "width": 125,
+        "height": 145,
+        "x": 2576,
+        "y": 1033,
+        "count": 1,
+        "kind": "thumbnail_proxy"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": true,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": false
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 12.1,
+      "kinds": [
+        "ax_identifier",
+        "ax_dom_identifier"
+      ],
+      "reject_patterns": [
+        "WebViewProcessID=\\d+",
+        "^(button|background|footer-button|play-button|thumbnail-corner-overlay|waves|items)$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 50.9,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "button",
+        "link",
+        "switch"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "WebAppWindow-",
+      "match": "prefix",
+      "tier": "high",
+      "role": "window",
+      "purpose": "web app main window",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "BrowserView?",
+      "match": "prefix",
+      "tier": "session",
+      "role": "group",
+      "purpose": "web content host (id carries a process id)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "BackForwardSegmentedControl",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "back/forward control group",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "BackButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "back button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "ForwardButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "forward button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "WebAppShareButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "share button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "input",
+      "match": "exact",
+      "tier": "high",
+      "role": "combobox",
+      "purpose": "search field (TypeText)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "volume-slider",
+      "match": "exact",
+      "tier": "high",
+      "role": "slider",
+      "purpose": "volume slider",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "progress-bar",
+      "match": "exact",
+      "tier": "high",
+      "role": "progressbar",
+      "purpose": "playback seek bar",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "player-bar-background",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "player bar container",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "content",
+      "match": "exact",
+      "tier": "high",
+      "role": "main",
+      "purpose": "main content region",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "header",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "page header",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "history-link",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "history navigation entry",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "alert-banner",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "alert banner region",
+      "seen_in_captures": 2
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": true,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "typetext_present",
+    "offscreen_recovery": "scroll_to",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "link",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 155,
+        "verb": "Click"
+      },
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 73,
+        "verb": "Click",
+        "note": "71/73 have Click; 1/3 disabled nodes keep Click"
+      },
+      {
+        "role": "switch",
+        "actions": [
+          "Click",
+          "Toggle",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 43,
+        "verb": "Toggle"
+      },
+      {
+        "role": "radiobutton",
+        "actions": [
+          "Click",
+          "Toggle",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 11,
+        "verb": "Toggle",
+        "note": "filter chips"
+      },
+      {
+        "role": "combobox",
+        "actions": [
+          "Click",
+          "ScrollTo",
+          "SetValue",
+          "Select",
+          "SetFocus",
+          "TypeText",
+          "Expand",
+          "Collapse"
+        ],
+        "count": 1,
+        "verb": "TypeText",
+        "note": "search; name is placeholder"
+      },
+      {
+        "role": "slider",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "SetValue",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "progressbar",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo"
+        ],
+        "count": 1,
+        "verb": "Click",
+        "note": "seek bar, value = position"
+      },
+      {
+        "role": "scrollbar",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Scroll"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role==statictext",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "heading",
+        "match": "role==heading",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-6"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role in (switch, radiobutton)",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10",
+          "LAW-ACT-2"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==combobox and native_id=='input'",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1"
+        ]
+      },
+      {
+        "target": "placeholder",
+        "match": "role==combobox and native_id=='input'",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-7"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "ax_root",
+    "ws_matches_ax_root": false,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 0,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "depth_capped_husk",
+      "detect": "webarea present and any children_count > len(children), or max depth == --max-depth",
+      "workaround": "recapture same window at --max-depth 40, no activation",
+      "severity": "high",
+      "observed": "default 437 nodes, 177 frontier nodes at depth 10; forced 975 nodes, depth 12, 0 frontier; 415/437 paths match",
+      "laws": [
+        "LAW-STR-6",
+        "LAW-LIFE-1",
+        "LAW-LIFE-2"
+      ]
+    },
+    {
+      "kind": "thumbnail_proxy_window",
+      "detect": "only visible WS entry is 125x145 while AX root is 1280x803",
+      "workaround": "pick by title, bounds from AX root",
+      "severity": "high",
+      "observed": "10 WS entries: 9 invisible ghosts + 1 visible proxy",
+      "laws": [
+        "LAW-WIN-4",
+        "LAW-WIN-5"
+      ]
+    },
+    {
+      "kind": "non_unique_role_name",
+      "detect": "(role,name) unique < 70%",
+      "workaround": "index + bounds check; repeated DOM ids are not anchors",
+      "severity": "high",
+      "observed": "50.9% of 281 named interactives unique in forced; 100% with bounds",
+      "laws": [
+        "LAW-ID-6",
+        "LAW-ID-7"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "check disabled state",
+      "severity": "low",
+      "observed": "1 of 3 disabled nodes keeps Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "first snapshot at depth 10",
+      "tested": true
+    },
+    {
+      "channel": "ax_deep",
+      "when": "frontier nodes present or max depth == 10",
+      "tested": true
+    },
+    {
+      "channel": "keyboard",
+      "when": "unnamed player buttons or AX action fails",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "artwork or visual state not in tree",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:59:30+05:30",
+      "2026-08-30T21:16:04+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "activated",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "yt_music/meta.json",
+      "yt_music/windows.json",
+      "yt_music/skeleton.json",
+      "yt_music/full.json",
+      "yt_music/forced.json",
+      "yt_music/surfaces.json",
+      "yt_music/analysis.md"
+    ],
+    "verified": false,
+    "codex_confidence": "high",
+    "excluded_sources": [
+      {
+        "path": "music/forced.json",
+        "reason": "mislabeled duplicate of yt_music/forced.json (data.app == 'YT Music', same window id)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+# lsfg bench suite: safe or reversible tasks. `verify` checks run AFTER the task, independently.
+- id: safari_youtube
+  task: open youtube on safari
+  verify: [{k: url, app: Safari, pattern: "youtube\\.com"}]
+
+- id: search_lofi
+  task: search lofi on youtube in safari
+  verify: [{k: url, app: Safari, pattern: "youtube\\.com/results.*lofi"}]
+
+- id: open_textedit
+  task: open textedit
+  verify: [{k: frontmost, app: TextEdit}]
+
+- id: finder_downloads
+  task: open the Downloads folder in Finder
+  needs: planner
+  verify: [{k: title, app: Finder, pattern: "Downloads"}]
+
+- id: textedit_hello
+  task: make a new TextEdit document and type hello from lsfg
+  needs: planner
+  verify: [{k: exists, app: TextEdit, target: 'textfield~"hello from lsfg"'}]
+
+- id: safari_new_tab_wiki
+  task: open a new tab in safari and go to wikipedia.org
+  needs: planner
+  verify: [{k: url, app: Safari, pattern: "wikipedia\\.org"}]

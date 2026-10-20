@@ -1,0 +1,19 @@
+{
+  "screen_id": "mac_0029",
+  "source_path": "/Users/harshit/Desktop/YC/screen_understanding/dataset/pilot_v001/screens/mac_0029/source.png",
+  "sha256": "ad46ddd853e9447b88f6e5c771f908960ab4424184134f667a11c9d461dde992",
+  "width": 1870,
+  "height": 1196,
+  "scale_factor": 2.0,
+  "stratum": "communication_and_media",
+  "app_family": "calendar",
+  "session_group_id": "sess_mac_0029",
+  "appearance": "dark",
+  "source_provenance": "Real macOS native screencapture of calendar",
+  "local_screening_status": "screened_safe_no_pii",
+  "pair_id": null,
+  "frame_order": null,
+  "eligibility": "eligible",
+  "exclusion_reason": null,
+  "timestamp": 1792310242.104314
+}

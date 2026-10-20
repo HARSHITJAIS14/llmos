@@ -1,0 +1,260 @@
+{
+  "summary": {
+    "gemini-3.1-flash-lite": {
+      "image": {
+        "requests": 6,
+        "choice_correct": 35,
+        "choice_total": 36,
+        "point_hits": 9,
+        "ground_total": 12,
+        "mean_iou": 0.43010478251040923,
+        "api_median_seconds": 7.099299146502744,
+        "prompt_tokens": [
+          1618,
+          1621,
+          1632,
+          1630,
+          1638,
+          1668
+        ],
+        "raw_coordinate_format_violations": 12,
+        "malformed_answers": 1
+      },
+      "boxes": {
+        "requests": 6,
+        "choice_correct": 34,
+        "choice_total": 36,
+        "point_hits": 9,
+        "ground_total": 12,
+        "mean_iou": 0.5970245139360963,
+        "api_median_seconds": 14.856974770489614,
+        "prompt_tokens": [
+          4039,
+          2538,
+          2743,
+          5257,
+          3595,
+          2540
+        ],
+        "raw_coordinate_format_violations": 0,
+        "malformed_answers": 0
+      },
+      "labels": {
+        "requests": 6,
+        "choice_correct": 34,
+        "choice_total": 36,
+        "point_hits": 10,
+        "ground_total": 12,
+        "mean_iou": 0.6719257673942668,
+        "api_median_seconds": 5.5731808959681075,
+        "prompt_tokens": [
+          2612,
+          3756,
+          2828,
+          5562,
+          2615,
+          4224
+        ],
+        "raw_coordinate_format_violations": 0,
+        "malformed_answers": 0
+      }
+    },
+    "gemini-3.5-flash-lite": {
+      "image": {
+        "requests": 6,
+        "choice_correct": 35,
+        "choice_total": 36,
+        "point_hits": 3,
+        "ground_total": 12,
+        "mean_iou": 0.17807770576273693,
+        "api_median_seconds": 4.95593214550172,
+        "prompt_tokens": [
+          1630,
+          1638,
+          1668,
+          1621,
+          1632,
+          1618
+        ],
+        "raw_coordinate_format_violations": 12,
+        "malformed_answers": 1
+      },
+      "boxes": {
+        "requests": 6,
+        "choice_correct": 33,
+        "choice_total": 36,
+        "point_hits": 0,
+        "ground_total": 12,
+        "mean_iou": 0.011133529369827215,
+        "api_median_seconds": 5.266042208502768,
+        "prompt_tokens": [
+          5257,
+          3595,
+          2540,
+          2538,
+          2743,
+          4039
+        ],
+        "raw_coordinate_format_violations": 3,
+        "malformed_answers": 1
+      },
+      "labels": {
+        "requests": 6,
+        "choice_correct": 33,
+        "choice_total": 36,
+        "point_hits": 5,
+        "ground_total": 12,
+        "mean_iou": 0.3506615077890909,
+        "api_median_seconds": 7.084915124985855,
+        "prompt_tokens": [
+          4224,
+          3756,
+          2612,
+          2615,
+          5562,
+          2828
+        ],
+        "raw_coordinate_format_violations": 1,
+        "malformed_answers": 0
+      }
+    },
+    "jev-1.14.0": {
+      "image": {
+        "requests": 6,
+        "choice_correct": 35,
+        "choice_total": 36,
+        "point_hits": 10,
+        "ground_total": 12,
+        "mean_iou": 0.405871091154004,
+        "api_median_seconds": 2.379006353992736,
+        "prompt_tokens": [
+          6655,
+          5102,
+          5776,
+          5657,
+          3946,
+          6643
+        ],
+        "raw_coordinate_format_violations": 0,
+        "malformed_answers": 0
+      },
+      "boxes": {
+        "requests": 6,
+        "choice_correct": 35,
+        "choice_total": 36,
+        "point_hits": 10,
+        "ground_total": 12,
+        "mean_iou": 0.48450204120332957,
+        "api_median_seconds": 2.4249451874929946,
+        "prompt_tokens": [
+          8976,
+          9413,
+          6804,
+          6744,
+          5255,
+          9516
+        ],
+        "raw_coordinate_format_violations": 0,
+        "malformed_answers": 0
+      },
+      "labels": {
+        "requests": 6,
+        "choice_correct": 35,
+        "choice_total": 36,
+        "point_hits": 10,
+        "ground_total": 12,
+        "mean_iou": 0.5112342397798869,
+        "api_median_seconds": 2.1727526879985817,
+        "prompt_tokens": [
+          9959,
+          5457,
+          10104,
+          6969,
+          6908,
+          9342
+        ],
+        "raw_coordinate_format_violations": 0,
+        "malformed_answers": 0
+      }
+    }
+  },
+  "paired": {
+    "gemini-3.1-flash-lite": {
+      "boxes_vs_image": {
+        "choice_total": 36,
+        "choice_unchanged": 35,
+        "choice_hurt": 1,
+        "box_total": 12,
+        "box_hurt": 2,
+        "box_helped": 2,
+        "box_unchanged": 8
+      },
+      "labels_vs_boxes": {
+        "choice_total": 36,
+        "choice_unchanged": 34,
+        "choice_helped": 1,
+        "box_total": 12,
+        "box_unchanged": 9,
+        "choice_hurt": 1,
+        "box_helped": 2,
+        "box_hurt": 1
+      },
+      "labels_vs_image": {
+        "choice_total": 36,
+        "choice_unchanged": 35,
+        "box_total": 12,
+        "box_hurt": 2,
+        "box_helped": 3,
+        "box_unchanged": 7,
+        "choice_hurt": 1
+      }
+    },
+    "gemini-3.5-flash-lite": {
+      "boxes_vs_image": {
+        "choice_total": 36,
+        "choice_unchanged": 34,
+        "box_total": 12,
+        "box_unchanged": 9,
+        "choice_hurt": 2,
+        "box_hurt": 3
+      },
+      "labels_vs_boxes": {
+        "choice_total": 36,
+        "choice_unchanged": 36,
+        "box_total": 12,
+        "box_unchanged": 7,
+        "box_helped": 5
+      },
+      "labels_vs_image": {
+        "choice_total": 36,
+        "choice_unchanged": 34,
+        "box_total": 12,
+        "box_unchanged": 8,
+        "box_helped": 3,
+        "choice_hurt": 2,
+        "box_hurt": 1
+      }
+    },
+    "jev-1.14.0": {
+      "boxes_vs_image": {
+        "choice_total": 36,
+        "choice_unchanged": 36,
+        "box_total": 12,
+        "box_unchanged": 12
+      },
+      "labels_vs_boxes": {
+        "choice_total": 36,
+        "choice_unchanged": 36,
+        "box_total": 12,
+        "box_unchanged": 12
+      },
+      "labels_vs_image": {
+        "choice_total": 36,
+        "choice_unchanged": 36,
+        "box_total": 12,
+        "box_unchanged": 12
+      }
+    }
+  },
+  "limits": "Six selected screenshots, one call per condition; 36 choices and 12 grounding targets per complete provider/condition. Descriptive pilot, not statistically conclusive. Ground point-hit uses predicted box center. Gemini 0\u20131000 coordinate outputs are also scored after division by 1000, with x/y order unchanged and raw format violations separately counted; strict_scores preserve original 0\u20131 scoring. Timings exclude student inference and detector. No teacher labels or teacher-added geometry supplied."
+}

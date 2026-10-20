@@ -1,0 +1,63 @@
+{
+  "app": "Notes",
+  "was_running": false,
+  "captures": {
+    "windows": 2,
+    "skeleton": {
+      "ok": true,
+      "bytes": 4304,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 10439,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 177,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26055,
+  "bundle_id": "com.apple.Notes",
+  "framework_signals": {
+    "exe": "/System/Applications/Notes.app/Contents/MacOS/Notes",
+    "bundle": "/System/Applications/Notes.app",
+    "frameworks": [],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Notes",
+    "bounds": {
+      "height": 660.0,
+      "width": 1000.0,
+      "x": 780.0,
+      "y": 318.0
+    },
+    "id": "w-28183",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26055,
+    "process_instance": "macos-proc-v1:1788103734:609425",
+    "title": "My writings",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 49,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 49,
+    "truncated_after": 0,
+    "bytes": 18585
+  }
+}

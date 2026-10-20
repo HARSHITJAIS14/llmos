@@ -1,0 +1,305 @@
+{
+  "total_seconds": 1.1513778750086203,
+  "headers_seconds": 1.0815016250126064,
+  "first_visible_seconds": 1.09147354203742,
+  "content": "```json\n{\"labels\":[{\"id\":38,\"label\":\"Navigate forward\"},{\"id\":39,\"label\":\"Manage tabs\"},{\"id\":41,\"label\":\"Search\"},{\"id\":47,\"label\":\"View notifications\"},{\"id\":48,\"label\":\"User profile\"},{\"id\":53,\"label\":\"Window controls\"},{\"id\":54,\"label\":\"New tab\"},{\"id\":58,\"label\":\"Main menu\"}]}\n```",
+  "finish_reason": "stop",
+  "provider": "Cerebras",
+  "usage": {
+    "prompt_tokens": 656,
+    "completion_tokens": 89,
+    "total_tokens": 745,
+    "cost": 0.00078205,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00078205,
+      "upstream_inference_prompt_cost": 0.00064944,
+      "upstream_inference_completions_cost": 0.00013261
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "received_done": true,
+  "chunks": [
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "```",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "json\n{\"labels\":[{\"id\":38,\"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "label\":\"Navigate forward\"},{\"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "id\":39,\"label\":\"Manage tabs",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\"},{\"id\":41,\"label\":\"Search\"},{\"",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "id\":47,\"label\":\"View notifications",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\"},{\"id\":48,\"label\":\"User profile",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\"},{\"id\":53,\"label\":\"Window controls",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\"},{\"id\":54,\"label\":\"New",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": " tab\"},{\"id\":58,\"label\":\"Main menu",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "\"}]}\n```",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "",
+            "role": "assistant"
+          },
+          "finish_reason": "stop",
+          "native_finish_reason": "stop"
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294697-lsA2OwT99u3HcFlPI9Tv",
+      "object": "chat.completion.chunk",
+      "created": 1792294697,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "Cerebras",
+      "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "",
+            "role": "assistant"
+          },
+          "finish_reason": "stop",
+          "native_finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 89,
+        "total_tokens": 745,
+        "cost": 0.00078205,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00078205,
+          "upstream_inference_prompt_cost": 0.00064944,
+          "upstream_inference_completions_cost": 0.00013261
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

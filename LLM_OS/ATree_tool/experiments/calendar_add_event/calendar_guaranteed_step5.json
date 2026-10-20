@@ -1,0 +1,192 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Calendar",
+    "complete": true,
+    "ref_count": 8,
+    "snapshot_id": "s3qo9f89nogapi",
+    "tree": {
+      "bounds": {
+        "height": 262.0,
+        "width": 326.0,
+        "x": 1579.0,
+        "y": 348.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "Click",
+            "RightClick",
+            "SetValue",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 22.0,
+            "width": 212.0,
+            "x": 1611.0,
+            "y": 382.0
+          },
+          "name": "Event Title",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "title-field"
+          },
+          "ref_id": "@s3qo9f89nogapi:e1",
+          "role": "textfield",
+          "value": "New Event"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus",
+            "Expand",
+            "Collapse"
+          ],
+          "bounds": {
+            "height": 22.0,
+            "width": 46.0,
+            "x": 1825.0,
+            "y": 380.5
+          },
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "calendar-button"
+          },
+          "ref_id": "@s3qo9f89nogapi:e2",
+          "role": "combobox",
+          "states": [
+            "readonly"
+          ],
+          "value": "justharshitjaiswal14@gmail.com"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick",
+            "SetValue",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 18.0,
+            "width": 219.0,
+            "x": 1611.0,
+            "y": 420.0
+          },
+          "name": "Add Location or Video Call",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "location-field"
+          },
+          "ref_id": "@s3qo9f89nogapi:e3",
+          "role": "textfield"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus",
+            "Expand",
+            "Collapse"
+          ],
+          "bounds": {
+            "height": 22.0,
+            "width": 42.0,
+            "x": 1828.0,
+            "y": 418.0
+          },
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "virtualconference-button"
+          },
+          "ref_id": "@s3qo9f89nogapi:e4",
+          "role": "combobox",
+          "states": [
+            "readonly"
+          ],
+          "value": "None"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 18.0,
+            "width": 262.0,
+            "x": 1611.0,
+            "y": 468.0
+          },
+          "name": "9 Aug 2026  2:00PM \u2013 3:00PM",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "date-time-button"
+          },
+          "ref_id": "@s3qo9f89nogapi:e5",
+          "role": "button",
+          "value": "9 Aug 2026  2:00PM \u2013 3:00PM"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 22.0,
+            "width": 280.0,
+            "x": 1602.0,
+            "y": 512.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "bounds": {
+                "height": 18.0,
+                "width": 76.5,
+                "x": 1611.0,
+                "y": 514.0
+              },
+              "name": "Add Invitees",
+              "ref_id": "@s3qo9f89nogapi:e7",
+              "role": "statictext"
+            }
+          ],
+          "name": "Edit Attendees",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "invitees-button"
+          },
+          "ref_id": "@s3qo9f89nogapi:e6",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 18.0,
+            "width": 262.0,
+            "x": 1611.0,
+            "y": 560.0
+          },
+          "name": "Add Notes or URL",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "notes-url-attachments-button"
+          },
+          "ref_id": "@s3qo9f89nogapi:e8",
+          "role": "button",
+          "value": "Add Notes or URL"
+        }
+      ],
+      "role": "popover",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-79843",
+      "title": "Calendar"
+    }
+  }
+}

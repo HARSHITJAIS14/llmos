@@ -1,0 +1,318 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Notes",
+    "complete": true,
+    "ref_count": 25,
+    "snapshot_id": "s35mkpsi3321we",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "children_count": 7,
+                  "name": "Folders",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:50"
+                  },
+                  "ref_id": "@s35mkpsi3321we:e2",
+                  "role": "outline"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:46"
+              },
+              "ref_id": "@s35mkpsi3321we:e1",
+              "role": "scrollarea"
+            },
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "children_count": 3,
+                  "name": "My Notes as List",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "ICMNoteListTableView_asList"
+                  },
+                  "ref_id": "@s35mkpsi3321we:e4",
+                  "role": "table"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:120"
+              },
+              "ref_id": "@s35mkpsi3321we:e3",
+              "role": "scrollarea"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "name": "24 August 2025 at 3:30\u202fAM",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:7"
+              },
+              "ref_id": "@s35mkpsi3321we:e5",
+              "role": "statictext",
+              "value": "24 August 2025 at 3:30\u202fAM"
+            },
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus",
+                    "TypeText"
+                  ],
+                  "children_count": 1,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "Note Body Text View"
+                  },
+                  "ref_id": "@s35mkpsi3321we:e7",
+                  "role": "textfield",
+                  "value": "I think I am going to try story writing \u2026\u2026\u2028\u2028\u2028\u2028What can be the story\u2026..\u2028\u2028\u2028What will be the theme\u2026\u2026\u2028\u2028\u2028What are the motivations\u2026..\u2028\u2028\u2028"
+                },
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "ref_id": "@s35mkpsi3321we:e8",
+                  "role": "scrollbar",
+                  "states": [
+                    "disabled"
+                  ],
+                  "value": "0"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "Note Body Scroll View"
+              },
+              "ref_id": "@s35mkpsi3321we:e6",
+              "role": "scrollarea"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Add Folder",
+              "ref_id": "@s35mkpsi3321we:e10",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Folders",
+              "ref_id": "@s35mkpsi3321we:e11",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "name": "View Options",
+              "ref_id": "@s35mkpsi3321we:e12",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "New Note",
+              "ref_id": "@s35mkpsi3321we:e13",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "name": "Format",
+              "ref_id": "@s35mkpsi3321we:e14",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "name": "Checklist",
+              "ref_id": "@s35mkpsi3321we:e15",
+              "role": "button",
+              "states": [
+                "disabled"
+              ],
+              "value": "Off"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "name": "Table",
+              "ref_id": "@s35mkpsi3321we:e16",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "name": "Media",
+              "ref_id": "@s35mkpsi3321we:e17",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Writing Tools",
+              "ref_id": "@s35mkpsi3321we:e18",
+              "role": "button"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Share",
+                  "ref_id": "@s35mkpsi3321we:e19",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus",
+                    "Expand",
+                    "Collapse"
+                  ],
+                  "name": "More",
+                  "ref_id": "@s35mkpsi3321we:e20",
+                  "role": "menubutton"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "children_count": 1,
+                  "ref_id": "@s35mkpsi3321we:e21",
+                  "role": "textfield",
+                  "states": [
+                    "disabled",
+                    "readonly"
+                  ]
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s35mkpsi3321we:e9",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s35mkpsi3321we:e22",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s35mkpsi3321we:e23",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s35mkpsi3321we:e24",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "name": "My writings",
+          "ref_id": "@s35mkpsi3321we:e25",
+          "role": "statictext",
+          "value": "My writings"
+        }
+      ],
+      "name": "My writings",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:6"
+      },
+      "role": "dialog",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28183",
+      "title": "My writings"
+    }
+  }
+}

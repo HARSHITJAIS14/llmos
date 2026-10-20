@@ -1,0 +1,346 @@
+{
+  "schema_version": "1.0",
+  "app_key": "claude",
+  "identity": {
+    "name": "Claude",
+    "bundle_id": "com.anthropic.claudefordesktop",
+    "bundle_id_match": "exact",
+    "framework": "electron",
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "Electron Framework.framework + Squirrel + 4 Helper apps"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 7 nodes, root_kids 4 (Chromium shell)"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "2 webareas; first at depth 7 via window > 6 unnamed groups"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.632 default, 0.556 forced (> 0.45 Electron band)"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "forced max depth 14; default stops at cap 10"
+      }
+    ]
+  },
+  "category": "ai_assistant",
+  "fidelity": {
+    "default": {
+      "nodes": 19,
+      "max_depth": 10,
+      "max_depth_requested": 10,
+      "frontier_nodes": 2,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 3,
+      "ref_count": 10,
+      "has_webarea": true,
+      "offscreen_nodes": 2,
+      "skeleton_nodes": 7,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 36,
+      "max_depth": 14,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 9,
+      "ref_count": 27,
+      "has_webarea": true,
+      "offscreen_nodes": 2,
+      "skeleton_nodes": 7,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.89,
+    "default_score": 0.528,
+    "forced_score": 1.0,
+    "best_capture": "forced",
+    "ladder_verdict": "recapture_deeper"
+  },
+  "readiness": {
+    "default_rung": "R4_depth_frontier",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "depth_frontier"
+      ],
+      "chromium_shell_skeleton": true,
+      "cause": "depth_cap"
+    },
+    "capture_plan": {
+      "max_depth": 40,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "focused 600x600 WS window equals AX root exactly; activation did not change the depth-10 husk"
+    },
+    "handshake": {
+      "status": "unproven",
+      "note": "19/19 default paths reappear in forced with equal bounds; new nodes all under 2 depth-10 frontiers"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "webarea",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 0.0,
+      "kinds": [
+        "ax_dom_identifier"
+      ],
+      "reject_patterns": [
+        "^(:r[0-9a-z]+:|_r_[0-9a-z]+_)$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 100.0,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": []
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_dom_identifier",
+      "value": "root",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "web app root container (one per webarea)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "portal-root",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "overlay/portal container (zero height when empty)",
+      "seen_in_captures": 2
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": true,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "typetext_present",
+    "offscreen_recovery": "scroll_to",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 4,
+        "verb": "Click"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role==statictext under webarea; skip whitespace-only value nodes",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==textfield and 'TypeText' in actions (none on captured surface)",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "checked_state",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 4,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "depth_capped_husk",
+      "detect": "has_webarea and any(children_count > len(children)) or max_depth == 10",
+      "workaround": "recapture same window at --max-depth 40, no activation",
+      "severity": "high",
+      "observed": "default 19 nodes, depth 10, 2 frontiers, 0 named in webarea content; forced 36 nodes, depth 14, 0 frontiers (1.89x)",
+      "laws": [
+        "LAW-STR-6",
+        "LAW-LIFE-1",
+        "LAW-LIFE-2",
+        "LAW-LIFE-3"
+      ]
+    },
+    {
+      "kind": "volatile_dom_ids",
+      "detect": "native_id matches ^_r_[0-9a-z]+_$",
+      "workaround": "never persist React useId values; anchor on root/portal-root or role+name",
+      "severity": "low",
+      "observed": "1 of 4 dom ids is a React useId (_r_0_); 'root' appears twice (one per webarea)",
+      "laws": [
+        "LAW-ID-3"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick window each session; never cache window id",
+      "severity": "low",
+      "observed": "window id changed between default and forced; 19/19 paths and bounds identical",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first: depth-10 snapshot of best window by --window-id",
+      "tested": true
+    },
+    {
+      "channel": "ax_deep",
+      "when": "frontier nodes or max_depth == 10 in default capture",
+      "precondition": "--max-depth 40",
+      "tested": true
+    },
+    {
+      "channel": "cdp",
+      "when": "content still missing after depth 40",
+      "precondition": "app launched with --remote-debugging-port",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "Tab/Enter traversal in focused webarea",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "verify screens not described by the tree",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T21:04:09+05:30",
+      "2026-08-30T21:04:09+05:30",
+      "2026-08-30T21:14:58+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "activated",
+      "forced"
+    ],
+    "surface": "sign_in",
+    "sources": [
+      "claude/meta.json",
+      "claude/windows.json",
+      "claude/skeleton.json",
+      "claude/full.json",
+      "claude/forced.json",
+      "claude/analysis.md"
+    ],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

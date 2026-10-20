@@ -1,0 +1,63 @@
+{
+  "app": "Music",
+  "was_running": false,
+  "captures": {
+    "windows": 1,
+    "skeleton": {
+      "ok": true,
+      "bytes": 1259,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 9439,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 157,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26061,
+  "bundle_id": "com.apple.Music",
+  "framework_signals": {
+    "exe": "/System/Applications/Music.app/Contents/MacOS/Music",
+    "bundle": "/System/Applications/Music.app",
+    "frameworks": [],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Music",
+    "bounds": {
+      "height": 580.0,
+      "width": 980.0,
+      "x": 790.0,
+      "y": 238.0
+    },
+    "id": "w-28190",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26061,
+    "process_instance": "macos-proc-v1:1788103734:746908",
+    "title": "Music",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 975,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 975,
+    "truncated_after": 0,
+    "bytes": 708944
+  }
+}

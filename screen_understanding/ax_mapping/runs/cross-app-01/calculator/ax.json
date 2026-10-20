@@ -1,0 +1,615 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Calculator",
+    "complete": true,
+    "ref_count": 27,
+    "snapshot_id": "s10ye2ulmqsjlu",
+    "tree": {
+      "bounds": {
+        "height": 408.0,
+        "width": 230.0,
+        "x": 387.0,
+        "y": 267.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 408.0,
+            "width": 230.0,
+            "x": 387.0,
+            "y": 267.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 408.0,
+                "width": 230.0,
+                "x": 387.0,
+                "y": 267.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 408.0,
+                    "width": 230.0,
+                    "x": 387.0,
+                    "y": 267.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 354.0,
+                        "width": 230.0,
+                        "x": 387.0,
+                        "y": 320.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Scroll"
+                          ],
+                          "bounds": {
+                            "height": 42.0,
+                            "width": 210.0,
+                            "x": 397.0,
+                            "y": 353.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 36.0,
+                                "width": 19.0,
+                                "x": 588.0,
+                                "y": 356.0
+                              },
+                              "name": "\u200e0",
+                              "role": "statictext",
+                              "value": "\u200e0"
+                            }
+                          ],
+                          "name": "Edit field",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "StandardInputView"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e1",
+                          "role": "scrollarea"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 397.0,
+                            "y": 400.0
+                          },
+                          "name": "Delete",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Delete"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e2",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 451.0,
+                            "y": 400.0
+                          },
+                          "name": "All Clear",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "AllClear"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e3",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 505.0,
+                            "y": 400.0
+                          },
+                          "name": "Per cent",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Percent"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e4",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 559.0,
+                            "y": 400.0
+                          },
+                          "name": "Divide",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Divide"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e5",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 397.0,
+                            "y": 454.0
+                          },
+                          "name": "7",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Seven"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e6",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 451.0,
+                            "y": 454.0
+                          },
+                          "name": "8",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Eight"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e7",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 505.0,
+                            "y": 454.0
+                          },
+                          "name": "9",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Nine"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e8",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 559.0,
+                            "y": 454.0
+                          },
+                          "name": "Multiply",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Multiply"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e9",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 397.0,
+                            "y": 508.0
+                          },
+                          "name": "4",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Four"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e10",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 451.0,
+                            "y": 508.0
+                          },
+                          "name": "5",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Five"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e11",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 505.0,
+                            "y": 508.0
+                          },
+                          "name": "6",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Six"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e12",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 559.0,
+                            "y": 508.0
+                          },
+                          "name": "Subtract",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Subtract"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e13",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 397.0,
+                            "y": 562.0
+                          },
+                          "name": "1",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "One"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e14",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 451.0,
+                            "y": 562.0
+                          },
+                          "name": "2",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Two"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e15",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 505.0,
+                            "y": 562.0
+                          },
+                          "name": "3",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Three"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e16",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 559.0,
+                            "y": 562.0
+                          },
+                          "name": "Add",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Add"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e17",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 397.0,
+                            "y": 616.0
+                          },
+                          "name": "Change Sign",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Negate"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e18",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 451.0,
+                            "y": 616.0
+                          },
+                          "name": "0",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Zero"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e19",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 505.0,
+                            "y": 616.0
+                          },
+                          "name": "Point",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Decimal"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e20",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 48.0,
+                            "width": 48.0,
+                            "x": 559.0,
+                            "y": 616.0
+                          },
+                          "name": "Equals",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Equals"
+                          },
+                          "ref_id": "@s10ye2ulmqsjlu:e21",
+                          "role": "button"
+                        }
+                      ],
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "CalculatorKeypadView"
+                      },
+                      "role": "group",
+                      "states": [
+                        "focused"
+                      ]
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "main, SidebarNavigationSplitView"
+              },
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 230.0,
+            "x": 387.0,
+            "y": 267.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "SetValue",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 48.0,
+                "x": 487.0,
+                "y": 267.0
+              },
+              "ref_id": "@s10ye2ulmqsjlu:e23",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "SetValue"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 44.0,
+                "x": 569.0,
+                "y": 267.0
+              },
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "Mode: basic; unitConversion: false"
+              },
+              "ref_id": "@s10ye2ulmqsjlu:e24",
+              "role": "button"
+            }
+          ],
+          "ref_id": "@s10ye2ulmqsjlu:e22",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 405.0,
+            "y": 285.0
+          },
+          "ref_id": "@s10ye2ulmqsjlu:e25",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 451.0,
+            "y": 285.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 14.0,
+                "width": 14.0,
+                "x": 452.0,
+                "y": 286.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 14.0,
+                    "width": 14.0,
+                    "x": 452.0,
+                    "y": 286.0
+                  },
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s10ye2ulmqsjlu:e26",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 428.0,
+            "y": 285.0
+          },
+          "ref_id": "@s10ye2ulmqsjlu:e27",
+          "role": "button"
+        }
+      ],
+      "name": "Calculator",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "main"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-47190",
+      "title": "Calculator"
+    }
+  }
+}

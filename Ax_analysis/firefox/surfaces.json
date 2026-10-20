@@ -1,0 +1,70 @@
+{
+  "version": "2.3",
+  "ok": false,
+  "command": "list-surfaces",
+  "error": {
+    "code": "AMBIGUOUS_TARGET",
+    "message": "Multiple application instances matched 'Firefox'",
+    "suggestion": "Re-run a snapshot to refresh refs, then retry with a more specific ref",
+    "details": {
+      "candidate_count": 11,
+      "candidate_summaries_truncated": true,
+      "candidates": [
+        {
+          "name": "Firefox",
+          "pid": 25827,
+          "process_instance": "macos-proc-v1:1788103718:965662"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25877,
+          "process_instance": "macos-proc-v1:1788103722:152631"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25892,
+          "process_instance": "macos-proc-v1:1788103722:599032"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25894,
+          "process_instance": "macos-proc-v1:1788103722:644400"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25900,
+          "process_instance": "macos-proc-v1:1788103722:917104"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25901,
+          "process_instance": "macos-proc-v1:1788103722:938596"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25904,
+          "process_instance": "macos-proc-v1:1788103723:13278"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25917,
+          "process_instance": "macos-proc-v1:1788103723:657509"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25922,
+          "process_instance": "macos-proc-v1:1788103723:923076"
+        },
+        {
+          "name": "Firefox",
+          "pid": 25923,
+          "process_instance": "macos-proc-v1:1788103724:864"
+        }
+      ]
+    },
+    "disposition": {
+      "delivery": "not_delivered",
+      "retry": "safe"
+    }
+  }
+}

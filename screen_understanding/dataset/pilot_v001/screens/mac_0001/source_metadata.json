@@ -1,0 +1,10 @@
+{
+  "screen_id": "mac_0001",
+  "source_path": "/Users/harshit/Desktop/YC/screen_understanding/dataset/pilot_v001/screens/mac_0001/source.png",
+  "sha256": "7ad9dc2a1754fd1bd6755b0371bfb0712a4aba0218bed0c50d414e363ac33a38",
+  "width": 2398,
+  "height": 1830,
+  "timestamp": 1792302628.995264,
+  "stratum": "browser_interface_and_web_content",
+  "app_family": "safari"
+}

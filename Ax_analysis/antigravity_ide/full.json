@@ -1,0 +1,361 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Antigravity IDE",
+    "complete": true,
+    "ref_count": 15,
+    "snapshot_id": "s7ans9f3q2w8",
+    "tree": {
+      "bounds": {
+        "height": 1410.0,
+        "width": 2560.0,
+        "x": 18.0,
+        "y": 30.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 1410.0,
+            "width": 2560.0,
+            "x": 18.0,
+            "y": 30.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 1410.0,
+                "width": 2560.0,
+                "x": 18.0,
+                "y": 30.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 1410.0,
+                    "width": 2560.0,
+                    "x": 18.0,
+                    "y": 30.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 1410.0,
+                        "width": 2560.0,
+                        "x": 18.0,
+                        "y": 30.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 1410.0,
+                            "width": 2560.0,
+                            "x": 18.0,
+                            "y": 30.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 1410.0,
+                                "width": 2560.0,
+                                "x": 18.0,
+                                "y": 30.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 1410.0,
+                                    "width": 2560.0,
+                                    "x": 18.0,
+                                    "y": 30.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 1410.0,
+                                        "width": 2560.0,
+                                        "x": 18.0,
+                                        "y": 30.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 1410.0,
+                                            "width": 2560.0,
+                                            "x": 18.0,
+                                            "y": 30.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 1410.0,
+                                                "width": 2560.0,
+                                                "x": 18.0,
+                                                "y": 30.0
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@s7ans9f3q2w8:e4",
+                                              "role": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 1043.0,
+                                                "width": 1.0,
+                                                "x": 18.0,
+                                                "y": 72.0
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@s7ans9f3q2w8:e5",
+                                              "role": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 0.0,
+                                                "width": 1.0,
+                                                "x": 18.0,
+                                                "y": 1440.0
+                                              },
+                                              "children_count": 4,
+                                              "ref_id": "@s7ans9f3q2w8:e6",
+                                              "role": "group",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 0.0,
+                                                "width": 2560.0,
+                                                "x": 18.0,
+                                                "y": 1440.0
+                                              },
+                                              "ref_id": "@s7ans9f3q2w8:e7",
+                                              "role": "group",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 1323.0,
+                                                "width": 1186.0,
+                                                "x": 1392.0,
+                                                "y": 95.0
+                                              },
+                                              "children_count": 2,
+                                              "native_id": {
+                                                "kind": "ax_dom_identifier",
+                                                "value": "fc2ef056-4526-4a92-8fdb-7b1f19111a52"
+                                              },
+                                              "ref_id": "@s7ans9f3q2w8:e8",
+                                              "role": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 0.0,
+                                                "width": 2560.0,
+                                                "x": 18.0,
+                                                "y": 1440.0
+                                              },
+                                              "children_count": 1,
+                                              "ref_id": "@s7ans9f3q2w8:e9",
+                                              "role": "group",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 0.0,
+                                                "width": 2560.0,
+                                                "x": 18.0,
+                                                "y": 1440.0
+                                              },
+                                              "ref_id": "@s7ans9f3q2w8:e10",
+                                              "role": "group",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            }
+                                          ],
+                                          "ref_id": "@s7ans9f3q2w8:e3",
+                                          "role": "group"
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo",
+                                            "Select"
+                                          ],
+                                          "bounds": {
+                                            "height": 0.0,
+                                            "width": 1.0,
+                                            "x": 18.0,
+                                            "y": 1440.0
+                                          },
+                                          "name": "Typeahead menu",
+                                          "ref_id": "@s7ans9f3q2w8:e11",
+                                          "role": "list",
+                                          "states": [
+                                            "offscreen"
+                                          ]
+                                        },
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo",
+                                            "Select"
+                                          ],
+                                          "bounds": {
+                                            "height": 0.0,
+                                            "width": 1.0,
+                                            "x": 18.0,
+                                            "y": 1440.0
+                                          },
+                                          "name": "Typeahead menu",
+                                          "ref_id": "@s7ans9f3q2w8:e12",
+                                          "role": "list",
+                                          "states": [
+                                            "offscreen"
+                                          ]
+                                        }
+                                      ],
+                                      "ref_id": "@s7ans9f3q2w8:e2",
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "name": "YC \u2014 CLI tool integrations fo\u2026",
+                                  "ref_id": "@s7ans9f3q2w8:e1",
+                                  "role": "webarea"
+                                }
+                              ],
+                              "role": "group"
+                            }
+                          ],
+                          "role": "group"
+                        }
+                      ],
+                      "role": "group"
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "name": "YC \u2014 CLI tool integrations fo\u2026",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 27.0,
+            "y": 38.0
+          },
+          "ref_id": "@s7ans9f3q2w8:e13",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 73.0,
+            "y": 38.0
+          },
+          "ref_id": "@s7ans9f3q2w8:e14",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 50.0,
+            "y": 38.0
+          },
+          "ref_id": "@s7ans9f3q2w8:e15",
+          "role": "button"
+        }
+      ],
+      "name": "YC \u2014 CLI tool integrations fo\u2026",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-27238",
+      "title": "YC \u2014 CLI tool integrations fo\u2026"
+    }
+  }
+}

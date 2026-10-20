@@ -1,0 +1,16 @@
+{
+  "app_name": "Calculator",
+  "bounds": {
+    "height": 408.0,
+    "width": 230.0,
+    "x": 387.0,
+    "y": 267.0
+  },
+  "id": "w-47190",
+  "is_focused": false,
+  "minimized": false,
+  "pid": 72480,
+  "process_instance": "macos-proc-v1:1792426133:973654",
+  "title": "Calculator",
+  "visible": true
+}

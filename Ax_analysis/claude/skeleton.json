@@ -1,0 +1,67 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Claude",
+    "complete": true,
+    "ref_count": 3,
+    "snapshot_id": "s36ocicnyx9mik",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "name": "Claude",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s36ocicnyx9mik:e1",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s36ocicnyx9mik:e2",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s36ocicnyx9mik:e3",
+          "role": "button"
+        }
+      ],
+      "name": "Claude",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28298",
+      "title": "Claude"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "2.3",
+  "ok": false,
+  "command": "list-surfaces",
+  "error": {
+    "code": "APP_UNRESPONSIVE",
+    "message": "Accessibility surface read was incomplete for AXChildren",
+    "details": {
+      "attribute": "AXChildren",
+      "complete": false,
+      "count_changed": false,
+      "kind": "surface_array_incomplete",
+      "loaded_count": 0,
+      "total_count": 56
+    },
+    "disposition": {
+      "delivery": "unknown",
+      "retry": "unknown"
+    }
+  }
+}

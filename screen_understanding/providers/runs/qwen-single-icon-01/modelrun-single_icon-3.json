@@ -1,0 +1,112 @@
+{
+  "total_seconds": 0.6499484580126591,
+  "headers_seconds": 0.6295502909924835,
+  "first_visible_seconds": 0.6296796249807812,
+  "content": "Search",
+  "finish_reason": "stop",
+  "provider": "ModelRun",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 2,
+    "total_tokens": 102,
+    "cost": 2.5e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 2.5e-05,
+      "upstream_inference_prompt_cost": 2e-05,
+      "upstream_inference_completions_cost": 5e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "received_done": true,
+  "chunks": [
+    {
+      "id": "gen-1792294789-Jv5aE1Z7ojf3BsBmBtW6",
+      "object": "chat.completion.chunk",
+      "created": 1792294789,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "Search",
+            "role": "assistant"
+          },
+          "finish_reason": null,
+          "native_finish_reason": null
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294789-Jv5aE1Z7ojf3BsBmBtW6",
+      "object": "chat.completion.chunk",
+      "created": 1792294789,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "",
+            "role": "assistant"
+          },
+          "finish_reason": "stop",
+          "native_finish_reason": "stop"
+        }
+      ]
+    },
+    {
+      "id": "gen-1792294789-Jv5aE1Z7ojf3BsBmBtW6",
+      "object": "chat.completion.chunk",
+      "created": 1792294789,
+      "model": "qwen/qwen3.8-27b",
+      "provider": "ModelRun",
+      "service_tier": null,
+      "choices": [
+        {
+          "index": 0,
+          "delta": {
+            "content": "",
+            "role": "assistant"
+          },
+          "finish_reason": "stop",
+          "native_finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 100,
+        "completion_tokens": 2,
+        "total_tokens": 102,
+        "cost": 2.5e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 2.5e-05,
+          "upstream_inference_prompt_cost": 2e-05,
+          "upstream_inference_completions_cost": 5e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

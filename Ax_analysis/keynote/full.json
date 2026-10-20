@@ -1,0 +1,146 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Keynote",
+    "complete": true,
+    "ref_count": 7,
+    "snapshot_id": "s25k48zpnks6c",
+    "tree": {
+      "bounds": {
+        "height": 608.0,
+        "width": 910.0,
+        "x": 826.0,
+        "y": 431.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 562.0,
+            "width": 910.0,
+            "x": 826.0,
+            "y": 431.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Scroll"
+              ],
+              "bounds": {
+                "height": 534.0,
+                "width": 910.0,
+                "x": 826.0,
+                "y": 459.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 14.0,
+                    "width": 480.5,
+                    "x": 1041.0,
+                    "y": 754.0
+                  },
+                  "ref_id": "@s25k48zpnks6c:e2",
+                  "role": "link",
+                  "value": "*Apple Intelligence features require a supported device, language and region. Learn more\u2026"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 21.0,
+                    "width": 182.0,
+                    "x": 1190.0,
+                    "y": 791.0
+                  },
+                  "name": "Complete feature list",
+                  "ref_id": "@s25k48zpnks6c:e3",
+                  "role": "link"
+                }
+              ],
+              "ref_id": "@s25k48zpnks6c:e1",
+              "role": "scrollarea"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 27.0,
+            "width": 202.0,
+            "x": 1180.0,
+            "y": 1002.5
+          },
+          "name": "Continue",
+          "ref_id": "@s25k48zpnks6c:e4",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 14.0,
+            "width": 12.0,
+            "x": 834.0,
+            "y": 438.0
+          },
+          "ref_id": "@s25k48zpnks6c:e5",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 14.0,
+            "width": 12.0,
+            "x": 874.0,
+            "y": 438.0
+          },
+          "ref_id": "@s25k48zpnks6c:e6",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 14.0,
+            "width": 12.0,
+            "x": 854.0,
+            "y": 438.0
+          },
+          "ref_id": "@s25k48zpnks6c:e7",
+          "role": "button"
+        }
+      ],
+      "name": "What\u2019s New in Keynote",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:32"
+      },
+      "role": "window",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28256",
+      "title": "What\u2019s New in Keynote"
+    }
+  }
+}

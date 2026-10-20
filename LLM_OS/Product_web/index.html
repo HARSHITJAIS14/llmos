@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM OS — Execute anything.</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fade-in">
+        <div class="container nav-container">
+            <div class="logo">LLM OS</div>
+            <div class="nav-links">
+                <a href="#benefits">Architecture</a>
+                <a href="#specs">Specs</a>
+                <a href="#pipeline">Pipeline</a>
+                <a href="#" class="btn-primary">Learn More ↗</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero container">
+        <h1 class="slide-up">Execute anything.</h1>
+        <div class="hero-image-wrapper slide-up delay-1">
+            <div class="hero-animation-container desktop-view">
+                <!-- macOS Menu Bar -->
+                <div class="menu-bar">
+                    <div class="menu-left">
+                        <span class="apple-icon"></span>
+                        <span class="menu-item bold">Code</span>
+                        <span class="menu-item">File</span>
+                        <span class="menu-item">Edit</span>
+                    </div>
+                    <div class="menu-right">
+                        <span class="menu-item">100%</span>
+                        <span class="menu-item">Tue 9:41 AM</span>
+                        <div class="menu-mic-container">
+                            <span class="menu-mic">
+                                <svg class="apple-mic-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                    <line x1="12" y1="19" x2="12" y2="22"></line>
+                                </svg>
+                            </span>
+                            <div class="mic-ripple"></div>
+                            <!-- Transcription Pill drops down from here -->
+                            <div class="voice-dropdown">
+                                "Draft an email to John and block off 3 PM"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desktop Workspace -->
+                <div class="desktop-workspace">
+                    
+                    <!-- Floating Overlays (Step Explainers) -->
+                    <div class="overlay-badge badge-1">User stays focused on coding</div>
+                    <div class="overlay-badge badge-2">Voice command triggers background agent</div>
+                    <div class="overlay-badge badge-3">Zero workflow interruption</div>
+                    <div class="overlay-badge badge-4">Agent executes complex UI tasks instantly</div>
+
+                    <!-- Mock IDE (User's focused work) -->
+                    <div class="mock-ide floating-window">
+                        <div class="window-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <div class="title">app.py</div>
+                        </div>
+                        <div class="code-content">
+                            <pre><code><span class="keyword">def</span> <span class="function">train_model</span>(data):
+    model = NeuralNet()
+    <span class="keyword">for</span> epoch <span class="keyword">in</span> <span class="builtin">range</span>(100):
+        <span class="type-line type-line-1"><span class="type">loss</span> = model.train_step(data)</span>
+        <span class="type-line type-line-2"><span class="builtin">print</span>(<span class="string">f"Epoch {epoch}: {loss}"</span>)</span>
+        <span class="type-line type-line-3">optimizer.step()</span></code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Mail App (Agent Execution at fast speed) -->
+                    <div class="mail-app floating-window exec-window">
+                        <div class="window-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <div class="title">New Message</div>
+                        </div>
+                        <div class="mail-body">
+                            <div class="mail-row to-row">To: <span class="type-john">John Doe</span></div>
+                            <div class="mail-row subject-row">Subject: <span class="type-subject">Meeting at 3 PM</span></div>
+                            <div class="mail-content">
+                                <span class="type-body">Hi John, let's catch up today at 3 PM. Best.</span>
+                            </div>
+                            <div class="mail-footer">
+                                <div class="send-btn">Send</div>
+                                <div class="click-ripple"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-bg-accent"></div>
+        </div>
+        
+        <div class="trusted-by fade-in delay-2">
+            <p>Trusted by innovative teams</p>
+            <div class="logos">
+                <img src="https://cdn.simpleicons.org/ycombinator/000000" alt="Y Combinator">
+                <img src="https://cdn.simpleicons.org/apple/000000" alt="Apple">
+                <img src="https://cdn.simpleicons.org/stripe/000000" alt="Stripe">
+                <img src="https://cdn.simpleicons.org/notion/000000" alt="Notion">
+                <img src="https://cdn.simpleicons.org/vercel/000000" alt="Vercel">
+            </div>
+        </div>
+    </header>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits container">
+        <div class="section-header slide-up">
+            <span class="tag">Architecture</span>
+            <h2>We’ve cracked the code.</h2>
+            <p>LLM OS bypasses traditional API limits, executing multi-step workflows faster than humanly possible.</p>
+        </div>
+
+        <div class="benefits-grid">
+            <div class="benefit-card slide-up">
+                <div class="bento-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg></div>
+                <h3>Sub-100ms Voice</h3>
+                <p>Queue up asynchronous tasks using streaming STT and TTS without breaking your deep work focus.</p>
+            </div>
+            <div class="benefit-card slide-up delay-1">
+                <div class="bento-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                <h3>MCP Direct Execution</h3>
+                <p>Instant programmatic API execution bypassing the GUI entirely when native servers are available. &lt;0.1s latency.</p>
+            </div>
+            <div class="benefit-card slide-up delay-2">
+                <div class="bento-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg></div>
+                <h3>AX Tree Perception</h3>
+                <p>Parses the native macOS UI element hierarchy to dispatch background semantic actions instantly. &lt;0.5s latency.</p>
+            </div>
+            <div class="benefit-card slide-up delay-3">
+                <div class="bento-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></div>
+                <h3>Vision Fallback</h3>
+                <p>Secondary failover mechanism utilizing Visual Grounding models for legacy or accessibility-hostile apps.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Scroll Sequence (Scrolljacking Demo) -->
+    <section id="scroll-demo" class="scroll-sequence-wrapper">
+        <div class="sticky-container">
+            <div class="sequence-content">
+                
+                <!-- Step 1 -->
+                <div class="sequence-step step-1 active">
+                    <div class="mockup-window">
+                        <div class="window-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <div class="title">Research.pdf</div>
+                        </div>
+                        <div class="mockup-body">
+                            <img src="https://placehold.co/1000x600/ffffff/333333?text=Highlighting+Text+in+PDF" alt="Step 1">
+                        </div>
+                    </div>
+                    <div class="step-caption">
+                        <h3>1. Highlight Context</h3>
+                        <p>Select any text, image, or UI element across macOS.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="sequence-step step-2">
+                    <div class="mockup-window">
+                        <div class="window-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <div class="title">Research.pdf</div>
+                        </div>
+                        <div class="mockup-body">
+                            <img src="https://placehold.co/1000x600/ffffff/333333?text=Agent+Popup+Menu" alt="Step 2">
+                        </div>
+                    </div>
+                    <div class="step-caption">
+                        <h3>2. Summon Agent</h3>
+                        <p>A native floating menu understands your deep semantic intent.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="sequence-step step-3">
+                    <div class="mockup-window">
+                        <div class="window-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <div class="title">Calendar</div>
+                        </div>
+                        <div class="mockup-body">
+                            <img src="https://placehold.co/1000x600/ffffff/333333?text=Agent+Blocks+Calendar" alt="Step 3">
+                        </div>
+                    </div>
+                    <div class="step-caption">
+                        <h3>3. Background Execution</h3>
+                        <p>The agent drives the UI of other apps completely in the background.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- See the Big Picture -->
+    <section class="big-picture container">
+        <div class="content slide-up">
+            <h2>See the Big Picture</h2>
+            <p>The Cognitive Engine doesn't just run blind scripts. It operates on a reactive, closed-loop state machine.</p>
+            
+            <ul class="feature-list">
+                <li>
+                    <span class="num">01</span>
+                    <div class="text">
+                        <strong>Perceive (St)</strong>
+                        <p>Capture current state via OS APIs or Accessibility Tree.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <div class="text">
+                        <strong>Evaluate</strong>
+                        <p>Match intents and assess confidence. Prompts user if ambiguous.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <div class="text">
+                        <strong>Act (At)</strong>
+                        <p>Dispatch atomic interactions (semantic calls, hardware clicks).</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <div class="text">
+                        <strong>Verify (St+1)</strong>
+                        <p>Compare the state diff to confirm absolute execution success.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="visual slide-up delay-1">
+            <img src="https://placehold.co/800x1000/e2e4dd/526038?text=3D+Geometric+Pillars" alt="3D Visualization">
+        </div>
+    </section>
+
+    <!-- Specs Section -->
+    <section id="specs" class="specs-section">
+        <div class="container text-center slide-up">
+            <span class="tag">Specs</span>
+            <h2>Why Choose LLM OS?</h2>
+            <p>You need an agent that keeps up. Traditional CV agents are too slow. API agents are too brittle.</p>
+        </div>
+        
+        <div class="container comparison-table slide-up delay-1">
+            <div class="col col-feature">
+                <!-- Features column empty header -->
+            </div>
+            <div class="col col-llmos active">
+                <h3>LLM OS</h3>
+                <ul>
+                    <li>✓ Sub 0.5s Latency</li>
+                    <li>✓ Deep OS Integration</li>
+                    <li>✓ Deterministic AX Tree</li>
+                    <li>✓ Voice Queuing</li>
+                    <li>✓ Full App Coverage</li>
+                </ul>
+            </div>
+            <div class="col col-other">
+                <h3>Pure CV Agents</h3>
+                <ul>
+                    <li>✗ 3-5s Latency</li>
+                    <li>✗ Screen Scraping Only</li>
+                    <li>✗ Flaky OCR Coordinates</li>
+                    <li>✗ No Background Tasks</li>
+                    <li>✗ High Compute Cost</li>
+                </ul>
+            </div>
+            <div class="col col-other">
+                <h3>API Wrappers</h3>
+                <ul>
+                    <li>✓ High Speed</li>
+                    <li>✗ Only specific apps</li>
+                    <li>✗ No Desktop Control</li>
+                    <li>✗ Zero GUI Context</li>
+                    <li>✗ Breaks on API changes</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial container">
+        <div class="image slide-up">
+            <img src="https://placehold.co/800x800/e2e4dd/526038?text=Balancing+Stones" alt="Balancing Stones">
+        </div>
+        <div class="quote slide-up delay-1">
+            <blockquote>
+                “I was skeptical, but LLM OS has completely transformed how I manage my workflows. It executes tasks in the background before I even finish my sentence.”
+            </blockquote>
+            <cite>
+                <strong>Developer</strong>
+                <span>Early Adopter</span>
+            </cite>
+        </div>
+    </section>
+
+    <!-- Map Your Success -->
+    <section id="pipeline" class="map-success container">
+        <h2 class="slide-up">Map Your Success</h2>
+        <div class="steps-grid">
+            <div class="step slide-up">
+                <div class="step-num">01</div>
+                <h4>Intent Parsing</h4>
+                <p>Speak naturally. Whisper STT captures your command and parses the exact semantic intent instantly.</p>
+            </div>
+            <div class="step slide-up delay-1">
+                <div class="step-num">02</div>
+                <h4>Target Routing</h4>
+                <p>The Brain decides the fastest route: MCP direct, AX Tree semantic clicks, or Vision fallback.</p>
+            </div>
+            <div class="step slide-up delay-2">
+                <div class="step-num">03</div>
+                <h4>Execute & Verify</h4>
+                <p>Action is dispatched seamlessly in the background and verified via state-diff analysis.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="edge-image fade-in">
+        <img src="https://placehold.co/1920x800/e2e4dd/526038?text=Aerial+Landscape+2" alt="Landscape Placeholder">
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center slide-up">
+            <h2>Connect with us</h2>
+            <p>Schedule a quick call to learn how LLM OS can turn your desktop into an autonomous powerhouse.</p>
+            <a href="#" class="btn-primary large">Learn More ↗</a>
+        </div>
+        
+        <div class="container footer-bottom fade-in delay-1">
+            <div class="footer-links">
+                <a href="#">Architecture</a>
+                <a href="#">Roadmap</a>
+                <a href="#">GitHub</a>
+            </div>
+            <div class="footer-copy">
+                <div class="logo-small">LLM OS</div>
+                <p>© LLM OS. 2026</p>
+                <p>All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

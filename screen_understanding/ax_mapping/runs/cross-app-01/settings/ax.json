@@ -1,0 +1,3193 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "System Settings",
+    "complete": true,
+    "ref_count": 158,
+    "snapshot_id": "szls3hralbl4",
+    "tree": {
+      "bounds": {
+        "height": 803.0,
+        "width": 723.0,
+        "x": 492.0,
+        "y": 93.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 803.0,
+            "width": 723.0,
+            "x": 492.0,
+            "y": 93.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 803.0,
+                "width": 723.0,
+                "x": 492.0,
+                "y": 93.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 787.0,
+                    "width": 215.0,
+                    "x": 500.0,
+                    "y": 101.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 697.0,
+                        "width": 215.0,
+                        "x": 500.0,
+                        "y": 191.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 697.0,
+                            "width": 215.0,
+                            "x": 500.0,
+                            "y": 191.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 191.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 191.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 199.0,
+                                        "x": 514.0,
+                                        "y": 191.0
+                                      },
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "ref_id": "@szls3hralbl4:e4",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@szls3hralbl4:e3",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 191.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 46.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 191.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 38.0,
+                                        "width": 142.0,
+                                        "x": 516.0,
+                                        "y": 195.0
+                                      },
+                                      "name": "Harshit Jaiswal, Apple\u00a0Account",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.systempreferences.AppleIDSettings*AppleIDSettings"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e7",
+                                      "role": "statictext",
+                                      "value": "Harshit Jaiswal, Apple\u00a0Account"
+                                    }
+                                  ],
+                                  "name": "Harshit Jaiswal, Apple Account",
+                                  "ref_id": "@szls3hralbl4:e6",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Harshit Jaiswal, Apple Account",
+                              "ref_id": "@szls3hralbl4:e5",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 250.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 250.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 199.0,
+                                        "x": 514.0,
+                                        "y": 250.0
+                                      },
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "ref_id": "@szls3hralbl4:e9",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@szls3hralbl4:e8",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 250.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 250.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 59.5,
+                                        "x": 514.0,
+                                        "y": 254.0
+                                      },
+                                      "name": "Wi\u2011Fi",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.wifi-settings-extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e12",
+                                      "role": "statictext",
+                                      "value": "Wi\u2011Fi"
+                                    }
+                                  ],
+                                  "name": "Wi\u2011Fi",
+                                  "ref_id": "@szls3hralbl4:e11",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Wi\u2011Fi",
+                              "ref_id": "@szls3hralbl4:e10",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 282.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 282.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 86.0,
+                                        "x": 514.0,
+                                        "y": 286.0
+                                      },
+                                      "name": "Bluetooth",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.BluetoothSettings"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e15",
+                                      "role": "statictext",
+                                      "value": "Bluetooth"
+                                    }
+                                  ],
+                                  "name": "Bluetooth",
+                                  "ref_id": "@szls3hralbl4:e14",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Bluetooth",
+                              "ref_id": "@szls3hralbl4:e13",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 314.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 314.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 78.0,
+                                        "x": 514.0,
+                                        "y": 318.0
+                                      },
+                                      "name": "Network",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Network-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e18",
+                                      "role": "statictext",
+                                      "value": "Network"
+                                    }
+                                  ],
+                                  "name": "Network",
+                                  "ref_id": "@szls3hralbl4:e17",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Network",
+                              "ref_id": "@szls3hralbl4:e16",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 346.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 346.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 53.5,
+                                        "x": 514.0,
+                                        "y": 350.0
+                                      },
+                                      "name": "VPN",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.NetworkExtensionSettingsUI.NESettingsUIExtension*vpn"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e21",
+                                      "role": "statictext",
+                                      "value": "VPN"
+                                    }
+                                  ],
+                                  "name": "VPN",
+                                  "ref_id": "@szls3hralbl4:e20",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "VPN",
+                              "ref_id": "@szls3hralbl4:e19",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 378.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 378.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 71.5,
+                                        "x": 514.0,
+                                        "y": 382.0
+                                      },
+                                      "name": "Battery",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Battery-Settings.extension*BatteryPreferences"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e24",
+                                      "role": "statictext",
+                                      "value": "Battery"
+                                    }
+                                  ],
+                                  "name": "Battery",
+                                  "ref_id": "@szls3hralbl4:e23",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Battery",
+                              "ref_id": "@szls3hralbl4:e22",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 423.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 423.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 199.0,
+                                        "x": 514.0,
+                                        "y": 423.0
+                                      },
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "ref_id": "@szls3hralbl4:e26",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@szls3hralbl4:e25",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 423.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 423.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 74.5,
+                                        "x": 514.0,
+                                        "y": 427.0
+                                      },
+                                      "name": "General",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.systempreferences.GeneralSettings"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e29",
+                                      "role": "statictext",
+                                      "value": "General"
+                                    }
+                                  ],
+                                  "name": "General",
+                                  "ref_id": "@szls3hralbl4:e28",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "General",
+                              "ref_id": "@szls3hralbl4:e27",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 455.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 455.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 103.0,
+                                        "x": 514.0,
+                                        "y": 459.0
+                                      },
+                                      "name": "Accessibility",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Accessibility-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e32",
+                                      "role": "statictext",
+                                      "value": "Accessibility"
+                                    }
+                                  ],
+                                  "name": "Accessibility",
+                                  "ref_id": "@szls3hralbl4:e31",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Accessibility",
+                              "ref_id": "@szls3hralbl4:e30",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 487.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 487.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 100.0,
+                                        "x": 514.0,
+                                        "y": 491.0
+                                      },
+                                      "name": "Appearance",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Appearance-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e35",
+                                      "role": "statictext",
+                                      "value": "Appearance"
+                                    }
+                                  ],
+                                  "name": "Appearance",
+                                  "ref_id": "@szls3hralbl4:e34",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "selected"
+                                  ]
+                                }
+                              ],
+                              "name": "Appearance",
+                              "ref_id": "@szls3hralbl4:e33",
+                              "role": "treeitem",
+                              "states": [
+                                "selected"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 519.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 519.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 171.0,
+                                        "x": 514.0,
+                                        "y": 523.0
+                                      },
+                                      "name": "Apple Intelligence & Siri",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Siri-Settings.extension*siri-sae"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e38",
+                                      "role": "statictext",
+                                      "value": "Apple Intelligence & Siri"
+                                    }
+                                  ],
+                                  "name": "Apple Intelligence & Siri",
+                                  "ref_id": "@szls3hralbl4:e37",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Apple Intelligence & Siri",
+                              "ref_id": "@szls3hralbl4:e36",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 551.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 551.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 125.0,
+                                        "x": 514.0,
+                                        "y": 555.0
+                                      },
+                                      "name": "Desktop & Dock",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Desktop-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e41",
+                                      "role": "statictext",
+                                      "value": "Desktop & Dock"
+                                    }
+                                  ],
+                                  "name": "Desktop & Dock",
+                                  "ref_id": "@szls3hralbl4:e40",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Desktop & Dock",
+                              "ref_id": "@szls3hralbl4:e39",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 583.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 583.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 78.0,
+                                        "x": 514.0,
+                                        "y": 587.0
+                                      },
+                                      "name": "Displays",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Displays-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e44",
+                                      "role": "statictext",
+                                      "value": "Displays"
+                                    }
+                                  ],
+                                  "name": "Displays",
+                                  "ref_id": "@szls3hralbl4:e43",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Displays",
+                              "ref_id": "@szls3hralbl4:e42",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 615.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 615.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 85.0,
+                                        "x": 514.0,
+                                        "y": 619.0
+                                      },
+                                      "name": "Menu Bar",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.ControlCenter-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e47",
+                                      "role": "statictext",
+                                      "value": "Menu Bar"
+                                    }
+                                  ],
+                                  "name": "Menu Bar",
+                                  "ref_id": "@szls3hralbl4:e46",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Menu Bar",
+                              "ref_id": "@szls3hralbl4:e45",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 647.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 647.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 82.0,
+                                        "x": 514.0,
+                                        "y": 651.0
+                                      },
+                                      "name": "Spotlight",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Spotlight-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e50",
+                                      "role": "statictext",
+                                      "value": "Spotlight"
+                                    }
+                                  ],
+                                  "name": "Spotlight",
+                                  "ref_id": "@szls3hralbl4:e49",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Spotlight",
+                              "ref_id": "@szls3hralbl4:e48",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 679.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 679.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 87.5,
+                                        "x": 514.0,
+                                        "y": 683.0
+                                      },
+                                      "name": "Wallpaper",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Wallpaper-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e53",
+                                      "role": "statictext",
+                                      "value": "Wallpaper"
+                                    }
+                                  ],
+                                  "name": "Wallpaper",
+                                  "ref_id": "@szls3hralbl4:e52",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Wallpaper",
+                              "ref_id": "@szls3hralbl4:e51",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 724.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 724.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 199.0,
+                                        "x": 514.0,
+                                        "y": 724.0
+                                      },
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "ref_id": "@szls3hralbl4:e55",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@szls3hralbl4:e54",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 724.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 724.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 104.0,
+                                        "x": 514.0,
+                                        "y": 728.0
+                                      },
+                                      "name": "Notifications",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Notifications-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e58",
+                                      "role": "statictext",
+                                      "value": "Notifications"
+                                    }
+                                  ],
+                                  "name": "Notifications",
+                                  "ref_id": "@szls3hralbl4:e57",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Notifications",
+                              "ref_id": "@szls3hralbl4:e56",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 756.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 756.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 66.0,
+                                        "x": 514.0,
+                                        "y": 760.0
+                                      },
+                                      "name": "Sound",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Sound-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e61",
+                                      "role": "statictext",
+                                      "value": "Sound"
+                                    }
+                                  ],
+                                  "name": "Sound",
+                                  "ref_id": "@szls3hralbl4:e60",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Sound",
+                              "ref_id": "@szls3hralbl4:e59",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 788.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 788.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 63.5,
+                                        "x": 514.0,
+                                        "y": 792.0
+                                      },
+                                      "name": "Focus",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Focus-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e64",
+                                      "role": "statictext",
+                                      "value": "Focus"
+                                    }
+                                  ],
+                                  "name": "Focus",
+                                  "ref_id": "@szls3hralbl4:e63",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Focus",
+                              "ref_id": "@szls3hralbl4:e62",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 820.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 820.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 103.0,
+                                        "x": 514.0,
+                                        "y": 824.0
+                                      },
+                                      "name": "Screen Time",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Screen-Time-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e67",
+                                      "role": "statictext",
+                                      "value": "Screen Time"
+                                    }
+                                  ],
+                                  "name": "Screen Time",
+                                  "ref_id": "@szls3hralbl4:e66",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Screen Time",
+                              "ref_id": "@szls3hralbl4:e65",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 865.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 865.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 199.0,
+                                        "x": 514.0,
+                                        "y": 865.0
+                                      },
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "ref_id": "@szls3hralbl4:e69",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@szls3hralbl4:e68",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 865.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 865.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 102.0,
+                                        "x": 514.0,
+                                        "y": 869.0
+                                      },
+                                      "name": "Lock Screen",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Lock-Screen-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e72",
+                                      "role": "statictext",
+                                      "value": "Lock Screen"
+                                    }
+                                  ],
+                                  "name": "Lock Screen",
+                                  "ref_id": "@szls3hralbl4:e71",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "name": "Lock Screen",
+                              "ref_id": "@szls3hralbl4:e70",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 897.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 897.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Privacy & Security",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.settings.PrivacySecurity.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e75",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Privacy & Security"
+                                    }
+                                  ],
+                                  "name": "Privacy & Security",
+                                  "ref_id": "@szls3hralbl4:e74",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Privacy & Security",
+                              "ref_id": "@szls3hralbl4:e73",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 929.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 929.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Touch ID & Password",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Touch-ID-Settings.extension*TouchIDPasswordPrefs"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e78",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Touch ID & Password"
+                                    }
+                                  ],
+                                  "name": "Touch ID & Password",
+                                  "ref_id": "@szls3hralbl4:e77",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Touch ID & Password",
+                              "ref_id": "@szls3hralbl4:e76",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 961.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 961.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Users & Groups",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Users-Groups-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e81",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Users & Groups"
+                                    }
+                                  ],
+                                  "name": "Users & Groups",
+                                  "ref_id": "@szls3hralbl4:e80",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Users & Groups",
+                              "ref_id": "@szls3hralbl4:e79",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 19.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1006.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 19.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1006.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 19.0,
+                                        "width": 199.0,
+                                        "x": 514.0,
+                                        "y": 1006.0
+                                      },
+                                      "role": "group",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@szls3hralbl4:e83",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@szls3hralbl4:e82",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1025.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1025.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Internet Accounts",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Internet-Accounts-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e86",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Internet Accounts"
+                                    }
+                                  ],
+                                  "name": "Internet Accounts",
+                                  "ref_id": "@szls3hralbl4:e85",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Internet Accounts",
+                              "ref_id": "@szls3hralbl4:e84",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1057.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1057.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Game Center",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Game-Center-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e89",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Game Center"
+                                    }
+                                  ],
+                                  "name": "Game Center",
+                                  "ref_id": "@szls3hralbl4:e88",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Game Center",
+                              "ref_id": "@szls3hralbl4:e87",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1089.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1089.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "iCloud",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.systempreferences.AppleIDSettings:icloud"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e92",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "iCloud"
+                                    }
+                                  ],
+                                  "name": "iCloud",
+                                  "ref_id": "@szls3hralbl4:e91",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "iCloud",
+                              "ref_id": "@szls3hralbl4:e90",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1121.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1121.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Wallet & Apple\u00a0Pay",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.WalletSettingsExtension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e95",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Wallet & Apple\u00a0Pay"
+                                    }
+                                  ],
+                                  "name": "Wallet & Apple Pay",
+                                  "ref_id": "@szls3hralbl4:e94",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Wallet & Apple Pay",
+                              "ref_id": "@szls3hralbl4:e93",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 19.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1166.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 19.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1166.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 19.0,
+                                        "width": 199.0,
+                                        "x": 514.0,
+                                        "y": 1166.0
+                                      },
+                                      "role": "group",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@szls3hralbl4:e97",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@szls3hralbl4:e96",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1185.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1185.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Keyboard",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Keyboard-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e100",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Keyboard"
+                                    }
+                                  ],
+                                  "name": "Keyboard",
+                                  "ref_id": "@szls3hralbl4:e99",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Keyboard",
+                              "ref_id": "@szls3hralbl4:e98",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1217.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1217.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Trackpad",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Trackpad-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e103",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Trackpad"
+                                    }
+                                  ],
+                                  "name": "Trackpad",
+                                  "ref_id": "@szls3hralbl4:e102",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Trackpad",
+                              "ref_id": "@szls3hralbl4:e101",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 215.0,
+                                "x": 500.0,
+                                "y": 1249.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 195.0,
+                                    "x": 510.0,
+                                    "y": 1249.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 956.0
+                                      },
+                                      "name": "Printers & Scanners",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "com.apple.Print-Scan-Settings.extension"
+                                      },
+                                      "ref_id": "@szls3hralbl4:e106",
+                                      "role": "statictext",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "Printers & Scanners"
+                                    }
+                                  ],
+                                  "name": "Printers & Scanners",
+                                  "ref_id": "@szls3hralbl4:e105",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "name": "Printers & Scanners",
+                              "ref_id": "@szls3hralbl4:e104",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 1100.0,
+                                "width": 195.0,
+                                "x": 510.0,
+                                "y": 191.0
+                              },
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "ListColumn"
+                              },
+                              "role": "column"
+                            }
+                          ],
+                          "name": "Sidebar",
+                          "ref_id": "@szls3hralbl4:e2",
+                          "role": "outline",
+                          "states": [
+                            "focused"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "SetValue"
+                          ],
+                          "bounds": {
+                            "height": 689.5,
+                            "width": 19.0,
+                            "x": 697.0,
+                            "y": 190.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetValue"
+                              ],
+                              "bounds": {
+                                "height": 450.5,
+                                "width": 6.0,
+                                "x": 706.0,
+                                "y": 194.0
+                              },
+                              "ref_id": "@szls3hralbl4:e108",
+                              "role": "handle",
+                              "value": "0"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 698.0,
+                                "y": 191.0
+                              },
+                              "ref_id": "@szls3hralbl4:e109",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 698.0,
+                                "y": 191.0
+                              },
+                              "ref_id": "@szls3hralbl4:e110",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 230.5,
+                                "width": 6.0,
+                                "x": 706.0,
+                                "y": 645.0
+                              },
+                              "ref_id": "@szls3hralbl4:e111",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 6.0,
+                                "x": 706.0,
+                                "y": 194.0
+                              },
+                              "ref_id": "@szls3hralbl4:e112",
+                              "role": "button"
+                            }
+                          ],
+                          "ref_id": "@szls3hralbl4:e107",
+                          "role": "scrollbar",
+                          "states": [
+                            "hidden"
+                          ],
+                          "value": "0"
+                        }
+                      ],
+                      "ref_id": "@szls3hralbl4:e1",
+                      "role": "scrollarea"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 28.0,
+                    "width": 195.0,
+                    "x": 510.0,
+                    "y": 154.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick",
+                        "SetValue",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 195.0,
+                        "x": 510.0,
+                        "y": 154.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 9.0,
+                            "width": 15.5,
+                            "x": 518.0,
+                            "y": 164.0
+                          },
+                          "name": "Search",
+                          "ref_id": "@szls3hralbl4:e114",
+                          "role": "button"
+                        }
+                      ],
+                      "name": "Search",
+                      "ref_id": "@szls3hralbl4:e113",
+                      "role": "textfield"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 751.0,
+                    "width": 0.0,
+                    "x": 715.0,
+                    "y": 145.0
+                  },
+                  "role": "splitter",
+                  "states": [
+                    "disabled"
+                  ],
+                  "value": "223"
+                },
+                {
+                  "bounds": {
+                    "height": 803.0,
+                    "width": 723.0,
+                    "x": 492.0,
+                    "y": 93.0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 803.0,
+                        "width": 723.0,
+                        "x": 492.0,
+                        "y": 93.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Scroll"
+                          ],
+                          "bounds": {
+                            "height": 751.0,
+                            "width": 500.0,
+                            "x": 715.0,
+                            "y": 145.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 173.0,
+                                "width": 460.0,
+                                "x": 735.0,
+                                "y": 145.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 73.0,
+                                    "x": 745.0,
+                                    "y": 154.9144287109375
+                                  },
+                                  "name": "Appearance",
+                                  "role": "statictext",
+                                  "value": "Appearance"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 65.9144287109375,
+                                    "width": 74.0,
+                                    "x": 947.0,
+                                    "y": 155.0
+                                  },
+                                  "name": "Auto",
+                                  "ref_id": "@szls3hralbl4:e116",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 65.9144287109375,
+                                    "width": 74.0,
+                                    "x": 1029.0,
+                                    "y": 155.0
+                                  },
+                                  "name": "Light",
+                                  "ref_id": "@szls3hralbl4:e117",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 65.9144287109375,
+                                    "width": 74.0,
+                                    "x": 1111.0,
+                                    "y": 155.0
+                                  },
+                                  "name": "Dark",
+                                  "ref_id": "@szls3hralbl4:e118",
+                                  "role": "button",
+                                  "states": [
+                                    "selected"
+                                  ]
+                                },
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 74.0,
+                                    "x": 745.0,
+                                    "y": 241.9144287109375
+                                  },
+                                  "name": "Liquid Glass",
+                                  "role": "statictext",
+                                  "value": "Liquid Glass"
+                                },
+                                {
+                                  "bounds": {
+                                    "height": 14.0,
+                                    "width": 232.0,
+                                    "x": 745.0,
+                                    "y": 259.4144287109375
+                                  },
+                                  "name": "Choose your preferred look for Liquid Glass.",
+                                  "role": "statictext",
+                                  "value": "Choose your preferred look for Liquid Glass."
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 65.9144287109375,
+                                    "width": 74.0,
+                                    "x": 1029.0,
+                                    "y": 242.0
+                                  },
+                                  "name": "Clear",
+                                  "ref_id": "@szls3hralbl4:e119",
+                                  "role": "button",
+                                  "states": [
+                                    "selected"
+                                  ]
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 65.9144287109375,
+                                    "width": 74.0,
+                                    "x": 1111.0,
+                                    "y": 242.0
+                                  },
+                                  "name": "Tinted",
+                                  "ref_id": "@szls3hralbl4:e120",
+                                  "role": "button"
+                                }
+                              ],
+                              "role": "group"
+                            },
+                            {
+                              "bounds": {
+                                "height": 16.0,
+                                "width": 43.5,
+                                "x": 745.0,
+                                "y": 347.9144287109375
+                              },
+                              "name": "Theme",
+                              "role": "heading"
+                            },
+                            {
+                              "bounds": {
+                                "height": 100.0,
+                                "width": 460.0,
+                                "x": 735.0,
+                                "y": 374.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 40.5,
+                                    "x": 745.0,
+                                    "y": 383.9144287109375
+                                  },
+                                  "name": "Colour",
+                                  "role": "statictext",
+                                  "value": "Colour"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 869.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Multicolour",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e121",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 905.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Blue",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e122",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 941.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Purple",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e123",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 977.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Pink",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e124",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 1013.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Red",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e125",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 1049.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Orange",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e126",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 1085.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Yellow",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e127",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 1121.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Green",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e128",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 32.0,
+                                    "x": 1157.0,
+                                    "y": 380.0
+                                  },
+                                  "description": "Graphite",
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e129",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "RightClick"
+                                  ],
+                                  "bounds": {
+                                    "height": 14.0,
+                                    "width": 59.0,
+                                    "x": 855.5,
+                                    "y": 411.5
+                                  },
+                                  "name": "Colour",
+                                  "ref_id": "@szls3hralbl4:e130",
+                                  "role": "statictext",
+                                  "value": "Multicolour"
+                                },
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 123.5,
+                                    "x": 745.0,
+                                    "y": 446.7347412109375
+                                  },
+                                  "name": "Text highlight colour",
+                                  "role": "statictext",
+                                  "value": "Text highlight colour"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 127.0,
+                                    "x": 1058.0,
+                                    "y": 443.0
+                                  },
+                                  "name": "Text highlight colour",
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "HighlightColorPicker"
+                                  },
+                                  "ref_id": "@szls3hralbl4:e131",
+                                  "role": "combobox",
+                                  "states": [
+                                    "readonly"
+                                  ],
+                                  "value": "Automatic"
+                                }
+                              ],
+                              "role": "group"
+                            },
+                            {
+                              "bounds": {
+                                "height": 129.0,
+                                "width": 460.0,
+                                "x": 735.0,
+                                "y": 484.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 115.5,
+                                    "x": 745.0,
+                                    "y": 493.9847412109375
+                                  },
+                                  "name": "Icon & widget style",
+                                  "role": "statictext",
+                                  "value": "Icon & widget style"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 51.9847412109375,
+                                    "width": 40.0,
+                                    "x": 992.0,
+                                    "y": 493.0
+                                  },
+                                  "description": "Default",
+                                  "name": "Icon & widget style",
+                                  "ref_id": "@szls3hralbl4:e132",
+                                  "role": "button",
+                                  "states": [
+                                    "selected"
+                                  ]
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 51.9847412109375,
+                                    "width": 38.0,
+                                    "x": 1046.0,
+                                    "y": 493.0
+                                  },
+                                  "description": "Dark",
+                                  "name": "Icon & widget style",
+                                  "ref_id": "@szls3hralbl4:e133",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 51.9847412109375,
+                                    "width": 38.0,
+                                    "x": 1097.0,
+                                    "y": 493.0
+                                  },
+                                  "description": "Clear",
+                                  "name": "Icon & widget style",
+                                  "ref_id": "@szls3hralbl4:e134",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 51.9847412109375,
+                                    "width": 38.0,
+                                    "x": 1148.0,
+                                    "y": 493.0
+                                  },
+                                  "description": "Tinted",
+                                  "name": "Icon & widget style",
+                                  "ref_id": "@szls3hralbl4:e135",
+                                  "role": "button"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "ref_id": "@szls3hralbl4:e136",
+                                      "role": "radiobutton"
+                                    }
+                                  ],
+                                  "name": "Icon & widget style",
+                                  "role": "radiogroup"
+                                },
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 80.0,
+                                    "x": 745.0,
+                                    "y": 582.9847412109375
+                                  },
+                                  "name": "Folder colour",
+                                  "role": "statictext",
+                                  "value": "Folder colour"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 127.0,
+                                    "x": 1058.0,
+                                    "y": 579.0
+                                  },
+                                  "description": "Folder colour",
+                                  "name": "Folder colour",
+                                  "ref_id": "@szls3hralbl4:e137",
+                                  "role": "combobox",
+                                  "states": [
+                                    "readonly"
+                                  ],
+                                  "value": "Automatic"
+                                }
+                              ],
+                              "role": "group"
+                            },
+                            {
+                              "bounds": {
+                                "height": 16.0,
+                                "width": 57.5,
+                                "x": 745.0,
+                                "y": 643.2347412109375
+                              },
+                              "name": "Windows",
+                              "role": "heading"
+                            },
+                            {
+                              "bounds": {
+                                "height": 75.0,
+                                "width": 460.0,
+                                "x": 735.0,
+                                "y": 669.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 103.5,
+                                    "x": 745.0,
+                                    "y": 679.2347412109375
+                                  },
+                                  "name": "Sidebar icon size",
+                                  "role": "statictext",
+                                  "value": "Sidebar icon size"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetFocus",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 96.0,
+                                    "x": 1089.0,
+                                    "y": 675.5
+                                  },
+                                  "name": "Sidebar icon size",
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "SidebarIconSizePicker"
+                                  },
+                                  "ref_id": "@szls3hralbl4:e138",
+                                  "role": "combobox",
+                                  "states": [
+                                    "readonly"
+                                  ],
+                                  "value": "Medium"
+                                },
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 281.0,
+                                    "x": 745.0,
+                                    "y": 717.4847412109375
+                                  },
+                                  "name": "Tint window background with wallpaper colour",
+                                  "role": "statictext",
+                                  "value": "Tint window background with wallpaper colour"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Toggle",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 36.0,
+                                    "x": 1149.0,
+                                    "y": 718.0
+                                  },
+                                  "name": "Tint window background with wallpaper colour",
+                                  "ref_id": "@szls3hralbl4:e139",
+                                  "role": "switch",
+                                  "states": [
+                                    "checked"
+                                  ],
+                                  "value": "1"
+                                }
+                              ],
+                              "role": "group"
+                            },
+                            {
+                              "bounds": {
+                                "height": 189.0,
+                                "width": 460.0,
+                                "x": 735.0,
+                                "y": 754.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 85.0152587890625,
+                                    "width": 279.5,
+                                    "x": 745.0,
+                                    "y": 763.9847412109375
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 16.0,
+                                        "width": 99.5,
+                                        "x": 745.0,
+                                        "y": 763.9847412109375
+                                      },
+                                      "name": "Show scroll bars",
+                                      "role": "statictext",
+                                      "value": "Show scroll bars"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "Toggle",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 16.5,
+                                        "width": 279.5,
+                                        "x": 745.0,
+                                        "y": 788.0
+                                      },
+                                      "description": "Automatically based on mouse or trackpad",
+                                      "name": "Show scroll bars",
+                                      "ref_id": "@szls3hralbl4:e140",
+                                      "role": "radiobutton",
+                                      "states": [
+                                        "checked",
+                                        "selected"
+                                      ],
+                                      "value": "1"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "Toggle",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 16.5,
+                                        "width": 111.0,
+                                        "x": 745.0,
+                                        "y": 810.5
+                                      },
+                                      "description": "When scrolling",
+                                      "name": "Show scroll bars",
+                                      "ref_id": "@szls3hralbl4:e141",
+                                      "role": "radiobutton",
+                                      "value": "0"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "Toggle",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 16.0,
+                                        "width": 63.5,
+                                        "x": 745.0,
+                                        "y": 833.0
+                                      },
+                                      "description": "Always",
+                                      "name": "Show scroll bars",
+                                      "ref_id": "@szls3hralbl4:e142",
+                                      "role": "radiobutton",
+                                      "value": "0"
+                                    }
+                                  ],
+                                  "role": "radiogroup"
+                                },
+                                {
+                                  "bounds": {
+                                    "height": 62.7547607421875,
+                                    "width": 208.0,
+                                    "x": 745.0,
+                                    "y": 870.2452392578125
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 16.0,
+                                        "width": 143.0,
+                                        "x": 745.0,
+                                        "y": 870.2452392578125
+                                      },
+                                      "name": "Click in the scroll bar to",
+                                      "role": "statictext",
+                                      "value": "Click in the scroll bar to"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "Toggle",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 16.5,
+                                        "width": 157.0,
+                                        "x": 745.0,
+                                        "y": 894.0
+                                      },
+                                      "description": "Jump to the next page",
+                                      "name": "Click in the scroll bar to",
+                                      "ref_id": "@szls3hralbl4:e143",
+                                      "role": "radiobutton",
+                                      "states": [
+                                        "checked",
+                                        "selected"
+                                      ],
+                                      "value": "1"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "Toggle",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 16.5,
+                                        "width": 208.0,
+                                        "x": 745.0,
+                                        "y": 916.5
+                                      },
+                                      "description": "Jump to the spot that\u2019s clicked",
+                                      "name": "Click in the scroll bar to",
+                                      "ref_id": "@szls3hralbl4:e144",
+                                      "role": "radiobutton",
+                                      "states": [
+                                        "offscreen"
+                                      ],
+                                      "value": "0"
+                                    }
+                                  ],
+                                  "role": "radiogroup"
+                                }
+                              ],
+                              "role": "group"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 24.0,
+                                "width": 24.0,
+                                "x": 1171.0,
+                                "y": 963.0
+                              },
+                              "name": "Help",
+                              "ref_id": "@szls3hralbl4:e145",
+                              "role": "button",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "SetValue"
+                              ],
+                              "bounds": {
+                                "height": 753.0,
+                                "width": 19.0,
+                                "x": 1197.0,
+                                "y": 144.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 654.5,
+                                    "width": 6.0,
+                                    "x": 1206.0,
+                                    "y": 148.0
+                                  },
+                                  "ref_id": "@szls3hralbl4:e147",
+                                  "role": "handle",
+                                  "value": "0"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 0.0,
+                                    "x": 1198.0,
+                                    "y": 145.0
+                                  },
+                                  "ref_id": "@szls3hralbl4:e148",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 0.0,
+                                    "x": 1198.0,
+                                    "y": 145.0
+                                  },
+                                  "ref_id": "@szls3hralbl4:e149",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click"
+                                  ],
+                                  "bounds": {
+                                    "height": 90.0,
+                                    "width": 6.0,
+                                    "x": 1206.0,
+                                    "y": 803.0
+                                  },
+                                  "ref_id": "@szls3hralbl4:e150",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click"
+                                  ],
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 6.0,
+                                    "x": 1206.0,
+                                    "y": 148.0
+                                  },
+                                  "ref_id": "@szls3hralbl4:e151",
+                                  "role": "button"
+                                }
+                              ],
+                              "ref_id": "@szls3hralbl4:e146",
+                              "role": "scrollbar",
+                              "states": [
+                                "hidden"
+                              ],
+                              "value": "0"
+                            }
+                          ],
+                          "ref_id": "@szls3hralbl4:e115",
+                          "role": "scrollarea"
+                        }
+                      ],
+                      "role": "group"
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "main, SidebarNavigationSplitView"
+              },
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 723.0,
+            "x": 492.0,
+            "y": 93.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 81.0,
+                "x": 719.0,
+                "y": 93.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 36.0,
+                    "width": 73.0,
+                    "x": 723.0,
+                    "y": 101.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 723.0,
+                        "y": 101.0
+                      },
+                      "name": "Back",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "go back"
+                      },
+                      "ref_id": "@szls3hralbl4:e153",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "Expand",
+                        "Collapse"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 760.0,
+                        "y": 101.0
+                      },
+                      "name": "Forward",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "go forward"
+                      },
+                      "ref_id": "@szls3hralbl4:e154",
+                      "role": "menubutton",
+                      "states": [
+                        "disabled"
+                      ]
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@szls3hralbl4:e152",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 510.0,
+            "y": 111.0
+          },
+          "ref_id": "@szls3hralbl4:e155",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 556.0,
+            "y": 111.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 14.0,
+                "width": 14.0,
+                "x": 557.0,
+                "y": 112.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 14.0,
+                    "width": 14.0,
+                    "x": 557.0,
+                    "y": 112.0
+                  },
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@szls3hralbl4:e156",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 533.0,
+            "y": 111.0
+          },
+          "ref_id": "@szls3hralbl4:e157",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 403.0,
+            "x": 800.0,
+            "y": 93.0
+          },
+          "name": "Appearance",
+          "ref_id": "@szls3hralbl4:e158",
+          "role": "statictext",
+          "value": "Appearance"
+        }
+      ],
+      "name": "Appearance",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "main"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-47210",
+      "title": "Appearance"
+    }
+  }
+}

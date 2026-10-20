@@ -1,0 +1,31 @@
+{
+  "capture_bounds": {
+    "height": 436.0,
+    "width": 920.0,
+    "x": 275.0,
+    "y": 155.0
+  },
+  "image_size": [
+    1840,
+    872
+  ],
+  "ax_origin": "top_left",
+  "screenshot_time": 1792425846.404304,
+  "ax_time": 1792425846.171174,
+  "max_skew_ms": 250,
+  "screenshot_window_id": "w-47097",
+  "ax_window_id": "w-47097",
+  "ax_snapshot_id": "s2kwljgjbfhabu",
+  "validation": {
+    "window_geometry_unchanged": true,
+    "process_instance_unchanged": true,
+    "ax_signature_unchanged": true,
+    "ax_root_matches_capture_bounds": true,
+    "screenshot_sha256": "45c99e383ce40036a21537d9061ddba43270372ba3a0edc2d5c0d620977b8dd8",
+    "ax_before_ms": 340.15607833862305,
+    "screenshot_ms": 124.38607215881348,
+    "ax_after_ms": 358.6618900299072,
+    "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim.",
+    "visible_ax_signature_unchanged": true
+  }
+}

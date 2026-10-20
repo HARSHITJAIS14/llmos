@@ -1,0 +1,61 @@
+{
+  "scope": "In-memory association including AX normalization; excludes file/image IO, capture, AX IPC, detector, OCR and network",
+  "fixture": "/Users/harshit/Desktop/YC/Ax_analysis/finder/full.json",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm64",
+  "accuracy_warning": "Synthetic regions copied from AX geometry. No real screenshot pairing or accuracy claim.",
+  "capture_warning": "Root bounds assumed ONLY to construct this diagnostic frame; not a calibrated real capture.",
+  "runs": [
+    {
+      "regions": 1,
+      "samples": 30,
+      "ax_nodes": 1571,
+      "projected_nodes": 61,
+      "p50_ms": 1.66410394012928,
+      "p95_ms": 3.6457920214161277,
+      "max_ms": 3.823834005743265,
+      "statuses": {
+        "ambiguous": 1
+      }
+    },
+    {
+      "regions": 8,
+      "samples": 30,
+      "ax_nodes": 1571,
+      "projected_nodes": 61,
+      "p50_ms": 2.0756039884872735,
+      "p95_ms": 4.006957984529436,
+      "max_ms": 4.7033330192789435,
+      "statuses": {
+        "ambiguous": 6,
+        "matched": 2
+      }
+    },
+    {
+      "regions": 32,
+      "samples": 30,
+      "ax_nodes": 1571,
+      "projected_nodes": 61,
+      "p50_ms": 3.1471874681301415,
+      "p95_ms": 5.127458018250763,
+      "max_ms": 5.439458065666258,
+      "statuses": {
+        "ambiguous": 17,
+        "matched": 15
+      }
+    },
+    {
+      "regions": 50,
+      "samples": 30,
+      "ax_nodes": 1571,
+      "projected_nodes": 61,
+      "p50_ms": 4.016791528556496,
+      "p95_ms": 5.984208080917597,
+      "max_ms": 7.551624905318022,
+      "statuses": {
+        "ambiguous": 20,
+        "matched": 30
+      }
+    }
+  ]
+}

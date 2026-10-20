@@ -1,0 +1,74 @@
+{
+  "app": "Notion",
+  "was_running": false,
+  "captures": {
+    "windows": 9,
+    "skeleton": {
+      "ok": true,
+      "bytes": 753,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 3430,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26917,
+  "bundle_id": "notion.id",
+  "framework_signals": {
+    "exe": "/Applications/Notion.app/Contents/MacOS/Notion",
+    "bundle": "/Applications/Notion.app",
+    "frameworks": [
+      "Electron Framework.framework",
+      "Mantle.framework",
+      "Notion Helper (GPU).app",
+      "Notion Helper (Plugin).app",
+      "Notion Helper (Renderer).app",
+      "Notion Helper.app",
+      "ReactiveObjC.framework",
+      "Squirrel.framework"
+    ],
+    "hints": [
+      "electron"
+    ]
+  },
+  "best_window": {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 803.0,
+      "width": 1087.0,
+      "x": 854.0,
+      "y": 30.0
+    },
+    "id": "w-28279",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "LLM OS ",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 1004,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 1004,
+    "truncated_after": 0,
+    "bytes": 1074609
+  }
+}

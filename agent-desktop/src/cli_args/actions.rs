@@ -1,0 +1,254 @@
+use clap::Parser;
+use serde::Deserialize;
+
+fn default_scroll_amount() -> u32 {
+    3
+}
+
+fn default_mouse_button() -> String {
+    "left".to_string()
+}
+
+fn default_mouse_click_count() -> u32 {
+    1
+}
+
+fn default_scroll_direction() -> String {
+    "down".to_string()
+}
+
+fn default_ref_timeout_ms() -> u64 {
+    5000
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct TypeArgs {
+    #[arg(
+        value_name = "REF",
+        help = "Qualified ref from snapshot (@<snapshot_id>:eN), or legacy @eN with --snapshot"
+    )]
+    pub ref_id: String,
+    #[arg(
+        long,
+        value_name = "SNAPSHOT_ID",
+        help = "Snapshot ID required for a legacy bare @eN ref; omit for a qualified ref"
+    )]
+    pub snapshot: Option<String>,
+    #[arg(value_name = "TEXT", allow_hyphen_values = true, help = "Text to type")]
+    pub text: String,
+    #[arg(
+        long = "timeout-ms",
+        default_value_t = 5000,
+        help = "Maximum ref-resolution and transient-actionability wait in milliseconds; terminal failures return immediately"
+    )]
+    #[serde(default = "default_ref_timeout_ms")]
+    pub timeout_ms: u64,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct SetValueArgs {
+    #[arg(
+        value_name = "REF",
+        help = "Qualified ref from snapshot (@<snapshot_id>:eN), or legacy @eN with --snapshot"
+    )]
+    pub ref_id: String,
+    #[arg(
+        long,
+        value_name = "SNAPSHOT_ID",
+        help = "Snapshot ID required for a legacy bare @eN ref; omit for a qualified ref"
+    )]
+    pub snapshot: Option<String>,
+    #[arg(
+        value_name = "VALUE",
+        allow_hyphen_values = true,
+        help = "Value to set"
+    )]
+    pub value: String,
+    #[arg(
+        long = "timeout-ms",
+        default_value_t = 5000,
+        help = "Maximum ref-resolution and transient-actionability wait in milliseconds; terminal failures return immediately"
+    )]
+    #[serde(default = "default_ref_timeout_ms")]
+    pub timeout_ms: u64,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct SelectArgs {
+    #[arg(
+        value_name = "REF",
+        help = "Qualified ref from snapshot (@<snapshot_id>:eN), or legacy @eN with --snapshot"
+    )]
+    pub ref_id: String,
+    #[arg(
+        long,
+        value_name = "SNAPSHOT_ID",
+        help = "Snapshot ID required for a legacy bare @eN ref; omit for a qualified ref"
+    )]
+    pub snapshot: Option<String>,
+    #[arg(value_name = "VALUE", help = "Option to select")]
+    pub value: String,
+    #[arg(
+        long = "timeout-ms",
+        default_value_t = 5000,
+        help = "Maximum ref-resolution and transient-actionability wait in milliseconds; terminal failures return immediately"
+    )]
+    #[serde(default = "default_ref_timeout_ms")]
+    pub timeout_ms: u64,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct ScrollArgs {
+    #[arg(
+        value_name = "REF",
+        help = "Qualified ref from snapshot (@<snapshot_id>:eN), or legacy @eN with --snapshot"
+    )]
+    pub ref_id: String,
+    #[arg(
+        long,
+        value_name = "SNAPSHOT_ID",
+        help = "Snapshot ID required for a legacy bare @eN ref; omit for a qualified ref"
+    )]
+    pub snapshot: Option<String>,
+    #[arg(
+        long,
+        default_value = "down",
+        help = "Direction: up, down, left, right"
+    )]
+    #[serde(default = "default_scroll_direction")]
+    pub direction: String,
+    #[arg(long, default_value = "3", help = "Number of scroll units")]
+    #[serde(default = "default_scroll_amount")]
+    pub amount: u32,
+    #[arg(
+        long = "timeout-ms",
+        default_value_t = 5000,
+        help = "Maximum ref-resolution and transient-actionability wait in milliseconds; terminal failures return immediately"
+    )]
+    #[serde(default = "default_ref_timeout_ms")]
+    pub timeout_ms: u64,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct PressArgs {
+    #[arg(
+        value_name = "COMBO",
+        help = "Key combo: return, escape, cmd+c, shift+tab ..."
+    )]
+    pub combo: String,
+    #[arg(long, help = "Target application name (focuses app before pressing)")]
+    pub app: Option<String>,
+    #[arg(
+        long,
+        help = "Send the combo even if the adapter flags it as a dangerous shortcut"
+    )]
+    #[serde(default)]
+    pub force: bool,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct KeyComboArgs {
+    #[arg(
+        value_name = "COMBO",
+        help = "Key or modifier to hold/release: shift, meta, ctrl ... (cmd is accepted)"
+    )]
+    pub combo: String,
+    #[arg(
+        long,
+        help = "Send the combo even if the adapter flags it as a dangerous shortcut"
+    )]
+    #[serde(default)]
+    pub force: bool,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct HoverArgs {
+    #[arg(
+        value_name = "REF",
+        help = "Element ref to hover over; requires --headed"
+    )]
+    pub ref_id: Option<String>,
+    #[arg(
+        long,
+        value_name = "SNAPSHOT_ID",
+        help = "Snapshot ID required for a legacy bare @eN ref; omit for a qualified ref"
+    )]
+    pub snapshot: Option<String>,
+    #[arg(long, help = "Absolute coordinates as x,y; requires --headed")]
+    pub xy: Option<String>,
+    #[arg(
+        long,
+        help = "Reserved for compatibility; positive values are rejected in stateless mode (run hover, then `wait <ms>` instead)"
+    )]
+    pub duration: Option<u64>,
+    #[arg(
+        long = "timeout-ms",
+        default_value_t = 5000,
+        help = "Maximum ref-resolution and transient-actionability wait in milliseconds; terminal failures return immediately"
+    )]
+    #[serde(default = "default_ref_timeout_ms")]
+    pub timeout_ms: u64,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct MouseMoveArgs {
+    #[arg(long, help = "Absolute coordinates as x,y; requires --headed")]
+    pub xy: String,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct MouseClickArgs {
+    #[arg(long, help = "Absolute coordinates as x,y; requires --headed")]
+    pub xy: String,
+    #[arg(
+        long,
+        default_value = "left",
+        help = "Mouse button: left, right, middle"
+    )]
+    #[serde(default = "default_mouse_button")]
+    pub button: String,
+    #[arg(long, default_value = "1", help = "Number of clicks")]
+    #[serde(default = "default_mouse_click_count")]
+    pub count: u32,
+    #[arg(
+        long,
+        value_name = "MODIFIER",
+        help = "Held modifiers: shift, meta, ctrl, alt (repeatable; cmd is accepted)"
+    )]
+    #[serde(default)]
+    pub modifiers: Vec<String>,
+}
+
+#[derive(Parser, Debug, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub(crate) struct MousePointArgs {
+    #[arg(long, help = "Absolute coordinates as x,y; requires --headed")]
+    pub xy: String,
+    #[arg(
+        long,
+        default_value = "left",
+        help = "Mouse button: left, right, middle"
+    )]
+    #[serde(default = "default_mouse_button")]
+    pub button: String,
+    #[arg(
+        long,
+        value_name = "MODIFIER",
+        help = "Held modifiers: shift, meta, ctrl, alt (repeatable; cmd is accepted)"
+    )]
+    #[serde(default)]
+    pub modifiers: Vec<String>,
+}
+
+#[cfg(test)]
+#[path = "actions_tests.rs"]
+mod tests;

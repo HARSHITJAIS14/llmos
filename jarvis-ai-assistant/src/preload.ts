@@ -1,0 +1,236 @@
+import { contextBridge, ipcRenderer } from 'electron';
+
+// Preload side-effect import sets up IPC bridge for renderer/main
+
+contextBridge.exposeInMainWorld('electronAPI', {
+  getStats: () => ipcRenderer.invoke('get-stats'),
+  refreshAnalytics: () => ipcRenderer.invoke('refresh-analytics'),
+  dictationRecent: (limit?: number) => ipcRenderer.invoke('dictation:recent', limit),
+  posthogCapture: (event: string, properties?: Record<string, any>) =>
+    ipcRenderer.invoke('posthog:capture', event, properties),
+  preloadLocalModel: () => ipcRenderer.invoke('model:preload'),
+  // Setup readiness (engine/mic/accessibility/arch). One-shot getter + live
+  // subscription so the onboarding tutorial can explain why dictation isn't
+  // working instead of leaving the user pressing Fn into the void.
+  getSetupStatus: () => ipcRenderer.invoke('app:get-setup-status'),
+  onSetupStatus: (callback: (status: any) => void) => {
+    const listener = (_event: any, status: any) => callback(status);
+    ipcRenderer.on('app:setup-status', listener);
+    return () => ipcRenderer.removeListener('app:setup-status', listener);
+  },
+  showWaveform: () => ipcRenderer.invoke('waveform:show'),
+  hideWaveform: () => ipcRenderer.invoke('waveform:hide'),
+  warmMic: () => ipcRenderer.invoke('mic:warm'),
+  onStatsUpdate: (callback: (stats: any) => void) => {
+    console.log('📊 [Preload] Setting up onStatsUpdate listener');
+    const listener = (_event: any, stats: any) => {
+      console.debug('📊 [Preload] Received stats-update event:', stats); // Moved to console.debug to reduce spam
+      callback(stats);
+    };
+    ipcRenderer.on('stats-update', listener);
+    return () => {
+      console.log('📊 [Preload] Removing onStatsUpdate listener');
+      ipcRenderer.removeListener('stats-update', listener);
+    };
+  },
+  pasteLastTranscription: () => ipcRenderer.send('paste-last-transcription'),
+  getLastTranscription: () => ipcRenderer.invoke('get-last-transcription'),
+  setVoiceTutorialMode: (enabled: boolean) => ipcRenderer.send('set-voice-tutorial-mode', enabled),
+  setEmailTutorialMode: (enabled: boolean) => ipcRenderer.send('set-email-tutorial-mode', enabled),
+  onTutorialTranscription: (callback: (text: string) => void) => {
+    ipcRenderer.on('tutorial-transcription', (event, text) => callback(text));
+  },
+  startDictation: () => ipcRenderer.send('start-dictation'),
+  closeApp: () => ipcRenderer.send('close-app'),
+  getAppVersion: () => ipcRenderer.invoke('get-app-version'),
+  openExternal: (url: string) => ipcRenderer.invoke('open-external', url),
+  onOAuthCallback: (callback: (data: { code: string; state: string }) => void) => {
+    ipcRenderer.on('oauth-callback', (_event, data) => callback(data));
+  },
+  completeOnboarding: () => ipcRenderer.invoke('complete-onboarding'),
+  checkOnboardingStatus: () => ipcRenderer.invoke('check-onboarding-status'),
+  resetOnboarding: () => ipcRenderer.invoke('reset-onboarding'),
+  cleanupOnboarding: () => ipcRenderer.invoke('cleanup-onboarding'),
+  startFnKeyMonitor: () => ipcRenderer.invoke('start-fn-key-monitor'),
+  stopFnKeyMonitor: () => ipcRenderer.invoke('stop-fn-key-monitor'),
+  startHotkeyMonitoring: () => ipcRenderer.invoke('start-hotkey-monitoring'),
+  stopHotkeyMonitoring: () => ipcRenderer.invoke('stop-hotkey-monitoring'),
+  onFnKeyEvent: (event: 'down' | 'up', callback: () => void) => {
+    ipcRenderer.on(`fn-key-${event}`, callback);
+  },
+  onFnKeyStateChange: (callback: (event: any, isPressed: boolean) => void) => {
+    console.log('🎯 [Preload] Setting up onFnKeyStateChange listener');
+    // Listen for Fn key state changes for tutorial purposes
+    ipcRenderer.on('fn-key-state-change', (event, isPressed) => {
+      console.log('🎯 [Preload] Received fn-key-state-change event:', { isPressed });
+      callback(event, isPressed);
+    });
+  },
+
+  // Push-to-talk state handlers for tutorial screens
+  onPushToTalkStateChange: (callback: (isActive: boolean) => void) => {
+    console.log('🎯 [Preload] Setting up onPushToTalkStateChange listener');
+    ipcRenderer.on('push-to-talk-state-change', (_event, isActive) => {
+      console.log('🎯 [Preload] Received push-to-talk-state-change event:', { isActive });
+      callback(isActive);
+    });
+  },
+
+  onTranscriptionStateChange: (callback: (isTranscribing: boolean) => void) => {
+    console.log('🎯 [Preload] Setting up onTranscriptionStateChange listener');
+    ipcRenderer.on('transcription-state-change', (_event, isTranscribing) => {
+      console.log('🎯 [Preload] Received transcription-state-change event:', { isTranscribing });
+      callback(isTranscribing);
+    });
+  },
+
+  // User authentication
+  logout: () => ipcRenderer.invoke('logout'),
+
+  // Auth state persistence
+  saveAuthState: (authState: any) => ipcRenderer.invoke('save-auth-state', authState),
+  loadAuthState: () => ipcRenderer.invoke('load-auth-state'),
+  clearAuthState: () => ipcRenderer.invoke('clear-auth-state'),
+  validateAuthState: () => ipcRenderer.invoke('validate-auth-state'),
+
+  // Permission requests
+  requestMicrophonePermission: () => ipcRenderer.invoke('request-microphone-permission'),
+  requestAccessibilityPermission: () => ipcRenderer.invoke('request-accessibility-permission'),
+  requestNotificationPermission: () => ipcRenderer.invoke('request-notification-permission'),
+  checkPermissionStatus: (permission: string) => ipcRenderer.invoke('check-permission-status', permission),
+
+  // Permission monitoring
+  startPermissionMonitoring: () => ipcRenderer.send('start-permission-monitoring'),
+  stopPermissionMonitoring: () => ipcRenderer.send('stop-permission-monitoring'),
+  onPermissionStatusChange: (callback: (permission: string, status: string) => void) => {
+    ipcRenderer.on('permission-status-changed', (_event, permission, status) => callback(permission, status));
+  },
+
+  // Dictionary methods
+  getDictionary: () => ipcRenderer.invoke('get-dictionary'),
+  addDictionaryEntry: (word: string, pronunciation?: string) => ipcRenderer.invoke('add-dictionary-entry', word, pronunciation),
+  removeDictionaryEntry: (id: string) => ipcRenderer.invoke('remove-dictionary-entry', id),
+
+  // Testing methods
+  getLogFilePath: () => ipcRenderer.invoke('get-log-file-path'),
+
+  // Nudge service methods
+  nudgeRecordTyping: () => ipcRenderer.invoke('nudge:record-typing'),
+  nudgeRecordJarvisUsage: () => ipcRenderer.invoke('nudge:record-jarvis-usage'),
+  nudgeGetConfig: () => ipcRenderer.invoke('nudge:get-config'),
+  nudgeUpdateConfig: (config: any) => ipcRenderer.invoke('nudge:update-config', config),
+  nudgeSnooze: () => ipcRenderer.invoke('nudge:snooze'),
+  nudgeClose: () => ipcRenderer.invoke('nudge:close'),
+  nudgeEnableGlobalTyping: () => ipcRenderer.invoke('nudge:enable-global-typing'),
+  nudgeResetDaily: () => ipcRenderer.invoke('nudge:reset-daily'),
+
+  // Nudge settings methods
+  nudgeGetSettings: () => ipcRenderer.invoke('nudge:get-settings'),
+  nudgeUpdateSettings: (settings: any) => {
+    console.log('[Preload] nudgeUpdateSettings called with:', settings);
+    if (!settings || typeof settings !== 'object') {
+      console.error('[Preload] Invalid settings passed to nudgeUpdateSettings:', settings);
+      return Promise.reject(new Error('Invalid settings: must be an object'));
+    }
+    return ipcRenderer.invoke('nudge:update-settings', settings);
+  },
+
+  // App settings methods
+  appGetSettings: () => ipcRenderer.invoke('app:get-settings'),
+  getUserSettings: () => ipcRenderer.invoke('app:get-settings'), // Alias for getUserSettings
+  appUpdateSettings: (settings: any) => ipcRenderer.invoke('app:update-settings', settings),
+  setHotkey: (hotkey: string) => ipcRenderer.invoke('app:update-settings', { hotkey }),
+  getCurrentSettings: () => ipcRenderer.invoke('app-settings:get'),
+  appGetAutoLaunchStatus: () => ipcRenderer.invoke('app-settings:get-auto-launch-status'),
+  appSyncAutoLaunch: () => ipcRenderer.invoke('app-settings:sync-auto-launch'),
+
+  // Ollama
+  ollamaGetModels: (url: string) => ipcRenderer.invoke('ollama:get-models', url),
+
+  // API Key methods (stored locally, never uploaded)
+  getApiKeys: () => ipcRenderer.invoke('api-keys:get'),
+  saveApiKeys: (keys: {
+    openaiApiKey?: string;
+    deepgramApiKey?: string;
+    anthropicApiKey?: string;
+    geminiApiKey?: string;
+    awsAccessKeyId?: string;
+    awsSecretAccessKey?: string;
+    awsRegion?: string;
+  }) =>
+    ipcRenderer.invoke('api-keys:save', keys),
+
+  // Whisper model management
+  whisperGetDownloadedModels: () => ipcRenderer.invoke('whisper:get-downloaded-models'),
+  whisperIsModelDownloaded: (modelId: string) => ipcRenderer.invoke('whisper:is-model-downloaded', modelId),
+  whisperDownloadModel: (modelId: string) => ipcRenderer.invoke('whisper:download-model', modelId),
+  onWhisperDownloadProgress: (callback: (data: { modelId: string; percent: number; downloadedMB: number; totalMB: number }) => void) => {
+    ipcRenderer.on('whisper:download-progress', (_event, data) => callback(data));
+  },
+  removeWhisperDownloadProgressListener: () => {
+    ipcRenderer.removeAllListeners('whisper:download-progress');
+  },
+
+  // Sherpa-ONNX model management
+  sherpaGetDownloadedModels: () => ipcRenderer.invoke('sherpa:get-downloaded-models'),
+  sherpaIsModelDownloaded: (modelId: string) => ipcRenderer.invoke('sherpa:is-model-downloaded', modelId),
+  sherpaDownloadModel: (modelId: string) => ipcRenderer.invoke('sherpa:download-model', modelId),
+  onSherpaDownloadProgress: (callback: (data: { modelId: string; percent: number; downloadedMB: number; totalMB: number }) => void) => {
+    ipcRenderer.on('sherpa:download-progress', (_event, data) => callback(data));
+  },
+  removeSherpaDownloadProgressListener: () => {
+    ipcRenderer.removeAllListeners('sherpa:download-progress');
+  },
+
+  // SenseVoice model management
+  senseVoiceGetDownloadedModels: () => ipcRenderer.invoke('sensevoice:get-downloaded-models'),
+  senseVoiceIsModelDownloaded: (modelId: string) => ipcRenderer.invoke('sensevoice:is-model-downloaded', modelId),
+  senseVoiceDownloadModel: (modelId: string) => ipcRenderer.invoke('sensevoice:download-model', modelId),
+  onSenseVoiceDownloadProgress: (callback: (data: { modelId: string; percent: number; downloadedMB: number; totalMB: number }) => void) => {
+    ipcRenderer.on('sensevoice:download-progress', (_event, data) => callback(data));
+  },
+  removeSenseVoiceDownloadProgressListener: () => {
+    ipcRenderer.removeAllListeners('sensevoice:download-progress');
+  },
+
+  // Sound playback methods
+  playSound: (soundType: string) => ipcRenderer.invoke('play-sound', soundType),
+
+  // Shell methods for opening URLs
+  shell: {
+    openExternal: (url: string) => ipcRenderer.invoke('shell-open-external', url)
+  },
+
+  // Update methods
+  downloadUpdate: (data: { downloadUrl: string; version: string }) => ipcRenderer.invoke('download-update', data),
+  restartApp: () => ipcRenderer.invoke('restart-app'),
+
+  // Jarvis 2.0 beta upgrade · kicks off the arch-aware download+install via the
+  // normal updater. Progress/completion flow back over the listeners below.
+  jarvis2Upgrade: () => ipcRenderer.invoke('jarvis2-upgrade'),
+  onJarvis2Progress: (callback: (percent: number) => void) => {
+    const l = (_e: any, data: { percent: number }) => callback(data?.percent ?? 0);
+    ipcRenderer.on('update-progress', l);
+    return () => ipcRenderer.removeListener('update-progress', l);
+  },
+  onJarvis2Done: (callback: () => void) => {
+    const l = () => callback();
+    ipcRenderer.on('update-downloaded', l);
+    return () => ipcRenderer.removeListener('update-downloaded', l);
+  },
+  onJarvis2Error: (callback: (error: string) => void) => {
+    const l = (_e: any, data: { error?: string }) => callback(data?.error ?? 'unknown');
+    ipcRenderer.on('update-download-error', l);
+    return () => ipcRenderer.removeListener('update-download-error', l);
+  },
+
+  // Expose ipcRenderer for auth callbacks
+  ipcRenderer: {
+    on: (channel: string, callback: (...args: any[]) => void) => {
+      ipcRenderer.on(channel, callback);
+    },
+    removeListener: (channel: string, callback: (...args: any[]) => void) => {
+      ipcRenderer.removeListener(channel, callback);
+    }
+  }
+});

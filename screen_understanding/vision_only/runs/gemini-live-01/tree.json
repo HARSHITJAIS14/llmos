@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "mode": "vision-only",
+  "source_size": [
+    2398,
+    1830
+  ],
+  "regions": [
+    {
+      "id": "r0",
+      "parent": null,
+      "depth": 0,
+      "label": "Whole screen",
+      "box": [
+        0,
+        0,
+        2398,
+        1830
+      ],
+      "status": "pending",
+      "crop_file": "crops/r0.png",
+      "crop_box": [
+        0,
+        0,
+        2398,
+        1830
+      ]
+    }
+  ],
+  "reconciliation": {},
+  "limits": {
+    "depth": 1,
+    "analyses": 5
+  },
+  "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "analysis_count": 0
+}

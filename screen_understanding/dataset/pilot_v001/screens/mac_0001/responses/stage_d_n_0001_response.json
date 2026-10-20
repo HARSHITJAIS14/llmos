@@ -1,0 +1,1518 @@
+{
+  "model_requested": "gemini-3.8-flash",
+  "model_returned": "gemini-3.8-flash",
+  "finish_reason": "STOP",
+  "elapsed_seconds": 231.5642,
+  "usage": {
+    "prompt_tokens": 8720,
+    "candidates_tokens": 12602,
+    "thoughts_tokens": 30174,
+    "total_tokens": 51496
+  },
+  "raw_text": "{\n  \"nodes\": [\n    {\n      \"level\": \"element\",\n      \"role\": \"button_group\",\n      \"semantic_name\": \"Window Management Controls\",\n      \"bbox\": [134.0, 90.0, 284.0, 163.0],\n      \"proposal_ids\": [\n        \"d_0027\"\n      ],\n      \"box_status\": \"retained\",\n      \"surface\": \"browser_chrome\",\n      \"content_type\": \"control\",\n      \"description\": \"macOS standard traffic light buttons featuring close (red), minimize (yellow), and zoom/fullscreen (green) controls.\",\n      \"context_description\": \"Positioned at the upper-left corner of the Safari browser title bar.\",\n      \"function\": {\n        \"label\": \"manage_window\",\n        \"description\": \"Close, minimize, or expand the Safari browser window\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Three circular colored buttons (red, yellow, green) aligned horizontally\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"button_group\",\n      \"semantic_name\": \"Safari Navigation and Sidebar Controls\",\n      \"bbox\": [299.0, 88.0, 748.0, 168.0],\n      \"proposal_ids\": [\n        \"d_0010\",\n        \"d_0011\",\n        \"d_0017\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"browser_chrome\",\n      \"content_type\": \"control\",\n      \"description\": \"Browser navigation controls including the sidebar toggle button, back and forward page navigation arrows, and extension icon.\",\n      \"context_description\": \"Located between the window management buttons and the central URL address bar in Safari's top chrome.\",\n      \"function\": {\n        \"label\": \"browser_navigation\",\n        \"description\": \"Navigate page history, toggle Safari sidebar, and access extension settings\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Sidebar layout icon, left and right chevron navigation buttons, and Dark Reader moon icon\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"element\",\n      \"role\": \"text_input\",\n      \"semantic_name\": \"Safari Address and Search Bar\",\n      \"bbox\": [752.0, 90.0, 1645.0, 171.0],\n      \"proposal_ids\": [\n        \"d_0029\",\n        \"d_0031\",\n        \"d_0042\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"browser_chrome\",\n      \"content_type\": \"control\",\n      \"description\": \"Central address bar displaying 'youtube.com' with an integrated reload glyph on the right.\",\n      \"context_description\": \"Centered horizontally in the Safari toolbar between navigation controls and utility buttons.\",\n      \"function\": {\n        \"label\": \"navigate_url\",\n        \"description\": \"Displays current website domain, reloads the current page, and accepts URL input or search queries\",\n        \"status\": \"observed\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"youtube.com\",\n          \"bbox\": [1121.0, 114.0, 1276.0, 146.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"false\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"false\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Centered text 'youtube.com' with circular reload icon on the right edge\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"button_group\",\n      \"semantic_name\": \"Safari Toolbar Utility Controls\",\n      \"bbox\": [1978.0, 91.0, 2267.0, 165.0],\n      \"proposal_ids\": [\n        \"d_0028\",\n        \"d_0030\",\n        \"d_0035\",\n        \"d_0039\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"browser_chrome\",\n      \"content_type\": \"control\",\n      \"description\": \"Right-aligned Safari toolbar controls including download status, share sheet, new tab (+), and tab overview buttons.\",\n      \"context_description\": \"Located at the far right of Safari's top toolbar.\",\n      \"function\": {\n        \"label\": \"safari_utilities\",\n        \"description\": \"View downloads, share page, open a new tab, or view all active tabs\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Icons for downloads, share sheet, plus sign, and dual overlapping tab squares\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"tab_strip\",\n      \"semantic_name\": \"Safari Tab Bar\",\n      \"bbox\": [125.0, 178.0, 2274.0, 246.0],\n      \"proposal_ids\": [\n        \"d_0009\",\n        \"d_0032\",\n        \"d_0034\",\n        \"d_0043\",\n        \"d_0044\",\n        \"d_0045\",\n        \"d_0052\",\n        \"d_0054\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"browser_chrome\",\n      \"content_type\": \"container\",\n      \"description\": \"Horizontal browser tab strip containing eight open tabs, with the active tab highlighting the current YouTube video.\",\n      \"context_description\": \"Directly below Safari's main toolbar and above the YouTube webpage content.\",\n      \"function\": {\n        \"label\": \"switch_tab\",\n        \"description\": \"Switch between open browser tabs\",\n        \"status\": \"observed\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"(11) YouT...\",\n          \"bbox\": [193.0, 203.0, 258.0, 222.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"diffusion...\",\n          \"bbox\": [397.0, 203.0, 461.0, 222.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"High-Fre...\",\n          \"bbox\": [603.0, 203.0, 663.0, 222.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"keys | Go...\",\n          \"bbox\": [811.0, 203.0, 874.0, 222.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Keys - Gr...\",\n          \"bbox\": [1019.0, 203.0, 1079.0, 222.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"(11) Brian Singerman...\",\n          \"bbox\": [1230.0, 203.0, 1374.0, 222.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"(4093) II...\",\n          \"bbox\": [1560.0, 203.0, 1618.0, 222.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Feed | Li...\",\n          \"bbox\": [1765.0, 203.0, 1827.0, 222.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"true\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Contiguous row of tabs with favicons, titles, and active tab styling on Brian Singerman\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"navigation_group\",\n      \"semantic_name\": \"YouTube Header Brand and Guide Toggle\",\n      \"bbox\": [138.0, 270.0, 489.0, 355.0],\n      \"proposal_ids\": [\n        \"d_0024\",\n        \"d_0033\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"control\",\n      \"description\": \"YouTube navigation menu hamburger button alongside the YouTube Premium logo and country code 'IN'.\",\n      \"context_description\": \"Top-left area of the YouTube webpage header.\",\n      \"function\": {\n        \"label\": \"toggle_menu_or_home\",\n        \"description\": \"Open YouTube sidebar drawer or return to the home page\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"Premium\",\n          \"bbox\": [260.0, 318.0, 383.0, 342.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"IN\",\n          \"bbox\": [383.0, 305.0, 401.0, 319.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"false\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Hamburger icon next to YouTube play button logo with 'Premium' text\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"text_input\",\n      \"semantic_name\": \"YouTube Search Bar\",\n      \"bbox\": [629.0, 270.0, 1773.0, 360.0],\n      \"proposal_ids\": [\n        \"d_0013\",\n        \"d_0014\",\n        \"d_0049\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"control\",\n      \"description\": \"YouTube search text input field with placeholder 'Search', search submit magnifying glass button, and adjacent voice search microphone button.\",\n      \"context_description\": \"Centered horizontally in the YouTube top masthead.\",\n      \"function\": {\n        \"label\": \"search_youtube\",\n        \"description\": \"Submit a text or voice search query to YouTube\",\n        \"status\": \"observed\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"Search\",\n          \"bbox\": [655.0, 316.0, 746.0, 339.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"false\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"false\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Rounded rectangular search box with magnifying glass and circular microphone button\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"button_group\",\n      \"semantic_name\": \"YouTube User and Creation Controls\",\n      \"bbox\": [1789.0, 270.0, 2210.0, 355.0],\n      \"proposal_ids\": [\n        \"d_0004\",\n        \"d_0020\",\n        \"d_0021\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"control\",\n      \"description\": \"Header utility controls including '+ Create' pill button, notification bell with red '9+' count badge, and purple circular user avatar 'H'.\",\n      \"context_description\": \"Located at the far right of the YouTube webpage masthead.\",\n      \"function\": {\n        \"label\": \"user_actions\",\n        \"description\": \"Upload content, review notifications, and access user account menu\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"+ Create\",\n          \"bbox\": [1827.0, 318.0, 1928.0, 338.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"9+\",\n          \"bbox\": [1988.0, 298.0, 2011.0, 313.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"H\",\n          \"bbox\": [2070.0, 312.0, 2087.0, 334.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"false\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"'+ Create' rounded button, notification bell with red badge, and user avatar 'H'\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"video\",\n      \"semantic_name\": \"YouTube Video Player\",\n      \"bbox\": [143.0, 380.0, 1550.0, 1175.0],\n      \"proposal_ids\": [\n        \"d_0023\",\n        \"d_0036\",\n        \"d_0037\",\n        \"d_0038\",\n        \"d_0040\",\n        \"d_0041\",\n        \"d_0051\",\n        \"d_0053\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"embedded_content\",\n      \"content_type\": \"image\",\n      \"description\": \"Active video viewport rendering a Founders Fund portfolio slide featuring logos for Polymarket, Lighter, Figma, Varda, and Impulse Space.\",\n      \"context_description\": \"Occupies the main content region on the left side of the watch page.\",\n      \"function\": {\n        \"label\": \"playback_stream\",\n        \"description\": \"Displays streaming video content\",\n        \"status\": \"observed\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"FOUNDERS FUND\",\n          \"bbox\": [217.0, 483.0, 367.0, 497.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Polymarket\",\n          \"bbox\": [207.0, 622.0, 331.0, 645.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Lighter\",\n          \"bbox\": [530.0, 621.0, 611.0, 644.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Figma\",\n          \"bbox\": [846.0, 624.0, 900.0, 645.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"VARDA\",\n          \"bbox\": [1153.0, 623.0, 1213.0, 638.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"16:9 video frame displaying presentation graphics and Sourcery watermark badge\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"element\",\n      \"role\": \"heading\",\n      \"semantic_name\": \"Video Title Heading\",\n      \"bbox\": [148.0, 1225.0, 1420.0, 1290.0],\n      \"proposal_ids\": [\n        \"d_0015\"\n      ],\n      \"box_status\": \"split\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"text\",\n      \"description\": \"Primary video title heading text displaying the episode title and an 'Auto-dubbed' indicator badge.\",\n      \"context_description\": \"Directly underneath the main video player.\",\n      \"function\": null,\n      \"visible_text\": [\n        {\n          \"text\": \"Brian Singerman: \\\"If SpaceX Didn't Work, Founders Fund Wouldn't Exist\\\"\",\n          \"bbox\": [148.0, 1229.0, 1190.0, 1259.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Auto-dubbed\",\n          \"bbox\": [182.0, 1270.0, 269.0, 1285.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Prominent bold typography stating Brian Singerman's quotation\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"button_group\",\n      \"semantic_name\": \"Channel Information and Subscribe Control\",\n      \"bbox\": [141.0, 1312.0, 877.0, 1400.0],\n      \"proposal_ids\": [\n        \"d_0006\",\n        \"d_0048\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"control\",\n      \"description\": \"Channel details including the circular 'S' avatar, channel name 'Sourcery with Molly O'Shea', subscriber count, and white 'Subscribe' button.\",\n      \"context_description\": \"Positioned below the video title on the left side of the action bar.\",\n      \"function\": {\n        \"label\": \"subscribe\",\n        \"description\": \"Subscribe to the channel broadcasting the video\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"Sourcery with Molly O'Shea\",\n          \"bbox\": [207.0, 1334.0, 482.0, 1358.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"68.8k subscribers\",\n          \"bbox\": [207.0, 1362.0, 372.0, 1381.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Subscribe\",\n          \"bbox\": [671.0, 1344.0, 770.0, 1368.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"false\",\n        \"checked\": \"false\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Avatar icon, channel name with subscriber count, and pill button labeled 'Subscribe'\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"button_group\",\n      \"semantic_name\": \"Video Interaction Controls\",\n      \"bbox\": [952.0, 1313.0, 1551.0, 1399.0],\n      \"proposal_ids\": [\n        \"d_0007\",\n        \"d_0008\",\n        \"d_0016\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"control\",\n      \"description\": \"Video interaction buttons including segmented like/dislike (showing count 314), share button, and overflow options menu button (...).\",\n      \"context_description\": \"Located to the right of the subscribe button on the video action bar.\",\n      \"function\": {\n        \"label\": \"interact_video\",\n        \"description\": \"Like, dislike, share, or open additional options for the video\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"314\",\n          \"bbox\": [1038.0, 1345.0, 1076.0, 1368.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Share\",\n          \"bbox\": [1317.0, 1345.0, 1383.0, 1367.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"false\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Like thumbs-up icon with count 314, share icon with label 'Share', and three dots overflow button\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"card\",\n      \"semantic_name\": \"Video Description Card\",\n      \"bbox\": [148.0, 1412.0, 1550.0, 1660.0],\n      \"proposal_ids\": [\n        \"d_0015\"\n      ],\n      \"box_status\": \"split\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"text\",\n      \"description\": \"Collapsible video metadata box showing view count (12k views), published duration (2 months ago), and introductory summary text.\",\n      \"context_description\": \"Directly below the channel and action button row.\",\n      \"function\": {\n        \"label\": \"expand_description\",\n        \"description\": \"Expands the full episode description\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"12k views  2 months ago  Sourcery\",\n          \"bbox\": [168.0, 1435.0, 480.0, 1455.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Brian Singerman spent 17 years at Founders Fund, where he helped drive large concentrated investments into companies like SpaceX, Palantir, Airbnb, Stripe, Stemcentrx, Anduril, and Affirm. He recently left to co-found GPx, a new fund backing emerging managers. In this episode we break down the philosophy behind F ...more\",\n          \"bbox\": [168.0, 1466.0, 1528.0, 1550.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"not_applicable\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"false\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Dark gray container with metadata line and multiline descriptive paragraph ending in '...more'\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"tab_strip\",\n      \"semantic_name\": \"Related Videos Filter Bar\",\n      \"bbox\": [1576.0, 389.0, 2211.0, 462.0],\n      \"proposal_ids\": [\n        \"d_0012\",\n        \"d_0019\",\n        \"d_0047\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"control\",\n      \"description\": \"Filter chip strip above recommended videos containing 'All', 'From the series', and right carousel navigation button.\",\n      \"context_description\": \"Top of the sidebar column to the right of the main video player.\",\n      \"function\": {\n        \"label\": \"filter_related_videos\",\n        \"description\": \"Filter the list of recommended videos by tag or series\",\n        \"status\": \"observed\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"All\",\n          \"bbox\": [1604.0, 417.0, 1636.0, 434.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"From the series\",\n          \"bbox\": [1709.0, 417.0, 1878.0, 434.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"From Source\",\n          \"bbox\": [1951.0, 417.0, 2038.0, 434.0],\n          \"legibility\": \"partially_legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"true\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Pill buttons with active selection on 'All' and chevron arrow icon on the right\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"card\",\n      \"semantic_name\": \"Recommended Video: Tom Mueller: SpaceX's #1\",\n      \"bbox\": [1573.0, 475.0, 2240.0, 707.0],\n      \"proposal_ids\": [\n        \"d_0003\"\n      ],\n      \"box_status\": \"corrected\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"container\",\n      \"description\": \"Sidebar recommended video card showing 'SpaceX #1' thumbnail (44:00 duration) with video title and view metrics.\",\n      \"context_description\": \"First recommendation card in the right sidebar below the filter bar.\",\n      \"function\": {\n        \"label\": \"open_video\",\n        \"description\": \"Open and play Tom Mueller interview video\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"Tom Mueller: SpaceX's #1 ...\",\n          \"bbox\": [1994.0, 488.0, 2200.0, 526.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Sourcery with Moll...\",\n          \"bbox\": [1994.0, 535.0, 2210.0, 553.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"361k  2 mo ago\",\n          \"bbox\": [2028.0, 563.0, 2188.0, 581.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"SpaceX #1\",\n          \"bbox\": [1601.0, 638.0, 1792.0, 667.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"44:00\",\n          \"bbox\": [1896.0, 649.0, 1948.0, 668.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"false\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Video thumbnail showing interview scene with duration badge and adjacent title text\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"card\",\n      \"semantic_name\": \"Recommended Video: Why Impulse Raised $500M\",\n      \"bbox\": [1574.0, 717.0, 2238.0, 948.0],\n      \"proposal_ids\": [\n        \"d_0001\",\n        \"d_0046\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"container\",\n      \"description\": \"Sidebar recommended video card showing 'SPACEX EMPLOYEES #1 & #13' thumbnail (47:58) with title 'Why Impulse Raised $500M t...'.\",\n      \"context_description\": \"Second recommendation card in the right sidebar.\",\n      \"function\": {\n        \"label\": \"open_video\",\n        \"description\": \"Open and play Impulse Space interview video\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"Why Impulse Raised $500M t...\",\n          \"bbox\": [1994.0, 730.0, 2210.0, 768.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Sourcery with Moll...\",\n          \"bbox\": [1994.0, 777.0, 2210.0, 795.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"104k  2 mo ago\",\n          \"bbox\": [2028.0, 805.0, 2196.0, 823.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"SPACEX EMPLOYEES #1 & #13\",\n          \"bbox\": [1600.0, 866.0, 1946.0, 908.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"47:58\",\n          \"bbox\": [1896.0, 891.0, 1948.0, 910.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"false\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Thumbnail featuring manufacturing hangar, duration overlay, and adjacent title block\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"card\",\n      \"semantic_name\": \"Recommended Video: We Don't Trust Agents\",\n      \"bbox\": [1571.0, 957.0, 2235.0, 1191.0],\n      \"proposal_ids\": [\n        \"d_0018\",\n        \"d_0026\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"container\",\n      \"description\": \"Sidebar recommended video card showing 'AI'S BIGGEST THREAT' thumbnail (55:06) with title \\\"We Don't Trust Agents - What ...\\\".\",\n      \"context_description\": \"Third recommendation card in the right sidebar.\",\n      \"function\": {\n        \"label\": \"open_video\",\n        \"description\": \"Open and play AI agents discussion video\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"\\\"We Don't Trust Agents\\\" - What ...\",\n          \"bbox\": [1994.0, 970.0, 2210.0, 1008.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Sourcery with Moll...\",\n          \"bbox\": [1994.0, 1017.0, 2210.0, 1035.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"12k  2 mo ago\",\n          \"bbox\": [2028.0, 1045.0, 2180.0, 1063.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"AI'S BIGGEST THREAT\",\n          \"bbox\": [1600.0, 1106.0, 1856.0, 1148.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"55:06\",\n          \"bbox\": [1896.0, 1133.0, 1948.0, 1152.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"false\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Interview panel thumbnail with bold caption 'AI'S BIGGEST THREAT' and title metadata\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"card\",\n      \"semantic_name\": \"Recommended Video: She Bought a Bank for $56M\",\n      \"bbox\": [1574.0, 1199.0, 2234.0, 1432.0],\n      \"proposal_ids\": [\n        \"d_0005\",\n        \"d_0025\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"container\",\n      \"description\": \"Sidebar recommended video card showing '$50 BILLION DEAL' thumbnail (1:07:18) with title 'She Bought a Bank for $56M. ...'.\",\n      \"context_description\": \"Fourth recommendation card in the right sidebar.\",\n      \"function\": {\n        \"label\": \"open_video\",\n        \"description\": \"Open and play Lead Bank interview video\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"She Bought a Bank for $56M. ...\",\n          \"bbox\": [1994.0, 1210.0, 2210.0, 1248.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Sourcery with Moll...\",\n          \"bbox\": [1994.0, 1257.0, 2210.0, 1275.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"5.1k  3 mo ago\",\n          \"bbox\": [2028.0, 1285.0, 2185.0, 1303.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"$50 BILLION DEAL\",\n          \"bbox\": [1608.0, 1348.0, 1800.0, 1404.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"1:07:18\",\n          \"bbox\": [1880.0, 1373.0, 1948.0, 1392.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"false\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Thumbnail featuring Jacqueline Reses, bold text '$50 BILLION DEAL', and adjacent title metadata\"\n      ],\n      \"uncertainties\": []\n    },\n    {\n      \"level\": \"group\",\n      \"role\": \"card\",\n      \"semantic_name\": \"Recommended Video: CIO of Marc & Ben's Multi-...\",\n      \"bbox\": [1572.0, 1440.0, 2235.0, 1673.0],\n      \"proposal_ids\": [\n        \"d_0002\",\n        \"d_0022\",\n        \"d_0050\"\n      ],\n      \"box_status\": \"merged\",\n      \"surface\": \"webpage_ui\",\n      \"content_type\": \"container\",\n      \"description\": \"Sidebar recommended video card showing 'SPACEX IPO' thumbnail (57:12) with title 'CIO of Marc & Ben's Multi-...'.\",\n      \"context_description\": \"Fifth recommendation card at the bottom of the right sidebar.\",\n      \"function\": {\n        \"label\": \"open_video\",\n        \"description\": \"Open and play SpaceX IPO discussion video\",\n        \"status\": \"inferred\"\n      },\n      \"visible_text\": [\n        {\n          \"text\": \"CIO of Marc & Ben's Multi-...\",\n          \"bbox\": [1994.0, 1450.0, 2210.0, 1488.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"Sourcery with Moll...\",\n          \"bbox\": [1994.0, 1497.0, 2210.0, 1515.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"56k  3 mo ago\",\n          \"bbox\": [2028.0, 1525.0, 2180.0, 1543.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"SPACEX IPO\",\n          \"bbox\": [1604.0, 1618.0, 1845.0, 1640.0],\n          \"legibility\": \"legible\"\n        },\n        {\n          \"text\": \"57:12\",\n          \"bbox\": [1896.0, 1615.0, 1948.0, 1634.0],\n          \"legibility\": \"legible\"\n        }\n      ],\n      \"state\": {\n        \"selected\": \"false\",\n        \"checked\": \"not_applicable\",\n        \"expanded\": \"not_applicable\",\n        \"disabled_appearance\": \"false\"\n      },\n      \"evidence\": [\n        \"Thumbnail showing Michel Del Buono interview with 'SPACEX IPO' banner and metadata block\"\n      ],\n      \"uncertainties\": []\n    }\n  ],\n  \"proposals_disposition\": {\n    \"d_0001\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with metadata d_0046 to represent the full Recommended Video Card 2.\"\n    },\n    \"d_0002\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with metadata proposals d_0022 and d_0050 to form Recommended Video Card 5.\"\n    },\n    \"d_0003\": {\n      \"disposition\": \"corrected\",\n      \"reason\": \"Bounding box expanded to encompass both thumbnail and its adjacent title/metadata text block as Recommended Video Card 1.\"\n    },\n    \"d_0004\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with header utility controls d_0020 and d_0021 into YouTube User and Creation Controls.\"\n    },\n    \"d_0005\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with metadata d_0025 to represent Recommended Video Card 4.\"\n    },\n    \"d_0006\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with channel avatar d_0048 to form the Channel Information and Subscribe Control group.\"\n    },\n    \"d_0007\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with like button d_0008 and overflow button d_0016 to form Video Interaction Controls.\"\n    },\n    \"d_0008\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with share button d_0007 and overflow button d_0016 into Video Interaction Controls.\"\n    },\n    \"d_0009\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with all adjacent tab proposals into the unified Safari Tab Bar.\"\n    },\n    \"d_0010\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with sidebar toggle d_0011 and extension d_0017 into Safari Navigation and Sidebar Controls.\"\n    },\n    \"d_0011\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with back/forward controls d_0010 and extension d_0017 into Safari Navigation and Sidebar Controls.\"\n    },\n    \"d_0012\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with filter chip d_0019 and arrow button d_0047 into the Related Videos Filter Bar.\"\n    },\n    \"d_0013\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with search input d_0049 and voice search d_0014 into the YouTube Search Bar.\"\n    },\n    \"d_0014\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with search input d_0049 and submit button d_0013 into the YouTube Search Bar.\"\n    },\n    \"d_0015\": {\n      \"disposition\": \"split\",\n      \"reason\": \"Encompassed both the video title heading and the separate description card; split into Video Title Heading and Video Description Card.\"\n    },\n    \"d_0016\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with like and share buttons (d_0007, d_0008) into Video Interaction Controls.\"\n    },\n    \"d_0017\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with navigation controls d_0010 and d_0011 into Safari Navigation and Sidebar Controls.\"\n    },\n    \"d_0018\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with metadata d_0026 to form Recommended Video Card 3.\"\n    },\n    \"d_0019\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with chips d_0012 and button d_0047 into the Related Videos Filter Bar.\"\n    },\n    \"d_0020\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with create button d_0004 and profile avatar d_0021 into YouTube User and Creation Controls.\"\n    },\n    \"d_0021\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with create button d_0004 and notification bell d_0020 into YouTube User and Creation Controls.\"\n    },\n    \"d_0022\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with thumbnail d_0002 and snippet d_0050 into Recommended Video Card 5.\"\n    },\n    \"d_0023\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with all internal slide graphic elements into the unified YouTube Video Player container.\"\n    },\n    \"d_0024\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with hamburger toggle d_0033 into the YouTube Header Brand and Guide Toggle.\"\n    },\n    \"d_0025\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with thumbnail d_0005 into Recommended Video Card 4.\"\n    },\n    \"d_0026\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with thumbnail d_0018 into Recommended Video Card 3.\"\n    },\n    \"d_0027\": {\n      \"disposition\": \"retained\",\n      \"reason\": \"Accurately bounds the standard macOS window traffic light management buttons.\"\n    },\n    \"d_0028\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with download (d_0039), share (d_0035), and new tab (d_0030) buttons into Safari Toolbar Utility Controls.\"\n    },\n    \"d_0029\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged into Safari Address and Search Bar with d_0031 and reload button d_0042.\"\n    },\n    \"d_0030\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with d_0028, d_0035, and d_0039 into Safari Toolbar Utility Controls.\"\n    },\n    \"d_0031\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with embedded controls d_0029 and d_0042 into the Safari Address and Search Bar.\"\n    },\n    \"d_0032\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged into the horizontal Safari Tab Bar.\"\n    },\n    \"d_0033\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with logo d_0024 into YouTube Header Brand and Guide Toggle.\"\n    },\n    \"d_0034\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged into the horizontal Safari Tab Bar.\"\n    },\n    \"d_0035\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with d_0028, d_0030, and d_0039 into Safari Toolbar Utility Controls.\"\n    },\n    \"d_0036\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Internal video presentation logo; merged into the primary YouTube Video Player.\"\n    },\n    \"d_0037\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Internal video presentation logo; merged into the primary YouTube Video Player.\"\n    },\n    \"d_0038\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Watermark inside video stream; merged into the primary YouTube Video Player.\"\n    },\n    \"d_0039\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with d_0028, d_0030, and d_0035 into Safari Toolbar Utility Controls.\"\n    },\n    \"d_0040\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Internal video presentation logo; merged into the primary YouTube Video Player.\"\n    },\n    \"d_0041\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Internal video presentation logo; merged into the primary YouTube Video Player.\"\n    },\n    \"d_0042\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Reload button embedded in address bar; merged into Safari Address and Search Bar.\"\n    },\n    \"d_0043\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged into the horizontal Safari Tab Bar.\"\n    },\n    \"d_0044\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged into the horizontal Safari Tab Bar.\"\n    },\n    \"d_0045\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged into the horizontal Safari Tab Bar.\"\n    },\n    \"d_0046\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with thumbnail d_0001 into Recommended Video Card 2.\"\n    },\n    \"d_0047\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with filter chips d_0012 and d_0019 into Related Videos Filter Bar.\"\n    },\n    \"d_0048\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with subscribe button d_0006 into Channel Information and Subscribe Control.\"\n    },\n    \"d_0049\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with search button d_0013 and voice button d_0014 into the YouTube Search Bar.\"\n    },\n    \"d_0050\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged with thumbnail d_0002 and title d_0022 into Recommended Video Card 5.\"\n    },\n    \"d_0051\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Internal video slide graphic; merged into the primary YouTube Video Player.\"\n    },\n    \"d_0052\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged into the horizontal Safari Tab Bar.\"\n    },\n    \"d_0053\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Internal video slide graphic; merged into the primary YouTube Video Player.\"\n    },\n    \"d_0054\": {\n      \"disposition\": \"merged\",\n      \"reason\": \"Merged into the horizontal Safari Tab Bar.\"\n    }\n  }\n}",
+  "parsed": {
+    "nodes": [
+      {
+        "level": "element",
+        "role": "button_group",
+        "semantic_name": "Window Management Controls",
+        "bbox": [
+          134.0,
+          90.0,
+          284.0,
+          163.0
+        ],
+        "proposal_ids": [
+          "d_0027"
+        ],
+        "box_status": "retained",
+        "surface": "browser_chrome",
+        "content_type": "control",
+        "description": "macOS standard traffic light buttons featuring close (red), minimize (yellow), and zoom/fullscreen (green) controls.",
+        "context_description": "Positioned at the upper-left corner of the Safari browser title bar.",
+        "function": {
+          "label": "manage_window",
+          "description": "Close, minimize, or expand the Safari browser window",
+          "status": "inferred"
+        },
+        "visible_text": [],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Three circular colored buttons (red, yellow, green) aligned horizontally"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "button_group",
+        "semantic_name": "Safari Navigation and Sidebar Controls",
+        "bbox": [
+          299.0,
+          88.0,
+          748.0,
+          168.0
+        ],
+        "proposal_ids": [
+          "d_0010",
+          "d_0011",
+          "d_0017"
+        ],
+        "box_status": "merged",
+        "surface": "browser_chrome",
+        "content_type": "control",
+        "description": "Browser navigation controls including the sidebar toggle button, back and forward page navigation arrows, and extension icon.",
+        "context_description": "Located between the window management buttons and the central URL address bar in Safari's top chrome.",
+        "function": {
+          "label": "browser_navigation",
+          "description": "Navigate page history, toggle Safari sidebar, and access extension settings",
+          "status": "inferred"
+        },
+        "visible_text": [],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Sidebar layout icon, left and right chevron navigation buttons, and Dark Reader moon icon"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "element",
+        "role": "text_input",
+        "semantic_name": "Safari Address and Search Bar",
+        "bbox": [
+          752.0,
+          90.0,
+          1645.0,
+          171.0
+        ],
+        "proposal_ids": [
+          "d_0029",
+          "d_0031",
+          "d_0042"
+        ],
+        "box_status": "merged",
+        "surface": "browser_chrome",
+        "content_type": "control",
+        "description": "Central address bar displaying 'youtube.com' with an integrated reload glyph on the right.",
+        "context_description": "Centered horizontally in the Safari toolbar between navigation controls and utility buttons.",
+        "function": {
+          "label": "navigate_url",
+          "description": "Displays current website domain, reloads the current page, and accepts URL input or search queries",
+          "status": "observed"
+        },
+        "visible_text": [
+          {
+            "text": "youtube.com",
+            "bbox": [
+              1121.0,
+              114.0,
+              1276.0,
+              146.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "false",
+          "checked": "not_applicable",
+          "expanded": "false",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Centered text 'youtube.com' with circular reload icon on the right edge"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "button_group",
+        "semantic_name": "Safari Toolbar Utility Controls",
+        "bbox": [
+          1978.0,
+          91.0,
+          2267.0,
+          165.0
+        ],
+        "proposal_ids": [
+          "d_0028",
+          "d_0030",
+          "d_0035",
+          "d_0039"
+        ],
+        "box_status": "merged",
+        "surface": "browser_chrome",
+        "content_type": "control",
+        "description": "Right-aligned Safari toolbar controls including download status, share sheet, new tab (+), and tab overview buttons.",
+        "context_description": "Located at the far right of Safari's top toolbar.",
+        "function": {
+          "label": "safari_utilities",
+          "description": "View downloads, share page, open a new tab, or view all active tabs",
+          "status": "inferred"
+        },
+        "visible_text": [],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Icons for downloads, share sheet, plus sign, and dual overlapping tab squares"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "tab_strip",
+        "semantic_name": "Safari Tab Bar",
+        "bbox": [
+          125.0,
+          178.0,
+          2274.0,
+          246.0
+        ],
+        "proposal_ids": [
+          "d_0009",
+          "d_0032",
+          "d_0034",
+          "d_0043",
+          "d_0044",
+          "d_0045",
+          "d_0052",
+          "d_0054"
+        ],
+        "box_status": "merged",
+        "surface": "browser_chrome",
+        "content_type": "container",
+        "description": "Horizontal browser tab strip containing eight open tabs, with the active tab highlighting the current YouTube video.",
+        "context_description": "Directly below Safari's main toolbar and above the YouTube webpage content.",
+        "function": {
+          "label": "switch_tab",
+          "description": "Switch between open browser tabs",
+          "status": "observed"
+        },
+        "visible_text": [
+          {
+            "text": "(11) YouT...",
+            "bbox": [
+              193.0,
+              203.0,
+              258.0,
+              222.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "diffusion...",
+            "bbox": [
+              397.0,
+              203.0,
+              461.0,
+              222.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "High-Fre...",
+            "bbox": [
+              603.0,
+              203.0,
+              663.0,
+              222.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "keys | Go...",
+            "bbox": [
+              811.0,
+              203.0,
+              874.0,
+              222.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Keys - Gr...",
+            "bbox": [
+              1019.0,
+              203.0,
+              1079.0,
+              222.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "(11) Brian Singerman...",
+            "bbox": [
+              1230.0,
+              203.0,
+              1374.0,
+              222.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "(4093) II...",
+            "bbox": [
+              1560.0,
+              203.0,
+              1618.0,
+              222.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Feed | Li...",
+            "bbox": [
+              1765.0,
+              203.0,
+              1827.0,
+              222.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "true",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Contiguous row of tabs with favicons, titles, and active tab styling on Brian Singerman"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "navigation_group",
+        "semantic_name": "YouTube Header Brand and Guide Toggle",
+        "bbox": [
+          138.0,
+          270.0,
+          489.0,
+          355.0
+        ],
+        "proposal_ids": [
+          "d_0024",
+          "d_0033"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "control",
+        "description": "YouTube navigation menu hamburger button alongside the YouTube Premium logo and country code 'IN'.",
+        "context_description": "Top-left area of the YouTube webpage header.",
+        "function": {
+          "label": "toggle_menu_or_home",
+          "description": "Open YouTube sidebar drawer or return to the home page",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "Premium",
+            "bbox": [
+              260.0,
+              318.0,
+              383.0,
+              342.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "IN",
+            "bbox": [
+              383.0,
+              305.0,
+              401.0,
+              319.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "false",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Hamburger icon next to YouTube play button logo with 'Premium' text"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "text_input",
+        "semantic_name": "YouTube Search Bar",
+        "bbox": [
+          629.0,
+          270.0,
+          1773.0,
+          360.0
+        ],
+        "proposal_ids": [
+          "d_0013",
+          "d_0014",
+          "d_0049"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "control",
+        "description": "YouTube search text input field with placeholder 'Search', search submit magnifying glass button, and adjacent voice search microphone button.",
+        "context_description": "Centered horizontally in the YouTube top masthead.",
+        "function": {
+          "label": "search_youtube",
+          "description": "Submit a text or voice search query to YouTube",
+          "status": "observed"
+        },
+        "visible_text": [
+          {
+            "text": "Search",
+            "bbox": [
+              655.0,
+              316.0,
+              746.0,
+              339.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "false",
+          "checked": "not_applicable",
+          "expanded": "false",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Rounded rectangular search box with magnifying glass and circular microphone button"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "button_group",
+        "semantic_name": "YouTube User and Creation Controls",
+        "bbox": [
+          1789.0,
+          270.0,
+          2210.0,
+          355.0
+        ],
+        "proposal_ids": [
+          "d_0004",
+          "d_0020",
+          "d_0021"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "control",
+        "description": "Header utility controls including '+ Create' pill button, notification bell with red '9+' count badge, and purple circular user avatar 'H'.",
+        "context_description": "Located at the far right of the YouTube webpage masthead.",
+        "function": {
+          "label": "user_actions",
+          "description": "Upload content, review notifications, and access user account menu",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "+ Create",
+            "bbox": [
+              1827.0,
+              318.0,
+              1928.0,
+              338.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "9+",
+            "bbox": [
+              1988.0,
+              298.0,
+              2011.0,
+              313.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "H",
+            "bbox": [
+              2070.0,
+              312.0,
+              2087.0,
+              334.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "false",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "'+ Create' rounded button, notification bell with red badge, and user avatar 'H'"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "video",
+        "semantic_name": "YouTube Video Player",
+        "bbox": [
+          143.0,
+          380.0,
+          1550.0,
+          1175.0
+        ],
+        "proposal_ids": [
+          "d_0023",
+          "d_0036",
+          "d_0037",
+          "d_0038",
+          "d_0040",
+          "d_0041",
+          "d_0051",
+          "d_0053"
+        ],
+        "box_status": "merged",
+        "surface": "embedded_content",
+        "content_type": "image",
+        "description": "Active video viewport rendering a Founders Fund portfolio slide featuring logos for Polymarket, Lighter, Figma, Varda, and Impulse Space.",
+        "context_description": "Occupies the main content region on the left side of the watch page.",
+        "function": {
+          "label": "playback_stream",
+          "description": "Displays streaming video content",
+          "status": "observed"
+        },
+        "visible_text": [
+          {
+            "text": "FOUNDERS FUND",
+            "bbox": [
+              217.0,
+              483.0,
+              367.0,
+              497.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Polymarket",
+            "bbox": [
+              207.0,
+              622.0,
+              331.0,
+              645.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Lighter",
+            "bbox": [
+              530.0,
+              621.0,
+              611.0,
+              644.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Figma",
+            "bbox": [
+              846.0,
+              624.0,
+              900.0,
+              645.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "VARDA",
+            "bbox": [
+              1153.0,
+              623.0,
+              1213.0,
+              638.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "16:9 video frame displaying presentation graphics and Sourcery watermark badge"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "element",
+        "role": "heading",
+        "semantic_name": "Video Title Heading",
+        "bbox": [
+          148.0,
+          1225.0,
+          1420.0,
+          1290.0
+        ],
+        "proposal_ids": [
+          "d_0015"
+        ],
+        "box_status": "split",
+        "surface": "webpage_ui",
+        "content_type": "text",
+        "description": "Primary video title heading text displaying the episode title and an 'Auto-dubbed' indicator badge.",
+        "context_description": "Directly underneath the main video player.",
+        "function": null,
+        "visible_text": [
+          {
+            "text": "Brian Singerman: \"If SpaceX Didn't Work, Founders Fund Wouldn't Exist\"",
+            "bbox": [
+              148.0,
+              1229.0,
+              1190.0,
+              1259.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Auto-dubbed",
+            "bbox": [
+              182.0,
+              1270.0,
+              269.0,
+              1285.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Prominent bold typography stating Brian Singerman's quotation"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "button_group",
+        "semantic_name": "Channel Information and Subscribe Control",
+        "bbox": [
+          141.0,
+          1312.0,
+          877.0,
+          1400.0
+        ],
+        "proposal_ids": [
+          "d_0006",
+          "d_0048"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "control",
+        "description": "Channel details including the circular 'S' avatar, channel name 'Sourcery with Molly O'Shea', subscriber count, and white 'Subscribe' button.",
+        "context_description": "Positioned below the video title on the left side of the action bar.",
+        "function": {
+          "label": "subscribe",
+          "description": "Subscribe to the channel broadcasting the video",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "Sourcery with Molly O'Shea",
+            "bbox": [
+              207.0,
+              1334.0,
+              482.0,
+              1358.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "68.8k subscribers",
+            "bbox": [
+              207.0,
+              1362.0,
+              372.0,
+              1381.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Subscribe",
+            "bbox": [
+              671.0,
+              1344.0,
+              770.0,
+              1368.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "false",
+          "checked": "false",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Avatar icon, channel name with subscriber count, and pill button labeled 'Subscribe'"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "button_group",
+        "semantic_name": "Video Interaction Controls",
+        "bbox": [
+          952.0,
+          1313.0,
+          1551.0,
+          1399.0
+        ],
+        "proposal_ids": [
+          "d_0007",
+          "d_0008",
+          "d_0016"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "control",
+        "description": "Video interaction buttons including segmented like/dislike (showing count 314), share button, and overflow options menu button (...).",
+        "context_description": "Located to the right of the subscribe button on the video action bar.",
+        "function": {
+          "label": "interact_video",
+          "description": "Like, dislike, share, or open additional options for the video",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "314",
+            "bbox": [
+              1038.0,
+              1345.0,
+              1076.0,
+              1368.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Share",
+            "bbox": [
+              1317.0,
+              1345.0,
+              1383.0,
+              1367.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "false",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Like thumbs-up icon with count 314, share icon with label 'Share', and three dots overflow button"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "card",
+        "semantic_name": "Video Description Card",
+        "bbox": [
+          148.0,
+          1412.0,
+          1550.0,
+          1660.0
+        ],
+        "proposal_ids": [
+          "d_0015"
+        ],
+        "box_status": "split",
+        "surface": "webpage_ui",
+        "content_type": "text",
+        "description": "Collapsible video metadata box showing view count (12k views), published duration (2 months ago), and introductory summary text.",
+        "context_description": "Directly below the channel and action button row.",
+        "function": {
+          "label": "expand_description",
+          "description": "Expands the full episode description",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "12k views  2 months ago  Sourcery",
+            "bbox": [
+              168.0,
+              1435.0,
+              480.0,
+              1455.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Brian Singerman spent 17 years at Founders Fund, where he helped drive large concentrated investments into companies like SpaceX, Palantir, Airbnb, Stripe, Stemcentrx, Anduril, and Affirm. He recently left to co-found GPx, a new fund backing emerging managers. In this episode we break down the philosophy behind F ...more",
+            "bbox": [
+              168.0,
+              1466.0,
+              1528.0,
+              1550.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "not_applicable",
+          "checked": "not_applicable",
+          "expanded": "false",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Dark gray container with metadata line and multiline descriptive paragraph ending in '...more'"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "tab_strip",
+        "semantic_name": "Related Videos Filter Bar",
+        "bbox": [
+          1576.0,
+          389.0,
+          2211.0,
+          462.0
+        ],
+        "proposal_ids": [
+          "d_0012",
+          "d_0019",
+          "d_0047"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "control",
+        "description": "Filter chip strip above recommended videos containing 'All', 'From the series', and right carousel navigation button.",
+        "context_description": "Top of the sidebar column to the right of the main video player.",
+        "function": {
+          "label": "filter_related_videos",
+          "description": "Filter the list of recommended videos by tag or series",
+          "status": "observed"
+        },
+        "visible_text": [
+          {
+            "text": "All",
+            "bbox": [
+              1604.0,
+              417.0,
+              1636.0,
+              434.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "From the series",
+            "bbox": [
+              1709.0,
+              417.0,
+              1878.0,
+              434.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "From Source",
+            "bbox": [
+              1951.0,
+              417.0,
+              2038.0,
+              434.0
+            ],
+            "legibility": "partially_legible"
+          }
+        ],
+        "state": {
+          "selected": "true",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Pill buttons with active selection on 'All' and chevron arrow icon on the right"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "card",
+        "semantic_name": "Recommended Video: Tom Mueller: SpaceX's #1",
+        "bbox": [
+          1573.0,
+          475.0,
+          2240.0,
+          707.0
+        ],
+        "proposal_ids": [
+          "d_0003"
+        ],
+        "box_status": "corrected",
+        "surface": "webpage_ui",
+        "content_type": "container",
+        "description": "Sidebar recommended video card showing 'SpaceX #1' thumbnail (44:00 duration) with video title and view metrics.",
+        "context_description": "First recommendation card in the right sidebar below the filter bar.",
+        "function": {
+          "label": "open_video",
+          "description": "Open and play Tom Mueller interview video",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "Tom Mueller: SpaceX's #1 ...",
+            "bbox": [
+              1994.0,
+              488.0,
+              2200.0,
+              526.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Sourcery with Moll...",
+            "bbox": [
+              1994.0,
+              535.0,
+              2210.0,
+              553.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "361k  2 mo ago",
+            "bbox": [
+              2028.0,
+              563.0,
+              2188.0,
+              581.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "SpaceX #1",
+            "bbox": [
+              1601.0,
+              638.0,
+              1792.0,
+              667.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "44:00",
+            "bbox": [
+              1896.0,
+              649.0,
+              1948.0,
+              668.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "false",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Video thumbnail showing interview scene with duration badge and adjacent title text"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "card",
+        "semantic_name": "Recommended Video: Why Impulse Raised $500M",
+        "bbox": [
+          1574.0,
+          717.0,
+          2238.0,
+          948.0
+        ],
+        "proposal_ids": [
+          "d_0001",
+          "d_0046"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "container",
+        "description": "Sidebar recommended video card showing 'SPACEX EMPLOYEES #1 & #13' thumbnail (47:58) with title 'Why Impulse Raised $500M t...'.",
+        "context_description": "Second recommendation card in the right sidebar.",
+        "function": {
+          "label": "open_video",
+          "description": "Open and play Impulse Space interview video",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "Why Impulse Raised $500M t...",
+            "bbox": [
+              1994.0,
+              730.0,
+              2210.0,
+              768.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Sourcery with Moll...",
+            "bbox": [
+              1994.0,
+              777.0,
+              2210.0,
+              795.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "104k  2 mo ago",
+            "bbox": [
+              2028.0,
+              805.0,
+              2196.0,
+              823.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "SPACEX EMPLOYEES #1 & #13",
+            "bbox": [
+              1600.0,
+              866.0,
+              1946.0,
+              908.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "47:58",
+            "bbox": [
+              1896.0,
+              891.0,
+              1948.0,
+              910.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "false",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Thumbnail featuring manufacturing hangar, duration overlay, and adjacent title block"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "card",
+        "semantic_name": "Recommended Video: We Don't Trust Agents",
+        "bbox": [
+          1571.0,
+          957.0,
+          2235.0,
+          1191.0
+        ],
+        "proposal_ids": [
+          "d_0018",
+          "d_0026"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "container",
+        "description": "Sidebar recommended video card showing 'AI'S BIGGEST THREAT' thumbnail (55:06) with title \"We Don't Trust Agents - What ...\".",
+        "context_description": "Third recommendation card in the right sidebar.",
+        "function": {
+          "label": "open_video",
+          "description": "Open and play AI agents discussion video",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "\"We Don't Trust Agents\" - What ...",
+            "bbox": [
+              1994.0,
+              970.0,
+              2210.0,
+              1008.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Sourcery with Moll...",
+            "bbox": [
+              1994.0,
+              1017.0,
+              2210.0,
+              1035.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "12k  2 mo ago",
+            "bbox": [
+              2028.0,
+              1045.0,
+              2180.0,
+              1063.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "AI'S BIGGEST THREAT",
+            "bbox": [
+              1600.0,
+              1106.0,
+              1856.0,
+              1148.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "55:06",
+            "bbox": [
+              1896.0,
+              1133.0,
+              1948.0,
+              1152.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "false",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Interview panel thumbnail with bold caption 'AI'S BIGGEST THREAT' and title metadata"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "card",
+        "semantic_name": "Recommended Video: She Bought a Bank for $56M",
+        "bbox": [
+          1574.0,
+          1199.0,
+          2234.0,
+          1432.0
+        ],
+        "proposal_ids": [
+          "d_0005",
+          "d_0025"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "container",
+        "description": "Sidebar recommended video card showing '$50 BILLION DEAL' thumbnail (1:07:18) with title 'She Bought a Bank for $56M. ...'.",
+        "context_description": "Fourth recommendation card in the right sidebar.",
+        "function": {
+          "label": "open_video",
+          "description": "Open and play Lead Bank interview video",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "She Bought a Bank for $56M. ...",
+            "bbox": [
+              1994.0,
+              1210.0,
+              2210.0,
+              1248.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Sourcery with Moll...",
+            "bbox": [
+              1994.0,
+              1257.0,
+              2210.0,
+              1275.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "5.1k  3 mo ago",
+            "bbox": [
+              2028.0,
+              1285.0,
+              2185.0,
+              1303.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "$50 BILLION DEAL",
+            "bbox": [
+              1608.0,
+              1348.0,
+              1800.0,
+              1404.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "1:07:18",
+            "bbox": [
+              1880.0,
+              1373.0,
+              1948.0,
+              1392.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "false",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Thumbnail featuring Jacqueline Reses, bold text '$50 BILLION DEAL', and adjacent title metadata"
+        ],
+        "uncertainties": []
+      },
+      {
+        "level": "group",
+        "role": "card",
+        "semantic_name": "Recommended Video: CIO of Marc & Ben's Multi-...",
+        "bbox": [
+          1572.0,
+          1440.0,
+          2235.0,
+          1673.0
+        ],
+        "proposal_ids": [
+          "d_0002",
+          "d_0022",
+          "d_0050"
+        ],
+        "box_status": "merged",
+        "surface": "webpage_ui",
+        "content_type": "container",
+        "description": "Sidebar recommended video card showing 'SPACEX IPO' thumbnail (57:12) with title 'CIO of Marc & Ben's Multi-...'.",
+        "context_description": "Fifth recommendation card at the bottom of the right sidebar.",
+        "function": {
+          "label": "open_video",
+          "description": "Open and play SpaceX IPO discussion video",
+          "status": "inferred"
+        },
+        "visible_text": [
+          {
+            "text": "CIO of Marc & Ben's Multi-...",
+            "bbox": [
+              1994.0,
+              1450.0,
+              2210.0,
+              1488.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "Sourcery with Moll...",
+            "bbox": [
+              1994.0,
+              1497.0,
+              2210.0,
+              1515.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "56k  3 mo ago",
+            "bbox": [
+              2028.0,
+              1525.0,
+              2180.0,
+              1543.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "SPACEX IPO",
+            "bbox": [
+              1604.0,
+              1618.0,
+              1845.0,
+              1640.0
+            ],
+            "legibility": "legible"
+          },
+          {
+            "text": "57:12",
+            "bbox": [
+              1896.0,
+              1615.0,
+              1948.0,
+              1634.0
+            ],
+            "legibility": "legible"
+          }
+        ],
+        "state": {
+          "selected": "false",
+          "checked": "not_applicable",
+          "expanded": "not_applicable",
+          "disabled_appearance": "false"
+        },
+        "evidence": [
+          "Thumbnail showing Michel Del Buono interview with 'SPACEX IPO' banner and metadata block"
+        ],
+        "uncertainties": []
+      }
+    ],
+    "proposals_disposition": {
+      "d_0001": {
+        "disposition": "merged",
+        "reason": "Merged with metadata d_0046 to represent the full Recommended Video Card 2."
+      },
+      "d_0002": {
+        "disposition": "merged",
+        "reason": "Merged with metadata proposals d_0022 and d_0050 to form Recommended Video Card 5."
+      },
+      "d_0003": {
+        "disposition": "corrected",
+        "reason": "Bounding box expanded to encompass both thumbnail and its adjacent title/metadata text block as Recommended Video Card 1."
+      },
+      "d_0004": {
+        "disposition": "merged",
+        "reason": "Merged with header utility controls d_0020 and d_0021 into YouTube User and Creation Controls."
+      },
+      "d_0005": {
+        "disposition": "merged",
+        "reason": "Merged with metadata d_0025 to represent Recommended Video Card 4."
+      },
+      "d_0006": {
+        "disposition": "merged",
+        "reason": "Merged with channel avatar d_0048 to form the Channel Information and Subscribe Control group."
+      },
+      "d_0007": {
+        "disposition": "merged",
+        "reason": "Merged with like button d_0008 and overflow button d_0016 to form Video Interaction Controls."
+      },
+      "d_0008": {
+        "disposition": "merged",
+        "reason": "Merged with share button d_0007 and overflow button d_0016 into Video Interaction Controls."
+      },
+      "d_0009": {
+        "disposition": "merged",
+        "reason": "Merged with all adjacent tab proposals into the unified Safari Tab Bar."
+      },
+      "d_0010": {
+        "disposition": "merged",
+        "reason": "Merged with sidebar toggle d_0011 and extension d_0017 into Safari Navigation and Sidebar Controls."
+      },
+      "d_0011": {
+        "disposition": "merged",
+        "reason": "Merged with back/forward controls d_0010 and extension d_0017 into Safari Navigation and Sidebar Controls."
+      },
+      "d_0012": {
+        "disposition": "merged",
+        "reason": "Merged with filter chip d_0019 and arrow button d_0047 into the Related Videos Filter Bar."
+      },
+      "d_0013": {
+        "disposition": "merged",
+        "reason": "Merged with search input d_0049 and voice search d_0014 into the YouTube Search Bar."
+      },
+      "d_0014": {
+        "disposition": "merged",
+        "reason": "Merged with search input d_0049 and submit button d_0013 into the YouTube Search Bar."
+      },
+      "d_0015": {
+        "disposition": "split",
+        "reason": "Encompassed both the video title heading and the separate description card; split into Video Title Heading and Video Description Card."
+      },
+      "d_0016": {
+        "disposition": "merged",
+        "reason": "Merged with like and share buttons (d_0007, d_0008) into Video Interaction Controls."
+      },
+      "d_0017": {
+        "disposition": "merged",
+        "reason": "Merged with navigation controls d_0010 and d_0011 into Safari Navigation and Sidebar Controls."
+      },
+      "d_0018": {
+        "disposition": "merged",
+        "reason": "Merged with metadata d_0026 to form Recommended Video Card 3."
+      },
+      "d_0019": {
+        "disposition": "merged",
+        "reason": "Merged with chips d_0012 and button d_0047 into the Related Videos Filter Bar."
+      },
+      "d_0020": {
+        "disposition": "merged",
+        "reason": "Merged with create button d_0004 and profile avatar d_0021 into YouTube User and Creation Controls."
+      },
+      "d_0021": {
+        "disposition": "merged",
+        "reason": "Merged with create button d_0004 and notification bell d_0020 into YouTube User and Creation Controls."
+      },
+      "d_0022": {
+        "disposition": "merged",
+        "reason": "Merged with thumbnail d_0002 and snippet d_0050 into Recommended Video Card 5."
+      },
+      "d_0023": {
+        "disposition": "merged",
+        "reason": "Merged with all internal slide graphic elements into the unified YouTube Video Player container."
+      },
+      "d_0024": {
+        "disposition": "merged",
+        "reason": "Merged with hamburger toggle d_0033 into the YouTube Header Brand and Guide Toggle."
+      },
+      "d_0025": {
+        "disposition": "merged",
+        "reason": "Merged with thumbnail d_0005 into Recommended Video Card 4."
+      },
+      "d_0026": {
+        "disposition": "merged",
+        "reason": "Merged with thumbnail d_0018 into Recommended Video Card 3."
+      },
+      "d_0027": {
+        "disposition": "retained",
+        "reason": "Accurately bounds the standard macOS window traffic light management buttons."
+      },
+      "d_0028": {
+        "disposition": "merged",
+        "reason": "Merged with download (d_0039), share (d_0035), and new tab (d_0030) buttons into Safari Toolbar Utility Controls."
+      },
+      "d_0029": {
+        "disposition": "merged",
+        "reason": "Merged into Safari Address and Search Bar with d_0031 and reload button d_0042."
+      },
+      "d_0030": {
+        "disposition": "merged",
+        "reason": "Merged with d_0028, d_0035, and d_0039 into Safari Toolbar Utility Controls."
+      },
+      "d_0031": {
+        "disposition": "merged",
+        "reason": "Merged with embedded controls d_0029 and d_0042 into the Safari Address and Search Bar."
+      },
+      "d_0032": {
+        "disposition": "merged",
+        "reason": "Merged into the horizontal Safari Tab Bar."
+      },
+      "d_0033": {
+        "disposition": "merged",
+        "reason": "Merged with logo d_0024 into YouTube Header Brand and Guide Toggle."
+      },
+      "d_0034": {
+        "disposition": "merged",
+        "reason": "Merged into the horizontal Safari Tab Bar."
+      },
+      "d_0035": {
+        "disposition": "merged",
+        "reason": "Merged with d_0028, d_0030, and d_0039 into Safari Toolbar Utility Controls."
+      },
+      "d_0036": {
+        "disposition": "merged",
+        "reason": "Internal video presentation logo; merged into the primary YouTube Video Player."
+      },
+      "d_0037": {
+        "disposition": "merged",
+        "reason": "Internal video presentation logo; merged into the primary YouTube Video Player."
+      },
+      "d_0038": {
+        "disposition": "merged",
+        "reason": "Watermark inside video stream; merged into the primary YouTube Video Player."
+      },
+      "d_0039": {
+        "disposition": "merged",
+        "reason": "Merged with d_0028, d_0030, and d_0035 into Safari Toolbar Utility Controls."
+      },
+      "d_0040": {
+        "disposition": "merged",
+        "reason": "Internal video presentation logo; merged into the primary YouTube Video Player."
+      },
+      "d_0041": {
+        "disposition": "merged",
+        "reason": "Internal video presentation logo; merged into the primary YouTube Video Player."
+      },
+      "d_0042": {
+        "disposition": "merged",
+        "reason": "Reload button embedded in address bar; merged into Safari Address and Search Bar."
+      },
+      "d_0043": {
+        "disposition": "merged",
+        "reason": "Merged into the horizontal Safari Tab Bar."
+      },
+      "d_0044": {
+        "disposition": "merged",
+        "reason": "Merged into the horizontal Safari Tab Bar."
+      },
+      "d_0045": {
+        "disposition": "merged",
+        "reason": "Merged into the horizontal Safari Tab Bar."
+      },
+      "d_0046": {
+        "disposition": "merged",
+        "reason": "Merged with thumbnail d_0001 into Recommended Video Card 2."
+      },
+      "d_0047": {
+        "disposition": "merged",
+        "reason": "Merged with filter chips d_0012 and d_0019 into Related Videos Filter Bar."
+      },
+      "d_0048": {
+        "disposition": "merged",
+        "reason": "Merged with subscribe button d_0006 into Channel Information and Subscribe Control."
+      },
+      "d_0049": {
+        "disposition": "merged",
+        "reason": "Merged with search button d_0013 and voice button d_0014 into the YouTube Search Bar."
+      },
+      "d_0050": {
+        "disposition": "merged",
+        "reason": "Merged with thumbnail d_0002 and title d_0022 into Recommended Video Card 5."
+      },
+      "d_0051": {
+        "disposition": "merged",
+        "reason": "Internal video slide graphic; merged into the primary YouTube Video Player."
+      },
+      "d_0052": {
+        "disposition": "merged",
+        "reason": "Merged into the horizontal Safari Tab Bar."
+      },
+      "d_0053": {
+        "disposition": "merged",
+        "reason": "Internal video slide graphic; merged into the primary YouTube Video Player."
+      },
+      "d_0054": {
+        "disposition": "merged",
+        "reason": "Merged into the horizontal Safari Tab Bar."
+      }
+    }
+  }
+}

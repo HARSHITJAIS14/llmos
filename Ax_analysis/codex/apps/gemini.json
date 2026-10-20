@@ -1,0 +1,569 @@
+{
+  "schema_version": "1.0",
+  "app_key": "gemini",
+  "identity": {
+    "name": "Gemini",
+    "bundle_id": "com.google.GeminiMacOS",
+    "bundle_id_match": "exact",
+    "framework": "swiftui",
+    "secondary_frameworks": [
+      "appkit"
+    ],
+    "framework_confidence": "medium",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "only libswiftCompatibilitySpan.dylib (Swift runtime shim); 0 hints"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "no webarea in any of 3 captures"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.038 (< 0.15 = native toolkit)"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "button 72, treeitem 58, cell 58 of 212; hand-set ids like sidebar_toggle, notebooks/<uuid>"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 9 (native <= 9)"
+      }
+    ]
+  },
+  "category": "ai_assistant",
+  "fidelity": {
+    "default": {
+      "nodes": 212,
+      "max_depth": 9,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 220,
+      "named_nodes": 72,
+      "ref_count": 201,
+      "has_webarea": false,
+      "offscreen_nodes": 108,
+      "error_code": null,
+      "skeleton_nodes": 16
+    },
+    "forced": {
+      "nodes": 222,
+      "max_depth": 9,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 230,
+      "named_nodes": 78,
+      "ref_count": 211,
+      "has_webarea": false,
+      "offscreen_nodes": 115,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.047,
+    "default_score": 0.922,
+    "forced_score": 0.965,
+    "best_capture": "forced",
+    "ladder_verdict": "navigate_partial"
+  },
+  "readiness": {
+    "default_rung": "R5_partial_prefix",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": true,
+      "reason": "Real window listed only as a 137x187 invisible thumbnail; forced window moved (x 2753 -> 193). Activate + re-snapshot before coordinates."
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "native Swift, no webarea"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 500,
+        "height": 500,
+        "x": 0,
+        "y": 940,
+        "count": 1,
+        "kind": "helper_surface"
+      },
+      {
+        "width": 137,
+        "height": 187,
+        "x": 16,
+        "y": 659,
+        "count": 1,
+        "kind": "thumbnail_proxy"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": true,
+    "empty_list_is_normal": true,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 9.5,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": [
+        "^notebooks/[0-9a-fA-F-]{36}$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 94.1,
+      "with_bounds_unique_pct": 97.1,
+      "nth_required_roles": [
+        "button",
+        "treeitem",
+        "cell"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "sidebar_toggle",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "sidebar toggle button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "tempChat_button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "temporary chat button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "collapse_button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "collapse button in toolbar",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "mic_button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "microphone / dictation button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "stc_button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "speak to window button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "newNotebookRow",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "new notebook row button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "notebooks/",
+      "match": "prefix",
+      "tier": "session",
+      "role": "button",
+      "purpose": "notebook entry button (UUID tail is user data)",
+      "seen_in_captures": 1
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": false,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus"
+        ],
+        "count": 72,
+        "verb": "Click"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 58,
+        "verb": "Click",
+        "note": "58 sidebar rows, all unnamed; label is the named child button"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus",
+          "SetValue",
+          "TypeText"
+        ],
+        "count": 2,
+        "verb": "TypeText",
+        "note": "composer has TypeText, no Click; search field has SetFocus+SetValue only"
+      },
+      {
+        "role": "menubutton",
+        "actions": [
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "SetFocus",
+        "note": "2/2 have only SetFocus: no Click, no Expand"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select",
+        "note": "sidebar list container"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Scroll",
+        "note": "offscreen recovery target"
+      },
+      {
+        "role": "heading",
+        "actions": [
+          "Click"
+        ],
+        "count": 2,
+        "verb": "Click",
+        "note": "unnamed section headers"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "write_only",
+    "recipes": [
+      {
+        "target": "list_item_label",
+        "match": "role=='button' and ancestor chain outline>treeitem>cell",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "cell",
+        "match": "role in {'treeitem','cell'}",
+        "read_from": "children_join",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4",
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "placeholder",
+        "match": "role=='textfield' and 'TypeText' in actions and 'value' not in node",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-7"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role=='textfield' and 'TypeText' in actions",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree_then_vision",
+    "after_type": "vision",
+    "after_toggle": "vision",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "ax_root",
+    "ws_matches_ax_root": false,
+    "stable_across_activation": false,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 39,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "write_only_surface",
+      "detect": "has TypeText node and chars(name+value) inside content region (window minus 240px sidebar and 60px strips) < 50",
+      "workaround": "verify replies with screenshot/OCR",
+      "severity": "blocker",
+      "observed": "content region holds 3 nodes, 4 chars, in both default and forced; whole tree 1 statictext",
+      "laws": [
+        "LAW-TXT-8"
+      ]
+    },
+    {
+      "kind": "enumeration_partial",
+      "detect": "complete == false and nodes_observed > n",
+      "workaround": "trust prefix; scroll sidebar scrollarea, re-snapshot",
+      "severity": "low",
+      "observed": "212/220 delivered, forced 222/230",
+      "laws": [
+        "LAW-STR-7",
+        "LAW-LIFE-7"
+      ]
+    },
+    {
+      "kind": "silent_enumeration_loss",
+      "detect": "complete == false and 0 subtree_truncated markers",
+      "workaround": "loss cannot be located; treat missing items as offscreen and scroll",
+      "severity": "low",
+      "observed": "8 nodes lost, 0 markers, 0 frontier nodes",
+      "laws": [
+        "LAW-STR-7"
+      ]
+    },
+    {
+      "kind": "unnamed_list_items",
+      "detect": "role in {'treeitem','cell'} and no name",
+      "workaround": "address row by its named child button, or by index",
+      "severity": "high",
+      "observed": "58/58 treeitems and 58/58 cells unnamed; 55 child buttons named",
+      "laws": [
+        "LAW-ID-5"
+      ]
+    },
+    {
+      "kind": "menubutton_no_expand",
+      "detect": "role=='menubutton' and 'Expand' not in actions",
+      "workaround": "no Click either: SetFocus then keyboard (Space), or coordinate click after activation",
+      "severity": "high",
+      "observed": "2/2 menubuttons expose only SetFocus",
+      "laws": [
+        "LAW-ACT-3"
+      ]
+    },
+    {
+      "kind": "thumbnail_proxy_window",
+      "detect": "the non-ghost WS entry has width <= 200 and height <= 200",
+      "workaround": "take bounds from AX root",
+      "severity": "high",
+      "observed": "WS 137x187 invisible vs AX root 1087x803",
+      "laws": [
+        "LAW-WIN-4",
+        "LAW-WIN-5"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick window every session; drop cached bounds",
+      "severity": "low",
+      "observed": "default w-23839 at x=2753 vs forced w-28788 at x=193; 0/157 matched nodes kept bounds",
+      "laws": [
+        "LAW-LIFE-6",
+        "LAW-LIFE-11"
+      ]
+    },
+    {
+      "kind": "user_data_in_id",
+      "detect": "ax_identifier matches '^notebooks/[0-9a-f-]{36}$'",
+      "workaround": "prefix match on 'notebooks/', tier session; never store the UUID",
+      "severity": "low",
+      "observed": "forced: 8 notebooks/<uuid> ids (4 UUIDs x2)",
+      "laws": [
+        "LAW-ID-2"
+      ]
+    },
+    {
+      "kind": "mass_focused",
+      "detect": "count('focused' in states) > 3",
+      "workaround": "real focus = outline container",
+      "severity": "low",
+      "observed": "58/58 cells focused",
+      "laws": [
+        "LAW-ACT-10"
+      ]
+    },
+    {
+      "kind": "zero_area_clones",
+      "detect": "bounds.width <= 0 or bounds.height <= 0",
+      "workaround": "drop from resolution",
+      "severity": "low",
+      "observed": "39 zero-area nodes (37 buttons); (role,name) unique 94.1% -> 97.1% with bounds",
+      "laws": [
+        "LAW-ID-7"
+      ]
+    },
+    {
+      "kind": "offscreen_needs_container_scroll",
+      "detect": "'offscreen' in states and 'ScrollTo' not in actions",
+      "workaround": "Scroll sidebar scrollarea, re-snapshot",
+      "severity": "high",
+      "observed": "108 offscreen nodes, 0 with ScrollTo",
+      "laws": [
+        "LAW-ACT-11"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "check disabled state before acting",
+      "severity": "low",
+      "observed": "1/1 disabled button keeps Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first; all actuation (open chat, compose, send)",
+      "tested": true
+    },
+    {
+      "channel": "keyboard",
+      "when": "menubutton without Click/Expand; copy reply via select-all + copy",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "reading model replies or verifying typed text (transcript absent from tree)",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:59:23+05:30",
+      "2026-08-30T20:59:26+05:30",
+      "2026-08-30T20:59:27+05:30",
+      "2026-08-30T21:19:19+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "activated",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "gemini/meta.json",
+      "gemini/windows.json",
+      "gemini/skeleton.json",
+      "gemini/full.json",
+      "gemini/forced.json",
+      "gemini/surfaces.json",
+      "gemini/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "medium"
+  }
+}

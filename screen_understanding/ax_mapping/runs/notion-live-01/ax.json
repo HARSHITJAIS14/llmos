@@ -1,0 +1,1324 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Notion",
+    "complete": true,
+    "ref_count": 57,
+    "snapshot_id": "s3dxg63rwgkttx",
+    "tree": {
+      "bounds": {
+        "height": 923.0,
+        "width": 1249.0,
+        "x": 221.0,
+        "y": 33.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 923.0,
+            "width": 1249.0,
+            "x": 221.0,
+            "y": 33.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 923.0,
+                "width": 1249.0,
+                "x": 221.0,
+                "y": 33.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 923.0,
+                    "width": 1249.0,
+                    "x": 221.0,
+                    "y": 33.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 923.0,
+                        "width": 1249.0,
+                        "x": 221.0,
+                        "y": 33.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 923.0,
+                            "width": 1249.0,
+                            "x": 221.0,
+                            "y": 33.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 923.0,
+                                "width": 1249.0,
+                                "x": 221.0,
+                                "y": 33.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 923.0,
+                                    "width": 1249.0,
+                                    "x": 221.0,
+                                    "y": 33.0
+                                  },
+                                  "role": "group",
+                                  "states": [
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 923.0,
+                                "width": 1249.0,
+                                "x": 221.0,
+                                "y": 33.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 33.0,
+                                    "width": 1249.0,
+                                    "x": 221.0,
+                                    "y": 33.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 33.0,
+                                        "width": 1249.0,
+                                        "x": 221.0,
+                                        "y": 33.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 33.0,
+                                            "width": 1249.0,
+                                            "x": 221.0,
+                                            "y": 33.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 33.0,
+                                                "width": 1249.0,
+                                                "x": 221.0,
+                                                "y": 33.0
+                                              },
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "RightClick",
+                                                    "ScrollTo"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 33.0,
+                                                    "width": 243.0,
+                                                    "x": 221.0,
+                                                    "y": 33.0
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "available_actions": [
+                                                        "Click",
+                                                        "RightClick",
+                                                        "ScrollTo",
+                                                        "SetFocus"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 26.0,
+                                                        "width": 26.0,
+                                                        "x": 302.0,
+                                                        "y": 37.0
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 19.0,
+                                                            "width": 18.0,
+                                                            "x": 306.0,
+                                                            "y": 40.0
+                                                          },
+                                                          "ref_id": "@s3dxg63rwgkttx:e6",
+                                                          "role": "group",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "name": "Close Sidebar",
+                                                      "ref_id": "@s3dxg63rwgkttx:e5",
+                                                      "role": "button",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "Click",
+                                                        "RightClick",
+                                                        "ScrollTo",
+                                                        "SetFocus"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 26.0,
+                                                        "width": 25.0,
+                                                        "x": 405.0,
+                                                        "y": 37.0
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 19.0,
+                                                            "width": 19.0,
+                                                            "x": 408.0,
+                                                            "y": 40.0
+                                                          },
+                                                          "ref_id": "@s3dxg63rwgkttx:e8",
+                                                          "role": "group",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "name": "Inbox",
+                                                      "ref_id": "@s3dxg63rwgkttx:e7",
+                                                      "role": "button",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "Click",
+                                                        "RightClick",
+                                                        "ScrollTo",
+                                                        "SetFocus"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 26.0,
+                                                        "width": 25.0,
+                                                        "x": 432.0,
+                                                        "y": 37.0
+                                                      },
+                                                      "name": "New",
+                                                      "ref_id": "@s3dxg63rwgkttx:e9",
+                                                      "role": "button",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "ref_id": "@s3dxg63rwgkttx:e4",
+                                                  "role": "group",
+                                                  "states": [
+                                                    "offscreen"
+                                                  ]
+                                                },
+                                                {
+                                                  "available_actions": [
+                                                    "Click",
+                                                    "RightClick",
+                                                    "ScrollTo",
+                                                    "SetFocus"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 22.0,
+                                                    "width": 22.0,
+                                                    "x": 471.0,
+                                                    "y": 39.0
+                                                  },
+                                                  "name": "Back",
+                                                  "ref_id": "@s3dxg63rwgkttx:e10",
+                                                  "role": "button",
+                                                  "states": [
+                                                    "disabled",
+                                                    "offscreen"
+                                                  ]
+                                                },
+                                                {
+                                                  "available_actions": [
+                                                    "Click",
+                                                    "RightClick",
+                                                    "ScrollTo",
+                                                    "SetFocus"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 22.0,
+                                                    "width": 22.0,
+                                                    "x": 496.0,
+                                                    "y": 39.0
+                                                  },
+                                                  "name": "Forward",
+                                                  "ref_id": "@s3dxg63rwgkttx:e11",
+                                                  "role": "button",
+                                                  "states": [
+                                                    "disabled",
+                                                    "offscreen"
+                                                  ]
+                                                },
+                                                {
+                                                  "available_actions": [
+                                                    "RightClick",
+                                                    "ScrollTo"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 33.0,
+                                                    "width": 890.0,
+                                                    "x": 525.0,
+                                                    "y": 33.0
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 33.0,
+                                                        "width": 577.0,
+                                                        "x": 525.0,
+                                                        "y": 33.0
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 33.0,
+                                                            "width": 181.0,
+                                                            "x": 525.0,
+                                                            "y": 33.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "Click",
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 33.0,
+                                                                "width": 181.0,
+                                                                "x": 525.0,
+                                                                "y": 33.0
+                                                              },
+                                                              "children_count": 1,
+                                                              "name": "cursor for che",
+                                                              "ref_id": "@s3dxg63rwgkttx:e15",
+                                                              "role": "button",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "available_actions": [
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 31.0,
+                                                                "width": 31.0,
+                                                                "x": 674.0,
+                                                                "y": 34.0
+                                                              },
+                                                              "children_count": 2,
+                                                              "ref_id": "@s3dxg63rwgkttx:e16",
+                                                              "role": "group",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "ref_id": "@s3dxg63rwgkttx:e14",
+                                                          "role": "group",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        },
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 33.0,
+                                                            "width": 181.0,
+                                                            "x": 705.0,
+                                                            "y": 33.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "Click",
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 33.0,
+                                                                "width": 181.0,
+                                                                "x": 705.0,
+                                                                "y": 33.0
+                                                              },
+                                                              "children_count": 1,
+                                                              "name": "My Day",
+                                                              "ref_id": "@s3dxg63rwgkttx:e18",
+                                                              "role": "button",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "available_actions": [
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 31.0,
+                                                                "width": 31.0,
+                                                                "x": 854.0,
+                                                                "y": 34.0
+                                                              },
+                                                              "children_count": 2,
+                                                              "ref_id": "@s3dxg63rwgkttx:e19",
+                                                              "role": "group",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "ref_id": "@s3dxg63rwgkttx:e17",
+                                                          "role": "group",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        },
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 33.0,
+                                                            "width": 181.0,
+                                                            "x": 885.0,
+                                                            "y": 33.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "Click",
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 33.0,
+                                                                "width": 181.0,
+                                                                "x": 885.0,
+                                                                "y": 33.0
+                                                              },
+                                                              "children_count": 1,
+                                                              "name": "LLM OS",
+                                                              "ref_id": "@s3dxg63rwgkttx:e21",
+                                                              "role": "button",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            },
+                                                            {
+                                                              "available_actions": [
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 31.0,
+                                                                "width": 31.0,
+                                                                "x": 1034.0,
+                                                                "y": 34.0
+                                                              },
+                                                              "children_count": 2,
+                                                              "ref_id": "@s3dxg63rwgkttx:e22",
+                                                              "role": "group",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "ref_id": "@s3dxg63rwgkttx:e20",
+                                                          "role": "group",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        },
+                                                        {
+                                                          "available_actions": [
+                                                            "Click",
+                                                            "RightClick",
+                                                            "ScrollTo",
+                                                            "SetFocus"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 22.0,
+                                                            "width": 22.0,
+                                                            "x": 1072.0,
+                                                            "y": 39.0
+                                                          },
+                                                          "name": "New Tab",
+                                                          "ref_id": "@s3dxg63rwgkttx:e23",
+                                                          "role": "button",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "ref_id": "@s3dxg63rwgkttx:e13",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 4.0,
+                                                        "width": 890.0,
+                                                        "x": 525.0,
+                                                        "y": 62.0
+                                                      },
+                                                      "ref_id": "@s3dxg63rwgkttx:e24",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "ref_id": "@s3dxg63rwgkttx:e12",
+                                                  "role": "group",
+                                                  "states": [
+                                                    "offscreen"
+                                                  ]
+                                                },
+                                                {
+                                                  "available_actions": [
+                                                    "RightClick",
+                                                    "ScrollTo"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 9.0,
+                                                    "width": 1249.0,
+                                                    "x": 221.0,
+                                                    "y": 33.0
+                                                  },
+                                                  "ref_id": "@s3dxg63rwgkttx:e25",
+                                                  "role": "group",
+                                                  "states": [
+                                                    "offscreen"
+                                                  ]
+                                                }
+                                              ],
+                                              "ref_id": "@s3dxg63rwgkttx:e3",
+                                              "role": "group",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            }
+                                          ],
+                                          "native_id": {
+                                            "kind": "ax_dom_identifier",
+                                            "value": "root"
+                                          },
+                                          "ref_id": "@s3dxg63rwgkttx:e2",
+                                          "role": "group",
+                                          "states": [
+                                            "offscreen"
+                                          ]
+                                        }
+                                      ],
+                                      "name": "Tab Bar",
+                                      "ref_id": "@s3dxg63rwgkttx:e1",
+                                      "role": "webarea",
+                                      "states": [
+                                        "focused",
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "role": "group",
+                                  "states": [
+                                    "offscreen"
+                                  ]
+                                },
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 890.0,
+                                    "width": 1249.0,
+                                    "x": 221.0,
+                                    "y": 66.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 890.0,
+                                        "width": 1249.0,
+                                        "x": 221.0,
+                                        "y": 66.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 890.0,
+                                            "width": 1249.0,
+                                            "x": 221.0,
+                                            "y": 66.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "Click",
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 890.0,
+                                                "width": 1249.0,
+                                                "x": 221.0,
+                                                "y": 66.0
+                                              },
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "RightClick",
+                                                    "ScrollTo"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 890.0,
+                                                    "width": 1249.0,
+                                                    "x": 221.0,
+                                                    "y": 66.0
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 1.0,
+                                                        "width": 243.0,
+                                                        "x": 221.0,
+                                                        "y": 66.0
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "available_actions": [
+                                                            "Click",
+                                                            "RightClick",
+                                                            "ScrollTo",
+                                                            "SetFocus"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 1.0,
+                                                            "width": 180.0,
+                                                            "x": 232.0,
+                                                            "y": 66.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 1.0,
+                                                                "width": 99.0,
+                                                                "x": 260.0,
+                                                                "y": 66.0
+                                                              },
+                                                              "name": "Skip to content",
+                                                              "ref_id": "@s3dxg63rwgkttx:e32",
+                                                              "role": "statictext",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ],
+                                                              "value": "Skip to content"
+                                                            }
+                                                          ],
+                                                          "name": "Skip to content",
+                                                          "native_id": {
+                                                            "kind": "ax_dom_identifier",
+                                                            "value": "skip-to-content"
+                                                          },
+                                                          "ref_id": "@s3dxg63rwgkttx:e31",
+                                                          "role": "link",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "ref_id": "@s3dxg63rwgkttx:e30",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 890.0,
+                                                        "width": 243.0,
+                                                        "x": 221.0,
+                                                        "y": 66.0
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 890.0,
+                                                            "width": 243.0,
+                                                            "x": 221.0,
+                                                            "y": 66.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 890.0,
+                                                                "width": 243.0,
+                                                                "x": 221.0,
+                                                                "y": 66.0
+                                                              },
+                                                              "children_count": 1,
+                                                              "ref_id": "@s3dxg63rwgkttx:e35",
+                                                              "role": "group",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "ref_id": "@s3dxg63rwgkttx:e34",
+                                                          "role": "group",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "name": "Sidebar",
+                                                      "ref_id": "@s3dxg63rwgkttx:e33",
+                                                      "role": "navigation",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 890.0,
+                                                        "width": 1249.0,
+                                                        "x": 221.0,
+                                                        "y": 66.0
+                                                      },
+                                                      "ref_id": "@s3dxg63rwgkttx:e36",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 890.0,
+                                                        "width": 1006.0,
+                                                        "x": 464.0,
+                                                        "y": 66.0
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 40.0,
+                                                            "width": 1006.0,
+                                                            "x": 464.0,
+                                                            "y": 66.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 40.0,
+                                                                "width": 1006.0,
+                                                                "x": 464.0,
+                                                                "y": 66.0
+                                                              },
+                                                              "children_count": 1,
+                                                              "ref_id": "@s3dxg63rwgkttx:e39",
+                                                              "role": "group",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "ref_id": "@s3dxg63rwgkttx:e38",
+                                                          "role": "banner",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        },
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 850.0,
+                                                            "width": 499.0,
+                                                            "x": 464.0,
+                                                            "y": 106.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "Click",
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 850.0,
+                                                                "width": 499.0,
+                                                                "x": 464.0,
+                                                                "y": 106.0
+                                                              },
+                                                              "children_count": 5,
+                                                              "ref_id": "@s3dxg63rwgkttx:e41",
+                                                              "role": "group",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "native_id": {
+                                                            "kind": "ax_dom_identifier",
+                                                            "value": "main"
+                                                          },
+                                                          "ref_id": "@s3dxg63rwgkttx:e40",
+                                                          "role": "main",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        },
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 890.0,
+                                                            "width": 508.0,
+                                                            "x": 962.0,
+                                                            "y": 66.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "RightClick",
+                                                                "ScrollTo"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 890.0,
+                                                                "width": 508.0,
+                                                                "x": 962.0,
+                                                                "y": 66.0
+                                                              },
+                                                              "children_count": 3,
+                                                              "ref_id": "@s3dxg63rwgkttx:e43",
+                                                              "role": "group",
+                                                              "states": [
+                                                                "offscreen"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "name": "Side Peek",
+                                                          "ref_id": "@s3dxg63rwgkttx:e42",
+                                                          "role": "group",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "ref_id": "@s3dxg63rwgkttx:e37",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 36.0,
+                                                        "width": 36.0,
+                                                        "x": 1420.0,
+                                                        "y": 906.0
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "available_actions": [
+                                                            "RightClick",
+                                                            "ScrollTo"
+                                                          ],
+                                                          "bounds": {
+                                                            "height": 36.0,
+                                                            "width": 36.0,
+                                                            "x": 1420.0,
+                                                            "y": 906.0
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "available_actions": [
+                                                                "Click",
+                                                                "ScrollTo",
+                                                                "SetFocus",
+                                                                "Expand",
+                                                                "Collapse"
+                                                              ],
+                                                              "bounds": {
+                                                                "height": 36.0,
+                                                                "width": 36.0,
+                                                                "x": 1420.0,
+                                                                "y": 906.0
+                                                              },
+                                                              "children_count": 1,
+                                                              "name": "ai",
+                                                              "ref_id": "@s3dxg63rwgkttx:e46",
+                                                              "role": "combobox",
+                                                              "states": [
+                                                                "readonly",
+                                                                "offscreen"
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "ref_id": "@s3dxg63rwgkttx:e45",
+                                                          "role": "group",
+                                                          "states": [
+                                                            "offscreen"
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "ref_id": "@s3dxg63rwgkttx:e44",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 0.0,
+                                                        "width": 0.0,
+                                                        "x": 846.0,
+                                                        "y": 956.0
+                                                      },
+                                                      "ref_id": "@s3dxg63rwgkttx:e47",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 0.0,
+                                                        "width": 0.0,
+                                                        "x": 1470.0,
+                                                        "y": 888.0
+                                                      },
+                                                      "ref_id": "@s3dxg63rwgkttx:e48",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "ref_id": "@s3dxg63rwgkttx:e29",
+                                                  "role": "group",
+                                                  "states": [
+                                                    "offscreen"
+                                                  ]
+                                                },
+                                                {
+                                                  "available_actions": [
+                                                    "RightClick",
+                                                    "ScrollTo"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 890.0,
+                                                    "width": 1249.0,
+                                                    "x": 221.0,
+                                                    "y": 66.0
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "available_actions": [
+                                                        "RightClick",
+                                                        "ScrollTo"
+                                                      ],
+                                                      "bounds": {
+                                                        "height": 1.0,
+                                                        "width": 1249.0,
+                                                        "x": 221.0,
+                                                        "y": 66.0
+                                                      },
+                                                      "ref_id": "@s3dxg63rwgkttx:e50",
+                                                      "role": "group",
+                                                      "states": [
+                                                        "offscreen"
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "ref_id": "@s3dxg63rwgkttx:e49",
+                                                  "role": "group",
+                                                  "states": [
+                                                    "offscreen"
+                                                  ]
+                                                },
+                                                {
+                                                  "available_actions": [
+                                                    "RightClick",
+                                                    "ScrollTo"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 1.0,
+                                                    "width": 1.0,
+                                                    "x": 221.0,
+                                                    "y": 955.0
+                                                  },
+                                                  "ref_id": "@s3dxg63rwgkttx:e51",
+                                                  "role": "status",
+                                                  "states": [
+                                                    "offscreen"
+                                                  ]
+                                                },
+                                                {
+                                                  "available_actions": [
+                                                    "RightClick",
+                                                    "ScrollTo"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 1.0,
+                                                    "width": 1.0,
+                                                    "x": 221.0,
+                                                    "y": 955.0
+                                                  },
+                                                  "ref_id": "@s3dxg63rwgkttx:e52",
+                                                  "role": "alert",
+                                                  "states": [
+                                                    "offscreen"
+                                                  ]
+                                                }
+                                              ],
+                                              "native_id": {
+                                                "kind": "ax_dom_identifier",
+                                                "value": "notion-app"
+                                              },
+                                              "ref_id": "@s3dxg63rwgkttx:e28",
+                                              "role": "group",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 15.0,
+                                                "width": 34.0,
+                                                "x": 221.0,
+                                                "y": 66.0
+                                              },
+                                              "children": [
+                                                {
+                                                  "available_actions": [
+                                                    "RightClick",
+                                                    "ScrollTo"
+                                                  ],
+                                                  "bounds": {
+                                                    "height": 15.0,
+                                                    "width": 34.0,
+                                                    "x": 221.0,
+                                                    "y": 66.0
+                                                  },
+                                                  "name": "Done!",
+                                                  "ref_id": "@s3dxg63rwgkttx:e54",
+                                                  "role": "statictext",
+                                                  "states": [
+                                                    "offscreen"
+                                                  ],
+                                                  "value": "Done!"
+                                                }
+                                              ],
+                                              "ref_id": "@s3dxg63rwgkttx:e53",
+                                              "role": "group",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            }
+                                          ],
+                                          "ref_id": "@s3dxg63rwgkttx:e27",
+                                          "role": "group",
+                                          "states": [
+                                            "offscreen"
+                                          ]
+                                        }
+                                      ],
+                                      "name": "LLM OS",
+                                      "ref_id": "@s3dxg63rwgkttx:e26",
+                                      "role": "webarea",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "role": "group",
+                                  "states": [
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "role": "group",
+                          "states": [
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "role": "group",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "role": "group",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "role": "group",
+              "states": [
+                "offscreen"
+              ]
+            }
+          ],
+          "name": "LLM OS ",
+          "role": "group",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 234.0,
+            "y": 42.0
+          },
+          "ref_id": "@s3dxg63rwgkttx:e55",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 280.0,
+            "y": 42.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 14.0,
+                "width": 14.0,
+                "x": 281.0,
+                "y": 43.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 14.0,
+                    "width": 14.0,
+                    "x": 281.0,
+                    "y": 43.0
+                  },
+                  "role": "group",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "role": "group",
+              "states": [
+                "offscreen"
+              ]
+            }
+          ],
+          "ref_id": "@s3dxg63rwgkttx:e56",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 257.0,
+            "y": 42.0
+          },
+          "ref_id": "@s3dxg63rwgkttx:e57",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        }
+      ],
+      "name": "LLM OS ",
+      "role": "window",
+      "states": [
+        "offscreen"
+      ]
+    },
+    "window": {
+      "id": "w-48180",
+      "title": "LLM OS "
+    }
+  }
+}

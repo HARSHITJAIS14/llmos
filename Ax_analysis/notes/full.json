@@ -1,0 +1,824 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Notes",
+    "complete": true,
+    "ref_count": 44,
+    "snapshot_id": "s1m3pkw8ajl40j",
+    "tree": {
+      "bounds": {
+        "height": 660.0,
+        "width": 1000.0,
+        "x": 780.0,
+        "y": 318.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 660.0,
+            "width": 1000.0,
+            "x": 780.0,
+            "y": 318.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 600.0,
+                "width": 212.0,
+                "x": 788.0,
+                "y": 370.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 602.0,
+                    "width": 214.0,
+                    "x": 787.0,
+                    "y": 369.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 212.0,
+                        "x": 788.0,
+                        "y": 370.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 192.0,
+                            "x": 798.0,
+                            "y": 370.0
+                          },
+                          "name": "iCloud",
+                          "ref_id": "@s1m3pkw8ajl40j:e4",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "iCloud",
+                      "ref_id": "@s1m3pkw8ajl40j:e3",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 212.0,
+                        "x": 788.0,
+                        "y": 389.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 192.0,
+                            "x": 798.0,
+                            "y": 389.0
+                          },
+                          "description": "All iCloud, 2 notes",
+                          "name": "All iCloud",
+                          "ref_id": "@s1m3pkw8ajl40j:e6",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@s1m3pkw8ajl40j:e5",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 212.0,
+                        "x": 788.0,
+                        "y": 421.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 192.0,
+                            "x": 798.0,
+                            "y": 421.0
+                          },
+                          "description": "Notes, 1 note",
+                          "name": "Notes",
+                          "ref_id": "@s1m3pkw8ajl40j:e8",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@s1m3pkw8ajl40j:e7",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 212.0,
+                        "x": 788.0,
+                        "y": 453.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 192.0,
+                            "x": 798.0,
+                            "y": 453.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 196.0,
+                                "x": 804.0,
+                                "y": 453.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 133.0,
+                                    "x": 827.0,
+                                    "y": 460.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "_NS:11"
+                                  },
+                                  "ref_id": "@s1m3pkw8ajl40j:e11",
+                                  "role": "textfield",
+                                  "value": "My writings"
+                                }
+                              ],
+                              "name": "My writings, 1 note",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "FolderCell"
+                              },
+                              "role": "unknown"
+                            }
+                          ],
+                          "name": "My writings, 1 note",
+                          "ref_id": "@s1m3pkw8ajl40j:e10",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "selected"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@s1m3pkw8ajl40j:e9",
+                      "role": "treeitem",
+                      "states": [
+                        "selected"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 212.0,
+                        "x": 788.0,
+                        "y": 498.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 192.0,
+                            "x": 798.0,
+                            "y": 498.0
+                          },
+                          "name": "Google",
+                          "ref_id": "@s1m3pkw8ajl40j:e13",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Google",
+                      "ref_id": "@s1m3pkw8ajl40j:e12",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 212.0,
+                        "x": 788.0,
+                        "y": 517.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 192.0,
+                            "x": 798.0,
+                            "y": 517.0
+                          },
+                          "description": "Notes, No notes",
+                          "name": "Notes",
+                          "ref_id": "@s1m3pkw8ajl40j:e15",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@s1m3pkw8ajl40j:e14",
+                      "role": "treeitem"
+                    }
+                  ],
+                  "name": "Folders",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:50"
+                  },
+                  "ref_id": "@s1m3pkw8ajl40j:e2",
+                  "role": "outline"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:46"
+              },
+              "ref_id": "@s1m3pkw8ajl40j:e1",
+              "role": "scrollarea"
+            },
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 608.0,
+                "width": 200.0,
+                "x": 1000.0,
+                "y": 370.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 610.0,
+                    "width": 202.0,
+                    "x": 999.0,
+                    "y": 369.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 40.0,
+                        "width": 200.0,
+                        "x": 1000.0,
+                        "y": 380.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 40.0,
+                            "width": 200.0,
+                            "x": 1000.0,
+                            "y": 380.0
+                          },
+                          "name": "2025",
+                          "ref_id": "@s1m3pkw8ajl40j:e19",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@s1m3pkw8ajl40j:e18",
+                      "role": "row"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 56.0,
+                        "width": 200.0,
+                        "x": 1000.0,
+                        "y": 420.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick"
+                          ],
+                          "bounds": {
+                            "height": 56.0,
+                            "width": 168.0,
+                            "x": 1016.0,
+                            "y": 420.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "RightClick"
+                              ],
+                              "bounds": {
+                                "height": 56.0,
+                                "width": 168.0,
+                                "x": 1016.0,
+                                "y": 420.0
+                              },
+                              "name": "I think I am going to try story writing \u2026\u2026 What can be the story\u2026 \u2026.. What will be the theme\u2026\u2026 What are the motivations\u2026.. 24/08/25",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "ICMNoteListCell"
+                              },
+                              "ref_id": "@s1m3pkw8ajl40j:e22",
+                              "role": "cell"
+                            }
+                          ],
+                          "name": "I think I am going to try story writing \u2026\u2026 What can be the story\u2026 \u2026.. What will be the theme\u2026\u2026 What are the motivations\u2026.. 24/08/25",
+                          "ref_id": "@s1m3pkw8ajl40j:e21",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "selected"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@s1m3pkw8ajl40j:e20",
+                      "role": "row",
+                      "states": [
+                        "selected"
+                      ]
+                    }
+                  ],
+                  "name": "My Notes as List",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "ICMNoteListTableView_asList"
+                  },
+                  "ref_id": "@s1m3pkw8ajl40j:e17",
+                  "role": "table"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:120"
+              },
+              "ref_id": "@s1m3pkw8ajl40j:e16",
+              "role": "scrollarea"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "bounds": {
+                "height": 15.0,
+                "width": 156.0,
+                "x": 1404.0,
+                "y": 378.0
+              },
+              "name": "24 August 2025 at 3:30\u202fAM",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:7"
+              },
+              "ref_id": "@s1m3pkw8ajl40j:e23",
+              "role": "statictext",
+              "value": "24 August 2025 at 3:30\u202fAM"
+            },
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 608.0,
+                "width": 579.0,
+                "x": 1201.0,
+                "y": 370.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus",
+                    "TypeText"
+                  ],
+                  "bounds": {
+                    "height": 592.0,
+                    "width": 562.0,
+                    "x": 1201.0,
+                    "y": 370.0
+                  },
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "Note Body Text View"
+                  },
+                  "ref_id": "@s1m3pkw8ajl40j:e25",
+                  "role": "textfield",
+                  "value": "I think I am going to try story writing \u2026\u2026\u2028\u2028\u2028\u2028What can be the story\u2026..\u2028\u2028\u2028What will be the theme\u2026\u2026\u2028\u2028\u2028What are the motivations\u2026..\u2028\u2028\u2028"
+                },
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 592.5,
+                    "width": 19.0,
+                    "x": 1762.0,
+                    "y": 369.0
+                  },
+                  "ref_id": "@s1m3pkw8ajl40j:e26",
+                  "role": "scrollbar",
+                  "states": [
+                    "disabled"
+                  ],
+                  "value": "0"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "Note Body Scroll View"
+              },
+              "ref_id": "@s1m3pkw8ajl40j:e24",
+              "role": "scrollarea"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 1000.0,
+            "x": 780.0,
+            "y": 318.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 44.0,
+                "x": 912.0,
+                "y": 318.0
+              },
+              "name": "Add Folder",
+              "ref_id": "@s1m3pkw8ajl40j:e28",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 44.0,
+                "x": 956.0,
+                "y": 318.0
+              },
+              "name": "Folders",
+              "ref_id": "@s1m3pkw8ajl40j:e29",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 44.0,
+                "x": 1164.0,
+                "y": 318.0
+              },
+              "name": "View Options",
+              "ref_id": "@s1m3pkw8ajl40j:e30",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 45.0,
+                "x": 1217.0,
+                "y": 318.0
+              },
+              "name": "New Note",
+              "ref_id": "@s1m3pkw8ajl40j:e31",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 45.0,
+                "x": 1270.0,
+                "y": 318.0
+              },
+              "name": "Format",
+              "ref_id": "@s1m3pkw8ajl40j:e32",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 40.0,
+                "x": 1315.0,
+                "y": 318.0
+              },
+              "name": "Checklist",
+              "ref_id": "@s1m3pkw8ajl40j:e33",
+              "role": "button",
+              "states": [
+                "disabled"
+              ],
+              "value": "Off"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 41.0,
+                "x": 1355.0,
+                "y": 318.0
+              },
+              "name": "Table",
+              "ref_id": "@s1m3pkw8ajl40j:e34",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 37.0,
+                "x": 1396.0,
+                "y": 318.0
+              },
+              "name": "Media",
+              "ref_id": "@s1m3pkw8ajl40j:e35",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 42.0,
+                "x": 1433.0,
+                "y": 318.0
+              },
+              "name": "Writing Tools",
+              "ref_id": "@s1m3pkw8ajl40j:e36",
+              "role": "button"
+            },
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 88.0,
+                "x": 1483.0,
+                "y": 318.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 38.0,
+                    "x": 1486.0,
+                    "y": 325.0
+                  },
+                  "name": "Share",
+                  "ref_id": "@s1m3pkw8ajl40j:e37",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus",
+                    "Expand",
+                    "Collapse"
+                  ],
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 38.0,
+                    "x": 1530.0,
+                    "y": 325.0
+                  },
+                  "name": "More",
+                  "ref_id": "@s1m3pkw8ajl40j:e38",
+                  "role": "menubutton"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 197.0,
+                "x": 1579.0,
+                "y": 318.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 36.0,
+                    "width": 189.0,
+                    "x": 1583.0,
+                    "y": 326.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick"
+                      ],
+                      "bounds": {
+                        "height": 9.0,
+                        "width": 21.0,
+                        "x": 1593.0,
+                        "y": 340.0
+                      },
+                      "ref_id": "@s1m3pkw8ajl40j:e40",
+                      "role": "button",
+                      "states": [
+                        "disabled"
+                      ]
+                    }
+                  ],
+                  "ref_id": "@s1m3pkw8ajl40j:e39",
+                  "role": "textfield",
+                  "states": [
+                    "disabled",
+                    "readonly"
+                  ]
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s1m3pkw8ajl40j:e27",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 798.0,
+            "y": 336.0
+          },
+          "ref_id": "@s1m3pkw8ajl40j:e41",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 844.0,
+            "y": 336.0
+          },
+          "ref_id": "@s1m3pkw8ajl40j:e42",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 821.0,
+            "y": 336.0
+          },
+          "ref_id": "@s1m3pkw8ajl40j:e43",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 160.0,
+            "x": 1004.0,
+            "y": 318.0
+          },
+          "name": "My writings",
+          "ref_id": "@s1m3pkw8ajl40j:e44",
+          "role": "statictext",
+          "value": "My writings"
+        }
+      ],
+      "name": "My writings",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:6"
+      },
+      "role": "dialog",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28183",
+      "title": "My writings"
+    }
+  }
+}

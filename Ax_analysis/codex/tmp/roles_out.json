@@ -1,0 +1,1663 @@
+{
+ "role_hist_app": {
+  "antigravity_ide": {
+   "group": 15,
+   "button": 3,
+   "list": 2,
+   "window": 1,
+   "webarea": 1
+  },
+  "brave_browser": {
+   "group": 71,
+   "button": 42,
+   "statictext": 41,
+   "combobox": 19,
+   "link": 16,
+   "image": 15,
+   "toolbar": 6,
+   "textfield": 3,
+   "window": 2,
+   "tablist": 2,
+   "radiobutton": 2,
+   "webarea": 2,
+   "main": 2,
+   "heading": 1,
+   "navigation": 1,
+   "list": 1
+  },
+  "calendar": {
+   "button": 198,
+   "treeitem": 24,
+   "cell": 24,
+   "checkbox": 18,
+   "textfield": 14,
+   "group": 12,
+   "radiobutton": 12,
+   "statictext": 12,
+   "radiogroup": 4,
+   "grid": 4,
+   "toolbar": 2,
+   "combobox": 2,
+   "unknown": 2,
+   "list": 2,
+   "scrollarea": 2,
+   "scrollbar": 2,
+   "handle": 2,
+   "outline": 2,
+   "dialog": 1,
+   "window": 1
+  },
+  "claude": {
+   "group": 35,
+   "button": 7,
+   "statictext": 6,
+   "webarea": 4,
+   "window": 2,
+   "status": 1
+  },
+  "discord": {
+   "group": 295,
+   "statictext": 108,
+   "image": 34,
+   "link": 24,
+   "button": 22,
+   "treeitem": 18,
+   "heading": 5,
+   "radiobutton": 4,
+   "navigation": 3,
+   "window": 2,
+   "webarea": 2,
+   "list": 2,
+   "switch": 2,
+   "log": 2,
+   "main": 1,
+   "complementary": 1,
+   "tabpanel": 1,
+   "status": 1,
+   "textfield": 1,
+   "tablist": 1,
+   "splitter": 1,
+   "combobox": 1,
+   "outline": 1
+  },
+  "finder": {
+   "group": 1520,
+   "textfield": 1516,
+   "treeitem": 54,
+   "cell": 54,
+   "button": 10,
+   "scrollarea": 4,
+   "window": 2,
+   "browser": 2,
+   "list": 2,
+   "scrollbar": 2,
+   "handle": 2,
+   "outline": 2
+  },
+  "firefox": {
+   "group": 166,
+   "button": 85,
+   "statictext": 38,
+   "link": 14,
+   "heading": 12,
+   "switch": 10,
+   "toolbar": 6,
+   "splitter": 6,
+   "complementary": 5,
+   "list": 4,
+   "article": 4,
+   "image": 4,
+   "tablist": 4,
+   "radiobutton": 4,
+   "combobox": 4,
+   "window": 2,
+   "alert": 2,
+   "tabpanel": 2,
+   "scrollarea": 2,
+   "webarea": 2,
+   "main": 2,
+   "status": 1,
+   "radiogroup": 1,
+   "incrementor": 1
+  },
+  "gemini": {
+   "button": 150,
+   "treeitem": 118,
+   "cell": 118,
+   "group": 18,
+   "scrollarea": 4,
+   "textfield": 4,
+   "menubutton": 4,
+   "heading": 4,
+   "window": 2,
+   "sheet": 2,
+   "statictext": 2,
+   "toolbar": 2,
+   "scrollbar": 2,
+   "handle": 2,
+   "outline": 2
+  },
+  "google_chrome": {
+   "group": 66,
+   "button": 23,
+   "statictext": 7,
+   "image": 5,
+   "combobox": 3,
+   "toolbar": 3,
+   "textfield": 3,
+   "window": 2,
+   "webarea": 2,
+   "tablist": 1,
+   "radiobutton": 1,
+   "alertdialog": 1,
+   "link": 1,
+   "checkbox": 1,
+   "heading": 1
+  },
+  "keynote": {
+   "group": 313,
+   "textfield": 310,
+   "treeitem": 26,
+   "cell": 26,
+   "button": 9,
+   "scrollarea": 4,
+   "window": 2,
+   "link": 2,
+   "list": 2,
+   "browser": 1,
+   "scrollbar": 1,
+   "handle": 1,
+   "outline": 1
+  },
+  "microsoft_word": {
+   "cell": 78,
+   "button": 45,
+   "row": 26,
+   "group": 18,
+   "radiobutton": 16,
+   "scrollarea": 4,
+   "list": 4,
+   "window": 2,
+   "toolbar": 2,
+   "textfield": 2,
+   "tablist": 2,
+   "menubutton": 2,
+   "scrollbar": 2,
+   "handle": 2,
+   "table": 2,
+   "disclosure": 2
+  },
+  "music": {
+   "button": 14,
+   "treeitem": 12,
+   "cell": 12,
+   "group": 6,
+   "dialog": 1,
+   "scrollarea": 1,
+   "outline": 1
+  },
+  "notes": {
+   "button": 24,
+   "cell": 18,
+   "treeitem": 12,
+   "group": 6,
+   "textfield": 6,
+   "menubutton": 6,
+   "scrollarea": 6,
+   "statictext": 4,
+   "row": 4,
+   "toolbar": 2,
+   "scrollbar": 2,
+   "table": 2,
+   "outline": 2,
+   "unknown": 2,
+   "dialog": 1,
+   "window": 1
+  },
+  "notion": {
+   "group": 556,
+   "statictext": 163,
+   "button": 97,
+   "image": 40,
+   "link": 35,
+   "textfield": 34,
+   "combobox": 33,
+   "treeitem": 25,
+   "radiobutton": 14,
+   "tablist": 5,
+   "webarea": 4,
+   "outline": 4,
+   "window": 2,
+   "status": 2,
+   "note": 2,
+   "splitter": 2,
+   "alert": 1,
+   "main": 1,
+   "banner": 1,
+   "navigation": 1,
+   "tabpanel": 1
+  },
+  "obs": {
+   "button": 36,
+   "row": 5,
+   "statictext": 5,
+   "scrollbar": 3,
+   "slider": 3,
+   "checkbox": 3,
+   "menubutton": 2,
+   "list": 2,
+   "window": 1,
+   "incrementor": 1,
+   "group": 1
+  },
+  "reminders": {
+   "button": 46,
+   "cell": 30,
+   "treeitem": 28,
+   "group": 18,
+   "textfield": 16,
+   "switch": 10,
+   "unknown": 6,
+   "scrollarea": 4,
+   "outline": 4,
+   "statictext": 4,
+   "toolbar": 2,
+   "layoutitem": 2,
+   "menubutton": 2,
+   "grid": 2,
+   "dialog": 1,
+   "window": 1
+  },
+  "safari": {
+   "button": 242,
+   "group": 18,
+   "link": 16,
+   "list": 12,
+   "radiobutton": 4,
+   "switch": 4,
+   "window": 2,
+   "unknown": 2,
+   "toolbar": 2,
+   "textfield": 2,
+   "menubutton": 2,
+   "tablist": 2,
+   "scrollarea": 2,
+   "scrollbar": 2,
+   "handle": 2
+  },
+  "telegram": {
+   "window": 2
+  },
+  "textedit": {
+   "treeitem": 60,
+   "cell": 60,
+   "group": 46,
+   "textfield": 42,
+   "button": 24,
+   "scrollarea": 6,
+   "menubutton": 4,
+   "list": 4,
+   "window": 2,
+   "combobox": 2,
+   "browser": 2,
+   "scrollbar": 2,
+   "handle": 2,
+   "outline": 2
+  },
+  "utm": {
+   "button": 24,
+   "statictext": 10,
+   "group": 8,
+   "treeitem": 4,
+   "cell": 4,
+   "image": 4,
+   "toolbar": 2,
+   "scrollarea": 2,
+   "outline": 2,
+   "dialog": 1,
+   "window": 1
+  },
+  "vlc": {
+   "button": 34,
+   "treeitem": 30,
+   "cell": 30,
+   "slider": 4,
+   "group": 4,
+   "window": 2,
+   "switch": 2,
+   "handle": 2,
+   "textfield": 2,
+   "scrollarea": 2,
+   "outline": 2
+  },
+  "whatsapp": {
+   "button": 48,
+   "group": 30,
+   "link": 4,
+   "statictext": 4,
+   "splitter": 4,
+   "textfield": 2,
+   "heading": 2,
+   "window": 1,
+   "dialog": 1
+  },
+  "yt_music": {
+   "group": 635,
+   "statictext": 343,
+   "link": 234,
+   "button": 98,
+   "switch": 46,
+   "radiobutton": 22,
+   "heading": 8,
+   "toolbar": 4,
+   "window": 2,
+   "tablist": 2,
+   "scrollarea": 2,
+   "scrollbar": 2,
+   "webarea": 2,
+   "progressbar": 2,
+   "slider": 2,
+   "main": 2,
+   "navigation": 2,
+   "search": 2,
+   "combobox": 2
+  },
+  "zoom_us": {
+   "button": 60,
+   "group": 23,
+   "unknown": 15,
+   "statictext": 4,
+   "link": 3,
+   "window": 2,
+   "textfield": 2,
+   "webarea": 1,
+   "combobox": 1
+  }
+ },
+ "role_hist_fw": {
+  "electron": {
+   "group": 901,
+   "statictext": 277,
+   "button": 129,
+   "image": 74,
+   "link": 59,
+   "treeitem": 43,
+   "textfield": 35,
+   "combobox": 34,
+   "radiobutton": 18,
+   "webarea": 11,
+   "window": 7,
+   "tablist": 6,
+   "heading": 5,
+   "outline": 5,
+   "list": 4,
+   "status": 4,
+   "navigation": 4,
+   "splitter": 3,
+   "main": 2,
+   "tabpanel": 2,
+   "switch": 2,
+   "log": 2,
+   "note": 2,
+   "complementary": 1,
+   "alert": 1,
+   "banner": 1
+  },
+  "chromium-browser": {
+   "group": 137,
+   "button": 65,
+   "statictext": 48,
+   "combobox": 22,
+   "image": 20,
+   "link": 17,
+   "toolbar": 9,
+   "textfield": 6,
+   "window": 4,
+   "webarea": 4,
+   "tablist": 3,
+   "radiobutton": 3,
+   "main": 2,
+   "heading": 2,
+   "navigation": 1,
+   "list": 1,
+   "alertdialog": 1,
+   "checkbox": 1
+  },
+  "appkit": {
+   "group": 1620,
+   "textfield": 1596,
+   "button": 374,
+   "cell": 232,
+   "treeitem": 224,
+   "statictext": 30,
+   "scrollarea": 27,
+   "checkbox": 18,
+   "outline": 17,
+   "radiobutton": 12,
+   "menubutton": 12,
+   "switch": 12,
+   "unknown": 10,
+   "window": 10,
+   "toolbar": 8,
+   "list": 8,
+   "scrollbar": 8,
+   "handle": 8,
+   "grid": 6,
+   "dialog": 5,
+   "radiogroup": 4,
+   "combobox": 4,
+   "browser": 4,
+   "row": 4,
+   "image": 4,
+   "slider": 4,
+   "table": 2,
+   "layoutitem": 2
+  },
+  "gecko": {
+   "group": 166,
+   "button": 85,
+   "statictext": 38,
+   "link": 14,
+   "heading": 12,
+   "switch": 10,
+   "toolbar": 6,
+   "splitter": 6,
+   "complementary": 5,
+   "list": 4,
+   "article": 4,
+   "image": 4,
+   "tablist": 4,
+   "radiobutton": 4,
+   "combobox": 4,
+   "window": 2,
+   "alert": 2,
+   "tabpanel": 2,
+   "scrollarea": 2,
+   "webarea": 2,
+   "main": 2,
+   "status": 1,
+   "radiogroup": 1,
+   "incrementor": 1
+  },
+  "catalyst-or-swift": {
+   "button": 198,
+   "treeitem": 118,
+   "cell": 118,
+   "group": 48,
+   "statictext": 6,
+   "textfield": 6,
+   "heading": 6,
+   "scrollarea": 4,
+   "menubutton": 4,
+   "link": 4,
+   "splitter": 4,
+   "window": 3,
+   "sheet": 2,
+   "toolbar": 2,
+   "scrollbar": 2,
+   "handle": 2,
+   "outline": 2,
+   "dialog": 1
+  },
+  "custom-iwork": {
+   "group": 313,
+   "textfield": 310,
+   "treeitem": 26,
+   "cell": 26,
+   "button": 9,
+   "scrollarea": 4,
+   "window": 2,
+   "link": 2,
+   "list": 2,
+   "browser": 1,
+   "scrollbar": 1,
+   "handle": 1,
+   "outline": 1
+  },
+  "custom-cpp": {
+   "button": 105,
+   "cell": 78,
+   "group": 41,
+   "row": 26,
+   "radiobutton": 16,
+   "unknown": 15,
+   "window": 4,
+   "textfield": 4,
+   "scrollarea": 4,
+   "list": 4,
+   "statictext": 4,
+   "link": 3,
+   "toolbar": 2,
+   "tablist": 2,
+   "menubutton": 2,
+   "scrollbar": 2,
+   "handle": 2,
+   "table": 2,
+   "disclosure": 2,
+   "webarea": 1,
+   "combobox": 1
+  },
+  "qt-cef": {
+   "button": 36,
+   "row": 5,
+   "statictext": 5,
+   "scrollbar": 3,
+   "slider": 3,
+   "checkbox": 3,
+   "menubutton": 2,
+   "list": 2,
+   "window": 1,
+   "incrementor": 1,
+   "group": 1
+  },
+  "webkit-native": {
+   "group": 653,
+   "statictext": 343,
+   "button": 340,
+   "link": 250,
+   "switch": 50,
+   "radiobutton": 26,
+   "list": 12,
+   "heading": 8,
+   "toolbar": 6,
+   "window": 4,
+   "tablist": 4,
+   "scrollarea": 4,
+   "scrollbar": 4,
+   "unknown": 2,
+   "textfield": 2,
+   "menubutton": 2,
+   "handle": 2,
+   "webarea": 2,
+   "progressbar": 2,
+   "slider": 2,
+   "main": 2,
+   "navigation": 2,
+   "search": 2,
+   "combobox": 2
+  },
+  "swift-appkit": {
+   "window": 2
+  }
+ },
+ "states_app": {
+  "antigravity_ide": {
+   "offscreen": 6
+  },
+  "brave_browser": {
+   "offscreen": 23,
+   "focused": 4,
+   "disabled": 4,
+   "readonly": 3,
+   "checked": 2,
+   "selected": 2
+  },
+  "calendar": {
+   "focused": 26,
+   "checked": 22,
+   "pressed": 8,
+   "selected": 6,
+   "expanded": 6,
+   "readonly": 2
+  },
+  "claude": {
+   "focused": 4,
+   "offscreen": 4
+  },
+  "discord": {
+   "focused": 2,
+   "offscreen": 2,
+   "selected": 2,
+   "disabled": 2,
+   "checked": 1,
+   "readonly": 1
+  },
+  "finder": {
+   "offscreen": 3042,
+   "focused": 1572,
+   "expanded": 6,
+   "selected": 4
+  },
+  "firefox": {
+   "offscreen": 51,
+   "disabled": 4,
+   "checked": 3,
+   "selected": 2,
+   "focused": 2,
+   "readonly": 2
+  },
+  "gemini": {
+   "offscreen": 223,
+   "focused": 118,
+   "expanded": 6,
+   "selected": 6,
+   "disabled": 2
+  },
+  "google_chrome": {
+   "offscreen": 3,
+   "focused": 2,
+   "disabled": 2,
+   "required": 2,
+   "checked": 1,
+   "selected": 1
+  },
+  "keynote": {
+   "offscreen": 604,
+   "focused": 338,
+   "selected": 3,
+   "expanded": 3,
+   "disabled": 1
+  },
+  "microsoft_word": {
+   "focused": 80,
+   "offscreen": 34,
+   "disabled": 14,
+   "checked": 4
+  },
+  "music": {
+   "focused": 13,
+   "disabled": 3,
+   "expanded": 3
+  },
+  "notes": {
+   "focused": 18,
+   "disabled": 11,
+   "selected": 8,
+   "expanded": 4,
+   "readonly": 1
+  },
+  "notion": {
+   "offscreen": 454,
+   "readonly": 33,
+   "expanded": 6,
+   "checked": 5,
+   "selected": 5,
+   "focused": 4,
+   "disabled": 2
+  },
+  "obs": {
+   "disabled": 8,
+   "readonly": 3,
+   "focused": 1
+  },
+  "reminders": {
+   "focused": 30,
+   "expanded": 16,
+   "selected": 4,
+   "readonly": 2
+  },
+  "safari": {
+   "offscreen": 208,
+   "disabled": 196,
+   "checked": 2,
+   "focused": 2
+  },
+  "telegram": {
+   "focused": 2
+  },
+  "textedit": {
+   "focused": 102,
+   "offscreen": 86,
+   "expanded": 8,
+   "disabled": 6,
+   "selected": 6,
+   "readonly": 2
+  },
+  "utm": {
+   "focused": 6
+  },
+  "vlc": {
+   "offscreen": 53,
+   "focused": 32,
+   "disabled": 12,
+   "expanded": 8,
+   "selected": 4,
+   "readonly": 2
+  },
+  "whatsapp": {
+   "offscreen": 5,
+   "focused": 2
+  },
+  "yt_music": {
+   "offscreen": 977,
+   "disabled": 6,
+   "focused": 3,
+   "checked": 2
+  },
+  "zoom_us": {
+   "offscreen": 12,
+   "disabled": 8,
+   "readonly": 3,
+   "focused": 2
+  }
+ },
+ "focused": {
+  "antigravity_ide": {
+   "focused": 0,
+   "total": 22,
+   "pct": 0.0
+  },
+  "brave_browser": {
+   "focused": 4,
+   "total": 226,
+   "pct": 1.8
+  },
+  "calendar": {
+   "focused": 26,
+   "total": 340,
+   "pct": 7.6
+  },
+  "claude": {
+   "focused": 4,
+   "total": 55,
+   "pct": 7.3
+  },
+  "discord": {
+   "focused": 2,
+   "total": 532,
+   "pct": 0.4
+  },
+  "finder": {
+   "focused": 1572,
+   "total": 3170,
+   "pct": 49.6
+  },
+  "firefox": {
+   "focused": 2,
+   "total": 381,
+   "pct": 0.5
+  },
+  "gemini": {
+   "focused": 118,
+   "total": 434,
+   "pct": 27.2
+  },
+  "google_chrome": {
+   "focused": 2,
+   "total": 120,
+   "pct": 1.7
+  },
+  "keynote": {
+   "focused": 338,
+   "total": 698,
+   "pct": 48.4
+  },
+  "microsoft_word": {
+   "focused": 80,
+   "total": 209,
+   "pct": 38.3
+  },
+  "music": {
+   "focused": 13,
+   "total": 47,
+   "pct": 27.7
+  },
+  "notes": {
+   "focused": 18,
+   "total": 98,
+   "pct": 18.4
+  },
+  "notion": {
+   "focused": 4,
+   "total": 1023,
+   "pct": 0.4
+  },
+  "obs": {
+   "focused": 1,
+   "total": 62,
+   "pct": 1.6
+  },
+  "reminders": {
+   "focused": 30,
+   "total": 176,
+   "pct": 17.0
+  },
+  "safari": {
+   "focused": 2,
+   "total": 314,
+   "pct": 0.6
+  },
+  "telegram": {
+   "focused": 2,
+   "total": 2,
+   "pct": 100.0
+  },
+  "textedit": {
+   "focused": 102,
+   "total": 258,
+   "pct": 39.5
+  },
+  "utm": {
+   "focused": 6,
+   "total": 62,
+   "pct": 9.7
+  },
+  "vlc": {
+   "focused": 32,
+   "total": 114,
+   "pct": 28.1
+  },
+  "whatsapp": {
+   "focused": 2,
+   "total": 96,
+   "pct": 2.1
+  },
+  "yt_music": {
+   "focused": 3,
+   "total": 1412,
+   "pct": 0.2
+  },
+  "zoom_us": {
+   "focused": 2,
+   "total": 111,
+   "pct": 1.8
+  }
+ },
+ "role_action": {
+  "electron": {
+   "button": {
+    "Click": 129,
+    "RightClick": 115,
+    "ScrollTo": 108,
+    "SetFocus": 102
+   },
+   "group": {
+    "RightClick": 851,
+    "ScrollTo": 851,
+    "SetFocus": 54
+   },
+   "webarea": {
+    "RightClick": 11,
+    "ScrollTo": 11,
+    "SetFocus": 11
+   },
+   "list": {
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "Select": 4,
+    "Click": 2,
+    "SetFocus": 1
+   },
+   "status": {
+    "RightClick": 4,
+    "ScrollTo": 4
+   },
+   "statictext": {
+    "RightClick": 277,
+    "ScrollTo": 277
+   },
+   "image": {
+    "RightClick": 74,
+    "ScrollTo": 74
+   },
+   "main": {
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "complementary": {
+    "RightClick": 1,
+    "ScrollTo": 1
+   },
+   "heading": {
+    "RightClick": 5,
+    "ScrollTo": 5
+   },
+   "tabpanel": {
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "textfield": {
+    "RightClick": 35,
+    "ScrollTo": 35,
+    "SetValue": 35,
+    "TypeText": 35,
+    "Click": 34,
+    "SetFocus": 2
+   },
+   "navigation": {
+    "RightClick": 4,
+    "ScrollTo": 4
+   },
+   "tablist": {
+    "RightClick": 6,
+    "ScrollTo": 6
+   },
+   "radiobutton": {
+    "Click": 18,
+    "Toggle": 18,
+    "RightClick": 18,
+    "ScrollTo": 18,
+    "SetFocus": 18,
+    "SetValue": 12
+   },
+   "switch": {
+    "Click": 2,
+    "Toggle": 2,
+    "RightClick": 2,
+    "ScrollTo": 2,
+    "SetValue": 2,
+    "SetFocus": 2
+   },
+   "splitter": {
+    "RightClick": 3,
+    "ScrollTo": 3
+   },
+   "link": {
+    "Click": 59,
+    "RightClick": 59,
+    "ScrollTo": 59,
+    "SetFocus": 59
+   },
+   "combobox": {
+    "Click": 34,
+    "ScrollTo": 34,
+    "SetFocus": 34,
+    "Expand": 34,
+    "Collapse": 34
+   },
+   "outline": {
+    "RightClick": 5,
+    "ScrollTo": 5,
+    "Select": 5,
+    "SetFocus": 1
+   },
+   "treeitem": {
+    "RightClick": 43,
+    "ScrollTo": 43,
+    "SetFocus": 43
+   },
+   "log": {
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "alert": {
+    "RightClick": 1,
+    "ScrollTo": 1
+   },
+   "note": {
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "banner": {
+    "RightClick": 1,
+    "ScrollTo": 1
+   }
+  },
+  "chromium-browser": {
+   "button": {
+    "Click": 65,
+    "SetFocus": 53,
+    "RightClick": 47,
+    "ScrollTo": 22
+   },
+   "group": {
+    "RightClick": 86,
+    "ScrollTo": 78,
+    "SetFocus": 59
+   },
+   "radiobutton": {
+    "Click": 3,
+    "Toggle": 3,
+    "RightClick": 3,
+    "SetValue": 3,
+    "SetFocus": 3
+   },
+   "combobox": {
+    "Click": 22,
+    "SetFocus": 22,
+    "Expand": 22,
+    "Collapse": 22,
+    "SetValue": 19,
+    "Select": 19,
+    "TypeText": 19,
+    "ScrollTo": 3
+   },
+   "webarea": {
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "SetFocus": 4
+   },
+   "main": {
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "toolbar": {
+    "RightClick": 3
+   },
+   "link": {
+    "Click": 17,
+    "RightClick": 17,
+    "SetFocus": 17,
+    "ScrollTo": 14
+   },
+   "statictext": {
+    "RightClick": 48,
+    "ScrollTo": 45
+   },
+   "textfield": {
+    "Click": 6,
+    "RightClick": 6,
+    "SetValue": 6,
+    "SetFocus": 6,
+    "TypeText": 6,
+    "ScrollTo": 3
+   },
+   "image": {
+    "RightClick": 17,
+    "ScrollTo": 17,
+    "Click": 3
+   },
+   "heading": {
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "navigation": {
+    "RightClick": 1,
+    "ScrollTo": 1
+   },
+   "list": {
+    "RightClick": 1,
+    "ScrollTo": 1,
+    "Select": 1
+   },
+   "checkbox": {
+    "Click": 1,
+    "Toggle": 1,
+    "RightClick": 1,
+    "ScrollTo": 1,
+    "SetValue": 1,
+    "SetFocus": 1
+   }
+  },
+  "appkit": {
+   "button": {
+    "Click": 354,
+    "SetFocus": 95,
+    "RightClick": 33,
+    "SetValue": 4
+   },
+   "toolbar": {
+    "RightClick": 8
+   },
+   "textfield": {
+    "Click": 1592,
+    "RightClick": 1591,
+    "SetValue": 1591,
+    "SetFocus": 37,
+    "TypeText": 2
+   },
+   "radiobutton": {
+    "Click": 12,
+    "Toggle": 12,
+    "SetFocus": 12
+   },
+   "statictext": {
+    "RightClick": 24,
+    "Click": 18
+   },
+   "combobox": {
+    "Click": 4,
+    "SetFocus": 4,
+    "Expand": 4,
+    "Collapse": 4
+   },
+   "list": {
+    "RightClick": 8,
+    "Select": 8,
+    "SetFocus": 8
+   },
+   "scrollarea": {
+    "Scroll": 27,
+    "SetFocus": 25
+   },
+   "scrollbar": {
+    "SetValue": 8
+   },
+   "handle": {
+    "SetValue": 8
+   },
+   "outline": {
+    "Select": 17,
+    "SetFocus": 15,
+    "RightClick": 11
+   },
+   "treeitem": {
+    "Click": 224
+   },
+   "checkbox": {
+    "Click": 18,
+    "Toggle": 18,
+    "SetFocus": 18
+   },
+   "browser": {
+    "RightClick": 4,
+    "Scroll": 4,
+    "SetFocus": 4
+   },
+   "cell": {
+    "Click": 112,
+    "RightClick": 4
+   },
+   "menubutton": {
+    "SetFocus": 12,
+    "Click": 10,
+    "Expand": 10,
+    "Collapse": 10
+   },
+   "table": {
+    "Select": 2,
+    "SetFocus": 2
+   },
+   "row": {
+    "Click": 4
+   },
+   "group": {
+    "Click": 10
+   },
+   "switch": {
+    "Click": 12,
+    "Toggle": 12,
+    "SetFocus": 12
+   },
+   "image": {
+    "RightClick": 4
+   },
+   "slider": {
+    "SetValue": 4,
+    "SetFocus": 2
+   }
+  },
+  "gecko": {
+   "button": {
+    "Click": 85,
+    "RightClick": 81,
+    "ScrollTo": 79,
+    "SetFocus": 39
+   },
+   "group": {
+    "RightClick": 166,
+    "ScrollTo": 166,
+    "Click": 162,
+    "SetFocus": 6
+   },
+   "alert": {
+    "Click": 2,
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "tabpanel": {
+    "Click": 2,
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "scrollarea": {
+    "Click": 2,
+    "RightClick": 2,
+    "ScrollTo": 2,
+    "SetFocus": 2
+   },
+   "webarea": {
+    "RightClick": 2,
+    "ScrollTo": 2,
+    "SetFocus": 2
+   },
+   "list": {
+    "Click": 4,
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "Select": 4
+   },
+   "main": {
+    "Click": 2,
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "complementary": {
+    "RightClick": 5,
+    "ScrollTo": 5,
+    "Click": 2
+   },
+   "article": {
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "Click": 3
+   },
+   "link": {
+    "Click": 14,
+    "RightClick": 14,
+    "ScrollTo": 14,
+    "SetFocus": 14
+   },
+   "heading": {
+    "RightClick": 12,
+    "ScrollTo": 12,
+    "Click": 10
+   },
+   "image": {
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "Click": 2
+   },
+   "tablist": {
+    "Click": 4,
+    "RightClick": 4,
+    "ScrollTo": 4
+   },
+   "switch": {
+    "Click": 10,
+    "Toggle": 10,
+    "RightClick": 10,
+    "ScrollTo": 10,
+    "SetFocus": 10
+   },
+   "radiobutton": {
+    "Click": 4,
+    "Toggle": 4,
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "SetFocus": 2
+   },
+   "statictext": {
+    "Click": 38,
+    "RightClick": 38,
+    "ScrollTo": 38
+   },
+   "toolbar": {
+    "Click": 6,
+    "RightClick": 6,
+    "ScrollTo": 6
+   },
+   "splitter": {
+    "Click": 6,
+    "RightClick": 6,
+    "ScrollTo": 6
+   },
+   "combobox": {
+    "Click": 4,
+    "ScrollTo": 4,
+    "Expand": 4,
+    "Collapse": 4,
+    "SetValue": 2,
+    "Select": 2,
+    "SetFocus": 2,
+    "TypeText": 2
+   },
+   "status": {
+    "Click": 1,
+    "RightClick": 1,
+    "ScrollTo": 1
+   },
+   "radiogroup": {
+    "Click": 1,
+    "RightClick": 1,
+    "ScrollTo": 1
+   },
+   "incrementor": {
+    "Click": 1,
+    "RightClick": 1,
+    "ScrollTo": 1,
+    "SetValue": 1,
+    "SetFocus": 1
+   }
+  },
+  "catalyst-or-swift": {
+   "button": {
+    "Click": 198,
+    "RightClick": 155,
+    "SetFocus": 60,
+    "ScrollTo": 42,
+    "Scroll": 22
+   },
+   "statictext": {
+    "Click": 6,
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "Scroll": 2
+   },
+   "toolbar": {
+    "RightClick": 2
+   },
+   "scrollarea": {
+    "Scroll": 4,
+    "SetFocus": 4
+   },
+   "textfield": {
+    "RightClick": 6,
+    "SetFocus": 6,
+    "SetValue": 4,
+    "Click": 4,
+    "TypeText": 2,
+    "ScrollTo": 2
+   },
+   "menubutton": {
+    "SetFocus": 4
+   },
+   "scrollbar": {
+    "SetValue": 2
+   },
+   "handle": {
+    "SetValue": 2
+   },
+   "outline": {
+    "RightClick": 2,
+    "Select": 2,
+    "SetFocus": 2
+   },
+   "treeitem": {
+    "Click": 118
+   },
+   "heading": {
+    "Click": 6,
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "group": {
+    "RightClick": 28,
+    "ScrollTo": 28,
+    "Scroll": 4
+   },
+   "link": {
+    "Click": 4,
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "SetFocus": 4,
+    "Scroll": 2
+   },
+   "splitter": {
+    "Click": 4,
+    "RightClick": 4,
+    "ScrollTo": 4,
+    "SetValue": 4
+   }
+  },
+  "custom-iwork": {
+   "button": {
+    "Click": 9,
+    "SetFocus": 2,
+    "RightClick": 1
+   },
+   "scrollarea": {
+    "Scroll": 4,
+    "SetFocus": 3
+   },
+   "link": {
+    "Click": 2
+   },
+   "browser": {
+    "RightClick": 1,
+    "Scroll": 1,
+    "SetFocus": 1
+   },
+   "list": {
+    "RightClick": 2,
+    "Select": 2,
+    "SetFocus": 2
+   },
+   "textfield": {
+    "Click": 310,
+    "RightClick": 310,
+    "SetValue": 310
+   },
+   "scrollbar": {
+    "SetValue": 1
+   },
+   "handle": {
+    "SetValue": 1
+   },
+   "outline": {
+    "Select": 1,
+    "SetFocus": 1
+   },
+   "treeitem": {
+    "Click": 26
+   },
+   "cell": {
+    "Click": 23
+   }
+  },
+  "custom-cpp": {
+   "button": {
+    "Click": 105,
+    "SetFocus": 57,
+    "RightClick": 12,
+    "ScrollTo": 8
+   },
+   "toolbar": {
+    "RightClick": 2
+   },
+   "textfield": {
+    "Click": 2,
+    "RightClick": 2,
+    "SetValue": 2,
+    "SetFocus": 2
+   },
+   "radiobutton": {
+    "Click": 16,
+    "Toggle": 16,
+    "SetFocus": 16
+   },
+   "menubutton": {
+    "SetFocus": 2
+   },
+   "scrollarea": {
+    "Scroll": 4,
+    "SetFocus": 2
+   },
+   "scrollbar": {
+    "SetValue": 2
+   },
+   "handle": {
+    "SetValue": 2
+   },
+   "table": {
+    "RightClick": 2,
+    "Select": 2,
+    "SetFocus": 2
+   },
+   "row": {
+    "Click": 26
+   },
+   "cell": {
+    "Click": 72
+   },
+   "disclosure": {
+    "Click": 2,
+    "Expand": 2,
+    "Collapse": 2
+   },
+   "list": {
+    "Select": 4,
+    "SetFocus": 2,
+    "ScrollTo": 2
+   },
+   "group": {
+    "RightClick": 5,
+    "ScrollTo": 5,
+    "SetFocus": 1,
+    "Click": 1
+   },
+   "webarea": {
+    "RightClick": 1,
+    "ScrollTo": 1,
+    "SetFocus": 1
+   },
+   "statictext": {
+    "RightClick": 4,
+    "ScrollTo": 4
+   },
+   "combobox": {
+    "Click": 1,
+    "ScrollTo": 1,
+    "SetFocus": 1,
+    "Expand": 1,
+    "Collapse": 1
+   },
+   "link": {
+    "Click": 1,
+    "RightClick": 1,
+    "ScrollTo": 1,
+    "SetFocus": 1
+   },
+   "unknown": {
+    "RightClick": 14,
+    "Click": 12
+   }
+  },
+  "qt-cef": {
+   "button": {
+    "Click": 28,
+    "SetFocus": 16,
+    "RightClick": 1
+   },
+   "incrementor": {
+    "SetValue": 1,
+    "SetFocus": 1
+   },
+   "menubutton": {
+    "Click": 2,
+    "SetFocus": 2,
+    "Expand": 2,
+    "Collapse": 2
+   },
+   "scrollbar": {
+    "SetValue": 3
+   },
+   "slider": {
+    "SetFocus": 3
+   },
+   "checkbox": {
+    "Click": 3,
+    "Toggle": 3,
+    "SetFocus": 3
+   },
+   "list": {
+    "Select": 2,
+    "SetFocus": 2
+   },
+   "row": {
+    "SetFocus": 5
+   },
+   "statictext": {
+    "Click": 5
+   }
+  },
+  "webkit-native": {
+   "button": {
+    "RightClick": 246,
+    "Click": 126,
+    "SetFocus": 98,
+    "ScrollTo": 86
+   },
+   "radiobutton": {
+    "Click": 26,
+    "Toggle": 26,
+    "RightClick": 26,
+    "ScrollTo": 26,
+    "SetFocus": 22
+   },
+   "toolbar": {
+    "RightClick": 6,
+    "Click": 2,
+    "ScrollTo": 2
+   },
+   "textfield": {
+    "Click": 2,
+    "RightClick": 2,
+    "SetValue": 2,
+    "SetFocus": 2
+   },
+   "menubutton": {
+    "Click": 2,
+    "SetFocus": 2,
+    "Expand": 2,
+    "Collapse": 2
+   },
+   "scrollarea": {
+    "Scroll": 4,
+    "SetFocus": 4,
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "scrollbar": {
+    "SetValue": 4,
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "handle": {
+    "SetValue": 2
+   },
+   "list": {
+    "Select": 12,
+    "ScrollTo": 10,
+    "RightClick": 2,
+    "SetFocus": 2
+   },
+   "switch": {
+    "Click": 50,
+    "Toggle": 50,
+    "SetFocus": 50,
+    "RightClick": 46,
+    "ScrollTo": 46
+   },
+   "group": {
+    "RightClick": 625,
+    "ScrollTo": 625,
+    "SetFocus": 126,
+    "Click": 42
+   },
+   "webarea": {
+    "RightClick": 2,
+    "ScrollTo": 2,
+    "SetFocus": 2
+   },
+   "progressbar": {
+    "Click": 2,
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "slider": {
+    "RightClick": 2,
+    "ScrollTo": 2,
+    "SetValue": 2,
+    "SetFocus": 2
+   },
+   "statictext": {
+    "RightClick": 343,
+    "ScrollTo": 343
+   },
+   "link": {
+    "Click": 234,
+    "RightClick": 234,
+    "ScrollTo": 234,
+    "SetFocus": 234
+   },
+   "heading": {
+    "RightClick": 8,
+    "ScrollTo": 8
+   },
+   "main": {
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "navigation": {
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "search": {
+    "Click": 2,
+    "RightClick": 2,
+    "ScrollTo": 2
+   },
+   "combobox": {
+    "Click": 2,
+    "ScrollTo": 2,
+    "SetValue": 2,
+    "Select": 2,
+    "SetFocus": 2,
+    "TypeText": 2,
+    "Expand": 2,
+    "Collapse": 2
+   }
+  }
+ }
+}

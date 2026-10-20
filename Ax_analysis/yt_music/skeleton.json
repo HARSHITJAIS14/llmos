@@ -1,0 +1,103 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "YT Music",
+    "complete": true,
+    "ref_count": 5,
+    "snapshot_id": "s1599z4d1eg2or",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "BrowserView?IsPageLoaded=true&WebViewProcessID=11692"
+                  },
+                  "role": "group"
+                }
+              ],
+              "role": "tablist"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "children_count": 2,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "BackForwardSegmentedControl"
+                  },
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Share",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "WebAppShareButton"
+              },
+              "ref_id": "@s1599z4d1eg2or:e2",
+              "role": "button"
+            }
+          ],
+          "ref_id": "@s1599z4d1eg2or:e1",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s1599z4d1eg2or:e3",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s1599z4d1eg2or:e4",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s1599z4d1eg2or:e5",
+          "role": "button"
+        }
+      ],
+      "name": "Pehli Mohabbat | YouTube Music",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "WebAppWindow-YT Music"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-27259",
+      "title": "Pehli Mohabbat | YouTube Music"
+    }
+  }
+}

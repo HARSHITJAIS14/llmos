@@ -1,0 +1,14 @@
+{
+    "version": "2.3",
+    "ok": false,
+    "command": "snapshot",
+    "error": {
+        "code": "TIMEOUT",
+        "message": "NSWorkspace app inventory timed out",
+        "suggestion": "The target application may be busy or unresponsive",
+        "disposition": {
+            "delivery": "unknown",
+            "retry": "unknown"
+        }
+    }
+}

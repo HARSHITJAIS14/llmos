@@ -1,0 +1,596 @@
+{
+  "schema_version": "1.0",
+  "app_key": "obs",
+  "identity": {
+    "name": "OBS Studio",
+    "bundle_id": "com.obsproject.obs-studio",
+    "bundle_id_match": "exact",
+    "framework": "qt",
+    "secondary_frameworks": [
+      "cef"
+    ],
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "QtCore/QtGui/QtWidgets + Chromium Embedded Framework.framework and 4 OBS Helper apps"
+      },
+      {
+        "source": "bundle_hint",
+        "observation": "hints: qt, cef"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.016 (1/62), Qt band"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "button 36/62 (58.1%), Qt is button-dominated; 0 webarea (CEF dormant)"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 3; interactive median depth 1"
+      }
+    ]
+  },
+  "category": "broadcast",
+  "fidelity": {
+    "default": {
+      "nodes": 62,
+      "max_depth": 3,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 48,
+      "ref_count": 55,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 62,
+      "error_code": null
+    },
+    "forced": null,
+    "forced_over_default_ratio": null,
+    "default_score": 1.0,
+    "forced_score": null,
+    "best_capture": "default",
+    "ladder_verdict": "trust"
+  },
+  "readiness": {
+    "default_rung": "TRUST",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "unfocused background capture complete: 62 nodes, 62/62 bounded, 0 offscreen"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "no webarea; CEF only used by browser docks"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 0,
+        "height": 0,
+        "x": 0,
+        "y": 0,
+        "count": 1,
+        "kind": "helper_surface"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 94.6,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 83.7,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "button"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.streamButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "start/stop streaming",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.recordButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "start/stop recording",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.virtualCamButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "start/stop virtual camera",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.virtualCamConfigButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "configure virtual camera",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.modeSwitch",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "studio mode toggle",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.controlsDock.OBSBasicControls.controlsFrame.settingsButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "open settings",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenes",
+      "match": "exact",
+      "tier": "high",
+      "role": "list",
+      "purpose": "scenes list",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sources",
+      "match": "exact",
+      "tier": "high",
+      "role": "list",
+      "purpose": "sources list",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.scenesDock.dockWidgetContents_2.scenesFrame.scenesToolbar.QToolButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "scenes toolbar button (5 share id; add name)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.sourcesDock.dockWidgetContents_6.sourcesFrame.sourcesToolbar.QToolButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "sources toolbar button (5 share id; add name)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.mixerToolbar.QToolButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "mixer toolbar button (2 share id; add name)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea.hMixerScrollArea.qt_scrollarea_viewport.hVolumeWidgets.",
+      "match": "prefix",
+      "tier": "high",
+      "role": "checkbox",
+      "purpose": "per-channel mute (tail = channel name, then .MuteCheckBox)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.mixerDock.dockWidgetContents_7.mixerFrame.stackedMixerArea",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "audio mixer area",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitions",
+      "match": "exact",
+      "tier": "high",
+      "role": "menubutton",
+      "purpose": "transition type picker",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionDuration",
+      "match": "exact",
+      "tier": "high",
+      "role": "incrementor",
+      "purpose": "transition duration",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionAdd",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "add transition",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionRemove",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "remove transition",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.transitionsDock.dockWidgetContents_5.transitionsFrame.transitionProps",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "transition properties",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewZoomInButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "preview zoom in",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewZoomOutButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "preview zoom out",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.centralwidget.previewContainer.previewXContainer.previewScalingMode",
+      "match": "exact",
+      "tier": "high",
+      "role": "menubutton",
+      "purpose": "preview scaling mode",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.centralwidget.contextContainer.contextSubContainer.sourcePropertiesButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "selected source properties",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.centralwidget.contextContainer.contextSubContainer.sourceFiltersButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "selected source filters",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "OBSApp.OBSBasic.scenesDock.qt_dockwidget_floatbutton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "float scenes dock",
+      "seen_in_captures": 2
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": false,
+    "text_entry": "set_value",
+    "editable_textfield_test": "not_readonly",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": true,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus"
+        ],
+        "count": 36,
+        "verb": "Click",
+        "note": "28/36 have Click; the 8 disabled have no Click"
+      },
+      {
+        "role": "checkbox",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "Toggle"
+        ],
+        "count": 3,
+        "verb": "Toggle",
+        "note": "mute, value '0'/'1'"
+      },
+      {
+        "role": "menubutton",
+        "actions": [
+          "Click",
+          "Collapse",
+          "Expand",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Expand"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "Select",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Select"
+      },
+      {
+        "role": "statictext",
+        "actions": [
+          "Click"
+        ],
+        "count": 5,
+        "verb": "Click",
+        "note": "scene/source labels; role is cell in skeleton"
+      },
+      {
+        "role": "incrementor",
+        "actions": [
+          "SetFocus",
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue",
+        "note": "transition duration in ms"
+      },
+      {
+        "role": "scrollbar",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 3,
+        "verb": "SetValue"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "list_item_label",
+        "match": "role==statictext and parent.role==row",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role==checkbox and 'Toggle' in actions",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10",
+          "LAW-ACT-2"
+        ]
+      },
+      {
+        "target": "record_button",
+        "match": "native_id ends with streamButton or recordButton",
+        "read_from": "name",
+        "parse": "none",
+        "laws": []
+      },
+      {
+        "target": "input_field",
+        "match": "role==incrementor",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": null,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 0,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "unnamed_list_items",
+      "detect": "role==row and no name, label in child statictext",
+      "workaround": "address the row by its named statictext child, or Select on the parent list",
+      "severity": "low",
+      "observed": "5/5 rows unnamed; 5 child statictext carry the label",
+      "laws": [
+        "LAW-ID-5",
+        "LAW-ACT-4"
+      ]
+    },
+    {
+      "kind": "user_data_in_id",
+      "detect": "mixer ax_identifier contains a channel name after hVolumeWidgets.",
+      "workaround": "match on the prefix and pick the channel by the node's name",
+      "severity": "high",
+      "observed": "3 channels x 3 widgets (properties, mute, volume) = 9 ids embed channel names",
+      "laws": [
+        "LAW-ID-2"
+      ]
+    },
+    {
+      "kind": "readonly_control_as_button",
+      "detect": "role==slider and 'readonly' in states and 'value' not in node",
+      "workaround": "volume cannot be read or set here; open AdvAudioProps and use its fields",
+      "severity": "high",
+      "observed": "3/3 volume sliders readonly, no value, SetFocus only",
+      "laws": [
+        "LAW-TXT-11"
+      ]
+    },
+    {
+      "kind": "non_unique_role_name",
+      "detect": "same (role,name) in several docks, or several buttons share one QToolButton id",
+      "workaround": "add dock ancestor or nth; bounds make it 43/43 unique",
+      "severity": "low",
+      "observed": "36/43 named interactives unique by (role,name); 10 buttons share 2 QToolButton ids",
+      "laws": [
+        "LAW-ID-6"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "default; full tree readable in background",
+      "tested": true
+    },
+    {
+      "channel": "app_api",
+      "when": "scene switching, volume levels or stream state beyond the tree",
+      "precondition": "obs-websocket server enabled",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "user-configured hotkeys",
+      "precondition": "hotkeys set in settings",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "preview canvas: source position and composition are pixels only",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T21:03:11+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background"
+    ],
+    "surface": "main",
+    "sources": [
+      "obs/meta.json",
+      "obs/windows.json",
+      "obs/skeleton.json",
+      "obs/full.json",
+      "obs/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

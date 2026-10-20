@@ -1,0 +1,18 @@
+[
+  {
+    "app_name": "Music",
+    "bounds": {
+      "height": 580.0,
+      "width": 980.0,
+      "x": 790.0,
+      "y": 238.0
+    },
+    "id": "w-28190",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26061,
+    "process_instance": "macos-proc-v1:1788103734:746908",
+    "title": "Music",
+    "visible": false
+  }
+]

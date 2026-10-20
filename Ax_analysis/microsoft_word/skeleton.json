@@ -1,0 +1,319 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Microsoft Word",
+    "complete": true,
+    "ref_count": 28,
+    "snapshot_id": "s32hnz8499l2p4",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "Scroll"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "Select",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "ScrollTo",
+                    "Select"
+                  ],
+                  "children_count": 6,
+                  "ref_id": "@s32hnz8499l2p4:e3",
+                  "role": "list",
+                  "states": [
+                    "disabled"
+                  ]
+                }
+              ],
+              "ref_id": "@s32hnz8499l2p4:e2",
+              "role": "list",
+              "states": [
+                "focused"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Expand",
+                "Collapse"
+              ],
+              "name": "Templates",
+              "ref_id": "@s32hnz8499l2p4:e4",
+              "role": "disclosure",
+              "value": "1"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "More templates",
+              "ref_id": "@s32hnz8499l2p4:e5",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Recent",
+              "ref_id": "@s32hnz8499l2p4:e6",
+              "role": "radiobutton",
+              "states": [
+                "checked"
+              ],
+              "value": "1"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Favourites",
+              "ref_id": "@s32hnz8499l2p4:e7",
+              "role": "radiobutton",
+              "value": "0"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Shared with me",
+              "ref_id": "@s32hnz8499l2p4:e8",
+              "role": "radiobutton",
+              "value": "0"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:120"
+                  },
+                  "ref_id": "@s32hnz8499l2p4:e9",
+                  "role": "scrollarea"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:192"
+              },
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "SetValue"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "ref_id": "@s32hnz8499l2p4:e11",
+                  "role": "handle",
+                  "value": "0"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "ref_id": "@s32hnz8499l2p4:e12",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "ref_id": "@s32hnz8499l2p4:e13",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "ref_id": "@s32hnz8499l2p4:e14",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "ref_id": "@s32hnz8499l2p4:e15",
+                  "role": "button"
+                }
+              ],
+              "ref_id": "@s32hnz8499l2p4:e10",
+              "role": "scrollbar",
+              "value": "0"
+            }
+          ],
+          "ref_id": "@s32hnz8499l2p4:e1",
+          "role": "scrollarea"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Cancel",
+          "ref_id": "@s32hnz8499l2p4:e16",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Create",
+          "ref_id": "@s32hnz8499l2p4:e17",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "name": "Harshit Jaiswal, Account Settings",
+          "ref_id": "@s32hnz8499l2p4:e18",
+          "role": "menubutton"
+        },
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Home",
+              "ref_id": "@s32hnz8499l2p4:e19",
+              "role": "radiobutton",
+              "states": [
+                "checked"
+              ],
+              "value": "true"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "New",
+              "ref_id": "@s32hnz8499l2p4:e20",
+              "role": "radiobutton",
+              "value": "false"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Recent",
+              "ref_id": "@s32hnz8499l2p4:e21",
+              "role": "radiobutton",
+              "value": "false"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Open",
+              "ref_id": "@s32hnz8499l2p4:e22",
+              "role": "radiobutton",
+              "value": "false"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "SetFocus"
+              ],
+              "name": "Shared",
+              "ref_id": "@s32hnz8499l2p4:e23",
+              "role": "radiobutton",
+              "value": "false"
+            }
+          ],
+          "role": "tablist"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "ref_id": "@s32hnz8499l2p4:e25",
+                  "role": "textfield"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s32hnz8499l2p4:e24",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s32hnz8499l2p4:e26",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s32hnz8499l2p4:e27",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s32hnz8499l2p4:e28",
+          "role": "button"
+        }
+      ],
+      "name": "Open new and recent files",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "DocStage"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28255",
+      "title": "Microsoft Word"
+    }
+  }
+}

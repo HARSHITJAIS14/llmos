@@ -1,0 +1,29 @@
+{
+  "seconds": 7.532288457965478,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\n  \"description\": \"A macOS browser window showing a YouTube watch page with dark theme enabled. The video playing features a Founders Fund portfolio slide, accompanied by video metadata, channel details for 'Sourcery with Molly O'Shea', interaction controls, and a right-hand sidebar of recommended videos.\",\n  \"regions\": [\n    {\n      \"id\": \"r0\",\n      \"context\": \"The overall browser window displaying the YouTube video watch page.\"\n    },\n    {\n      \"id\": \"r1\",\n      \"context\": \"The main video player displaying a presentation slide with portfolio company logos.\"\n    },\n    {\n      \"id\": \"r2\",\n      \"context\": \"The video metadata section below the player containing title, channel information, action buttons, and description.\"\n    },\n    {\n      \"id\": \"r3\",\n      \"context\": \"The right-hand sidebar displaying category filter chips and recommended video cards.\"\n    },\n    {\n      \"id\": \"r4\",\n      \"context\": \"The top YouTube header bar containing logo, search bar, and user account actions.\"\n    }\n  ],\n  \"conflicts\": [],\n  \"unknowns\": []\n}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0TNrhB4tndBwSuwL+NLTXoWMJW2t61j/doPuFjRtXeMRAqvvSKABrOnt9uW0rZBkKtVY65DE2V1+bCC1YMVPx3Vjf/4zMopM3s0Ex7qFjh4f3OFEXEAOD++OYZUnP1KYqE2Yc="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247270,
+    "id": "4oXTau2wJuexjuMPtuaDwQU",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 264,
+      "prompt_tokens": 4019,
+      "total_tokens": 4283
+    }
+  }
+}

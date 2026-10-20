@@ -1,0 +1,234 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Finder",
+    "complete": true,
+    "ref_count": 16,
+    "snapshot_id": "s3oo6sitb8c3hq",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Scroll"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select"
+                  ],
+                  "children_count": 28,
+                  "name": "sidebar",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:8"
+                  },
+                  "ref_id": "@s3oo6sitb8c3hq:e2",
+                  "role": "outline"
+                },
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "children_count": 5,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:70"
+                  },
+                  "ref_id": "@s3oo6sitb8c3hq:e3",
+                  "role": "scrollbar",
+                  "value": "0"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:61"
+              },
+              "ref_id": "@s3oo6sitb8c3hq:e1",
+              "role": "scrollarea"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "name": "column view",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "ColumnView"
+                  },
+                  "ref_id": "@s3oo6sitb8c3hq:e4",
+                  "role": "browser"
+                },
+                {
+                  "children_count": 1,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "statusBar"
+                  },
+                  "role": "unknown",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "children_count": 2,
+                  "name": "Back/Forward",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:51"
+                  },
+                  "ref_id": "@s3oo6sitb8c3hq:e6",
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus",
+                    "Expand",
+                    "Collapse"
+                  ],
+                  "name": "column view",
+                  "ref_id": "@s3oo6sitb8c3hq:e7",
+                  "role": "combobox",
+                  "states": [
+                    "readonly"
+                  ],
+                  "value": "as Columns"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "name": "Group",
+              "ref_id": "@s3oo6sitb8c3hq:e8",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "name": "Share",
+              "ref_id": "@s3oo6sitb8c3hq:e9",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "name": "Edit Tags",
+              "ref_id": "@s3oo6sitb8c3hq:e10",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "name": "Action",
+              "ref_id": "@s3oo6sitb8c3hq:e11",
+              "role": "menubutton"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "Search",
+                  "ref_id": "@s3oo6sitb8c3hq:e12",
+                  "role": "textfield"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s3oo6sitb8c3hq:e5",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s3oo6sitb8c3hq:e13",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s3oo6sitb8c3hq:e14",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s3oo6sitb8c3hq:e15",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "name": "Recents",
+          "ref_id": "@s3oo6sitb8c3hq:e16",
+          "role": "statictext",
+          "value": "Recents"
+        }
+      ],
+      "name": "Recents",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "FinderWindow"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28194",
+      "title": "Recents"
+    }
+  }
+}

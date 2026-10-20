@@ -1,0 +1,29 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Telegram",
+    "complete": false,
+    "nodes_observed": 1,
+    "ref_count": 0,
+    "snapshot_id": "s39czh1uj0k5ov",
+    "tree": {
+      "name": "Telegram",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:13"
+      },
+      "role": "window",
+      "states": [
+        "focused"
+      ],
+      "subtree_truncated": true
+    },
+    "truncated": true,
+    "window": {
+      "id": "w-28299",
+      "title": "Telegram"
+    }
+  }
+}

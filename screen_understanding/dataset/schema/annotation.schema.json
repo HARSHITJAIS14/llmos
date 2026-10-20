@@ -1,0 +1,347 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MacOSContextualScreenAnnotation",
+  "description": "Perception dataset annotation schema for contextual visual perception on macOS",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "screen_id",
+    "image",
+    "screen_context",
+    "nodes",
+    "relations",
+    "coverage",
+    "annotation_provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "0.1.0"
+    },
+    "screen_id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]+$"
+    },
+    "image": {
+      "type": "object",
+      "required": ["path", "sha256", "width", "height", "coordinate_space"],
+      "properties": {
+        "path": { "type": "string" },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 },
+        "scale_factor": { "type": ["number", "null"] },
+        "coordinate_space": {
+          "type": "string",
+          "enum": ["source_pixels_xyxy"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "screen_context": {
+      "type": "object",
+      "required": ["description", "view_types", "visible_app_names", "uncertainties"],
+      "properties": {
+        "description": { "type": "string" },
+        "view_types": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "visible_app_names": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "uncertainties": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "level",
+          "bbox",
+          "parent_id",
+          "proposal_ids",
+          "box_status",
+          "role",
+          "semantic_name",
+          "description",
+          "context_description",
+          "function",
+          "surface",
+          "content_type",
+          "visible_text",
+          "state",
+          "evidence",
+          "uncertainties",
+          "review_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^n_[0-9]{4}$"
+          },
+          "level": {
+            "type": "string",
+            "enum": ["screen", "window", "region", "group", "element"]
+          },
+          "bbox": {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "parent_id": {
+            "type": ["string", "null"],
+            "pattern": "^(n_[0-9]{4})?$"
+          },
+          "proposal_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "box_status": {
+            "type": "string",
+            "enum": [
+              "retained",
+              "corrected",
+              "added",
+              "split",
+              "merged",
+              "rejected",
+              "unresolved"
+            ]
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "screen",
+              "window",
+              "toolbar",
+              "sidebar",
+              "document",
+              "main_content",
+              "text_block",
+              "heading",
+              "paragraph",
+              "code_block",
+              "table",
+              "row",
+              "cell",
+              "list",
+              "list_item",
+              "card",
+              "image",
+              "video",
+              "dialog",
+              "menu",
+              "notification",
+              "tab",
+              "tab_strip",
+              "button",
+              "text_input",
+              "checkbox",
+              "toggle",
+              "icon",
+              "decoration",
+              "navigation_group",
+              "form_section",
+              "button_group",
+              "metadata_area",
+              "background",
+              "unknown"
+            ]
+          },
+          "semantic_name": {
+            "type": ["string", "null"]
+          },
+          "description": { "type": "string" },
+          "context_description": { "type": "string" },
+          "function": {
+            "type": ["object", "null"],
+            "required": ["label", "description", "status"],
+            "properties": {
+              "label": { "type": "string" },
+              "description": { "type": "string" },
+              "status": {
+                "type": "string",
+                "enum": ["observed", "inferred", "not_applicable"]
+              }
+            },
+            "additionalProperties": false
+          },
+          "surface": {
+            "type": "string",
+            "enum": [
+              "browser_chrome",
+              "native_app_ui",
+              "webpage_ui",
+              "desktop_ui",
+              "embedded_content",
+              "background",
+              "unknown"
+            ]
+          },
+          "content_type": { "type": "string" },
+          "visible_text": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text", "bbox", "legibility"],
+              "properties": {
+                "text": { "type": ["string", "null"] },
+                "bbox": {
+                  "type": "array",
+                  "items": { "type": "number" },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "legibility": {
+                  "type": "string",
+                  "enum": ["legible", "partially_legible", "illegible"]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "state": {
+            "type": "object",
+            "required": ["selected", "checked", "expanded", "disabled_appearance"],
+            "properties": {
+              "selected": {
+                "type": "string",
+                "enum": ["true", "false", "unknown", "not_applicable"]
+              },
+              "checked": {
+                "type": "string",
+                "enum": ["true", "false", "unknown", "not_applicable"]
+              },
+              "expanded": {
+                "type": "string",
+                "enum": ["true", "false", "unknown", "not_applicable"]
+              },
+              "disabled_appearance": {
+                "type": "string",
+                "enum": ["true", "false", "unknown", "not_applicable"]
+              }
+            },
+            "additionalProperties": false
+          },
+          "evidence": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "uncertainties": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "confidence": {
+            "type": "object",
+            "additionalProperties": { "type": "number", "minimum": 0, "maximum": 1 }
+          },
+          "review_status": {
+            "type": "string",
+            "enum": ["unreviewed", "reviewed_correct", "reviewed_corrected", "flagged"]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "target_id", "relation_type", "evidence"],
+        "properties": {
+          "source_id": { "type": "string" },
+          "target_id": { "type": "string" },
+          "relation_type": {
+            "type": "string",
+            "enum": ["labels", "describes", "member_of", "overlaps", "occludes"]
+          },
+          "evidence": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "uncertainty": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "required": ["status", "uninspected_regions", "unresolved_proposal_ids", "proposals_disposition"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["complete", "incomplete"]
+        },
+        "uninspected_regions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "unresolved_proposal_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "proposals_disposition": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["disposition", "node_ids", "reason"],
+            "properties": {
+              "disposition": {
+                "type": "string",
+                "enum": [
+                  "retained",
+                  "corrected",
+                  "added",
+                  "split",
+                  "merged",
+                  "rejected",
+                  "unresolved"
+                ]
+              },
+              "node_ids": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "reason": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "annotation_provenance": {
+      "type": "object",
+      "required": [
+        "model_requested",
+        "model_returned",
+        "thinking_requested",
+        "prompt_version",
+        "human_reviewed"
+      ],
+      "properties": {
+        "model_requested": { "type": "string" },
+        "model_returned": { "type": ["string", "null"] },
+        "thinking_requested": { "type": "string" },
+        "prompt_version": { "type": "string" },
+        "human_reviewed": { "type": "boolean" },
+        "audit_applied": { "type": "boolean" },
+        "audit_version": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

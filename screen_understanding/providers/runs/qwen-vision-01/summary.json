@@ -1,0 +1,113 @@
+{
+  "model": "qwen/qwen3.8-27b",
+  "summary": [
+    {
+      "provider": "ModelRun",
+      "task": "single_icon",
+      "n": 3,
+      "median_seconds": 0.6096259589539841,
+      "minimum_seconds": 0.5753200000035577,
+      "maximum_seconds": 0.6499484580126591,
+      "median_first_visible_seconds": 0.6009632499772124,
+      "under_500ms": 0
+    },
+    {
+      "provider": "ModelRun",
+      "task": "icons",
+      "n": 3,
+      "median_seconds": 1.530575749988202,
+      "minimum_seconds": 1.403264541993849,
+      "maximum_seconds": 2.33493750001071,
+      "median_first_visible_seconds": 1.1315971249714494,
+      "under_500ms": 0
+    },
+    {
+      "provider": "ModelRun",
+      "task": "screen",
+      "n": 3,
+      "median_seconds": 3.3219138749991544,
+      "minimum_seconds": 2.2215663749957457,
+      "maximum_seconds": 4.226494917005766,
+      "median_first_visible_seconds": 2.86214108299464,
+      "under_500ms": 0
+    },
+    {
+      "provider": "Cerebras",
+      "task": "single_icon",
+      "n": 3,
+      "median_seconds": 0.7813067079987377,
+      "minimum_seconds": 0.634180125023704,
+      "maximum_seconds": 0.9081272499752231,
+      "median_first_visible_seconds": 0.7707940829568543,
+      "under_500ms": 0
+    },
+    {
+      "provider": "Cerebras",
+      "task": "icons",
+      "n": 3,
+      "median_seconds": 1.1513778750086203,
+      "minimum_seconds": 1.0762907920288853,
+      "maximum_seconds": 2.53081695799483,
+      "median_first_visible_seconds": 1.09147354203742,
+      "under_500ms": 0
+    },
+    {
+      "provider": "Cerebras",
+      "task": "screen",
+      "n": 3,
+      "median_seconds": 3.0281916669919156,
+      "minimum_seconds": 2.142035124998074,
+      "maximum_seconds": 24.03972195798997,
+      "median_first_visible_seconds": 2.9482329589664005,
+      "under_500ms": 0
+    },
+    {
+      "provider": "DeepInfra",
+      "task": "single_icon",
+      "n": 3,
+      "median_seconds": 0.6911214999854565,
+      "minimum_seconds": 0.5430803330382332,
+      "maximum_seconds": 0.7548110419884324,
+      "median_first_visible_seconds": 0.6765344999730587,
+      "under_500ms": 0
+    },
+    {
+      "provider": "DeepInfra",
+      "task": "icons",
+      "n": 3,
+      "median_seconds": 2.9747387089882977,
+      "minimum_seconds": 2.4000947079621255,
+      "maximum_seconds": 3.1449398329714313,
+      "median_first_visible_seconds": 0.8268407079740427,
+      "under_500ms": 0
+    },
+    {
+      "provider": "DeepInfra",
+      "task": "screen",
+      "n": 3,
+      "median_seconds": 4.458552207972389,
+      "minimum_seconds": 3.8271270419936627,
+      "maximum_seconds": 8.272340666968375,
+      "median_first_visible_seconds": 1.9054709589690901,
+      "under_500ms": 0
+    }
+  ],
+  "vision_calls": 27,
+  "vision_reported_cost_usd": 0.015680835,
+  "smoke_calls": [
+    {
+      "seconds": 3.308385125012137,
+      "provider": "Cerebras",
+      "content": "\n\n3",
+      "cost": 0.00022824
+    },
+    {
+      "seconds": 0.6958094589645043,
+      "provider": "Cerebras",
+      "content": "\n\nYes, 3.",
+      "cost": 0.00034403
+    }
+  ],
+  "total_reported_cost_usd": 0.016253105,
+  "manual_assessment": "Eight hand-reviewed controls on one screenshot; unblinded qualitative assessment, not a general accuracy benchmark."
+}

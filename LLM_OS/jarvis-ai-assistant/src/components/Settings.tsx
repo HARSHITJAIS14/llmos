@@ -1,0 +1,2200 @@
+import React, { useState, useEffect } from 'react';
+import { theme, themeComponents } from '../styles/theme';
+import { defaultDictationPrompt, defaultEmailFormattingPrompt, defaultAssistantPrompt } from '../prompts/prompts';
+import { useAudioDevices } from '../hooks/useAudioDevices';
+import { PARAKEET_MODELS, STREAMING_MODELS } from '../transcription/sherpa-models';
+import { SENSEVOICE_MODELS } from '../transcription/sensevoice-models';
+
+// Tab types
+type SettingsTab = 'general' | 'transcription' | 'ai-models' | 'prompts' | 'system';
+
+// Local Whisper model options
+const WHISPER_MODELS = [
+  { id: 'tiny.en', name: 'Tiny (English)', size: '75 MB', speed: 'Fastest' },
+  { id: 'tiny', name: 'Tiny (Multi)', size: '75 MB', speed: 'Fastest' },
+  { id: 'base.en', name: 'Base (English)', size: '142 MB', speed: 'Fast' },
+  { id: 'base', name: 'Base (Multi)', size: '142 MB', speed: 'Fast' },
+  { id: 'small.en', name: 'Small (English)', size: '466 MB', speed: 'Medium' },
+  { id: 'small', name: 'Small (Multi)', size: '466 MB', speed: 'Medium' },
+  { id: 'medium', name: 'Medium (Multi)', size: '1.5 GB', speed: 'Slow' },
+  { id: 'large-v3', name: 'Large v3 (Multi)', size: '3.1 GB', speed: 'Slow' },
+];
+
+// AWS Regions for Bedrock
+const AWS_REGIONS = [
+  { id: 'us-east-1', name: 'US East (N. Virginia)' },
+  { id: 'us-west-2', name: 'US West (Oregon)' },
+  { id: 'eu-west-1', name: 'Europe (Ireland)' },
+  { id: 'eu-central-1', name: 'Europe (Frankfurt)' },
+  { id: 'ap-northeast-1', name: 'Asia Pacific (Tokyo)' },
+  { id: 'ap-southeast-1', name: 'Asia Pacific (Singapore)' },
+  { id: 'ap-southeast-2', name: 'Asia Pacific (Sydney)' },
+];
+
+const Settings: React.FC = () => {
+  // Active tab. If Dashboard asked us to jump to a specific tab via the
+  // `app:route` IPC (used by the missing-API-key system notification),
+  // it leaves the request on window.__jarvisSettingsTab.
+  const initialTab: SettingsTab = (() => {
+    const requested = (window as any).__jarvisSettingsTab;
+    if (requested === 'api-keys') {
+      try { delete (window as any).__jarvisSettingsTab; } catch { /* */ }
+      // The API key inputs live under the Transcription tab.
+      return 'transcription';
+    }
+    return 'general';
+  })();
+  const [activeTab, setActiveTab] = useState<SettingsTab>(initialTab);
+
+  // Settings state
+  const [showNudges, setShowNudges] = useState(true);
+  const [hotkey, setHotkey] = useState('fn');
+  const [audioFeedback, setAudioFeedback] = useState(false);
+  const [showOnStartup, setShowOnStartup] = useState(false);
+  const [analyticsEnabled, setAnalyticsEnabled] = useState(true);
+  const [aiPostProcessing, setAiPostProcessing] = useState(true);
+  const [useLocalModel, setUseLocalModel] = useState(false);
+  const [localModelId, setLocalModelId] = useState('tiny.en');
+  // const [useParakeet, setUseParakeet] = useState(false); // Deprecated
+  // const [parakeetModel, setParakeetModel] = useState(PARAKEET_MODELS[0].id); // Deprecated
+  const [downloadedParakeetModels, setDownloadedParakeetModels] = useState<string[]>([]);
+  const [downloadingParakeet, setDownloadingParakeet] = useState<string | null>(null);
+  const [parakeetDownloadProgress, setParakeetDownloadProgress] = useState<number>(0);
+  const [downloadedSenseVoiceModels, setDownloadedSenseVoiceModels] = useState<string[]>([]);
+  const [downloadingSenseVoice, setDownloadingSenseVoice] = useState<string | null>(null);
+  const [senseVoiceDownloadProgress, setSenseVoiceDownloadProgress] = useState<number>(0);
+  const [userName, setUserName] = useState('');
+  const [showWaveform, setShowWaveform] = useState(true);
+
+  // Load downloaded Sherpa models on mount
+  useEffect(() => {
+    const checkDownloadedModels = async () => {
+      const electronAPI = (window as any).electronAPI;
+      if (electronAPI?.sherpaGetDownloadedModels) {
+        try {
+          const models = await electronAPI.sherpaGetDownloadedModels();
+          setDownloadedParakeetModels(models);
+        } catch (error) {
+          console.error('Failed to get downloaded Sherpa models:', error);
+        }
+      }
+      if (electronAPI?.senseVoiceGetDownloadedModels) {
+        try {
+          const models = await electronAPI.senseVoiceGetDownloadedModels();
+          setDownloadedSenseVoiceModels(models);
+        } catch (error) {
+          console.error('Failed to get downloaded SenseVoice models:', error);
+        }
+      }
+    };
+    checkDownloadedModels();
+  }, []);
+
+  // Custom Prompts
+  const [customDictationPrompt, setCustomDictationPrompt] = useState('');
+  const [customEmailPrompt, setCustomEmailPrompt] = useState('');
+  const [customAssistantPrompt, setCustomAssistantPrompt] = useState('');
+  const [promptsSaving, setPromptsSaving] = useState(false);
+  const [promptsSaved, setPromptsSaved] = useState(false);
+
+  // Expanded prompt modal state
+  const [expandedPrompt, setExpandedPrompt] = useState<null | {
+    type: 'dictation' | 'email' | 'assistant',
+    value: string
+  }>(null);
+
+  // Accordion state for prompts - which card is expanded
+  const [expandedPromptCard, setExpandedPromptCard] = useState<'dictation' | 'email' | 'assistant' | null>(null);
+
+  // Transcription API Keys
+  const [openaiApiKey, setOpenaiApiKey] = useState('');
+  const [deepgramApiKey, setDeepgramApiKey] = useState('');
+  const [showOpenaiKey, setShowOpenaiKey] = useState(false);
+  const [showDeepgramKey, setShowDeepgramKey] = useState(false);
+
+  // AI Model API Keys
+  const [geminiApiKey, setGeminiApiKey] = useState('');
+  const [anthropicApiKey, setAnthropicApiKey] = useState('');
+  const [awsAccessKeyId, setAwsAccessKeyId] = useState('');
+  const [awsSecretAccessKey, setAwsSecretAccessKey] = useState('');
+  const [awsRegion, setAwsRegion] = useState('us-east-1');
+  const [showGeminiKey, setShowGeminiKey] = useState(false);
+  const [showAnthropicKey, setShowAnthropicKey] = useState(false);
+  const [showAwsAccessKey, setShowAwsAccessKey] = useState(false);
+  const [showAwsSecretKey, setShowAwsSecretKey] = useState(false);
+
+  // Ollama Settings
+  const [useOllama, setUseOllama] = useState(false);
+  const [ollamaUrl, setOllamaUrl] = useState('http://localhost:11434');
+  const [ollamaModel, setOllamaModel] = useState('llama3');
+  const [availableOllamaModels, setAvailableOllamaModels] = useState<string[]>([]);
+  const [ollamaStatus, setOllamaStatus] = useState<'connected' | 'error' | 'checking' | 'idle'>('idle');
+
+  // Audio Device Selection
+  const { devices: audioDevices, loading: audioDevicesLoading } = useAudioDevices();
+  const [preferredMicrophone, setPreferredMicrophone] = useState<string>('default');
+  const [transcriptionLanguage, setTranscriptionLanguage] = useState<string>('en-US');
+
+  // Saving states
+  const [transcriptionKeysSaving, setTranscriptionKeysSaving] = useState(false);
+  const [transcriptionKeysSaved, setTranscriptionKeysSaved] = useState(false);
+  const [aiKeysSaving, setAiKeysSaving] = useState(false);
+  const [aiKeysSaved, setAiKeysSaved] = useState(false);
+
+  // UI state
+  const [isCustomizingHotkey, setIsCustomizingHotkey] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [isSaving, setIsSaving] = useState(false);
+
+  // Whisper model download state
+  const [downloadingModel, setDownloadingModel] = useState<string | null>(null);
+  const [downloadProgress, setDownloadProgress] = useState(0);
+  const [downloadedModels, setDownloadedModels] = useState<string[]>([]);
+
+  // App version
+  const [appVersion, setAppVersion] = useState('1.1.3');
+
+  // Pre-defined hotkey options (single keys for push-to-talk)
+  const presetHotkeys = [
+    { key: 'fn', label: 'Function (fn)', description: 'Push-to-talk - behavior varies by keyboard/settings' },
+    { key: 'option', label: 'Option (⌥)', description: 'Push-to-talk - left or right side' },
+    { key: 'control', label: 'Control (⌃)', description: 'Push-to-talk - bottom left corner' },
+    { key: 'command', label: 'Command (⌘)', description: 'Push-to-talk - left or right Command key' },
+    { key: 'shift', label: 'Shift (⇧)', description: 'Push-to-talk - left or right Shift key' },
+  ];
+
+  const languages = [
+    { code: 'en-US', name: 'English (US)' },
+    { code: 'en-GB', name: 'English (UK)' },
+    { code: 'es', name: 'Spanish' },
+    { code: 'fr', name: 'French' },
+    { code: 'de', name: 'German' },
+    { code: 'ja', name: 'Japanese' },
+    { code: 'zh', name: 'Chinese (Mandarin)' },
+    { code: 'hi', name: 'Hindi' },
+    { code: 'pt', name: 'Portuguese' },
+    { code: 'it', name: 'Italian' },
+    { code: 'ko', name: 'Korean' },
+    { code: 'nl', name: 'Dutch' },
+    { code: 'pl', name: 'Polish' },
+    { code: 'ru', name: 'Russian' },
+    { code: 'sv', name: 'Swedish' },
+    { code: 'tr', name: 'Turkish' },
+  ];
+
+  // Tab configuration
+  const tabs: { id: SettingsTab; label: string; icon: React.ReactNode }[] = [
+    {
+      id: 'general',
+      label: 'General',
+      icon: (
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      )
+    },
+    {
+      id: 'transcription',
+      label: 'Transcription',
+      icon: (
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+        </svg>
+      )
+    },
+    {
+      id: 'ai-models',
+      label: 'AI Models',
+      icon: (
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+      )
+    },
+    {
+      id: 'prompts',
+      label: 'Prompts',
+      icon: (
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+        </svg>
+      )
+    },
+    {
+      id: 'system',
+      label: 'System',
+      icon: (
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+        </svg>
+      )
+    },
+  ];
+
+  // Get display label for hotkey
+  const getHotkeyLabel = (key: string) => {
+    const preset = presetHotkeys.find(p => p.key === key);
+    return preset ? preset.label : key.toUpperCase();
+  };
+
+  // Load settings on component mount
+  useEffect(() => {
+    loadSettings();
+  }, []);
+
+  useEffect(() => {
+    const fetchVersion = async () => {
+      try {
+        const version = await (window as any).electronAPI.getAppVersion();
+        setAppVersion(version);
+      } catch (error) {
+        console.error('Failed to fetch app version:', error);
+      }
+    };
+    fetchVersion();
+  }, []);
+
+  const loadSettings = async () => {
+    try {
+      setIsLoading(true);
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI) {
+        // Load app settings
+        const appSettings = await electronAPI.appGetSettings();
+        if (appSettings) {
+          setHotkey(appSettings.hotkey);
+          setAudioFeedback(appSettings.audioFeedback);
+          setShowOnStartup(appSettings.showOnStartup);
+          setAnalyticsEnabled(appSettings.analytics !== false);
+          setAiPostProcessing(appSettings.aiPostProcessing);
+          setAiPostProcessing(appSettings.aiPostProcessing);
+          setUseLocalModel(appSettings.useLocalModel ?? false);
+          setLocalModelId(appSettings.localModelId ?? 'tiny.en');
+          // setUseParakeet(appSettings.useParakeet ?? false); // Legacy support handled in migration
+          // setParakeetModel(appSettings.parakeetModel || PARAKEET_MODELS[0].id);
+          // setDownloadedParakeetModels(appSettings.downloadedParakeetModels || []);
+          setUserName(appSettings.userName ?? '');
+          setShowWaveform(appSettings.showWaveform ?? true);
+          setPreferredMicrophone(appSettings.preferredMicrophone ?? 'default');
+          setTranscriptionLanguage(appSettings.transcriptionLanguage ?? 'en-US');
+
+          // Patch: If any prompt is empty string, update settings file to use default
+          const electronAPI = (window as any).electronAPI;
+          let needsPatch = false;
+          let patchedPrompts: any = {};
+          if (!appSettings.customDictationPrompt || !appSettings.customDictationPrompt.trim()) {
+            setCustomDictationPrompt(defaultDictationPrompt);
+            patchedPrompts.customDictationPrompt = defaultDictationPrompt;
+            needsPatch = true;
+          } else {
+            setCustomDictationPrompt(appSettings.customDictationPrompt);
+          }
+          if (!appSettings.customEmailPrompt || !appSettings.customEmailPrompt.trim()) {
+            setCustomEmailPrompt(defaultEmailFormattingPrompt);
+            patchedPrompts.customEmailPrompt = defaultEmailFormattingPrompt;
+            needsPatch = true;
+          } else {
+            setCustomEmailPrompt(appSettings.customEmailPrompt);
+          }
+          if (!appSettings.customAssistantPrompt || !appSettings.customAssistantPrompt.trim()) {
+            setCustomAssistantPrompt(defaultAssistantPrompt);
+            patchedPrompts.customAssistantPrompt = defaultAssistantPrompt;
+            needsPatch = true;
+          } else {
+            setCustomAssistantPrompt(appSettings.customAssistantPrompt);
+          }
+          if (needsPatch && electronAPI && electronAPI.appUpdateSettings) {
+            await electronAPI.appUpdateSettings(patchedPrompts);
+          }
+        }
+
+        // Load API keys
+        if (electronAPI.getApiKeys) {
+          const apiKeys = await electronAPI.getApiKeys();
+          if (apiKeys) {
+            setOpenaiApiKey(apiKeys.openaiApiKey || '');
+            setDeepgramApiKey(apiKeys.deepgramApiKey || '');
+            setGeminiApiKey(apiKeys.geminiApiKey || '');
+            setAnthropicApiKey(apiKeys.anthropicApiKey || '');
+            setAwsAccessKeyId(apiKeys.awsAccessKeyId || '');
+            setAwsSecretAccessKey(apiKeys.awsSecretAccessKey || '');
+            setAwsRegion(apiKeys.awsRegion || 'us-east-1');
+
+            // Allow appSettings to override API key service if needed, or just load from app settings
+            if (appSettings) {
+              setUseOllama(appSettings.useOllama || false);
+              setOllamaUrl(appSettings.ollamaUrl || 'http://localhost:11434');
+              setOllamaModel(appSettings.ollamaModel || 'llama3');
+
+              // If enabled, try to fetch models immediately to check status
+              if (appSettings.useOllama) {
+                fetchOllamaModels(appSettings.ollamaUrl || 'http://localhost:11434');
+              }
+            }
+          }
+        }
+
+        // Load nudge settings
+        const nudgeSettings = await electronAPI.nudgeGetSettings();
+        if (nudgeSettings) {
+          setShowNudges(nudgeSettings.enabled);
+        }
+
+        // Load downloaded whisper models
+        if (electronAPI.whisperGetDownloadedModels) {
+          const models = await electronAPI.whisperGetDownloadedModels();
+          setDownloadedModels(models || []);
+        }
+      }
+    } catch (error) {
+      console.error('Failed to load settings:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleNudgeToggle = async () => {
+    try {
+      setIsSaving(true);
+      const newValue = !showNudges;
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.nudgeUpdateSettings) {
+        await electronAPI.nudgeUpdateSettings({ enabled: newValue });
+        setShowNudges(newValue);
+      }
+    } catch (error) {
+      console.error('Failed to update nudge settings:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleShowOnStartupToggle = async () => {
+    try {
+      setIsSaving(true);
+      const newValue = !showOnStartup;
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ showOnStartup: newValue });
+        setShowOnStartup(newValue);
+      }
+    } catch (error) {
+      console.error('Failed to update startup settings:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleHotkeyChange = async (newHotkey: string) => {
+    try {
+      console.log(`🔧 [Settings] Hotkey change requested: ${hotkey} -> ${newHotkey}`);
+      setIsSaving(true);
+
+      // Update UI immediately for responsiveness
+      setHotkey(newHotkey);
+
+      // Send to main process to update settings and restart monitoring
+      const electronAPI = (window as any).electronAPI;
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ hotkey: newHotkey });
+        console.log(`✅ [Settings] Hotkey successfully changed to: ${newHotkey}`);
+      }
+
+    } catch (error) {
+      console.error('❌ [Settings] Failed to change hotkey:', error);
+      // Revert UI state on error
+      setHotkey(hotkey);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleAudioFeedbackToggle = async () => {
+    try {
+      setIsSaving(true);
+      const newValue = !audioFeedback;
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ audioFeedback: newValue });
+        setAudioFeedback(newValue);
+      }
+    } catch (error) {
+      console.error('Failed to update audio feedback settings:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleAnalyticsToggle = async () => {
+    try {
+      setIsSaving(true);
+      const newValue = !analyticsEnabled;
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ analytics: newValue });
+        setAnalyticsEnabled(newValue);
+      }
+    } catch (error) {
+      console.error('Failed to update analytics setting:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleAiPostProcessingToggle = async () => {
+    try {
+      setIsSaving(true);
+      const newValue = !aiPostProcessing;
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ aiPostProcessing: newValue });
+        setAiPostProcessing(newValue);
+      }
+    } catch (error) {
+      console.error('Failed to update AI post-processing settings:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleLocalModelToggle = async () => {
+    try {
+      setIsSaving(true);
+      const newValue = !useLocalModel;
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ useLocalModel: newValue });
+        setUseLocalModel(newValue);
+      }
+    } catch (error) {
+      console.error('Failed to update local model settings:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleLocalModelChange = async (modelId: string) => {
+    try {
+      const electronAPI = (window as any).electronAPI;
+
+      // Determine model type
+      const isParakeet = PARAKEET_MODELS.some(m => m.id === modelId) || STREAMING_MODELS.some(m => m.id === modelId);
+      const isWhisper = WHISPER_MODELS.some(m => m.id === modelId);
+      const isSenseVoice = SENSEVOICE_MODELS.some(m => m.id === modelId);
+
+      console.log(`[Settings] Model changed to ${modelId} (Parakeet: ${isParakeet}, Whisper: ${isWhisper}, SenseVoice: ${isSenseVoice})`);
+
+      // Check if downloaded
+      let isDownloaded = false;
+      if (isParakeet) {
+        isDownloaded = downloadedParakeetModels.includes(modelId);
+      } else if (isWhisper) {
+        isDownloaded = downloadedModels.includes(modelId);
+      } else if (isSenseVoice) {
+        isDownloaded = downloadedSenseVoiceModels.includes(modelId);
+      }
+
+      // Save selection first
+      setIsSaving(true);
+      if (electronAPI?.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ localModelId: modelId });
+        setLocalModelId(modelId);
+      }
+
+      // Trigger download if needed
+      if (isParakeet && !isDownloaded) {
+        console.log(`[Settings] Auto-downloading Parakeet model: ${modelId}`);
+        handleDownloadParakeetModel(modelId);
+      } else if (isWhisper && !isDownloaded) {
+        console.log(`[Settings] Auto-downloading Whisper model: ${modelId}`);
+        handleDownloadWhisperModel(modelId);
+      } else if (isSenseVoice && !isDownloaded) {
+        console.log(`[Settings] Auto-downloading SenseVoice model: ${modelId}`);
+        handleDownloadSenseVoiceModel(modelId);
+      }
+
+    } catch (error) {
+      console.error('Failed to update local model:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleDownloadModel = async (modelId: string) => {
+    const isSherpa = PARAKEET_MODELS.some(m => m.id === modelId) || STREAMING_MODELS.some(m => m.id === modelId);
+    const isSenseVoice = SENSEVOICE_MODELS.some(m => m.id === modelId);
+
+    if (isSenseVoice) {
+      await handleDownloadSenseVoiceModel(modelId);
+    } else if (isSherpa) {
+      await handleDownloadParakeetModel(modelId);
+    } else {
+      await handleDownloadWhisperModel(modelId);
+    }
+  };
+
+  const handleDownloadWhisperModel = async (modelId: string) => {
+    const electronAPI = (window as any).electronAPI;
+    if (!electronAPI?.whisperDownloadModel) return;
+
+    setDownloadingModel(modelId);
+    setDownloadProgress(0);
+
+    try {
+      electronAPI.onWhisperDownloadProgress?.((data: { modelId: string; percent: number }) => {
+        if (data.modelId === modelId) setDownloadProgress(data.percent);
+      });
+
+      const result = await electronAPI.whisperDownloadModel(modelId);
+
+      electronAPI.removeWhisperDownloadProgressListener?.();
+
+      if (result?.success) {
+        setDownloadedModels(prev => [...prev, modelId]);
+      } else {
+        console.error('Failed to download Whisper model');
+      }
+    } catch (e) {
+      console.error(e);
+    } finally {
+      setDownloadingModel(null);
+    }
+  };
+
+  const handleDownloadParakeetModel = async (modelId: string) => {
+    const model = PARAKEET_MODELS.find(m => m.id === modelId) || STREAMING_MODELS.find(m => m.id === modelId);
+    if (!model) return;
+
+    setDownloadingParakeet(modelId);
+    setParakeetDownloadProgress(0);
+    const electronAPI = (window as any).electronAPI;
+
+    try {
+      if (electronAPI?.onSherpaDownloadProgress) {
+        electronAPI.onSherpaDownloadProgress(({ percent }: { percent: number }) => {
+          console.log(`[Settings] Download progress: ${percent}%`);
+          setParakeetDownloadProgress(percent);
+        });
+      }
+
+      if (electronAPI?.sherpaDownloadModel) {
+        const result = await electronAPI.sherpaDownloadModel(modelId);
+
+        if (result && result.success) {
+          const currentDownloaded = downloadedParakeetModels || [];
+          if (!currentDownloaded.includes(modelId)) {
+            const newDownloaded = [...currentDownloaded, modelId];
+            setDownloadedParakeetModels(newDownloaded);
+            if (electronAPI.appUpdateSettings) {
+              await electronAPI.appUpdateSettings({ downloadedParakeetModels: newDownloaded });
+            }
+          }
+        }
+      }
+    } catch (error) {
+      console.error('Failed to download model:', error);
+    } finally {
+      if (electronAPI?.removeSherpaDownloadProgressListener) {
+        electronAPI.removeSherpaDownloadProgressListener();
+      }
+      setDownloadingParakeet(null);
+      setParakeetDownloadProgress(0);
+    }
+  };
+
+  const handleDownloadSenseVoiceModel = async (modelId: string) => {
+    const model = SENSEVOICE_MODELS.find(m => m.id === modelId);
+    if (!model) return;
+
+    setDownloadingSenseVoice(modelId);
+    setSenseVoiceDownloadProgress(0);
+    const electronAPI = (window as any).electronAPI;
+
+    try {
+      if (electronAPI?.onSenseVoiceDownloadProgress) {
+        electronAPI.onSenseVoiceDownloadProgress(({ percent }: { percent: number }) => {
+          setSenseVoiceDownloadProgress(percent);
+        });
+      }
+
+      if (electronAPI?.senseVoiceDownloadModel) {
+        const result = await electronAPI.senseVoiceDownloadModel(modelId);
+
+        if (result && result.success) {
+          const currentDownloaded = downloadedSenseVoiceModels || [];
+          if (!currentDownloaded.includes(modelId)) {
+            setDownloadedSenseVoiceModels([...currentDownloaded, modelId]);
+          }
+        }
+      }
+    } catch (error) {
+      console.error('Failed to download SenseVoice model:', error);
+    } finally {
+      if (electronAPI?.removeSenseVoiceDownloadProgressListener) {
+        electronAPI.removeSenseVoiceDownloadProgressListener();
+      }
+      setDownloadingSenseVoice(null);
+      setSenseVoiceDownloadProgress(0);
+    }
+  };
+
+  const handleUserNameChange = async (newName: string) => {
+    try {
+      const electronAPI = (window as any).electronAPI;
+      setUserName(newName);
+
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ userName: newName });
+      }
+    } catch (error) {
+      console.error('Failed to update user name:', error);
+    }
+  };
+
+  const handlePromptsSave = async () => {
+    setPromptsSaving(true);
+    try {
+      const electronAPI = (window as any).electronAPI;
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({
+          customDictationPrompt,
+          customEmailPrompt,
+          customAssistantPrompt
+        });
+        setPromptsSaved(true);
+        setTimeout(() => setPromptsSaved(false), 3000);
+      }
+    } catch (error) {
+      console.error('Failed to save custom prompts:', error);
+    } finally {
+      setPromptsSaving(false);
+    }
+  };
+
+  const handleResetPrompts = async () => {
+    if (confirm('Are you sure you want to reset all prompts to their default values?')) {
+      setCustomDictationPrompt(defaultDictationPrompt);
+      setCustomEmailPrompt(defaultEmailFormattingPrompt);
+      setCustomAssistantPrompt(defaultAssistantPrompt);
+
+      try {
+        const electronAPI = (window as any).electronAPI;
+        if (electronAPI && electronAPI.appUpdateSettings) {
+          await electronAPI.appUpdateSettings({
+            customDictationPrompt: defaultDictationPrompt,
+            customEmailPrompt: defaultEmailFormattingPrompt,
+            customAssistantPrompt: defaultAssistantPrompt
+          });
+          setPromptsSaved(true);
+          setTimeout(() => setPromptsSaved(false), 3000);
+        }
+      } catch (error) {
+        console.error('Failed to reset prompts:', error);
+      }
+    }
+  };
+
+  const handleShowWaveformToggle = async () => {
+    try {
+      setIsSaving(true);
+      const newValue = !showWaveform;
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ showWaveform: newValue });
+        setShowWaveform(newValue);
+      }
+    } catch (error) {
+      console.error('Failed to update waveform settings:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleSaveTranscriptionKeys = async () => {
+    try {
+      setTranscriptionKeysSaving(true);
+      setTranscriptionKeysSaved(false);
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.saveApiKeys) {
+        await electronAPI.saveApiKeys({
+          openaiApiKey: openaiApiKey.trim(),
+          deepgramApiKey: deepgramApiKey.trim(),
+        });
+        setTranscriptionKeysSaved(true);
+        setTimeout(() => setTranscriptionKeysSaved(false), 3000);
+      }
+    } catch (error) {
+      console.error('Failed to save transcription keys:', error);
+    } finally {
+      setTranscriptionKeysSaving(false);
+    }
+  };
+
+  const handleSaveAiKeys = async () => {
+    try {
+      setAiKeysSaving(true);
+      setAiKeysSaved(false);
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.saveApiKeys) {
+        await electronAPI.saveApiKeys({
+          geminiApiKey: geminiApiKey.trim(),
+          anthropicApiKey: anthropicApiKey.trim(),
+          awsAccessKeyId: awsAccessKeyId.trim(),
+          awsSecretAccessKey: awsSecretAccessKey.trim(),
+          awsRegion: awsRegion,
+        });
+        setAiKeysSaved(true);
+        setTimeout(() => setAiKeysSaved(false), 3000);
+      }
+    } catch (error) {
+      console.error('Failed to save AI keys:', error);
+    } finally {
+      setAiKeysSaving(false);
+    }
+  };
+
+  const handleOllamaToggle = async () => {
+    try {
+      setIsSaving(true);
+      const newValue = !useOllama;
+      const electronAPI = (window as any).electronAPI;
+
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ useOllama: newValue });
+        setUseOllama(newValue);
+      }
+    } catch (error) {
+      console.error('Failed to update Ollama settings:', error);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleOllamaUrlChange = async (url: string) => {
+    setOllamaUrl(url); // Update UI immediately
+    // Debounce saving in real app, but here we just update state and save on blur or separate effect if needed
+    // For now, let's just save it
+    try {
+      const electronAPI = (window as any).electronAPI;
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ ollamaUrl: url });
+      }
+    } catch (e) { console.error(e); }
+  };
+
+  const handleOllamaModelChange = async (model: string) => {
+    setOllamaModel(model);
+    try {
+      const electronAPI = (window as any).electronAPI;
+      if (electronAPI && electronAPI.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ ollamaModel: model });
+      }
+    } catch (e) { console.error(e); }
+  };
+
+  const fetchOllamaModels = async (url: string) => {
+    console.log('[Settings] fetchOllamaModels called with URL:', url);
+    setOllamaStatus('checking');
+    try {
+      const electronAPI = (window as any).electronAPI;
+      console.log('[Settings] electronAPI available:', !!electronAPI);
+      console.log('[Settings] ollamaGetModels available:', !!electronAPI?.ollamaGetModels);
+      if (electronAPI && electronAPI.ollamaGetModels) {
+        const result = await electronAPI.ollamaGetModels(url);
+        console.log('[Settings] Ollama result:', result);
+        if (result.success) {
+          setAvailableOllamaModels(result.models);
+          setOllamaStatus('connected');
+          console.log('[Settings] Ollama connected, models:', result.models);
+        } else {
+          setOllamaStatus('error');
+          console.error('[Settings] Ollama error:', result.error);
+        }
+      } else {
+        console.error('[Settings] electronAPI.ollamaGetModels not available');
+        setOllamaStatus('error');
+      }
+    } catch (error) {
+      console.error('[Settings] Failed to fetch Ollama models:', error);
+      setOllamaStatus('error');
+    }
+  };
+
+  const handleOllamaUrlBlur = () => {
+    if (useOllama) {
+      fetchOllamaModels(ollamaUrl);
+    }
+  };
+
+  const openExternalLink = (url: string) => {
+    const electronAPI = (window as any).electronAPI;
+    if (electronAPI?.openExternal) {
+      electronAPI.openExternal(url);
+    } else {
+      window.open(url, '_blank');
+    }
+  };
+
+  const handleMicrophoneChange = async (deviceId: string) => {
+    setPreferredMicrophone(deviceId);
+    try {
+      const electronAPI = (window as any).electronAPI;
+      if (electronAPI?.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ preferredMicrophone: deviceId === 'default' ? null : deviceId });
+        console.log('[Settings] Microphone changed to:', deviceId);
+      }
+    } catch (error) {
+      console.error('[Settings] Failed to save microphone setting:', error);
+    }
+  };
+
+  const handleLanguageChange = async (language: string) => {
+    setTranscriptionLanguage(language);
+    try {
+      const electronAPI = (window as any).electronAPI;
+      if (electronAPI?.appUpdateSettings) {
+        await electronAPI.appUpdateSettings({ transcriptionLanguage: language });
+        console.log('[Settings] Language changed to:', language);
+      }
+    } catch (error) {
+      console.error('[Settings] Failed to save language setting:', error);
+    }
+  };
+
+  // Toggle component for reuse
+  const Toggle = ({ enabled, onToggle, disabled = false }: { enabled: boolean; onToggle: () => void; disabled?: boolean }) => (
+    <button
+      onClick={onToggle}
+      disabled={disabled}
+      className={`relative w-12 h-6 flex-shrink-0 rounded-full transition-all duration-200 ${enabled
+        ? `${theme.glass.secondary} border border-white/20`
+        : `${theme.glass.secondary} border border-white/10`
+        } ${disabled ? 'opacity-50 cursor-not-allowed' : ''}`}
+    >
+      <div className={`w-5 h-5 bg-white rounded-full absolute top-0.5 transition-transform ${enabled ? 'translate-x-6' : 'translate-x-0.5'
+        } ${theme.shadow.lg}`} />
+    </button>
+  );
+
+  if (isLoading) {
+    return (
+      <div className="max-w-3xl mx-auto p-6 font-inter">
+        <div className="flex items-center justify-center py-12">
+          <div className="w-6 h-6 border-2 border-white/30 border-t-transparent rounded-full animate-spin mr-3"></div>
+          <p className="text-white/60">Loading settings...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Render a single prompt card for the accordion
+  const renderPromptCard = (
+    id: 'dictation' | 'email' | 'assistant',
+    title: string,
+    description: string,
+    currentValue: string,
+    defaultValue: string,
+    setter: (val: string) => void
+  ) => {
+    const isExpanded = expandedPromptCard === id;
+    const isDefault = currentValue === defaultValue;
+    const charCount = currentValue.length;
+
+    return (
+      <div className={`${theme.glass.secondary} ${theme.radius.xl} overflow-hidden border transition-all duration-300 ${isExpanded ? 'border-white/30 ring-1 ring-blue-500/30' : 'border-white/10 hover:border-white/20'}`}>
+        {/* Card Header */}
+        <div
+          className={`px-5 py-4 flex items-center justify-between cursor-pointer ${isExpanded ? 'bg-white/5' : ''}`}
+          onClick={() => setExpandedPromptCard(isExpanded ? null : id)}
+        >
+          <div className="flex items-center gap-3">
+            <div className={`p-2 rounded-lg ${isExpanded ? 'bg-blue-500/20 text-blue-400' : 'bg-white/5 text-white/60'}`}>
+              {id === 'dictation' && (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                </svg>
+              )}
+              {id === 'email' && (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              )}
+              {id === 'assistant' && (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              )}
+            </div>
+            <div>
+              <h4 className={`font-medium ${theme.text.primary}`}>{title}</h4>
+              <p className={`text-xs ${theme.text.tertiary}`}>{description}</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            {isDefault ? (
+              <span className="px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase bg-white/5 text-white/40 rounded border border-white/10">
+                Default
+              </span>
+            ) : (
+              <span className="px-2 py-0.5 text-[10px] font-bold tracking-wider uppercase bg-blue-500/10 text-blue-400 rounded border border-blue-500/20">
+                Customized
+              </span>
+            )}
+            <svg
+              className={`w-5 h-5 text-white/40 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
+        </div>
+
+        {/* Card Content */}
+        <div className={`transition-all duration-300 ease-in-out ${isExpanded ? 'max-h-[600px] border-t border-white/10' : 'max-h-0'}`}>
+          <div className="p-5 space-y-4">
+            <div className="relative">
+              <textarea
+                value={currentValue}
+                onChange={(e) => setter(e.target.value)}
+                className={`w-full h-48 bg-black/40 rounded-xl px-4 py-3 ${theme.text.primary} border border-white/10 focus:border-white/30 focus:outline-none transition-colors text-sm font-mono placeholder-white/20 resize-none`}
+              />
+              <div className="absolute right-3 bottom-3 flex gap-2">
+                <div className="px-2 py-1 bg-black/60 rounded text-[10px] text-white/40 border border-white/10 backdrop-blur-sm">
+                  {charCount} chars
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setExpandedPrompt({ type: id, value: currentValue })}
+                  className="p-1.5 bg-white/10 hover:bg-white/20 rounded border border-white/20 text-white transition-colors"
+                  title="Expand to Fullscreen"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 8V4h4M20 16v4h-4M4 16v4h4M20 8V4h-4" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between pt-2">
+              <button
+                onClick={() => {
+                  if (confirm('Reset this prompt to default?')) {
+                    setter(defaultValue);
+                  }
+                }}
+                disabled={isDefault}
+                className={`text-xs font-medium flex items-center gap-1.5 transition-colors ${isDefault ? 'text-white/20 cursor-not-allowed' : 'text-white/40 hover:text-white'}`}
+              >
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+                Reset to Default
+              </button>
+
+              {!isDefault && (
+                <p className="text-[10px] text-blue-400 font-medium">
+                  Changes will be saved once you click 'Save Changes' above
+                </p>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  // Render General Tab
+  const renderGeneralTab = () => (
+    <div className="space-y-6">
+      {/* User Profile */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-6 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg>
+          User Profile
+        </h3>
+
+        <div>
+          <label className={`block text-sm font-medium ${theme.text.primary} mb-2`}>
+            Your Name
+          </label>
+          <input
+            type="text"
+            value={userName}
+            onChange={(e) => handleUserNameChange(e.target.value)}
+            placeholder="Enter your name for email signatures"
+            className={`w-full bg-black/40 rounded-xl px-4 py-3 ${theme.text.primary} border border-white/20 focus:border-white/40 focus:outline-none transition-colors text-sm placeholder-white/30`}
+          />
+          <p className={`text-xs ${theme.text.tertiary} mt-2`}>
+            This name will be used for email signatures when you dictate emails
+          </p>
+        </div>
+      </div>
+
+      {/* Voice & Hotkeys */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-6 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15.536a5 5 0 001.414 1.414m2.828-9.9a9 9 0 0112.728 0" />
+          </svg>
+          Voice & Hotkeys
+        </h3>
+
+        <div className="space-y-6">
+          {/* Hotkey Selection */}
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Dictation Hotkey</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Press and hold to start dictation</p>
+            </div>
+            <div className="flex items-center space-x-2">
+              <kbd className={`${theme.glass.secondary} ${theme.radius.md} px-3 py-2 text-sm font-mono ${theme.text.primary} ${theme.shadow}`}>
+                {getHotkeyLabel(hotkey)}
+              </kbd>
+              <button
+                onClick={() => setIsCustomizingHotkey(true)}
+                className={`${theme.text.secondary} hover:${theme.text.primary} text-sm font-medium transition-colors`}
+              >
+                Change
+              </button>
+            </div>
+          </div>
+
+          {/* Audio Feedback */}
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Audio Feedback</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Play sounds during dictation</p>
+            </div>
+            <Toggle enabled={audioFeedback} onToggle={handleAudioFeedbackToggle} />
+          </div>
+
+          {/* Show Waveform */}
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Show Waveform</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Display visual waveform window while recording</p>
+            </div>
+            <Toggle enabled={showWaveform} onToggle={handleShowWaveformToggle} />
+          </div>
+
+          {/* AI Post-Processing */}
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>AI Post-Processing</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Clean up filler words and improve grammar</p>
+            </div>
+            <Toggle enabled={aiPostProcessing} onToggle={handleAiPostProcessingToggle} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  // Render Transcription Tab
+  const renderTranscriptionTab = () => (
+    <div className="space-y-6">
+      {/* Microphone Selection */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-4 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+          </svg>
+          Microphone
+        </h3>
+
+        <div className="flex items-center justify-between">
+          <div>
+            <h4 className={`font-medium ${theme.text.primary} mb-1`}>Input Device</h4>
+            <p className={`text-sm ${theme.text.tertiary}`}>Choose which microphone to use for voice dictation.</p>
+          </div>
+          <div className="relative min-w-[200px]">
+            <select
+              value={preferredMicrophone}
+              onChange={(e) => handleMicrophoneChange(e.target.value)}
+              disabled={audioDevicesLoading}
+              className="w-full bg-black/40 rounded-xl px-4 py-3 text-white border border-white/20 focus:border-white/40 focus:outline-none transition-colors text-sm appearance-none cursor-pointer"
+            >
+              {audioDevices.map((device) => (
+                <option key={device.deviceId} value={device.deviceId} className="bg-gray-900 text-white py-2">
+                  {device.label}
+                </option>
+              ))}
+            </select>
+            <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
+              <svg className="w-4 h-4 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Language Selection - Only visible when Deepgram is enabled and Local Transcription is OFF */}
+      {deepgramApiKey && deepgramApiKey.trim() !== '' && !useLocalModel && (
+        <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow} mb-6`}>
+          <h3 className={`text-lg font-semibold flex items-center gap-2 mb-4 ${theme.text.primary}`}>
+            <svg className="w-5 h-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5h12M9 3v2m1.204 8.596C9.908 11.97 8.597 10.603 7.5 9.006M7.5 9.006C7.078 7.377 6.945 6.01 6.945 6.01M7.5 9.006L3.905 13.5M19.5 13.5l-7.5 7.5" />
+            </svg>
+            Language
+          </h3>
+
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Transcription Language</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Select your preferred language.</p>
+            </div>
+            <div className="relative min-w-[200px]">
+              <select
+                value={transcriptionLanguage}
+                onChange={(e) => handleLanguageChange(e.target.value)}
+                className="w-full bg-black/40 rounded-xl px-4 py-3 text-white border border-white/20 focus:border-white/40 focus:outline-none transition-colors text-sm appearance-none cursor-pointer"
+              >
+                {languages.map((lang) => (
+                  <option key={lang.code} value={lang.code} className="bg-gray-900 text-white py-2">
+                    {lang.name}
+                  </option>
+                ))}
+              </select>
+              <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
+                <svg className="w-4 h-4 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Local Transcription (Unified) */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-6 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+          </svg>
+          Local Transcription
+          <span className="ml-2 px-2 py-0.5 text-xs font-medium bg-purple-500/10 text-purple-400 rounded-md border border-purple-500/20">
+            Offline
+          </span>
+        </h3>
+
+        <div className="space-y-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Enable Local Transcription</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>100% private, works offline. Select a model below.</p>
+            </div>
+            <Toggle enabled={useLocalModel} onToggle={handleLocalModelToggle} />
+          </div>
+
+          {useLocalModel && (
+            <div className={`${theme.glass.secondary} rounded-lg p-4 border border-white/5 mt-3`}>
+              <label className={`block text-sm font-medium ${theme.text.primary} mb-2`}>
+                Select Model
+              </label>
+
+              {/* Combined Dropdown */}
+              <div className="relative mb-4">
+                <select
+                  value={localModelId}
+                  onChange={(e) => handleLocalModelChange(e.target.value)}
+                  disabled={!!downloadingModel || !!downloadingParakeet}
+                  className={`w-full bg-black/40 rounded-xl px-4 py-3 text-white border border-white/20 focus:border-white/40 focus:outline-none transition-colors text-sm appearance-none cursor-pointer ${downloadingModel || downloadingParakeet ? 'opacity-50 cursor-not-allowed' : ''}`}
+                >
+                  <optgroup label="Whisper (Standard)">
+                    {WHISPER_MODELS.map((model) => {
+                      const isDownloaded = downloadedModels.includes(model.id);
+                      return (
+                        <option key={model.id} value={model.id} className="bg-gray-900 text-white">
+                          {model.name} ({model.size}) - {isDownloaded ? '✓ Ready' : '↓ Download Needed'}
+                        </option>
+                      );
+                    })}
+                  </optgroup>
+                  <optgroup label="Sherpa/Parakeet (High Accuracy)">
+                    {PARAKEET_MODELS.map((model) => {
+                      const isDownloaded = downloadedParakeetModels.includes(model.id);
+                      return (
+                        <option key={model.id} value={model.id} className="bg-gray-900 text-white">
+                          {model.name} ({model.size}) - {isDownloaded ? '✓ Ready' : '↓ Download Needed'}
+                        </option>
+                      );
+                    })}
+                  </optgroup>
+                  <optgroup label="SenseVoice (Fast & Multilingual)">
+                    {SENSEVOICE_MODELS.map((model) => {
+                      const isDownloaded = downloadedSenseVoiceModels.includes(model.id);
+                      return (
+                        <option key={model.id} value={model.id} className="bg-gray-900 text-white">
+                          {model.name} ({model.size}) - {isDownloaded ? '✓ Ready' : '↓ Download Needed'}
+                        </option>
+                      );
+                    })}
+                  </optgroup>
+                  <optgroup label="Streaming (Live Transcripts)">
+                    {STREAMING_MODELS.map((model) => {
+                      const isDownloaded = downloadedParakeetModels.includes(model.id);
+                      return (
+                        <option key={model.id} value={model.id} className="bg-gray-900 text-white">
+                          {model.name} ({model.size}) - {isDownloaded ? '✓ Ready' : '↓ Download Needed'}
+                        </option>
+                      );
+                    })}
+                  </optgroup>
+                </select>
+                <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
+                  <svg className="w-4 h-4 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </div>
+
+              {/* Status / Download Button */}
+              {(() => {
+                const isParakeet = PARAKEET_MODELS.some(m => m.id === localModelId) || STREAMING_MODELS.some(m => m.id === localModelId);
+                const isWhisper = WHISPER_MODELS.some(m => m.id === localModelId);
+                const isSenseVoice = SENSEVOICE_MODELS.some(m => m.id === localModelId);
+
+                let isDownloaded = false;
+                if (isParakeet) isDownloaded = downloadedParakeetModels.includes(localModelId);
+                if (isWhisper) isDownloaded = downloadedModels.includes(localModelId);
+                if (isSenseVoice) isDownloaded = downloadedSenseVoiceModels.includes(localModelId);
+
+                const isDownloading = (isParakeet && downloadingParakeet === localModelId) || (isWhisper && downloadingModel === localModelId) || (isSenseVoice && downloadingSenseVoice === localModelId);
+                const currentProgress = isParakeet ? parakeetDownloadProgress : isSenseVoice ? senseVoiceDownloadProgress : downloadProgress;
+
+                return (
+                  <div className="mt-2 text-sm">
+                    {isDownloading ? (
+                      <div className="space-y-2">
+                        <div className="flex justify-between text-xs text-blue-300">
+                          <span>Downloading model...</span>
+                          <span>{currentProgress}%</span>
+                        </div>
+                        <div className="w-full bg-black/40 rounded-full h-1.5 overflow-hidden">
+                          <div
+                            className="bg-blue-500 h-full rounded-full transition-all duration-300 ease-out"
+                            style={{ width: `${currentProgress}%` }}
+                          />
+                        </div>
+                      </div>
+                    ) : !isDownloaded ? (
+                      <div className="flex items-center gap-2 text-amber-400 text-xs mt-2">
+                        <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Starting download...
+                      </div>
+                    ) : (
+                      <div className="flex items-center gap-2 text-green-400 text-xs mt-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                        Model ready to use
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
+
+              <p className={`text-xs ${theme.text.tertiary} mt-3`}>
+                Whisper models are general-purpose. Parakeet models (Sherpa-ONNX) offer higher accuracy but may be larger.
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Cloud Transcription APIs */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-2 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+          </svg>
+          Cloud Transcription APIs
+        </h3>
+        <p className={`text-sm ${theme.text.tertiary} mb-6`}>
+          For faster, more accurate transcription. Keys are stored locally.
+        </p>
+
+        <div className="space-y-4">
+          {/* Deepgram API Key */}
+          <div>
+            <div className="flex items-center justify-between mb-2">
+              <label className={`text-sm font-medium ${theme.text.primary} flex items-center gap-2`}>
+                Deepgram API Key
+                <span className="px-2 py-0.5 text-xs font-medium bg-green-500/10 text-green-400 rounded-md border border-green-500/20">
+                  Recommended
+                </span>
+              </label>
+              <button
+                onClick={() => openExternalLink('https://console.deepgram.com/')}
+                className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                Get a key →
+              </button>
+            </div>
+            <div className="relative">
+              <input
+                type={showDeepgramKey ? 'text' : 'password'}
+                value={deepgramApiKey}
+                onChange={(e) => setDeepgramApiKey(e.target.value)}
+                placeholder="Enter your Deepgram API key"
+                className="w-full bg-black/40 rounded-xl px-4 py-3 pr-20 text-white placeholder-white/40 border border-white/20 focus:border-white/40 focus:outline-none transition-colors font-mono text-sm"
+              />
+              <button
+                type="button"
+                onClick={() => setShowDeepgramKey(!showDeepgramKey)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-sm transition-colors"
+              >
+                {showDeepgramKey ? 'Hide' : 'Show'}
+              </button>
+            </div>
+            <p className={`text-xs ${theme.text.tertiary} mt-1`}>Fastest real-time transcription with Nova-3 ($200 free credits)</p>
+          </div>
+
+          {/* OpenAI API Key */}
+          <div>
+            <div className="flex items-center justify-between mb-2">
+              <label className={`text-sm font-medium ${theme.text.primary}`}>
+                OpenAI API Key
+              </label>
+              <button
+                onClick={() => openExternalLink('https://platform.openai.com/api-keys')}
+                className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                Get a key →
+              </button>
+            </div>
+            <div className="relative">
+              <input
+                type={showOpenaiKey ? 'text' : 'password'}
+                value={openaiApiKey}
+                onChange={(e) => setOpenaiApiKey(e.target.value)}
+                placeholder="sk-..."
+                className="w-full bg-black/40 rounded-xl px-4 py-3 pr-20 text-white placeholder-white/40 border border-white/20 focus:border-white/40 focus:outline-none transition-colors font-mono text-sm"
+              />
+              <button
+                type="button"
+                onClick={() => setShowOpenaiKey(!showOpenaiKey)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-sm transition-colors"
+              >
+                {showOpenaiKey ? 'Hide' : 'Show'}
+              </button>
+            </div>
+            <p className={`text-xs ${theme.text.tertiary} mt-1`}>For OpenAI Whisper API transcription</p>
+          </div>
+
+          {/* Save Button */}
+          <div className="pt-2">
+            <button
+              onClick={handleSaveTranscriptionKeys}
+              disabled={transcriptionKeysSaving}
+              className={`${theme.glass.secondary} ${theme.text.primary} px-6 py-2.5 ${theme.radius.lg} font-medium hover:bg-white/20 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center border border-white/20`}
+            >
+              {transcriptionKeysSaving ? (
+                <>
+                  <div className="w-4 h-4 border-2 border-white/30 border-t-transparent rounded-full animate-spin mr-2"></div>
+                  Saving...
+                </>
+              ) : transcriptionKeysSaved ? (
+                <>
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Saved!
+                </>
+              ) : (
+                'Save Transcription Keys'
+              )}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  // Render AI Models Tab
+  const renderAiModelsTab = () => (
+    <div className="space-y-6">
+      {/* Ollama (Local) */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-2 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+          Ollama (Local LLM)
+          <span className="px-2 py-0.5 text-xs font-medium bg-emerald-500/10 text-emerald-400 rounded-md border border-emerald-500/20">
+            Local & Private
+          </span>
+        </h3>
+        <p className={`text-sm ${theme.text.tertiary} mb-4`}>
+          Run any model locally via Ollama. Requires Ollama to be running.
+        </p>
+
+        <div className="space-y-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Use Ollama</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Prioritize local Ollama model over cloud APIs</p>
+            </div>
+            <Toggle enabled={useOllama} onToggle={handleOllamaToggle} />
+          </div>
+
+          {useOllama && (
+            <div className={`${theme.glass.secondary} rounded-lg p-4 border border-white/5 space-y-4`}>
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <label className={`block text-sm font-medium ${theme.text.primary}`}>
+                    Ollama URL
+                  </label>
+                  <div className="flex items-center gap-2">
+                    {ollamaStatus === 'checking' && <span className="text-xs text-yellow-400">Checking...</span>}
+                    {ollamaStatus === 'connected' && <span className="text-xs text-emerald-400 flex items-center gap-1">● Connected</span>}
+                    {ollamaStatus === 'error' && <span className="text-xs text-red-400 flex items-center gap-1">● Connection Failed</span>}
+                    <button
+                      type="button"
+                      onClick={() => {
+                        console.log('[Settings] Check Connection button clicked');
+                        fetchOllamaModels(ollamaUrl);
+                      }}
+                      className="px-2 py-1 text-xs bg-blue-500/20 text-blue-400 hover:bg-blue-500/30 rounded border border-blue-500/30 transition-colors"
+                    >
+                      Check Connection
+                    </button>
+                  </div>
+                </div>
+                <input
+                  type="text"
+                  value={ollamaUrl}
+                  onChange={(e) => handleOllamaUrlChange(e.target.value)}
+                  onBlur={handleOllamaUrlBlur}
+                  className={`w-full bg-black/40 rounded-xl px-4 py-3 text-white border focus:outline-none transition-colors text-sm ${ollamaStatus === 'error' ? 'border-red-500/50 focus:border-red-500' : 'border-white/20 focus:border-white/40'
+                    }`}
+                  placeholder="http://localhost:11434"
+                />
+              </div>
+              <div>
+                <label className={`block text-sm font-medium ${theme.text.primary} mb-2`}>
+                  Model Name
+                </label>
+                <div className="relative">
+                  <input
+                    type="text"
+                    value={ollamaModel}
+                    onChange={(e) => handleOllamaModelChange(e.target.value)}
+                    className="w-full bg-black/40 rounded-xl px-4 py-3 text-white border border-white/20 focus:border-white/40 focus:outline-none transition-colors text-sm"
+                    placeholder="llama3"
+                    list="ollama-models"
+                  />
+                  <datalist id="ollama-models">
+                    {availableOllamaModels.length > 0 ? (
+                      availableOllamaModels.map(model => (
+                        <option key={model} value={model} />
+                      ))
+                    ) : (
+                      <>
+                        <option value="llama3" />
+                        <option value="mistral" />
+                        <option value="sam860/LFM2:1.2b" />
+                        <option value="gemma" />
+                        <option value="qwen2" />
+                      </>
+                    )}
+                  </datalist>
+                </div>
+                {availableOllamaModels.length > 0 && (
+                  <div className="mt-2 flex flex-wrap gap-1.5 max-h-24 overflow-y-auto">
+                    {availableOllamaModels.map(model => (
+                      <button
+                        key={model}
+                        type="button"
+                        onClick={() => handleOllamaModelChange(model)}
+                        className={`px-2 py-0.5 text-[10px] rounded-md border transition-all ${ollamaModel === model
+                          ? 'bg-blue-500/20 border-blue-500/40 text-blue-300'
+                          : 'bg-white/5 border-white/10 text-white/50 hover:bg-white/10'
+                          }`}
+                      >
+                        {model}
+                      </button>
+                    ))}
+                  </div>
+                )}
+                <p className={`text-[10px] ${theme.text.tertiary} mt-2`}>
+                  {availableOllamaModels.length > 0
+                    ? `Discovered ${availableOllamaModels.length} models locally. Click to select.`
+                    : "Type the exact model name. e.g. sam860/LFM2:1.2b"}
+                </p>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Google Gemini */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-2 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+          Google Gemini
+          <span className="px-2 py-0.5 text-xs font-medium bg-blue-500/10 text-blue-400 rounded-md border border-blue-500/20">
+            Primary
+          </span>
+        </h3>
+        <p className={`text-sm ${theme.text.tertiary} mb-4`}>
+          Powers AI post-processing, grammar correction, and smart formatting.
+        </p>
+
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <label className={`text-sm font-medium ${theme.text.primary}`}>
+              Gemini API Key
+            </label>
+            <button
+              onClick={() => openExternalLink('https://aistudio.google.com/app/apikey')}
+              className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
+            >
+              Get a key →
+            </button>
+          </div>
+          <div className="relative">
+            <input
+              type={showGeminiKey ? 'text' : 'password'}
+              value={geminiApiKey}
+              onChange={(e) => setGeminiApiKey(e.target.value)}
+              placeholder="Enter your Gemini API key"
+              className="w-full bg-black/40 rounded-xl px-4 py-3 pr-20 text-white placeholder-white/40 border border-white/20 focus:border-white/40 focus:outline-none transition-colors font-mono text-sm"
+            />
+            <button
+              type="button"
+              onClick={() => setShowGeminiKey(!showGeminiKey)}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-sm transition-colors"
+            >
+              {showGeminiKey ? 'Hide' : 'Show'}
+            </button>
+          </div>
+          <p className={`text-xs ${theme.text.tertiary} mt-1`}>Free tier: 1 million tokens/day with Gemini 2.5 Flash</p>
+        </div>
+      </div>
+
+      {/* Anthropic Claude */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-2 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+          </svg>
+          Anthropic Claude
+          <span className="px-2 py-0.5 text-xs font-medium bg-white/10 text-white/60 rounded-md border border-white/10">
+            Optional
+          </span>
+        </h3>
+        <p className={`text-sm ${theme.text.tertiary} mb-4`}>
+          Alternative AI model for processing.
+        </p>
+
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <label className={`text-sm font-medium ${theme.text.primary}`}>
+              Anthropic API Key
+            </label>
+            <button
+              onClick={() => openExternalLink('https://console.anthropic.com/')}
+              className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
+            >
+              Get a key →
+            </button>
+          </div>
+          <div className="relative">
+            <input
+              type={showAnthropicKey ? 'text' : 'password'}
+              value={anthropicApiKey}
+              onChange={(e) => setAnthropicApiKey(e.target.value)}
+              placeholder="sk-ant-..."
+              className="w-full bg-black/40 rounded-xl px-4 py-3 pr-20 text-white placeholder-white/40 border border-white/20 focus:border-white/40 focus:outline-none transition-colors font-mono text-sm"
+            />
+            <button
+              type="button"
+              onClick={() => setShowAnthropicKey(!showAnthropicKey)}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-sm transition-colors"
+            >
+              {showAnthropicKey ? 'Hide' : 'Show'}
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* AWS Bedrock */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-2 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+          </svg>
+          AWS Bedrock
+          <span className="px-2 py-0.5 text-xs font-medium bg-amber-500/10 text-amber-400 rounded-md border border-amber-500/20">
+            Enterprise
+          </span>
+        </h3>
+        <p className={`text-sm ${theme.text.tertiary} mb-4`}>
+          Access Claude, Titan, and other models through AWS infrastructure.
+        </p>
+
+        <div className="space-y-4">
+          {/* AWS Access Key ID */}
+          <div>
+            <div className="flex items-center justify-between mb-2">
+              <label className={`text-sm font-medium ${theme.text.primary}`}>
+                AWS Access Key ID
+              </label>
+              <button
+                onClick={() => openExternalLink('https://console.aws.amazon.com/iam/home#/security_credentials')}
+                className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                Get credentials →
+              </button>
+            </div>
+            <div className="relative">
+              <input
+                type={showAwsAccessKey ? 'text' : 'password'}
+                value={awsAccessKeyId}
+                onChange={(e) => setAwsAccessKeyId(e.target.value)}
+                placeholder="AKIA..."
+                className="w-full bg-black/40 rounded-xl px-4 py-3 pr-20 text-white placeholder-white/40 border border-white/20 focus:border-white/40 focus:outline-none transition-colors font-mono text-sm"
+              />
+              <button
+                type="button"
+                onClick={() => setShowAwsAccessKey(!showAwsAccessKey)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-sm transition-colors"
+              >
+                {showAwsAccessKey ? 'Hide' : 'Show'}
+              </button>
+            </div>
+          </div>
+
+          {/* AWS Secret Access Key */}
+          <div>
+            <label className={`block text-sm font-medium ${theme.text.primary} mb-2`}>
+              AWS Secret Access Key
+            </label>
+            <div className="relative">
+              <input
+                type={showAwsSecretKey ? 'text' : 'password'}
+                value={awsSecretAccessKey}
+                onChange={(e) => setAwsSecretAccessKey(e.target.value)}
+                placeholder="Enter your secret access key"
+                className="w-full bg-black/40 rounded-xl px-4 py-3 pr-20 text-white placeholder-white/40 border border-white/20 focus:border-white/40 focus:outline-none transition-colors font-mono text-sm"
+              />
+              <button
+                type="button"
+                onClick={() => setShowAwsSecretKey(!showAwsSecretKey)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-sm transition-colors"
+              >
+                {showAwsSecretKey ? 'Hide' : 'Show'}
+              </button>
+            </div>
+          </div>
+
+          {/* AWS Region */}
+          <div>
+            <label className={`block text-sm font-medium ${theme.text.primary} mb-2`}>
+              AWS Region
+            </label>
+            <div className="relative">
+              <select
+                value={awsRegion}
+                onChange={(e) => setAwsRegion(e.target.value)}
+                className="w-full bg-black/40 rounded-xl px-4 py-3 text-white border border-white/20 focus:border-white/40 focus:outline-none transition-colors text-sm appearance-none cursor-pointer"
+              >
+                {AWS_REGIONS.map((region) => (
+                  <option key={region.id} value={region.id} className="bg-gray-900 text-white">
+                    {region.name} ({region.id})
+                  </option>
+                ))}
+              </select>
+              <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
+                <svg className="w-4 h-4 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </div>
+            </div>
+            <p className={`text-xs ${theme.text.tertiary} mt-1`}>Select the region where Bedrock is enabled</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Save Button */}
+      <div className="pt-2">
+        <button
+          onClick={handleSaveAiKeys}
+          disabled={aiKeysSaving}
+          className={`${theme.glass.secondary} ${theme.text.primary} px-6 py-2.5 ${theme.radius.lg} font-medium hover:bg-white/20 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center border border-white/20`}
+        >
+          {aiKeysSaving ? (
+            <>
+              <div className="w-4 h-4 border-2 border-white/30 border-t-transparent rounded-full animate-spin mr-2"></div>
+              Saving...
+            </>
+          ) : aiKeysSaved ? (
+            <>
+              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              Saved!
+            </>
+          ) : (
+            'Save AI Model Keys'
+          )}
+        </button>
+      </div>
+    </div>
+  );
+
+  // Render System Tab
+  const renderPromptsTab = () => (
+    <div className="space-y-6 animate-in fade-in slide-in-from-bottom-2 duration-300">
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h3 className={`text-lg font-semibold ${theme.text.primary} flex items-center gap-2`}>
+              <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              AI Prompt Engineering
+            </h3>
+            <p className={`text-sm ${theme.text.tertiary} mt-1`}>
+              Customize how Brewster's AI behaves in different contexts
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <button
+              onClick={handleResetPrompts}
+              className={`px-4 py-2 text-xs font-medium ${theme.text.tertiary} hover:${theme.text.primary} hover:bg-white/5 rounded-lg transition-all`}
+            >
+              Reset All to Defaults
+            </button>
+            <button
+              onClick={handlePromptsSave}
+              disabled={promptsSaving}
+              className={`px-5 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-300 flex items-center gap-2 ${promptsSaved
+                ? 'bg-green-500 text-white shadow-lg shadow-green-900/40'
+                : 'bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-900/40 hover:-translate-y-0.5'
+                } disabled:opacity-50`}
+            >
+              {promptsSaving ? (
+                <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+              ) : promptsSaved ? (
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                </svg>
+              ) : null}
+              {promptsSaving ? 'Saving...' : promptsSaved ? 'Saved!' : 'Save Changes'}
+            </button>
+          </div>
+        </div>
+
+        <div className="space-y-4">
+          {renderPromptCard(
+            'dictation',
+            'Dictation Mode',
+            'Handles standard voice-to-text formatting, grammar, and cleanup.',
+            customDictationPrompt,
+            defaultDictationPrompt,
+            setCustomDictationPrompt
+          )}
+
+          {renderPromptCard(
+            'email',
+            'Email Formatting',
+            'Optimized for converting speech into professional email structures.',
+            customEmailPrompt,
+            defaultEmailFormattingPrompt,
+            setCustomEmailPrompt
+          )}
+
+          {renderPromptCard(
+            'assistant',
+            'Jarvis Assistant',
+            'Full AI personality for questions, system commands, and text editing.',
+            customAssistantPrompt,
+            defaultAssistantPrompt,
+            setCustomAssistantPrompt
+          )}
+        </div>
+
+        {/* Info Box */}
+        <div className="mt-8 p-4 bg-blue-500/5 rounded-2xl border border-blue-500/10 flex gap-4">
+          <div className="p-2 bg-blue-500/10 rounded-xl h-fit">
+            <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h5 className="text-sm font-semibold text-blue-400">Prompt Engineering Tip</h5>
+            <p className="text-xs text-white/50 leading-relaxed mt-1">
+              Be specific with your instructions. Use examples in your prompts (e.g., "instead of 'um', use '...'") to help the AI understand your preferred style. All changes are local and never leave your machine.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Expanded Prompt Modal */}
+      {expandedPrompt && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 backdrop-blur-md bg-black/60 cursor-default animate-in fade-in duration-200" onClick={(e) => {
+          if (e.target === e.currentTarget) setExpandedPrompt(null);
+        }}>
+          <div className={`bg-[#0A0A0B] rounded-3xl shadow-2xl p-8 w-full max-w-4xl border border-white/10 flex flex-col max-h-[90vh] animate-in zoom-in-95 duration-200`}>
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <h2 className="text-xl font-bold text-white flex items-center gap-3">
+                  <div className="p-2 bg-blue-500/20 rounded-xl text-blue-400">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4h4M20 16v4h-4M4 16v4h4M20 8V4h-4" />
+                    </svg>
+                  </div>
+                  {expandedPrompt.type === 'dictation' && 'Dictation Prompt Editor'}
+                  {expandedPrompt.type === 'email' && 'Email Prompt Editor'}
+                  {expandedPrompt.type === 'assistant' && 'Assistant Prompt Editor'}
+                </h2>
+                <p className="text-sm text-white/40 mt-1">Full-screen editor for complex prompt engineering</p>
+              </div>
+              <button
+                onClick={() => setExpandedPrompt(null)}
+                className="p-2 hover:bg-white/10 rounded-xl text-white/40 hover:text-white transition-all"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <div className="flex-1 min-h-0 flex gap-6">
+              <div className="flex-1 flex flex-col">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs font-bold text-white/20 uppercase tracking-widest">Editor</span>
+                  <span className="text-[10px] text-white/20 font-mono">{expandedPrompt.value.length} characters</span>
+                </div>
+                <textarea
+                  className="flex-1 w-full bg-black/40 rounded-2xl px-6 py-6 text-white border border-white/10 focus:border-blue-500/50 focus:outline-none transition-all text-base font-mono resize-none shadow-inner leading-relaxed"
+                  value={expandedPrompt.value}
+                  onChange={e => setExpandedPrompt({ ...expandedPrompt, value: e.target.value })}
+                  autoFocus
+                  placeholder="Paste or type your expert prompt here..."
+                />
+              </div>
+
+              <div className="w-64 flex flex-col group">
+                <span className="text-xs font-bold text-white/20 uppercase tracking-widest mb-2">Original Default</span>
+                <div className="flex-1 bg-white/[0.02] rounded-2xl p-4 border border-white/5 overflow-y-auto text-[11px] text-white/30 font-mono leading-loose select-all cursor-copy hover:bg-white/[0.04] transition-all">
+                  {expandedPrompt.type === 'dictation' && defaultDictationPrompt}
+                  {expandedPrompt.type === 'email' && defaultEmailFormattingPrompt}
+                  {expandedPrompt.type === 'assistant' && defaultAssistantPrompt}
+                </div>
+                <p className="text-[10px] text-white/20 mt-3 italic">Click to copy original for reference</p>
+              </div>
+            </div>
+
+            <div className="flex gap-4 justify-end mt-8">
+              <button
+                className="px-6 py-3 rounded-xl bg-white/5 text-white/60 font-semibold border border-white/10 hover:bg-white/10 hover:text-white transition-all"
+                onClick={() => setExpandedPrompt(null)}
+              >
+                Discard Changes
+              </button>
+              <button
+                className="px-8 py-3 rounded-xl bg-blue-600 text-white font-bold shadow-lg shadow-blue-900/40 hover:bg-blue-500 hover:-translate-y-0.5 transition-all"
+                onClick={() => {
+                  if (expandedPrompt.type === 'dictation') setCustomDictationPrompt(expandedPrompt.value);
+                  if (expandedPrompt.type === 'email') setCustomEmailPrompt(expandedPrompt.value);
+                  if (expandedPrompt.type === 'assistant') setCustomAssistantPrompt(expandedPrompt.value);
+                  setExpandedPrompt(null);
+                }}
+              >
+                Apply Changes
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+
+  const renderSystemTab = () => (
+    <div className="space-y-6">
+      {/* Startup & Behavior */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-6 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+          </svg>
+          Startup & Behavior
+        </h3>
+
+        <div className="space-y-6">
+          {/* Launch on Startup */}
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Launch on Mac Startup</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Automatically start Jarvis when you log in</p>
+            </div>
+            <Toggle enabled={showOnStartup} onToggle={handleShowOnStartupToggle} disabled={isSaving} />
+          </div>
+
+          {/* Show Nudges */}
+          <div className="flex items-center justify-between">
+            <div>
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Show Voice Nudges</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Display helpful voice reminders while typing</p>
+            </div>
+            <Toggle enabled={showNudges} onToggle={handleNudgeToggle} disabled={isSaving} />
+          </div>
+
+          {/* Send Anonymous Analytics */}
+          <div className="flex items-center justify-between">
+            <div className="pr-6">
+              <h4 className={`font-medium ${theme.text.primary} mb-1`}>Send Anonymous Analytics</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>
+                Helps us improve Jarvis by sending coarse usage counts (word count, audio length, model). Never sends transcript text, personal info, or anything that could identify you.
+              </p>
+            </div>
+            <Toggle enabled={analyticsEnabled} onToggle={handleAnalyticsToggle} disabled={isSaving} />
+          </div>
+        </div>
+      </div>
+
+      {/* About */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 ${theme.shadow}`}>
+        <h3 className={`font-medium ${theme.text.primary} mb-4 flex items-center gap-2`}>
+          <svg className="w-5 h-5 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          About
+        </h3>
+
+        <div className={`${theme.glass.secondary} rounded-lg p-5 border border-white/5`}>
+          {/* Logo and App Info */}
+          <div className="flex items-center gap-4">
+            <div className="w-14 h-14 bg-gradient-to-br from-white/20 to-white/10 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/20 shadow-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 20 20" height="32px" viewBox="0 0 20 20" width="32px" fill="#ffffff">
+                <rect fill="none" height="20" width="20" y="0" />
+                <path d="M15.98,5.82L10,2.5L4.02,5.82l3.8,2.11C8.37,7.36,9.14,7,10,7s1.63,0.36,2.17,0.93L15.98,5.82z M8.5,10 c0-0.83,0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5s-0.67,1.5-1.5,1.5S8.5,10.83,8.5,10z M9.25,17.08l-6-3.33V7.11L7.1,9.24 C7.03,9.49,7,9.74,7,10c0,1.4,0.96,2.57,2.25,2.91V17.08z M10.75,17.08v-4.18C12.04,12.57,13,11.4,13,10c0-0.26-0.03-0.51-0.1-0.76 l3.85-2.14l0,6.64L10.75,17.08z" />
+              </svg>
+            </div>
+            <div className="flex-1">
+              <h4 className={`text-lg font-semibold ${theme.text.primary}`}>Jarvis AI Assistant</h4>
+              <p className={`text-sm ${theme.text.tertiary}`}>Version {appVersion}</p>
+              <p className={`text-xs ${theme.text.tertiary} mt-1`}>
+                Your intelligent voice companion for macOS
+              </p>
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-white/5 my-4"></div>
+
+          {/* Credits */}
+          <div className="mb-4">
+            <p className={`text-sm ${theme.text.secondary}`}>
+              Built with ❤️ (and a lot of coffee) by <span className="text-blue-400 font-medium">Akshay</span>
+            </p>
+            <p className={`text-xs ${theme.text.tertiary} mt-2`}>
+              100% open-source • 100% free forever • 100% local privacy
+            </p>
+            <p className={`text-xs ${theme.text.tertiary} mt-3 italic`}>
+              Made this because I got tired of paying for voice apps.<br />
+              Hope it saves you the same headache.
+            </p>
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-white/5 my-4"></div>
+
+          {/* Share Request */}
+          <p className={`text-xs ${theme.text.tertiary} mb-4`}>
+            If it's useful → star on GitHub or tell one friend.<br />
+            That's literally all the "payment" I want 😂
+          </p>
+
+          {/* Links */}
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={() => openExternalLink('https://github.com/akshayaggarwal99/jarvis-ai-assistant')}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/80 hover:bg-white/10 hover:text-white transition-all"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+              GitHub
+            </button>
+            <button
+              onClick={() => openExternalLink('https://x.com/hiakshayy')}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/80 hover:bg-white/10 hover:text-white transition-all"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+              Twitter
+            </button>
+            <button
+              onClick={() => openExternalLink('https://jarvis.ceo/privacy-policy')}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/80 hover:bg-white/10 hover:text-white transition-all"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+              Privacy
+            </button>
+            <button
+              onClick={() => openExternalLink('https://jarvis.ceo/terms')}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/80 hover:bg-white/10 hover:text-white transition-all"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Terms
+            </button>
+            <button
+              onClick={() => openExternalLink('https://jarvis.ceo')}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/80 hover:bg-white/10 hover:text-white transition-all"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c-1.657 0-3-4.03-3-9s1.343-9 3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+              </svg>
+              Website
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
+    <div className="max-w-3xl mx-auto p-6 font-inter">
+      {/* Header */}
+      <div className="mb-6">
+        <h1 className={`text-2xl font-medium ${theme.text.primary} mb-2`}>Settings</h1>
+        <p className={theme.text.secondary}>Configure your Jarvis experience</p>
+      </div>
+
+      {/* Tab Navigation */}
+      <div className={`${theme.glass.primary} ${theme.radius.xl} p-1.5 mb-6 flex gap-1`}>
+        {tabs.map((tab) => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            className={`flex-1 flex items-center justify-center gap-2 px-4 py-2.5 ${theme.radius.lg} text-sm font-medium transition-all duration-200 ${activeTab === tab.id
+              ? `${theme.glass.active} ${theme.text.primary} border border-white/20 ${theme.shadow}`
+              : `${theme.text.tertiary} hover:${theme.text.secondary} hover:bg-white/5`
+              }`}
+          >
+            {tab.icon}
+            <span className="hidden sm:inline">{tab.label}</span>
+          </button>
+        ))}
+      </div>
+
+      {/* Tab Content */}
+      <div className="min-h-[400px]">
+        {activeTab === 'general' && renderGeneralTab()}
+        {activeTab === 'transcription' && renderTranscriptionTab()}
+        {activeTab === 'ai-models' && renderAiModelsTab()}
+        {activeTab === 'prompts' && renderPromptsTab()}
+        {activeTab === 'system' && renderSystemTab()}
+      </div>
+
+      {/* Customization Modal */}
+      {isCustomizingHotkey && (
+        <div className={`fixed inset-0 ${theme.background.modal} flex items-center justify-center z-50`}>
+          <div className={`${theme.glass.primary} ${theme.radius.xl} p-6 w-full max-w-lg ${theme.shadow["2xl"]}`}>
+            <h3 className={`text-lg font-semibold ${theme.text.primary} mb-4`}>Choose Dictation Key</h3>
+            <p className={`text-sm ${theme.text.tertiary} mb-6`}>
+              Select a key to use for push-to-talk dictation. Hold the key down to start recording, release to stop.
+            </p>
+
+            <div className="space-y-3">
+              {presetHotkeys.map((preset) => (
+                <label key={preset.key} className={`flex items-center space-x-3 p-3 ${theme.radius.xl} ${theme.glass.secondary} transition-all duration-200 cursor-pointer border ${hotkey === preset.key
+                  ? `${theme.glass.active} border-white/30 ${theme.shadow.lg}`
+                  : `border-white/10 hover:${theme.glass.hover}`
+                  }`}>
+                  <div className="relative">
+                    <input
+                      type="radio"
+                      name="hotkey"
+                      value={preset.key}
+                      checked={hotkey === preset.key}
+                      onChange={(e) => setHotkey(e.target.value)}
+                      className="sr-only"
+                    />
+                    <div className={`w-4 h-4 rounded-full border-2 flex items-center justify-center transition-all duration-200 ${hotkey === preset.key
+                      ? 'border-white bg-white'
+                      : 'border-white/40'
+                      }`}>
+                      {hotkey === preset.key && (
+                        <div className="w-2 h-2 rounded-full bg-gray-900"></div>
+                      )}
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <div className={`font-medium ${theme.text.primary}`}>{preset.label}</div>
+                    <div className={`text-xs ${theme.text.tertiary}`}>{preset.description}</div>
+                  </div>
+                </label>
+              ))}
+            </div>
+
+            {/* Modal Actions */}
+            <div className="flex space-x-3 mt-6">
+              <button
+                onClick={() => {
+                  setIsCustomizingHotkey(false);
+                  loadSettings();
+                }}
+                className={`flex-1 ${theme.text.secondary} px-4 py-2 ${theme.radius.lg} hover:${theme.glass.secondary} transition-colors`}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={async () => {
+                  await handleHotkeyChange(hotkey);
+                  setIsCustomizingHotkey(false);
+                }}
+                disabled={isSaving}
+                className={`flex-1 ${theme.glass.secondary} ${theme.text.primary} px-4 py-2 ${theme.radius.lg} font-medium hover:${theme.glass.hover} transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center border border-white/20`}
+              >
+                {isSaving ? (
+                  <>
+                    <div className="w-4 h-4 border-2 border-white/30 border-t-transparent rounded-full animate-spin mr-2"></div>
+                    Saving...
+                  </>
+                ) : (
+                  'Done'
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Settings;

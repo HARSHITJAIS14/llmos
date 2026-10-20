@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1.0",
+  "pair_id": "pair_04",
+  "stratum": "Settings, forms and dialogs",
+  "before_screen_id": "mac_0019",
+  "after_screen_id": "mac_0020",
+  "action_or_event_description": "User switched navigation selection in System Settings from Bluetooth to Sound category.",
+  "changes": [
+    {
+      "track_id": "tr_0001",
+      "before_node_id": "n_0000",
+      "after_node_id": "n_0000",
+      "change_type": "unchanged",
+      "observable_evidence": [
+        "Window bounds and structure remained identical"
+      ],
+      "uncertainties": []
+    },
+    {
+      "track_id": "tr_0002",
+      "before_node_id": "n_0001",
+      "after_node_id": "n_0001",
+      "change_type": "state_changed",
+      "observable_evidence": [
+        "Bluetooth selection demoted and Sound selection highlighted in sidebar"
+      ],
+      "uncertainties": []
+    },
+    {
+      "track_id": "tr_0003",
+      "before_node_id": "n_0002",
+      "after_node_id": "n_0002",
+      "change_type": "text_changed",
+      "observable_evidence": [
+        "Bluetooth controls replaced with Sound alert and output volume sliders"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true
+  }
+}

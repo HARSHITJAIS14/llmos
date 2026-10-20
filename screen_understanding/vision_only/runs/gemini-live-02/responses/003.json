@@ -1,0 +1,29 @@
+{
+  "seconds": 8.950738915998954,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"video_metadata_section\",\"observations\":[\"Contains video title: 'Brian Singerman: \\\"If SpaceX Didn\\'t Work, Founders Fund Wouldn\\'t Exist\\\"'\",\"An 'Auto-dubbed' badge is directly below the title\",\"Channel bar with logo 'S', name 'Sourcery with Molly O\\'Shea', subscriber count '68.8k subscribers', and pill-shaped white 'Subscribe' button\",\"Action buttons group: like/dislike pill showing '314', pill 'Share', and '...' circle button\",\"Expandable gray description box below showing view count '12k views', timestamp '2 months ago', hashtag/topic 'Sourcery', and two-line summary text ending with '...more'\"],\"interpretations\":[\"Standard YouTube desktop video info section below the main playback area.\"],\"uncertainties\":[],\"children\":[{\"label\":\"video_title\",\"bbox\":[28,52,866,133],\"inspect\":false,\"reason\":\"Clear text heading of the video.\"},{\"label\":\"channel_info_and_subscribe\",\"bbox\":[18,247,508,421],\"inspect\":false,\"reason\":\"Channel avatar, title, follower count, and subscribe action button.\"},{\"label\":\"video_actions\",\"bbox\":[575,257,982,416],\"inspect\":false,\"reason\":\"Standard like/dislike, share, and overflow options bar.\"},{\"label\":\"description_box\",\"bbox\":[20,461,980,890],\"inspect\":false,\"reason\":\"Metadata and text description box.\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0TD763ewc+cOdv5KszustgRcRvEaFmbM3M8+QxlcnyPZi0uDCCuuRJjFLxYrTwwhH+YR0v8F2Hhb8QB1ypXajA6a2TUgWEY190sUMHOLG/EfdoZ3ziVEBBKgI8R+F9LH5Xm6s="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247077,
+    "id": "HoXTarnwH7zcg8UPxp2_2As",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 339,
+      "prompt_tokens": 3762,
+      "total_tokens": 4101
+    }
+  }
+}

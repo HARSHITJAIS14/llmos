@@ -1,0 +1,383 @@
+{
+  "model": "docling-project/ScreenVLM",
+  "revision": "78df0cc8498bbea1a03eb2816056fc0a76d2f63d",
+  "gpu": "NVIDIA A40",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.55.2",
+  "dtype": "bfloat16",
+  "use_cache": true,
+  "attention": "sdpa",
+  "max_tokens": 6192,
+  "max_generation_seconds": 60.0,
+  "image_size": [
+    2398,
+    1830
+  ],
+  "load_seconds": 1.2291584685444832,
+  "runs": [
+    {
+      "preprocess_seconds": 0.49225948192179203,
+      "generation_seconds": 60.02458335272968,
+      "total_seconds": 60.51871074177325,
+      "output_tokens": 2291,
+      "hit_token_limit": false,
+      "hit_time_limit": true,
+      "count": 35,
+      "geometry_issues": [],
+      "elements": [
+        {
+          "label": "App_Icon",
+          "bbox": [
+            143.88,
+            150.06,
+            182.248,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            191.84,
+            267.18,
+            215.82,
+            296.46
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            191.84,
+            391.62,
+            215.82,
+            435.54
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            191.84,
+            629.52,
+            215.82,
+            662.46
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            143.88,
+            702.72,
+            215.82,
+            1830.0
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            321.332,
+            146.4,
+            364.496,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "Button",
+          "bbox": [
+            460.416,
+            128.1,
+            527.56,
+            215.94
+          ],
+          "text": ""
+        },
+        {
+          "label": "Button",
+          "bbox": [
+            527.56,
+            128.1,
+            599.5,
+            215.94
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            431.64,
+            259.86,
+            465.212,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            690.624,
+            150.06,
+            728.992,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            681.032,
+            259.86,
+            714.604,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            776.952,
+            150.06,
+            810.524,
+            193.98
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            930.424,
+            259.86,
+            963.996,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1179.816,
+            259.86,
+            1213.388,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1434.004,
+            263.52,
+            1467.576,
+            296.46
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1434.004,
+            259.86,
+            1467.576,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1712.172,
+            387.96,
+            1745.744,
+            439.2
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1827.276,
+            263.52,
+            1860.848,
+            303.78
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            1827.276,
+            387.96,
+            1865.644,
+            439.2
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            2038.3,
+            387.96,
+            2071.872,
+            439.2
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            2038.3,
+            387.96,
+            2071.872,
+            439.2
+          ],
+          "text": ""
+        },
+        {
+          "label": "App_Icon",
+          "bbox": [
+            2162.996,
+            387.96,
+            2186.976,
+            439.2
+          ],
+          "text": ""
+        },
+        {
+          "label": "Button",
+          "bbox": [
+            2153.404,
+            541.68,
+            2191.772,
+            592.92
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1582.68,
+            523.38,
+            1659.416,
+            607.56
+          ],
+          "text": "All"
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1678.6,
+            523.38,
+            1918.4,
+            607.56
+          ],
+          "text": "From the series"
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1932.788,
+            523.38,
+            2153.404,
+            607.56
+          ],
+          "text": "From Source"
+        },
+        {
+          "label": "Image",
+          "bbox": [
+            1582.68,
+            636.84,
+            1975.952,
+            933.3
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1582.68,
+            958.92,
+            1975.952,
+            1076.04
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1582.68,
+            1119.96,
+            1975.952,
+            1237.08
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1582.68,
+            1281.0,
+            1975.952,
+            1398.12
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1582.68,
+            1438.38,
+            1975.952,
+            1555.5
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1582.68,
+            1599.42,
+            1975.952,
+            1716.54
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1582.68,
+            1760.46,
+            1975.952,
+            1830.0
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            1582.68,
+            1760.46,
+            1975.952,
+            1830.0
+          ],
+          "text": ""
+        },
+        {
+          "label": "Text",
+          "bbox": [
+            143.88,
+            1614.06,
+            1549.108,
+            1672.62
+          ],
+          "text": "Brian Singer: \"If SpaceX Didn't Work, Founders Fund Wouldn't Exist\""
+        }
+      ]
+    }
+  ],
+  "peak_allocated_gpu_mb": 1104.6357421875,
+  "parser_note": "Only completed leaf tags are counted; raw output remains unchanged."
+}

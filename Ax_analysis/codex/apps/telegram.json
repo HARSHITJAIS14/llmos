@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "app_key": "telegram",
+  "identity": {
+    "name": "Telegram",
+    "bundle_id": "ru.keepcoder.Telegram",
+    "bundle_id_match": "exact",
+    "framework": "appkit",
+    "secondary_frameworks": [],
+    "framework_confidence": "medium",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "30 embedded libswift*.dylib incl. libswiftAppKit; 0 Electron/Qt/Chromium hints"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 1 node, root_kids 0, root ax_identifier _NS:13 (Interface Builder ordinal)"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "1 node total (window) in all 4 captures; no child roles to histogram"
+      }
+    ]
+  },
+  "category": "messaging",
+  "fidelity": {
+    "default": {
+      "nodes": 1,
+      "max_depth": 0,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 1,
+      "named_nodes": 1,
+      "ref_count": 0,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 1,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 1,
+      "max_depth": 0,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 1,
+      "named_nodes": 1,
+      "ref_count": 0,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 1,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.0,
+    "default_score": 1.0,
+    "forced_score": 1.0,
+    "best_capture": "none",
+    "ladder_verdict": "give_up"
+  },
+  "readiness": {
+    "default_rung": "R2_opaque",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "tiny_tree",
+        "opaque_root"
+      ],
+      "chromium_shell_skeleton": false,
+      "cause": "opaque"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": false,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "activation does not help: foreground depth-40 and a 17s warm settle still give 1 node"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "native Swift app, no webarea; opaque in every mode"
+    },
+    "settle_ms": {
+      "after_launch": 0,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 0,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "nth_required_roles": []
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error"
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:13",
+      "match": "exact",
+      "tier": "low",
+      "role": "window",
+      "purpose": "main window root (opaque, no children)",
+      "seen_in_captures": 4
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "none",
+    "menubutton_has_expand": null,
+    "roles": []
+  },
+  "read_recipes": {
+    "tree_readable": "opaque",
+    "recipes": []
+  },
+  "verify_recipes": {
+    "channel": "vision",
+    "after_type": "vision",
+    "after_toggle": "vision",
+    "after_click": "vision",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 0,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "opaque_root",
+      "detect": "n==1 and root.subtree_truncated and ref_count==0, or list-surfaces APP_UNRESPONSIVE with loaded_count==0 and count_changed==false",
+      "workaround": "stop using AX on the first capture; switch to app API, keyboard or vision",
+      "severity": "blocker",
+      "observed": "4 captures over 20.5 min, 1 node each; list-surfaces AXChildren total_count 56, loaded_count 0",
+      "laws": [
+        "LAW-STR-8",
+        "LAW-LIFE-8"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick the window every session; never cache the id",
+      "severity": "low",
+      "observed": "3 window ids across default, forced and forced_warm; bounds equal 1087x803 in all",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "first capture only, to detect the opaque signature",
+      "tested": true
+    },
+    {
+      "channel": "app_api",
+      "when": "opaque_root fired",
+      "precondition": "Telegram API / bot credentials configured",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "opaque_root fired and no API; drive by shortcuts into the focused window",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "opaque_root fired; all reads and verification",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T21:03:49+05:30",
+      "2026-08-30T21:19:11+05:30",
+      "2026-08-30T21:24:24+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced",
+      "forced_warm"
+    ],
+    "surface": "unknown",
+    "sources": [
+      "telegram/meta.json",
+      "telegram/windows.json",
+      "telegram/skeleton.json",
+      "telegram/full.json",
+      "telegram/forced.json",
+      "telegram/surfaces.json",
+      "telegram/forced_warm.json"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

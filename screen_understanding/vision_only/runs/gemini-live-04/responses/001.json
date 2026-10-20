@@ -1,0 +1,29 @@
+{
+  "seconds": 9.583212167024612,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"browser_window\",\"observations\":[\"macOS dark-themed browser window displaying YouTube Premium\",\"Video player showing a slide with 'FOUNDERS FUND' and various startup logos (Polymarket, Lighter, Figma, VARDA, General Matter, IMPULSE, HADRIAN, ENTER)\",\"Video title: 'Brian Singerman: \\\"If SpaceX Didn't Work, Founders Fund Wouldn't Exist\\\"'\",\"Channel: 'Sourcery with Molly O'Shea'\",\"Right sidebar with recommended/series videos related to Sourcery and SpaceX/finance topics\"],\"interpretations\":[\"Standard YouTube desktop interface watching a business/tech podcast interview episode\"],\"uncertainties\":[],\"children\":[{\"label\":\"video_player\",\"bbox\":[58,212,646,645],\"inspect\":false,\"reason\":\"Main video player area\"},{\"label\":\"video_details\",\"bbox\":[58,661,646,767],\"inspect\":false,\"reason\":\"Title, channel info, subscribe button, and engagement actions\"},{\"label\":\"video_description\",\"bbox\":[58,776,646,889],\"inspect\":false,\"reason\":\"Video description box containing summary text\"},{\"label\":\"sidebar_recommendations\",\"bbox\":[656,212,931,902],\"inspect\":false,\"reason\":\"List of recommended next videos in the series\"},{\"label\":\"youtube_header\",\"bbox\":[58,138,931,200],\"inspect\":false,\"reason\":\"YouTube top navigation bar with search and profile icon\"},{\"label\":\"browser_tabbar_and_url\",\"bbox\":[46,45,952,132],\"inspect\":false,\"reason\":\"Safari browser address bar and tab bar\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0Td/PpBeGEbI6eloQc1NPxASsP8XBejK84j8nqWAVmmM+x1TINXvx5XzYvExQUnrJrrtgbgo4ITm0lpSGJKosCqEExw3JlQeQKQC8JGUhNoZDZT5ZVlbfUjd5U4gkMr6MWTc4="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247160,
+    "id": "coXTauP2EJqwg8UPuaSQgAw",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 370,
+      "prompt_tokens": 2489,
+      "total_tokens": 2859
+    }
+  }
+}

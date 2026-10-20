@@ -1,0 +1,1293 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "Google Chrome",
+  "complete": true,
+  "ref_count": 63,
+  "snapshot_id": "sf5tdwgfqnpce",
+  "tree": {
+   "bounds": {
+    "height": 803.0,
+    "width": 1024.0,
+    "x": 2688.0,
+    "y": 565.0
+   },
+   "children": [
+    {
+     "available_actions": [
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 771.0,
+      "width": 1024.0,
+      "x": 2688.0,
+      "y": 597.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 771.0,
+        "width": 1024.0,
+        "x": 2688.0,
+        "y": 597.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 771.0,
+          "width": 1024.0,
+          "x": 2688.0,
+          "y": 597.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 771.0,
+            "width": 1024.0,
+            "x": 2688.0,
+            "y": 597.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 771.0,
+              "width": 1024.0,
+              "x": 2688.0,
+              "y": 597.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "RightClick",
+                "ScrollTo",
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 771.0,
+                "width": 1024.0,
+                "x": 2688.0,
+                "y": 597.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "RightClick",
+                  "ScrollTo"
+                 ],
+                 "bounds": {
+                  "height": 771.0,
+                  "width": 1024.0,
+                  "x": 2688.0,
+                  "y": 597.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                   ],
+                   "bounds": {
+                    "height": 29.0,
+                    "width": 490.0,
+                    "x": 2955.0,
+                    "y": 810.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 29.0,
+                      "width": 229.0,
+                      "x": 3086.0,
+                      "y": 810.0
+                     },
+                     "name": "Who's using Chrome?",
+                     "ref_id": "@sf5tdwgfqnpce:e4",
+                     "role": "statictext",
+                     "value": "Who's using Chrome?"
+                    }
+                   ],
+                   "name": "Who's using Chrome?",
+                   "ref_id": "@sf5tdwgfqnpce:e3",
+                   "role": "heading"
+                  },
+                  {
+                   "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                   ],
+                   "bounds": {
+                    "height": 44.0,
+                    "width": 490.0,
+                    "x": 2955.0,
+                    "y": 855.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 39.0,
+                      "width": 473.0,
+                      "x": 2964.0,
+                      "y": 857.0
+                     },
+                     "name": "With Chrome profiles, you can separate all your Chrome stuff. Create profiles for friends and family, or split between work and fun.",
+                     "ref_id": "@sf5tdwgfqnpce:e6",
+                     "role": "statictext",
+                     "value": "With Chrome profiles, you can separate all your Chrome stuff. Create profiles for friends and family, or split between work and fun."
+                    }
+                   ],
+                   "ref_id": "@sf5tdwgfqnpce:e5",
+                   "role": "group"
+                  },
+                  {
+                   "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                   ],
+                   "bounds": {
+                    "height": 178.0,
+                    "width": 162.0,
+                    "x": 2941.0,
+                    "y": 949.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "Click",
+                      "RightClick",
+                      "ScrollTo",
+                      "SetFocus"
+                     ],
+                     "bounds": {
+                      "height": 178.0,
+                      "width": 162.0,
+                      "x": 2941.0,
+                      "y": 949.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 178.0,
+                        "width": 162.0,
+                        "x": 2941.0,
+                        "y": 949.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "background"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e9",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 74.0,
+                        "width": 74.0,
+                        "x": 2985.0,
+                        "y": 1001.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "avatarContainer"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e10",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 52.0,
+                        "width": 162.0,
+                        "x": 2941.0,
+                        "y": 1075.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "gaiaName"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e11",
+                       "role": "group"
+                      }
+                     ],
+                     "name": "Open Harshit profile",
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "profileCardButton"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e8",
+                     "role": "button"
+                    },
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 52.0,
+                      "width": 162.0,
+                      "x": 2941.0,
+                      "y": 949.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 52.0,
+                        "width": 162.0,
+                        "x": 2941.0,
+                        "y": 949.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 26.0,
+                          "width": 130.0,
+                          "x": 2957.0,
+                          "y": 965.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 26.0,
+                            "width": 130.0,
+                            "x": 2957.0,
+                            "y": 965.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 130.0,
+                              "x": 2957.0,
+                              "y": 965.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetValue",
+                                "SetFocus",
+                                "TypeText"
+                               ],
+                               "bounds": {
+                                "height": 16.0,
+                                "width": 110.0,
+                                "x": 2967.0,
+                                "y": 965.0
+                               },
+                               "name": "Rename your profile",
+                               "native_id": {
+                                "kind": "ax_dom_identifier",
+                                "value": "input"
+                               },
+                               "ref_id": "@sf5tdwgfqnpce:e17",
+                               "role": "textfield",
+                               "states": [
+                                "required"
+                               ],
+                               "value": "Harshit"
+                              }
+                             ],
+                             "native_id": {
+                              "kind": "ax_dom_identifier",
+                              "value": "inner-input-content"
+                             },
+                             "ref_id": "@sf5tdwgfqnpce:e16",
+                             "role": "group"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 1.0,
+                              "width": 130.0,
+                              "x": 2957.0,
+                              "y": 990.0
+                             },
+                             "native_id": {
+                              "kind": "ax_dom_identifier",
+                              "value": "underline-base"
+                             },
+                             "ref_id": "@sf5tdwgfqnpce:e18",
+                             "role": "group"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 2.0,
+                              "width": 0.0,
+                              "x": 3022.0,
+                              "y": 989.0
+                             },
+                             "native_id": {
+                              "kind": "ax_dom_identifier",
+                              "value": "underline"
+                             },
+                             "ref_id": "@sf5tdwgfqnpce:e19",
+                             "role": "group"
+                            }
+                           ],
+                           "native_id": {
+                            "kind": "ax_dom_identifier",
+                            "value": "input-container"
+                           },
+                           "ref_id": "@sf5tdwgfqnpce:e15",
+                           "role": "group"
+                          }
+                         ],
+                         "native_id": {
+                          "kind": "ax_dom_identifier",
+                          "value": "row-container"
+                         },
+                         "ref_id": "@sf5tdwgfqnpce:e14",
+                         "role": "group"
+                        }
+                       ],
+                       "name": "Rename your profile",
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "nameInput"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e13",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 2.0,
+                        "width": 0.0,
+                        "x": 3022.0,
+                        "y": 987.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "hoverUnderline"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e20",
+                       "role": "group"
+                      }
+                     ],
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "profileNameInputWrapper"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e12",
+                     "role": "group"
+                    },
+                    {
+                     "available_actions": [
+                      "Click",
+                      "RightClick",
+                      "ScrollTo",
+                      "SetFocus"
+                     ],
+                     "bounds": {
+                      "height": 24.0,
+                      "width": 24.0,
+                      "x": 3075.0,
+                      "y": 953.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 24.0,
+                        "width": 24.0,
+                        "x": 3075.0,
+                        "y": 953.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 14.0,
+                          "width": 14.0,
+                          "x": 3080.0,
+                          "y": 958.0
+                         },
+                         "ref_id": "@sf5tdwgfqnpce:e23",
+                         "role": "group"
+                        }
+                       ],
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "icon"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e22",
+                       "role": "group"
+                      }
+                     ],
+                     "name": "More actions for Harshit",
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "moreActionsButton"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e21",
+                     "role": "button"
+                    },
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 0.0,
+                      "width": 0.0,
+                      "x": 3194.0,
+                      "y": 1368.0
+                     },
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "actionMenu"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e24",
+                     "role": "group",
+                     "states": [
+                      "offscreen"
+                     ]
+                    }
+                   ],
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "profileCardContainer"
+                   },
+                   "ref_id": "@sf5tdwgfqnpce:e7",
+                   "role": "group"
+                  },
+                  {
+                   "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                   ],
+                   "bounds": {
+                    "height": 178.0,
+                    "width": 162.0,
+                    "x": 3119.0,
+                    "y": 949.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "Click",
+                      "RightClick",
+                      "ScrollTo",
+                      "SetFocus"
+                     ],
+                     "bounds": {
+                      "height": 178.0,
+                      "width": 162.0,
+                      "x": 3119.0,
+                      "y": 949.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 178.0,
+                        "width": 162.0,
+                        "x": 3119.0,
+                        "y": 949.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "background"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e27",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 74.0,
+                        "width": 74.0,
+                        "x": 3163.0,
+                        "y": 1001.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "avatarContainer"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e28",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 52.0,
+                        "width": 162.0,
+                        "x": 3119.0,
+                        "y": 1075.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 15.0,
+                          "width": 115.0,
+                          "x": 3143.0,
+                          "y": 1093.0
+                         },
+                         "name": "HARSHIT JAISWAL",
+                         "ref_id": "@sf5tdwgfqnpce:e30",
+                         "role": "statictext",
+                         "value": "HARSHIT JAISWAL"
+                        }
+                       ],
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "gaiaName"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e29",
+                       "role": "group"
+                      }
+                     ],
+                     "name": "Open HARSHIT profile",
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "profileCardButton"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e26",
+                     "role": "button"
+                    },
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 52.0,
+                      "width": 162.0,
+                      "x": 3119.0,
+                      "y": 949.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 52.0,
+                        "width": 162.0,
+                        "x": 3119.0,
+                        "y": 949.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 26.0,
+                          "width": 130.0,
+                          "x": 3135.0,
+                          "y": 965.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 26.0,
+                            "width": 130.0,
+                            "x": 3135.0,
+                            "y": 965.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 130.0,
+                              "x": 3135.0,
+                              "y": 965.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetValue",
+                                "SetFocus",
+                                "TypeText"
+                               ],
+                               "bounds": {
+                                "height": 16.0,
+                                "width": 110.0,
+                                "x": 3145.0,
+                                "y": 965.0
+                               },
+                               "name": "Rename your profile",
+                               "native_id": {
+                                "kind": "ax_dom_identifier",
+                                "value": "input"
+                               },
+                               "ref_id": "@sf5tdwgfqnpce:e36",
+                               "role": "textfield",
+                               "states": [
+                                "required"
+                               ],
+                               "value": "HARSHIT"
+                              }
+                             ],
+                             "native_id": {
+                              "kind": "ax_dom_identifier",
+                              "value": "inner-input-content"
+                             },
+                             "ref_id": "@sf5tdwgfqnpce:e35",
+                             "role": "group"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 1.0,
+                              "width": 130.0,
+                              "x": 3135.0,
+                              "y": 990.0
+                             },
+                             "native_id": {
+                              "kind": "ax_dom_identifier",
+                              "value": "underline-base"
+                             },
+                             "ref_id": "@sf5tdwgfqnpce:e37",
+                             "role": "group"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 2.0,
+                              "width": 0.0,
+                              "x": 3200.0,
+                              "y": 989.0
+                             },
+                             "native_id": {
+                              "kind": "ax_dom_identifier",
+                              "value": "underline"
+                             },
+                             "ref_id": "@sf5tdwgfqnpce:e38",
+                             "role": "group"
+                            }
+                           ],
+                           "native_id": {
+                            "kind": "ax_dom_identifier",
+                            "value": "input-container"
+                           },
+                           "ref_id": "@sf5tdwgfqnpce:e34",
+                           "role": "group"
+                          }
+                         ],
+                         "native_id": {
+                          "kind": "ax_dom_identifier",
+                          "value": "row-container"
+                         },
+                         "ref_id": "@sf5tdwgfqnpce:e33",
+                         "role": "group"
+                        }
+                       ],
+                       "name": "Rename your profile",
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "nameInput"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e32",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 2.0,
+                        "width": 0.0,
+                        "x": 3200.0,
+                        "y": 987.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "hoverUnderline"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e39",
+                       "role": "group"
+                      }
+                     ],
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "profileNameInputWrapper"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e31",
+                     "role": "group"
+                    },
+                    {
+                     "available_actions": [
+                      "Click",
+                      "RightClick",
+                      "ScrollTo",
+                      "SetFocus"
+                     ],
+                     "bounds": {
+                      "height": 24.0,
+                      "width": 24.0,
+                      "x": 3253.0,
+                      "y": 953.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 24.0,
+                        "width": 24.0,
+                        "x": 3253.0,
+                        "y": 953.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 14.0,
+                          "width": 14.0,
+                          "x": 3258.0,
+                          "y": 958.0
+                         },
+                         "ref_id": "@sf5tdwgfqnpce:e42",
+                         "role": "group"
+                        }
+                       ],
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "icon"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e41",
+                       "role": "group"
+                      }
+                     ],
+                     "name": "More actions for HARSHIT",
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "moreActionsButton"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e40",
+                     "role": "button"
+                    },
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 0.0,
+                      "width": 0.0,
+                      "x": 3550.0,
+                      "y": 1368.0
+                     },
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "actionMenu"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e43",
+                     "role": "group",
+                     "states": [
+                      "offscreen"
+                     ]
+                    }
+                   ],
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "profileCardContainer"
+                   },
+                   "ref_id": "@sf5tdwgfqnpce:e25",
+                   "role": "group"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 178.0,
+                    "width": 162.0,
+                    "x": 3297.0,
+                    "y": 949.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 176.0,
+                      "width": 160.0,
+                      "x": 3298.0,
+                      "y": 950.0
+                     },
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "background"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e45",
+                     "role": "group"
+                    },
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 52.0,
+                      "width": 161.0,
+                      "x": 3298.0,
+                      "y": 950.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 17.0,
+                        "width": 29.0,
+                        "x": 3365.0,
+                        "y": 967.0
+                       },
+                       "name": "Add",
+                       "ref_id": "@sf5tdwgfqnpce:e47",
+                       "role": "statictext",
+                       "value": "Add"
+                      }
+                     ],
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "addProfileButtonLabel"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e46",
+                     "role": "group"
+                    },
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 74.0,
+                      "width": 74.0,
+                      "x": 3341.0,
+                      "y": 1001.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 74.0,
+                        "width": 74.0,
+                        "x": 3341.0,
+                        "y": 1001.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "baseSvg"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e49",
+                       "role": "image"
+                      }
+                     ],
+                     "ref_id": "@sf5tdwgfqnpce:e48",
+                     "role": "group"
+                    }
+                   ],
+                   "name": "Add",
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "addProfile"
+                   },
+                   "ref_id": "@sf5tdwgfqnpce:e44",
+                   "role": "button"
+                  },
+                  {
+                   "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                   ],
+                   "bounds": {
+                    "height": 116.0,
+                    "width": 1024.0,
+                    "x": 2688.0,
+                    "y": 1252.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "Click",
+                      "RightClick",
+                      "ScrollTo",
+                      "SetFocus"
+                     ],
+                     "bounds": {
+                      "height": 36.0,
+                      "width": 148.0,
+                      "x": 2728.0,
+                      "y": 1292.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 34.0,
+                        "width": 146.0,
+                        "x": 2729.0,
+                        "y": 1293.0
+                       },
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "background"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e52",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 20.0,
+                        "width": 20.0,
+                        "x": 2745.0,
+                        "y": 1300.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 20.0,
+                          "width": 20.0,
+                          "x": 2745.0,
+                          "y": 1300.0
+                         },
+                         "native_id": {
+                          "kind": "ax_dom_identifier",
+                          "value": "baseSvg"
+                         },
+                         "ref_id": "@sf5tdwgfqnpce:e54",
+                         "role": "image"
+                        }
+                       ],
+                       "ref_id": "@sf5tdwgfqnpce:e53",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 18.0,
+                        "width": 86.0,
+                        "x": 2773.0,
+                        "y": 1301.0
+                       },
+                       "name": "Guest mode",
+                       "ref_id": "@sf5tdwgfqnpce:e55",
+                       "role": "statictext",
+                       "value": "Guest mode"
+                      }
+                     ],
+                     "name": "Guest mode",
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "browseAsGuestButton"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e51",
+                     "role": "button"
+                    },
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 36.0,
+                      "width": 146.0,
+                      "x": 3526.0,
+                      "y": 1292.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "Click",
+                        "Toggle",
+                        "RightClick",
+                        "ScrollTo",
+                        "SetValue",
+                        "SetFocus"
+                       ],
+                       "bounds": {
+                        "height": 16.0,
+                        "width": 16.0,
+                        "x": 3531.0,
+                        "y": 1302.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 12.0,
+                          "width": 12.0,
+                          "x": 3533.0,
+                          "y": 1304.0
+                         },
+                         "native_id": {
+                          "kind": "ax_dom_identifier",
+                          "value": "checkmark"
+                         },
+                         "ref_id": "@sf5tdwgfqnpce:e58",
+                         "role": "image"
+                        }
+                       ],
+                       "name": "Show on startup",
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "checkbox"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e57",
+                       "role": "checkbox"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 18.0,
+                        "width": 120.0,
+                        "x": 3547.0,
+                        "y": 1301.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 18.0,
+                          "width": 112.0,
+                          "x": 3555.0,
+                          "y": 1301.0
+                         },
+                         "name": "Show on startup",
+                         "ref_id": "@sf5tdwgfqnpce:e60",
+                         "role": "statictext",
+                         "value": "Show on startup"
+                        }
+                       ],
+                       "native_id": {
+                        "kind": "ax_dom_identifier",
+                        "value": "labelContainer"
+                       },
+                       "ref_id": "@sf5tdwgfqnpce:e59",
+                       "role": "group"
+                      }
+                     ],
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "askOnStartup"
+                     },
+                     "ref_id": "@sf5tdwgfqnpce:e56",
+                     "role": "group"
+                    }
+                   ],
+                   "ref_id": "@sf5tdwgfqnpce:e50",
+                   "role": "group"
+                  }
+                 ],
+                 "native_id": {
+                  "kind": "ax_dom_identifier",
+                  "value": "mainView"
+                 },
+                 "ref_id": "@sf5tdwgfqnpce:e2",
+                 "role": "group"
+                }
+               ],
+               "name": "Who's using Chrome?",
+               "ref_id": "@sf5tdwgfqnpce:e1",
+               "role": "webarea",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "role": "group"
+            }
+           ],
+           "role": "group"
+          }
+         ],
+         "role": "group"
+        }
+       ],
+       "role": "group"
+      }
+     ],
+     "name": "Who's using Chrome?",
+     "role": "group"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2696.0,
+      "y": 573.0
+     },
+     "ref_id": "@sf5tdwgfqnpce:e61",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2742.0,
+      "y": 573.0
+     },
+     "ref_id": "@sf5tdwgfqnpce:e62",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2719.0,
+      "y": 573.0
+     },
+     "ref_id": "@sf5tdwgfqnpce:e63",
+     "role": "button"
+    }
+   ],
+   "name": "Google Chrome",
+   "role": "window"
+  },
+  "window": {
+   "id": "w-28546",
+   "title": "Google Chrome"
+  }
+ }
+}

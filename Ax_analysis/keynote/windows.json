@@ -1,0 +1,138 @@
+[
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28364",
+    "is_focused": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "Keynote",
+    "visible": false
+  },
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28363",
+    "is_focused": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "Keynote",
+    "visible": false
+  },
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28362",
+    "is_focused": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "Keynote",
+    "visible": false
+  },
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28361",
+    "is_focused": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "Keynote",
+    "visible": false
+  },
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28360",
+    "is_focused": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "Keynote",
+    "visible": false
+  },
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28358",
+    "is_focused": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "Keynote",
+    "visible": false
+  },
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28357",
+    "is_focused": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "Keynote",
+    "visible": false
+  },
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 608.0,
+      "width": 910.0,
+      "x": 826.0,
+      "y": 431.0
+    },
+    "id": "w-28256",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "What\u2019s New in Keynote",
+    "visible": true
+  },
+  {
+    "app_name": "Keynote",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28359",
+    "is_focused": false,
+    "pid": 26863,
+    "process_instance": "macos-proc-v1:1788103839:64291",
+    "title": "Keynote",
+    "visible": false
+  }
+]

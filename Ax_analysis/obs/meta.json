@@ -1,0 +1,86 @@
+{
+  "app": "OBS Studio",
+  "was_running": false,
+  "captures": {
+    "windows": 3,
+    "skeleton": {
+      "ok": true,
+      "bytes": 16667,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 20888,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26845,
+  "bundle_id": "com.obsproject.obs-studio",
+  "framework_signals": {
+    "exe": "/Applications/OBS.app/Contents/MacOS/OBS",
+    "bundle": "/Applications/OBS.app",
+    "frameworks": [
+      "Chromium Embedded Framework.framework",
+      "OBS Helper (GPU).app",
+      "OBS Helper (Plugin).app",
+      "OBS Helper (Renderer).app",
+      "OBS Helper.app",
+      "QtCore.framework",
+      "QtGui.framework",
+      "QtNetwork.framework",
+      "QtSvg.framework",
+      "QtWidgets.framework",
+      "QtXml.framework",
+      "Sparkle.framework",
+      "Syphon.framework",
+      "libavcodec.dylib",
+      "libavdevice.dylib",
+      "libavfilter.dylib",
+      "libavformat.dylib",
+      "libavutil.dylib",
+      "libdatachannel.dylib",
+      "libfreetype.dylib",
+      "libmbedcrypto.dylib",
+      "libmbedtls.dylib",
+      "libmbedx509.dylib",
+      "libobs-frontend-api.1.dylib",
+      "libobs-metal.dylib",
+      "libobs-opengl.dylib",
+      "libobs.framework",
+      "librist.dylib",
+      "libsrt.dylib",
+      "libswresample.dylib",
+      "libswscale.dylib",
+      "libx264.dylib",
+      "obs-frontend-api.dylib",
+      "obs-scripting.dylib"
+    ],
+    "hints": [
+      "qt",
+      "cef"
+    ]
+  },
+  "best_window": {
+    "app_name": "OBS Studio",
+    "bounds": {
+      "height": 757.0,
+      "width": 1086.0,
+      "x": 2753.0,
+      "y": 609.0
+    },
+    "id": "w-28253",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26845,
+    "process_instance": "macos-proc-v1:1788103838:578795",
+    "title": "OBS 32.0.2 - Profile: Untitled - Scenes: Untitled",
+    "visible": true
+  }
+}

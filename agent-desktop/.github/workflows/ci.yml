@@ -1,0 +1,443 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+# Cancel in-progress runs for the same ref so stale PR builds don't burn minutes.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+# Deny all permissions at workflow level; each job declares only what it needs.
+permissions: {}
+
+env:
+  CARGO_TERM_COLOR: always
+  RUST_BACKTRACE: 1
+
+jobs:
+  fmt:
+    name: Format
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: rustup component add rustfmt
+      - run: cargo fmt --all -- --check
+      - name: Check E2E scripts without running native automation
+        run: |
+          scripts/check-bash3-compat.sh
+          shellcheck -x -e SC2034,SC2154 tests/e2e/run.sh tests/e2e/electron-live.sh tests/e2e/permission-contract.sh tests/e2e/guard-command.sh scripts/*.sh .githooks/pre-commit
+          PYTHONPYCACHEPREFIX=/tmp/agent-desktop-pycache python3 -m py_compile tests/e2e/*.py
+          PYTHONPYCACHEPREFIX=/tmp/agent-desktop-pycache python3 -m unittest discover -s tests/e2e -p 'test_*.py'
+      - name: Validate GitHub Actions workflows
+        run: go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.11
+
+  msrv:
+    name: Rust 1.89 MSRV
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: rustup toolchain install 1.89.0 --profile minimal
+      - run: cargo +1.89.0 check --locked -p agent-desktop-core -p agent-desktop-linux -p agent-desktop --all-targets
+
+  platform-check:
+    name: Native check (${{ matrix.platform }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: Linux
+            os: ubuntu-latest
+            package: agent-desktop-linux
+          - platform: Windows
+            os: windows-latest
+            package: agent-desktop-windows
+          - platform: macOS
+            os: macos-latest
+            package: agent-desktop-macos
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Install pinned Rust toolchain
+        run: rustup show
+      - name: Check native adapter and binary
+        run: cargo check --locked -p agent-desktop-core -p ${{ matrix.package }} -p agent-desktop --all-targets
+
+  test:
+    name: Test
+    runs-on: macos-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install Rust toolchain
+        run: |
+          rustup show
+          rustup component add clippy
+
+      - name: Verify macOS Bash 3.2 compatibility
+        run: /bin/bash scripts/check-bash3-compat.sh
+
+      - name: Cache cargo registry
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      - name: Cache build artifacts
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: target/
+          key: ${{ runner.os }}-build-ci-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}-${{ hashFiles('crates/**/*.rs', 'src/**/*.rs', 'tests/**/*.rs') }}
+          restore-keys: |
+            ${{ runner.os }}-build-ci-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}-
+            ${{ runner.os }}-build-ci-
+
+      - name: Check dependency isolation
+        run: |
+          TREE=$(cargo tree --locked -p agent-desktop-core --edges normal,build)
+          if printf '%s\n' "$TREE" | grep -E 'agent-desktop-(macos|windows|linux)'; then
+            echo "FAIL: core crate depends on platform crates"
+            exit 1
+          fi
+          echo "OK: core crate has no platform dependencies"
+
+      - name: Check release metadata consistency
+        run: scripts/check-release-consistency.sh
+
+      - name: Enforce Rust source rules
+        run: scripts/check-rust-file-size.sh
+
+      - name: Clippy
+        run: cargo clippy --locked -p agent-desktop-core -p agent-desktop-macos -p agent-desktop -p agent-desktop-ffi --all-targets -- -D warnings
+
+      - name: Core and macOS unit tests
+        run: scripts/cargo-test-isolated-home.sh test --locked -p agent-desktop-core -p agent-desktop-macos --lib
+
+      - name: Locator benchmark adapter contract
+        run: scripts/cargo-test-isolated-home.sh test --locked -p agent-desktop-core --example locator_benchmark
+
+      - name: Deterministic permission acceptance contract
+        run: bash tests/e2e/permission-contract.sh
+
+      - name: Binary command tests
+        run: scripts/cargo-test-isolated-home.sh test --locked -p agent-desktop
+
+      # The FFI crate ships integration harnesses under crates/ffi/tests/ that
+      # exercise the C-ABI from outside the crate (raw extern "C" decls, enum
+      # fuzzing, out-param zeroing, last-error lifetimes). The workspace --lib
+      # run skips them, so wire them in explicitly so regressions fail PR CI.
+      - name: FFI integration tests
+        run: scripts/cargo-test-isolated-home.sh test --locked -p agent-desktop-ffi --tests
+
+      - name: Build stripped release binary
+        run: |
+          cargo build --locked --release -p agent-desktop
+          cargo build --locked --release -p agent-desktop-macos --bin agent-desktop-macos-helper
+
+      - name: Verify shipped binary version flag
+        run: |
+          PACKAGE_ID=$(cargo pkgid -p agent-desktop)
+          EXPECTED_VERSION=${PACKAGE_ID##*@}
+          EXPECTED_OUTPUT="agent-desktop $EXPECTED_VERSION"
+          ACTUAL_OUTPUT=$(target/release/agent-desktop --version)
+          if [ "$ACTUAL_OUTPUT" != "$EXPECTED_OUTPUT" ]; then
+            echo "FAIL: expected '$EXPECTED_OUTPUT', got '$ACTUAL_OUTPUT'"
+            exit 1
+          fi
+
+      - name: Check shipped binary size
+        run: |
+          SIZE=$(stat -f%z target/release/agent-desktop)
+          HELPER_SIZE=$(stat -f%z target/release/agent-desktop-macos-helper)
+          LIMIT=$((15 * 1024 * 1024))
+          echo "Binary size: $(du -sh target/release/agent-desktop | cut -f1)"
+          echo "Helper size: $(du -sh target/release/agent-desktop-macos-helper | cut -f1)"
+          if [ "$SIZE" -gt "$LIMIT" ] || [ "$HELPER_SIZE" -gt "$LIMIT" ]; then
+            echo "FAIL: shipped executable exceeds 15MB limit (binary=${SIZE}, helper=${HELPER_SIZE} bytes)"
+            exit 1
+          fi
+          echo "OK: shipped executables are within the 15MB per-file limit"
+
+      - name: FFI cdylib build (release-ffi profile)
+        run: cargo build --locked --profile release-ffi -p agent-desktop-ffi
+
+      - name: FFI dylib-adjacent helper discovery smoke
+        run: scripts/ci-ffi-helper-discovery-smoke.sh
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+
+      - name: NPM package contents
+        run: |
+          node --test tests/npm/*.test.js
+          node scripts/check-npm-package.js
+
+      - name: NPM wrapper smoke
+        run: scripts/ci-npm-wrapper-smoke.sh
+
+  test-linux:
+    name: Test (Linux)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install Rust toolchain
+        run: rustup show
+
+      - name: Cache cargo registry
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      - name: Core and Linux unit tests
+        run: scripts/cargo-test-isolated-home.sh test --locked -p agent-desktop-core -p agent-desktop-linux --lib
+
+  test-windows:
+    name: Test (Windows)
+    runs-on: windows-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install Rust toolchain
+        run: rustup show
+
+      - name: Cache cargo registry
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      # Core resolves its data dir via HOME then USERPROFILE (crates/core/src/refs.rs
+      # fn home_dir), so pointing HOME at a fresh runner-temp directory is enough to
+      # keep tests off the real profile — the bash isolation script the macOS/Linux
+      # lanes use doesn't apply here since this step runs under pwsh. CARGO_HOME and
+      # RUSTUP_HOME must be resolved from the real USERPROFILE first (rustup/cargo
+      # default them to %USERPROFILE%\.rustup and %USERPROFILE%\.cargo) so repointing
+      # USERPROFILE at the empty test home doesn't strand the installed toolchain.
+      - name: Core and Windows unit tests (isolated HOME)
+        shell: pwsh
+        run: |
+          $env:CARGO_HOME  = if ($env:CARGO_HOME)  { $env:CARGO_HOME }  else { Join-Path $env:USERPROFILE '.cargo' }
+          $env:RUSTUP_HOME = if ($env:RUSTUP_HOME) { $env:RUSTUP_HOME } else { Join-Path $env:USERPROFILE '.rustup' }
+          $testHome = Join-Path $env:RUNNER_TEMP ("agent-desktop-test-home-" + [guid]::NewGuid())
+          New-Item -ItemType Directory -Path $testHome | Out-Null
+          $env:HOME = $testHome
+          $env:USERPROFILE = $testHome
+          cargo test --locked -p agent-desktop-core -p agent-desktop-windows --lib
+
+  ffi-python-smoke:
+    name: FFI Python Smoke
+    runs-on: macos-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install Rust toolchain
+        run: rustup show
+
+      - name: Cache cargo registry
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      - name: Build FFI dylib (stub adapter)
+        run: >
+          cargo build --locked --profile release-ffi
+          -p agent-desktop-ffi --features stub-adapter
+
+      - name: Locate dylib
+        id: dylib
+        run: |
+          DYLIB=$(find target/release-ffi -name 'libagent_desktop_ffi.*' \
+                    \( -name '*.dylib' -o -name '*.so' -o -name '*.dll' \) | head -1)
+          if [ -z "$DYLIB" ]; then
+            echo "FAIL: dylib not found under target/release-ffi"
+            exit 1
+          fi
+          echo "path=$DYLIB" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Run FFI smoke harness
+        env:
+          AD_EXPECT_STUB: "1"
+        run: >
+          python3 tests/ffi-python/smoke.py
+          "${{ steps.dylib.outputs.path }}"
+          crates/ffi/include/agent_desktop.h
+
+  # Gate 1 — Header-drift: the committed crates/ffi/include/agent_desktop.h must
+  # match what cbindgen 0.29.4 would generate from the current source. A stale
+  # header means a consumer compiled against it sees different symbols/layouts
+  # than the dylib ships. cbindgen --verify exits non-zero when there is a diff.
+  #
+  # The cbindgen version is pinned so a generator upgrade cannot produce a
+  # false-positive failure — only a real header change triggers this gate.
+  ffi-header-drift:
+    name: FFI Header Drift
+    runs-on: macos-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install Rust toolchain
+        run: rustup show
+
+      - name: Cache cargo registry
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      - name: Install pinned cbindgen 0.29.4
+        run: cargo install cbindgen --version 0.29.4 --locked
+
+      - name: Verify header matches source (cbindgen --verify)
+        run: >
+          cbindgen crates/ffi
+          --config crates/ffi/cbindgen.toml
+          --output crates/ffi/include/agent_desktop.h
+          --verify
+
+  # Gate 2 — Panic-trap guard: the release-ffi profile must keep panic="unwind"
+  # so the trap_panic boundary in the shipped dylib actually catches panics. A
+  # flip to panic="abort" silently defeats every catch_unwind in the cdylib and
+  # turns any Rust panic into an abort that kills the host process.
+  #
+  # This job proves the contract in two steps:
+  #   1. Assert the Cargo.toml profile setting directly (simpler and more
+  #      reliable than a build.rs env check for a dual cdylib+rlib crate).
+  #   2. Build the actual feature-gated cdylib panic entrypoint, load it with
+  #      dlopen from a C process, and require the exported ABI boundary to
+  #      return ErrInternal instead of aborting the host.
+  ffi-panic-guard:
+    name: FFI Panic Guard
+    runs-on: macos-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install Rust toolchain
+        run: rustup show
+
+      - name: Cache cargo registry
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      - name: Assert release-ffi profile keeps panic=unwind
+        run: |
+          if ! grep -A5 '\[profile\.release-ffi\]' Cargo.toml | grep -q 'panic.*=.*"unwind"'; then
+            echo "FAIL: [profile.release-ffi] must set panic=\"unwind\" — a flip to"
+            echo "      panic=\"abort\" defeats every trap_panic boundary in the dylib."
+            exit 1
+          fi
+          echo "OK: release-ffi profile retains panic=\"unwind\""
+
+      - name: Prove the shipped cdylib catches an exported-boundary panic
+        run: bash crates/ffi/tests/run_cdylib_panic_probe.sh
+
+  # Gate 3 — Stub-adapter passthrough tests: the Family-B command-backed
+  # entrypoints (ad_snapshot, ad_status, ad_wait, ad_execute_by_ref,
+  # ad_version) plus adapter lifecycle (ad_init / ad_destroy) and
+  # ad_check_permissions are exercised against the stub adapter. Each must
+  # return a structured PLATFORM_NOT_SUPPORTED envelope — or, for
+  # ad_check_permissions, the documented ErrPermDenied result. These tests are
+  # gated behind #[cfg(feature = "stub-adapter")] so the normal build is
+  # unaffected.
+  #
+  # Scope note: the ~35 Family-A entrypoints (ad_find, ad_execute_action,
+  # ad_list_windows, ad_screenshot, clipboard, notifications, etc.) are NOT
+  # covered by this passthrough job. Broader Family-A stub coverage is a
+  # documented follow-up.
+  #
+  # Per-target build coverage:
+  #   - PR CI: this job runs on Linux and reaches the stub adapter directly to
+  #     assert PLATFORM_NOT_SUPPORTED for every covered entrypoint, proving the
+  #     non-macOS parity U10 targets.
+  #   - Release: release.yml build-ffi matrix covers macOS×2 + Linux×2 +
+  #     Windows×1 for the real cdylib. PR builds do not duplicate that
+  #     cross-compile matrix to avoid bloating CI on every push.
+  ffi-passthrough:
+    name: FFI Stub-Adapter Passthrough
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install Rust toolchain
+        run: rustup show
+
+      - name: Cache cargo registry
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**/Cargo.toml', 'src/Cargo.toml') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      - name: Run stub-adapter passthrough tests
+        run: >
+          scripts/cargo-test-isolated-home.sh test --locked -p agent-desktop-ffi
+          --features stub-adapter --test c_abi_passthrough

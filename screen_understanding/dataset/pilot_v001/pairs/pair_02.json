@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1.0",
+  "pair_id": "pair_02",
+  "stratum": "Finder and desktop",
+  "before_screen_id": "mac_0010",
+  "after_screen_id": "mac_0011",
+  "action_or_event_description": "User selected the Terminal.app row in the Finder Utilities table, changing its selection state and rendering a blue selection highlight.",
+  "changes": [
+    {
+      "track_id": "tr_0001",
+      "before_node_id": "n_0005",
+      "after_node_id": "n_0005",
+      "change_type": "state_changed",
+      "details": "Terminal.app row selected state changed from false to true with blue selection styling.",
+      "observable_evidence": [
+        "Vibrant blue highlight bar spanning across the row"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "provider": "gemini-3.5-flash-lite",
+  "screen": "screen_0032",
+  "condition": "boxes",
+  "prompt_sha256": "1242080f962bd16b5daedffd85317cc6c491362d4943b5049b83ee45954a6223",
+  "auxiliary_boxes": 77,
+  "seconds": 6.120209124987014,
+  "raw_text": "{\n  \"q1\": \"o0\",\n  \"q2\": \"o0\",\n  \"q3\": \"o1\",\n  \"q4\": \"o2\",\n  \"q5\": \"o0\",\n  \"q6\": \"o1\",\n  \"g1\": [\n    0.3775,\n    0.0,\n    0.4905,\n    0.0881\n  ],\n  \"g2\": [\n    0.1622,\n    0.7762,\n    0.1833,\n    0.8093\n  ]\n}",
+  "model_returned": "gemini-3.5-flash-lite",
+  "usage": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 150,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 5257,
+    "prompt_tokens_details": [
+      {
+        "modality": "IMAGE",
+        "token_count": 1066
+      },
+      {
+        "modality": "TEXT",
+        "token_count": 4191
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 5407,
+    "traffic_type": null
+  },
+  "answers": {
+    "q1": "o0",
+    "q2": "o0",
+    "q3": "o1",
+    "q4": "o2",
+    "q5": "o0",
+    "q6": "o1",
+    "g1": [
+      0.3775,
+      0.0,
+      0.4905,
+      0.0881
+    ],
+    "g2": [
+      0.1622,
+      0.7762,
+      0.1833,
+      0.8093
+    ]
+  },
+  "scores": {
+    "q1": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q2": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q3": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q4": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q5": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q6": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "g1": {
+      "type": "box",
+      "valid": true,
+      "point_hit": false,
+      "iou": 0.0
+    },
+    "g2": {
+      "type": "box",
+      "valid": true,
+      "point_hit": false,
+      "iou": 0.0
+    }
+  },
+  "strict_scores": {
+    "q1": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q2": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q3": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q4": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q5": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q6": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "g1": {
+      "type": "box",
+      "valid": true,
+      "point_hit": false,
+      "iou": 0.0
+    },
+    "g2": {
+      "type": "box",
+      "valid": true,
+      "point_hit": false,
+      "iou": 0.0
+    }
+  },
+  "coordinate_units": {
+    "g1": {
+      "rule": "0\u20131 as requested",
+      "normalized_answer": [
+        0.3775,
+        0.0,
+        0.4905,
+        0.0881
+      ]
+    },
+    "g2": {
+      "rule": "0\u20131 as requested",
+      "normalized_answer": [
+        0.1622,
+        0.7762,
+        0.1833,
+        0.8093
+      ]
+    }
+  }
+}

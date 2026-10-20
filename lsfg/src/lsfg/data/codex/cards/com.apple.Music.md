@@ -1,0 +1,4 @@
+## Music (com.apple.Music) · appkit
+Anchors: button#Music.accountButton account button · scrollarea#sidebarScroller sidebar scroll area · outline#outline sidebar navigation outline · group#Music.miniPlayer.contentView* mini player container (id carries view state) · button#Music.miniPlayer.shuffleButton shuffle · button#Music.miniPlayer.leadingTransportControl previous track · button#Music.miniPlayer.playbackTransportControl play / pause · button#Music.miniPlayer.trailingTransportControl next track · button#Music.miniPlayer.repeatButton repeat · group#Music.miniPlayer.metadataRegion* now playing metadata region (id carries state) · button#Music.miniPlayer.appleLogoButton* now playing logo button (id carries hover state) · button#Music.miniPlayer.lyricsButton lyrics
+Quirk mass_focused: real focus = the focused outline; do not verify with focused on cells
+Quirk disabled_keeps_click: check disabled state before Click

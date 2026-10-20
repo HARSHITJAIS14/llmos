@@ -1,0 +1,152 @@
+[
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27671",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27668",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27667",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-24877",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-24876",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-24862",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27665",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-24875",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 500.0,
+      "width": 500.0,
+      "x": 0.0,
+      "y": 940.0
+    },
+    "id": "w-23841",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  },
+  {
+    "app_name": "Gemini",
+    "bounds": {
+      "height": 187.0,
+      "width": 137.0,
+      "x": 16.0,
+      "y": 659.0
+    },
+    "id": "w-23839",
+    "is_focused": false,
+    "pid": 74766,
+    "process_instance": "macos-proc-v1:1788027563:661893",
+    "title": "Gemini",
+    "visible": false
+  }
+]

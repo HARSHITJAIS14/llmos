@@ -1,0 +1,1245 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "‎WhatsApp",
+    "complete": true,
+    "ref_count": 65,
+    "snapshot_id": "s1dy2cga8z04ll",
+    "tree": {
+      "bounds": {
+        "height": 803,
+        "width": 1087,
+        "x": 2753,
+        "y": 565
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 803,
+            "width": 1087,
+            "x": 2753,
+            "y": 565
+          },
+          "children": [
+            {
+              "available_actions": [
+                "RightClick",
+                "ScrollTo"
+              ],
+              "bounds": {
+                "height": 803,
+                "width": 1087,
+                "x": 2753,
+                "y": 565
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 167,
+                    "x": 2653,
+                    "y": 565
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 803,
+                        "width": 167,
+                        "x": 2653,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 693,
+                            "width": 67,
+                            "x": 2753,
+                            "y": 565
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 609
+                              },
+                              "name": "‎Chats",
+                              "ref_id": "@s1dy2cga8z04ll:e5",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 661
+                              },
+                              "name": "‎Calls",
+                              "ref_id": "@s1dy2cga8z04ll:e6",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 713
+                              },
+                              "name": "‎Updates",
+                              "ref_id": "@s1dy2cga8z04ll:e7",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 777.5
+                              },
+                              "name": "‎Archived",
+                              "ref_id": "@s1dy2cga8z04ll:e8",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 829.5
+                              },
+                              "name": "‎Starred",
+                              "ref_id": "@s1dy2cga8z04ll:e9",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 48,
+                                "x": 2763,
+                                "y": 894
+                              },
+                              "name": "‎Chats",
+                              "ref_id": "@s1dy2cga8z04ll:e10",
+                              "role": "button"
+                            }
+                          ],
+                          "name": "‎Main Navigation",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "Sidebar_view"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e4",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 100,
+                            "width": 67,
+                            "x": 2753,
+                            "y": 1258
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 67,
+                                "x": 2753,
+                                "y": 1258
+                              },
+                              "name": "‎Settings",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "MediaHub"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e12",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 48,
+                                "width": 67,
+                                "x": 2753,
+                                "y": 1310
+                              },
+                              "name": "‎Settings",
+                              "ref_id": "@s1dy2cga8z04ll:e13",
+                              "role": "button"
+                            }
+                          ],
+                          "ref_id": "@s1dy2cga8z04ll:e11",
+                          "role": "group"
+                        }
+                      ],
+                      "ref_id": "@s1dy2cga8z04ll:e3",
+                      "role": "group"
+                    }
+                  ],
+                  "ref_id": "@s1dy2cga8z04ll:e2",
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo",
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 1,
+                    "x": 2820,
+                    "y": 565
+                  },
+                  "ref_id": "@s1dy2cga8z04ll:e14",
+                  "role": "splitter",
+                  "value": "6.1637535"
+                },
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 375,
+                    "x": 2821,
+                    "y": 565
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 92,
+                        "width": 375,
+                        "x": 2821,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 20,
+                            "width": 48,
+                            "x": 2841,
+                            "y": 581
+                          },
+                          "name": "‎Chats",
+                          "ref_id": "@s1dy2cga8z04ll:e17",
+                          "role": "heading"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 32,
+                            "width": 32.5,
+                            "x": 3154,
+                            "y": 575
+                          },
+                          "name": "‎New Chat",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "NavigationBar_NewChatButton"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e18",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 32,
+                            "width": 355,
+                            "x": 2831,
+                            "y": 617
+                          },
+                          "name": "‎Search",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "TokenizedSearchBar_TextView"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e19",
+                          "role": "textfield"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 32,
+                            "width": 355,
+                            "x": 2831,
+                            "y": 617
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e20",
+                          "role": "button"
+                        }
+                      ],
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "Toolbar"
+                      },
+                      "ref_id": "@s1dy2cga8z04ll:e16",
+                      "role": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 803,
+                        "width": 375,
+                        "x": 2821,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo",
+                            "Scroll"
+                          ],
+                          "bounds": {
+                            "height": 803,
+                            "width": 375,
+                            "x": 2821,
+                            "y": 565
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 657
+                              },
+                              "name": "@justharshitj",
+                              "ref_id": "@s1dy2cga8z04ll:e23",
+                              "role": "button",
+                              "value": "‎Your photo, 21Augustat3:18 AM, ‎Sent to ‎You, ‎Pinned"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 725.5
+                              },
+                              "description": "Silicon Gaddha",
+                              "name": "‎Your message, gettting richh soon, 4:15 AM, ‎Sent to Silicon Gaddha, ‎Sent",
+                              "ref_id": "@s1dy2cga8z04ll:e24",
+                              "role": "statictext",
+                              "value": "‎Your message, gettting richh soon, 4:15 AM, ‎Sent to Silicon Gaddha, ‎Sent"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 794
+                              },
+                              "name": "Harshita",
+                              "ref_id": "@s1dy2cga8z04ll:e25",
+                              "role": "button",
+                              "value": "‎Your message, Koshish to krta hu 🫶🫶, 3:27 AM, ‎Sent to Harshita, ‎Delivered"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 862.5
+                              },
+                              "name": "Arul Gupta B3",
+                              "ref_id": "@s1dy2cga8z04ll:e26",
+                              "role": "button",
+                              "value": "‎Reacted 😮 to \"Rohan\""
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 931
+                              },
+                              "name": "Anurag Che",
+                              "ref_id": "@s1dy2cga8z04ll:e27",
+                              "role": "button",
+                              "value": "‎message, And all, 12:51 AM, ‎Received from Anurag Che"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 999.5
+                              },
+                              "name": "Vishesh Che",
+                              "ref_id": "@s1dy2cga8z04ll:e28",
+                              "role": "button",
+                              "value": "‎message, accha theek hai, 6Julyat3:17 PM, ‎Received from Vishesh Che"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1068
+                              },
+                              "name": "IITK Y23 Community, ‎Announcement group",
+                              "ref_id": "@s1dy2cga8z04ll:e29",
+                              "role": "button",
+                              "value": "‎Group members have changed. Click to view., 4:03 AM"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1136.5
+                              },
+                              "name": "INFO GROUP Y23",
+                              "ref_id": "@s1dy2cga8z04ll:e30",
+                              "role": "button",
+                              "value": "‎Message from ‎Maybe Muskan, ‎Link, THE CITY CLASH. ⚡\n\nOne battleground. Countless squads.\nA ₹50,000 Prize Pool awaits! 🏆🔥\n\nBATTLEGROUNDS CITY CLASH — BGMI is taking the fight across India, bringing together the best squads from Jaipur, Patna, Noida, Lucknow, Ghaziabad, Prayagraj & Bhopal.\n\nCity Qualifiers: August–September\n Prize Pool: ₹50,000 — Cash Prizes + Exciting Goodies + Certificates + More Rewards\nGame: BGMI\n\nYour city has a squad.\nYour squad has a story.\nNow, make it legendary.\n\nAnd when the action goes live, catch every intense moment on Udghosh IIT Kanpur YouTube.🔥\n\n#BattlegroundsCityClash #BGMI #UdghoshIITKanpur #IITKanpur #esports\n               https://www.instagram.com/p/DcT7SpBjBQK/?igsi=NW53MjF0M3F2d25j, Udghosh, IIT Kanpur on Instagram: \"THE CITY CLASH. ⚡\n\nOne battleground. Countless squads.\nA ₹50,000 Prize Pool awaits! 🏆🔥\n\nBATTLEGROUNDS CITY CLASH — BGMI is taking the fight across India, bringing together the best squads from Jaipur, Patna, Noida, Lucknow, Ghaziabad, Prayagraj & Bhopal.\n\nCity Qualifiers: August–September\n Prize Pool: ₹50,000 — Cash Prizes + Exciting Goodies + Certificates + More Rewards\nGame: BGMI\n\nYour city has a squad.\nYour squad has a story.\nNow, make it legendary.\n\nAnd when the action goes live, catch every intense moment on Udghosh IIT Kanpur YouTube.🔥\n\n#BattlegroundsCityClash #BGMI #UdghoshIITKanpur #IITKanpur #esports\", 21Augustat11:59 PM, ‎Received in INFO GROUP Y23, ‎Muted"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1205
+                              },
+                              "name": "Che 453 2.0 🥹",
+                              "ref_id": "@s1dy2cga8z04ll:e31",
+                              "role": "button",
+                              "value": "‎Harshit Anand reacted 🔥 to \"Kudos @⁨Harshit Anand Chemical⁩\""
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1273.5
+                              },
+                              "name": "Arpit B",
+                              "ref_id": "@s1dy2cga8z04ll:e32",
+                              "role": "button",
+                              "value": "‎Your album with 2 photos, ‎Sent to Arpit B, ‎Delivered"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 68.5,
+                                "width": 375,
+                                "x": 2821,
+                                "y": 1342
+                              },
+                              "name": "Ankit Yadav C-410 Yadav C-410",
+                              "ref_id": "@s1dy2cga8z04ll:e33",
+                              "role": "button",
+                              "value": "‎message, Theek h, 21Augustat6:50 PM, ‎Received from Ankit Yadav C-410 Yadav C-410"
+                            },
+                            {
+                              "available_actions": [
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 15,
+                                "width": 266,
+                                "x": 2876,
+                                "y": 43176.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "Scroll"
+                                  ],
+                                  "bounds": {
+                                    "height": 13,
+                                    "width": 251,
+                                    "x": 2891,
+                                    "y": 43176.5
+                                  },
+                                  "name": "‎Your personal messages are end-to-end encrypted",
+                                  "ref_id": "@s1dy2cga8z04ll:e35",
+                                  "role": "statictext"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "Scroll",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 13,
+                                    "width": 111.52931809425354,
+                                    "x": 3029.9736222028732,
+                                    "y": 43176.5
+                                  },
+                                  "name": "end-to-end encrypted",
+                                  "ref_id": "@s1dy2cga8z04ll:e36",
+                                  "role": "link"
+                                }
+                              ],
+                              "ref_id": "@s1dy2cga8z04ll:e34",
+                              "role": "group"
+                            }
+                          ],
+                          "name": "‎List of chats",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "ChatListView_TableView"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e22",
+                          "role": "group"
+                        }
+                      ],
+                      "ref_id": "@s1dy2cga8z04ll:e21",
+                      "role": "group"
+                    }
+                  ],
+                  "ref_id": "@s1dy2cga8z04ll:e15",
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "ScrollTo",
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 1,
+                    "x": 3196,
+                    "y": 565
+                  },
+                  "ref_id": "@s1dy2cga8z04ll:e37",
+                  "role": "splitter",
+                  "value": "34.49862"
+                },
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "ScrollTo"
+                  ],
+                  "bounds": {
+                    "height": 803,
+                    "width": 643,
+                    "x": 3197,
+                    "y": 565
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 52,
+                        "width": 643,
+                        "x": 3197,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo"
+                          ],
+                          "bounds": {
+                            "height": 44,
+                            "width": 163.5,
+                            "x": 3261,
+                            "y": 569
+                          },
+                          "name": "Silicon Gaddha",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "NavigationBar_HeaderViewButton"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e40",
+                          "role": "button",
+                          "value": "‎Members: ‪Nigga, Vivek CSE B311, ‎You"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 32,
+                            "width": 48,
+                            "x": 3742,
+                            "y": 575
+                          },
+                          "name": "‎Open call dropdown menu with Silicon Gaddha",
+                          "ref_id": "@s1dy2cga8z04ll:e41",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 32,
+                            "width": 32,
+                            "x": 3798,
+                            "y": 575
+                          },
+                          "name": "‎More",
+                          "ref_id": "@s1dy2cga8z04ll:e42",
+                          "role": "button"
+                        }
+                      ],
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "Toolbar"
+                      },
+                      "ref_id": "@s1dy2cga8z04ll:e39",
+                      "role": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                      ],
+                      "bounds": {
+                        "height": 803,
+                        "width": 643,
+                        "x": 3197,
+                        "y": 565
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "ScrollTo",
+                            "Scroll"
+                          ],
+                          "bounds": {
+                            "height": 803,
+                            "width": 643,
+                            "x": 3197,
+                            "y": 565
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 136,
+                                "width": 457,
+                                "x": 3241,
+                                "y": 520.5
+                              },
+                              "name": "‎Message from Vivek CSE B311, ‎Link, some links : https://www.simular.ai/sai-legacy \nhttps://github.com/simular-ai/agent-s, www.simular.ai, https://www.simular.ai/sai-legacy, 20Augustat7:36 PM, ‎Received in Silicon Gaddha",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e45",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 40,
+                                "width": 643,
+                                "x": 3197,
+                                "y": 622
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e46",
+                              "role": "heading"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 120,
+                                "width": 457,
+                                "x": 3241,
+                                "y": 659.5
+                              },
+                              "name": "‎Message from Vivek CSE B311, ‎Link, https://www.youtube.com/watch?v=3hhzjtkQo0k, www.youtube.com, https://www.youtube.com/watch?v=3hhzjtkQo0k, 20Augustat7:41 PM, ‎Received in Silicon Gaddha",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e47",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 28,
+                                "width": 351,
+                                "x": 3473,
+                                "y": 791.5
+                              },
+                              "name": "‎Your message, isme bahut jyada human interaction lag rha, 20Augustat9:12 PM, ‎Sent to Silicon Gaddha, ‎Delivered",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e48",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 108,
+                                "width": 301,
+                                "x": 3241,
+                                "y": 831.5
+                              },
+                              "name": "‎Replying to Vivek CSE B311.\n‎Message from Vivek CSE B311, Iss video mei?, 20Augustat9:15 PM, ‎Received in Silicon Gaddha.\n‎Quoted message.\nhttps://www.youtube.com/watch?v=3hhzjtkQo0k",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e49",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 87,
+                                "width": 125,
+                                "x": 3699,
+                                "y": 951.5
+                              },
+                              "name": "‎Replying to Vivek CSE B311.\n‎Your message, Hmm, 20Augustat9:17 PM, ‎Sent to Silicon Gaddha, ‎Delivered.\n‎Quoted message.\nIss video mei?",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e50",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 28,
+                                "width": 242,
+                                "x": 3582,
+                                "y": 1041.5
+                              },
+                              "name": "‎Your message, And ye screenshot le rhe, 20Augustat9:18 PM, ‎Sent to Silicon Gaddha, ‎Delivered",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e51",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 45,
+                                "width": 151,
+                                "x": 3241,
+                                "y": 1081.5
+                              },
+                              "name": "‎Message from Vivek CSE B311, Hmm ye to h, 20Augustat9:18 PM, ‎Received in Silicon Gaddha",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e52",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 28,
+                                "width": 366,
+                                "x": 3458,
+                                "y": 1138.5
+                              },
+                              "name": "‎Your message, Feasible nahi lg rha ye , agents utha skte inke, 20Augustat9:19 PM, ‎Sent to Silicon Gaddha, ‎Delivered",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e53",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 28,
+                                "width": 283,
+                                "x": 3541,
+                                "y": 1169.5
+                              },
+                              "name": "‎Your message, Kaafi dense hai agents ka setup, 20Augustat9:19 PM, ‎Sent to Silicon Gaddha, ‎Delivered",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e54",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 28,
+                                "width": 392,
+                                "x": 3432,
+                                "y": 1200.5
+                              },
+                              "name": "‎Your message, To kaafi help aayega orchestration waale layer me, 20Augustat9:19 PM, ‎Sent to Silicon Gaddha, ‎Delivered",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e55",
+                              "role": "statictext"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 40,
+                                "width": 643,
+                                "x": 3197,
+                                "y": 1234.5
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "Scroll"
+                                  ],
+                                  "bounds": {
+                                    "height": 16,
+                                    "width": 38,
+                                    "x": 3499.5,
+                                    "y": 1246.5
+                                  },
+                                  "name": "‎Today",
+                                  "ref_id": "@s1dy2cga8z04ll:e57",
+                                  "role": "heading"
+                                }
+                              ],
+                              "ref_id": "@s1dy2cga8z04ll:e56",
+                              "role": "heading"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "Scroll"
+                              ],
+                              "bounds": {
+                                "height": 28,
+                                "width": 207,
+                                "x": 3617,
+                                "y": 1280.5
+                              },
+                              "name": "‎Your message, gettting richh soon, 4:15 AM, ‎Sent to Silicon Gaddha, ‎Sent",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "WAMessageBubbleTableViewCell"
+                              },
+                              "ref_id": "@s1dy2cga8z04ll:e58",
+                              "role": "statictext"
+                            }
+                          ],
+                          "name": "‎Messages in chat with Silicon Gaddha",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "ChatMessagesTableView"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e44",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 52,
+                            "width": 50,
+                            "x": 3198,
+                            "y": 1316.5
+                          },
+                          "name": "‎Share media",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "ChatBar_AttachMediaButton"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e59",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetValue",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 24,
+                            "width": 533,
+                            "x": 3254,
+                            "y": 1331.5
+                          },
+                          "name": "‎Compose message",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "ChatBar_ComposerTextView"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e60",
+                          "role": "textfield"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 24,
+                            "width": 24,
+                            "x": 3758,
+                            "y": 1330.5
+                          },
+                          "name": "‎Emoji picker",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "ChatBar_EmojiButton"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e61",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 44,
+                            "width": 50,
+                            "x": 3789.5,
+                            "y": 1320.5
+                          },
+                          "name": "‎Voice message",
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "ChatBar_VoiceMessageButton"
+                          },
+                          "ref_id": "@s1dy2cga8z04ll:e62",
+                          "role": "button"
+                        }
+                      ],
+                      "ref_id": "@s1dy2cga8z04ll:e43",
+                      "role": "group"
+                    }
+                  ],
+                  "ref_id": "@s1dy2cga8z04ll:e38",
+                  "role": "group"
+                }
+              ],
+              "ref_id": "@s1dy2cga8z04ll:e1",
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 14,
+            "width": 12,
+            "x": 2761,
+            "y": 572
+          },
+          "ref_id": "@s1dy2cga8z04ll:e63",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 14,
+            "width": 12,
+            "x": 2801,
+            "y": 572
+          },
+          "ref_id": "@s1dy2cga8z04ll:e64",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 14,
+            "width": 12,
+            "x": 2781,
+            "y": 572
+          },
+          "ref_id": "@s1dy2cga8z04ll:e65",
+          "role": "button"
+        }
+      ],
+      "name": "‎WhatsApp",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "SceneWindow"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-68232",
+      "title": "‎WhatsApp"
+    }
+  }
+}

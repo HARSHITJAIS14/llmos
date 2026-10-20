@@ -1,0 +1,148 @@
+{
+  "model_requested": "gemini-3.8-flash",
+  "model_returned": "gemini-3.8-flash",
+  "finish_reason": "STOP",
+  "elapsed_seconds": 80.7378,
+  "usage": {
+    "prompt_tokens": 6304,
+    "candidates_tokens": 1253,
+    "thoughts_tokens": 9894,
+    "total_tokens": 17451
+  },
+  "raw_text": "{\n  \"screen_context\": {\n    \"description\": \"A Safari browser window displayed on a dark desktop background, showing a YouTube Premium video watch page featuring an interview with Brian Singerman from Founders Fund, accompanied by engagement controls, video metadata, and a right-hand sidebar of recommended videos.\",\n    \"view_types\": [\n      \"browser\",\n      \"video_watch\"\n    ],\n    \"visible_app_names\": [\n      \"Safari\"\n    ],\n    \"uncertainties\": []\n  },\n  \"regions\": [\n    {\n      \"id\": \"reg_01\",\n      \"level\": \"region\",\n      \"role\": \"background\",\n      \"semantic_name\": \"Desktop Background\",\n      \"description\": \"Solid dark background visible around the floating Safari application window.\",\n      \"context_description\": \"Underlies the Safari browser window on the screen.\",\n      \"surface\": \"background\",\n      \"bbox\": [\n        0,\n        0,\n        2398,\n        1830\n      ]\n    },\n    {\n      \"id\": \"reg_02\",\n      \"level\": \"window\",\n      \"role\": \"window\",\n      \"semantic_name\": \"Safari Browser Window\",\n      \"description\": \"The primary macOS Safari window hosting navigation controls, multiple open tabs, and the YouTube web application.\",\n      \"context_description\": \"Centered on the desktop display, enclosing all browser chrome and webpage content.\",\n      \"surface\": \"native_app_ui\",\n      \"bbox\": [\n        46,\n        45,\n        2352,\n        1785\n      ]\n    },\n    {\n      \"id\": \"reg_03\",\n      \"level\": \"region\",\n      \"role\": \"toolbar\",\n      \"semantic_name\": \"Browser Toolbar and Address Bar\",\n      \"description\": \"Top browser chrome containing macOS window control buttons, history navigation, central address bar showing 'youtube.com', and browser action buttons.\",\n      \"context_description\": \"Positioned at the top of the Safari window above the tab strip.\",\n      \"surface\": \"browser_chrome\",\n      \"bbox\": [\n        46,\n        45,\n        2352,\n        175\n      ]\n    },\n    {\n      \"id\": \"reg_04\",\n      \"level\": \"region\",\n      \"role\": \"tab_strip\",\n      \"semantic_name\": \"Browser Tab Strip\",\n      \"description\": \"Horizontal row displaying open browser tabs, including YouTube, Diffusion, High-Fre, Google Search, and LinkedIn tabs.\",\n      \"context_description\": \"Located directly below the address bar and above the webpage content.\",\n      \"surface\": \"browser_chrome\",\n      \"bbox\": [\n        46,\n        175,\n        2352,\n        256\n      ]\n    },\n    {\n      \"id\": \"reg_05\",\n      \"level\": \"region\",\n      \"role\": \"toolbar\",\n      \"semantic_name\": \"YouTube Top Navigation Header\",\n      \"description\": \"YouTube application header containing the sidebar menu toggle, YouTube Premium logo, search field with voice search, Create button, notifications, and profile avatar.\",\n      \"context_description\": \"Top boundary of the YouTube webpage, sitting below the browser tab strip and spanning across the main content and sidebar.\",\n      \"surface\": \"webpage_ui\",\n      \"bbox\": [\n        46,\n        256,\n        2352,\n        372\n      ]\n    },\n    {\n      \"id\": \"reg_06\",\n      \"level\": \"region\",\n      \"role\": \"main_content\",\n      \"semantic_name\": \"Video Player Area\",\n      \"description\": \"Large embedded media player displaying the active video content showcasing various startup and portfolio logos.\",\n      \"context_description\": \"Located below the YouTube header on the left side of the screen, situated directly above the video details section.\",\n      \"surface\": \"embedded_content\",\n      \"bbox\": [\n        46,\n        372,\n        1560,\n        1145\n      ]\n    },\n    {\n      \"id\": \"reg_07\",\n      \"level\": \"region\",\n      \"role\": \"metadata_area\",\n      \"semantic_name\": \"Video Metadata and Details Panel\",\n      \"description\": \"Container presenting the video title, channel branding for 'Sourcery with Molly O'Shea', subscriber counter, action buttons (Subscribe, Like, Share), and collapsed video description.\",\n      \"context_description\": \"Positioned directly beneath the video player and to the left of the recommendations sidebar.\",\n      \"surface\": \"webpage_ui\",\n      \"bbox\": [\n        46,\n        1145,\n        1560,\n        1785\n      ]\n    },\n    {\n      \"id\": \"reg_08\",\n      \"level\": \"region\",\n      \"role\": \"sidebar\",\n      \"semantic_name\": \"Recommendations and Up Next Sidebar\",\n      \"description\": \"Vertical side column displaying related topic filter chips and a list of recommended video thumbnail cards.\",\n      \"context_description\": \"Occupies the right side of the YouTube interface, adjacent to the video player and metadata area.\",\n      \"surface\": \"webpage_ui\",\n      \"bbox\": [\n        1560,\n        372,\n        2352,\n        1785\n      ]\n    }\n  ]\n}",
+  "parsed": {
+    "screen_context": {
+      "description": "A Safari browser window displayed on a dark desktop background, showing a YouTube Premium video watch page featuring an interview with Brian Singerman from Founders Fund, accompanied by engagement controls, video metadata, and a right-hand sidebar of recommended videos.",
+      "view_types": [
+        "browser",
+        "video_watch"
+      ],
+      "visible_app_names": [
+        "Safari"
+      ],
+      "uncertainties": []
+    },
+    "regions": [
+      {
+        "id": "reg_01",
+        "level": "region",
+        "role": "background",
+        "semantic_name": "Desktop Background",
+        "description": "Solid dark background visible around the floating Safari application window.",
+        "context_description": "Underlies the Safari browser window on the screen.",
+        "surface": "background",
+        "bbox": [
+          0,
+          0,
+          2398,
+          1830
+        ]
+      },
+      {
+        "id": "reg_02",
+        "level": "window",
+        "role": "window",
+        "semantic_name": "Safari Browser Window",
+        "description": "The primary macOS Safari window hosting navigation controls, multiple open tabs, and the YouTube web application.",
+        "context_description": "Centered on the desktop display, enclosing all browser chrome and webpage content.",
+        "surface": "native_app_ui",
+        "bbox": [
+          46,
+          45,
+          2352,
+          1785
+        ]
+      },
+      {
+        "id": "reg_03",
+        "level": "region",
+        "role": "toolbar",
+        "semantic_name": "Browser Toolbar and Address Bar",
+        "description": "Top browser chrome containing macOS window control buttons, history navigation, central address bar showing 'youtube.com', and browser action buttons.",
+        "context_description": "Positioned at the top of the Safari window above the tab strip.",
+        "surface": "browser_chrome",
+        "bbox": [
+          46,
+          45,
+          2352,
+          175
+        ]
+      },
+      {
+        "id": "reg_04",
+        "level": "region",
+        "role": "tab_strip",
+        "semantic_name": "Browser Tab Strip",
+        "description": "Horizontal row displaying open browser tabs, including YouTube, Diffusion, High-Fre, Google Search, and LinkedIn tabs.",
+        "context_description": "Located directly below the address bar and above the webpage content.",
+        "surface": "browser_chrome",
+        "bbox": [
+          46,
+          175,
+          2352,
+          256
+        ]
+      },
+      {
+        "id": "reg_05",
+        "level": "region",
+        "role": "toolbar",
+        "semantic_name": "YouTube Top Navigation Header",
+        "description": "YouTube application header containing the sidebar menu toggle, YouTube Premium logo, search field with voice search, Create button, notifications, and profile avatar.",
+        "context_description": "Top boundary of the YouTube webpage, sitting below the browser tab strip and spanning across the main content and sidebar.",
+        "surface": "webpage_ui",
+        "bbox": [
+          46,
+          256,
+          2352,
+          372
+        ]
+      },
+      {
+        "id": "reg_06",
+        "level": "region",
+        "role": "main_content",
+        "semantic_name": "Video Player Area",
+        "description": "Large embedded media player displaying the active video content showcasing various startup and portfolio logos.",
+        "context_description": "Located below the YouTube header on the left side of the screen, situated directly above the video details section.",
+        "surface": "embedded_content",
+        "bbox": [
+          46,
+          372,
+          1560,
+          1145
+        ]
+      },
+      {
+        "id": "reg_07",
+        "level": "region",
+        "role": "metadata_area",
+        "semantic_name": "Video Metadata and Details Panel",
+        "description": "Container presenting the video title, channel branding for 'Sourcery with Molly O'Shea', subscriber counter, action buttons (Subscribe, Like, Share), and collapsed video description.",
+        "context_description": "Positioned directly beneath the video player and to the left of the recommendations sidebar.",
+        "surface": "webpage_ui",
+        "bbox": [
+          46,
+          1145,
+          1560,
+          1785
+        ]
+      },
+      {
+        "id": "reg_08",
+        "level": "region",
+        "role": "sidebar",
+        "semantic_name": "Recommendations and Up Next Sidebar",
+        "description": "Vertical side column displaying related topic filter chips and a list of recommended video thumbnail cards.",
+        "context_description": "Occupies the right side of the YouTube interface, adjacent to the video player and metadata area.",
+        "surface": "webpage_ui",
+        "bbox": [
+          1560,
+          372,
+          2352,
+          1785
+        ]
+      }
+    ]
+  }
+}

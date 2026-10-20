@@ -1,0 +1,69 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Brave Browser",
+    "complete": true,
+    "ref_count": 4,
+    "snapshot_id": "s2wtobfethwc4o",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "RightClick",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "role": "group"
+                }
+              ],
+              "ref_id": "@s2wtobfethwc4o:e1",
+              "role": "group"
+            }
+          ],
+          "name": "New tab - Brave",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2wtobfethwc4o:e2",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s2wtobfethwc4o:e3",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2wtobfethwc4o:e4",
+          "role": "button"
+        }
+      ],
+      "name": "New tab - Brave",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28087",
+      "title": "New tab"
+    }
+  }
+}

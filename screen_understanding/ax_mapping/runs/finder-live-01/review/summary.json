@@ -1,0 +1,40 @@
+{
+  "image_size": [
+    1840,
+    872
+  ],
+  "projected_nodes": 216,
+  "display_boxes": 196,
+  "named_controls_in_clean_view": 36,
+  "frame_check": {
+    "status": "unverified",
+    "reasons": [],
+    "skew_ms": 233.12997817993164,
+    "note": "Time proximity does not establish identical UI or occlusion."
+  },
+  "capture_validation": {
+    "window_geometry_unchanged": true,
+    "process_instance_unchanged": true,
+    "ax_signature_unchanged": true,
+    "ax_root_matches_capture_bounds": true,
+    "screenshot_sha256": "45c99e383ce40036a21537d9061ddba43270372ba3a0edc2d5c0d620977b8dd8",
+    "ax_before_ms": 340.15607833862305,
+    "screenshot_ms": 124.38607215881348,
+    "ax_after_ms": 358.6618900299072,
+    "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim."
+  },
+  "observation": {
+    "snapshot_id": "s2kwljgjbfhabu",
+    "app": "Finder",
+    "reported_complete": true,
+    "frontier_count": 0,
+    "frontiers": [],
+    "filtered": {
+      "invalid_bounds": 2,
+      "outside_capture": 0,
+      "hidden": 50
+    },
+    "total_nodes": 268,
+    "projected_nodes": 216
+  }
+}

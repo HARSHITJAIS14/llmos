@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MacOSScreenPairTemporalAnnotation",
+  "description": "Temporal change and correspondence annotation schema for before/after screenshot pairs",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "pair_id",
+    "stratum",
+    "before_screen_id",
+    "after_screen_id",
+    "action_or_event_description",
+    "changes",
+    "annotation_provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "0.1.0"
+    },
+    "pair_id": {
+      "type": "string",
+      "pattern": "^pair_[0-9]{2,4}$"
+    },
+    "stratum": {
+      "type": "string"
+    },
+    "before_screen_id": {
+      "type": "string"
+    },
+    "after_screen_id": {
+      "type": "string"
+    },
+    "action_or_event_description": {
+      "type": "string"
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "track_id",
+          "before_node_id",
+          "after_node_id",
+          "change_type",
+          "observable_evidence",
+          "uncertainties"
+        ],
+        "properties": {
+          "track_id": {
+            "type": "string",
+            "pattern": "^tr_[0-9]{4}$"
+          },
+          "before_node_id": {
+            "type": ["string", "null"]
+          },
+          "after_node_id": {
+            "type": ["string", "null"]
+          },
+          "change_type": {
+            "type": "string",
+            "enum": [
+              "appeared",
+              "disappeared",
+              "moved",
+              "resized",
+              "text_changed",
+              "state_changed",
+              "unchanged",
+              "uncertain"
+            ]
+          },
+          "details": {
+            "type": ["string", "null"]
+          },
+          "observable_evidence": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "uncertainties": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "annotation_provenance": {
+      "type": "object",
+      "required": [
+        "model_requested",
+        "model_returned",
+        "thinking_requested",
+        "prompt_version",
+        "human_reviewed"
+      ],
+      "properties": {
+        "model_requested": { "type": "string" },
+        "model_returned": { "type": ["string", "null"] },
+        "thinking_requested": { "type": "string" },
+        "prompt_version": { "type": "string" },
+        "human_reviewed": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

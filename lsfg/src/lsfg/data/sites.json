@@ -1,0 +1,11 @@
+{
+  "youtube":   {"url": "https://www.youtube.com",   "title": "YouTube",   "search": "https://www.youtube.com/results?search_query={q}"},
+  "google":    {"url": "https://www.google.com",    "title": "Google",    "search": "https://www.google.com/search?q={q}"},
+  "github":    {"url": "https://github.com",        "title": "GitHub",    "search": "https://github.com/search?q={q}"},
+  "wikipedia": {"url": "https://en.wikipedia.org",  "title": "Wikipedia", "search": "https://en.wikipedia.org/w/index.php?search={q}"},
+  "reddit":    {"url": "https://www.reddit.com",    "title": "Reddit",    "search": "https://www.reddit.com/search/?q={q}"},
+  "amazon":    {"url": "https://www.amazon.com",    "title": "Amazon",    "search": "https://www.amazon.com/s?k={q}"},
+  "gmail":     {"url": "https://mail.google.com",   "title": "Gmail"},
+  "x":         {"url": "https://x.com",             "title": "X"},
+  "twitter":   {"url": "https://x.com",             "title": "X"}
+}

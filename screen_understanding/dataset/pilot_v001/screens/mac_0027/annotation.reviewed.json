@@ -1,0 +1,561 @@
+{
+  "schema_version": "0.1.0",
+  "screen_id": "mac_0027",
+  "image": {
+    "path": "source.png",
+    "sha256": "14c4348410b9d424998e1efb17865b495da7ddd3f0fd9431ceebba308026a7d2",
+    "width": 2096,
+    "height": 1280,
+    "scale_factor": 2.0,
+    "coordinate_space": "source_pixels_xyxy"
+  },
+  "screen_context": {
+    "description": "Native macOS Weather application window with saved cities sidebar, hourly temperature carousel, and 10-day forecast",
+    "view_types": [
+      "weather_dashboard",
+      "cards_grid"
+    ],
+    "visible_app_names": [
+      "Weather"
+    ],
+    "uncertainties": []
+  },
+  "nodes": [
+    {
+      "id": "n_0000",
+      "level": "window",
+      "bbox": [
+        0,
+        0,
+        2096,
+        1280
+      ],
+      "parent_id": null,
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "window",
+      "semantic_name": "Weather Window",
+      "description": "Native macOS Weather application window",
+      "context_description": "Top-level canvas",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0001",
+      "level": "region",
+      "bbox": [
+        0,
+        0,
+        520,
+        1280
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "sidebar",
+      "semantic_name": "Saved Cities Sidebar",
+      "description": "Sidebar of tracked city cards with temperatures",
+      "context_description": "Located inside n_0000",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0002",
+      "level": "region",
+      "bbox": [
+        520,
+        0,
+        2096,
+        1280
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "main_content",
+      "semantic_name": "Current Weather Forecast Canvas",
+      "description": "Main weather report canvas for selected city",
+      "context_description": "Located inside n_0000",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0003",
+      "level": "group",
+      "bbox": [
+        20,
+        15,
+        130,
+        50
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "button_group",
+      "semantic_name": "Traffic Light Buttons",
+      "description": "Window control buttons",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0004",
+      "level": "element",
+      "bbox": [
+        25,
+        75,
+        490,
+        125
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "text_input",
+      "semantic_name": "City Search Field",
+      "description": "City and postal code search input",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0005",
+      "level": "group",
+      "bbox": [
+        25,
+        140,
+        490,
+        1250
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "list",
+      "semantic_name": "City Weather Cards List",
+      "description": "List of saved cities (Varanasi, New Delhi, Mumbai, Bengaluru)",
+      "context_description": "Located inside n_0001",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0006",
+      "level": "group",
+      "bbox": [
+        1150,
+        110,
+        1550,
+        310
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "heading",
+      "semantic_name": "Location Current Metrics",
+      "description": "City name, temperature, and sky conditions",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Varanasi\n31\u00b0\nMostly Sunny",
+          "bbox": [
+            1150,
+            110,
+            1550,
+            310
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0007",
+      "level": "group",
+      "bbox": [
+        680,
+        390,
+        1930,
+        610
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "card",
+      "semantic_name": "Hourly Forecast Carousel Card",
+      "description": "Hourly temperature trends and sunset indicator",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0008",
+      "level": "group",
+      "bbox": [
+        680,
+        640,
+        1280,
+        1240
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "card",
+      "semantic_name": "10-Day Forecast Schedule Card",
+      "description": "Daily forecast high/low range visualizers",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0009",
+      "level": "group",
+      "bbox": [
+        1320,
+        640,
+        1930,
+        1240
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "card",
+      "semantic_name": "Precipitation Radar Card",
+      "description": "Precipitation map and probability forecast",
+      "context_description": "Located inside n_0002",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Visual inspection and screen capture coordinates"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    }
+  ],
+  "relations": [],
+  "coverage": {
+    "status": "complete",
+    "uninspected_regions": [],
+    "unresolved_proposal_ids": [],
+    "proposals_disposition": {
+      "d_0001": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0002": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0003": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0004": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0005": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0006": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0007": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0008": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0009": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0010": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0011": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0012": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0013": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0014": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0015": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0016": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0017": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0018": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0019": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0020": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0021": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0005"
+        ],
+        "reason": "Enclosed within n_0005"
+      },
+      "d_0022": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0023": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0024": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0025": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0005"
+        ],
+        "reason": "Enclosed within n_0005"
+      },
+      "d_0026": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0027": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      }
+    }
+  },
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true,
+    "audit_applied": true
+  }
+}

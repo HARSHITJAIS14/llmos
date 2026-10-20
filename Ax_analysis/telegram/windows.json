@@ -1,0 +1,138 @@
+[
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28373",
+    "is_focused": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": false
+  },
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28372",
+    "is_focused": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": false
+  },
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28371",
+    "is_focused": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": false
+  },
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28370",
+    "is_focused": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": false
+  },
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28369",
+    "is_focused": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": false
+  },
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28368",
+    "is_focused": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": false
+  },
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28367",
+    "is_focused": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": false
+  },
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 803.0,
+      "width": 1087.0,
+      "x": 383.0,
+      "y": 565.0
+    },
+    "id": "w-28299",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": true
+  },
+  {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28366",
+    "is_focused": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": false
+  }
+]

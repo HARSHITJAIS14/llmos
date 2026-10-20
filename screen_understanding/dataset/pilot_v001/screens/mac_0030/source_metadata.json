@@ -1,0 +1,19 @@
+{
+  "screen_id": "mac_0030",
+  "source_path": "/Users/harshit/Desktop/YC/screen_understanding/dataset/pilot_v001/screens/mac_0030/source.png",
+  "sha256": "7fc4fdd394b459f024fbcc46265c26c8b9eb44523255770917230e582af6fbd4",
+  "width": 2048,
+  "height": 1536,
+  "scale_factor": 2.0,
+  "stratum": "communication_and_media",
+  "app_family": "podcasts",
+  "session_group_id": "sess_mac_0030",
+  "appearance": "dark",
+  "source_provenance": "Real macOS native screencapture of podcasts",
+  "local_screening_status": "screened_safe_no_pii",
+  "pair_id": null,
+  "frame_order": null,
+  "eligibility": "eligible",
+  "exclusion_reason": null,
+  "timestamp": 1792310251.260393
+}

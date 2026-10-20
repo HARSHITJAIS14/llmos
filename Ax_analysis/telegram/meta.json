@@ -1,0 +1,92 @@
+{
+  "app": "Telegram",
+  "was_running": false,
+  "captures": {
+    "windows": 9,
+    "skeleton": {
+      "ok": true,
+      "bytes": 397,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 467,
+      "error": null
+    },
+    "surfaces": {
+      "ok": false,
+      "bytes": 386,
+      "error": "APP_UNRESPONSIVE"
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26876,
+  "bundle_id": "ru.keepcoder.Telegram",
+  "framework_signals": {
+    "exe": "/Applications/Telegram.app/Contents/MacOS/Telegram",
+    "bundle": "/Applications/Telegram.app",
+    "frameworks": [
+      "libswiftAVFoundation.dylib",
+      "libswiftAccelerate.dylib",
+      "libswiftAppKit.dylib",
+      "libswiftCore.dylib",
+      "libswiftCoreAudio.dylib",
+      "libswiftCoreData.dylib",
+      "libswiftCoreFoundation.dylib",
+      "libswiftCoreGraphics.dylib",
+      "libswiftCoreImage.dylib",
+      "libswiftCoreLocation.dylib",
+      "libswiftCoreMedia.dylib",
+      "libswiftDarwin.dylib",
+      "libswiftDispatch.dylib",
+      "libswiftFoundation.dylib",
+      "libswiftGLKit.dylib",
+      "libswiftIOKit.dylib",
+      "libswiftMapKit.dylib",
+      "libswiftMetal.dylib",
+      "libswiftMetalKit.dylib",
+      "libswiftModelIO.dylib",
+      "libswiftNaturalLanguage.dylib",
+      "libswiftNetwork.dylib",
+      "libswiftObjectiveC.dylib",
+      "libswiftQuartzCore.dylib",
+      "libswiftSceneKit.dylib",
+      "libswiftVision.dylib",
+      "libswiftXPC.dylib",
+      "libswift_Concurrency.dylib",
+      "libswiftos.dylib",
+      "libswiftsimd.dylib"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Telegram",
+    "bounds": {
+      "height": 803.0,
+      "width": 1087.0,
+      "x": 383.0,
+      "y": 565.0
+    },
+    "id": "w-28299",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26876,
+    "process_instance": "macos-proc-v1:1788103839:284255",
+    "title": "Telegram",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "note": "",
+    "nodes_before_drill": 1,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 1,
+    "bytes": 567
+  }
+}

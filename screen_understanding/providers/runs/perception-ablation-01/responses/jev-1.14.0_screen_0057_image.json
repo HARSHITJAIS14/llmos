@@ -1,0 +1,237 @@
+{
+  "provider": "jev-1.14.0",
+  "screen": "screen_0057",
+  "condition": "image",
+  "prompt_sha256": "b028c626ee084988bc3b50a3dcec83f26c98a39d0cb669f672847552270ea169",
+  "auxiliary_boxes": 0,
+  "seconds": 2.67029341601301,
+  "headers_seconds": 2.6702058329829015,
+  "http_status": 200,
+  "response": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "q1": {
+        "type": "choice",
+        "choice": "o0",
+        "confidence": 1.0,
+        "probabilities": {
+          "o0": 1.0,
+          "o1": 0.0,
+          "o2": 0.0,
+          "o3": 0.0
+        }
+      },
+      "q2": {
+        "type": "choice",
+        "choice": "o3",
+        "confidence": 1.0,
+        "probabilities": {
+          "o0": 0.0,
+          "o1": 0.0,
+          "o2": 0.0,
+          "o3": 1.0
+        }
+      },
+      "q3": {
+        "type": "choice",
+        "choice": "o3",
+        "confidence": 1.0,
+        "probabilities": {
+          "o0": 0.0,
+          "o1": 0.0,
+          "o2": 0.0,
+          "o3": 1.0
+        }
+      },
+      "q4": {
+        "type": "choice",
+        "choice": "o3",
+        "confidence": 1.0,
+        "probabilities": {
+          "o0": 0.0,
+          "o1": 0.0,
+          "o2": 0.0,
+          "o3": 1.0
+        }
+      },
+      "q5": {
+        "type": "choice",
+        "choice": "o1",
+        "confidence": 1.0,
+        "probabilities": {
+          "o0": 0.0,
+          "o1": 1.0,
+          "o2": 0.0,
+          "o3": 0.0
+        }
+      },
+      "q6": {
+        "type": "choice",
+        "choice": "o3",
+        "confidence": 1.0,
+        "probabilities": {
+          "o0": 0.0,
+          "o1": 0.0,
+          "o2": 0.0,
+          "o3": 1.0
+        }
+      },
+      "g1": {
+        "type": "box",
+        "box": {
+          "top": 0.05,
+          "bottom": 0.1,
+          "left": 0.95,
+          "right": 0.98
+        },
+        "confidence": 0.63
+      },
+      "g2": {
+        "type": "box",
+        "box": {
+          "top": 0.72,
+          "bottom": 0.76,
+          "left": 0.03,
+          "right": 0.13
+        },
+        "confidence": 0.82
+      }
+    },
+    "usage": {
+      "input_tokens": 3946,
+      "output_tokens": 326
+    }
+  },
+  "usage": {
+    "input_tokens": 3946,
+    "output_tokens": 326
+  },
+  "answers": {
+    "q1": "o0",
+    "q2": "o3",
+    "q3": "o3",
+    "q4": "o3",
+    "q5": "o1",
+    "q6": "o3",
+    "g1": [
+      0.95,
+      0.05,
+      0.98,
+      0.1
+    ],
+    "g2": [
+      0.03,
+      0.72,
+      0.13,
+      0.76
+    ]
+  },
+  "scores": {
+    "q1": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q2": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q3": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q4": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q5": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q6": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "g1": {
+      "type": "box",
+      "valid": true,
+      "point_hit": true,
+      "iou": 0.34319245875883786
+    },
+    "g2": {
+      "type": "box",
+      "valid": true,
+      "point_hit": true,
+      "iou": 0.3149777627576886
+    }
+  },
+  "strict_scores": {
+    "q1": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q2": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q3": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q4": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q5": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q6": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "g1": {
+      "type": "box",
+      "valid": true,
+      "point_hit": true,
+      "iou": 0.34319245875883786
+    },
+    "g2": {
+      "type": "box",
+      "valid": true,
+      "point_hit": true,
+      "iou": 0.3149777627576886
+    }
+  },
+  "coordinate_units": {
+    "g1": {
+      "rule": "0\u20131 as requested",
+      "normalized_answer": [
+        0.95,
+        0.05,
+        0.98,
+        0.1
+      ]
+    },
+    "g2": {
+      "rule": "0\u20131 as requested",
+      "normalized_answer": [
+        0.03,
+        0.72,
+        0.13,
+        0.76
+      ]
+    }
+  }
+}

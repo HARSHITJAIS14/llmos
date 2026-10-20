@@ -1,0 +1,138 @@
+[
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28287",
+    "is_focused": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "Notion",
+    "visible": false
+  },
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28284",
+    "is_focused": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "Notion",
+    "visible": false
+  },
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28283",
+    "is_focused": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "Notion",
+    "visible": false
+  },
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28281",
+    "is_focused": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "Notion",
+    "visible": false
+  },
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28280",
+    "is_focused": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "Notion",
+    "visible": false
+  },
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 803.0,
+      "width": 1087.0,
+      "x": 854.0,
+      "y": 30.0
+    },
+    "id": "w-28279",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "LLM OS ",
+    "visible": true
+  },
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28286",
+    "is_focused": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "Notion",
+    "visible": false
+  },
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28285",
+    "is_focused": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "Notion",
+    "visible": false
+  },
+  {
+    "app_name": "Notion",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28282",
+    "is_focused": false,
+    "pid": 26917,
+    "process_instance": "macos-proc-v1:1788103840:406615",
+    "title": "Notion",
+    "visible": false
+  }
+]

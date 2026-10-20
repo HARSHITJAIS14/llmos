@@ -1,0 +1,13 @@
+{
+ "version": "2.3",
+ "ok": false,
+ "command": "snapshot",
+ "error": {
+  "code": "INTERNAL",
+  "message": "RefMap exceeds 1MB size limit on write",
+  "disposition": {
+   "delivery": "unknown",
+   "retry": "unknown"
+  }
+ }
+}

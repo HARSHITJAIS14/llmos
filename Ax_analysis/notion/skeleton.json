@@ -1,0 +1,67 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Notion",
+    "complete": true,
+    "ref_count": 3,
+    "snapshot_id": "s38g8a3s7cjvz5",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "name": "LLM OS ",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s38g8a3s7cjvz5:e1",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s38g8a3s7cjvz5:e2",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s38g8a3s7cjvz5:e3",
+          "role": "button"
+        }
+      ],
+      "name": "LLM OS ",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28279",
+      "title": "LLM OS "
+    }
+  }
+}

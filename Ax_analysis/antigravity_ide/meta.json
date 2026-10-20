@@ -1,0 +1,65 @@
+{
+  "app": "Antigravity IDE",
+  "was_running": true,
+  "captures": {
+    "windows": 10,
+    "skeleton": {
+      "ok": true,
+      "bytes": 861,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 4267,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "activated",
+  "pid": 10858,
+  "bundle_id": "com.google.antigravity-ide",
+  "framework_signals": {
+    "exe": "/Applications/Antigravity IDE.app/Contents/MacOS/Electron",
+    "bundle": "/Applications/Antigravity IDE.app",
+    "frameworks": [
+      "Antigravity IDE Helper (GPU).app",
+      "Antigravity IDE Helper (Plugin).app",
+      "Antigravity IDE Helper (Renderer).app",
+      "Antigravity IDE Helper.app",
+      "Electron Framework.framework",
+      "Mantle.framework",
+      "ReactiveObjC.framework",
+      "Squirrel.framework"
+    ],
+    "hints": [
+      "electron"
+    ]
+  },
+  "best_window": {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 161.0,
+      "width": 178.0,
+      "x": 15.0,
+      "y": 654.0
+    },
+    "id": "w-27238",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "YC \u2014 CLI tool integrations fo\u2026",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": false,
+    "note": "captured without -i (RefMap>1MB): refs unavailable, drilling impossible",
+    "error": "INTERNAL",
+    "bytes": 223
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atree-codex/app.schema.json",
+  "title": "atree codex app file",
+  "description": "What atree knows about one macOS app's accessibility tree. One file per app: apps/<app_key>.json. Read by the deterministic dispatcher, the route compiler and a small local model. All enums are closed. Never put personal content (names, messages, emails, file names) in any string. See schema.md for the law behind each field.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "app_key", "identity", "category", "fidelity", "readiness",
+    "window_picking", "selector_strategy", "stable_anchors", "action_capability",
+    "read_recipes", "verify_recipes", "geometry", "quirks", "escalation", "provenance"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "app_key": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Directory name in Ax_analysis, e.g. 'google_chrome'."
+    },
+
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "bundle_id", "framework", "framework_confidence", "framework_evidence"],
+      "properties": {
+        "name": { "type": "string", "description": "App name as agent-desktop reports it (data.app)." },
+        "bundle_id": { "type": ["string", "null"], "description": "CFBundleIdentifier. Safari web apps carry a per-install UUID suffix: match on the prefix." },
+        "bundle_id_match": { "enum": ["exact", "prefix"], "default": "exact" },
+        "framework": { "$ref": "#/$defs/framework" },
+        "secondary_frameworks": {
+          "type": "array", "items": { "$ref": "#/$defs/framework" }, "uniqueItems": true,
+          "description": "Embedded engines, e.g. OBS = qt + cef."
+        },
+        "framework_confidence": { "$ref": "#/$defs/confidence" },
+        "framework_evidence": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["source", "observation"],
+            "properties": {
+              "source": {
+                "enum": [
+                  "bundle_frameworks",
+                  "bundle_hint",
+                  "skeleton_fingerprint",
+                  "webarea_path",
+                  "noise_ratio",
+                  "role_histogram",
+                  "wrapper_chain_length",
+                  "max_depth_band"
+                ]
+              },
+              "observation": { "type": "string", "maxLength": 200, "description": "Measured fact, with numbers. E.g. 'skeleton 7 nodes, root_kids 4'." }
+            }
+          }
+        }
+      }
+    },
+
+    "category": {
+      "enum": [
+        "browser", "messaging", "documents", "office", "productivity", "ide",
+        "ai_assistant", "media", "file_manager", "meeting", "broadcast",
+        "virtualization", "other"
+      ]
+    },
+
+    "fidelity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["default", "forced", "default_score", "best_capture", "ladder_verdict"],
+      "properties": {
+        "default": { "$ref": "#/$defs/capture_stats" },
+        "forced": { "oneOf": [{ "$ref": "#/$defs/capture_stats" }, { "type": "null" }] },
+        "forced_over_default_ratio": {
+          "type": ["number", "null"], "minimum": 0,
+          "description": "forced.nodes / default.nodes. >= 1.3 labels the default capture untrustworthy (clean gap: highest trustworthy app was 1.05)."
+        },
+        "default_score": {
+          "type": "number", "minimum": 0, "maximum": 1,
+          "description": "default.nodes / max(default.nodes, forced.nodes, nodes_observed). 1.0 = default capture already had everything we ever saw."
+        },
+        "forced_score": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "best_capture": { "enum": ["default", "forced", "none"] },
+        "ladder_verdict": {
+          "enum": ["trust", "recapture_deeper", "navigate_partial", "activate_first", "refmap_split", "give_up"],
+          "description": "Where the readiness ladder sends this app after at most 2 snapshots."
+        }
+      }
+    },
+
+    "readiness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["default_rung", "husk", "capture_plan", "background_read_ok", "needs_activation", "handshake", "settle_ms"],
+      "properties": {
+        "default_rung": {
+          "enum": ["TRUST", "E_refmap", "E_window", "R2_opaque", "R3_unsettled", "R4_depth_frontier", "R5_partial_prefix", "R6_hidden_window"],
+          "description": "First ladder rung the default depth-10 capture hit."
+        },
+        "husk": {
+          "type": "object", "additionalProperties": false,
+          "required": ["default_is_husk", "signals", "cause"],
+          "properties": {
+            "default_is_husk": { "type": "boolean" },
+            "signals": {
+              "type": "array", "uniqueItems": true,
+              "items": { "enum": ["depth_frontier", "tiny_tree", "opaque_root", "refmap_overflow"] },
+              "description": "Which parts of untrusted(snapshot) fired."
+            },
+            "chromium_shell_skeleton": { "type": "boolean", "description": "Skeleton is exactly 7 nodes with 4 root kids." },
+            "cause": { "enum": ["none", "depth_cap", "opaque", "launch_transient", "size_limit"] }
+          }
+        },
+        "capture_plan": {
+          "type": "object", "additionalProperties": false,
+          "required": ["max_depth"],
+          "properties": {
+            "max_depth": { "type": "integer", "minimum": 1, "maximum": 60, "description": "10 for native, 40 for web stacks." },
+            "skeleton_first": { "type": "boolean", "default": true },
+            "scoped_drill": { "type": "boolean", "default": false, "description": "Capture by snapshot --root on frontier refs instead of one big snapshot (RefMap limit)." },
+            "drill_truncation_boundary": { "const": false, "description": "Never drill a complete=false boundary: 0/7 drills worked." }
+          }
+        },
+        "background_read_ok": { "type": "boolean", "description": "A never-activated snapshot is safe to read from." },
+        "needs_activation": {
+          "type": "object", "additionalProperties": false,
+          "required": ["read", "act"],
+          "properties": {
+            "read": { "type": "boolean" },
+            "act": { "type": "boolean", "description": "True when the window is usually hidden (minimized/other Space): activate before coordinate actions." },
+            "reason": { "type": "string", "maxLength": 200 }
+          }
+        },
+        "handshake": {
+          "type": "object", "additionalProperties": false,
+          "required": ["status"],
+          "properties": {
+            "status": {
+              "enum": ["not_applicable", "tool_automatic", "unproven", "required"],
+              "description": "AXManualAccessibility. 'unproven' = never shown to change a tree in this corpus; depth explains the data."
+            },
+            "note": { "type": "string", "maxLength": 200 }
+          }
+        },
+        "settle_ms": {
+          "type": "object", "additionalProperties": false,
+          "required": ["after_launch", "after_activate"],
+          "properties": {
+            "after_launch": { "type": "integer", "minimum": 0, "description": "Wait, then re-list windows; proceed only when best window id is stable and n > 12." },
+            "after_activate": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    },
+
+    "window_picking": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ghost_signatures", "real_window_test", "address_by"],
+      "properties": {
+        "ghost_signatures": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["width", "height", "count"],
+            "properties": {
+              "width": { "type": "number" },
+              "height": { "type": "number" },
+              "x": { "type": ["number", "null"] },
+              "y": { "type": ["number", "null"] },
+              "count": { "type": "integer", "minimum": 1 },
+              "kind": { "enum": ["menubar_strip", "helper_surface", "thumbnail_proxy", "sliver"] }
+            }
+          },
+          "description": "Window-server entries seen for this app that are NOT the real window."
+        },
+        "real_window_test": {
+          "type": "object", "additionalProperties": false,
+          "required": ["min_width", "min_height", "bounds_must_match_ax_root"],
+          "properties": {
+            "min_width": { "type": "number", "default": 201 },
+            "min_height": { "type": "number", "default": 201 },
+            "title_differs_from_app_proves_real": { "type": "boolean", "default": true },
+            "bounds_must_match_ax_root": { "type": "boolean", "default": true, "description": "Exact match, tolerance 0. Mismatch means minimized / other Space." },
+            "min_nodes": { "type": "integer", "default": 13, "description": "n <= 12 means launch transient or opaque." }
+          }
+        },
+        "thumbnail_proxy_seen": { "type": "boolean" },
+        "empty_list_is_normal": { "type": "boolean", "description": "Every WS entry was a ghost yet AX had a real window. Snapshot anyway." },
+        "address_by": { "enum": ["window_id", "pid", "focused_surface"], "description": "Never address by --app name when multiple processes share it." },
+        "process_count_seen": { "type": "integer", "minimum": 1 },
+        "window_id_drifts": { "type": "boolean", "description": "Best window id changed between captures (launch or window-set change). Re-pick every session." }
+      }
+    },
+
+    "selector_strategy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chain", "search_root", "normalize", "identity_field", "on_multi_match"],
+      "properties": {
+        "chain": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": { "enum": ["native_id", "role_name_nth", "textfield_value", "value_prefix", "ancestor_path"] },
+          "description": "Resolver tiers tried in order. ref_id is never a tier: it is snapshot-scoped."
+        },
+        "search_root": { "enum": ["window", "webarea"], "description": "Electron: search only under the webarea, plus depth-1 window buttons." },
+        "normalize": {
+          "type": "object", "additionalProperties": false,
+          "required": ["strip_invisible"],
+          "properties": {
+            "strip_invisible": { "type": "boolean", "description": "Remove U+200E/200F/202A-E/2066-9/200B-D/2060/FEFF/00AD. Always safe (0 new collisions)." },
+            "invisible_chars_seen": { "type": "integer", "minimum": 0 },
+            "nfc": { "type": "boolean", "default": true },
+            "trim": { "type": "boolean", "default": true }
+          }
+        },
+        "identity_field": { "enum": ["name", "value", "mixed"], "description": "'value' = AppKit list labels live in textfield.value with no name." },
+        "native_id": {
+          "type": "object", "additionalProperties": false,
+          "properties": {
+            "coverage_interactive_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+            "kinds": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/native_id_kind" } },
+            "reject_patterns": {
+              "type": "array", "items": { "type": "string", "format": "regex" },
+              "description": "Values matching these are volatile: React useId, view_<n>."
+            }
+          }
+        },
+        "uniqueness": {
+          "type": "object", "additionalProperties": false,
+          "properties": {
+            "role_name_unique_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+            "with_bounds_unique_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+            "nth_required_roles": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/role" } }
+          }
+        },
+        "exclude_zero_area": { "type": "boolean", "default": true },
+        "on_multi_match": { "const": "error", "description": "Residual multi-match is an error, never first-match." },
+        "view_change_overlap": {
+          "type": "object", "additionalProperties": false,
+          "properties": {
+            "abort_below": { "type": "number", "default": 0.6 },
+            "reuse_above": { "type": "number", "default": 0.9 }
+          }
+        }
+      }
+    },
+
+    "stable_anchors": {
+      "type": "array",
+      "maxItems": 60,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["kind", "value", "match", "tier", "role", "purpose"],
+        "properties": {
+          "kind": { "$ref": "#/$defs/native_id_kind" },
+          "value": { "type": "string", "maxLength": 200, "description": "The id, or its non-personal prefix when match='prefix'." },
+          "match": { "enum": ["exact", "prefix"] },
+          "tier": { "enum": ["high", "session", "low"], "description": "high = persist; session = re-resolve each launch (UUIDs); low = _NS:<n>, this build/session only." },
+          "role": { "$ref": "#/$defs/role" },
+          "purpose": { "type": "string", "maxLength": 80, "description": "Generic UI function, e.g. 'address bar', 'back button'. No user content." },
+          "seen_in_captures": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+
+    "action_capability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["click_is_signal", "rightclick_ambient", "disabled_keeps_click", "editable_textfield_test", "offscreen_recovery", "roles"],
+      "properties": {
+        "click_is_signal": { "type": "boolean", "description": "False for Gecko: Click is on 97% of non-interactive nodes." },
+        "rightclick_ambient": { "type": "boolean", "description": "True for web stacks: never rank or filter on RightClick." },
+        "disabled_keeps_click": { "type": "boolean", "description": "True: must check 'disabled' state, Click presence proves nothing. False in WebKit-native and Qt." },
+        "text_entry": { "enum": ["type_text", "setfocus_keys", "set_value"], "description": "Preferred way to enter text." },
+        "editable_textfield_test": { "enum": ["setfocus_present", "typetext_present", "not_readonly"], "description": "AppKit: textfield without SetFocus is a label." },
+        "offscreen_recovery": { "enum": ["scroll_to", "container_scroll", "leaf_scroll", "none"] },
+        "menubutton_has_expand": { "type": ["boolean", "null"] },
+        "unknown_role_policy": { "enum": ["click_means_button", "drop"], "default": "click_means_button" },
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["role", "actions", "count"],
+            "properties": {
+              "role": { "$ref": "#/$defs/role" },
+              "actions": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/action" } },
+              "count": { "type": "integer", "minimum": 0, "description": "Nodes of this role in the best capture." },
+              "verb": { "$ref": "#/$defs/action", "description": "Action to use to activate this role here." },
+              "note": { "type": "string", "maxLength": 160 }
+            }
+          },
+          "description": "Only roles that carry a real action in this app."
+        }
+      }
+    },
+
+    "read_recipes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tree_readable", "recipes"],
+      "properties": {
+        "tree_readable": { "enum": ["full", "partial", "write_only", "opaque"], "description": "write_only = composer present, content region has < 50 chars of text." },
+        "recipes": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["target", "read_from"],
+            "properties": {
+              "target": {
+                "enum": ["statictext", "input_field", "list_item_label", "cell", "row", "heading", "toggle_state", "document_body", "record_button", "placeholder"]
+              },
+              "match": { "type": "string", "maxLength": 200, "description": "Pseudocode predicate that finds the node, e.g. 'role==textfield and no name and parent.role==group'." },
+              "read_from": { "enum": ["name", "value", "name_or_value", "description_if_differs", "children_join", "none"] },
+              "parse": { "enum": ["none", "heading_level", "bool_01", "comma_record", "split_lines"], "default": "none" },
+              "laws": { "$ref": "#/$defs/law_refs" }
+            }
+          }
+        }
+      }
+    },
+
+    "verify_recipes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["channel", "after_type", "after_toggle", "resnapshot_after_action", "never_compare_name"],
+      "properties": {
+        "channel": { "enum": ["tree", "vision", "tree_then_vision"] },
+        "after_type": { "enum": ["value_key_equals", "document_value_contains", "vision"], "description": "Empty = value key absent. After typing, the value key must appear and equal the text." },
+        "after_toggle": { "enum": ["value_01_flip", "checked_state", "vision"] },
+        "after_click": { "enum": ["resnapshot_diff", "view_change_overlap", "vision"], "default": "resnapshot_diff" },
+        "resnapshot_after_action": { "const": true },
+        "never_compare_name": { "const": true, "description": "Name is the label/placeholder and never changes on input." }
+      }
+    },
+
+    "geometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["bounds_source", "stable_across_activation", "invalidate_on"],
+      "properties": {
+        "bounds_source": { "enum": ["window_server", "ax_root"], "description": "ax_root when WS bounds are a thumbnail or don't match exactly." },
+        "ws_matches_ax_root": { "type": ["boolean", "null"] },
+        "stable_across_activation": { "type": ["boolean", "null"], "description": "Observed share of bounds equal after activation, rounded to a bool (null = not measured)." },
+        "invalidate_on": {
+          "type": "array", "uniqueItems": true,
+          "items": { "enum": ["activate", "launch", "space_switch", "any_action"] }
+        },
+        "zero_area_nodes": { "type": "integer", "minimum": 0, "description": "Excluded from resolution and never clicked." },
+        "offscreen_click": { "const": "forbidden" },
+        "root_role_varies": { "type": "boolean", "description": "Root flips window <-> dialog. Treat both as the same; never gate on it." }
+      }
+    },
+
+    "quirks": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["kind", "detect", "workaround", "severity", "laws"],
+        "properties": {
+          "kind": { "$ref": "#/$defs/quirk_kind" },
+          "detect": { "type": "string", "maxLength": 300, "description": "Pseudocode predicate over a snapshot / error that proves the quirk is live." },
+          "workaround": { "type": "string", "maxLength": 300 },
+          "severity": { "enum": ["blocker", "high", "low"], "description": "blocker = AX unusable for the task; high = wrong action/read if ignored; low = efficiency." },
+          "observed": { "type": "string", "maxLength": 200, "description": "Counts from the corpus, no personal content." },
+          "laws": { "$ref": "#/$defs/law_refs" }
+        }
+      }
+    },
+
+    "escalation": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Channels in canonical order ax -> ax_deep -> ax_scoped -> handshake -> cdp -> app_api -> keyboard -> vision. List only the ones that apply here.",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["channel", "when"],
+        "properties": {
+          "channel": { "enum": ["ax", "ax_deep", "ax_scoped", "handshake", "cdp", "app_api", "keyboard", "vision"] },
+          "when": { "type": "string", "maxLength": 200, "description": "Condition that moves to this channel." },
+          "precondition": { "type": "string", "maxLength": 200, "description": "E.g. 'app launched with --remote-debugging-port' for cdp." },
+          "tested": { "type": "boolean", "default": false }
+        }
+      }
+    },
+
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["captured_at", "agent_desktop_version", "app_version", "capture_modes", "surface", "sources", "verified"],
+      "properties": {
+        "captured_at": { "type": "array", "minItems": 1, "items": { "type": "string", "format": "date-time" } },
+        "agent_desktop_version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+        "output_version": { "type": "string", "description": "agent-desktop JSON envelope version, e.g. '2.3'." },
+        "app_version": { "type": ["string", "null"], "description": "CFBundleShortVersionString. null = not recorded (true for the whole 2026-08 corpus)." },
+        "macos_version": { "type": ["string", "null"] },
+        "capture_modes": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": { "enum": ["background", "activated", "forced", "forced_warm", "scoped_drill"] }
+        },
+        "surface": {
+          "enum": ["main", "sign_in", "splash", "start_page", "open_panel", "idle", "unknown"],
+          "description": "What screen the captures show. Laws about this app only describe that surface."
+        },
+        "sources": { "type": "array", "items": { "type": "string" }, "description": "Relative paths, e.g. 'discord/forced.json'." },
+        "excluded_sources": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["path", "reason"],
+            "properties": { "path": { "type": "string" }, "reason": { "type": "string", "maxLength": 160 } }
+          }
+        },
+        "verified": { "type": "boolean", "description": "True only after an adversarial verify pass." },
+        "codex_confidence": { "$ref": "#/$defs/confidence" }
+      }
+    }
+  },
+
+  "$defs": {
+    "confidence": { "enum": ["high", "medium", "low"] },
+
+    "framework": {
+      "enum": [
+        "appkit", "swiftui", "catalyst", "iwork", "webkit_native", "wkwebview_webapp",
+        "electron", "chromium_browser", "gecko", "qt", "cef", "custom_cpp", "unknown"
+      ]
+    },
+
+    "native_id_kind": { "enum": ["ax_identifier", "ax_dom_identifier"] },
+
+    "action": {
+      "enum": ["Click", "RightClick", "ScrollTo", "Scroll", "SetValue", "SetFocus", "TypeText", "Toggle", "Select", "Expand", "Collapse"]
+    },
+
+    "role": {
+      "enum": [
+        "alert", "alertdialog", "article", "banner", "browser", "button", "cell", "checkbox",
+        "combobox", "complementary", "dialog", "disclosure", "grid", "group", "handle", "heading",
+        "image", "incrementor", "layoutitem", "link", "list", "log", "main", "menubutton",
+        "navigation", "note", "outline", "progressbar", "radiobutton", "radiogroup", "row",
+        "scrollarea", "scrollbar", "search", "sheet", "slider", "splitter", "statictext", "status",
+        "switch", "table", "tablist", "tabpanel", "textfield", "toolbar", "treeitem", "unknown",
+        "webarea", "window"
+      ],
+      "description": "The closed 49-role vocabulary agent-desktop 0.8.1 emitted across the corpus."
+    },
+
+    "law_refs": {
+      "type": "array", "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^LAW-(WIN|ACT|ID|TXT|STR|LIFE)-\\d+$" }
+    },
+
+    "capture_stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nodes", "max_depth", "max_depth_requested", "frontier_nodes", "complete", "has_webarea"],
+      "properties": {
+        "nodes": { "type": "integer", "minimum": 0 },
+        "max_depth": { "type": "integer", "minimum": 0 },
+        "max_depth_requested": { "type": "integer", "minimum": 1 },
+        "frontier_nodes": { "type": "integer", "minimum": 0, "description": "Nodes where children_count > len(children)." },
+        "complete": { "type": "boolean" },
+        "nodes_observed": { "type": ["integer", "null"], "minimum": 0 },
+        "named_nodes": { "type": "integer", "minimum": 0 },
+        "ref_count": { "type": "integer", "minimum": 0 },
+        "has_webarea": { "type": "boolean" },
+        "offscreen_nodes": { "type": "integer", "minimum": 0 },
+        "skeleton_nodes": { "type": ["integer", "null"], "minimum": 0 },
+        "error_code": { "type": ["string", "null"], "description": "agent-desktop error.code if the capture failed, e.g. 'INTERNAL' (RefMap)." }
+      }
+    },
+
+    "quirk_kind": {
+      "enum": [
+        "depth_capped_husk",
+        "opaque_root",
+        "enumeration_partial",
+        "silent_enumeration_loss",
+        "drill_timeout",
+        "refmap_overflow",
+        "launch_transient_window",
+        "window_id_drift",
+        "thumbnail_proxy_window",
+        "ghost_only_window_list",
+        "hidden_window_offscreen",
+        "ambiguous_process",
+        "textfield_is_label",
+        "identity_in_value",
+        "bidi_salted_text",
+        "volatile_dom_ids",
+        "user_data_in_id",
+        "click_everywhere",
+        "disabled_keeps_click",
+        "mass_focused",
+        "offscreen_needs_container_scroll",
+        "menubutton_no_expand",
+        "unknown_role_actionable",
+        "readonly_control_as_button",
+        "non_unique_role_name",
+        "zero_area_clones",
+        "unnamed_list_items",
+        "write_only_surface",
+        "packed_record_value",
+        "document_as_single_value",
+        "toggle_value_is_label",
+        "embedded_file_browser"
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "app": "Calendar",
+  "was_running": false,
+  "captures": {
+    "windows": 4,
+    "skeleton": {
+      "ok": true,
+      "bytes": 3833,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 35522,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 160,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 26053,
+  "bundle_id": "com.apple.iCal",
+  "framework_signals": {
+    "exe": "/System/Applications/Calendar.app/Contents/MacOS/Calendar",
+    "bundle": "/System/Applications/Calendar.app",
+    "frameworks": [],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "Calendar",
+    "bounds": {
+      "height": 598.0,
+      "width": 935.0,
+      "x": 1564.0,
+      "y": 422.0
+    },
+    "id": "w-28188",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26053,
+    "process_instance": "macos-proc-v1:1788103734:557323",
+    "title": "Calendar",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 170,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 170,
+    "truncated_after": 0,
+    "bytes": 71275
+  }
+}

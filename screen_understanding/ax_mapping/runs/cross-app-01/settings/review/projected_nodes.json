@@ -1,0 +1,6613 @@
+{
+  "metadata": {
+    "capture_bounds": {
+      "height": 803.0,
+      "width": 723.0,
+      "x": 492.0,
+      "y": 93.0
+    },
+    "image_size": [
+      1446,
+      1606
+    ],
+    "ax_origin": "top_left",
+    "screenshot_time": 1792426183.0537875,
+    "ax_time": 1792426182.7683434,
+    "max_skew_ms": 250,
+    "screenshot_window_id": "w-47210",
+    "ax_window_id": "w-47210",
+    "ax_snapshot_id": "szls3hralbl4",
+    "validation": {
+      "window_geometry_unchanged": true,
+      "process_instance_unchanged": true,
+      "ax_signature_unchanged": false,
+      "ax_root_matches_capture_bounds": true,
+      "screenshot_sha256": "bd8fd453237e3e7b3c9d72b5bd83dbfc12492039b899b0496c47354e3e3cc4eb",
+      "ax_before_ms": 386.4729404449463,
+      "screenshot_ms": 183.02297592163086,
+      "ax_after_ms": 373.0330467224121,
+      "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim."
+    }
+  },
+  "observation": {
+    "snapshot_id": "szls3hralbl4",
+    "app": "System Settings",
+    "reported_complete": true,
+    "frontier_count": 0,
+    "frontiers": [],
+    "filtered": {
+      "invalid_bounds": 16,
+      "outside_capture": 0,
+      "hidden": 50
+    },
+    "total_nodes": 199,
+    "projected_nodes": 131
+  },
+  "all_projected_nodes": [
+    {
+      "id": "0",
+      "ref": null,
+      "parent": null,
+      "role": "window",
+      "name": "Appearance",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0",
+      "ref": null,
+      "parent": "0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0",
+      "ref": null,
+      "parent": "0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        16.0,
+        16.0,
+        446.0,
+        1590.0
+      ],
+      "full_bbox": [
+        16.0,
+        16.0,
+        446.0,
+        1590.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0",
+      "ref": "@szls3hralbl4:e1",
+      "parent": "0.0.0.0",
+      "role": "scrollarea",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Scroll",
+        "SetFocus"
+      ],
+      "bbox": [
+        16.0,
+        196.0,
+        446.0,
+        1590.0
+      ],
+      "full_bbox": [
+        16.0,
+        196.0,
+        446.0,
+        1590.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.0",
+      "ref": "@szls3hralbl4:e2",
+      "parent": "0.0.0.0.0",
+      "role": "outline",
+      "name": "Sidebar",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [
+        "RightClick",
+        "Select",
+        "SetFocus"
+      ],
+      "bbox": [
+        16.0,
+        196.0,
+        446.0,
+        1590.0
+      ],
+      "full_bbox": [
+        16.0,
+        196.0,
+        446.0,
+        1590.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.0.1",
+      "ref": "@szls3hralbl4:e5",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Harshit Jaiswal, Apple Account",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        196.0,
+        446.0,
+        288.0
+      ],
+      "full_bbox": [
+        16.0,
+        196.0,
+        446.0,
+        288.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A013"
+    },
+    {
+      "id": "0.0.0.0.0.0.1.0",
+      "ref": "@szls3hralbl4:e6",
+      "parent": "0.0.0.0.0.0.1",
+      "role": "cell",
+      "name": "Harshit Jaiswal, Apple Account",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        196.0,
+        426.0,
+        288.0
+      ],
+      "full_bbox": [
+        36.0,
+        196.0,
+        426.0,
+        288.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A014"
+    },
+    {
+      "id": "0.0.0.0.0.0.1.0.0",
+      "ref": "@szls3hralbl4:e7",
+      "parent": "0.0.0.0.0.0.1.0",
+      "role": "statictext",
+      "name": "Harshit Jaiswal, Apple\u00a0Account",
+      "value": "Harshit Jaiswal, Apple\u00a0Account",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        48.0,
+        204.0,
+        332.0,
+        280.0
+      ],
+      "full_bbox": [
+        48.0,
+        204.0,
+        332.0,
+        280.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A016"
+    },
+    {
+      "id": "0.0.0.0.0.0.3",
+      "ref": "@szls3hralbl4:e10",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Wi\u2011Fi",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        314.0,
+        446.0,
+        378.0
+      ],
+      "full_bbox": [
+        16.0,
+        314.0,
+        446.0,
+        378.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A020"
+    },
+    {
+      "id": "0.0.0.0.0.0.3.0",
+      "ref": "@szls3hralbl4:e11",
+      "parent": "0.0.0.0.0.0.3",
+      "role": "cell",
+      "name": "Wi\u2011Fi",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        314.0,
+        426.0,
+        378.0
+      ],
+      "full_bbox": [
+        36.0,
+        314.0,
+        426.0,
+        378.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A021"
+    },
+    {
+      "id": "0.0.0.0.0.0.3.0.0",
+      "ref": "@szls3hralbl4:e12",
+      "parent": "0.0.0.0.0.0.3.0",
+      "role": "statictext",
+      "name": "Wi\u2011Fi",
+      "value": "Wi\u2011Fi",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        322.0,
+        163.0,
+        370.0
+      ],
+      "full_bbox": [
+        44.0,
+        322.0,
+        163.0,
+        370.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A022"
+    },
+    {
+      "id": "0.0.0.0.0.0.4",
+      "ref": "@szls3hralbl4:e13",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Bluetooth",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        378.0,
+        446.0,
+        442.0
+      ],
+      "full_bbox": [
+        16.0,
+        378.0,
+        446.0,
+        442.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A024"
+    },
+    {
+      "id": "0.0.0.0.0.0.4.0",
+      "ref": "@szls3hralbl4:e14",
+      "parent": "0.0.0.0.0.0.4",
+      "role": "cell",
+      "name": "Bluetooth",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        378.0,
+        426.0,
+        442.0
+      ],
+      "full_bbox": [
+        36.0,
+        378.0,
+        426.0,
+        442.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A025"
+    },
+    {
+      "id": "0.0.0.0.0.0.4.0.0",
+      "ref": "@szls3hralbl4:e15",
+      "parent": "0.0.0.0.0.0.4.0",
+      "role": "statictext",
+      "name": "Bluetooth",
+      "value": "Bluetooth",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        386.0,
+        216.0,
+        434.0
+      ],
+      "full_bbox": [
+        44.0,
+        386.0,
+        216.0,
+        434.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A026"
+    },
+    {
+      "id": "0.0.0.0.0.0.5",
+      "ref": "@szls3hralbl4:e16",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Network",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        442.0,
+        446.0,
+        506.0
+      ],
+      "full_bbox": [
+        16.0,
+        442.0,
+        446.0,
+        506.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A027"
+    },
+    {
+      "id": "0.0.0.0.0.0.5.0",
+      "ref": "@szls3hralbl4:e17",
+      "parent": "0.0.0.0.0.0.5",
+      "role": "cell",
+      "name": "Network",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        442.0,
+        426.0,
+        506.0
+      ],
+      "full_bbox": [
+        36.0,
+        442.0,
+        426.0,
+        506.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A028"
+    },
+    {
+      "id": "0.0.0.0.0.0.5.0.0",
+      "ref": "@szls3hralbl4:e18",
+      "parent": "0.0.0.0.0.0.5.0",
+      "role": "statictext",
+      "name": "Network",
+      "value": "Network",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        450.0,
+        200.0,
+        498.0
+      ],
+      "full_bbox": [
+        44.0,
+        450.0,
+        200.0,
+        498.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A029"
+    },
+    {
+      "id": "0.0.0.0.0.0.6",
+      "ref": "@szls3hralbl4:e19",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "VPN",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        506.0,
+        446.0,
+        570.0
+      ],
+      "full_bbox": [
+        16.0,
+        506.0,
+        446.0,
+        570.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A030"
+    },
+    {
+      "id": "0.0.0.0.0.0.6.0",
+      "ref": "@szls3hralbl4:e20",
+      "parent": "0.0.0.0.0.0.6",
+      "role": "cell",
+      "name": "VPN",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        506.0,
+        426.0,
+        570.0
+      ],
+      "full_bbox": [
+        36.0,
+        506.0,
+        426.0,
+        570.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A031"
+    },
+    {
+      "id": "0.0.0.0.0.0.6.0.0",
+      "ref": "@szls3hralbl4:e21",
+      "parent": "0.0.0.0.0.0.6.0",
+      "role": "statictext",
+      "name": "VPN",
+      "value": "VPN",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        514.0,
+        151.0,
+        562.0
+      ],
+      "full_bbox": [
+        44.0,
+        514.0,
+        151.0,
+        562.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A033"
+    },
+    {
+      "id": "0.0.0.0.0.0.7",
+      "ref": "@szls3hralbl4:e22",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Battery",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        570.0,
+        446.0,
+        634.0
+      ],
+      "full_bbox": [
+        16.0,
+        570.0,
+        446.0,
+        634.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A034"
+    },
+    {
+      "id": "0.0.0.0.0.0.7.0",
+      "ref": "@szls3hralbl4:e23",
+      "parent": "0.0.0.0.0.0.7",
+      "role": "cell",
+      "name": "Battery",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        570.0,
+        426.0,
+        634.0
+      ],
+      "full_bbox": [
+        36.0,
+        570.0,
+        426.0,
+        634.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A035"
+    },
+    {
+      "id": "0.0.0.0.0.0.7.0.0",
+      "ref": "@szls3hralbl4:e24",
+      "parent": "0.0.0.0.0.0.7.0",
+      "role": "statictext",
+      "name": "Battery",
+      "value": "Battery",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        578.0,
+        187.0,
+        626.0
+      ],
+      "full_bbox": [
+        44.0,
+        578.0,
+        187.0,
+        626.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A045"
+    },
+    {
+      "id": "0.0.0.0.0.0.9",
+      "ref": "@szls3hralbl4:e27",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "General",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        660.0,
+        446.0,
+        724.0
+      ],
+      "full_bbox": [
+        16.0,
+        660.0,
+        446.0,
+        724.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A048"
+    },
+    {
+      "id": "0.0.0.0.0.0.9.0",
+      "ref": "@szls3hralbl4:e28",
+      "parent": "0.0.0.0.0.0.9",
+      "role": "cell",
+      "name": "General",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        660.0,
+        426.0,
+        724.0
+      ],
+      "full_bbox": [
+        36.0,
+        660.0,
+        426.0,
+        724.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A049"
+    },
+    {
+      "id": "0.0.0.0.0.0.9.0.0",
+      "ref": "@szls3hralbl4:e29",
+      "parent": "0.0.0.0.0.0.9.0",
+      "role": "statictext",
+      "name": "General",
+      "value": "General",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        668.0,
+        193.0,
+        716.0
+      ],
+      "full_bbox": [
+        44.0,
+        668.0,
+        193.0,
+        716.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A050"
+    },
+    {
+      "id": "0.0.0.0.0.0.10",
+      "ref": "@szls3hralbl4:e30",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Accessibility",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        724.0,
+        446.0,
+        788.0
+      ],
+      "full_bbox": [
+        16.0,
+        724.0,
+        446.0,
+        788.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A053"
+    },
+    {
+      "id": "0.0.0.0.0.0.10.0",
+      "ref": "@szls3hralbl4:e31",
+      "parent": "0.0.0.0.0.0.10",
+      "role": "cell",
+      "name": "Accessibility",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        724.0,
+        426.0,
+        788.0
+      ],
+      "full_bbox": [
+        36.0,
+        724.0,
+        426.0,
+        788.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A054"
+    },
+    {
+      "id": "0.0.0.0.0.0.10.0.0",
+      "ref": "@szls3hralbl4:e32",
+      "parent": "0.0.0.0.0.0.10.0",
+      "role": "statictext",
+      "name": "Accessibility",
+      "value": "Accessibility",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        732.0,
+        250.0,
+        780.0
+      ],
+      "full_bbox": [
+        44.0,
+        732.0,
+        250.0,
+        780.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A055"
+    },
+    {
+      "id": "0.0.0.0.0.0.11",
+      "ref": "@szls3hralbl4:e33",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Appearance",
+      "value": null,
+      "description": null,
+      "states": [
+        "selected"
+      ],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        788.0,
+        446.0,
+        852.0
+      ],
+      "full_bbox": [
+        16.0,
+        788.0,
+        446.0,
+        852.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A056"
+    },
+    {
+      "id": "0.0.0.0.0.0.11.0",
+      "ref": "@szls3hralbl4:e34",
+      "parent": "0.0.0.0.0.0.11",
+      "role": "cell",
+      "name": "Appearance",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused",
+        "selected"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        788.0,
+        426.0,
+        852.0
+      ],
+      "full_bbox": [
+        36.0,
+        788.0,
+        426.0,
+        852.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A057"
+    },
+    {
+      "id": "0.0.0.0.0.0.11.0.0",
+      "ref": "@szls3hralbl4:e35",
+      "parent": "0.0.0.0.0.0.11.0",
+      "role": "statictext",
+      "name": "Appearance",
+      "value": "Appearance",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        796.0,
+        244.0,
+        844.0
+      ],
+      "full_bbox": [
+        44.0,
+        796.0,
+        244.0,
+        844.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A058"
+    },
+    {
+      "id": "0.0.0.0.0.0.12",
+      "ref": "@szls3hralbl4:e36",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Apple Intelligence & Siri",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        852.0,
+        446.0,
+        916.0
+      ],
+      "full_bbox": [
+        16.0,
+        852.0,
+        446.0,
+        916.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A064"
+    },
+    {
+      "id": "0.0.0.0.0.0.12.0",
+      "ref": "@szls3hralbl4:e37",
+      "parent": "0.0.0.0.0.0.12",
+      "role": "cell",
+      "name": "Apple Intelligence & Siri",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        852.0,
+        426.0,
+        916.0
+      ],
+      "full_bbox": [
+        36.0,
+        852.0,
+        426.0,
+        916.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A065"
+    },
+    {
+      "id": "0.0.0.0.0.0.12.0.0",
+      "ref": "@szls3hralbl4:e38",
+      "parent": "0.0.0.0.0.0.12.0",
+      "role": "statictext",
+      "name": "Apple Intelligence & Siri",
+      "value": "Apple Intelligence & Siri",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        860.0,
+        386.0,
+        908.0
+      ],
+      "full_bbox": [
+        44.0,
+        860.0,
+        386.0,
+        908.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A066"
+    },
+    {
+      "id": "0.0.0.0.0.0.13",
+      "ref": "@szls3hralbl4:e39",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Desktop & Dock",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        916.0,
+        446.0,
+        980.0
+      ],
+      "full_bbox": [
+        16.0,
+        916.0,
+        446.0,
+        980.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A067"
+    },
+    {
+      "id": "0.0.0.0.0.0.13.0",
+      "ref": "@szls3hralbl4:e40",
+      "parent": "0.0.0.0.0.0.13",
+      "role": "cell",
+      "name": "Desktop & Dock",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        916.0,
+        426.0,
+        980.0
+      ],
+      "full_bbox": [
+        36.0,
+        916.0,
+        426.0,
+        980.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A068"
+    },
+    {
+      "id": "0.0.0.0.0.0.13.0.0",
+      "ref": "@szls3hralbl4:e41",
+      "parent": "0.0.0.0.0.0.13.0",
+      "role": "statictext",
+      "name": "Desktop & Dock",
+      "value": "Desktop & Dock",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        924.0,
+        294.0,
+        972.0
+      ],
+      "full_bbox": [
+        44.0,
+        924.0,
+        294.0,
+        972.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A069"
+    },
+    {
+      "id": "0.0.0.0.0.0.14",
+      "ref": "@szls3hralbl4:e42",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Displays",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        980.0,
+        446.0,
+        1044.0
+      ],
+      "full_bbox": [
+        16.0,
+        980.0,
+        446.0,
+        1044.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A072"
+    },
+    {
+      "id": "0.0.0.0.0.0.14.0",
+      "ref": "@szls3hralbl4:e43",
+      "parent": "0.0.0.0.0.0.14",
+      "role": "cell",
+      "name": "Displays",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        980.0,
+        426.0,
+        1044.0
+      ],
+      "full_bbox": [
+        36.0,
+        980.0,
+        426.0,
+        1044.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A073"
+    },
+    {
+      "id": "0.0.0.0.0.0.14.0.0",
+      "ref": "@szls3hralbl4:e44",
+      "parent": "0.0.0.0.0.0.14.0",
+      "role": "statictext",
+      "name": "Displays",
+      "value": "Displays",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        988.0,
+        200.0,
+        1036.0
+      ],
+      "full_bbox": [
+        44.0,
+        988.0,
+        200.0,
+        1036.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A074"
+    },
+    {
+      "id": "0.0.0.0.0.0.15",
+      "ref": "@szls3hralbl4:e45",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Menu Bar",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1044.0,
+        446.0,
+        1108.0
+      ],
+      "full_bbox": [
+        16.0,
+        1044.0,
+        446.0,
+        1108.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A075"
+    },
+    {
+      "id": "0.0.0.0.0.0.15.0",
+      "ref": "@szls3hralbl4:e46",
+      "parent": "0.0.0.0.0.0.15",
+      "role": "cell",
+      "name": "Menu Bar",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1044.0,
+        426.0,
+        1108.0
+      ],
+      "full_bbox": [
+        36.0,
+        1044.0,
+        426.0,
+        1108.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A076"
+    },
+    {
+      "id": "0.0.0.0.0.0.15.0.0",
+      "ref": "@szls3hralbl4:e47",
+      "parent": "0.0.0.0.0.0.15.0",
+      "role": "statictext",
+      "name": "Menu Bar",
+      "value": "Menu Bar",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1052.0,
+        214.0,
+        1100.0
+      ],
+      "full_bbox": [
+        44.0,
+        1052.0,
+        214.0,
+        1100.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A077"
+    },
+    {
+      "id": "0.0.0.0.0.0.16",
+      "ref": "@szls3hralbl4:e48",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Spotlight",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1108.0,
+        446.0,
+        1172.0
+      ],
+      "full_bbox": [
+        16.0,
+        1108.0,
+        446.0,
+        1172.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A079"
+    },
+    {
+      "id": "0.0.0.0.0.0.16.0",
+      "ref": "@szls3hralbl4:e49",
+      "parent": "0.0.0.0.0.0.16",
+      "role": "cell",
+      "name": "Spotlight",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1108.0,
+        426.0,
+        1172.0
+      ],
+      "full_bbox": [
+        36.0,
+        1108.0,
+        426.0,
+        1172.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A080"
+    },
+    {
+      "id": "0.0.0.0.0.0.16.0.0",
+      "ref": "@szls3hralbl4:e50",
+      "parent": "0.0.0.0.0.0.16.0",
+      "role": "statictext",
+      "name": "Spotlight",
+      "value": "Spotlight",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1116.0,
+        208.0,
+        1164.0
+      ],
+      "full_bbox": [
+        44.0,
+        1116.0,
+        208.0,
+        1164.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A081"
+    },
+    {
+      "id": "0.0.0.0.0.0.17",
+      "ref": "@szls3hralbl4:e51",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Wallpaper",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1172.0,
+        446.0,
+        1236.0
+      ],
+      "full_bbox": [
+        16.0,
+        1172.0,
+        446.0,
+        1236.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A083"
+    },
+    {
+      "id": "0.0.0.0.0.0.17.0",
+      "ref": "@szls3hralbl4:e52",
+      "parent": "0.0.0.0.0.0.17",
+      "role": "cell",
+      "name": "Wallpaper",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1172.0,
+        426.0,
+        1236.0
+      ],
+      "full_bbox": [
+        36.0,
+        1172.0,
+        426.0,
+        1236.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A084"
+    },
+    {
+      "id": "0.0.0.0.0.0.17.0.0",
+      "ref": "@szls3hralbl4:e53",
+      "parent": "0.0.0.0.0.0.17.0",
+      "role": "statictext",
+      "name": "Wallpaper",
+      "value": "Wallpaper",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1180.0,
+        219.0,
+        1228.0
+      ],
+      "full_bbox": [
+        44.0,
+        1180.0,
+        219.0,
+        1228.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A086"
+    },
+    {
+      "id": "0.0.0.0.0.0.19",
+      "ref": "@szls3hralbl4:e56",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Notifications",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1262.0,
+        446.0,
+        1326.0
+      ],
+      "full_bbox": [
+        16.0,
+        1262.0,
+        446.0,
+        1326.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A089"
+    },
+    {
+      "id": "0.0.0.0.0.0.19.0",
+      "ref": "@szls3hralbl4:e57",
+      "parent": "0.0.0.0.0.0.19",
+      "role": "cell",
+      "name": "Notifications",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1262.0,
+        426.0,
+        1326.0
+      ],
+      "full_bbox": [
+        36.0,
+        1262.0,
+        426.0,
+        1326.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A090"
+    },
+    {
+      "id": "0.0.0.0.0.0.19.0.0",
+      "ref": "@szls3hralbl4:e58",
+      "parent": "0.0.0.0.0.0.19.0",
+      "role": "statictext",
+      "name": "Notifications",
+      "value": "Notifications",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1270.0,
+        252.0,
+        1318.0
+      ],
+      "full_bbox": [
+        44.0,
+        1270.0,
+        252.0,
+        1318.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A091"
+    },
+    {
+      "id": "0.0.0.0.0.0.20",
+      "ref": "@szls3hralbl4:e59",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Sound",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1326.0,
+        446.0,
+        1390.0
+      ],
+      "full_bbox": [
+        16.0,
+        1326.0,
+        446.0,
+        1390.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A092"
+    },
+    {
+      "id": "0.0.0.0.0.0.20.0",
+      "ref": "@szls3hralbl4:e60",
+      "parent": "0.0.0.0.0.0.20",
+      "role": "cell",
+      "name": "Sound",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1326.0,
+        426.0,
+        1390.0
+      ],
+      "full_bbox": [
+        36.0,
+        1326.0,
+        426.0,
+        1390.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A093"
+    },
+    {
+      "id": "0.0.0.0.0.0.20.0.0",
+      "ref": "@szls3hralbl4:e61",
+      "parent": "0.0.0.0.0.0.20.0",
+      "role": "statictext",
+      "name": "Sound",
+      "value": "Sound",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1334.0,
+        176.0,
+        1382.0
+      ],
+      "full_bbox": [
+        44.0,
+        1334.0,
+        176.0,
+        1382.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A094"
+    },
+    {
+      "id": "0.0.0.0.0.0.21",
+      "ref": "@szls3hralbl4:e62",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Focus",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1390.0,
+        446.0,
+        1454.0
+      ],
+      "full_bbox": [
+        16.0,
+        1390.0,
+        446.0,
+        1454.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A097"
+    },
+    {
+      "id": "0.0.0.0.0.0.21.0",
+      "ref": "@szls3hralbl4:e63",
+      "parent": "0.0.0.0.0.0.21",
+      "role": "cell",
+      "name": "Focus",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1390.0,
+        426.0,
+        1454.0
+      ],
+      "full_bbox": [
+        36.0,
+        1390.0,
+        426.0,
+        1454.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A098"
+    },
+    {
+      "id": "0.0.0.0.0.0.21.0.0",
+      "ref": "@szls3hralbl4:e64",
+      "parent": "0.0.0.0.0.0.21.0",
+      "role": "statictext",
+      "name": "Focus",
+      "value": "Focus",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1398.0,
+        171.0,
+        1446.0
+      ],
+      "full_bbox": [
+        44.0,
+        1398.0,
+        171.0,
+        1446.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A100"
+    },
+    {
+      "id": "0.0.0.0.0.0.22",
+      "ref": "@szls3hralbl4:e65",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Screen Time",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1454.0,
+        446.0,
+        1518.0
+      ],
+      "full_bbox": [
+        16.0,
+        1454.0,
+        446.0,
+        1518.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A102"
+    },
+    {
+      "id": "0.0.0.0.0.0.22.0",
+      "ref": "@szls3hralbl4:e66",
+      "parent": "0.0.0.0.0.0.22",
+      "role": "cell",
+      "name": "Screen Time",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1454.0,
+        426.0,
+        1518.0
+      ],
+      "full_bbox": [
+        36.0,
+        1454.0,
+        426.0,
+        1518.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A103"
+    },
+    {
+      "id": "0.0.0.0.0.0.22.0.0",
+      "ref": "@szls3hralbl4:e67",
+      "parent": "0.0.0.0.0.0.22.0",
+      "role": "statictext",
+      "name": "Screen Time",
+      "value": "Screen Time",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1462.0,
+        250.0,
+        1510.0
+      ],
+      "full_bbox": [
+        44.0,
+        1462.0,
+        250.0,
+        1510.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A104"
+    },
+    {
+      "id": "0.0.0.0.0.0.24",
+      "ref": "@szls3hralbl4:e70",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Lock Screen",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1544.0,
+        446.0,
+        1606.0
+      ],
+      "full_bbox": [
+        16.0,
+        1544.0,
+        446.0,
+        1608.0
+      ],
+      "visible_fraction": 0.96875,
+      "overlay_id": "A106"
+    },
+    {
+      "id": "0.0.0.0.0.0.24.0",
+      "ref": "@szls3hralbl4:e71",
+      "parent": "0.0.0.0.0.0.24",
+      "role": "cell",
+      "name": "Lock Screen",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1544.0,
+        426.0,
+        1606.0
+      ],
+      "full_bbox": [
+        36.0,
+        1544.0,
+        426.0,
+        1608.0
+      ],
+      "visible_fraction": 0.96875,
+      "overlay_id": "A107"
+    },
+    {
+      "id": "0.0.0.0.0.0.24.0.0",
+      "ref": "@szls3hralbl4:e72",
+      "parent": "0.0.0.0.0.0.24.0",
+      "role": "statictext",
+      "name": "Lock Screen",
+      "value": "Lock Screen",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1552.0,
+        248.0,
+        1600.0
+      ],
+      "full_bbox": [
+        44.0,
+        1552.0,
+        248.0,
+        1600.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A108"
+    },
+    {
+      "id": "0.0.0.0.0.0.37",
+      "ref": null,
+      "parent": "0.0.0.0.0.0",
+      "role": "column",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        36.0,
+        196.0,
+        426.0,
+        1606.0
+      ],
+      "full_bbox": [
+        36.0,
+        196.0,
+        426.0,
+        2396.0
+      ],
+      "visible_fraction": 0.6409090909090909,
+      "overlay_id": "A015"
+    },
+    {
+      "id": "0.0.0.1",
+      "ref": null,
+      "parent": "0.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        36.0,
+        122.0,
+        426.0,
+        178.0
+      ],
+      "full_bbox": [
+        36.0,
+        122.0,
+        426.0,
+        178.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.1.0",
+      "ref": "@szls3hralbl4:e113",
+      "parent": "0.0.0.1",
+      "role": "textfield",
+      "name": "Search",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetValue",
+        "SetFocus"
+      ],
+      "bbox": [
+        36.0,
+        122.0,
+        426.0,
+        178.0
+      ],
+      "full_bbox": [
+        36.0,
+        122.0,
+        426.0,
+        178.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A007"
+    },
+    {
+      "id": "0.0.0.1.0.0",
+      "ref": "@szls3hralbl4:e114",
+      "parent": "0.0.0.1.0",
+      "role": "button",
+      "name": "Search",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        52.0,
+        142.0,
+        83.0,
+        160.0
+      ],
+      "full_bbox": [
+        52.0,
+        142.0,
+        83.0,
+        160.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A012"
+    },
+    {
+      "id": "0.0.0.3",
+      "ref": null,
+      "parent": "0.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.3.0",
+      "ref": null,
+      "parent": "0.0.0.3",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        1606.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.3.0.0",
+      "ref": "@szls3hralbl4:e115",
+      "parent": "0.0.0.3.0",
+      "role": "scrollarea",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Scroll"
+      ],
+      "bbox": [
+        446.0,
+        104.0,
+        1446.0,
+        1606.0
+      ],
+      "full_bbox": [
+        446.0,
+        104.0,
+        1446.0,
+        1606.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.3.0.0.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        486.0,
+        104.0,
+        1406.0,
+        450.0
+      ],
+      "full_bbox": [
+        486.0,
+        104.0,
+        1406.0,
+        450.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.3.0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.0",
+      "role": "statictext",
+      "name": "Appearance",
+      "value": "Appearance",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        123.828857421875,
+        652.0,
+        155.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        123.828857421875,
+        652.0,
+        155.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A008"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.1",
+      "ref": "@szls3hralbl4:e116",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Auto",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        910.0,
+        124.0,
+        1058.0,
+        255.828857421875
+      ],
+      "full_bbox": [
+        910.0,
+        124.0,
+        1058.0,
+        255.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A009"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.2",
+      "ref": "@szls3hralbl4:e117",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Light",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1074.0,
+        124.0,
+        1222.0,
+        255.828857421875
+      ],
+      "full_bbox": [
+        1074.0,
+        124.0,
+        1222.0,
+        255.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A010"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.3",
+      "ref": "@szls3hralbl4:e118",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Dark",
+      "value": null,
+      "description": null,
+      "states": [
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1238.0,
+        124.0,
+        1386.0,
+        255.828857421875
+      ],
+      "full_bbox": [
+        1238.0,
+        124.0,
+        1386.0,
+        255.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A011"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.4",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.0",
+      "role": "statictext",
+      "name": "Liquid Glass",
+      "value": "Liquid Glass",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        297.828857421875,
+        654.0,
+        329.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        297.828857421875,
+        654.0,
+        329.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A017"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.5",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.0",
+      "role": "statictext",
+      "name": "Choose your preferred look for Liquid Glass.",
+      "value": "Choose your preferred look for Liquid Glass.",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        332.828857421875,
+        970.0,
+        360.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        332.828857421875,
+        970.0,
+        360.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A023"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.6",
+      "ref": "@szls3hralbl4:e119",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Clear",
+      "value": null,
+      "description": null,
+      "states": [
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1074.0,
+        298.0,
+        1222.0,
+        429.828857421875
+      ],
+      "full_bbox": [
+        1074.0,
+        298.0,
+        1222.0,
+        429.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A018"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.7",
+      "ref": "@szls3hralbl4:e120",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Tinted",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1238.0,
+        298.0,
+        1386.0,
+        429.828857421875
+      ],
+      "full_bbox": [
+        1238.0,
+        298.0,
+        1386.0,
+        429.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A019"
+    },
+    {
+      "id": "0.0.0.3.0.0.1",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "heading",
+      "name": "Theme",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        509.828857421875,
+        593.0,
+        541.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        509.828857421875,
+        593.0,
+        541.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A032"
+    },
+    {
+      "id": "0.0.0.3.0.0.2",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        486.0,
+        562.0,
+        1406.0,
+        762.0
+      ],
+      "full_bbox": [
+        486.0,
+        562.0,
+        1406.0,
+        762.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.3.0.0.2.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.2",
+      "role": "statictext",
+      "name": "Colour",
+      "value": "Colour",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        581.828857421875,
+        587.0,
+        613.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        581.828857421875,
+        587.0,
+        613.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A046"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.1",
+      "ref": "@szls3hralbl4:e121",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Multicolour",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        754.0,
+        574.0,
+        818.0,
+        638.0
+      ],
+      "full_bbox": [
+        754.0,
+        574.0,
+        818.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A036"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.2",
+      "ref": "@szls3hralbl4:e122",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Blue",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        826.0,
+        574.0,
+        890.0,
+        638.0
+      ],
+      "full_bbox": [
+        826.0,
+        574.0,
+        890.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A037"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.3",
+      "ref": "@szls3hralbl4:e123",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Purple",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        898.0,
+        574.0,
+        962.0,
+        638.0
+      ],
+      "full_bbox": [
+        898.0,
+        574.0,
+        962.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A038"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.4",
+      "ref": "@szls3hralbl4:e124",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Pink",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        970.0,
+        574.0,
+        1034.0,
+        638.0
+      ],
+      "full_bbox": [
+        970.0,
+        574.0,
+        1034.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A039"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.5",
+      "ref": "@szls3hralbl4:e125",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Red",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1042.0,
+        574.0,
+        1106.0,
+        638.0
+      ],
+      "full_bbox": [
+        1042.0,
+        574.0,
+        1106.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A040"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.6",
+      "ref": "@szls3hralbl4:e126",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Orange",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1114.0,
+        574.0,
+        1178.0,
+        638.0
+      ],
+      "full_bbox": [
+        1114.0,
+        574.0,
+        1178.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A041"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.7",
+      "ref": "@szls3hralbl4:e127",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Yellow",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1186.0,
+        574.0,
+        1250.0,
+        638.0
+      ],
+      "full_bbox": [
+        1186.0,
+        574.0,
+        1250.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A042"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.8",
+      "ref": "@szls3hralbl4:e128",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Green",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1258.0,
+        574.0,
+        1322.0,
+        638.0
+      ],
+      "full_bbox": [
+        1258.0,
+        574.0,
+        1322.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A043"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.9",
+      "ref": "@szls3hralbl4:e129",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Graphite",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1330.0,
+        574.0,
+        1394.0,
+        638.0
+      ],
+      "full_bbox": [
+        1330.0,
+        574.0,
+        1394.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A044"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.10",
+      "ref": "@szls3hralbl4:e130",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "statictext",
+      "name": "Colour",
+      "value": "Multicolour",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        727.0,
+        637.0,
+        845.0,
+        665.0
+      ],
+      "full_bbox": [
+        727.0,
+        637.0,
+        845.0,
+        665.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A047"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.11",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.2",
+      "role": "statictext",
+      "name": "Text highlight colour",
+      "value": "Text highlight colour",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        707.469482421875,
+        753.0,
+        739.469482421875
+      ],
+      "full_bbox": [
+        506.0,
+        707.469482421875,
+        753.0,
+        739.469482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A052"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.12",
+      "ref": "@szls3hralbl4:e131",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "combobox",
+      "name": "Text highlight colour",
+      "value": "Automatic",
+      "description": null,
+      "states": [
+        "readonly"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+      ],
+      "bbox": [
+        1132.0,
+        700.0,
+        1386.0,
+        748.0
+      ],
+      "full_bbox": [
+        1132.0,
+        700.0,
+        1386.0,
+        748.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A051"
+    },
+    {
+      "id": "0.0.0.3.0.0.3",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        486.0,
+        782.0,
+        1406.0,
+        1040.0
+      ],
+      "full_bbox": [
+        486.0,
+        782.0,
+        1406.0,
+        1040.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.3.0.0.3.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.3",
+      "role": "statictext",
+      "name": "Icon & widget style",
+      "value": "Icon & widget style",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        801.969482421875,
+        737.0,
+        833.969482421875
+      ],
+      "full_bbox": [
+        506.0,
+        801.969482421875,
+        737.0,
+        833.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A063"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.1",
+      "ref": "@szls3hralbl4:e132",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "button",
+      "name": "Icon & widget style",
+      "value": null,
+      "description": "Default",
+      "states": [
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1000.0,
+        800.0,
+        1080.0,
+        903.969482421875
+      ],
+      "full_bbox": [
+        1000.0,
+        800.0,
+        1080.0,
+        903.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A059"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.2",
+      "ref": "@szls3hralbl4:e133",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "button",
+      "name": "Icon & widget style",
+      "value": null,
+      "description": "Dark",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1108.0,
+        800.0,
+        1184.0,
+        903.969482421875
+      ],
+      "full_bbox": [
+        1108.0,
+        800.0,
+        1184.0,
+        903.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A060"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.3",
+      "ref": "@szls3hralbl4:e134",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "button",
+      "name": "Icon & widget style",
+      "value": null,
+      "description": "Clear",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1210.0,
+        800.0,
+        1286.0,
+        903.969482421875
+      ],
+      "full_bbox": [
+        1210.0,
+        800.0,
+        1286.0,
+        903.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A061"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.4",
+      "ref": "@szls3hralbl4:e135",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "button",
+      "name": "Icon & widget style",
+      "value": null,
+      "description": "Tinted",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1312.0,
+        800.0,
+        1388.0,
+        903.969482421875
+      ],
+      "full_bbox": [
+        1312.0,
+        800.0,
+        1388.0,
+        903.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A062"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.6",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.3",
+      "role": "statictext",
+      "name": "Folder colour",
+      "value": "Folder colour",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        979.969482421875,
+        666.0,
+        1011.969482421875
+      ],
+      "full_bbox": [
+        506.0,
+        979.969482421875,
+        666.0,
+        1011.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A071"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.7",
+      "ref": "@szls3hralbl4:e137",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "combobox",
+      "name": "Folder colour",
+      "value": "Automatic",
+      "description": "Folder colour",
+      "states": [
+        "readonly"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+      ],
+      "bbox": [
+        1132.0,
+        972.0,
+        1386.0,
+        1020.0
+      ],
+      "full_bbox": [
+        1132.0,
+        972.0,
+        1386.0,
+        1020.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A070"
+    },
+    {
+      "id": "0.0.0.3.0.0.4",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "heading",
+      "name": "Windows",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1100.469482421875,
+        621.0,
+        1132.469482421875
+      ],
+      "full_bbox": [
+        506.0,
+        1100.469482421875,
+        621.0,
+        1132.469482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A078"
+    },
+    {
+      "id": "0.0.0.3.0.0.5",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        486.0,
+        1152.0,
+        1406.0,
+        1302.0
+      ],
+      "full_bbox": [
+        486.0,
+        1152.0,
+        1406.0,
+        1302.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.3.0.0.5.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.5",
+      "role": "statictext",
+      "name": "Sidebar icon size",
+      "value": "Sidebar icon size",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1172.469482421875,
+        713.0,
+        1204.469482421875
+      ],
+      "full_bbox": [
+        506.0,
+        1172.469482421875,
+        713.0,
+        1204.469482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A085"
+    },
+    {
+      "id": "0.0.0.3.0.0.5.1",
+      "ref": "@szls3hralbl4:e138",
+      "parent": "0.0.0.3.0.0.5",
+      "role": "combobox",
+      "name": "Sidebar icon size",
+      "value": "Medium",
+      "description": null,
+      "states": [
+        "readonly"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+      ],
+      "bbox": [
+        1194.0,
+        1165.0,
+        1386.0,
+        1213.0
+      ],
+      "full_bbox": [
+        1194.0,
+        1165.0,
+        1386.0,
+        1213.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A082"
+    },
+    {
+      "id": "0.0.0.3.0.0.5.2",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.5",
+      "role": "statictext",
+      "name": "Tint window background with wallpaper colour",
+      "value": "Tint window background with wallpaper colour",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1248.969482421875,
+        1068.0,
+        1280.969482421875
+      ],
+      "full_bbox": [
+        506.0,
+        1248.969482421875,
+        1068.0,
+        1280.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A087"
+    },
+    {
+      "id": "0.0.0.3.0.0.5.3",
+      "ref": "@szls3hralbl4:e139",
+      "parent": "0.0.0.3.0.0.5",
+      "role": "switch",
+      "name": "Tint window background with wallpaper colour",
+      "value": "1",
+      "description": null,
+      "states": [
+        "checked"
+      ],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        1314.0,
+        1250.0,
+        1386.0,
+        1282.0
+      ],
+      "full_bbox": [
+        1314.0,
+        1250.0,
+        1386.0,
+        1282.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A088"
+    },
+    {
+      "id": "0.0.0.3.0.0.6",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        486.0,
+        1322.0,
+        1406.0,
+        1606.0
+      ],
+      "full_bbox": [
+        486.0,
+        1322.0,
+        1406.0,
+        1700.0
+      ],
+      "visible_fraction": 0.7513227513227513
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.6",
+      "role": "radiogroup",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1341.969482421875,
+        1065.0,
+        1512.0
+      ],
+      "full_bbox": [
+        506.0,
+        1341.969482421875,
+        1065.0,
+        1512.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A096"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.6.0",
+      "role": "statictext",
+      "name": "Show scroll bars",
+      "value": "Show scroll bars",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1341.969482421875,
+        705.0,
+        1373.969482421875
+      ],
+      "full_bbox": [
+        506.0,
+        1341.969482421875,
+        705.0,
+        1373.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A095"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0.1",
+      "ref": "@szls3hralbl4:e140",
+      "parent": "0.0.0.3.0.0.6.0",
+      "role": "radiobutton",
+      "name": "Show scroll bars",
+      "value": "1",
+      "description": "Automatically based on mouse or trackpad",
+      "states": [
+        "checked",
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        506.0,
+        1390.0,
+        1065.0,
+        1423.0
+      ],
+      "full_bbox": [
+        506.0,
+        1390.0,
+        1065.0,
+        1423.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A099"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0.2",
+      "ref": "@szls3hralbl4:e141",
+      "parent": "0.0.0.3.0.0.6.0",
+      "role": "radiobutton",
+      "name": "Show scroll bars",
+      "value": "0",
+      "description": "When scrolling",
+      "states": [],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        506.0,
+        1435.0,
+        728.0,
+        1468.0
+      ],
+      "full_bbox": [
+        506.0,
+        1435.0,
+        728.0,
+        1468.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A101"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0.3",
+      "ref": "@szls3hralbl4:e142",
+      "parent": "0.0.0.3.0.0.6.0",
+      "role": "radiobutton",
+      "name": "Show scroll bars",
+      "value": "0",
+      "description": "Always",
+      "states": [],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        506.0,
+        1480.0,
+        633.0,
+        1512.0
+      ],
+      "full_bbox": [
+        506.0,
+        1480.0,
+        633.0,
+        1512.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A105"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.1",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.6",
+      "role": "radiogroup",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1554.490478515625,
+        922.0,
+        1606.0
+      ],
+      "full_bbox": [
+        506.0,
+        1554.490478515625,
+        922.0,
+        1680.0
+      ],
+      "visible_fraction": 0.4104032974963382,
+      "overlay_id": "A110"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.1.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.6.1",
+      "role": "statictext",
+      "name": "Click in the scroll bar to",
+      "value": "Click in the scroll bar to",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1554.490478515625,
+        792.0,
+        1586.490478515625
+      ],
+      "full_bbox": [
+        506.0,
+        1554.490478515625,
+        792.0,
+        1586.490478515625
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A109"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.1.1",
+      "ref": "@szls3hralbl4:e143",
+      "parent": "0.0.0.3.0.0.6.1",
+      "role": "radiobutton",
+      "name": "Click in the scroll bar to",
+      "value": "1",
+      "description": "Jump to the next page",
+      "states": [
+        "checked",
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        506.0,
+        1602.0,
+        820.0,
+        1606.0
+      ],
+      "full_bbox": [
+        506.0,
+        1602.0,
+        820.0,
+        1635.0
+      ],
+      "visible_fraction": 0.12121212121212122,
+      "overlay_id": "A111"
+    },
+    {
+      "id": "0.1",
+      "ref": "@szls3hralbl4:e152",
+      "parent": "0",
+      "role": "toolbar",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        104.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        1446.0,
+        104.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.1.0",
+      "ref": null,
+      "parent": "0.1",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        454.0,
+        0.0,
+        616.0,
+        104.0
+      ],
+      "full_bbox": [
+        454.0,
+        0.0,
+        616.0,
+        104.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.1.0.0",
+      "ref": null,
+      "parent": "0.1.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        462.0,
+        16.0,
+        608.0,
+        88.0
+      ],
+      "full_bbox": [
+        462.0,
+        16.0,
+        608.0,
+        88.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.1.0.0.0",
+      "ref": "@szls3hralbl4:e153",
+      "parent": "0.1.0.0",
+      "role": "button",
+      "name": "Back",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetFocus"
+      ],
+      "bbox": [
+        462.0,
+        16.0,
+        534.0,
+        88.0
+      ],
+      "full_bbox": [
+        462.0,
+        16.0,
+        534.0,
+        88.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A002"
+    },
+    {
+      "id": "0.1.0.0.1",
+      "ref": "@szls3hralbl4:e154",
+      "parent": "0.1.0.0",
+      "role": "menubutton",
+      "name": "Forward",
+      "value": null,
+      "description": null,
+      "states": [
+        "disabled"
+      ],
+      "actions": [
+        "Click",
+        "Expand",
+        "Collapse"
+      ],
+      "bbox": [
+        536.0,
+        16.0,
+        608.0,
+        88.0
+      ],
+      "full_bbox": [
+        536.0,
+        16.0,
+        608.0,
+        88.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A003"
+    },
+    {
+      "id": "0.2",
+      "ref": "@szls3hralbl4:e155",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "full_bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A004"
+    },
+    {
+      "id": "0.3",
+      "ref": "@szls3hralbl4:e156",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick"
+      ],
+      "bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "full_bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A006"
+    },
+    {
+      "id": "0.3.0",
+      "ref": null,
+      "parent": "0.3",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "full_bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.3.0.0",
+      "ref": null,
+      "parent": "0.3.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "full_bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.4",
+      "ref": "@szls3hralbl4:e157",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "full_bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A005"
+    },
+    {
+      "id": "0.5",
+      "ref": "@szls3hralbl4:e158",
+      "parent": "0",
+      "role": "statictext",
+      "name": "Appearance",
+      "value": "Appearance",
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        616.0,
+        0.0,
+        1422.0,
+        104.0
+      ],
+      "full_bbox": [
+        616.0,
+        0.0,
+        1422.0,
+        104.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A001"
+    }
+  ],
+  "display_nodes": [
+    {
+      "id": "0.5",
+      "ref": "@szls3hralbl4:e158",
+      "parent": "0",
+      "role": "statictext",
+      "name": "Appearance",
+      "value": "Appearance",
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        616.0,
+        0.0,
+        1422.0,
+        104.0
+      ],
+      "full_bbox": [
+        616.0,
+        0.0,
+        1422.0,
+        104.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A001"
+    },
+    {
+      "id": "0.1.0.0.0",
+      "ref": "@szls3hralbl4:e153",
+      "parent": "0.1.0.0",
+      "role": "button",
+      "name": "Back",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetFocus"
+      ],
+      "bbox": [
+        462.0,
+        16.0,
+        534.0,
+        88.0
+      ],
+      "full_bbox": [
+        462.0,
+        16.0,
+        534.0,
+        88.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A002"
+    },
+    {
+      "id": "0.1.0.0.1",
+      "ref": "@szls3hralbl4:e154",
+      "parent": "0.1.0.0",
+      "role": "menubutton",
+      "name": "Forward",
+      "value": null,
+      "description": null,
+      "states": [
+        "disabled"
+      ],
+      "actions": [
+        "Click",
+        "Expand",
+        "Collapse"
+      ],
+      "bbox": [
+        536.0,
+        16.0,
+        608.0,
+        88.0
+      ],
+      "full_bbox": [
+        536.0,
+        16.0,
+        608.0,
+        88.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A003"
+    },
+    {
+      "id": "0.2",
+      "ref": "@szls3hralbl4:e155",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "full_bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A004"
+    },
+    {
+      "id": "0.4",
+      "ref": "@szls3hralbl4:e157",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "full_bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A005"
+    },
+    {
+      "id": "0.3",
+      "ref": "@szls3hralbl4:e156",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick"
+      ],
+      "bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "full_bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A006"
+    },
+    {
+      "id": "0.0.0.1.0",
+      "ref": "@szls3hralbl4:e113",
+      "parent": "0.0.0.1",
+      "role": "textfield",
+      "name": "Search",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetValue",
+        "SetFocus"
+      ],
+      "bbox": [
+        36.0,
+        122.0,
+        426.0,
+        178.0
+      ],
+      "full_bbox": [
+        36.0,
+        122.0,
+        426.0,
+        178.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A007"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.0",
+      "role": "statictext",
+      "name": "Appearance",
+      "value": "Appearance",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        123.828857421875,
+        652.0,
+        155.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        123.828857421875,
+        652.0,
+        155.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A008"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.1",
+      "ref": "@szls3hralbl4:e116",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Auto",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        910.0,
+        124.0,
+        1058.0,
+        255.828857421875
+      ],
+      "full_bbox": [
+        910.0,
+        124.0,
+        1058.0,
+        255.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A009"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.2",
+      "ref": "@szls3hralbl4:e117",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Light",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1074.0,
+        124.0,
+        1222.0,
+        255.828857421875
+      ],
+      "full_bbox": [
+        1074.0,
+        124.0,
+        1222.0,
+        255.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A010"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.3",
+      "ref": "@szls3hralbl4:e118",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Dark",
+      "value": null,
+      "description": null,
+      "states": [
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1238.0,
+        124.0,
+        1386.0,
+        255.828857421875
+      ],
+      "full_bbox": [
+        1238.0,
+        124.0,
+        1386.0,
+        255.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A011"
+    },
+    {
+      "id": "0.0.0.1.0.0",
+      "ref": "@szls3hralbl4:e114",
+      "parent": "0.0.0.1.0",
+      "role": "button",
+      "name": "Search",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        52.0,
+        142.0,
+        83.0,
+        160.0
+      ],
+      "full_bbox": [
+        52.0,
+        142.0,
+        83.0,
+        160.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A012"
+    },
+    {
+      "id": "0.0.0.0.0.0.1",
+      "ref": "@szls3hralbl4:e5",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Harshit Jaiswal, Apple Account",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        196.0,
+        446.0,
+        288.0
+      ],
+      "full_bbox": [
+        16.0,
+        196.0,
+        446.0,
+        288.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A013"
+    },
+    {
+      "id": "0.0.0.0.0.0.1.0",
+      "ref": "@szls3hralbl4:e6",
+      "parent": "0.0.0.0.0.0.1",
+      "role": "cell",
+      "name": "Harshit Jaiswal, Apple Account",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        196.0,
+        426.0,
+        288.0
+      ],
+      "full_bbox": [
+        36.0,
+        196.0,
+        426.0,
+        288.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A014"
+    },
+    {
+      "id": "0.0.0.0.0.0.37",
+      "ref": null,
+      "parent": "0.0.0.0.0.0",
+      "role": "column",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        36.0,
+        196.0,
+        426.0,
+        1606.0
+      ],
+      "full_bbox": [
+        36.0,
+        196.0,
+        426.0,
+        2396.0
+      ],
+      "visible_fraction": 0.6409090909090909,
+      "overlay_id": "A015"
+    },
+    {
+      "id": "0.0.0.0.0.0.1.0.0",
+      "ref": "@szls3hralbl4:e7",
+      "parent": "0.0.0.0.0.0.1.0",
+      "role": "statictext",
+      "name": "Harshit Jaiswal, Apple\u00a0Account",
+      "value": "Harshit Jaiswal, Apple\u00a0Account",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        48.0,
+        204.0,
+        332.0,
+        280.0
+      ],
+      "full_bbox": [
+        48.0,
+        204.0,
+        332.0,
+        280.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A016"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.4",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.0",
+      "role": "statictext",
+      "name": "Liquid Glass",
+      "value": "Liquid Glass",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        297.828857421875,
+        654.0,
+        329.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        297.828857421875,
+        654.0,
+        329.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A017"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.6",
+      "ref": "@szls3hralbl4:e119",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Clear",
+      "value": null,
+      "description": null,
+      "states": [
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1074.0,
+        298.0,
+        1222.0,
+        429.828857421875
+      ],
+      "full_bbox": [
+        1074.0,
+        298.0,
+        1222.0,
+        429.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A018"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.7",
+      "ref": "@szls3hralbl4:e120",
+      "parent": "0.0.0.3.0.0.0",
+      "role": "button",
+      "name": "Tinted",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1238.0,
+        298.0,
+        1386.0,
+        429.828857421875
+      ],
+      "full_bbox": [
+        1238.0,
+        298.0,
+        1386.0,
+        429.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A019"
+    },
+    {
+      "id": "0.0.0.0.0.0.3",
+      "ref": "@szls3hralbl4:e10",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Wi\u2011Fi",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        314.0,
+        446.0,
+        378.0
+      ],
+      "full_bbox": [
+        16.0,
+        314.0,
+        446.0,
+        378.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A020"
+    },
+    {
+      "id": "0.0.0.0.0.0.3.0",
+      "ref": "@szls3hralbl4:e11",
+      "parent": "0.0.0.0.0.0.3",
+      "role": "cell",
+      "name": "Wi\u2011Fi",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        314.0,
+        426.0,
+        378.0
+      ],
+      "full_bbox": [
+        36.0,
+        314.0,
+        426.0,
+        378.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A021"
+    },
+    {
+      "id": "0.0.0.0.0.0.3.0.0",
+      "ref": "@szls3hralbl4:e12",
+      "parent": "0.0.0.0.0.0.3.0",
+      "role": "statictext",
+      "name": "Wi\u2011Fi",
+      "value": "Wi\u2011Fi",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        322.0,
+        163.0,
+        370.0
+      ],
+      "full_bbox": [
+        44.0,
+        322.0,
+        163.0,
+        370.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A022"
+    },
+    {
+      "id": "0.0.0.3.0.0.0.5",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.0",
+      "role": "statictext",
+      "name": "Choose your preferred look for Liquid Glass.",
+      "value": "Choose your preferred look for Liquid Glass.",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        332.828857421875,
+        970.0,
+        360.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        332.828857421875,
+        970.0,
+        360.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A023"
+    },
+    {
+      "id": "0.0.0.0.0.0.4",
+      "ref": "@szls3hralbl4:e13",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Bluetooth",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        378.0,
+        446.0,
+        442.0
+      ],
+      "full_bbox": [
+        16.0,
+        378.0,
+        446.0,
+        442.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A024"
+    },
+    {
+      "id": "0.0.0.0.0.0.4.0",
+      "ref": "@szls3hralbl4:e14",
+      "parent": "0.0.0.0.0.0.4",
+      "role": "cell",
+      "name": "Bluetooth",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        378.0,
+        426.0,
+        442.0
+      ],
+      "full_bbox": [
+        36.0,
+        378.0,
+        426.0,
+        442.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A025"
+    },
+    {
+      "id": "0.0.0.0.0.0.4.0.0",
+      "ref": "@szls3hralbl4:e15",
+      "parent": "0.0.0.0.0.0.4.0",
+      "role": "statictext",
+      "name": "Bluetooth",
+      "value": "Bluetooth",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        386.0,
+        216.0,
+        434.0
+      ],
+      "full_bbox": [
+        44.0,
+        386.0,
+        216.0,
+        434.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A026"
+    },
+    {
+      "id": "0.0.0.0.0.0.5",
+      "ref": "@szls3hralbl4:e16",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Network",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        442.0,
+        446.0,
+        506.0
+      ],
+      "full_bbox": [
+        16.0,
+        442.0,
+        446.0,
+        506.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A027"
+    },
+    {
+      "id": "0.0.0.0.0.0.5.0",
+      "ref": "@szls3hralbl4:e17",
+      "parent": "0.0.0.0.0.0.5",
+      "role": "cell",
+      "name": "Network",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        442.0,
+        426.0,
+        506.0
+      ],
+      "full_bbox": [
+        36.0,
+        442.0,
+        426.0,
+        506.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A028"
+    },
+    {
+      "id": "0.0.0.0.0.0.5.0.0",
+      "ref": "@szls3hralbl4:e18",
+      "parent": "0.0.0.0.0.0.5.0",
+      "role": "statictext",
+      "name": "Network",
+      "value": "Network",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        450.0,
+        200.0,
+        498.0
+      ],
+      "full_bbox": [
+        44.0,
+        450.0,
+        200.0,
+        498.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A029"
+    },
+    {
+      "id": "0.0.0.0.0.0.6",
+      "ref": "@szls3hralbl4:e19",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "VPN",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        506.0,
+        446.0,
+        570.0
+      ],
+      "full_bbox": [
+        16.0,
+        506.0,
+        446.0,
+        570.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A030"
+    },
+    {
+      "id": "0.0.0.0.0.0.6.0",
+      "ref": "@szls3hralbl4:e20",
+      "parent": "0.0.0.0.0.0.6",
+      "role": "cell",
+      "name": "VPN",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        506.0,
+        426.0,
+        570.0
+      ],
+      "full_bbox": [
+        36.0,
+        506.0,
+        426.0,
+        570.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A031"
+    },
+    {
+      "id": "0.0.0.3.0.0.1",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "heading",
+      "name": "Theme",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        509.828857421875,
+        593.0,
+        541.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        509.828857421875,
+        593.0,
+        541.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A032"
+    },
+    {
+      "id": "0.0.0.0.0.0.6.0.0",
+      "ref": "@szls3hralbl4:e21",
+      "parent": "0.0.0.0.0.0.6.0",
+      "role": "statictext",
+      "name": "VPN",
+      "value": "VPN",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        514.0,
+        151.0,
+        562.0
+      ],
+      "full_bbox": [
+        44.0,
+        514.0,
+        151.0,
+        562.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A033"
+    },
+    {
+      "id": "0.0.0.0.0.0.7",
+      "ref": "@szls3hralbl4:e22",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Battery",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        570.0,
+        446.0,
+        634.0
+      ],
+      "full_bbox": [
+        16.0,
+        570.0,
+        446.0,
+        634.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A034"
+    },
+    {
+      "id": "0.0.0.0.0.0.7.0",
+      "ref": "@szls3hralbl4:e23",
+      "parent": "0.0.0.0.0.0.7",
+      "role": "cell",
+      "name": "Battery",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        570.0,
+        426.0,
+        634.0
+      ],
+      "full_bbox": [
+        36.0,
+        570.0,
+        426.0,
+        634.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A035"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.1",
+      "ref": "@szls3hralbl4:e121",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Multicolour",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        754.0,
+        574.0,
+        818.0,
+        638.0
+      ],
+      "full_bbox": [
+        754.0,
+        574.0,
+        818.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A036"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.2",
+      "ref": "@szls3hralbl4:e122",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Blue",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        826.0,
+        574.0,
+        890.0,
+        638.0
+      ],
+      "full_bbox": [
+        826.0,
+        574.0,
+        890.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A037"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.3",
+      "ref": "@szls3hralbl4:e123",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Purple",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        898.0,
+        574.0,
+        962.0,
+        638.0
+      ],
+      "full_bbox": [
+        898.0,
+        574.0,
+        962.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A038"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.4",
+      "ref": "@szls3hralbl4:e124",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Pink",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        970.0,
+        574.0,
+        1034.0,
+        638.0
+      ],
+      "full_bbox": [
+        970.0,
+        574.0,
+        1034.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A039"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.5",
+      "ref": "@szls3hralbl4:e125",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Red",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1042.0,
+        574.0,
+        1106.0,
+        638.0
+      ],
+      "full_bbox": [
+        1042.0,
+        574.0,
+        1106.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A040"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.6",
+      "ref": "@szls3hralbl4:e126",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Orange",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1114.0,
+        574.0,
+        1178.0,
+        638.0
+      ],
+      "full_bbox": [
+        1114.0,
+        574.0,
+        1178.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A041"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.7",
+      "ref": "@szls3hralbl4:e127",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Yellow",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1186.0,
+        574.0,
+        1250.0,
+        638.0
+      ],
+      "full_bbox": [
+        1186.0,
+        574.0,
+        1250.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A042"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.8",
+      "ref": "@szls3hralbl4:e128",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Green",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1258.0,
+        574.0,
+        1322.0,
+        638.0
+      ],
+      "full_bbox": [
+        1258.0,
+        574.0,
+        1322.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A043"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.9",
+      "ref": "@szls3hralbl4:e129",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "button",
+      "name": "Colour",
+      "value": null,
+      "description": "Graphite",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1330.0,
+        574.0,
+        1394.0,
+        638.0
+      ],
+      "full_bbox": [
+        1330.0,
+        574.0,
+        1394.0,
+        638.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A044"
+    },
+    {
+      "id": "0.0.0.0.0.0.7.0.0",
+      "ref": "@szls3hralbl4:e24",
+      "parent": "0.0.0.0.0.0.7.0",
+      "role": "statictext",
+      "name": "Battery",
+      "value": "Battery",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        578.0,
+        187.0,
+        626.0
+      ],
+      "full_bbox": [
+        44.0,
+        578.0,
+        187.0,
+        626.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A045"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.2",
+      "role": "statictext",
+      "name": "Colour",
+      "value": "Colour",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        581.828857421875,
+        587.0,
+        613.828857421875
+      ],
+      "full_bbox": [
+        506.0,
+        581.828857421875,
+        587.0,
+        613.828857421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A046"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.10",
+      "ref": "@szls3hralbl4:e130",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "statictext",
+      "name": "Colour",
+      "value": "Multicolour",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        727.0,
+        637.0,
+        845.0,
+        665.0
+      ],
+      "full_bbox": [
+        727.0,
+        637.0,
+        845.0,
+        665.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A047"
+    },
+    {
+      "id": "0.0.0.0.0.0.9",
+      "ref": "@szls3hralbl4:e27",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "General",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        660.0,
+        446.0,
+        724.0
+      ],
+      "full_bbox": [
+        16.0,
+        660.0,
+        446.0,
+        724.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A048"
+    },
+    {
+      "id": "0.0.0.0.0.0.9.0",
+      "ref": "@szls3hralbl4:e28",
+      "parent": "0.0.0.0.0.0.9",
+      "role": "cell",
+      "name": "General",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        660.0,
+        426.0,
+        724.0
+      ],
+      "full_bbox": [
+        36.0,
+        660.0,
+        426.0,
+        724.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A049"
+    },
+    {
+      "id": "0.0.0.0.0.0.9.0.0",
+      "ref": "@szls3hralbl4:e29",
+      "parent": "0.0.0.0.0.0.9.0",
+      "role": "statictext",
+      "name": "General",
+      "value": "General",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        668.0,
+        193.0,
+        716.0
+      ],
+      "full_bbox": [
+        44.0,
+        668.0,
+        193.0,
+        716.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A050"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.12",
+      "ref": "@szls3hralbl4:e131",
+      "parent": "0.0.0.3.0.0.2",
+      "role": "combobox",
+      "name": "Text highlight colour",
+      "value": "Automatic",
+      "description": null,
+      "states": [
+        "readonly"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+      ],
+      "bbox": [
+        1132.0,
+        700.0,
+        1386.0,
+        748.0
+      ],
+      "full_bbox": [
+        1132.0,
+        700.0,
+        1386.0,
+        748.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A051"
+    },
+    {
+      "id": "0.0.0.3.0.0.2.11",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.2",
+      "role": "statictext",
+      "name": "Text highlight colour",
+      "value": "Text highlight colour",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        707.469482421875,
+        753.0,
+        739.469482421875
+      ],
+      "full_bbox": [
+        506.0,
+        707.469482421875,
+        753.0,
+        739.469482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A052"
+    },
+    {
+      "id": "0.0.0.0.0.0.10",
+      "ref": "@szls3hralbl4:e30",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Accessibility",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        724.0,
+        446.0,
+        788.0
+      ],
+      "full_bbox": [
+        16.0,
+        724.0,
+        446.0,
+        788.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A053"
+    },
+    {
+      "id": "0.0.0.0.0.0.10.0",
+      "ref": "@szls3hralbl4:e31",
+      "parent": "0.0.0.0.0.0.10",
+      "role": "cell",
+      "name": "Accessibility",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        724.0,
+        426.0,
+        788.0
+      ],
+      "full_bbox": [
+        36.0,
+        724.0,
+        426.0,
+        788.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A054"
+    },
+    {
+      "id": "0.0.0.0.0.0.10.0.0",
+      "ref": "@szls3hralbl4:e32",
+      "parent": "0.0.0.0.0.0.10.0",
+      "role": "statictext",
+      "name": "Accessibility",
+      "value": "Accessibility",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        732.0,
+        250.0,
+        780.0
+      ],
+      "full_bbox": [
+        44.0,
+        732.0,
+        250.0,
+        780.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A055"
+    },
+    {
+      "id": "0.0.0.0.0.0.11",
+      "ref": "@szls3hralbl4:e33",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Appearance",
+      "value": null,
+      "description": null,
+      "states": [
+        "selected"
+      ],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        788.0,
+        446.0,
+        852.0
+      ],
+      "full_bbox": [
+        16.0,
+        788.0,
+        446.0,
+        852.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A056"
+    },
+    {
+      "id": "0.0.0.0.0.0.11.0",
+      "ref": "@szls3hralbl4:e34",
+      "parent": "0.0.0.0.0.0.11",
+      "role": "cell",
+      "name": "Appearance",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused",
+        "selected"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        788.0,
+        426.0,
+        852.0
+      ],
+      "full_bbox": [
+        36.0,
+        788.0,
+        426.0,
+        852.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A057"
+    },
+    {
+      "id": "0.0.0.0.0.0.11.0.0",
+      "ref": "@szls3hralbl4:e35",
+      "parent": "0.0.0.0.0.0.11.0",
+      "role": "statictext",
+      "name": "Appearance",
+      "value": "Appearance",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        796.0,
+        244.0,
+        844.0
+      ],
+      "full_bbox": [
+        44.0,
+        796.0,
+        244.0,
+        844.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A058"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.1",
+      "ref": "@szls3hralbl4:e132",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "button",
+      "name": "Icon & widget style",
+      "value": null,
+      "description": "Default",
+      "states": [
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1000.0,
+        800.0,
+        1080.0,
+        903.969482421875
+      ],
+      "full_bbox": [
+        1000.0,
+        800.0,
+        1080.0,
+        903.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A059"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.2",
+      "ref": "@szls3hralbl4:e133",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "button",
+      "name": "Icon & widget style",
+      "value": null,
+      "description": "Dark",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1108.0,
+        800.0,
+        1184.0,
+        903.969482421875
+      ],
+      "full_bbox": [
+        1108.0,
+        800.0,
+        1184.0,
+        903.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A060"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.3",
+      "ref": "@szls3hralbl4:e134",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "button",
+      "name": "Icon & widget style",
+      "value": null,
+      "description": "Clear",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1210.0,
+        800.0,
+        1286.0,
+        903.969482421875
+      ],
+      "full_bbox": [
+        1210.0,
+        800.0,
+        1286.0,
+        903.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A061"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.4",
+      "ref": "@szls3hralbl4:e135",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "button",
+      "name": "Icon & widget style",
+      "value": null,
+      "description": "Tinted",
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        1312.0,
+        800.0,
+        1388.0,
+        903.969482421875
+      ],
+      "full_bbox": [
+        1312.0,
+        800.0,
+        1388.0,
+        903.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A062"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.3",
+      "role": "statictext",
+      "name": "Icon & widget style",
+      "value": "Icon & widget style",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        801.969482421875,
+        737.0,
+        833.969482421875
+      ],
+      "full_bbox": [
+        506.0,
+        801.969482421875,
+        737.0,
+        833.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A063"
+    },
+    {
+      "id": "0.0.0.0.0.0.12",
+      "ref": "@szls3hralbl4:e36",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Apple Intelligence & Siri",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        852.0,
+        446.0,
+        916.0
+      ],
+      "full_bbox": [
+        16.0,
+        852.0,
+        446.0,
+        916.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A064"
+    },
+    {
+      "id": "0.0.0.0.0.0.12.0",
+      "ref": "@szls3hralbl4:e37",
+      "parent": "0.0.0.0.0.0.12",
+      "role": "cell",
+      "name": "Apple Intelligence & Siri",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        852.0,
+        426.0,
+        916.0
+      ],
+      "full_bbox": [
+        36.0,
+        852.0,
+        426.0,
+        916.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A065"
+    },
+    {
+      "id": "0.0.0.0.0.0.12.0.0",
+      "ref": "@szls3hralbl4:e38",
+      "parent": "0.0.0.0.0.0.12.0",
+      "role": "statictext",
+      "name": "Apple Intelligence & Siri",
+      "value": "Apple Intelligence & Siri",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        860.0,
+        386.0,
+        908.0
+      ],
+      "full_bbox": [
+        44.0,
+        860.0,
+        386.0,
+        908.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A066"
+    },
+    {
+      "id": "0.0.0.0.0.0.13",
+      "ref": "@szls3hralbl4:e39",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Desktop & Dock",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        916.0,
+        446.0,
+        980.0
+      ],
+      "full_bbox": [
+        16.0,
+        916.0,
+        446.0,
+        980.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A067"
+    },
+    {
+      "id": "0.0.0.0.0.0.13.0",
+      "ref": "@szls3hralbl4:e40",
+      "parent": "0.0.0.0.0.0.13",
+      "role": "cell",
+      "name": "Desktop & Dock",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        916.0,
+        426.0,
+        980.0
+      ],
+      "full_bbox": [
+        36.0,
+        916.0,
+        426.0,
+        980.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A068"
+    },
+    {
+      "id": "0.0.0.0.0.0.13.0.0",
+      "ref": "@szls3hralbl4:e41",
+      "parent": "0.0.0.0.0.0.13.0",
+      "role": "statictext",
+      "name": "Desktop & Dock",
+      "value": "Desktop & Dock",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        924.0,
+        294.0,
+        972.0
+      ],
+      "full_bbox": [
+        44.0,
+        924.0,
+        294.0,
+        972.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A069"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.7",
+      "ref": "@szls3hralbl4:e137",
+      "parent": "0.0.0.3.0.0.3",
+      "role": "combobox",
+      "name": "Folder colour",
+      "value": "Automatic",
+      "description": "Folder colour",
+      "states": [
+        "readonly"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+      ],
+      "bbox": [
+        1132.0,
+        972.0,
+        1386.0,
+        1020.0
+      ],
+      "full_bbox": [
+        1132.0,
+        972.0,
+        1386.0,
+        1020.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A070"
+    },
+    {
+      "id": "0.0.0.3.0.0.3.6",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.3",
+      "role": "statictext",
+      "name": "Folder colour",
+      "value": "Folder colour",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        979.969482421875,
+        666.0,
+        1011.969482421875
+      ],
+      "full_bbox": [
+        506.0,
+        979.969482421875,
+        666.0,
+        1011.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A071"
+    },
+    {
+      "id": "0.0.0.0.0.0.14",
+      "ref": "@szls3hralbl4:e42",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Displays",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        980.0,
+        446.0,
+        1044.0
+      ],
+      "full_bbox": [
+        16.0,
+        980.0,
+        446.0,
+        1044.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A072"
+    },
+    {
+      "id": "0.0.0.0.0.0.14.0",
+      "ref": "@szls3hralbl4:e43",
+      "parent": "0.0.0.0.0.0.14",
+      "role": "cell",
+      "name": "Displays",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        980.0,
+        426.0,
+        1044.0
+      ],
+      "full_bbox": [
+        36.0,
+        980.0,
+        426.0,
+        1044.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A073"
+    },
+    {
+      "id": "0.0.0.0.0.0.14.0.0",
+      "ref": "@szls3hralbl4:e44",
+      "parent": "0.0.0.0.0.0.14.0",
+      "role": "statictext",
+      "name": "Displays",
+      "value": "Displays",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        988.0,
+        200.0,
+        1036.0
+      ],
+      "full_bbox": [
+        44.0,
+        988.0,
+        200.0,
+        1036.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A074"
+    },
+    {
+      "id": "0.0.0.0.0.0.15",
+      "ref": "@szls3hralbl4:e45",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Menu Bar",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1044.0,
+        446.0,
+        1108.0
+      ],
+      "full_bbox": [
+        16.0,
+        1044.0,
+        446.0,
+        1108.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A075"
+    },
+    {
+      "id": "0.0.0.0.0.0.15.0",
+      "ref": "@szls3hralbl4:e46",
+      "parent": "0.0.0.0.0.0.15",
+      "role": "cell",
+      "name": "Menu Bar",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1044.0,
+        426.0,
+        1108.0
+      ],
+      "full_bbox": [
+        36.0,
+        1044.0,
+        426.0,
+        1108.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A076"
+    },
+    {
+      "id": "0.0.0.0.0.0.15.0.0",
+      "ref": "@szls3hralbl4:e47",
+      "parent": "0.0.0.0.0.0.15.0",
+      "role": "statictext",
+      "name": "Menu Bar",
+      "value": "Menu Bar",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1052.0,
+        214.0,
+        1100.0
+      ],
+      "full_bbox": [
+        44.0,
+        1052.0,
+        214.0,
+        1100.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A077"
+    },
+    {
+      "id": "0.0.0.3.0.0.4",
+      "ref": null,
+      "parent": "0.0.0.3.0.0",
+      "role": "heading",
+      "name": "Windows",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1100.469482421875,
+        621.0,
+        1132.469482421875
+      ],
+      "full_bbox": [
+        506.0,
+        1100.469482421875,
+        621.0,
+        1132.469482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A078"
+    },
+    {
+      "id": "0.0.0.0.0.0.16",
+      "ref": "@szls3hralbl4:e48",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Spotlight",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1108.0,
+        446.0,
+        1172.0
+      ],
+      "full_bbox": [
+        16.0,
+        1108.0,
+        446.0,
+        1172.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A079"
+    },
+    {
+      "id": "0.0.0.0.0.0.16.0",
+      "ref": "@szls3hralbl4:e49",
+      "parent": "0.0.0.0.0.0.16",
+      "role": "cell",
+      "name": "Spotlight",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1108.0,
+        426.0,
+        1172.0
+      ],
+      "full_bbox": [
+        36.0,
+        1108.0,
+        426.0,
+        1172.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A080"
+    },
+    {
+      "id": "0.0.0.0.0.0.16.0.0",
+      "ref": "@szls3hralbl4:e50",
+      "parent": "0.0.0.0.0.0.16.0",
+      "role": "statictext",
+      "name": "Spotlight",
+      "value": "Spotlight",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1116.0,
+        208.0,
+        1164.0
+      ],
+      "full_bbox": [
+        44.0,
+        1116.0,
+        208.0,
+        1164.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A081"
+    },
+    {
+      "id": "0.0.0.3.0.0.5.1",
+      "ref": "@szls3hralbl4:e138",
+      "parent": "0.0.0.3.0.0.5",
+      "role": "combobox",
+      "name": "Sidebar icon size",
+      "value": "Medium",
+      "description": null,
+      "states": [
+        "readonly"
+      ],
+      "actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+      ],
+      "bbox": [
+        1194.0,
+        1165.0,
+        1386.0,
+        1213.0
+      ],
+      "full_bbox": [
+        1194.0,
+        1165.0,
+        1386.0,
+        1213.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A082"
+    },
+    {
+      "id": "0.0.0.0.0.0.17",
+      "ref": "@szls3hralbl4:e51",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Wallpaper",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1172.0,
+        446.0,
+        1236.0
+      ],
+      "full_bbox": [
+        16.0,
+        1172.0,
+        446.0,
+        1236.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A083"
+    },
+    {
+      "id": "0.0.0.0.0.0.17.0",
+      "ref": "@szls3hralbl4:e52",
+      "parent": "0.0.0.0.0.0.17",
+      "role": "cell",
+      "name": "Wallpaper",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1172.0,
+        426.0,
+        1236.0
+      ],
+      "full_bbox": [
+        36.0,
+        1172.0,
+        426.0,
+        1236.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A084"
+    },
+    {
+      "id": "0.0.0.3.0.0.5.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.5",
+      "role": "statictext",
+      "name": "Sidebar icon size",
+      "value": "Sidebar icon size",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1172.469482421875,
+        713.0,
+        1204.469482421875
+      ],
+      "full_bbox": [
+        506.0,
+        1172.469482421875,
+        713.0,
+        1204.469482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A085"
+    },
+    {
+      "id": "0.0.0.0.0.0.17.0.0",
+      "ref": "@szls3hralbl4:e53",
+      "parent": "0.0.0.0.0.0.17.0",
+      "role": "statictext",
+      "name": "Wallpaper",
+      "value": "Wallpaper",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1180.0,
+        219.0,
+        1228.0
+      ],
+      "full_bbox": [
+        44.0,
+        1180.0,
+        219.0,
+        1228.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A086"
+    },
+    {
+      "id": "0.0.0.3.0.0.5.2",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.5",
+      "role": "statictext",
+      "name": "Tint window background with wallpaper colour",
+      "value": "Tint window background with wallpaper colour",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1248.969482421875,
+        1068.0,
+        1280.969482421875
+      ],
+      "full_bbox": [
+        506.0,
+        1248.969482421875,
+        1068.0,
+        1280.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A087"
+    },
+    {
+      "id": "0.0.0.3.0.0.5.3",
+      "ref": "@szls3hralbl4:e139",
+      "parent": "0.0.0.3.0.0.5",
+      "role": "switch",
+      "name": "Tint window background with wallpaper colour",
+      "value": "1",
+      "description": null,
+      "states": [
+        "checked"
+      ],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        1314.0,
+        1250.0,
+        1386.0,
+        1282.0
+      ],
+      "full_bbox": [
+        1314.0,
+        1250.0,
+        1386.0,
+        1282.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A088"
+    },
+    {
+      "id": "0.0.0.0.0.0.19",
+      "ref": "@szls3hralbl4:e56",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Notifications",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1262.0,
+        446.0,
+        1326.0
+      ],
+      "full_bbox": [
+        16.0,
+        1262.0,
+        446.0,
+        1326.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A089"
+    },
+    {
+      "id": "0.0.0.0.0.0.19.0",
+      "ref": "@szls3hralbl4:e57",
+      "parent": "0.0.0.0.0.0.19",
+      "role": "cell",
+      "name": "Notifications",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1262.0,
+        426.0,
+        1326.0
+      ],
+      "full_bbox": [
+        36.0,
+        1262.0,
+        426.0,
+        1326.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A090"
+    },
+    {
+      "id": "0.0.0.0.0.0.19.0.0",
+      "ref": "@szls3hralbl4:e58",
+      "parent": "0.0.0.0.0.0.19.0",
+      "role": "statictext",
+      "name": "Notifications",
+      "value": "Notifications",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1270.0,
+        252.0,
+        1318.0
+      ],
+      "full_bbox": [
+        44.0,
+        1270.0,
+        252.0,
+        1318.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A091"
+    },
+    {
+      "id": "0.0.0.0.0.0.20",
+      "ref": "@szls3hralbl4:e59",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Sound",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1326.0,
+        446.0,
+        1390.0
+      ],
+      "full_bbox": [
+        16.0,
+        1326.0,
+        446.0,
+        1390.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A092"
+    },
+    {
+      "id": "0.0.0.0.0.0.20.0",
+      "ref": "@szls3hralbl4:e60",
+      "parent": "0.0.0.0.0.0.20",
+      "role": "cell",
+      "name": "Sound",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1326.0,
+        426.0,
+        1390.0
+      ],
+      "full_bbox": [
+        36.0,
+        1326.0,
+        426.0,
+        1390.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A093"
+    },
+    {
+      "id": "0.0.0.0.0.0.20.0.0",
+      "ref": "@szls3hralbl4:e61",
+      "parent": "0.0.0.0.0.0.20.0",
+      "role": "statictext",
+      "name": "Sound",
+      "value": "Sound",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1334.0,
+        176.0,
+        1382.0
+      ],
+      "full_bbox": [
+        44.0,
+        1334.0,
+        176.0,
+        1382.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A094"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.6.0",
+      "role": "statictext",
+      "name": "Show scroll bars",
+      "value": "Show scroll bars",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1341.969482421875,
+        705.0,
+        1373.969482421875
+      ],
+      "full_bbox": [
+        506.0,
+        1341.969482421875,
+        705.0,
+        1373.969482421875
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A095"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.6",
+      "role": "radiogroup",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1341.969482421875,
+        1065.0,
+        1512.0
+      ],
+      "full_bbox": [
+        506.0,
+        1341.969482421875,
+        1065.0,
+        1512.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A096"
+    },
+    {
+      "id": "0.0.0.0.0.0.21",
+      "ref": "@szls3hralbl4:e62",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Focus",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1390.0,
+        446.0,
+        1454.0
+      ],
+      "full_bbox": [
+        16.0,
+        1390.0,
+        446.0,
+        1454.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A097"
+    },
+    {
+      "id": "0.0.0.0.0.0.21.0",
+      "ref": "@szls3hralbl4:e63",
+      "parent": "0.0.0.0.0.0.21",
+      "role": "cell",
+      "name": "Focus",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1390.0,
+        426.0,
+        1454.0
+      ],
+      "full_bbox": [
+        36.0,
+        1390.0,
+        426.0,
+        1454.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A098"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0.1",
+      "ref": "@szls3hralbl4:e140",
+      "parent": "0.0.0.3.0.0.6.0",
+      "role": "radiobutton",
+      "name": "Show scroll bars",
+      "value": "1",
+      "description": "Automatically based on mouse or trackpad",
+      "states": [
+        "checked",
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        506.0,
+        1390.0,
+        1065.0,
+        1423.0
+      ],
+      "full_bbox": [
+        506.0,
+        1390.0,
+        1065.0,
+        1423.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A099"
+    },
+    {
+      "id": "0.0.0.0.0.0.21.0.0",
+      "ref": "@szls3hralbl4:e64",
+      "parent": "0.0.0.0.0.0.21.0",
+      "role": "statictext",
+      "name": "Focus",
+      "value": "Focus",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1398.0,
+        171.0,
+        1446.0
+      ],
+      "full_bbox": [
+        44.0,
+        1398.0,
+        171.0,
+        1446.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A100"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0.2",
+      "ref": "@szls3hralbl4:e141",
+      "parent": "0.0.0.3.0.0.6.0",
+      "role": "radiobutton",
+      "name": "Show scroll bars",
+      "value": "0",
+      "description": "When scrolling",
+      "states": [],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        506.0,
+        1435.0,
+        728.0,
+        1468.0
+      ],
+      "full_bbox": [
+        506.0,
+        1435.0,
+        728.0,
+        1468.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A101"
+    },
+    {
+      "id": "0.0.0.0.0.0.22",
+      "ref": "@szls3hralbl4:e65",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Screen Time",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1454.0,
+        446.0,
+        1518.0
+      ],
+      "full_bbox": [
+        16.0,
+        1454.0,
+        446.0,
+        1518.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A102"
+    },
+    {
+      "id": "0.0.0.0.0.0.22.0",
+      "ref": "@szls3hralbl4:e66",
+      "parent": "0.0.0.0.0.0.22",
+      "role": "cell",
+      "name": "Screen Time",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1454.0,
+        426.0,
+        1518.0
+      ],
+      "full_bbox": [
+        36.0,
+        1454.0,
+        426.0,
+        1518.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A103"
+    },
+    {
+      "id": "0.0.0.0.0.0.22.0.0",
+      "ref": "@szls3hralbl4:e67",
+      "parent": "0.0.0.0.0.0.22.0",
+      "role": "statictext",
+      "name": "Screen Time",
+      "value": "Screen Time",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1462.0,
+        250.0,
+        1510.0
+      ],
+      "full_bbox": [
+        44.0,
+        1462.0,
+        250.0,
+        1510.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A104"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.0.3",
+      "ref": "@szls3hralbl4:e142",
+      "parent": "0.0.0.3.0.0.6.0",
+      "role": "radiobutton",
+      "name": "Show scroll bars",
+      "value": "0",
+      "description": "Always",
+      "states": [],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        506.0,
+        1480.0,
+        633.0,
+        1512.0
+      ],
+      "full_bbox": [
+        506.0,
+        1480.0,
+        633.0,
+        1512.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A105"
+    },
+    {
+      "id": "0.0.0.0.0.0.24",
+      "ref": "@szls3hralbl4:e70",
+      "parent": "0.0.0.0.0.0",
+      "role": "treeitem",
+      "name": "Lock Screen",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        16.0,
+        1544.0,
+        446.0,
+        1606.0
+      ],
+      "full_bbox": [
+        16.0,
+        1544.0,
+        446.0,
+        1608.0
+      ],
+      "visible_fraction": 0.96875,
+      "overlay_id": "A106"
+    },
+    {
+      "id": "0.0.0.0.0.0.24.0",
+      "ref": "@szls3hralbl4:e71",
+      "parent": "0.0.0.0.0.0.24",
+      "role": "cell",
+      "name": "Lock Screen",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [],
+      "bbox": [
+        36.0,
+        1544.0,
+        426.0,
+        1606.0
+      ],
+      "full_bbox": [
+        36.0,
+        1544.0,
+        426.0,
+        1608.0
+      ],
+      "visible_fraction": 0.96875,
+      "overlay_id": "A107"
+    },
+    {
+      "id": "0.0.0.0.0.0.24.0.0",
+      "ref": "@szls3hralbl4:e72",
+      "parent": "0.0.0.0.0.0.24.0",
+      "role": "statictext",
+      "name": "Lock Screen",
+      "value": "Lock Screen",
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        44.0,
+        1552.0,
+        248.0,
+        1600.0
+      ],
+      "full_bbox": [
+        44.0,
+        1552.0,
+        248.0,
+        1600.0
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A108"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.1.0",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.6.1",
+      "role": "statictext",
+      "name": "Click in the scroll bar to",
+      "value": "Click in the scroll bar to",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1554.490478515625,
+        792.0,
+        1586.490478515625
+      ],
+      "full_bbox": [
+        506.0,
+        1554.490478515625,
+        792.0,
+        1586.490478515625
+      ],
+      "visible_fraction": 1.0,
+      "overlay_id": "A109"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.1",
+      "ref": null,
+      "parent": "0.0.0.3.0.0.6",
+      "role": "radiogroup",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        506.0,
+        1554.490478515625,
+        922.0,
+        1606.0
+      ],
+      "full_bbox": [
+        506.0,
+        1554.490478515625,
+        922.0,
+        1680.0
+      ],
+      "visible_fraction": 0.4104032974963382,
+      "overlay_id": "A110"
+    },
+    {
+      "id": "0.0.0.3.0.0.6.1.1",
+      "ref": "@szls3hralbl4:e143",
+      "parent": "0.0.0.3.0.0.6.1",
+      "role": "radiobutton",
+      "name": "Click in the scroll bar to",
+      "value": "1",
+      "description": "Jump to the next page",
+      "states": [
+        "checked",
+        "selected"
+      ],
+      "actions": [
+        "Click",
+        "Toggle",
+        "SetFocus"
+      ],
+      "bbox": [
+        506.0,
+        1602.0,
+        820.0,
+        1606.0
+      ],
+      "full_bbox": [
+        506.0,
+        1602.0,
+        820.0,
+        1635.0
+      ],
+      "visible_fraction": 0.12121212121212122,
+      "overlay_id": "A111"
+    }
+  ]
+}

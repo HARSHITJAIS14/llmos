@@ -1,0 +1,62 @@
+{
+  "app": "TextEdit",
+  "was_running": false,
+  "captures": {
+    "windows": 2,
+    "skeleton": {
+      "ok": true,
+      "bytes": 3191,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 25617,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "activated",
+  "pid": 26059,
+  "bundle_id": "com.apple.TextEdit",
+  "framework_signals": {
+    "exe": "/System/Applications/TextEdit.app/Contents/MacOS/TextEdit",
+    "bundle": "/System/Applications/TextEdit.app",
+    "frameworks": [],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "TextEdit",
+    "bounds": {
+      "height": 64.0,
+      "width": 678.0,
+      "x": 1048.0,
+      "y": 655.0
+    },
+    "id": "w-28185",
+    "is_focused": false,
+    "pid": 26059,
+    "process_instance": "macos-proc-v1:1788103734:701805",
+    "title": "Save Panel Accessory View",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 129,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 129,
+    "truncated_after": 0,
+    "bytes": 54458
+  }
+}

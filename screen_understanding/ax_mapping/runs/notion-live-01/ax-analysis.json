@@ -1,0 +1,31 @@
+{
+  "scope": "Native AX nesting diagnostic only; no screenshot obtained. Unit-scale logical coordinate frame, not measured screenshot pixels.",
+  "counts": {
+    "projected": 722,
+    "entities": 507,
+    "controls": 178,
+    "merged_nodes": 215,
+    "ambiguous_controls": 66
+  },
+  "observation": {
+    "snapshot_id": "sbuzlgrafpw1a",
+    "app": "Notion",
+    "reported_complete": true,
+    "frontier_count": 0,
+    "frontiers": [],
+    "filtered": {
+      "invalid_bounds": 11,
+      "outside_capture": 0,
+      "hidden": 443
+    },
+    "total_nodes": 1176,
+    "projected_nodes": 722
+  },
+  "p50_ms": 18.43231200473383,
+  "p95_ms": 20.426750066690147,
+  "lossless_membership": true,
+  "input_depth30": "ax-depth30-diagnostic.json",
+  "depth14_nodes": 70,
+  "depth14_frontiers": 11,
+  "screenshot_status": "Window capture failed; region capture waiting for target to be frontmost."
+}

@@ -1,0 +1,232 @@
+use crate::{
+    AccessibilityNode, AppError, WindowInfo,
+    adapter::{PlatformAdapter, TreeOptions, WindowFilter},
+    context::CommandContext,
+    live_locator::{ObservationRequest, ObservationRoot},
+    ref_alloc::{self, RefAllocConfig},
+    ref_alloc_options::RefAllocOptions,
+    ref_alloc_scope::RefAllocScope,
+    ref_alloc_source::RefAllocSource,
+    refs::RefMap,
+    refs_store::RefStore,
+    trace_artifacts,
+};
+use serde_json::json;
+
+#[derive(Clone)]
+pub struct SnapshotResult {
+    pub tree: AccessibilityNode,
+    pub refmap: RefMap,
+    pub window: WindowInfo,
+    pub snapshot_id: Option<String>,
+    pub complete: bool,
+    pub nodes_observed: usize,
+}
+
+impl SnapshotResult {
+    pub(crate) fn bind_snapshot_id(&mut self, snapshot_id: String) {
+        crate::ref_token::qualify_tree_refs(&mut self.tree, &snapshot_id);
+        self.snapshot_id = Some(snapshot_id);
+    }
+}
+
+pub fn build(
+    adapter: &dyn PlatformAdapter,
+    opts: &TreeOptions,
+    app_name: Option<&str>,
+    window_id: Option<&str>,
+    deadline: crate::Deadline,
+) -> Result<SnapshotResult, AppError> {
+    let window = resolve_window_for_surface(adapter, app_name, window_id, opts.surface, deadline)?;
+    let observation_options = opts.with_ref_identity_bounds();
+    let (raw_tree, complete, nodes_observed) = crate::renderer_accessibility::observe_tree(
+        adapter,
+        ObservationRoot::Window(&window),
+        &ObservationRequest::snapshot(&observation_options, deadline).validate()?,
+    )?
+    .into_accessibility_tree_partial()?;
+
+    let mut refmap = RefMap::new();
+    let config = RefAllocConfig {
+        options: RefAllocOptions {
+            include_bounds: opts.include_bounds,
+            interactive_only: opts.interactive_only,
+            compact: opts.compact,
+        },
+        source: RefAllocSource {
+            pid: window.pid,
+            app: Some(window.app.as_str()),
+            window_id: Some(window.id.as_str()),
+            window_title: Some(window.title.as_str()),
+            window_bounds_hash: window.bounds.as_ref().and_then(crate::Rect::bounds_hash),
+            process_instance: window.process_instance.as_deref(),
+            surface: opts.surface,
+        },
+        scope: RefAllocScope {
+            root_ref_id: None,
+            path_prefix: &[],
+        },
+    };
+    let mut tree = ref_alloc::allocate_refs(raw_tree, &mut refmap, &config)?;
+
+    crate::hints::add_structural_hints(&mut tree);
+
+    Ok(SnapshotResult {
+        tree,
+        refmap,
+        window,
+        snapshot_id: None,
+        complete,
+        nodes_observed,
+    })
+}
+
+/// Resolves the window that identifies the process to observe. An app-level
+/// surface is not owned by a single window, so several open windows must not be
+/// reported as ambiguous when one is requested.
+pub(crate) fn resolve_window_for_surface(
+    adapter: &dyn PlatformAdapter,
+    app_name: Option<&str>,
+    window_id: Option<&str>,
+    surface: crate::SnapshotSurface,
+    deadline: crate::Deadline,
+) -> Result<WindowInfo, AppError> {
+    if window_id.is_some() || matches!(surface, crate::SnapshotSurface::Window) {
+        return resolve_window(adapter, app_name, window_id, deadline);
+    }
+    crate::window_lookup::select_surface_owner(
+        windows_for_app(adapter, app_name, deadline)?,
+        crate::AdapterError::new(
+            crate::ErrorCode::AppNotFound,
+            format!(
+                "No window found to identify the application owning surface '{}'",
+                surface.as_str()
+            ),
+        ),
+    )
+}
+
+fn windows_for_app(
+    adapter: &dyn PlatformAdapter,
+    app_name: Option<&str>,
+    deadline: crate::Deadline,
+) -> Result<Vec<WindowInfo>, AppError> {
+    let filter = WindowFilter {
+        focused_only: app_name.is_none(),
+        app: app_name.map(str::to_string),
+    };
+    Ok(windows_matching_app(
+        adapter.list_windows(&filter, deadline)?,
+        app_name,
+    ))
+}
+
+/// The adapter filter is advisory, so the app name is applied again here.
+fn windows_matching_app(windows: Vec<WindowInfo>, app_name: Option<&str>) -> Vec<WindowInfo> {
+    match app_name {
+        Some(app) => windows
+            .into_iter()
+            .filter(|window| window.app.eq_ignore_ascii_case(app))
+            .collect(),
+        None => windows,
+    }
+}
+
+pub(crate) fn resolve_window(
+    adapter: &dyn PlatformAdapter,
+    app_name: Option<&str>,
+    window_id: Option<&str>,
+    deadline: crate::Deadline,
+) -> Result<WindowInfo, AppError> {
+    let filter = WindowFilter {
+        focused_only: app_name.is_none() && window_id.is_none(),
+        app: app_name.map(str::to_string),
+    };
+
+    let windows = adapter.list_windows(&filter, deadline)?;
+
+    if let Some(wid) = window_id {
+        windows.into_iter().find(|w| w.id == wid).ok_or_else(|| {
+            AppError::Adapter(
+                crate::AdapterError::new(
+                    crate::ErrorCode::WindowNotFound,
+                    format!("No window with id {wid}"),
+                )
+                .with_suggestion("Run 'list-windows' to see available window IDs."),
+            )
+        })
+    } else if let Some(app) = app_name {
+        crate::window_lookup::select_window(
+            windows_matching_app(windows, app_name),
+            crate::AdapterError::new(
+                crate::ErrorCode::AppNotFound,
+                format!("No window found for app '{app}'"),
+            ),
+            "More than one window matches the target",
+        )
+    } else {
+        crate::window_lookup::select_window(
+            windows,
+            crate::AdapterError::new(crate::ErrorCode::WindowNotFound, "No focused window found"),
+            "More than one window matches the target",
+        )
+    }
+}
+
+#[cfg(test)]
+pub fn run(
+    adapter: &dyn PlatformAdapter,
+    opts: &TreeOptions,
+    app_name: Option<&str>,
+    window_id: Option<&str>,
+) -> Result<SnapshotResult, AppError> {
+    run_with_context(
+        adapter,
+        opts,
+        app_name,
+        window_id,
+        &CommandContext::default(),
+    )
+}
+
+pub fn run_with_context(
+    adapter: &dyn PlatformAdapter,
+    opts: &TreeOptions,
+    app_name: Option<&str>,
+    window_id: Option<&str>,
+    context: &CommandContext,
+) -> Result<SnapshotResult, AppError> {
+    let mut result = build(
+        adapter,
+        opts,
+        app_name,
+        window_id,
+        crate::Deadline::after(3_000)?,
+    )?;
+    let store = RefStore::for_session(context.session_id())?;
+    let snapshot_id = store.save_new_snapshot(&result.refmap)?;
+    trace_artifacts::copy_refmap_if_full(context, &store, &snapshot_id, &result.refmap)?;
+    result.bind_snapshot_id(snapshot_id);
+    emit_snapshot_saved(context, &result)?;
+    Ok(result)
+}
+
+pub(crate) fn emit_snapshot_saved(
+    context: &CommandContext,
+    result: &SnapshotResult,
+) -> Result<(), AppError> {
+    context.trace_lazy("snapshot.saved", || {
+        let mut fields = json!({
+            "snapshot_id": result.snapshot_id,
+            "ref_count": result.refmap.len(),
+        });
+        if !result.window.app.is_empty() {
+            fields["app"] = json!(result.window.app);
+        }
+        fields
+    })
+}
+
+#[cfg(test)]
+#[path = "snapshot_tests.rs"]
+mod tests;

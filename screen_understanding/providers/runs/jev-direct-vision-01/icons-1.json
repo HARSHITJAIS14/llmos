@@ -1,0 +1,178 @@
+{
+  "task": "icons",
+  "repeat": 1,
+  "image": {
+    "original_size": [
+      2398,
+      390
+    ],
+    "submitted_size": [
+      1568,
+      256
+    ],
+    "scale_x": 0.6538782318598833,
+    "scale_y": 0.6538461538461539,
+    "padding": "right/bottom only"
+  },
+  "questions": {
+    "38": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 38 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "39": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 39 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "41": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 41 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "47": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 47 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "48": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 48 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "53": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 53 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "54": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 54 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "58": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 58 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    }
+  },
+  "seconds": 0.8398769170162268,
+  "headers_seconds": 0.8398298749816604,
+  "http_status": 400,
+  "response": {
+    "detail": {
+      "error_type": "api_usage_error",
+      "message": "Invalid image dimensions."
+    }
+  },
+  "error": {
+    "detail": {
+      "error_type": "api_usage_error",
+      "message": "Invalid image dimensions."
+    }
+  }
+}

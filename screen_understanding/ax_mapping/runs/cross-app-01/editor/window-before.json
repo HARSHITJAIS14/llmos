@@ -1,0 +1,15 @@
+{
+  "app_name": "Antigravity IDE",
+  "bounds": {
+    "height": 923.0,
+    "width": 1470.0,
+    "x": 0.0,
+    "y": 33.0
+  },
+  "id": "w-41245",
+  "is_focused": false,
+  "pid": 81080,
+  "process_instance": "macos-proc-v1:1792242716:240288",
+  "title": "YC \u2014 report.html",
+  "visible": false
+}

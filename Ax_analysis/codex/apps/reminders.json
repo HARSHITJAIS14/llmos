@@ -1,0 +1,595 @@
+{
+  "schema_version": "1.0",
+  "app_key": "reminders",
+  "identity": {
+    "name": "Reminders",
+    "bundle_id": "com.apple.reminders",
+    "bundle_id_match": "exact",
+    "framework": "appkit",
+    "secondary_frameworks": [
+      "swiftui"
+    ],
+    "framework_confidence": "medium",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "system app, 0 bundled frameworks, 0 framework hints"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.057 (5/88), native band"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "button 23, cell 15, treeitem 14, textfield 8, switch 5, layoutitem 1 of 88; 23 ax ids, 17 are _NS:<n>"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 9; interactive median depth 6, no webarea"
+      }
+    ]
+  },
+  "category": "productivity",
+  "fidelity": {
+    "default": {
+      "nodes": 88,
+      "max_depth": 9,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 102,
+      "named_nodes": 51,
+      "ref_count": 78,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 18,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 88,
+      "max_depth": 9,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": false,
+      "nodes_observed": 103,
+      "named_nodes": 51,
+      "ref_count": 78,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": null,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.0,
+    "default_score": 0.854,
+    "forced_score": 0.854,
+    "best_capture": "default",
+    "ladder_verdict": "navigate_partial"
+  },
+  "readiness": {
+    "default_rung": "R5_partial_prefix",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "background 88 nodes = foreground 88; 87/88 text equal; root not offscreen"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "no webarea"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "textfield_value",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "mixed",
+    "native_id": {
+      "coverage_interactive_pct": 39.3,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 75.9,
+      "with_bounds_unique_pct": 93.1,
+      "nth_required_roles": [
+        "switch",
+        "button"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "TTRMRemindersListCellView",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "reminder row",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TTRMRemindersListCompletedCellView",
+      "match": "exact",
+      "tier": "high",
+      "role": "cell",
+      "purpose": "completed reminders cell",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TTRMAccountsListsTableCellView",
+      "match": "exact",
+      "tier": "high",
+      "role": "unknown",
+      "purpose": "sidebar user list cell",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TTRMAccountsListsRecentlyDeletedCellView",
+      "match": "exact",
+      "tier": "high",
+      "role": "unknown",
+      "purpose": "sidebar recently deleted cell",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TTRMAccountsListsSuggestGroceriesCellView",
+      "match": "exact",
+      "tier": "high",
+      "role": "unknown",
+      "purpose": "sidebar suggested list cell",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "TipView",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "tip banner",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "xmark.circle.fill",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "close tip button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "Reminders",
+      "match": "exact",
+      "tier": "high",
+      "role": "layoutitem",
+      "purpose": "main list layout container",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:97",
+      "match": "exact",
+      "tier": "low",
+      "role": "switch",
+      "purpose": "reminder completion checkbox",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:31",
+      "match": "exact",
+      "tier": "low",
+      "role": "textfield",
+      "purpose": "reminder title field",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:41",
+      "match": "exact",
+      "tier": "low",
+      "role": "outline",
+      "purpose": "sidebar lists outline",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:13",
+      "match": "exact",
+      "tier": "low",
+      "role": "outline",
+      "purpose": "reminders list outline",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:37",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollarea",
+      "purpose": "sidebar scroll container",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:46",
+      "match": "exact",
+      "tier": "low",
+      "role": "button",
+      "purpose": "add suggested list button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:10",
+      "match": "exact",
+      "tier": "low",
+      "role": "window",
+      "purpose": "main window root",
+      "seen_in_captures": 3
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "text_entry": "set_value",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": false,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus"
+        ],
+        "count": 23,
+        "verb": "Click",
+        "note": "13/23 have Click; 0 disabled nodes, so disabled_keeps_click is the AppKit default"
+      },
+      {
+        "role": "switch",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "Toggle"
+        ],
+        "count": 5,
+        "verb": "Toggle",
+        "note": "completion checkbox, value '0'/'1'"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus",
+          "SetValue"
+        ],
+        "count": 8,
+        "verb": "SetValue",
+        "note": "7/8 editable; 0/8 TypeText; readonly summary has no actions"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 14,
+        "verb": "Click"
+      },
+      {
+        "role": "cell",
+        "actions": [
+          "Click"
+        ],
+        "count": 15,
+        "verb": "Click",
+        "note": "6/15 have Click"
+      },
+      {
+        "role": "group",
+        "actions": [
+          "Click"
+        ],
+        "count": 9,
+        "verb": "Click",
+        "note": "5 reminder-row groups have Click"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Select"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Scroll"
+      },
+      {
+        "role": "menubutton",
+        "actions": [
+          "SetFocus"
+        ],
+        "count": 1,
+        "note": "SetFocus only: no Click, no Expand"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "partial",
+    "recipes": [
+      {
+        "target": "list_item_label",
+        "match": "role==textfield and no name and parent.role==group and native_id=='_NS:31'",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-4",
+          "LAW-TXT-3"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role==switch and 'Toggle' in actions",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10",
+          "LAW-ACT-2"
+        ]
+      },
+      {
+        "target": "cell",
+        "match": "role==cell",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4",
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "statictext",
+        "match": "role==statictext",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==textfield under toolbar",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": false,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 2,
+    "offscreen_click": "forbidden",
+    "root_role_varies": true
+  },
+  "quirks": [
+    {
+      "kind": "enumeration_partial",
+      "detect": "complete==false and nodes_observed > n",
+      "workaround": "trust the delivered prefix; scroll the list outline or use search, then re-snapshot",
+      "severity": "high",
+      "observed": "88 delivered of 102 observed (default) / 103 (forced); 6 subtree_truncated markers on one root-to-cell path",
+      "laws": [
+        "LAW-STR-7",
+        "LAW-STR-8",
+        "LAW-LIFE-7"
+      ]
+    },
+    {
+      "kind": "drill_timeout",
+      "detect": "snapshot --root on a truncation-boundary ref fails",
+      "workaround": "never drill the boundary; scroll instead",
+      "severity": "low",
+      "observed": "4/4 drill requests failed",
+      "laws": [
+        "LAW-LIFE-7"
+      ]
+    },
+    {
+      "kind": "identity_in_value",
+      "detect": "role==textfield and no name and 'value' in node",
+      "workaround": "resolve reminders by textfield value",
+      "severity": "high",
+      "observed": "5/5 reminder titles in textfield value with no name",
+      "laws": [
+        "LAW-ID-4",
+        "LAW-TXT-3"
+      ]
+    },
+    {
+      "kind": "readonly_control_as_button",
+      "detect": "role==textfield and 'readonly' in states",
+      "workaround": "read it as a label (list name + count), never type",
+      "severity": "low",
+      "observed": "1 readonly named textfield, 0 actions",
+      "laws": [
+        "LAW-TXT-11"
+      ]
+    },
+    {
+      "kind": "mass_focused",
+      "detect": "count(nodes with 'focused') > 3",
+      "workaround": "real focus is the focused outline, not its items",
+      "severity": "low",
+      "observed": "15 focused nodes in 88",
+      "laws": [
+        "LAW-ACT-10"
+      ]
+    },
+    {
+      "kind": "menubutton_no_expand",
+      "detect": "role==menubutton and 'Expand' not in actions",
+      "workaround": "SetFocus then press Space via keyboard, or click by bounds after activation",
+      "severity": "low",
+      "observed": "1/1 menubutton has SetFocus only",
+      "laws": [
+        "LAW-ACT-3"
+      ]
+    },
+    {
+      "kind": "zero_area_clones",
+      "detect": "interactive node with width==0 or height==0",
+      "workaround": "drop before resolution; never click",
+      "severity": "low",
+      "observed": "2 zero-area interactive nodes",
+      "laws": [
+        "LAW-ID-7"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs from cached id",
+      "workaround": "re-pick the window every session",
+      "severity": "low",
+      "observed": "w-28179 default, w-28759 forced, same 88-node content",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "default; trust the partial prefix",
+      "tested": true
+    },
+    {
+      "channel": "app_api",
+      "when": "need every reminder beyond the enumeration limit",
+      "precondition": "EventKit / AppleScript automation permission",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "menubutton without Expand, or Cmd+N new reminder",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "detail popover fields not in tree",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:59:09+05:30",
+      "2026-08-30T21:19:09+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "reminders/meta.json",
+      "reminders/windows.json",
+      "reminders/skeleton.json",
+      "reminders/full.json",
+      "reminders/forced.json",
+      "reminders/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

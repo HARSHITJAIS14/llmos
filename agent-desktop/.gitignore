@@ -1,0 +1,103 @@
+# Build
+/target/
+**/*.rs.bk
+
+# E2E fixture build artifact (compiled by tests/fixture-app/build.sh on demand)
+/tests/fixture-app/build/
+
+# Cargo
+!Cargo.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vim/
+
+# Claude Code
+.claude/
+.agents/
+AGENTS.md
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Runtime
+*.pid
+*.sock
+
+# RefMap (generated at runtime)
+.agent-desktop/
+
+# Coverage
+*.profraw
+*.profdata
+lcov.info
+tarpaulin-report.html
+coverage/
+
+# Generated review and benchmark evidence
+/benchmarks/locator-resolution/results/
+/regression_findings.json
+
+# Binary artifacts
+*.dylib
+*.so
+*.dll
+*.exe
+
+# Package distribution
+dist/
+*.tar.gz
+*.zip
+*.dmg
+*.msi
+*.deb
+*.rpm
+*.snap
+
+# npm (platform binaries downloaded by postinstall)
+npm/bin/agent-desktop-*
+npm/node_modules/
+node_modules/
+
+# Compound Engineering
+skills-lock.json
+docs/*
+!docs/architecture.excalidraw
+!docs/architecture.png
+!docs/faq.md
+!docs/json-output.md
+!docs/phases.md
+!docs/solutions/
+!docs/solutions/**
+!docs/plans/
+!docs/plans/**
+!docs/brainstorms/
+!docs/brainstorms/**
+
+# macOS resource forks — never commit
+._*
+.DS_Store
+todos/
+.cursor/
+.context/
+rust_out
+
+# trace export artifacts must never land in the repo tree
+trace-*.html
+__pycache__/
+*.py[cod]

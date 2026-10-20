@@ -1,0 +1,33 @@
+[
+  {
+    "app_name": "Notes",
+    "bounds": {
+      "height": 500.0,
+      "width": 500.0,
+      "x": 0.0,
+      "y": 940.0
+    },
+    "id": "w-28186",
+    "is_focused": false,
+    "pid": 26055,
+    "process_instance": "macos-proc-v1:1788103734:609425",
+    "title": "Notes",
+    "visible": false
+  },
+  {
+    "app_name": "Notes",
+    "bounds": {
+      "height": 660.0,
+      "width": 1000.0,
+      "x": 780.0,
+      "y": 318.0
+    },
+    "id": "w-28183",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26055,
+    "process_instance": "macos-proc-v1:1788103734:609425",
+    "title": "My writings",
+    "visible": false
+  }
+]

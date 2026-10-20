@@ -1,0 +1,433 @@
+<!doctype html><meta charset="utf-8"><title>Recursive screen interpretation</title><style>body{font:16px system-ui;background:#f5f5f5;max-width:1200px;margin:32px auto;padding:16px}img{max-width:100%;height:auto}article{background:white;padding:24px;margin:24px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}</style><h1>Recursive screen interpretation</h1><p>Model hypotheses; inspect evidence and uncertainty.</p><img src="overview.png"><h2>Reconciled context</h2><pre>{
+  &quot;description&quot;: &quot;A macOS browser window showing a YouTube watch page with dark theme enabled. The video playing features a Founders Fund portfolio slide, accompanied by video metadata, channel details for &#x27;Sourcery with Molly O&#x27;Shea&#x27;, interaction controls, and a right-hand sidebar of recommended videos.&quot;,
+  &quot;regions&quot;: [
+    {
+      &quot;id&quot;: &quot;r0&quot;,
+      &quot;context&quot;: &quot;The overall browser window displaying the YouTube video watch page.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r1&quot;,
+      &quot;context&quot;: &quot;The main video player displaying a presentation slide with portfolio company logos.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r2&quot;,
+      &quot;context&quot;: &quot;The video metadata section below the player containing title, channel information, action buttons, and description.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r3&quot;,
+      &quot;context&quot;: &quot;The right-hand sidebar displaying category filter chips and recommended video cards.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;r4&quot;,
+      &quot;context&quot;: &quot;The top YouTube header bar containing logo, search bar, and user account actions.&quot;
+    }
+  ],
+  &quot;conflicts&quot;: [],
+  &quot;unknowns&quot;: []
+}</pre><article id="r0"><h2>r0: browser_youtube_page</h2><img src="crops/r0.png"><pre>{
+  &quot;id&quot;: &quot;r0&quot;,
+  &quot;parent&quot;: null,
+  &quot;depth&quot;: 0,
+  &quot;label&quot;: &quot;browser_youtube_page&quot;,
+  &quot;box&quot;: [
+    0,
+    0,
+    2398,
+    1830
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;crop_file&quot;: &quot;crops/r0.png&quot;,
+  &quot;crop_box&quot;: [
+    0,
+    0,
+    2398,
+    1830
+  ],
+  &quot;observations&quot;: [
+    &quot;macOS Safari-style browser window showing YouTube Premium on desktop&quot;,
+    &quot;The video currently playing displays a Founders Fund portfolio slide with logos including Polymarket, Lighter, Figma, Varda, General Matter, Impulse, Hadrian&quot;,
+    &quot;Sidebar recommendations column on the right&quot;,
+    &quot;Video metadata and channel bar beneath the player&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;Desktop browser view displaying a YouTube watch page.&quot;
+  ],
+  &quot;uncertainties&quot;: [],
+  &quot;proposal_issues&quot;: []
+}</pre></article><article id="r1"><h2>r1: video_player_container</h2><img src="crops/r1.png"><pre>{
+  &quot;id&quot;: &quot;r1&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_player_container&quot;,
+  &quot;box&quot;: [
+    144,
+    390,
+    1549,
+    1180
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;reason&quot;: &quot;Main video player area displaying video frame&quot;,
+  &quot;crop_file&quot;: &quot;crops/r1.png&quot;,
+  &quot;crop_box&quot;: [
+    97,
+    343,
+    1596,
+    1227
+  ],
+  &quot;observations&quot;: [
+    &quot;Rounded rectangle container displaying the playing video frame&quot;,
+    &quot;White background within the video displaying company logos (Polymarket, Lighter, Figma, Varda, General Matter, Impulse Space, Hadrian, Enter) and header &#x27;FOUNDERS FUND&#x27;&quot;,
+    &quot;Overlay text reading &#x27;AT THE BEST PRICE POSSIBLE&#x27; in serif italic font over bottom logos&quot;,
+    &quot;Sourcery channel watermark icon in bottom right of the video screen&quot;,
+    &quot;A portion of the video title visible immediately below the player container&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;Main HTML5 video player element on YouTube desktop watch page.&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Player controls (play/pause, seekbar) are currently hidden/auto-faded.&quot;
+  ],
+  &quot;proposal_issues&quot;: [
+    &quot;Region is too small or outside its parent&quot;
+  ]
+}</pre></article><article id="r2"><h2>r2: video_details_and_metadata</h2><img src="crops/r2.png"><pre>{
+  &quot;id&quot;: &quot;r2&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_details_and_metadata&quot;,
+  &quot;box&quot;: [
+    144,
+    1215,
+    1549,
+    1629
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;reason&quot;: &quot;Video title, channel info, action buttons, and description&quot;,
+  &quot;crop_file&quot;: &quot;crops/r2.png&quot;,
+  &quot;crop_box&quot;: [
+    119,
+    1190,
+    1574,
+    1654
+  ],
+  &quot;observations&quot;: [
+    &quot;Video title: &#x27;Brian Singerman: \&quot;If SpaceX Didn&#x27;t Work, Founders Fund Wouldn&#x27;t Exist\&quot;&#x27; with an &#x27;Auto-dubbed&#x27; badge beneath it.&quot;,
+    &quot;Channel info showing profile icon &#x27;S&#x27;, title &#x27;Sourcery with Molly O&#x27;Shea&#x27;, and subscriber count &#x27;68.8k subscribers&#x27;.&quot;,
+    &quot;Interactive action buttons: &#x27;Subscribe&#x27;, like button showing &#x27;314&#x27;, dislike button, &#x27;Share&#x27; button, and an overflow menu &#x27;...&#x27; button.&quot;,
+    &quot;Collapsible video description box with stats &#x27;12k views 2 months ago Sourcery&#x27; and several lines of text summarizing the interview, ending with &#x27;...more&#x27;.&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;Primary information section below a YouTube video player providing context, channel subscription controls, social engagement actions, and expanded description.&quot;
+  ],
+  &quot;uncertainties&quot;: [],
+  &quot;proposal_issues&quot;: []
+}</pre></article><article id="r3"><h2>r3: sidebar_recommendations</h2><img src="crops/r3.png"><pre>{
+  &quot;id&quot;: &quot;r3&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;sidebar_recommendations&quot;,
+  &quot;box&quot;: [
+    1575,
+    390,
+    2213,
+    1649
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;reason&quot;: &quot;Related video recommendation list on the right rail&quot;,
+  &quot;crop_file&quot;: &quot;crops/r3.png&quot;,
+  &quot;crop_box&quot;: [
+    1537,
+    352,
+    2251,
+    1687
+  ],
+  &quot;observations&quot;: [
+    &quot;A column of recommended/related video items on the right side of the YouTube watch interface&quot;,
+    &quot;Top filter chip row with options: &#x27;All&#x27;, &#x27;From the series&#x27;, &#x27;From Source...&#x27;&quot;,
+    &quot;Five video recommendation cards stacked vertically, each containing a thumbnail on the left, video title, channel name (&#x27;Sourcery with Moll...&#x27;), view counts, relative timestamps (&#x27;2 mo ago&#x27;, &#x27;3 mo ago&#x27;), and an &#x27;Auto-dubbed&#x27; badge&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;Related video recommendation list tailored to the currently playing video/series.&quot;
+  ],
+  &quot;uncertainties&quot;: [],
+  &quot;proposal_issues&quot;: []
+}</pre></article><article id="r4"><h2>r4: youtube_header_bar</h2><img src="crops/r4.png"><pre>{
+  &quot;id&quot;: &quot;r4&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;youtube_header_bar&quot;,
+  &quot;box&quot;: [
+    144,
+    269,
+    2213,
+    366
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;reason&quot;: &quot;YouTube main header with logo, search input, and profile icon&quot;,
+  &quot;crop_file&quot;: &quot;crops/r4.png&quot;,
+  &quot;crop_box&quot;: [
+    132,
+    257,
+    2225,
+    378
+  ],
+  &quot;observations&quot;: [
+    &quot;Top navigation bar of YouTube interface with dark theme&quot;,
+    &quot;Left side features a hamburger menu button and the YouTube Premium logo with &#x27;IN&#x27; region tag&quot;,
+    &quot;Center features a search bar with placeholder &#x27;Search&#x27; and a magnifying glass search submit button&quot;,
+    &quot;Right of the search bar is a circular voice search button (microphone icon)&quot;,
+    &quot;Right side features a &#x27;+ Create&#x27; pill button, a notification bell icon with a red &#x27;9+&#x27; badge, and a circular user profile avatar with letter &#x27;H&#x27;&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;Main application header providing site-wide navigation, search, content creation, notification, and profile management functions.&quot;
+  ],
+  &quot;uncertainties&quot;: [],
+  &quot;proposal_issues&quot;: []
+}</pre></article><article id="r5"><h2>r5: video_display_frame</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r5&quot;,
+  &quot;parent&quot;: &quot;r1&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_display_frame&quot;,
+  &quot;box&quot;: [
+    145,
+    391,
+    1548,
+    1153
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;The core video presentation canvas itself&quot;
+}</pre></article><article id="r6"><h2>r6: channel_watermark</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r6&quot;,
+  &quot;parent&quot;: &quot;r1&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;channel_watermark&quot;,
+  &quot;box&quot;: [
+    1443,
+    1028,
+    1526,
+    1109
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Branding overlay in player bottom right&quot;
+}</pre></article><article id="r7"><h2>r7: video_title</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r7&quot;,
+  &quot;parent&quot;: &quot;r2&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_title&quot;,
+  &quot;box&quot;: [
+    145,
+    1215,
+    1414,
+    1245
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Clearly legible headline text for the video.&quot;
+}</pre></article><article id="r8"><h2>r8: channel_info_bar</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r8&quot;,
+  &quot;parent&quot;: &quot;r2&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;channel_info_bar&quot;,
+  &quot;box&quot;: [
+    145,
+    1308,
+    876,
+    1380
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Channel branding, avatar, name, and subscribe button.&quot;
+}</pre></article><article id="r9"><h2>r9: engagement_controls</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r9&quot;,
+  &quot;parent&quot;: &quot;r2&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;engagement_controls&quot;,
+  &quot;box&quot;: [
+    956,
+    1308,
+    1548,
+    1380
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Set of user engagement action buttons (like/dislike pill, share, options).&quot;
+}</pre></article><article id="r10"><h2>r10: video_description_box</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r10&quot;,
+  &quot;parent&quot;: &quot;r2&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_description_box&quot;,
+  &quot;box&quot;: [
+    145,
+    1409,
+    1548,
+    1602
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Standard expandable YouTube description panel showing view count, date, and summary text.&quot;
+}</pre></article><article id="r11"><h2>r11: filter_chip_bar</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r11&quot;,
+  &quot;parent&quot;: &quot;r3&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;filter_chip_bar&quot;,
+  &quot;box&quot;: [
+    1575,
+    390,
+    2213,
+    456
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Filter chips for narrowing recommended videos&quot;
+}</pre></article><article id="r12"><h2>r12: video_card_item</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r12&quot;,
+  &quot;parent&quot;: &quot;r3&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_card_item&quot;,
+  &quot;box&quot;: [
+    1575,
+    465,
+    2213,
+    680
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;First recommended video card&quot;
+}</pre></article><article id="r13"><h2>r13: video_card_item</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r13&quot;,
+  &quot;parent&quot;: &quot;r3&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_card_item&quot;,
+  &quot;box&quot;: [
+    1575,
+    696,
+    2213,
+    911
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Second recommended video card&quot;
+}</pre></article><article id="r14"><h2>r14: video_card_item</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r14&quot;,
+  &quot;parent&quot;: &quot;r3&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_card_item&quot;,
+  &quot;box&quot;: [
+    1575,
+    929,
+    2213,
+    1144
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Third recommended video card&quot;
+}</pre></article><article id="r15"><h2>r15: video_card_item</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r15&quot;,
+  &quot;parent&quot;: &quot;r3&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_card_item&quot;,
+  &quot;box&quot;: [
+    1575,
+    1160,
+    2213,
+    1375
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Fourth recommended video card&quot;
+}</pre></article><article id="r16"><h2>r16: video_card_item</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r16&quot;,
+  &quot;parent&quot;: &quot;r3&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_card_item&quot;,
+  &quot;box&quot;: [
+    1575,
+    1392,
+    2213,
+    1607
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Fifth recommended video card&quot;
+}</pre></article><article id="r17"><h2>r17: menu_button</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r17&quot;,
+  &quot;parent&quot;: &quot;r4&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;menu_button&quot;,
+  &quot;box&quot;: [
+    170,
+    299,
+    216,
+    336
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Hamburger menu icon button to toggle navigation sidebar&quot;
+}</pre></article><article id="r18"><h2>r18: youtube_logo</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r18&quot;,
+  &quot;parent&quot;: &quot;r4&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;youtube_logo&quot;,
+  &quot;box&quot;: [
+    295,
+    292,
+    565,
+    342
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;YouTube Premium logo linking to home&quot;
+}</pre></article><article id="r19"><h2>r19: search_bar</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r19&quot;,
+  &quot;parent&quot;: &quot;r4&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;search_bar&quot;,
+  &quot;box&quot;: [
+    712,
+    274,
+    1620,
+    360
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Text input field and search button combination&quot;
+}</pre></article><article id="r20"><h2>r20: voice_search_button</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r20&quot;,
+  &quot;parent&quot;: &quot;r4&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;voice_search_button&quot;,
+  &quot;box&quot;: [
+    1672,
+    274,
+    1756,
+    360
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Microphone button for voice query&quot;
+}</pre></article><article id="r21"><h2>r21: create_button</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r21&quot;,
+  &quot;parent&quot;: &quot;r4&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;create_button&quot;,
+  &quot;box&quot;: [
+    1808,
+    274,
+    1997,
+    360
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Create video or post button&quot;
+}</pre></article><article id="r22"><h2>r22: notifications_button</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r22&quot;,
+  &quot;parent&quot;: &quot;r4&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;notifications_button&quot;,
+  &quot;box&quot;: [
+    2032,
+    290,
+    2104,
+    345
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Bell icon for notification panel with unread badge&quot;
+}</pre></article><article id="r23"><h2>r23: user_profile_avatar</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r23&quot;,
+  &quot;parent&quot;: &quot;r4&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;user_profile_avatar&quot;,
+  &quot;box&quot;: [
+    2137,
+    289,
+    2200,
+    346
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;User account avatar button&quot;
+}</pre></article>

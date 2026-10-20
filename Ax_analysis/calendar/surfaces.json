@@ -1,0 +1,15 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "list-surfaces",
+  "data": {
+    "pid": 26053,
+    "surfaces": [
+      {
+        "id": "focused-window",
+        "title": "Calendar",
+        "type": "alert"
+      }
+    ]
+  }
+}

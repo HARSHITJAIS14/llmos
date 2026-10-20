@@ -1,0 +1,162 @@
+<!doctype html><meta charset="utf-8"><title>Qwen hosted-provider benchmark</title><style>body{font:16px system-ui;background:#f4f5f7;max-width:1450px;margin:32px auto;padding:16px}section{background:white;padding:24px;margin:20px 0}table{border-collapse:collapse;width:100%}td,th{padding:10px;text-align:left;border-bottom:1px solid #ddd}img{max-width:100%}pre{white-space:pre-wrap;overflow-wrap:anywhere}.note{background:#fff4db;padding:16px}</style><h1>Qwen3.8 27B: hosted inference</h1><p class="note">No tested request met 500 ms. Timings include network, routing, image upload and answer generation from this Mac. They exclude image preparation, detection and OCR. Three repeats per task/provider are insufficient for p95/p99 or worst-case guarantees.</p><section><h2>Latency with reasoning disabled</h2><table><tr><th>Provider</th><th>Task</th><th>Median total</th><th>Observed range</th><th>Median first text</th></tr><tr><td>ModelRun</td><td>single_icon</td><td>0.610 s</td><td>0.575–0.650 s</td><td>0.601 s</td></tr><tr><td>ModelRun</td><td>icons</td><td>1.531 s</td><td>1.403–2.335 s</td><td>1.132 s</td></tr><tr><td>ModelRun</td><td>screen</td><td>3.322 s</td><td>2.222–4.226 s</td><td>2.862 s</td></tr><tr><td>Cerebras</td><td>single_icon</td><td>0.781 s</td><td>0.634–0.908 s</td><td>0.771 s</td></tr><tr><td>Cerebras</td><td>icons</td><td>1.151 s</td><td>1.076–2.531 s</td><td>1.091 s</td></tr><tr><td>Cerebras</td><td>screen</td><td>3.028 s</td><td>2.142–24.040 s</td><td>2.948 s</td></tr><tr><td>DeepInfra</td><td>single_icon</td><td>0.691 s</td><td>0.543–0.755 s</td><td>0.677 s</td></tr><tr><td>DeepInfra</td><td>icons</td><td>2.975 s</td><td>2.400–3.145 s</td><td>0.827 s</td></tr><tr><td>DeepInfra</td><td>screen</td><td>4.459 s</td><td>3.827–8.272 s</td><td>1.905 s</td></tr></table><p>Persistent HTTPS connection within each provider; fallback disabled; no concurrent requests or retries. All 18 multi-label/screen responses parsed as JSON, and all icon-label responses returned the eight requested IDs. All 27 vision responses finished normally. This validates format, not factual accuracy.</p></section><section><h2>Eight controls with browser context</h2><img src="icon-context.png"><table><tr><th>ID</th><th>Manual reference</th><th>ModelRun, first response</th><th>Cerebras, first response</th><th>DeepInfra, first response</th></tr><tr><td>38</td><td>Back/forward navigation</td><td>Navigate forward and backward</td><td>Navigate forward</td><td>Navigation controls</td></tr><tr><td>39</td><td>Sidebar / sidebar-menu control</td><td>Toggle sidebar</td><td>Manage tabs</td><td>Sidebar toggle</td></tr><tr><td>41</td><td>Search</td><td>Search</td><td>Search</td><td>Search</td></tr><tr><td>47</td><td>Notifications</td><td>View notifications</td><td>View notifications</td><td>Notifications</td></tr><tr><td>48</td><td>Profile/account</td><td>View profile</td><td>User profile</td><td>Profile menu</td></tr><tr><td>53</td><td>Window close/minimize/fullscreen controls</td><td>Window controls</td><td>Window controls</td><td>Window controls</td></tr><tr><td>54</td><td>Tab overview</td><td>Manage tabs</td><td>New tab</td><td>Tab overview</td></tr><tr><td>58</td><td>YouTube navigation menu</td><td>Open menu</td><td>Main menu</td><td>Main menu</td></tr></table><p>ModelRun labels were broadly correct across the three repeats, with “Manage tabs” less specific than “Tab overview.” Cerebras consistently mislabeled sidebar and tab overview, and named only one direction for the paired navigation control. DeepInfra identified tab overview twice but said “New tab” on repeat 3. The same public model is being served with different endpoint settings: metadata lists ModelRun FP4, Cerebras FP16, DeepInfra BF16. This experiment cannot isolate why their outputs differ.</p><p>This input supplies browser context and larger pixels than the earlier isolated 64-pixel Florence crops. It does not isolate model quality from the effect of context/resolution.</p></section><section><h2>Full-screen context outputs</h2><h3>ModelRun</h3><pre>{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser navigation and tabs&quot;,
+    &quot;YouTube header with search and user controls&quot;,
+    &quot;Main video player and description panel&quot;,
+    &quot;Related video sidebar&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Exact video playback state&quot;
+  ]
+}</pre><h3>Cerebras</h3><pre>{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser toolbar and tabs&quot;,
+    &quot;YouTube header with search and navigation&quot;,
+    &quot;Main video player area&quot;,
+    &quot;Video title, channel info, and action buttons&quot;,
+    &quot;Related videos sidebar&quot;
+  ],
+  &quot;uncertainties&quot;: []
+}</pre><h3>DeepInfra</h3><pre>{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser navigation and tabs&quot;,
+    &quot;YouTube header with search and profile&quot;,
+    &quot;Main video player area&quot;,
+    &quot;Video title, channel info, and action buttons&quot;,
+    &quot;Right sidebar video recommendations&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Specific video playback state (paused/playing)&quot;
+  ]
+}</pre></section><section><h2>Single-icon latency floor</h2><img src="../qwen-single-icon-01/single-icon.png"><p>One small crop, one-word answer, maximum 8 output tokens. This deliberately reduced task is not an equivalent screen-understanding benchmark. All nine answers were Search; completed-request times ranged from 0.543 to 0.908 seconds.</p></section><section><h2>Reasoning example</h2><p>Both text turns succeeded via Cerebras: 3.308 s then 0.696 s. Assistant reasoning_details were passed back unmodified and both calls included authentication headers. Reasoning content is not displayed here. Vision tests disabled reasoning; reported reasoning-token usage was zero.</p><p>Total API-reported cost for 29 calls: $0.01625. Reported by OpenRouter, not an independently reconciled invoice.</p></section><section><h2>All vision responses</h2><details><summary>ModelRun / icons / trial 1: 2.335 s</summary><pre>```json
+{&quot;labels&quot;:[{&quot;id&quot;:38,&quot;label&quot;:&quot;Navigate forward and backward&quot;},{&quot;id&quot;:39,&quot;label&quot;:&quot;Toggle sidebar&quot;},{&quot;id&quot;:41,&quot;label&quot;:&quot;Search&quot;},{&quot;id&quot;:47,&quot;label&quot;:&quot;View notifications&quot;},{&quot;id&quot;:48,&quot;label&quot;:&quot;View profile&quot;},{&quot;id&quot;:53,&quot;label&quot;:&quot;Window controls&quot;},{&quot;id&quot;:54,&quot;label&quot;:&quot;Manage tabs&quot;},{&quot;id&quot;:58,&quot;label&quot;:&quot;Open menu&quot;}]}
+```</pre></details><details><summary>ModelRun / icons / trial 2: 1.531 s</summary><pre>```json
+{&quot;labels&quot;:[{&quot;id&quot;:38,&quot;label&quot;:&quot;Navigate forward and backward&quot;},{&quot;id&quot;:39,&quot;label&quot;:&quot;Toggle sidebar&quot;},{&quot;id&quot;:41,&quot;label&quot;:&quot;Search&quot;},{&quot;id&quot;:47,&quot;label&quot;:&quot;View notifications&quot;},{&quot;id&quot;:48,&quot;label&quot;:&quot;View profile&quot;},{&quot;id&quot;:53,&quot;label&quot;:&quot;Window controls&quot;},{&quot;id&quot;:54,&quot;label&quot;:&quot;Manage tabs&quot;},{&quot;id&quot;:58,&quot;label&quot;:&quot;Open main menu&quot;}]}
+```</pre></details><details><summary>ModelRun / icons / trial 3: 1.403 s</summary><pre>```json
+{&quot;labels&quot;:[{&quot;id&quot;:38,&quot;label&quot;:&quot;Navigate forward and backward&quot;},{&quot;id&quot;:39,&quot;label&quot;:&quot;Toggle sidebar&quot;},{&quot;id&quot;:41,&quot;label&quot;:&quot;Search&quot;},{&quot;id&quot;:47,&quot;label&quot;:&quot;View notifications&quot;},{&quot;id&quot;:48,&quot;label&quot;:&quot;View profile&quot;},{&quot;id&quot;:53,&quot;label&quot;:&quot;Window controls&quot;},{&quot;id&quot;:54,&quot;label&quot;:&quot;Manage tabs&quot;},{&quot;id&quot;:58,&quot;label&quot;:&quot;Open main menu&quot;}]}
+```</pre></details><details><summary>ModelRun / screen / trial 1: 4.226 s</summary><pre>```json
+{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser navigation and tabs&quot;,
+    &quot;YouTube header with search and user controls&quot;,
+    &quot;Main video player and description panel&quot;,
+    &quot;Related video sidebar&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Exact video playback state&quot;
+  ]
+}
+```</pre></details><details><summary>ModelRun / screen / trial 2: 3.322 s</summary><pre>```json
+{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser navigation bar&quot;,
+    &quot;YouTube header with search and user profile&quot;,
+    &quot;Main video player area displaying sponsor logos&quot;,
+    &quot;Video metadata, channel info, and action buttons&quot;,
+    &quot;Right sidebar with recommended video list&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Exact video playback state&quot;,
+    &quot;Hidden controls within the video player&quot;
+  ]
+}
+```</pre></details><details><summary>ModelRun / screen / trial 3: 2.222 s</summary><pre>```json
+{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser toolbar and tabs&quot;,
+    &quot;YouTube header with search and navigation&quot;,
+    &quot;Main video player and description panel&quot;,
+    &quot;Related video suggestions sidebar&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Specific video playback state&quot;
+  ]
+}
+```</pre></details><details><summary>Cerebras / icons / trial 1: 2.531 s</summary><pre>```json
+{&quot;labels&quot;:[{&quot;id&quot;:38,&quot;label&quot;:&quot;Navigate forward&quot;},{&quot;id&quot;:39,&quot;label&quot;:&quot;Manage tabs&quot;},{&quot;id&quot;:41,&quot;label&quot;:&quot;Search&quot;},{&quot;id&quot;:47,&quot;label&quot;:&quot;View notifications&quot;},{&quot;id&quot;:48,&quot;label&quot;:&quot;User profile&quot;},{&quot;id&quot;:53,&quot;label&quot;:&quot;Window controls&quot;},{&quot;id&quot;:54,&quot;label&quot;:&quot;New tab&quot;},{&quot;id&quot;:58,&quot;label&quot;:&quot;Main menu&quot;}]}
+```</pre></details><details><summary>Cerebras / icons / trial 2: 1.151 s</summary><pre>```json
+{&quot;labels&quot;:[{&quot;id&quot;:38,&quot;label&quot;:&quot;Navigate forward&quot;},{&quot;id&quot;:39,&quot;label&quot;:&quot;Manage tabs&quot;},{&quot;id&quot;:41,&quot;label&quot;:&quot;Search&quot;},{&quot;id&quot;:47,&quot;label&quot;:&quot;View notifications&quot;},{&quot;id&quot;:48,&quot;label&quot;:&quot;User profile&quot;},{&quot;id&quot;:53,&quot;label&quot;:&quot;Window controls&quot;},{&quot;id&quot;:54,&quot;label&quot;:&quot;New tab&quot;},{&quot;id&quot;:58,&quot;label&quot;:&quot;Main menu&quot;}]}
+```</pre></details><details><summary>Cerebras / icons / trial 3: 1.076 s</summary><pre>```json
+{&quot;labels&quot;:[{&quot;id&quot;:38,&quot;label&quot;:&quot;Navigate forward&quot;},{&quot;id&quot;:39,&quot;label&quot;:&quot;Manage tabs&quot;},{&quot;id&quot;:41,&quot;label&quot;:&quot;Search&quot;},{&quot;id&quot;:47,&quot;label&quot;:&quot;View notifications&quot;},{&quot;id&quot;:48,&quot;label&quot;:&quot;User profile&quot;},{&quot;id&quot;:53,&quot;label&quot;:&quot;Window controls&quot;},{&quot;id&quot;:54,&quot;label&quot;:&quot;New tab&quot;},{&quot;id&quot;:58,&quot;label&quot;:&quot;Main menu&quot;}]}
+```</pre></details><details><summary>Cerebras / screen / trial 1: 24.040 s</summary><pre>```json
+{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser toolbar and tabs&quot;,
+    &quot;YouTube header with search and navigation&quot;,
+    &quot;Main video player area&quot;,
+    &quot;Video title, channel info, and action buttons&quot;,
+    &quot;Related videos sidebar&quot;
+  ],
+  &quot;uncertainties&quot;: []
+}
+```</pre></details><details><summary>Cerebras / screen / trial 2: 3.028 s</summary><pre>```json
+{&quot;app&quot;:&quot;YouTube&quot;,&quot;page&quot;:&quot;Video watch page&quot;,&quot;regions&quot;:[&quot;Browser toolbar and tabs&quot;,&quot;YouTube header with search and navigation&quot;,&quot;Main video player area&quot;,&quot;Video title, channel info and action buttons&quot;,&quot;Sidebar with related video suggestions&quot;],&quot;uncertainties&quot;:[&quot;Exact video playback state not visible&quot;,&quot;Some sidebar video titles are truncated&quot;]}
+```</pre></details><details><summary>Cerebras / screen / trial 3: 2.142 s</summary><pre>```json
+{&quot;app&quot;:&quot;YouTube&quot;,&quot;page&quot;:&quot;Video watch page&quot;,&quot;regions&quot;:[&quot;Browser toolbar and tabs&quot;,&quot;YouTube header with search and navigation&quot;,&quot;Main video player with sponsor logos&quot;,&quot;Video title, channel info, and action buttons&quot;,&quot;Description panel&quot;,&quot;Upnext sidebar with recommended videos&quot;],&quot;uncertainties&quot;:[&quot;Exact video playback state (paused/playing) not determinable from still image&quot;]}
+```</pre></details><details><summary>DeepInfra / icons / trial 1: 2.975 s</summary><pre>```json
+{&quot;labels&quot;: [{&quot;id&quot;: 38, &quot;label&quot;: &quot;Navigation controls&quot;}, {&quot;id&quot;: 39, &quot;label&quot;: &quot;Sidebar toggle&quot;}, {&quot;id&quot;: 41, &quot;label&quot;: &quot;Search&quot;}, {&quot;id&quot;: 47, &quot;label&quot;: &quot;Notifications&quot;}, {&quot;id&quot;: 48, &quot;label&quot;: &quot;Profile menu&quot;}, {&quot;id&quot;: 53, &quot;label&quot;: &quot;Window controls&quot;}, {&quot;id&quot;: 54, &quot;label&quot;: &quot;Tab overview&quot;}, {&quot;id&quot;: 58, &quot;label&quot;: &quot;Main menu&quot;}]}
+```</pre></details><details><summary>DeepInfra / icons / trial 2: 3.145 s</summary><pre>```json
+{&quot;labels&quot;: [{&quot;id&quot;: 38, &quot;label&quot;: &quot;Navigation controls&quot;}, {&quot;id&quot;: 39, &quot;label&quot;: &quot;Sidebar toggle&quot;}, {&quot;id&quot;: 41, &quot;label&quot;: &quot;Search&quot;}, {&quot;id&quot;: 47, &quot;label&quot;: &quot;Notifications&quot;}, {&quot;id&quot;: 48, &quot;label&quot;: &quot;Profile menu&quot;}, {&quot;id&quot;: 53, &quot;label&quot;: &quot;Window controls&quot;}, {&quot;id&quot;: 54, &quot;label&quot;: &quot;Tab overview&quot;}, {&quot;id&quot;: 58, &quot;label&quot;: &quot;Main menu&quot;}]}
+```</pre></details><details><summary>DeepInfra / icons / trial 3: 2.400 s</summary><pre>```json
+{&quot;labels&quot;: [{&quot;id&quot;: 38, &quot;label&quot;: &quot;Navigation controls&quot;}, {&quot;id&quot;: 39, &quot;label&quot;: &quot;Sidebar toggle&quot;}, {&quot;id&quot;: 41, &quot;label&quot;: &quot;Search&quot;}, {&quot;id&quot;: 47, &quot;label&quot;: &quot;Notifications&quot;}, {&quot;id&quot;: 48, &quot;label&quot;: &quot;Profile menu&quot;}, {&quot;id&quot;: 53, &quot;label&quot;: &quot;Window controls&quot;}, {&quot;id&quot;: 54, &quot;label&quot;: &quot;New tab&quot;}, {&quot;id&quot;: 58, &quot;label&quot;: &quot;Main menu&quot;}]}
+```</pre></details><details><summary>DeepInfra / screen / trial 1: 8.272 s</summary><pre>```json
+{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser navigation and tabs&quot;,
+    &quot;YouTube header with search and profile&quot;,
+    &quot;Main video player area&quot;,
+    &quot;Video title, channel info, and action buttons&quot;,
+    &quot;Right sidebar video recommendations&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Specific video playback state (paused/playing)&quot;
+  ]
+}
+```</pre></details><details><summary>DeepInfra / screen / trial 2: 3.827 s</summary><pre>```json
+{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser navigation and tabs&quot;,
+    &quot;YouTube header with search and profile&quot;,
+    &quot;Main video player area&quot;,
+    &quot;Video title, channel info, and action buttons&quot;,
+    &quot;Right sidebar video recommendations&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Specific video playback state&quot;
+  ]
+}
+```</pre></details><details><summary>DeepInfra / screen / trial 3: 4.459 s</summary><pre>```json
+{
+  &quot;app&quot;: &quot;YouTube&quot;,
+  &quot;page&quot;: &quot;Video Watch Page&quot;,
+  &quot;regions&quot;: [
+    &quot;Browser navigation and tabs&quot;,
+    &quot;YouTube header with search and profile&quot;,
+    &quot;Main video player area&quot;,
+    &quot;Video title, channel info, and action buttons&quot;,
+    &quot;Related videos sidebar&quot;
+  ],
+  &quot;uncertainties&quot;: [
+    &quot;Specific video playback state&quot;,
+    &quot;Hidden controls within the video player&quot;
+  ]
+}
+```</pre></details><details><summary>ModelRun / single_icon / trial 1: 0.575 s</summary><pre>Search</pre></details><details><summary>ModelRun / single_icon / trial 2: 0.610 s</summary><pre>Search</pre></details><details><summary>ModelRun / single_icon / trial 3: 0.650 s</summary><pre>Search</pre></details><details><summary>Cerebras / single_icon / trial 1: 0.908 s</summary><pre> search</pre></details><details><summary>Cerebras / single_icon / trial 2: 0.781 s</summary><pre> search</pre></details><details><summary>Cerebras / single_icon / trial 3: 0.634 s</summary><pre> search</pre></details><details><summary>DeepInfra / single_icon / trial 1: 0.691 s</summary><pre>Search</pre></details><details><summary>DeepInfra / single_icon / trial 2: 0.755 s</summary><pre>Search</pre></details><details><summary>DeepInfra / single_icon / trial 3: 0.543 s</summary><pre>Search</pre></details></section>

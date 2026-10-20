@@ -1,0 +1,67 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Antigravity IDE",
+    "complete": true,
+    "ref_count": 3,
+    "snapshot_id": "s2yq6qmn8mf083",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "name": "YC \u2014 CLI tool integrations fo\u2026",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2yq6qmn8mf083:e1",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s2yq6qmn8mf083:e2",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s2yq6qmn8mf083:e3",
+          "role": "button"
+        }
+      ],
+      "name": "YC \u2014 CLI tool integrations fo\u2026",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-27238",
+      "title": "YC \u2014 CLI tool integrations fo\u2026"
+    }
+  }
+}

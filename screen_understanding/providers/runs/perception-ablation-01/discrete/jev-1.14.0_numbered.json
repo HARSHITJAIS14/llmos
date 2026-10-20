@@ -1,0 +1,150 @@
+{
+  "provider": "jev-1.14.0",
+  "condition": "numbered",
+  "usage": {
+    "input_tokens": 5918,
+    "output_tokens": 643
+  },
+  "raw_response": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "q1": {
+        "type": "choice",
+        "choice": "b1",
+        "confidence": 0.99,
+        "probabilities": {
+          "b1": 0.99,
+          "b2": 0.0,
+          "b3": 0.0,
+          "b4": 0.01,
+          "b5": 0.0,
+          "b6": 0.0,
+          "b7": 0.0,
+          "b8": 0.0
+        }
+      },
+      "q2": {
+        "type": "choice",
+        "choice": "b2",
+        "confidence": 1.0,
+        "probabilities": {
+          "b1": 0.0,
+          "b2": 1.0,
+          "b3": 0.0,
+          "b4": 0.0,
+          "b5": 0.0,
+          "b6": 0.0,
+          "b7": 0.0,
+          "b8": 0.0
+        }
+      },
+      "q3": {
+        "type": "choice",
+        "choice": "b3",
+        "confidence": 1.0,
+        "probabilities": {
+          "b1": 0.0,
+          "b2": 0.0,
+          "b3": 1.0,
+          "b4": 0.0,
+          "b5": 0.0,
+          "b6": 0.0,
+          "b7": 0.0,
+          "b8": 0.0
+        }
+      },
+      "q4": {
+        "type": "choice",
+        "choice": "b4",
+        "confidence": 0.95,
+        "probabilities": {
+          "b1": 0.0,
+          "b2": 0.0,
+          "b3": 0.04,
+          "b4": 0.96,
+          "b5": 0.0,
+          "b6": 0.0,
+          "b7": 0.0,
+          "b8": 0.0
+        }
+      },
+      "q5": {
+        "type": "choice",
+        "choice": "b5",
+        "confidence": 1.0,
+        "probabilities": {
+          "b1": 0.0,
+          "b2": 0.0,
+          "b3": 0.0,
+          "b4": 0.0,
+          "b5": 1.0,
+          "b6": 0.0,
+          "b7": 0.0,
+          "b8": 0.0
+        }
+      },
+      "q6": {
+        "type": "choice",
+        "choice": "b6",
+        "confidence": 1.0,
+        "probabilities": {
+          "b1": 0.0,
+          "b2": 0.0,
+          "b3": 0.0,
+          "b4": 0.0,
+          "b5": 0.0,
+          "b6": 1.0,
+          "b7": 0.0,
+          "b8": 0.0
+        }
+      },
+      "q7": {
+        "type": "choice",
+        "choice": "b7",
+        "confidence": 1.0,
+        "probabilities": {
+          "b1": 0.0,
+          "b2": 0.0,
+          "b3": 0.0,
+          "b4": 0.0,
+          "b5": 0.0,
+          "b6": 0.0,
+          "b7": 1.0,
+          "b8": 0.0
+        }
+      },
+      "q8": {
+        "type": "choice",
+        "choice": "b8",
+        "confidence": 1.0,
+        "probabilities": {
+          "b1": 0.0,
+          "b2": 0.0,
+          "b3": 0.0,
+          "b4": 0.0,
+          "b5": 0.0,
+          "b6": 0.0,
+          "b7": 0.0,
+          "b8": 1.0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 5918,
+      "output_tokens": 643
+    }
+  },
+  "seconds": 8.881508749967907,
+  "answers": {
+    "q1": "b1",
+    "q2": "b2",
+    "q3": "b3",
+    "q4": "b4",
+    "q5": "b5",
+    "q6": "b6",
+    "q7": "b7",
+    "q8": "b8"
+  },
+  "correct": 8,
+  "total": 8
+}

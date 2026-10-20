@@ -1,0 +1,138 @@
+[
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28132",
+    "is_focused": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC",
+    "visible": false
+  },
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28131",
+    "is_focused": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC",
+    "visible": false
+  },
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28129",
+    "is_focused": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC",
+    "visible": false
+  },
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28128",
+    "is_focused": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC",
+    "visible": false
+  },
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28127",
+    "is_focused": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC",
+    "visible": false
+  },
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28126",
+    "is_focused": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC",
+    "visible": false
+  },
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28130",
+    "is_focused": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC",
+    "visible": false
+  },
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 157.0,
+      "width": 125.0,
+      "x": 2576.0,
+      "y": 1121.0
+    },
+    "id": "w-28113",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC media player",
+    "visible": true
+  },
+  {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28125",
+    "is_focused": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC",
+    "visible": false
+  }
+]

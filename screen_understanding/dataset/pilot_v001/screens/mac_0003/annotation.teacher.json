@@ -1,0 +1,1541 @@
+{
+  "schema_version": "0.1.0",
+  "screen_id": "mac_0003",
+  "image": {
+    "path": "source.png",
+    "sha256": "59d867374d164db5ad1efc23f768b4883ec7a64b146a35a46e8ade380520617f",
+    "width": 1446,
+    "height": 1606,
+    "scale_factor": 2.0,
+    "coordinate_space": "source_pixels_xyxy"
+  },
+  "screen_context": {
+    "description": "A native macOS System Settings window showing the Appearance preference pane in dark mode, with controls for Light/Dark theme, Liquid Glass, accent colour swatches, and window tinting options.",
+    "view_types": [
+      "settings",
+      "preferences_view"
+    ],
+    "visible_app_names": [
+      "System Settings"
+    ],
+    "uncertainties": []
+  },
+  "nodes": [
+    {
+      "id": "n_0000",
+      "level": "screen",
+      "bbox": [
+        0,
+        0,
+        1446,
+        1606
+      ],
+      "parent_id": null,
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "screen",
+      "semantic_name": "Full Screen Canvas",
+      "description": "macOS System Settings Appearance pane displayed in dark mode.",
+      "context_description": "Full screen canvas enclosing the System Settings window.",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Display bounds"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0001",
+      "level": "window",
+      "bbox": [
+        0,
+        0,
+        1446,
+        1606
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "window",
+      "semantic_name": "System Settings Window",
+      "description": "Primary macOS System Settings window containing navigation sidebar and Appearance settings panel.",
+      "context_description": "Encloses sidebar on the left and settings form on the right.",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "true",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "macOS window frame with sidebar and settings form"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0002",
+      "level": "region",
+      "bbox": [
+        0,
+        0,
+        440,
+        1606
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "sidebar",
+      "semantic_name": "Settings Categories Sidebar",
+      "description": "Left vertical navigation sidebar listing preference categories including Wi-Fi, Appearance, Displays, and Sound.",
+      "context_description": "Left navigation column of System Settings.",
+      "function": {
+        "label": "switch_settings_category",
+        "description": "Navigate between preference panes",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Appearance",
+          "bbox": [
+            100,
+            500,
+            240,
+            530
+          ],
+          "legibility": "legible"
+        },
+        {
+          "text": "Wi-Fi",
+          "bbox": [
+            100,
+            205,
+            175,
+            230
+          ],
+          "legibility": "legible"
+        },
+        {
+          "text": "Bluetooth",
+          "bbox": [
+            100,
+            250,
+            230,
+            275
+          ],
+          "legibility": "legible"
+        },
+        {
+          "text": "Displays",
+          "bbox": [
+            100,
+            625,
+            210,
+            650
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Scrollable list of macOS preference category icons and labels"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0003",
+      "level": "region",
+      "bbox": [
+        440,
+        0,
+        1446,
+        110
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [
+        "d_0030"
+      ],
+      "box_status": "retained",
+      "role": "toolbar",
+      "semantic_name": "Settings Toolbar",
+      "description": "Top toolbar of settings pane with back/forward history navigation and Appearance title.",
+      "context_description": "Header above settings form content.",
+      "function": {
+        "label": "navigate_settings_history",
+        "description": "Back and forward navigation",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Appearance",
+          "bbox": [
+            590,
+            30,
+            760,
+            65
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Toolbar strip with navigation chevrons and heading"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0004",
+      "level": "region",
+      "bbox": [
+        440,
+        110,
+        1446,
+        1606
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "main_content",
+      "semantic_name": "Appearance Options Workspace",
+      "description": "Main scrollable form containing controls for light/dark mode, accent colors, icon style, and window behavior.",
+      "context_description": "Central content workspace of Appearance settings.",
+      "function": {
+        "label": "configure_appearance",
+        "description": "Customize macOS visual theme and colors",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Cards and form sections for macOS appearance customization"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0101",
+      "level": "element",
+      "bbox": [
+        31.16,
+        33.12,
+        163.75,
+        71.56
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [
+        "d_0043"
+      ],
+      "box_status": "retained",
+      "role": "button_group",
+      "semantic_name": "Window Traffic Lights",
+      "description": "Standard macOS traffic light close, minimize, and zoom controls.",
+      "context_description": "Upper left of sidebar.",
+      "function": {
+        "label": "manage_window",
+        "description": "Close or minimize window",
+        "status": "inferred"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Red, yellow, green circular glyphs"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0102",
+      "level": "element",
+      "bbox": [
+        25.52,
+        120.37,
+        429.49,
+        180.77
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [
+        "d_0029"
+      ],
+      "box_status": "retained",
+      "role": "text_input",
+      "semantic_name": "Settings Search Field",
+      "description": "Search bar with magnifying glass icon and placeholder Search.",
+      "context_description": "Directly below window controls in sidebar.",
+      "function": {
+        "label": "search_settings",
+        "description": "Search for settings and preference panes",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Search",
+          "bbox": [
+            85,
+            115,
+            175,
+            145
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "false",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Rounded rectangle text box with search icon"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0103",
+      "level": "element",
+      "bbox": [
+        31.83,
+        191.37,
+        439.17,
+        316.54
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [
+        "d_0001"
+      ],
+      "box_status": "retained",
+      "role": "card",
+      "semantic_name": "Redacted Account Banner",
+      "description": "User account banner, redacted per privacy guidelines.",
+      "context_description": "Below search bar in sidebar.",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Redaction mask applied"
+      ],
+      "uncertainties": [
+        "User identity intentionally redacted"
+      ],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0104",
+      "level": "element",
+      "bbox": [
+        29.99,
+        788.62,
+        430.28,
+        854.25
+      ],
+      "parent_id": "n_0002",
+      "proposal_ids": [
+        "d_0004"
+      ],
+      "box_status": "retained",
+      "role": "list_item",
+      "semantic_name": "Appearance Category (Selected)",
+      "description": "Active selected Appearance category item with dark highlight pill.",
+      "context_description": "Selected sidebar item.",
+      "function": {
+        "label": "select_appearance",
+        "description": "Show Appearance settings pane",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Appearance",
+          "bbox": [
+            100,
+            500,
+            240,
+            530
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "true",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Split circle icon with selection highlight"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0110",
+      "level": "element",
+      "bbox": [
+        908.44,
+        129.7,
+        1060.46,
+        280.16
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0003"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Appearance Mode: Auto",
+      "description": "Card button to enable automatic switching between light and dark modes.",
+      "context_description": "First card in Appearance theme selector.",
+      "function": {
+        "label": "set_appearance_auto",
+        "description": "Automatically adjust appearance based on time of day",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Auto",
+          "bbox": [
+            660,
+            230,
+            715,
+            255
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Split half-light half-dark preview window graphic with label Auto"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0111",
+      "level": "element",
+      "bbox": [
+        1071.83,
+        126.9,
+        1223.58,
+        280.2
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0011"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Appearance Mode: Light",
+      "description": "Card button to select macOS Light mode.",
+      "context_description": "Second card in Appearance theme selector.",
+      "function": {
+        "label": "set_appearance_light",
+        "description": "Apply Light appearance theme",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Light",
+          "bbox": [
+            775,
+            230,
+            830,
+            255
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Light preview window graphic with label Light"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0112",
+      "level": "element",
+      "bbox": [
+        1232.16,
+        124.0,
+        1391.78,
+        282.84
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0036"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Appearance Mode: Dark (Selected)",
+      "description": "Active selected Dark mode card button, with highlighted blue selection border.",
+      "context_description": "Third card in Appearance theme selector, currently selected.",
+      "function": {
+        "label": "set_appearance_dark",
+        "description": "Apply Dark appearance theme",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Dark",
+          "bbox": [
+            890,
+            230,
+            940,
+            255
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "true",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Dark preview window graphic with highlighted selection ring and label Dark"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0113",
+      "level": "element",
+      "bbox": [
+        1070.93,
+        298.12,
+        1227.62,
+        424.85
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0005"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Liquid Glass: Clear (Selected)",
+      "description": "Card button selecting Clear Liquid Glass effect, currently visually selected.",
+      "context_description": "Liquid Glass section.",
+      "function": {
+        "label": "set_liquid_glass_clear",
+        "description": "Set Liquid Glass look to Clear",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Clear",
+          "bbox": [
+            770,
+            395,
+            830,
+            420
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "true",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Blue glass preview graphic with blue highlight border"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0114",
+      "level": "element",
+      "bbox": [
+        1239.24,
+        300.9,
+        1387.14,
+        440.86
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0021"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Liquid Glass: Tinted",
+      "description": "Card button selecting Tinted Liquid Glass appearance.",
+      "context_description": "Liquid Glass section.",
+      "function": {
+        "label": "set_liquid_glass_tinted",
+        "description": "Set Liquid Glass look to Tinted",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Tinted",
+          "bbox": [
+            885,
+            395,
+            945,
+            420
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Dark tinted glass preview graphic with label Tinted"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0120",
+      "level": "element",
+      "bbox": [
+        746.44,
+        574.38,
+        824.83,
+        639.5
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0013"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Multicolour",
+      "description": "Circular accent colour swatch button for Multicolour. (Currently selected)",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_multicolour",
+        "description": "Set system accent color to Multicolour",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Multicolour",
+          "bbox": [
+            500,
+            630,
+            600,
+            655
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "true",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Multicolour pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0121",
+      "level": "element",
+      "bbox": [
+        825.62,
+        577.93,
+        890.5,
+        635.57
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0018"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Blue",
+      "description": "Circular accent colour swatch button for Blue.",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_blue",
+        "description": "Set system accent color to Blue",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Blue pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0122",
+      "level": "element",
+      "bbox": [
+        21.0,
+        443.32,
+        417.05,
+        508.94
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0017"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Purple",
+      "description": "Circular accent colour swatch button for Purple.",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_purple",
+        "description": "Set system accent color to Purple",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Purple pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0123",
+      "level": "element",
+      "bbox": [
+        897.08,
+        579.29,
+        960.41,
+        635.4
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0016"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Pink",
+      "description": "Circular accent colour swatch button for Pink.",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_pink",
+        "description": "Set system accent color to Pink",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Pink pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0124",
+      "level": "element",
+      "bbox": [
+        1046.2,
+        580.42,
+        1102.96,
+        634.91
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0025"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Red",
+      "description": "Circular accent colour swatch button for Red.",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_red",
+        "description": "Set system accent color to Red",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Red pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0125",
+      "level": "element",
+      "bbox": [
+        1116.86,
+        580.51,
+        1172.77,
+        634.46
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0028"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Orange",
+      "description": "Circular accent colour swatch button for Orange.",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_orange",
+        "description": "Set system accent color to Orange",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Orange pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0126",
+      "level": "element",
+      "bbox": [
+        1190.69,
+        580.98,
+        1245.18,
+        634.06
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0032"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Yellow",
+      "description": "Circular accent colour swatch button for Yellow.",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_yellow",
+        "description": "Set system accent color to Yellow",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Yellow pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0127",
+      "level": "element",
+      "bbox": [
+        1263.99,
+        581.41,
+        1316.46,
+        633.57
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0033"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Green",
+      "description": "Circular accent colour swatch button for Green.",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_green",
+        "description": "Set system accent color to Green",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Green pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0128",
+      "level": "element",
+      "bbox": [
+        1335.66,
+        581.89,
+        1387.59,
+        632.9
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0031"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Accent Colour Swatch: Graphite",
+      "description": "Circular accent colour swatch button for Graphite.",
+      "context_description": "Row of accent colour swatches under Theme section.",
+      "function": {
+        "label": "set_accent_graphite",
+        "description": "Set system accent color to Graphite",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Circular swatch glyph with Graphite pigment"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0130",
+      "level": "element",
+      "bbox": [
+        1331.72,
+        698.61,
+        1387.05,
+        761.84
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0045"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Text Highlight Colour Dropdown",
+      "description": "Dropdown menu selector currently set to Automatic.",
+      "context_description": "Row for Text highlight colour.",
+      "function": {
+        "label": "select_highlight_color",
+        "description": "Choose text selection highlight color",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Automatic",
+          "bbox": [
+            825,
+            695,
+            915,
+            720
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "false",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Picker button with up/down disclosure chevrons"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0131",
+      "level": "element",
+      "bbox": [
+        1330.65,
+        967.16,
+        1386.92,
+        1039.75
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0044"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Folder Colour Dropdown",
+      "description": "Dropdown menu selector for Folder colour, currently set to Automatic.",
+      "context_description": "Row for Folder colour under Theme.",
+      "function": {
+        "label": "select_folder_color",
+        "description": "Choose default folder icon color",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Automatic",
+          "bbox": [
+            825,
+            960,
+            915,
+            985
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "false",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Dropdown picker button with up/down arrows"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0132",
+      "level": "element",
+      "bbox": [
+        493.87,
+        1151.3,
+        1398.0,
+        1231.71
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0049"
+      ],
+      "box_status": "retained",
+      "role": "button",
+      "semantic_name": "Sidebar Icon Size Dropdown",
+      "description": "Dropdown menu selector for Sidebar icon size, currently set to Medium.",
+      "context_description": "Row under Windows section.",
+      "function": {
+        "label": "select_sidebar_icon_size",
+        "description": "Change size of icons in Finder sidebars",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Sidebar icon size",
+          "bbox": [
+            490,
+            1145,
+            650,
+            1170
+          ],
+          "legibility": "legible"
+        },
+        {
+          "text": "Medium",
+          "bbox": [
+            840,
+            1145,
+            915,
+            1170
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "false",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Dropdown control with label and current value Medium"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0133",
+      "level": "element",
+      "bbox": [
+        1311.18,
+        1249.51,
+        1387.71,
+        1284.44
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [
+        "d_0020"
+      ],
+      "box_status": "retained",
+      "role": "toggle",
+      "semantic_name": "Tint Window Background Toggle",
+      "description": "Toggle switch for \"Tint window background with wallpaper colour\", currently turned off.",
+      "context_description": "Row under Windows section.",
+      "function": {
+        "label": "toggle_wallpaper_tint",
+        "description": "Enable or disable wallpaper tinting in window backgrounds",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Tint window background with wallpaper colour",
+          "bbox": [
+            490,
+            1220,
+            900,
+            1245
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "false",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Standard macOS toggle switch in off position (gray track, thumb left)"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    }
+  ],
+  "relations": [],
+  "coverage": {
+    "status": "complete",
+    "uninspected_regions": [],
+    "unresolved_proposal_ids": [],
+    "proposals_disposition": {
+      "d_0001": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0103"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0002": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0003": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0110"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0004": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0104"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0005": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0113"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0006": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0007": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0008": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0009": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0010": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0011": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0111"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0012": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0013": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0120"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0014": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0015": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0016": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0123"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0017": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0122"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0018": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0121"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0019": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0020": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0133"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0021": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0114"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0022": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0023": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0024": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0025": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0124"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0026": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0027": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0028": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0125"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0029": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0102"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0030": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0031": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0128"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0032": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0126"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0033": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0127"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0034": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0035": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0036": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0112"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0037": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0038": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0039": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0040": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0041": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0042": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0043": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0101"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0044": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0131"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0045": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0130"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0046": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0047": {
+        "disposition": "retained",
+        "node_ids": [],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0048": {
+        "disposition": "rejected",
+        "node_ids": [],
+        "reason": "Phantom background corner proposal"
+      },
+      "d_0049": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0132"
+        ],
+        "reason": "Directly matches UI element/control"
+      },
+      "d_0050": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Section heading label within Appearance workspace"
+      }
+    }
+  },
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true,
+    "audit_applied": true
+  }
+}

@@ -1,0 +1,618 @@
+{
+  "schema_version": "0.1.0",
+  "screen_id": "mac_0010",
+  "image": {
+    "path": "source.png",
+    "sha256": "6ecce064659ec970201a988cee24dd941cdd3876c75df24a6525b6ac4189edf4",
+    "width": 2400,
+    "height": 1600,
+    "scale_factor": 2.0,
+    "coordinate_space": "source_pixels_xyxy"
+  },
+  "screen_context": {
+    "description": "Real macOS Finder window displaying /System/Applications/Utilities in list view mode with navigation toolbar, sidebar, and unselected utility applications list table.",
+    "view_types": [
+      "file_listing",
+      "finder_window"
+    ],
+    "visible_app_names": [
+      "Finder"
+    ],
+    "uncertainties": []
+  },
+  "nodes": [
+    {
+      "id": "n_0000",
+      "level": "screen",
+      "bbox": [
+        0,
+        0,
+        2400,
+        1600
+      ],
+      "parent_id": null,
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "screen",
+      "semantic_name": "Full Screen Root",
+      "description": "Full screen canvas.",
+      "context_description": "Root.",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Display"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0001",
+      "level": "window",
+      "bbox": [
+        0,
+        0,
+        2400,
+        1600
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "window",
+      "semantic_name": "Finder Utilities Window",
+      "description": "Finder window in list view.",
+      "context_description": "Main window.",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "true",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Window frame"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0002",
+      "level": "region",
+      "bbox": [
+        0,
+        0,
+        2400,
+        100
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "toolbar",
+      "semantic_name": "Finder Window Toolbar",
+      "description": "Toolbar with traffic lights, title Utilities, view modes, and search.",
+      "context_description": "Top of window.",
+      "function": {
+        "label": "finder_actions",
+        "description": "Search and change views",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Utilities",
+          "bbox": [
+            255,
+            36,
+            310,
+            68
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Toolbar buttons"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0003",
+      "level": "region",
+      "bbox": [
+        0,
+        100,
+        430,
+        1600
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "sidebar",
+      "semantic_name": "Finder Sidebar",
+      "description": "Favorites and locations navigation.",
+      "context_description": "Left sidebar.",
+      "function": {
+        "label": "select_folder",
+        "description": "Open folder",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "list",
+      "visible_text": [
+        {
+          "text": "Recents",
+          "bbox": [
+            45,
+            145,
+            95,
+            175
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "true",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Sidebar items"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0004",
+      "level": "region",
+      "bbox": [
+        430,
+        100,
+        2400,
+        1600
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "main_content",
+      "semantic_name": "Utilities File List Table",
+      "description": "Table of macOS utility applications with columns Name, Date Modified, Size, and Kind.",
+      "context_description": "Main workspace.",
+      "function": {
+        "label": "browse_utilities",
+        "description": "Select or open utility application",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "table",
+      "visible_text": [
+        {
+          "text": "Name",
+          "bbox": [
+            215,
+            140,
+            255,
+            165
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Table headers and rows"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0005",
+      "level": "element",
+      "bbox": [
+        450,
+        1000,
+        2380,
+        1060
+      ],
+      "parent_id": "n_0004",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "row",
+      "semantic_name": "Terminal Application Row",
+      "description": "Table row entry for Terminal.app in unselected state.",
+      "context_description": "Row in utilities table.",
+      "function": {
+        "label": "select_terminal",
+        "description": "Select Terminal.app",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "control",
+      "visible_text": [
+        {
+          "text": "Terminal",
+          "bbox": [
+            520,
+            1018,
+            590,
+            1045
+          ],
+          "legibility": "legible"
+        },
+        {
+          "text": "7.7 MB",
+          "bbox": [
+            1700,
+            1018,
+            1750,
+            1045
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "false",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Terminal icon, label, and metadata without highlight"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    }
+  ],
+  "relations": [],
+  "coverage": {
+    "status": "complete",
+    "uninspected_regions": [],
+    "unresolved_proposal_ids": [],
+    "proposals_disposition": {
+      "d_0001": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0002": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0003": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0004": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0005": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0006": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0007": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0008": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0009": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0010": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0011": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0012": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0013": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0014": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0015": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0016": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0017": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0018": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0019": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0020": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0021": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0022": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0023": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0024": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0001"
+        ],
+        "reason": "Enclosed within n_0001"
+      },
+      "d_0025": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0026": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0027": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0028": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0029": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0030": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0031": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0032": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0033": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Enclosed within n_0004"
+      },
+      "d_0034": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0035": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Enclosed within n_0003"
+      },
+      "d_0036": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Enclosed within n_0004"
+      },
+      "d_0037": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0038": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Enclosed within n_0004"
+      },
+      "d_0039": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0040": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Enclosed within n_0004"
+      },
+      "d_0041": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Enclosed within n_0004"
+      },
+      "d_0042": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Enclosed within n_0004"
+      },
+      "d_0043": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0044": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Enclosed within n_0004"
+      },
+      "d_0045": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Enclosed within n_0004"
+      }
+    }
+  },
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true,
+    "audit_applied": true
+  }
+}

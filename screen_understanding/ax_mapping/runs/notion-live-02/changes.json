@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0.0.0.0.0.0.1.1.0.0.0.0.1.0.0.0.1.0.2.0.0.2.3.4.0",
+    "field": "child_count",
+    "before": 2,
+    "after": 4
+  },
+  {
+    "id": "0.0.0.0.0.0.1.1.0.0.0.0.1.0.0.0.1.0.2.0.0.2.3.4.0.0",
+    "field": "child_count",
+    "before": 1,
+    "after": 2
+  },
+  {
+    "id": "0.0.0.0.0.0.1.1.0.0.0.0.1.0.0.0.1.0.2.0.0.2.3.4.0.0.0",
+    "field": "name",
+    "before": "Change page icon",
+    "after": "Open"
+  },
+  {
+    "id": "0.0.0.0.0.0.1.1.0.0.0.0.1.0.0.0.1.0.2.0.0.2.3.4.0.0.0",
+    "field": "bounds",
+    "before": "{'height': 17.0, 'width': 17.0, 'x': 237.0, 'y': 592.0}",
+    "after": "{'height': 18.0, 'width': 19.0, 'x': 236.0, 'y': 592.0}"
+  },
+  {
+    "id": "0.0.0.0.0.0.1.1.0.0.0.0.1.0.0.0.1.0.2.0.0.2.3.4.0.0.0",
+    "field": "role",
+    "before": "image",
+    "after": "button"
+  },
+  {
+    "id": "0.0.0.0.0.0.1.1.0.0.0.0.1.0.0.0.1.0.2.0.0.2.3.4.0.0.0",
+    "field": "available_actions",
+    "before": "['RightClick', 'ScrollTo']",
+    "after": "['Click', 'RightClick', 'ScrollTo', 'SetFocus']"
+  }
+]

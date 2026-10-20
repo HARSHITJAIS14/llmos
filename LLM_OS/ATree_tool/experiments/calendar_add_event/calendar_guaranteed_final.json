@@ -1,0 +1,14 @@
+{
+  "version": "2.3",
+  "ok": false,
+  "command": "snapshot",
+  "error": {
+    "code": "ELEMENT_NOT_FOUND",
+    "message": "Element No visible popover could not be resolved",
+    "suggestion": "Re-run a snapshot to obtain fresh refs, then retry with the new ref",
+    "disposition": {
+      "delivery": "not_delivered",
+      "retry": "safe"
+    }
+  }
+}

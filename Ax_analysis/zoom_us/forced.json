@@ -1,0 +1,687 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "zoom.us",
+  "complete": true,
+  "ref_count": 28,
+  "snapshot_id": "s1nckmshynxxwx",
+  "tree": {
+   "bounds": {
+    "height": 660.0,
+    "width": 960.0,
+    "x": 2720.0,
+    "y": 601.0
+   },
+   "children": [
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 30.0,
+      "width": 30.0,
+      "x": 2936.5,
+      "y": 608.0
+     },
+     "name": "Back in Chat(\u2318 + left bracket)",
+     "ref_id": "@s1nckmshynxxwx:e1",
+     "role": "button",
+     "states": [
+      "disabled"
+     ]
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 30.0,
+      "width": 30.0,
+      "x": 2970.5,
+      "y": 608.0
+     },
+     "name": "Forward in Chat(\u2318 + right bracket)",
+     "ref_id": "@s1nckmshynxxwx:e2",
+     "role": "button",
+     "states": [
+      "disabled"
+     ]
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 30.0,
+      "width": 30.0,
+      "x": 3004.5,
+      "y": 608.0
+     },
+     "name": "History",
+     "ref_id": "@s1nckmshynxxwx:e3",
+     "role": "button",
+     "states": [
+      "disabled"
+     ]
+    },
+    {
+     "available_actions": [
+      "Click",
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 34.0,
+      "width": 442.0,
+      "x": 3038.5,
+      "y": 606.0
+     },
+     "name": "Search (\u2318E)  \u2318E",
+     "ref_id": "@s1nckmshynxxwx:e4",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 30.0,
+      "width": 30.0,
+      "x": 3484.5,
+      "y": 608.0
+     },
+     "name": "Create new",
+     "ref_id": "@s1nckmshynxxwx:e5",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 30.0,
+      "width": 30.0,
+      "x": 3571.0,
+      "y": 608.0
+     },
+     "name": "Open activity center, New messages",
+     "ref_id": "@s1nckmshynxxwx:e6",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 34.0,
+      "width": 34.0,
+      "x": 3639.0,
+      "y": 606.0
+     },
+     "name": "Zoom, HARSHIT JAISWAL, Available, Basic account",
+     "ref_id": "@s1nckmshynxxwx:e7",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 30.0,
+      "width": 30.0,
+      "x": 3605.0,
+      "y": 608.0
+     },
+     "name": "Calendar always shows on the home screen.",
+     "ref_id": "@s1nckmshynxxwx:e8",
+     "role": "button",
+     "states": [
+      "disabled"
+     ]
+    },
+    {
+     "bounds": {
+      "height": 537.0,
+      "width": 84.0,
+      "x": 2720.0,
+      "y": 645.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "Click",
+        "RightClick"
+       ],
+       "bounds": {
+        "height": 50.0,
+        "width": 84.0,
+        "x": 2720.0,
+        "y": 645.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 50.0,
+          "width": 84.0,
+          "x": 2720.0,
+          "y": 645.0
+         },
+         "ref_id": "@s1nckmshynxxwx:e9",
+         "role": "button"
+        }
+       ],
+       "name": "Home, selected, 1 of 6",
+       "role": "unknown",
+       "value": "Home, selected"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "RightClick"
+       ],
+       "bounds": {
+        "height": 50.0,
+        "width": 84.0,
+        "x": 2720.0,
+        "y": 695.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 50.0,
+          "width": 84.0,
+          "x": 2720.0,
+          "y": 695.0
+         },
+         "ref_id": "@s1nckmshynxxwx:e10",
+         "role": "button"
+        }
+       ],
+       "name": "Chat, 2 of 6",
+       "role": "unknown",
+       "value": "Chat"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "RightClick"
+       ],
+       "bounds": {
+        "height": 50.0,
+        "width": 84.0,
+        "x": 2720.0,
+        "y": 745.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 50.0,
+          "width": 84.0,
+          "x": 2720.0,
+          "y": 745.0
+         },
+         "ref_id": "@s1nckmshynxxwx:e11",
+         "role": "button"
+        }
+       ],
+       "name": "Canvas, 3 of 6",
+       "role": "unknown",
+       "value": "Canvas"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "RightClick"
+       ],
+       "bounds": {
+        "height": 50.0,
+        "width": 84.0,
+        "x": 2720.0,
+        "y": 795.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 50.0,
+          "width": 84.0,
+          "x": 2720.0,
+          "y": 795.0
+         },
+         "ref_id": "@s1nckmshynxxwx:e12",
+         "role": "button"
+        }
+       ],
+       "name": "Whiteboards, 4 of 6",
+       "role": "unknown",
+       "value": "Whiteboards"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "RightClick"
+       ],
+       "bounds": {
+        "height": 50.0,
+        "width": 84.0,
+        "x": 2720.0,
+        "y": 845.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 50.0,
+          "width": 84.0,
+          "x": 2720.0,
+          "y": 845.0
+         },
+         "ref_id": "@s1nckmshynxxwx:e13",
+         "role": "button"
+        }
+       ],
+       "name": "Clips, 5 of 6",
+       "role": "unknown",
+       "value": "Clips"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "RightClick"
+       ],
+       "bounds": {
+        "height": 50.0,
+        "width": 84.0,
+        "x": 2720.0,
+        "y": 895.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 50.0,
+          "width": 84.0,
+          "x": 2720.0,
+          "y": 895.0
+         },
+         "ref_id": "@s1nckmshynxxwx:e14",
+         "role": "button"
+        }
+       ],
+       "name": "More with new items, 6 of 6",
+       "role": "unknown",
+       "value": "More with new items"
+      }
+     ],
+     "name": "Navigation tabs",
+     "role": "group"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 32.0,
+      "width": 32.0,
+      "x": 2746.0,
+      "y": 1182.0
+     },
+     "name": "Settings",
+     "ref_id": "@s1nckmshynxxwx:e15",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 32.0,
+      "width": 741.0,
+      "x": 2894.2705078125,
+      "y": 653.0
+     },
+     "children": [
+      {
+       "bounds": {
+        "height": 16.0,
+        "width": 738.2294921875,
+        "x": 2896.2705078125,
+        "y": 653.0
+       },
+       "name": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply.",
+       "ref_id": "@s1nckmshynxxwx:e16",
+       "role": "textfield",
+       "states": [
+        "readonly"
+       ]
+      },
+      {
+       "bounds": {
+        "height": 16.0,
+        "width": 83.80224609375,
+        "x": 2896.2705078125,
+        "y": 669.0
+       },
+       "name": "Redeem offer",
+       "ref_id": "@s1nckmshynxxwx:e17",
+       "role": "link"
+      }
+     ],
+     "name": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply. Redeem offer",
+     "role": "unknown",
+     "states": [
+      "focused"
+     ],
+     "value": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply. Redeem offer"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 26.0,
+      "width": 26.0,
+      "x": 3641.0,
+      "y": 656.0
+     },
+     "name": "Close",
+     "ref_id": "@s1nckmshynxxwx:e18",
+     "role": "button"
+    },
+    {
+     "bounds": {
+      "height": 556.0,
+      "width": 869.0,
+      "x": 2805.0,
+      "y": 699.0
+     },
+     "children": [
+      {
+       "bounds": {
+        "height": 556.0,
+        "width": 869.0,
+        "x": 2805.0,
+        "y": 699.0
+       },
+       "children": [
+        {
+         "bounds": {
+          "height": 80.0,
+          "width": 120.0,
+          "x": 2879.0,
+          "y": 889.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 0.0,
+            "x": 0.0,
+            "y": 1440.0
+           },
+           "name": "Start a new meeting with video on",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "BE879434-7586-419E-A605-FA9FDD6CE01F"
+           },
+           "ref_id": "@s1nckmshynxxwx:e19",
+           "role": "button",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 0.0,
+            "x": 0.0,
+            "y": 1440.0
+           },
+           "name": "Start new meeting options",
+           "ref_id": "@s1nckmshynxxwx:e20",
+           "role": "button",
+           "states": [
+            "offscreen"
+           ]
+          }
+         ],
+         "role": "group"
+        },
+        {
+         "bounds": {
+          "height": 80.0,
+          "width": 120.0,
+          "x": 2999.0,
+          "y": 889.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 0.0,
+            "x": 0.0,
+            "y": 1440.0
+           },
+           "name": "Join meeting",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "B18226D0-0D7B-47FF-8355-5B7E90E56AF2"
+           },
+           "ref_id": "@s1nckmshynxxwx:e21",
+           "role": "button",
+           "states": [
+            "offscreen"
+           ]
+          }
+         ],
+         "role": "group"
+        },
+        {
+         "bounds": {
+          "height": 80.0,
+          "width": 120.0,
+          "x": 3119.0,
+          "y": 889.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 0.0,
+            "x": 0.0,
+            "y": 1440.0
+           },
+           "name": "Schedule meeting",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "223383A7-2587-49A7-ACCA-1F2BE3AFB61A"
+           },
+           "ref_id": "@s1nckmshynxxwx:e22",
+           "role": "button",
+           "states": [
+            "offscreen"
+           ]
+          }
+         ],
+         "role": "group"
+        },
+        {
+         "bounds": {
+          "height": 80.0,
+          "width": 120.0,
+          "x": 2939.0,
+          "y": 985.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 0.0,
+            "x": 0.0,
+            "y": 1440.0
+           },
+           "name": "Share screen",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "69237609-33D7-4B17-9C98-CA2FC78AF548"
+           },
+           "ref_id": "@s1nckmshynxxwx:e23",
+           "role": "button",
+           "states": [
+            "offscreen"
+           ]
+          }
+         ],
+         "role": "group"
+        },
+        {
+         "bounds": {
+          "height": 80.0,
+          "width": 120.0,
+          "x": 3059.0,
+          "y": 985.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 0.0,
+            "x": 0.0,
+            "y": 1440.0
+           },
+           "name": "My Notes",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "3F58B35D-5A96-497E-9171-2E40EF08BAD3"
+           },
+           "ref_id": "@s1nckmshynxxwx:e24",
+           "role": "button",
+           "states": [
+            "offscreen"
+           ]
+          }
+         ],
+         "role": "group"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 34.0,
+          "width": 34.0,
+          "x": 3272.0,
+          "y": 710.0
+         },
+         "name": "Close AI Companion (\u21e7\u2318O)",
+         "ref_id": "@s1nckmshynxxwx:e25",
+         "role": "button"
+        }
+       ],
+       "role": "group"
+      }
+     ],
+     "role": "group"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2732.0,
+      "y": 615.0
+     },
+     "ref_id": "@s1nckmshynxxwx:e26",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2778.0,
+      "y": 615.0
+     },
+     "ref_id": "@s1nckmshynxxwx:e27",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2755.0,
+      "y": 615.0
+     },
+     "ref_id": "@s1nckmshynxxwx:e28",
+     "role": "button"
+    }
+   ],
+   "name": "Zoom Workplace",
+   "role": "window"
+  },
+  "window": {
+   "id": "w-28690",
+   "title": "Zoom Workplace"
+  }
+ }
+}

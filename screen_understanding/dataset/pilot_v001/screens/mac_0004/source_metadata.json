@@ -1,0 +1,19 @@
+{
+  "screen_id": "mac_0004",
+  "source_path": "/Users/harshit/Desktop/YC/screen_understanding/dataset/pilot_v001/screens/mac_0004/source.png",
+  "sha256": "dd1f633e627d88a7f26a1ceb4459f819b9060e2232ececca9efbc1e35d9a3669",
+  "width": 2498,
+  "height": 1846,
+  "scale_factor": 2.0,
+  "stratum": "browser_interface_and_web_content",
+  "app_family": "safari",
+  "session_group_id": "sess_mac_0004",
+  "appearance": "light",
+  "source_provenance": "Real macOS native screencapture of Safari",
+  "local_screening_status": "screened_safe_no_pii",
+  "pair_id": null,
+  "frame_order": null,
+  "eligibility": "eligible",
+  "exclusion_reason": null,
+  "timestamp": 1792305610.1586418
+}

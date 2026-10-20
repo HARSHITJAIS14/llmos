@@ -1,0 +1,16 @@
+{
+  "app_name": "Finder",
+  "bounds": {
+    "height": 436.0,
+    "width": 920.0,
+    "x": 275.0,
+    "y": 155.0
+  },
+  "id": "w-47097",
+  "is_focused": false,
+  "minimized": false,
+  "pid": 57545,
+  "process_instance": "macos-proc-v1:1792317506:275740",
+  "title": "YC",
+  "visible": true
+}

@@ -1,0 +1,2198 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "TextEdit",
+  "complete": true,
+  "ref_count": 105,
+  "snapshot_id": "s1n30tizdp5y6o",
+  "tree": {
+   "bounds": {
+    "height": 448.0,
+    "width": 893.0,
+    "x": 2753.0,
+    "y": 654.0
+   },
+   "children": [
+    {
+     "bounds": {
+      "height": 448.0,
+      "width": 893.0,
+      "x": 2753.0,
+      "y": 654.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "Scroll",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 432.0,
+        "width": 207.0,
+        "x": 2761.0,
+        "y": 662.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Select",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 982.0,
+          "width": 192.0,
+          "x": 2760.0,
+          "y": 661.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 672.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 672.0
+             },
+             "name": "TextEdit",
+             "ref_id": "@s1n30tizdp5y6o:e4",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "TextEdit",
+           "ref_id": "@s1n30tizdp5y6o:e3",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 704.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 704.0
+             },
+             "name": "Recents",
+             "ref_id": "@s1n30tizdp5y6o:e6",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Recents",
+           "ref_id": "@s1n30tizdp5y6o:e5",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 736.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 736.0
+             },
+             "name": "Shared",
+             "ref_id": "@s1n30tizdp5y6o:e8",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Shared",
+           "ref_id": "@s1n30tizdp5y6o:e7",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 19.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 781.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 19.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 781.0
+             },
+             "name": "Favourites",
+             "ref_id": "@s1n30tizdp5y6o:e10",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Favourites",
+           "ref_id": "@s1n30tizdp5y6o:e9",
+           "role": "treeitem",
+           "states": [
+            "expanded"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 800.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 800.0
+             },
+             "name": "Desktop",
+             "ref_id": "@s1n30tizdp5y6o:e12",
+             "role": "cell",
+             "states": [
+              "focused",
+              "selected"
+             ]
+            }
+           ],
+           "name": "Desktop",
+           "ref_id": "@s1n30tizdp5y6o:e11",
+           "role": "treeitem",
+           "states": [
+            "selected"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 832.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 832.0
+             },
+             "name": "Documents",
+             "ref_id": "@s1n30tizdp5y6o:e14",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Documents",
+           "ref_id": "@s1n30tizdp5y6o:e13",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 864.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 864.0
+             },
+             "name": "Pictures",
+             "ref_id": "@s1n30tizdp5y6o:e16",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Pictures",
+           "ref_id": "@s1n30tizdp5y6o:e15",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 896.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 896.0
+             },
+             "name": "Downloads",
+             "ref_id": "@s1n30tizdp5y6o:e18",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Downloads",
+           "ref_id": "@s1n30tizdp5y6o:e17",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 928.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 928.0
+             },
+             "name": "Music",
+             "ref_id": "@s1n30tizdp5y6o:e20",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Music",
+           "ref_id": "@s1n30tizdp5y6o:e19",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 960.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 960.0
+             },
+             "name": "Applications",
+             "ref_id": "@s1n30tizdp5y6o:e22",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Applications",
+           "ref_id": "@s1n30tizdp5y6o:e21",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 992.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 992.0
+             },
+             "name": "Quick",
+             "ref_id": "@s1n30tizdp5y6o:e24",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Quick",
+           "ref_id": "@s1n30tizdp5y6o:e23",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 19.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1037.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 19.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1037.0
+             },
+             "name": "Locations",
+             "ref_id": "@s1n30tizdp5y6o:e26",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "Locations",
+           "ref_id": "@s1n30tizdp5y6o:e25",
+           "role": "treeitem",
+           "states": [
+            "expanded"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1056.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1056.0
+             },
+             "name": "iCloud\u00a0Drive",
+             "ref_id": "@s1n30tizdp5y6o:e28",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "iCloud Drive",
+           "ref_id": "@s1n30tizdp5y6o:e27",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1088.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1088.0
+             },
+             "name": "MacDroid",
+             "ref_id": "@s1n30tizdp5y6o:e30",
+             "role": "cell",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "name": "MacDroid",
+           "ref_id": "@s1n30tizdp5y6o:e29",
+           "role": "treeitem"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1120.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1120.0
+             },
+             "name": "harshit",
+             "ref_id": "@s1n30tizdp5y6o:e32",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "harshit",
+           "ref_id": "@s1n30tizdp5y6o:e31",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1152.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1152.0
+             },
+             "name": "harshit\u2019s MacBook Air",
+             "ref_id": "@s1n30tizdp5y6o:e34",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "harshit\u2019s MacBook Air",
+           "ref_id": "@s1n30tizdp5y6o:e33",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1184.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1184.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "Click",
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 17.0,
+                "width": 19.5,
+                "x": 3011.0,
+                "y": 1189.0
+               },
+               "description": "eject",
+               "name": "Eject",
+               "ref_id": "@s1n30tizdp5y6o:e37",
+               "role": "button",
+               "states": [
+                "offscreen"
+               ]
+              }
+             ],
+             "name": "HeyClicky",
+             "ref_id": "@s1n30tizdp5y6o:e36",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "HeyClicky",
+           "ref_id": "@s1n30tizdp5y6o:e35",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 19.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1229.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 19.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1229.0
+             },
+             "name": "Tags",
+             "ref_id": "@s1n30tizdp5y6o:e39",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Tags",
+           "ref_id": "@s1n30tizdp5y6o:e38",
+           "role": "treeitem",
+           "states": [
+            "expanded",
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1248.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1248.0
+             },
+             "name": "Red",
+             "ref_id": "@s1n30tizdp5y6o:e41",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Red",
+           "ref_id": "@s1n30tizdp5y6o:e40",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1280.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1280.0
+             },
+             "name": "Orange",
+             "ref_id": "@s1n30tizdp5y6o:e43",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Orange",
+           "ref_id": "@s1n30tizdp5y6o:e42",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1312.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1312.0
+             },
+             "name": "Yellow",
+             "ref_id": "@s1n30tizdp5y6o:e45",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Yellow",
+           "ref_id": "@s1n30tizdp5y6o:e44",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1344.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1344.0
+             },
+             "name": "Green",
+             "ref_id": "@s1n30tizdp5y6o:e47",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Green",
+           "ref_id": "@s1n30tizdp5y6o:e46",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1376.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1376.0
+             },
+             "name": "Blue",
+             "ref_id": "@s1n30tizdp5y6o:e49",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Blue",
+           "ref_id": "@s1n30tizdp5y6o:e48",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1408.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1408.0
+             },
+             "name": "Purple",
+             "ref_id": "@s1n30tizdp5y6o:e51",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Purple",
+           "ref_id": "@s1n30tizdp5y6o:e50",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1440.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1440.0
+             },
+             "name": "Grey",
+             "ref_id": "@s1n30tizdp5y6o:e53",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Grey",
+           "ref_id": "@s1n30tizdp5y6o:e52",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1472.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1472.0
+             },
+             "name": "All Tags\u2026",
+             "ref_id": "@s1n30tizdp5y6o:e55",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "All Tags\u2026",
+           "ref_id": "@s1n30tizdp5y6o:e54",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 19.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1517.0
+           },
+           "children": [
+            {
+             "bounds": {
+              "height": 19.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1517.0
+             },
+             "name": "Media",
+             "ref_id": "@s1n30tizdp5y6o:e57",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Media",
+           "ref_id": "@s1n30tizdp5y6o:e56",
+           "role": "treeitem",
+           "states": [
+            "expanded",
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1536.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1536.0
+             },
+             "name": "Music",
+             "ref_id": "@s1n30tizdp5y6o:e59",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Music",
+           "ref_id": "@s1n30tizdp5y6o:e58",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1568.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1568.0
+             },
+             "name": "Photos",
+             "ref_id": "@s1n30tizdp5y6o:e61",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Photos",
+           "ref_id": "@s1n30tizdp5y6o:e60",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 32.0,
+            "width": 190.0,
+            "x": 2761.0,
+            "y": 1600.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 170.0,
+              "x": 2771.0,
+              "y": 1600.0
+             },
+             "name": "Movies",
+             "ref_id": "@s1n30tizdp5y6o:e63",
+             "role": "cell",
+             "states": [
+              "focused",
+              "offscreen"
+             ]
+            }
+           ],
+           "name": "Movies",
+           "ref_id": "@s1n30tizdp5y6o:e62",
+           "role": "treeitem",
+           "states": [
+            "offscreen"
+           ]
+          }
+         ],
+         "name": "sidebar",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "_NS:8"
+         },
+         "ref_id": "@s1n30tizdp5y6o:e2",
+         "role": "outline"
+        },
+        {
+         "available_actions": [
+          "SetValue"
+         ],
+         "bounds": {
+          "height": 434.0,
+          "width": 19.0,
+          "x": 2950.0,
+          "y": 661.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "SetValue"
+           ],
+           "bounds": {
+            "height": 187.5,
+            "width": 11.0,
+            "x": 2954.0,
+            "y": 665.0
+           },
+           "ref_id": "@s1n30tizdp5y6o:e65",
+           "role": "handle",
+           "value": "0"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 0.0,
+            "x": 2951.0,
+            "y": 662.0
+           },
+           "ref_id": "@s1n30tizdp5y6o:e66",
+           "role": "button"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 0.0,
+            "x": 2951.0,
+            "y": 662.0
+           },
+           "ref_id": "@s1n30tizdp5y6o:e67",
+           "role": "button"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 238.0,
+            "width": 11.0,
+            "x": 2954.0,
+            "y": 853.0
+           },
+           "ref_id": "@s1n30tizdp5y6o:e68",
+           "role": "button"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 0.0,
+            "width": 11.0,
+            "x": 2954.0,
+            "y": 665.0
+           },
+           "ref_id": "@s1n30tizdp5y6o:e69",
+           "role": "button"
+          }
+         ],
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "_NS:70"
+         },
+         "ref_id": "@s1n30tizdp5y6o:e64",
+         "role": "scrollbar",
+         "value": "0"
+        }
+       ],
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:61"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e1",
+       "role": "scrollarea"
+      },
+      {
+       "bounds": {
+        "height": 318.0,
+        "width": 893.0,
+        "x": 2753.0,
+        "y": 719.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "RightClick",
+          "Scroll",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 320.0,
+          "width": 895.0,
+          "x": 2752.0,
+          "y": 718.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Scroll",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 318.0,
+            "width": 245.0,
+            "x": 2968.0,
+            "y": 719.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "RightClick",
+              "Select",
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 488.0,
+              "width": 230.0,
+              "x": 2967.0,
+              "y": 718.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 752.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 24.0,
+                  "x": 3004.0,
+                  "y": 754.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e73",
+                 "role": "textfield",
+                 "value": "YC"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 822.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 164.0,
+                  "x": 3004.0,
+                  "y": 824.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e74",
+                 "role": "textfield",
+                 "value": "Competitive Programming"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 42.0,
+                  "x": 3004.0,
+                  "y": 894.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e75",
+                 "role": "textfield",
+                 "value": "dassa"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 914.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 44.0,
+                  "x": 3004.0,
+                  "y": 916.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e76",
+                 "role": "textfield",
+                 "value": "Endee"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 936.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 43.0,
+                  "x": 3004.0,
+                  "y": 938.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e77",
+                 "role": "textfield",
+                 "states": [
+                  "selected"
+                 ],
+                 "value": "Quant"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 1011.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 77.0,
+                  "x": 3004.0,
+                  "y": 1013.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e78",
+                 "role": "textfield",
+                 "value": "(2) CP4.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 1081.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3004.0,
+                  "y": 1083.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e79",
+                 "role": "textfield",
+                 "value": "Competitive Programming.zip"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 1151.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3004.0,
+                  "y": 1153.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e80",
+                 "role": "textfield",
+                 "states": [
+                  "offscreen"
+                 ],
+                 "value": "\\\\.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused",
+                "offscreen"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 2984.0,
+                "y": 1173.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 45.0,
+                  "x": 3004.0,
+                  "y": 1175.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e81",
+                 "role": "textfield",
+                 "states": [
+                  "offscreen"
+                 ],
+                 "value": "Aspire"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused",
+                "offscreen"
+               ]
+              }
+             ],
+             "ref_id": "@s1n30tizdp5y6o:e72",
+             "role": "list",
+             "states": [
+              "focused"
+             ]
+            }
+           ],
+           "ref_id": "@s1n30tizdp5y6o:e71",
+           "role": "scrollarea"
+          },
+          {
+           "available_actions": [
+            "Scroll",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 318.0,
+            "width": 245.0,
+            "x": 3213.0,
+            "y": 719.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "RightClick",
+              "Select",
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 542.0,
+              "width": 230.0,
+              "x": 3212.0,
+              "y": 718.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 752.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3249.0,
+                  "y": 754.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e84",
+                 "role": "textfield",
+                 "value": "Operating Systems - Three Easy Pieces.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 822.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3249.0,
+                  "y": 824.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e85",
+                 "role": "textfield",
+                 "value": "a-practical-guide-to-quantitative-finance-interviews_compressed.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 844.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3249.0,
+                  "y": 846.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e86",
+                 "role": "textfield",
+                 "value": "Fifty_Challenging_Problems_in_Probability.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 866.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3249.0,
+                  "y": 868.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e87",
+                 "role": "textfield",
+                 "value": "Timothy Falcon Crack - Heard on the Street, Quantitative Questions from Wall Street Job Interviews (2014, Timothy Crack) - libgen.lc copy"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 941.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 132.0,
+                  "x": 3249.0,
+                  "y": 943.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e88",
+                 "role": "textfield",
+                 "value": "Quant Bible- MIT.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 963.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 120.0,
+                  "x": 3249.0,
+                  "y": 965.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e89",
+                 "role": "textfield",
+                 "value": "QUANT GUIDE.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 1038.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 74.0,
+                  "x": 3249.0,
+                  "y": 1040.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e90",
+                 "role": "textfield",
+                 "value": "hso201.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 1060.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3249.0,
+                  "y": 1062.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e91",
+                 "role": "textfield",
+                 "value": "Timothy Falcon Crack - Heard on the Street, Quantitative Questions from Wall Street Job Interviews (2014, Timothy Crack) - libgen.lc.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 1135.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3249.0,
+                  "y": 1137.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e92",
+                 "role": "textfield",
+                 "states": [
+                  "offscreen"
+                 ],
+                 "value": "Quant_Trading_Accelerator"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused",
+                "offscreen"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 1205.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 55.0,
+                  "x": 3249.0,
+                  "y": 1207.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e93",
+                 "role": "textfield",
+                 "states": [
+                  "offscreen"
+                 ],
+                 "value": "baby.txt"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused",
+                "offscreen"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 23.0,
+                "width": 190.5,
+                "x": 3229.0,
+                "y": 1227.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 168.0,
+                  "x": 3249.0,
+                  "y": 1229.0
+                 },
+                 "ref_id": "@s1n30tizdp5y6o:e94",
+                 "role": "textfield",
+                 "states": [
+                  "offscreen"
+                 ],
+                 "value": "preview-9781292410623_A42194213.pdf"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "focused",
+                "offscreen"
+               ]
+              }
+             ],
+             "ref_id": "@s1n30tizdp5y6o:e83",
+             "role": "list"
+            }
+           ],
+           "ref_id": "@s1n30tizdp5y6o:e82",
+           "role": "scrollarea"
+          }
+         ],
+         "name": "column view",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "ColumnView"
+         },
+         "ref_id": "@s1n30tizdp5y6o:e70",
+         "role": "browser"
+        }
+       ],
+       "role": "group"
+      },
+      {
+       "bounds": {
+        "height": 26.0,
+        "width": 49.0,
+        "x": 2987.0,
+        "y": 673.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click"
+         ],
+         "bounds": {
+          "height": 24.0,
+          "width": 23.0,
+          "x": 2988.0,
+          "y": 674.0
+         },
+         "name": "back",
+         "ref_id": "@s1n30tizdp5y6o:e95",
+         "role": "button",
+         "states": [
+          "disabled"
+         ]
+        },
+        {
+         "available_actions": [
+          "Click"
+         ],
+         "bounds": {
+          "height": 24.0,
+          "width": 23.0,
+          "x": 3012.0,
+          "y": 674.0
+         },
+         "name": "forward",
+         "ref_id": "@s1n30tizdp5y6o:e96",
+         "role": "button",
+         "states": [
+          "disabled"
+         ]
+        }
+       ],
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:16"
+       },
+       "role": "group"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+       ],
+       "bounds": {
+        "height": 26.0,
+        "width": 69.0,
+        "x": 3042.0,
+        "y": 673.0
+       },
+       "name": "column view",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "View Options"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e97",
+       "role": "menubutton"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+       ],
+       "bounds": {
+        "height": 26.0,
+        "width": 66.5,
+        "x": 3117.0,
+        "y": 673.0
+       },
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "Group or Sort By"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e98",
+       "role": "menubutton"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus",
+        "Expand",
+        "Collapse"
+       ],
+       "bounds": {
+        "height": 26.0,
+        "width": 232.0,
+        "x": 3191.0,
+        "y": 673.0
+       },
+       "name": "Where:",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "where popup"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e99",
+       "role": "combobox",
+       "states": [
+        "readonly"
+       ],
+       "value": "Quant"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "RightClick",
+        "SetValue",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 26.0,
+        "width": 196.5,
+        "x": 3430.5,
+        "y": 673.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click"
+         ],
+         "bounds": {
+          "height": 9.0,
+          "width": 15.5,
+          "x": 3437.5,
+          "y": 682.0
+         },
+         "name": "search",
+         "ref_id": "@s1n30tizdp5y6o:e101",
+         "role": "button"
+        }
+       ],
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "Search"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e100",
+       "role": "textfield"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 26.0,
+        "width": 119.0,
+        "x": 2987.0,
+        "y": 1057.0
+       },
+       "name": "New Document",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "NewDocumentButton"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e102",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 26.0,
+        "width": 118.5,
+        "x": 3112.0,
+        "y": 1057.0
+       },
+       "name": "Show Options",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "OptionsButton"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e103",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 26.0,
+        "width": 76.0,
+        "x": 3469.0,
+        "y": 1057.0
+       },
+       "name": "Cancel",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "CancelButton"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e104",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click"
+       ],
+       "bounds": {
+        "height": 26.0,
+        "width": 76.0,
+        "x": 3551.0,
+        "y": 1057.0
+       },
+       "name": "Open",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "OKButton"
+       },
+       "ref_id": "@s1n30tizdp5y6o:e105",
+       "role": "button",
+       "states": [
+        "disabled"
+       ]
+      }
+     ],
+     "role": "group"
+    }
+   ],
+   "name": "Open",
+   "native_id": {
+    "kind": "ax_identifier",
+    "value": "open-panel"
+   },
+   "role": "window"
+  },
+  "window": {
+   "id": "w-28674",
+   "title": "Open"
+  }
+ }
+}

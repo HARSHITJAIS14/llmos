@@ -1,0 +1,675 @@
+{
+  "schema_version": "1.0",
+  "app_key": "calendar",
+  "identity": {
+    "name": "Calendar",
+    "bundle_id": "com.apple.iCal",
+    "bundle_id_match": "exact",
+    "framework": "appkit",
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_hint",
+        "observation": "system app in /System/Applications, no embedded web/Qt/Electron frameworks"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "no webarea in 170 nodes"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.035 (6 unnamed groups / 170), native band < 0.15"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 7 at both depth 10 and depth 40"
+      },
+      {
+        "source": "wrapper_chain_length",
+        "observation": "max single-child unnamed chain 1"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "button 99, treeitem 12, cell 12, checkbox 9, textfield 7 of 170"
+      }
+    ]
+  },
+  "category": "productivity",
+  "fidelity": {
+    "default": {
+      "nodes": 170,
+      "max_depth": 7,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 135,
+      "ref_count": 158,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 28,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 170,
+      "max_depth": 7,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 135,
+      "ref_count": 158,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 28,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.0,
+    "default_score": 1.0,
+    "forced_score": 1.0,
+    "best_capture": "default",
+    "ladder_verdict": "trust"
+  },
+  "readiness": {
+    "default_rung": "TRUST",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "background capture 170 nodes = foreground 170; 170/170 text and 169/170 bounds equal"
+    },
+    "handshake": {
+      "status": "not_applicable",
+      "note": "native AppKit, no webarea"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 0,
+        "height": 0,
+        "x": 0,
+        "y": 1440,
+        "count": 2,
+        "kind": "helper_surface"
+      },
+      {
+        "width": 0,
+        "height": 0,
+        "x": 2129,
+        "y": 695,
+        "count": 1,
+        "kind": "helper_surface"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "textfield_value",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "mixed",
+    "native_id": {
+      "coverage_interactive_pct": 21.5,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": [
+        "^_NS:\\d+$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 22.7,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "button",
+        "statictext",
+        "textfield"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "CALMainWindow",
+      "match": "exact",
+      "tier": "high",
+      "role": "window",
+      "purpose": "main window root (role flips window/dialog)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "CalendarsView",
+      "match": "exact",
+      "tier": "high",
+      "role": "outline",
+      "purpose": "sidebar calendar list",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "calendarlist-title-field:",
+      "match": "prefix",
+      "tier": "high",
+      "role": "textfield",
+      "purpose": "calendar list row title (tail is user data)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "calendar-checkbox-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "checkbox",
+      "purpose": "calendar visibility checkbox (repeats per row)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "MiniCalPrevMonthButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "mini calendar previous month",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "MiniCalNextMonthButton",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "mini calendar next month",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "sidebar-mini-month",
+      "match": "exact",
+      "tier": "high",
+      "role": "unknown",
+      "purpose": "sidebar mini month grid",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "active-view",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "main calendar view area",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "title-field",
+      "match": "exact",
+      "tier": "high",
+      "role": "statictext",
+      "purpose": "event inspector title",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "notes-field",
+      "match": "exact",
+      "tier": "high",
+      "role": "statictext",
+      "purpose": "event inspector notes",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "calendar-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "combobox",
+      "purpose": "event calendar picker",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "date-time-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "event date and time",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "previous day",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "previous period button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "today-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "today button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "next day",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "next period button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "CalendarsControl",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiogroup",
+      "purpose": "calendars/inbox switcher",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "calendars-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "show calendars list",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "inbox-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "show inbox",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "views-switcher",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiogroup",
+      "purpose": "day/week/month/year switcher",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "day-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "day view",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "week-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "week view",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "month-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "month view",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "year-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "year view",
+      "seen_in_captures": 2
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": true,
+    "text_entry": "set_value",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Scroll"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "RightClick",
+          "SetFocus",
+          "Select"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 12,
+        "verb": "Click"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetValue",
+          "SetFocus"
+        ],
+        "count": 7,
+        "verb": "SetValue"
+      },
+      {
+        "role": "checkbox",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "Toggle"
+        ],
+        "count": 9,
+        "verb": "Toggle"
+      },
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus"
+        ],
+        "count": 99,
+        "verb": "Click"
+      },
+      {
+        "role": "scrollbar",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "handle",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "RightClick",
+          "SetFocus",
+          "Select"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "statictext",
+        "actions": [
+          "Click",
+          "RightClick"
+        ],
+        "count": 6,
+        "verb": "Click"
+      },
+      {
+        "role": "combobox",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "Expand",
+          "Collapse"
+        ],
+        "count": 1,
+        "verb": "Expand"
+      },
+      {
+        "role": "radiobutton",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "Toggle"
+        ],
+        "count": 6,
+        "verb": "Toggle"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role==statictext",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "list_item_label",
+        "match": "role==textfield and parent.role==cell under outline CalendarsView; name is account group, value is calendar title",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-4",
+          "LAW-TXT-3"
+        ]
+      },
+      {
+        "target": "cell",
+        "match": "role==cell under treeitem (12/12 named, 0 value)",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4",
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role in {checkbox,radiobutton}; value '0'/'1' (15/15)",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 3,
+    "offscreen_click": "forbidden",
+    "root_role_varies": true
+  },
+  "quirks": [
+    {
+      "kind": "non_unique_role_name",
+      "detect": "(role,name) unique share < 70% among named interactives",
+      "workaround": "use native_id first, else pre-order index checked by bounds",
+      "severity": "high",
+      "observed": "27/119 named interactives unique by (role,name); 119/119 with bounds; 84 buttons are grid day cells",
+      "laws": [
+        "LAW-ID-6"
+      ]
+    },
+    {
+      "kind": "user_data_in_id",
+      "detect": "ax_identifier starts with 'calendarlist-title-field:'",
+      "workaround": "store only the prefix; match the row by index or value at run time",
+      "severity": "high",
+      "observed": "6/6 calendar row textfield ids end with the user's calendar title (equal to value)",
+      "laws": [
+        "LAW-ID-2"
+      ]
+    },
+    {
+      "kind": "mass_focused",
+      "detect": "count(focused) > 3",
+      "workaround": "real focus is the focused list/outline container, not its cells",
+      "severity": "low",
+      "observed": "13 focused nodes: 12 cells + 1 list",
+      "laws": [
+        "LAW-ACT-10"
+      ]
+    },
+    {
+      "kind": "zero_area_clones",
+      "detect": "button with width 0 and height 0 at same point as sibling",
+      "workaround": "exclude zero-area nodes from resolution",
+      "severity": "low",
+      "observed": "3 zero-area buttons, 2 are identical 0x0 at one point",
+      "laws": [
+        "LAW-ID-7"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick window each session; never cache window id",
+      "severity": "low",
+      "observed": "window id changed between background and forced capture; same 935x598 bounds",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always: depth-10 background snapshot is complete",
+      "tested": true
+    },
+    {
+      "channel": "keyboard",
+      "when": "view switch or navigation shortcuts when a target is not in tree",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "verify event layout in grid cells the tree does not describe",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:59:07+05:30",
+      "2026-08-30T20:59:08+05:30",
+      "2026-08-30T21:14:56+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "calendar/meta.json",
+      "calendar/windows.json",
+      "calendar/skeleton.json",
+      "calendar/full.json",
+      "calendar/forced.json",
+      "calendar/surfaces.json"
+    ],
+    "excluded_sources": [
+      {
+        "path": "calendar/analysis.md",
+        "reason": "file not present for this app"
+      }
+    ],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

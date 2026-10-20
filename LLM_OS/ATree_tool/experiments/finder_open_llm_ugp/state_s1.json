@@ -1,0 +1,4426 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Finder",
+    "complete": true,
+    "ref_count": 184,
+    "snapshot_id": "s1vaq7g22532gz",
+    "tree": {
+      "bounds": {
+        "height": 436.0,
+        "width": 920.0,
+        "x": 304.0,
+        "y": 184.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 436.0,
+            "width": 920.0,
+            "x": 304.0,
+            "y": 184.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Scroll"
+              ],
+              "bounds": {
+                "height": 376.0,
+                "width": 207.0,
+                "x": 312.0,
+                "y": 236.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select"
+                  ],
+                  "bounds": {
+                    "height": 876.0,
+                    "width": 209.0,
+                    "x": 311.0,
+                    "y": 235.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 236.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 236.0
+                          },
+                          "name": "Recents",
+                          "ref_id": "@s1vaq7g22532gz:e4",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Recents",
+                      "ref_id": "@s1vaq7g22532gz:e3",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 268.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 268.0
+                          },
+                          "name": "Shared",
+                          "ref_id": "@s1vaq7g22532gz:e6",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Shared",
+                      "ref_id": "@s1vaq7g22532gz:e5",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 313.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 313.0
+                          },
+                          "name": "Favourites",
+                          "ref_id": "@s1vaq7g22532gz:e8",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Favourites",
+                      "ref_id": "@s1vaq7g22532gz:e7",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 332.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 332.0
+                          },
+                          "name": "Desktop",
+                          "ref_id": "@s1vaq7g22532gz:e10",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Desktop",
+                      "ref_id": "@s1vaq7g22532gz:e9",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 364.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 364.0
+                          },
+                          "name": "Documents",
+                          "ref_id": "@s1vaq7g22532gz:e12",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Documents",
+                      "ref_id": "@s1vaq7g22532gz:e11",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 396.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 396.0
+                          },
+                          "name": "Pictures",
+                          "ref_id": "@s1vaq7g22532gz:e14",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Pictures",
+                      "ref_id": "@s1vaq7g22532gz:e13",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 428.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 428.0
+                          },
+                          "name": "Downloads",
+                          "ref_id": "@s1vaq7g22532gz:e16",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Downloads",
+                      "ref_id": "@s1vaq7g22532gz:e15",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 460.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 460.0
+                          },
+                          "name": "Music",
+                          "ref_id": "@s1vaq7g22532gz:e18",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Music",
+                      "ref_id": "@s1vaq7g22532gz:e17",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 492.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 492.0
+                          },
+                          "name": "Applications",
+                          "ref_id": "@s1vaq7g22532gz:e20",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Applications",
+                      "ref_id": "@s1vaq7g22532gz:e19",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 524.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 524.0
+                          },
+                          "name": "Quick",
+                          "ref_id": "@s1vaq7g22532gz:e22",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Quick",
+                      "ref_id": "@s1vaq7g22532gz:e21",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 569.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 569.0
+                          },
+                          "name": "Locations",
+                          "ref_id": "@s1vaq7g22532gz:e24",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Locations",
+                      "ref_id": "@s1vaq7g22532gz:e23",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 588.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 588.0
+                          },
+                          "name": "iCloud\u00a0Drive",
+                          "ref_id": "@s1vaq7g22532gz:e26",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "iCloud Drive",
+                      "ref_id": "@s1vaq7g22532gz:e25",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 620.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 620.0
+                          },
+                          "name": "MacDroid",
+                          "ref_id": "@s1vaq7g22532gz:e28",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "MacDroid",
+                      "ref_id": "@s1vaq7g22532gz:e27",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 652.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 652.0
+                          },
+                          "name": "harshit",
+                          "ref_id": "@s1vaq7g22532gz:e30",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "selected",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "harshit",
+                      "ref_id": "@s1vaq7g22532gz:e29",
+                      "role": "treeitem",
+                      "states": [
+                        "selected",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 684.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 684.0
+                          },
+                          "name": "harshit\u2019s MacBook Air",
+                          "ref_id": "@s1vaq7g22532gz:e32",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "harshit\u2019s MacBook Air",
+                      "ref_id": "@s1vaq7g22532gz:e31",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 716.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 716.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 17.0,
+                                "width": 19.5,
+                                "x": 562.0,
+                                "y": 721.0
+                              },
+                              "description": "eject",
+                              "name": "Eject",
+                              "ref_id": "@s1vaq7g22532gz:e35",
+                              "role": "button",
+                              "states": [
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "name": "HeyClicky",
+                          "ref_id": "@s1vaq7g22532gz:e34",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "HeyClicky",
+                      "ref_id": "@s1vaq7g22532gz:e33",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 748.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 748.0
+                          },
+                          "name": "AirDrop",
+                          "ref_id": "@s1vaq7g22532gz:e37",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "AirDrop",
+                      "ref_id": "@s1vaq7g22532gz:e36",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 780.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 780.0
+                          },
+                          "name": "Bin",
+                          "ref_id": "@s1vaq7g22532gz:e39",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Bin",
+                      "ref_id": "@s1vaq7g22532gz:e38",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 825.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 825.0
+                          },
+                          "name": "Tags",
+                          "ref_id": "@s1vaq7g22532gz:e41",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Tags",
+                      "ref_id": "@s1vaq7g22532gz:e40",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 844.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 844.0
+                          },
+                          "name": "Red",
+                          "ref_id": "@s1vaq7g22532gz:e43",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Red",
+                      "ref_id": "@s1vaq7g22532gz:e42",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 876.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 876.0
+                          },
+                          "name": "Orange",
+                          "ref_id": "@s1vaq7g22532gz:e45",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Orange",
+                      "ref_id": "@s1vaq7g22532gz:e44",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 908.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 908.0
+                          },
+                          "name": "Yellow",
+                          "ref_id": "@s1vaq7g22532gz:e47",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Yellow",
+                      "ref_id": "@s1vaq7g22532gz:e46",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 940.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 940.0
+                          },
+                          "name": "Green",
+                          "ref_id": "@s1vaq7g22532gz:e49",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Green",
+                      "ref_id": "@s1vaq7g22532gz:e48",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 972.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 972.0
+                          },
+                          "name": "Blue",
+                          "ref_id": "@s1vaq7g22532gz:e51",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Blue",
+                      "ref_id": "@s1vaq7g22532gz:e50",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 1004.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 1004.0
+                          },
+                          "name": "Purple",
+                          "ref_id": "@s1vaq7g22532gz:e53",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Purple",
+                      "ref_id": "@s1vaq7g22532gz:e52",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 1036.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 1036.0
+                          },
+                          "name": "Grey",
+                          "ref_id": "@s1vaq7g22532gz:e55",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Grey",
+                      "ref_id": "@s1vaq7g22532gz:e54",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 312.0,
+                        "y": 1068.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 322.0,
+                            "y": 1068.0
+                          },
+                          "name": "All Tags\u2026",
+                          "ref_id": "@s1vaq7g22532gz:e57",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "All Tags\u2026",
+                      "ref_id": "@s1vaq7g22532gz:e56",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "name": "sidebar",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:8"
+                  },
+                  "ref_id": "@s1vaq7g22532gz:e2",
+                  "role": "outline"
+                },
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 368.5,
+                    "width": 19.0,
+                    "x": 501.0,
+                    "y": 235.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetValue"
+                      ],
+                      "bounds": {
+                        "height": 164.5,
+                        "width": 6.0,
+                        "x": 510.0,
+                        "y": 239.0
+                      },
+                      "ref_id": "@s1vaq7g22532gz:e59",
+                      "role": "handle",
+                      "value": "0"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 502.0,
+                        "y": 236.0
+                      },
+                      "ref_id": "@s1vaq7g22532gz:e60",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 502.0,
+                        "y": 236.0
+                      },
+                      "ref_id": "@s1vaq7g22532gz:e61",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 195.5,
+                        "width": 6.0,
+                        "x": 510.0,
+                        "y": 404.0
+                      },
+                      "ref_id": "@s1vaq7g22532gz:e62",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 6.0,
+                        "x": 510.0,
+                        "y": 239.0
+                      },
+                      "ref_id": "@s1vaq7g22532gz:e63",
+                      "role": "button"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:70"
+                  },
+                  "ref_id": "@s1vaq7g22532gz:e58",
+                  "role": "scrollbar",
+                  "states": [
+                    "hidden"
+                  ],
+                  "value": "0"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:61"
+              },
+              "ref_id": "@s1vaq7g22532gz:e1",
+              "role": "scrollarea"
+            },
+            {
+              "bounds": {
+                "height": 436.0,
+                "width": 920.0,
+                "x": 304.0,
+                "y": 184.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 386.0,
+                    "width": 922.0,
+                    "x": 303.0,
+                    "y": 235.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 384.0,
+                        "width": 245.0,
+                        "x": 519.0,
+                        "y": 236.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 905.0,
+                            "width": 246.0,
+                            "x": 518.0,
+                            "y": 133.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 139.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 2.0,
+                                    "width": 2.0,
+                                    "x": 534.0,
+                                    "y": 163.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e67",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Downloads"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 163.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 49.0,
+                                    "x": 557.0,
+                                    "y": 166.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e68",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Movies"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 187.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 56.0,
+                                    "x": 557.0,
+                                    "y": 190.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e69",
+                                  "role": "textfield",
+                                  "value": "Pictures"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 211.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 57.0,
+                                    "x": 557.0,
+                                    "y": 214.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e70",
+                                  "role": "textfield",
+                                  "value": "Desktop"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 235.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 35.0,
+                                    "x": 557.0,
+                                    "y": 238.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e71",
+                                  "role": "textfield",
+                                  "value": "UTM"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 259.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 145.0,
+                                    "x": 557.0,
+                                    "y": 262.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e72",
+                                  "role": "textfield",
+                                  "value": "Applications (Parallels)"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 283.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 57.0,
+                                    "x": 557.0,
+                                    "y": 286.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e73",
+                                  "role": "textfield",
+                                  "value": "Parallels"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 307.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 76.0,
+                                    "x": 557.0,
+                                    "y": 310.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e74",
+                                  "role": "textfield",
+                                  "value": "Documents"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 331.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 48.0,
+                                    "x": 557.0,
+                                    "y": 334.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e75",
+                                  "role": "textfield",
+                                  "value": "agy_cli"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 355.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 63.0,
+                                    "x": 557.0,
+                                    "y": 358.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e76",
+                                  "role": "textfield",
+                                  "value": "nltk_data"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 379.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 77.0,
+                                    "x": 557.0,
+                                    "y": 382.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e77",
+                                  "role": "textfield",
+                                  "value": "endee-data"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 403.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 115.0,
+                                    "x": 557.0,
+                                    "y": 406.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e78",
+                                  "role": "textfield",
+                                  "value": "solitaire-play.html"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 427.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 54.0,
+                                    "x": 557.0,
+                                    "y": 430.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e79",
+                                  "role": "textfield",
+                                  "value": "solitaire"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 451.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 81.0,
+                                    "x": 557.0,
+                                    "y": 454.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e80",
+                                  "role": "textfield",
+                                  "value": "Applications"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 475.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 29.0,
+                                    "x": 557.0,
+                                    "y": 478.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e81",
+                                  "role": "textfield",
+                                  "value": "Isro"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 499.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 71.0,
+                                    "x": 557.0,
+                                    "y": 502.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e82",
+                                  "role": "textfield",
+                                  "value": "isro-geonli"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 523.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 38.0,
+                                    "x": 557.0,
+                                    "y": 526.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e83",
+                                  "role": "textfield",
+                                  "value": "perl5"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 547.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 45.0,
+                                    "x": 557.0,
+                                    "y": 550.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e84",
+                                  "role": "textfield",
+                                  "value": "exams"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 571.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 122.0,
+                                    "x": 557.0,
+                                    "y": 574.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e85",
+                                  "role": "textfield",
+                                  "value": "CS633-2023-24-2"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 595.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 45.0,
+                                    "x": 557.0,
+                                    "y": 598.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e86",
+                                  "role": "textfield",
+                                  "value": "Aspire"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 619.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 61.0,
+                                    "x": 557.0,
+                                    "y": 622.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e87",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "EarthDial"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 643.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 2.0,
+                                    "width": 2.0,
+                                    "x": 534.0,
+                                    "y": 667.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e88",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Postman"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 667.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 59.0,
+                                    "x": 557.0,
+                                    "y": 670.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e89",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "kaggle.json"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 691.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 59.0,
+                                    "x": 557.0,
+                                    "y": 694.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e90",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Python"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 715.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 59.0,
+                                    "x": 557.0,
+                                    "y": 718.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e91",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "miniconda3"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 739.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 59.0,
+                                    "x": 557.0,
+                                    "y": 742.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e92",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Music"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 763.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 59.0,
+                                    "x": 557.0,
+                                    "y": 766.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e93",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "hi"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 787.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 59.0,
+                                    "x": 557.0,
+                                    "y": 790.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e94",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Miniconda3-latest-MacOSX-arm64.sh"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 811.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 59.0,
+                                    "x": 557.0,
+                                    "y": 814.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e95",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Telegram"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 835.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 35.0,
+                                    "x": 557.0,
+                                    "y": 838.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e96",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "envs"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 859.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 35.0,
+                                    "x": 557.0,
+                                    "y": 862.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e97",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "venv"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 883.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 35.0,
+                                    "x": 557.0,
+                                    "y": 886.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e98",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "#"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 907.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 35.0,
+                                    "x": 557.0,
+                                    "y": 910.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e99",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "3.12"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 931.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 31.0,
+                                    "x": 557.0,
+                                    "y": 934.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e100",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "with"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 955.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 31.0,
+                                    "x": 557.0,
+                                    "y": 958.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e101",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "new"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 979.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 31.0,
+                                    "x": 557.0,
+                                    "y": 982.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e102",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Create"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 535.0,
+                                "y": 1003.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 31.0,
+                                    "x": 557.0,
+                                    "y": 1006.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e103",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Public"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s1vaq7g22532gz:e66",
+                          "role": "list"
+                        },
+                        {
+                          "available_actions": [
+                            "SetValue"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 19.0,
+                            "x": 745.0,
+                            "y": 235.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetValue"
+                              ],
+                              "bounds": {
+                                "height": 172.5,
+                                "width": 6.0,
+                                "x": 754.0,
+                                "y": 279.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e105",
+                              "role": "handle",
+                              "value": "0.19653179190751446"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 746.0,
+                                "y": 236.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e106",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 746.0,
+                                "y": 236.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e107",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 165.0,
+                                "width": 6.0,
+                                "x": 754.0,
+                                "y": 452.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e108",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 40.0,
+                                "width": 6.0,
+                                "x": 754.0,
+                                "y": 239.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e109",
+                              "role": "button"
+                            }
+                          ],
+                          "ref_id": "@s1vaq7g22532gz:e104",
+                          "role": "scrollbar",
+                          "states": [
+                            "hidden"
+                          ],
+                          "value": "0.19653179190751446"
+                        }
+                      ],
+                      "ref_id": "@s1vaq7g22532gz:e65",
+                      "role": "scrollarea"
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 384.0,
+                        "width": 245.0,
+                        "x": 764.0,
+                        "y": 236.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 246.0,
+                            "x": 763.0,
+                            "y": 235.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 780.0,
+                                "y": 241.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 58.0,
+                                    "x": 802.0,
+                                    "y": 244.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e112",
+                                  "role": "textfield",
+                                  "value": "my drive"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 780.0,
+                                "y": 265.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 36.0,
+                                    "x": 802.0,
+                                    "y": 268.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e113",
+                                  "role": "textfield",
+                                  "value": "ISRO"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 780.0,
+                                "y": 289.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 55.0,
+                                    "x": 802.0,
+                                    "y": 292.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e114",
+                                  "role": "textfield",
+                                  "value": "Amazon"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 780.0,
+                                "y": 313.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 74.0,
+                                    "x": 802.0,
+                                    "y": 316.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e115",
+                                  "role": "textfield",
+                                  "value": "Wallpapers"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 780.0,
+                                "y": 337.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 85.0,
+                                    "x": 802.0,
+                                    "y": 340.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e116",
+                                  "role": "textfield",
+                                  "value": "SBICOLLECT"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 780.0,
+                                "y": 361.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 802.0,
+                                    "y": 364.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e117",
+                                  "role": "textfield",
+                                  "value": "Quick"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 780.0,
+                                "y": 385.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 58.0,
+                                    "x": 802.0,
+                                    "y": 388.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e118",
+                                  "role": "textfield",
+                                  "value": "Dream11"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 780.0,
+                                "y": 409.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 82.0,
+                                    "x": 802.0,
+                                    "y": 412.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e119",
+                                  "role": "textfield",
+                                  "value": "Screenshots"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s1vaq7g22532gz:e111",
+                          "role": "list"
+                        },
+                        {
+                          "available_actions": [
+                            "SetValue"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 19.0,
+                            "x": 990.0,
+                            "y": 235.0
+                          },
+                          "ref_id": "@s1vaq7g22532gz:e120",
+                          "role": "scrollbar",
+                          "states": [
+                            "disabled",
+                            "hidden"
+                          ],
+                          "value": "0"
+                        }
+                      ],
+                      "ref_id": "@s1vaq7g22532gz:e110",
+                      "role": "scrollarea"
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 384.0,
+                        "width": 245.0,
+                        "x": 1009.0,
+                        "y": 236.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 473.0,
+                            "width": 246.0,
+                            "x": 1008.0,
+                            "y": 235.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 241.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 52.0,
+                                    "x": 1047.0,
+                                    "y": 244.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e123",
+                                  "role": "textfield",
+                                  "value": "B.TECH"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 265.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 49.0,
+                                    "x": 1047.0,
+                                    "y": 268.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e124",
+                                  "role": "textfield",
+                                  "value": "Harsha"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 289.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 46.0,
+                                    "x": 1047.0,
+                                    "y": 292.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e125",
+                                  "role": "textfield",
+                                  "value": "videos"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 313.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 60.0,
+                                    "x": 1047.0,
+                                    "y": 316.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e126",
+                                  "role": "textfield",
+                                  "value": "Passport"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 337.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 122.0,
+                                    "x": 1047.0,
+                                    "y": 340.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e127",
+                                  "role": "textfield",
+                                  "value": "IMPORTANT DOCS"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 361.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 56.0,
+                                    "x": 1047.0,
+                                    "y": 364.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e128",
+                                  "role": "textfield",
+                                  "value": "Inter_IIT"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 385.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 34.0,
+                                    "x": 1047.0,
+                                    "y": 388.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e129",
+                                  "role": "textfield",
+                                  "value": "#ME"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 409.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 182.0,
+                                    "x": 1047.0,
+                                    "y": 412.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e130",
+                                  "role": "textfield",
+                                  "value": "instagram-justharshitj-2024-12-16-vt7ztdSU.zip"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 433.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 46.0,
+                                    "x": 1047.0,
+                                    "y": 436.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e131",
+                                  "role": "textfield",
+                                  "value": "Manali"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 457.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 87.0,
+                                    "x": 1047.0,
+                                    "y": 460.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e132",
+                                  "role": "textfield",
+                                  "value": "jee advanced"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 481.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 88.0,
+                                    "x": 1047.0,
+                                    "y": 484.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e133",
+                                  "role": "textfield",
+                                  "value": "PDIC Kurawal"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 505.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 67.0,
+                                    "x": 1047.0,
+                                    "y": 508.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e134",
+                                  "role": "textfield",
+                                  "value": "Download"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 529.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 127.0,
+                                    "x": 1047.0,
+                                    "y": 532.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e135",
+                                  "role": "textfield",
+                                  "value": "downloaded images"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 553.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 81.0,
+                                    "x": 1047.0,
+                                    "y": 556.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e136",
+                                  "role": "textfield",
+                                  "value": "saadi (2).zip"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 577.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 182.0,
+                                    "x": 1047.0,
+                                    "y": 580.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e137",
+                                  "role": "textfield",
+                                  "value": "WhatsApp Image 2023-02-05 at 21.31.22.jpg"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 601.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 58.0,
+                                    "x": 1047.0,
+                                    "y": 604.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e138",
+                                  "role": "textfield",
+                                  "value": "7277.jpg"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 625.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 2.0,
+                                    "width": 2.0,
+                                    "x": 1024.0,
+                                    "y": 649.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e139",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "38191.jpg"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 649.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 67.0,
+                                    "x": 1047.0,
+                                    "y": 652.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e140",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "logins.csv"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1025.0,
+                                "y": 673.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 67.0,
+                                    "x": 1047.0,
+                                    "y": 676.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e141",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "notes.zip"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s1vaq7g22532gz:e122",
+                          "role": "list"
+                        },
+                        {
+                          "available_actions": [
+                            "SetValue"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 19.0,
+                            "x": 1235.0,
+                            "y": 235.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetValue"
+                              ],
+                              "bounds": {
+                                "height": 315.0,
+                                "width": 6.0,
+                                "x": 1244.0,
+                                "y": 239.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e143",
+                              "role": "handle",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "0"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 1236.0,
+                                "y": 236.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e144",
+                              "role": "button",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 1236.0,
+                                "y": 236.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e145",
+                              "role": "button",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 62.5,
+                                "width": 6.0,
+                                "x": 1244.0,
+                                "y": 554.5
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e146",
+                              "role": "button",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 6.0,
+                                "x": 1244.0,
+                                "y": 239.0
+                              },
+                              "ref_id": "@s1vaq7g22532gz:e147",
+                              "role": "button",
+                              "states": [
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s1vaq7g22532gz:e142",
+                          "role": "scrollbar",
+                          "states": [
+                            "hidden",
+                            "offscreen"
+                          ],
+                          "value": "0"
+                        }
+                      ],
+                      "ref_id": "@s1vaq7g22532gz:e121",
+                      "role": "scrollarea"
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 384.0,
+                        "width": 245.0,
+                        "x": 1254.0,
+                        "y": 236.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 246.0,
+                            "x": 1253.0,
+                            "y": 235.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1270.0,
+                                "y": 241.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 2.0,
+                                    "width": 2.0,
+                                    "x": 1269.0,
+                                    "y": 265.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e150",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "ig_6th"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1270.0,
+                                "y": 265.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 45.0,
+                                    "x": 1292.0,
+                                    "y": 268.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e151",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "sem5"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1270.0,
+                                "y": 289.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 98.0,
+                                    "x": 1292.0,
+                                    "y": 292.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e152",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Courses Sem 2"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1270.0,
+                                "y": 313.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 98.0,
+                                    "x": 1292.0,
+                                    "y": 316.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e153",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "COURSES_SEM_4"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1270.0,
+                                "y": 337.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 98.0,
+                                    "x": 1292.0,
+                                    "y": 340.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e154",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Courses Sem 3"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1270.0,
+                                "y": 361.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 98.0,
+                                    "x": 1292.0,
+                                    "y": 364.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e155",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "MTH113"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1270.0,
+                                "y": 385.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 56.0,
+                                    "x": 1292.0,
+                                    "y": 388.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e156",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "PDIC Kurawal"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1270.0,
+                                "y": 409.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 56.0,
+                                    "x": 1292.0,
+                                    "y": 412.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e157",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Electrodynamics"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s1vaq7g22532gz:e149",
+                          "role": "list",
+                          "states": [
+                            "offscreen"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "SetValue"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 19.0,
+                            "x": 1480.0,
+                            "y": 235.0
+                          },
+                          "ref_id": "@s1vaq7g22532gz:e158",
+                          "role": "scrollbar",
+                          "states": [
+                            "disabled",
+                            "hidden",
+                            "offscreen"
+                          ],
+                          "value": "0"
+                        }
+                      ],
+                      "ref_id": "@s1vaq7g22532gz:e148",
+                      "role": "scrollarea",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 384.0,
+                        "width": 245.0,
+                        "x": 1499.0,
+                        "y": 236.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 246.0,
+                            "x": 1498.0,
+                            "y": 235.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1515.0,
+                                "y": 241.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 2.0,
+                                    "width": 2.0,
+                                    "x": 1514.0,
+                                    "y": 265.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e161",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "CS220"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1515.0,
+                                "y": 265.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 42.0,
+                                    "x": 1537.0,
+                                    "y": 268.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e162",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "cs315"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1515.0,
+                                "y": 289.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 42.0,
+                                    "x": 1537.0,
+                                    "y": 292.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e163",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "CHE668"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1515.0,
+                                "y": 313.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 57.0,
+                                    "x": 1537.0,
+                                    "y": 316.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e164",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "CHE352"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1515.0,
+                                "y": 337.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 57.0,
+                                    "x": 1537.0,
+                                    "y": 340.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e165",
+                                  "role": "textfield",
+                                  "states": [
+                                    "selected",
+                                    "offscreen"
+                                  ],
+                                  "value": "LLM_UGP"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s1vaq7g22532gz:e160",
+                          "role": "list",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "SetValue"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 19.0,
+                            "x": 1725.0,
+                            "y": 235.0
+                          },
+                          "ref_id": "@s1vaq7g22532gz:e166",
+                          "role": "scrollbar",
+                          "states": [
+                            "disabled",
+                            "hidden",
+                            "offscreen"
+                          ],
+                          "value": "0"
+                        }
+                      ],
+                      "ref_id": "@s1vaq7g22532gz:e159",
+                      "role": "scrollarea",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 384.0,
+                        "width": 245.0,
+                        "x": 1744.0,
+                        "y": 236.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 246.0,
+                            "x": 1743.0,
+                            "y": 235.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1760.0,
+                                "y": 241.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 2.0,
+                                    "width": 2.0,
+                                    "x": 1759.0,
+                                    "y": 265.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e169",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "ugp"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 25.0,
+                                "width": 206.5,
+                                "x": 1760.0,
+                                "y": 265.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 86.0,
+                                    "x": 1782.0,
+                                    "y": 268.0
+                                  },
+                                  "ref_id": "@s1vaq7g22532gz:e170",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "random_mds"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s1vaq7g22532gz:e168",
+                          "role": "list",
+                          "states": [
+                            "offscreen"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "SetValue"
+                          ],
+                          "bounds": {
+                            "height": 386.0,
+                            "width": 19.0,
+                            "x": 1970.0,
+                            "y": 235.0
+                          },
+                          "ref_id": "@s1vaq7g22532gz:e171",
+                          "role": "scrollbar",
+                          "states": [
+                            "disabled",
+                            "hidden",
+                            "offscreen"
+                          ],
+                          "value": "0"
+                        }
+                      ],
+                      "ref_id": "@s1vaq7g22532gz:e167",
+                      "role": "scrollarea",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "name": "column view",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "ColumnView"
+                  },
+                  "ref_id": "@s1vaq7g22532gz:e64",
+                  "role": "browser"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 920.0,
+            "x": 304.0,
+            "y": 184.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 81.0,
+                "x": 523.0,
+                "y": 184.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 75.0,
+                    "x": 526.0,
+                    "y": 191.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 527.0,
+                        "y": 192.0
+                      },
+                      "name": "back",
+                      "ref_id": "@s1vaq7g22532gz:e173",
+                      "role": "button",
+                      "states": [
+                        "disabled"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 564.0,
+                        "y": 192.0
+                      },
+                      "name": "forward",
+                      "ref_id": "@s1vaq7g22532gz:e174",
+                      "role": "button",
+                      "states": [
+                        "disabled"
+                      ]
+                    }
+                  ],
+                  "name": "Back/Forward",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:51"
+                  },
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 60.0,
+                "x": 911.0,
+                "y": 184.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus",
+                    "Expand",
+                    "Collapse"
+                  ],
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 54.0,
+                    "x": 914.0,
+                    "y": 191.0
+                  },
+                  "name": "column view",
+                  "ref_id": "@s1vaq7g22532gz:e175",
+                  "role": "combobox",
+                  "states": [
+                    "readonly"
+                  ],
+                  "value": "as Columns"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 58.0,
+                "x": 979.0,
+                "y": 184.0
+              },
+              "name": "Group",
+              "ref_id": "@s1vaq7g22532gz:e176",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 41.0,
+                "x": 1045.0,
+                "y": 184.0
+              },
+              "name": "Share",
+              "ref_id": "@s1vaq7g22532gz:e177",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 40.0,
+                "x": 1086.0,
+                "y": 184.0
+              },
+              "name": "Add Tags",
+              "ref_id": "@s1vaq7g22532gz:e178",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 41.0,
+                "x": 1126.0,
+                "y": 184.0
+              },
+              "name": "Action",
+              "ref_id": "@s1vaq7g22532gz:e179",
+              "role": "menubutton"
+            },
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 45.0,
+                "x": 1175.0,
+                "y": 184.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 38.5,
+                    "x": 1178.5,
+                    "y": 191.0
+                  },
+                  "name": "Search",
+                  "ref_id": "@s1vaq7g22532gz:e180",
+                  "role": "textfield"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s1vaq7g22532gz:e172",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 322.0,
+            "y": 202.0
+          },
+          "ref_id": "@s1vaq7g22532gz:e181",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 368.0,
+            "y": 202.0
+          },
+          "ref_id": "@s1vaq7g22532gz:e182",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 345.0,
+            "y": 202.0
+          },
+          "ref_id": "@s1vaq7g22532gz:e183",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 307.0,
+            "x": 604.0,
+            "y": 184.0
+          },
+          "name": "LLM_UGP",
+          "ref_id": "@s1vaq7g22532gz:e184",
+          "role": "statictext",
+          "value": "LLM_UGP"
+        }
+      ],
+      "name": "LLM_UGP",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "FinderWindow"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-24247",
+      "title": "LLM_UGP"
+    }
+  }
+}

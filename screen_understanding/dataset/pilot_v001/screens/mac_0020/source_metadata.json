@@ -1,0 +1,19 @@
+{
+  "screen_id": "mac_0020",
+  "source_path": "/Users/harshit/Desktop/YC/screen_understanding/dataset/pilot_v001/screens/mac_0020/source.png",
+  "sha256": "a96023de6ddf63e608dfebb1f4a96ca47ec08905a1d3dcc129a172a2523ff5b9",
+  "width": 1446,
+  "height": 1606,
+  "scale_factor": 2.0,
+  "stratum": "settings_forms_and_dialogs",
+  "app_family": "system_settings",
+  "session_group_id": "sess_mac_0020",
+  "appearance": "dark",
+  "source_provenance": "Real macOS native screencapture of system_settings",
+  "local_screening_status": "screened_safe_no_pii",
+  "pair_id": "pair_04",
+  "frame_order": 2,
+  "eligibility": "eligible",
+  "exclusion_reason": null,
+  "timestamp": 1792309069.0968661
+}

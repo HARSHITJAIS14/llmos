@@ -1,0 +1,2390 @@
+{
+  "algorithm": "ax-entities-v1",
+  "ax_observation": {
+    "snapshot_id": "s10ye2ulmqsjlu",
+    "app": "Calculator",
+    "reported_complete": true,
+    "frontier_count": 0,
+    "frontiers": [],
+    "filtered": {
+      "invalid_bounds": 0,
+      "outside_capture": 0,
+      "hidden": 0
+    },
+    "total_nodes": 35,
+    "projected_nodes": 35
+  },
+  "entities": [
+    {
+      "id": "E0_0_0_0_0",
+      "primary": {
+        "id": "0.0.0.0.0",
+        "ref": null,
+        "parent": "0.0.0.0",
+        "role": "group",
+        "name": "",
+        "value": null,
+        "description": null,
+        "states": [
+          "focused"
+        ],
+        "actions": [
+          "SetFocus"
+        ],
+        "bbox": [
+          0.0,
+          106.0,
+          460.0,
+          814.0
+        ],
+        "full_bbox": [
+          0.0,
+          106.0,
+          460.0,
+          814.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Calculator",
+      "label_source": "0",
+      "member_ids": [
+        "0",
+        "0.0",
+        "0.0.0",
+        "0.0.0.0",
+        "0.0.0.0.0"
+      ],
+      "member_refs": [],
+      "context": [],
+      "kind": "context",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_0",
+      "primary": {
+        "id": "0.0.0.0.0.0",
+        "ref": "@s10ye2ulmqsjlu:e1",
+        "parent": "0.0.0.0.0",
+        "role": "scrollarea",
+        "name": "Edit field",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Scroll"
+        ],
+        "bbox": [
+          20.0,
+          172.0,
+          440.0,
+          256.0
+        ],
+        "full_bbox": [
+          20.0,
+          172.0,
+          440.0,
+          256.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Edit field",
+      "label_source": "0.0.0.0.0.0",
+      "member_ids": [
+        "0.0.0.0.0.0"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e1"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "context",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_0_0",
+      "primary": {
+        "id": "0.0.0.0.0.0.0",
+        "ref": null,
+        "parent": "0.0.0.0.0.0",
+        "role": "statictext",
+        "name": "\u200e0",
+        "value": "\u200e0",
+        "description": null,
+        "states": [],
+        "actions": [],
+        "bbox": [
+          402.0,
+          178.0,
+          440.0,
+          250.0
+        ],
+        "full_bbox": [
+          402.0,
+          178.0,
+          440.0,
+          250.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "\u200e0",
+      "label_source": "0.0.0.0.0.0.0",
+      "member_ids": [
+        "0.0.0.0.0.0.0"
+      ],
+      "member_refs": [],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        },
+        {
+          "id": "0.0.0.0.0.0",
+          "role": "scrollarea",
+          "label": "Edit field"
+        }
+      ],
+      "kind": "content",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_1",
+      "primary": {
+        "id": "0.0.0.0.0.1",
+        "ref": "@s10ye2ulmqsjlu:e2",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Delete",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          20.0,
+          266.0,
+          116.0,
+          362.0
+        ],
+        "full_bbox": [
+          20.0,
+          266.0,
+          116.0,
+          362.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Delete",
+      "label_source": "0.0.0.0.0.1",
+      "member_ids": [
+        "0.0.0.0.0.1"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e2"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_2",
+      "primary": {
+        "id": "0.0.0.0.0.2",
+        "ref": "@s10ye2ulmqsjlu:e3",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "All Clear",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          128.0,
+          266.0,
+          224.0,
+          362.0
+        ],
+        "full_bbox": [
+          128.0,
+          266.0,
+          224.0,
+          362.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "All Clear",
+      "label_source": "0.0.0.0.0.2",
+      "member_ids": [
+        "0.0.0.0.0.2"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e3"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_3",
+      "primary": {
+        "id": "0.0.0.0.0.3",
+        "ref": "@s10ye2ulmqsjlu:e4",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Per cent",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          236.0,
+          266.0,
+          332.0,
+          362.0
+        ],
+        "full_bbox": [
+          236.0,
+          266.0,
+          332.0,
+          362.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Per cent",
+      "label_source": "0.0.0.0.0.3",
+      "member_ids": [
+        "0.0.0.0.0.3"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e4"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_4",
+      "primary": {
+        "id": "0.0.0.0.0.4",
+        "ref": "@s10ye2ulmqsjlu:e5",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Divide",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          344.0,
+          266.0,
+          440.0,
+          362.0
+        ],
+        "full_bbox": [
+          344.0,
+          266.0,
+          440.0,
+          362.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Divide",
+      "label_source": "0.0.0.0.0.4",
+      "member_ids": [
+        "0.0.0.0.0.4"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e5"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_5",
+      "primary": {
+        "id": "0.0.0.0.0.5",
+        "ref": "@s10ye2ulmqsjlu:e6",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "7",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          20.0,
+          374.0,
+          116.0,
+          470.0
+        ],
+        "full_bbox": [
+          20.0,
+          374.0,
+          116.0,
+          470.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "7",
+      "label_source": "0.0.0.0.0.5",
+      "member_ids": [
+        "0.0.0.0.0.5"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e6"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_6",
+      "primary": {
+        "id": "0.0.0.0.0.6",
+        "ref": "@s10ye2ulmqsjlu:e7",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "8",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          128.0,
+          374.0,
+          224.0,
+          470.0
+        ],
+        "full_bbox": [
+          128.0,
+          374.0,
+          224.0,
+          470.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "8",
+      "label_source": "0.0.0.0.0.6",
+      "member_ids": [
+        "0.0.0.0.0.6"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e7"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_7",
+      "primary": {
+        "id": "0.0.0.0.0.7",
+        "ref": "@s10ye2ulmqsjlu:e8",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "9",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          236.0,
+          374.0,
+          332.0,
+          470.0
+        ],
+        "full_bbox": [
+          236.0,
+          374.0,
+          332.0,
+          470.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "9",
+      "label_source": "0.0.0.0.0.7",
+      "member_ids": [
+        "0.0.0.0.0.7"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e8"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_8",
+      "primary": {
+        "id": "0.0.0.0.0.8",
+        "ref": "@s10ye2ulmqsjlu:e9",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Multiply",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          344.0,
+          374.0,
+          440.0,
+          470.0
+        ],
+        "full_bbox": [
+          344.0,
+          374.0,
+          440.0,
+          470.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Multiply",
+      "label_source": "0.0.0.0.0.8",
+      "member_ids": [
+        "0.0.0.0.0.8"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e9"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_9",
+      "primary": {
+        "id": "0.0.0.0.0.9",
+        "ref": "@s10ye2ulmqsjlu:e10",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "4",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          20.0,
+          482.0,
+          116.0,
+          578.0
+        ],
+        "full_bbox": [
+          20.0,
+          482.0,
+          116.0,
+          578.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "4",
+      "label_source": "0.0.0.0.0.9",
+      "member_ids": [
+        "0.0.0.0.0.9"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e10"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_10",
+      "primary": {
+        "id": "0.0.0.0.0.10",
+        "ref": "@s10ye2ulmqsjlu:e11",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "5",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          128.0,
+          482.0,
+          224.0,
+          578.0
+        ],
+        "full_bbox": [
+          128.0,
+          482.0,
+          224.0,
+          578.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "5",
+      "label_source": "0.0.0.0.0.10",
+      "member_ids": [
+        "0.0.0.0.0.10"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e11"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_11",
+      "primary": {
+        "id": "0.0.0.0.0.11",
+        "ref": "@s10ye2ulmqsjlu:e12",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "6",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          236.0,
+          482.0,
+          332.0,
+          578.0
+        ],
+        "full_bbox": [
+          236.0,
+          482.0,
+          332.0,
+          578.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "6",
+      "label_source": "0.0.0.0.0.11",
+      "member_ids": [
+        "0.0.0.0.0.11"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e12"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_12",
+      "primary": {
+        "id": "0.0.0.0.0.12",
+        "ref": "@s10ye2ulmqsjlu:e13",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Subtract",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          344.0,
+          482.0,
+          440.0,
+          578.0
+        ],
+        "full_bbox": [
+          344.0,
+          482.0,
+          440.0,
+          578.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Subtract",
+      "label_source": "0.0.0.0.0.12",
+      "member_ids": [
+        "0.0.0.0.0.12"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e13"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_13",
+      "primary": {
+        "id": "0.0.0.0.0.13",
+        "ref": "@s10ye2ulmqsjlu:e14",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "1",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          20.0,
+          590.0,
+          116.0,
+          686.0
+        ],
+        "full_bbox": [
+          20.0,
+          590.0,
+          116.0,
+          686.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "1",
+      "label_source": "0.0.0.0.0.13",
+      "member_ids": [
+        "0.0.0.0.0.13"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e14"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_14",
+      "primary": {
+        "id": "0.0.0.0.0.14",
+        "ref": "@s10ye2ulmqsjlu:e15",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "2",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          128.0,
+          590.0,
+          224.0,
+          686.0
+        ],
+        "full_bbox": [
+          128.0,
+          590.0,
+          224.0,
+          686.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "2",
+      "label_source": "0.0.0.0.0.14",
+      "member_ids": [
+        "0.0.0.0.0.14"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e15"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_15",
+      "primary": {
+        "id": "0.0.0.0.0.15",
+        "ref": "@s10ye2ulmqsjlu:e16",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "3",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          236.0,
+          590.0,
+          332.0,
+          686.0
+        ],
+        "full_bbox": [
+          236.0,
+          590.0,
+          332.0,
+          686.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "3",
+      "label_source": "0.0.0.0.0.15",
+      "member_ids": [
+        "0.0.0.0.0.15"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e16"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_16",
+      "primary": {
+        "id": "0.0.0.0.0.16",
+        "ref": "@s10ye2ulmqsjlu:e17",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Add",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          344.0,
+          590.0,
+          440.0,
+          686.0
+        ],
+        "full_bbox": [
+          344.0,
+          590.0,
+          440.0,
+          686.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Add",
+      "label_source": "0.0.0.0.0.16",
+      "member_ids": [
+        "0.0.0.0.0.16"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e17"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_17",
+      "primary": {
+        "id": "0.0.0.0.0.17",
+        "ref": "@s10ye2ulmqsjlu:e18",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Change Sign",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          20.0,
+          698.0,
+          116.0,
+          794.0
+        ],
+        "full_bbox": [
+          20.0,
+          698.0,
+          116.0,
+          794.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Change Sign",
+      "label_source": "0.0.0.0.0.17",
+      "member_ids": [
+        "0.0.0.0.0.17"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e18"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_18",
+      "primary": {
+        "id": "0.0.0.0.0.18",
+        "ref": "@s10ye2ulmqsjlu:e19",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "0",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          128.0,
+          698.0,
+          224.0,
+          794.0
+        ],
+        "full_bbox": [
+          128.0,
+          698.0,
+          224.0,
+          794.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "0",
+      "label_source": "0.0.0.0.0.18",
+      "member_ids": [
+        "0.0.0.0.0.18"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e19"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_19",
+      "primary": {
+        "id": "0.0.0.0.0.19",
+        "ref": "@s10ye2ulmqsjlu:e20",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Point",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          236.0,
+          698.0,
+          332.0,
+          794.0
+        ],
+        "full_bbox": [
+          236.0,
+          698.0,
+          332.0,
+          794.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Point",
+      "label_source": "0.0.0.0.0.19",
+      "member_ids": [
+        "0.0.0.0.0.19"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e20"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_0_0_0_0_20",
+      "primary": {
+        "id": "0.0.0.0.0.20",
+        "ref": "@s10ye2ulmqsjlu:e21",
+        "parent": "0.0.0.0.0",
+        "role": "button",
+        "name": "Equals",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "SetFocus"
+        ],
+        "bbox": [
+          344.0,
+          698.0,
+          440.0,
+          794.0
+        ],
+        "full_bbox": [
+          344.0,
+          698.0,
+          440.0,
+          794.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "Equals",
+      "label_source": "0.0.0.0.0.20",
+      "member_ids": [
+        "0.0.0.0.0.20"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e21"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_1",
+      "primary": {
+        "id": "0.1",
+        "ref": "@s10ye2ulmqsjlu:e22",
+        "parent": "0",
+        "role": "toolbar",
+        "name": "",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "RightClick"
+        ],
+        "bbox": [
+          0.0,
+          0.0,
+          460.0,
+          104.0
+        ],
+        "full_bbox": [
+          0.0,
+          0.0,
+          460.0,
+          104.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "",
+      "label_source": null,
+      "member_ids": [
+        "0.1"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e22"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "context",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_1_0",
+      "primary": {
+        "id": "0.1.0",
+        "ref": "@s10ye2ulmqsjlu:e23",
+        "parent": "0.1",
+        "role": "button",
+        "name": "",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetValue",
+          "SetFocus"
+        ],
+        "bbox": [
+          200.0,
+          0.0,
+          296.0,
+          104.0
+        ],
+        "full_bbox": [
+          200.0,
+          0.0,
+          296.0,
+          104.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "",
+      "label_source": null,
+      "member_ids": [
+        "0.1.0"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e23"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_1_1",
+      "primary": {
+        "id": "0.1.1",
+        "ref": "@s10ye2ulmqsjlu:e24",
+        "parent": "0.1",
+        "role": "button",
+        "name": "",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetValue"
+        ],
+        "bbox": [
+          364.0,
+          0.0,
+          452.0,
+          104.0
+        ],
+        "full_bbox": [
+          364.0,
+          0.0,
+          452.0,
+          104.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "",
+      "label_source": null,
+      "member_ids": [
+        "0.1.1"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e24"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_2",
+      "primary": {
+        "id": "0.2",
+        "ref": "@s10ye2ulmqsjlu:e25",
+        "parent": "0",
+        "role": "button",
+        "name": "",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click"
+        ],
+        "bbox": [
+          36.0,
+          36.0,
+          68.0,
+          68.0
+        ],
+        "full_bbox": [
+          36.0,
+          36.0,
+          68.0,
+          68.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "",
+      "label_source": null,
+      "member_ids": [
+        "0.2"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e25"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_3",
+      "primary": {
+        "id": "0.3",
+        "ref": "@s10ye2ulmqsjlu:e26",
+        "parent": "0",
+        "role": "button",
+        "name": "",
+        "value": null,
+        "description": null,
+        "states": [
+          "disabled"
+        ],
+        "actions": [
+          "Click",
+          "RightClick"
+        ],
+        "bbox": [
+          128.0,
+          36.0,
+          160.0,
+          68.0
+        ],
+        "full_bbox": [
+          128.0,
+          36.0,
+          160.0,
+          68.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "",
+      "label_source": null,
+      "member_ids": [
+        "0.3"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e26"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_3_0",
+      "primary": {
+        "id": "0.3.0",
+        "ref": null,
+        "parent": "0.3",
+        "role": "group",
+        "name": "",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [],
+        "bbox": [
+          130.0,
+          38.0,
+          158.0,
+          66.0
+        ],
+        "full_bbox": [
+          130.0,
+          38.0,
+          158.0,
+          66.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "",
+      "label_source": null,
+      "member_ids": [
+        "0.3.0",
+        "0.3.0.0"
+      ],
+      "member_refs": [],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "context",
+      "overlap_ambiguities": []
+    },
+    {
+      "id": "E0_4",
+      "primary": {
+        "id": "0.4",
+        "ref": "@s10ye2ulmqsjlu:e27",
+        "parent": "0",
+        "role": "button",
+        "name": "",
+        "value": null,
+        "description": null,
+        "states": [],
+        "actions": [
+          "Click"
+        ],
+        "bbox": [
+          82.0,
+          36.0,
+          114.0,
+          68.0
+        ],
+        "full_bbox": [
+          82.0,
+          36.0,
+          114.0,
+          68.0
+        ],
+        "visible_fraction": 1.0
+      },
+      "label": "",
+      "label_source": null,
+      "member_ids": [
+        "0.4"
+      ],
+      "member_refs": [
+        "@s10ye2ulmqsjlu:e27"
+      ],
+      "context": [
+        {
+          "id": "0",
+          "role": "window",
+          "label": "Calculator"
+        }
+      ],
+      "kind": "control",
+      "overlap_ambiguities": []
+    }
+  ],
+  "all_nodes": [
+    {
+      "id": "0",
+      "ref": null,
+      "parent": null,
+      "role": "window",
+      "name": "Calculator",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0",
+      "ref": null,
+      "parent": "0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0",
+      "ref": null,
+      "parent": "0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        816.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [
+        "focused"
+      ],
+      "actions": [
+        "SetFocus"
+      ],
+      "bbox": [
+        0.0,
+        106.0,
+        460.0,
+        814.0
+      ],
+      "full_bbox": [
+        0.0,
+        106.0,
+        460.0,
+        814.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.0",
+      "ref": "@s10ye2ulmqsjlu:e1",
+      "parent": "0.0.0.0.0",
+      "role": "scrollarea",
+      "name": "Edit field",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Scroll"
+      ],
+      "bbox": [
+        20.0,
+        172.0,
+        440.0,
+        256.0
+      ],
+      "full_bbox": [
+        20.0,
+        172.0,
+        440.0,
+        256.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.0.0",
+      "ref": null,
+      "parent": "0.0.0.0.0.0",
+      "role": "statictext",
+      "name": "\u200e0",
+      "value": "\u200e0",
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        402.0,
+        178.0,
+        440.0,
+        250.0
+      ],
+      "full_bbox": [
+        402.0,
+        178.0,
+        440.0,
+        250.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.1",
+      "ref": "@s10ye2ulmqsjlu:e2",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Delete",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        266.0,
+        116.0,
+        362.0
+      ],
+      "full_bbox": [
+        20.0,
+        266.0,
+        116.0,
+        362.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.2",
+      "ref": "@s10ye2ulmqsjlu:e3",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "All Clear",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        266.0,
+        224.0,
+        362.0
+      ],
+      "full_bbox": [
+        128.0,
+        266.0,
+        224.0,
+        362.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.3",
+      "ref": "@s10ye2ulmqsjlu:e4",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Per cent",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        266.0,
+        332.0,
+        362.0
+      ],
+      "full_bbox": [
+        236.0,
+        266.0,
+        332.0,
+        362.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.4",
+      "ref": "@s10ye2ulmqsjlu:e5",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Divide",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        266.0,
+        440.0,
+        362.0
+      ],
+      "full_bbox": [
+        344.0,
+        266.0,
+        440.0,
+        362.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.5",
+      "ref": "@s10ye2ulmqsjlu:e6",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "7",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        374.0,
+        116.0,
+        470.0
+      ],
+      "full_bbox": [
+        20.0,
+        374.0,
+        116.0,
+        470.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.6",
+      "ref": "@s10ye2ulmqsjlu:e7",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "8",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        374.0,
+        224.0,
+        470.0
+      ],
+      "full_bbox": [
+        128.0,
+        374.0,
+        224.0,
+        470.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.7",
+      "ref": "@s10ye2ulmqsjlu:e8",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "9",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        374.0,
+        332.0,
+        470.0
+      ],
+      "full_bbox": [
+        236.0,
+        374.0,
+        332.0,
+        470.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.8",
+      "ref": "@s10ye2ulmqsjlu:e9",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Multiply",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        374.0,
+        440.0,
+        470.0
+      ],
+      "full_bbox": [
+        344.0,
+        374.0,
+        440.0,
+        470.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.9",
+      "ref": "@s10ye2ulmqsjlu:e10",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "4",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        482.0,
+        116.0,
+        578.0
+      ],
+      "full_bbox": [
+        20.0,
+        482.0,
+        116.0,
+        578.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.10",
+      "ref": "@s10ye2ulmqsjlu:e11",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "5",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        482.0,
+        224.0,
+        578.0
+      ],
+      "full_bbox": [
+        128.0,
+        482.0,
+        224.0,
+        578.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.11",
+      "ref": "@s10ye2ulmqsjlu:e12",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "6",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        482.0,
+        332.0,
+        578.0
+      ],
+      "full_bbox": [
+        236.0,
+        482.0,
+        332.0,
+        578.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.12",
+      "ref": "@s10ye2ulmqsjlu:e13",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Subtract",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        482.0,
+        440.0,
+        578.0
+      ],
+      "full_bbox": [
+        344.0,
+        482.0,
+        440.0,
+        578.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.13",
+      "ref": "@s10ye2ulmqsjlu:e14",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "1",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        590.0,
+        116.0,
+        686.0
+      ],
+      "full_bbox": [
+        20.0,
+        590.0,
+        116.0,
+        686.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.14",
+      "ref": "@s10ye2ulmqsjlu:e15",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "2",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        590.0,
+        224.0,
+        686.0
+      ],
+      "full_bbox": [
+        128.0,
+        590.0,
+        224.0,
+        686.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.15",
+      "ref": "@s10ye2ulmqsjlu:e16",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "3",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        590.0,
+        332.0,
+        686.0
+      ],
+      "full_bbox": [
+        236.0,
+        590.0,
+        332.0,
+        686.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.16",
+      "ref": "@s10ye2ulmqsjlu:e17",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Add",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        590.0,
+        440.0,
+        686.0
+      ],
+      "full_bbox": [
+        344.0,
+        590.0,
+        440.0,
+        686.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.17",
+      "ref": "@s10ye2ulmqsjlu:e18",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Change Sign",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        20.0,
+        698.0,
+        116.0,
+        794.0
+      ],
+      "full_bbox": [
+        20.0,
+        698.0,
+        116.0,
+        794.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.18",
+      "ref": "@s10ye2ulmqsjlu:e19",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "0",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        128.0,
+        698.0,
+        224.0,
+        794.0
+      ],
+      "full_bbox": [
+        128.0,
+        698.0,
+        224.0,
+        794.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.19",
+      "ref": "@s10ye2ulmqsjlu:e20",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Point",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        236.0,
+        698.0,
+        332.0,
+        794.0
+      ],
+      "full_bbox": [
+        236.0,
+        698.0,
+        332.0,
+        794.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.0.0.0.0.20",
+      "ref": "@s10ye2ulmqsjlu:e21",
+      "parent": "0.0.0.0.0",
+      "role": "button",
+      "name": "Equals",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "SetFocus"
+      ],
+      "bbox": [
+        344.0,
+        698.0,
+        440.0,
+        794.0
+      ],
+      "full_bbox": [
+        344.0,
+        698.0,
+        440.0,
+        794.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.1",
+      "ref": "@s10ye2ulmqsjlu:e22",
+      "parent": "0",
+      "role": "toolbar",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "RightClick"
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        460.0,
+        104.0
+      ],
+      "full_bbox": [
+        0.0,
+        0.0,
+        460.0,
+        104.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.1.0",
+      "ref": "@s10ye2ulmqsjlu:e23",
+      "parent": "0.1",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetValue",
+        "SetFocus"
+      ],
+      "bbox": [
+        200.0,
+        0.0,
+        296.0,
+        104.0
+      ],
+      "full_bbox": [
+        200.0,
+        0.0,
+        296.0,
+        104.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.1.1",
+      "ref": "@s10ye2ulmqsjlu:e24",
+      "parent": "0.1",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click",
+        "RightClick",
+        "SetValue"
+      ],
+      "bbox": [
+        364.0,
+        0.0,
+        452.0,
+        104.0
+      ],
+      "full_bbox": [
+        364.0,
+        0.0,
+        452.0,
+        104.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.2",
+      "ref": "@s10ye2ulmqsjlu:e25",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "full_bbox": [
+        36.0,
+        36.0,
+        68.0,
+        68.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.3",
+      "ref": "@s10ye2ulmqsjlu:e26",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [
+        "disabled"
+      ],
+      "actions": [
+        "Click",
+        "RightClick"
+      ],
+      "bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "full_bbox": [
+        128.0,
+        36.0,
+        160.0,
+        68.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.3.0",
+      "ref": null,
+      "parent": "0.3",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "full_bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.3.0.0",
+      "ref": null,
+      "parent": "0.3.0",
+      "role": "group",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [],
+      "bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "full_bbox": [
+        130.0,
+        38.0,
+        158.0,
+        66.0
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "id": "0.4",
+      "ref": "@s10ye2ulmqsjlu:e27",
+      "parent": "0",
+      "role": "button",
+      "name": "",
+      "value": null,
+      "description": null,
+      "states": [],
+      "actions": [
+        "Click"
+      ],
+      "bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "full_bbox": [
+        82.0,
+        36.0,
+        114.0,
+        68.0
+      ],
+      "visible_fraction": 1.0
+    }
+  ],
+  "merges": [
+    {
+      "ancestor": "0",
+      "descendant": "0.0",
+      "reason": "nested_iou>=0.85_and_no_semantic_conflict"
+    },
+    {
+      "ancestor": "0.0",
+      "descendant": "0.0.0",
+      "reason": "nested_iou>=0.85_and_no_semantic_conflict"
+    },
+    {
+      "ancestor": "0.0.0",
+      "descendant": "0.0.0.0",
+      "reason": "nested_iou>=0.85_and_no_semantic_conflict"
+    },
+    {
+      "ancestor": "0.0.0.0",
+      "descendant": "0.0.0.0.0",
+      "reason": "nested_iou>=0.85_and_no_semantic_conflict"
+    },
+    {
+      "ancestor": "0.3.0",
+      "descendant": "0.3.0.0",
+      "reason": "nested_iou>=0.85_and_no_semantic_conflict"
+    }
+  ],
+  "capture_status": "unverified",
+  "capture_reasons": [],
+  "action_authorized": false,
+  "visible_fingerprint": "6cb4ea7d852ed8087450284bb704e41c39c9b3d336160e3981740247681d1dcf",
+  "counts": {
+    "projected": 35,
+    "entities": 30,
+    "controls": 25,
+    "merged_nodes": 5,
+    "ambiguous_controls": 0
+  },
+  "processing_ms": 0.3661250229924917
+}

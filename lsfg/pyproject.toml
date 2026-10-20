@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lsfg"
+version = "0.1.0"
+description = "Fast macOS desktop agent: Opus plans once, the AX tree executes, JEV chooses, code verifies."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+dependencies = [
+  "pyobjc-framework-ApplicationServices>=12",
+  "pyobjc-framework-Cocoa>=12",
+  "pyobjc-framework-Quartz>=12",
+  "pyobjc-framework-Vision>=12",
+  "httpx[http2]>=0.28",
+  "anthropic>=1.0",
+  "pyyaml>=6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+lsfg = "lsfg.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lsfg = ["data/*.json", "data/codex/*.json", "data/codex/cards/*.md", "data/bench/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["live: drives real apps on this Mac (opt-in: pytest -m live)"]
+addopts = "-m 'not live'"

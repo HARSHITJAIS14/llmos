@@ -1,0 +1,1086 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "zoom.us",
+    "complete": true,
+    "ref_count": 48,
+    "snapshot_id": "s203ih5ulaxi3u",
+    "tree": {
+      "bounds": {
+        "height": 960.0,
+        "width": 1280.0,
+        "x": 640.0,
+        "y": 143.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 30.0,
+            "width": 30.0,
+            "x": 1016.5,
+            "y": 150.0
+          },
+          "name": "Back in Chat(\u2318 + left bracket)",
+          "ref_id": "@s203ih5ulaxi3u:e1",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 30.0,
+            "width": 30.0,
+            "x": 1050.5,
+            "y": 150.0
+          },
+          "name": "Forward in Chat(\u2318 + right bracket)",
+          "ref_id": "@s203ih5ulaxi3u:e2",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 30.0,
+            "width": 30.0,
+            "x": 1084.5,
+            "y": 150.0
+          },
+          "name": "History",
+          "ref_id": "@s203ih5ulaxi3u:e3",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 34.0,
+            "width": 442.0,
+            "x": 1118.5,
+            "y": 148.0
+          },
+          "name": "Search (\u2318E)  \u2318E",
+          "ref_id": "@s203ih5ulaxi3u:e4",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 30.0,
+            "width": 30.0,
+            "x": 1564.5,
+            "y": 150.0
+          },
+          "name": "Create new",
+          "ref_id": "@s203ih5ulaxi3u:e5",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 30.0,
+            "width": 30.0,
+            "x": 1811.0,
+            "y": 150.0
+          },
+          "name": "Open activity center, New messages",
+          "ref_id": "@s203ih5ulaxi3u:e6",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 34.0,
+            "width": 34.0,
+            "x": 1879.0,
+            "y": 148.0
+          },
+          "name": "Zoom, HARSHIT JAISWAL, Available, Basic account",
+          "ref_id": "@s203ih5ulaxi3u:e7",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 30.0,
+            "width": 30.0,
+            "x": 1845.0,
+            "y": 150.0
+          },
+          "name": "Calendar always shows on the home screen.",
+          "ref_id": "@s203ih5ulaxi3u:e8",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "bounds": {
+            "height": 837.0,
+            "width": 84.0,
+            "x": 640.0,
+            "y": 187.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "bounds": {
+                "height": 50.0,
+                "width": 84.0,
+                "x": 640.0,
+                "y": 187.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 50.0,
+                    "width": 84.0,
+                    "x": 640.0,
+                    "y": 187.0
+                  },
+                  "ref_id": "@s203ih5ulaxi3u:e9",
+                  "role": "button"
+                }
+              ],
+              "name": "Home, selected, 1 of 6",
+              "role": "unknown",
+              "value": "Home, selected"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "bounds": {
+                "height": 50.0,
+                "width": 84.0,
+                "x": 640.0,
+                "y": 237.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 50.0,
+                    "width": 84.0,
+                    "x": 640.0,
+                    "y": 237.0
+                  },
+                  "ref_id": "@s203ih5ulaxi3u:e10",
+                  "role": "button"
+                }
+              ],
+              "name": "Chat, 2 of 6",
+              "role": "unknown",
+              "value": "Chat"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "bounds": {
+                "height": 50.0,
+                "width": 84.0,
+                "x": 640.0,
+                "y": 287.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 50.0,
+                    "width": 84.0,
+                    "x": 640.0,
+                    "y": 287.0
+                  },
+                  "ref_id": "@s203ih5ulaxi3u:e11",
+                  "role": "button"
+                }
+              ],
+              "name": "Canvas, 3 of 6",
+              "role": "unknown",
+              "value": "Canvas"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "bounds": {
+                "height": 50.0,
+                "width": 84.0,
+                "x": 640.0,
+                "y": 337.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 50.0,
+                    "width": 84.0,
+                    "x": 640.0,
+                    "y": 337.0
+                  },
+                  "ref_id": "@s203ih5ulaxi3u:e12",
+                  "role": "button"
+                }
+              ],
+              "name": "Whiteboards, 4 of 6",
+              "role": "unknown",
+              "value": "Whiteboards"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "bounds": {
+                "height": 50.0,
+                "width": 84.0,
+                "x": 640.0,
+                "y": 387.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 50.0,
+                    "width": 84.0,
+                    "x": 640.0,
+                    "y": 387.0
+                  },
+                  "ref_id": "@s203ih5ulaxi3u:e13",
+                  "role": "button"
+                }
+              ],
+              "name": "Clips, 5 of 6",
+              "role": "unknown",
+              "value": "Clips"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick"
+              ],
+              "bounds": {
+                "height": 50.0,
+                "width": 84.0,
+                "x": 640.0,
+                "y": 437.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 50.0,
+                    "width": 84.0,
+                    "x": 640.0,
+                    "y": 437.0
+                  },
+                  "ref_id": "@s203ih5ulaxi3u:e14",
+                  "role": "button"
+                }
+              ],
+              "name": "More with new items, 6 of 6",
+              "role": "unknown",
+              "value": "More with new items"
+            }
+          ],
+          "name": "Navigation tabs",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 32.0,
+            "width": 32.0,
+            "x": 666.0,
+            "y": 1024.0
+          },
+          "name": "Settings",
+          "ref_id": "@s203ih5ulaxi3u:e15",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 823.0,
+            "x": 933.2705078125,
+            "y": 195.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 16.0,
+                "width": 736.9755859375,
+                "x": 935.2705078125,
+                "y": 195.0
+              },
+              "name": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply.",
+              "ref_id": "@s203ih5ulaxi3u:e16",
+              "role": "textfield",
+              "states": [
+                "readonly"
+              ]
+            },
+            {
+              "bounds": {
+                "height": 16.0,
+                "width": 83.80224609375,
+                "x": 1672.24609375,
+                "y": 195.0
+              },
+              "name": "Redeem offer",
+              "ref_id": "@s203ih5ulaxi3u:e17",
+              "role": "link"
+            }
+          ],
+          "name": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply. Redeem offer",
+          "role": "unknown",
+          "value": "Back-to-school savings are on! Get 15% off Workplace Pro annual for longer meetings, My Notes, and more! Terms apply. Redeem offer"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 26.0,
+            "width": 26.0,
+            "x": 1881.0,
+            "y": 190.0
+          },
+          "name": "Close",
+          "ref_id": "@s203ih5ulaxi3u:e18",
+          "role": "button"
+        },
+        {
+          "bounds": {
+            "height": 872.0,
+            "width": 1189.0,
+            "x": 725.0,
+            "y": 225.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 872.0,
+                "width": 1189.0,
+                "x": 725.0,
+                "y": 225.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 80.0,
+                    "width": 120.0,
+                    "x": 1019.5,
+                    "y": 415.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 0.0,
+                        "y": 1440.0
+                      },
+                      "name": "Start new meeting",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "6F06C6ED-2CB7-4EE7-9453-DDA4589C564E"
+                      },
+                      "ref_id": "@s203ih5ulaxi3u:e19",
+                      "role": "button",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 0.0,
+                        "y": 1440.0
+                      },
+                      "name": "Start new meeting options",
+                      "ref_id": "@s203ih5ulaxi3u:e20",
+                      "role": "button",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 80.0,
+                    "width": 120.0,
+                    "x": 1139.5,
+                    "y": 415.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 0.0,
+                        "y": 1440.0
+                      },
+                      "name": "Join meeting",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "E7A86F62-9046-4899-AC76-6F45A65071AD"
+                      },
+                      "ref_id": "@s203ih5ulaxi3u:e21",
+                      "role": "button",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 80.0,
+                    "width": 120.0,
+                    "x": 1259.5,
+                    "y": 415.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 0.0,
+                        "y": 1440.0
+                      },
+                      "name": "Schedule meeting",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "6FFFA370-4394-4587-883E-769A58F0C469"
+                      },
+                      "ref_id": "@s203ih5ulaxi3u:e22",
+                      "role": "button",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 80.0,
+                    "width": 120.0,
+                    "x": 1379.5,
+                    "y": 415.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 0.0,
+                        "y": 1440.0
+                      },
+                      "name": "Share screen",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "1C1E2781-677B-41C5-82BD-37368395353F"
+                      },
+                      "ref_id": "@s203ih5ulaxi3u:e23",
+                      "role": "button",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 80.0,
+                    "width": 120.0,
+                    "x": 1499.5,
+                    "y": 415.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 0.0,
+                        "y": 1440.0
+                      },
+                      "name": "My Notes",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "9348D856-F1B5-4911-9E8E-56437FFA15C2"
+                      },
+                      "ref_id": "@s203ih5ulaxi3u:e24",
+                      "role": "button",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 538.0,
+                    "width": 600.0,
+                    "x": 1019.5,
+                    "y": 519.0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 538.0,
+                        "width": 600.0,
+                        "x": 1019.5,
+                        "y": 519.0
+                      },
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "available_actions": [
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 538.0,
+                                "width": 600.0,
+                                "x": 1019.0,
+                                "y": 519.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 36.0,
+                                    "width": 516.0,
+                                    "x": 1063.0,
+                                    "y": 535.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 17.0,
+                                        "width": 271.0,
+                                        "x": 1063.0,
+                                        "y": 535.0
+                                      },
+                                      "name": "You haven't connected your calendar yet. ",
+                                      "ref_id": "@s203ih5ulaxi3u:e27",
+                                      "role": "statictext",
+                                      "value": "You haven't connected your calendar yet. "
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "ScrollTo",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 17.0,
+                                        "width": 85.0,
+                                        "x": 1334.0,
+                                        "y": 535.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 17.0,
+                                            "width": 86.0,
+                                            "x": 1333.0,
+                                            "y": 535.0
+                                          },
+                                          "name": "Connect now",
+                                          "ref_id": "@s203ih5ulaxi3u:e29",
+                                          "role": "statictext",
+                                          "value": "Connect now"
+                                        }
+                                      ],
+                                      "description": "Connect now",
+                                      "name": "Connect now",
+                                      "ref_id": "@s203ih5ulaxi3u:e28",
+                                      "role": "link"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 35.0,
+                                        "width": 479.0,
+                                        "x": 1063.0,
+                                        "y": 535.0
+                                      },
+                                      "name": " to manage all your meetings and events in one place.",
+                                      "ref_id": "@s203ih5ulaxi3u:e30",
+                                      "role": "statictext",
+                                      "value": " to manage all your meetings and events in one place."
+                                    }
+                                  ],
+                                  "ref_id": "@s203ih5ulaxi3u:e26",
+                                  "role": "group"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 24.0,
+                                    "x": 1587.0,
+                                    "y": 533.0
+                                  },
+                                  "description": "Dismiss banner message",
+                                  "name": "Dismiss banner message",
+                                  "ref_id": "@s203ih5ulaxi3u:e31",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 24.0,
+                                    "x": 1027.0,
+                                    "y": 597.0
+                                  },
+                                  "description": "Create event",
+                                  "name": "Create event",
+                                  "native_id": {
+                                    "kind": "ax_dom_identifier",
+                                    "value": "sidebar-today"
+                                  },
+                                  "ref_id": "@s203ih5ulaxi3u:e32",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 28.0,
+                                    "width": 132.0,
+                                    "x": 1261.0,
+                                    "y": 595.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "ScrollTo",
+                                        "SetFocus",
+                                        "Expand",
+                                        "Collapse"
+                                      ],
+                                      "bounds": {
+                                        "height": 25.0,
+                                        "width": 132.0,
+                                        "x": 1261.0,
+                                        "y": 598.0
+                                      },
+                                      "description": "Select calendar date: Today, Aug 30",
+                                      "name": "Select calendar date: Today, Aug 30",
+                                      "ref_id": "@s203ih5ulaxi3u:e34",
+                                      "role": "combobox",
+                                      "states": [
+                                        "readonly"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s203ih5ulaxi3u:e33",
+                                  "role": "group"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 66.0,
+                                    "x": 1035.0,
+                                    "y": 641.0
+                                  },
+                                  "description": "Today",
+                                  "name": "Today",
+                                  "native_id": {
+                                    "kind": "ax_dom_identifier",
+                                    "value": "sidebar-today"
+                                  },
+                                  "ref_id": "@s203ih5ulaxi3u:e35",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 25.0,
+                                    "x": 1108.0,
+                                    "y": 641.0
+                                  },
+                                  "description": "Previous",
+                                  "name": "Previous",
+                                  "native_id": {
+                                    "kind": "ax_dom_identifier",
+                                    "value": "sidebar-prev"
+                                  },
+                                  "ref_id": "@s203ih5ulaxi3u:e36",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 25.0,
+                                    "x": 1140.0,
+                                    "y": 641.0
+                                  },
+                                  "description": "Next",
+                                  "name": "Next",
+                                  "native_id": {
+                                    "kind": "ax_dom_identifier",
+                                    "value": "sidebar-next"
+                                  },
+                                  "ref_id": "@s203ih5ulaxi3u:e37",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 24.0,
+                                    "width": 24.0,
+                                    "x": 1579.0,
+                                    "y": 641.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 24.0,
+                                        "x": 1579.0,
+                                        "y": 641.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "RightClick",
+                                            "ScrollTo",
+                                            "SetFocus"
+                                          ],
+                                          "bounds": {
+                                            "height": 24.0,
+                                            "width": 24.0,
+                                            "x": 1579.0,
+                                            "y": 641.0
+                                          },
+                                          "description": "More options",
+                                          "name": "More options",
+                                          "ref_id": "@s203ih5ulaxi3u:e40",
+                                          "role": "button"
+                                        }
+                                      ],
+                                      "ref_id": "@s203ih5ulaxi3u:e39",
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "native_id": {
+                                    "kind": "ax_dom_identifier",
+                                    "value": "calendarMainFilter"
+                                  },
+                                  "ref_id": "@s203ih5ulaxi3u:e38",
+                                  "role": "group"
+                                },
+                                {
+                                  "available_actions": [
+                                    "RightClick",
+                                    "ScrollTo"
+                                  ],
+                                  "bounds": {
+                                    "height": 21.0,
+                                    "width": 568.0,
+                                    "x": 1035.0,
+                                    "y": 882.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo"
+                                      ],
+                                      "bounds": {
+                                        "height": 18.0,
+                                        "width": 158.0,
+                                        "x": 1240.0,
+                                        "y": 883.0
+                                      },
+                                      "name": "No meetings scheduled.",
+                                      "ref_id": "@s203ih5ulaxi3u:e42",
+                                      "role": "statictext",
+                                      "value": "No meetings scheduled."
+                                    }
+                                  ],
+                                  "ref_id": "@s203ih5ulaxi3u:e41",
+                                  "role": "group"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 21.0,
+                                    "width": 148.0,
+                                    "x": 1245.0,
+                                    "y": 906.0
+                                  },
+                                  "description": "Schedule a meeting",
+                                  "name": "Schedule a meeting",
+                                  "ref_id": "@s203ih5ulaxi3u:e43",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 568.0,
+                                    "x": 1035.0,
+                                    "y": 1028.0
+                                  },
+                                  "description": "Open recordings",
+                                  "name": "Open recordings",
+                                  "ref_id": "@s203ih5ulaxi3u:e44",
+                                  "role": "button"
+                                }
+                              ],
+                              "name": "Zoom Calendar",
+                              "ref_id": "@s203ih5ulaxi3u:e25",
+                              "role": "webarea"
+                            }
+                          ],
+                          "role": "unknown"
+                        }
+                      ],
+                      "role": "group"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 34.0,
+                    "width": 34.0,
+                    "x": 1873.0,
+                    "y": 236.0
+                  },
+                  "name": "Open AI Companion (\u21e7\u2318O)",
+                  "ref_id": "@s203ih5ulaxi3u:e45",
+                  "role": "button"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 652.0,
+            "y": 157.0
+          },
+          "ref_id": "@s203ih5ulaxi3u:e46",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 698.0,
+            "y": 157.0
+          },
+          "ref_id": "@s203ih5ulaxi3u:e47",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 675.0,
+            "y": 157.0
+          },
+          "ref_id": "@s203ih5ulaxi3u:e48",
+          "role": "button"
+        }
+      ],
+      "name": "Zoom Workplace",
+      "role": "window",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-27980",
+      "title": "Zoom Workplace"
+    }
+  }
+}

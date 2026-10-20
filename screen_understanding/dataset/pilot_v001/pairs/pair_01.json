@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "pair_id": "pair_01",
+  "stratum": "Browser interface and web content",
+  "before_screen_id": "mac_0006",
+  "after_screen_id": "mac_0007",
+  "action_or_event_description": "User navigated from the repository Code tab to the Pull Requests tab, updating active tab indicators and loading the pull requests table.",
+  "changes": [
+    {
+      "track_id": "tr_0001",
+      "before_node_id": "n_0005",
+      "after_node_id": "n_0005",
+      "change_type": "state_changed",
+      "details": "Code tab selected state changed from true to false with orange underline removed.",
+      "observable_evidence": [
+        "Tab underline disappearance and font color demotion"
+      ],
+      "uncertainties": []
+    },
+    {
+      "track_id": "tr_0002",
+      "before_node_id": "n_0006",
+      "after_node_id": "n_0006",
+      "change_type": "state_changed",
+      "details": "Pull requests tab selected state changed from false to true with orange underline indicator appearing.",
+      "observable_evidence": [
+        "Tab underline appearance under Pull requests"
+      ],
+      "uncertainties": []
+    },
+    {
+      "track_id": "tr_0003",
+      "before_node_id": "n_0007",
+      "after_node_id": "n_0007",
+      "change_type": "text_changed",
+      "details": "Main content area changed from repository file tree and README to pull request list table.",
+      "observable_evidence": [
+        "All pull requests heading, search filter, and list of PR rows"
+      ],
+      "uncertainties": []
+    }
+  ],
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true
+  }
+}

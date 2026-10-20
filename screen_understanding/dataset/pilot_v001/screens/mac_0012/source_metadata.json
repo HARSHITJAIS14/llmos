@@ -1,0 +1,19 @@
+{
+  "screen_id": "mac_0012",
+  "source_path": "/Users/harshit/Desktop/YC/screen_understanding/dataset/pilot_v001/screens/mac_0012/source.png",
+  "sha256": "8a05bffcff398a02aeb44e40d7cc92196289ffec64d58f4c25b368ff7a81dadc",
+  "width": 2498,
+  "height": 1846,
+  "scale_factor": 2.0,
+  "stratum": "editor_and_terminal",
+  "app_family": "vscode",
+  "session_group_id": "sess_mac_0012",
+  "appearance": "dark",
+  "source_provenance": "Real macOS native screencapture of Visual Studio Code",
+  "local_screening_status": "screened_safe_no_pii",
+  "pair_id": null,
+  "frame_order": null,
+  "eligibility": "eligible",
+  "exclusion_reason": null,
+  "timestamp": 1792307200.607616
+}

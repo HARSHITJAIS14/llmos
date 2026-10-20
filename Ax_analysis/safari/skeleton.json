@@ -1,0 +1,350 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Safari",
+    "complete": true,
+    "ref_count": 17,
+    "snapshot_id": "szq7awoxdjyzp",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "children_count": 2,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:21"
+                  },
+                  "ref_id": "@szq7awoxdjyzp:e1",
+                  "role": "scrollarea",
+                  "states": [
+                    "offscreen"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "description": "customisations",
+                  "name": "Edit",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "customizationsPopoverButton"
+                  },
+                  "ref_id": "@szq7awoxdjyzp:e2",
+                  "role": "button",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "role": "tablist",
+              "states": [
+                "offscreen"
+              ]
+            }
+          ],
+          "role": "group",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "children": [
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "name": "show sidebar",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "SidebarButton"
+                  },
+                  "ref_id": "@szq7awoxdjyzp:e4",
+                  "role": "button",
+                  "states": [
+                    "offscreen"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus",
+                    "Expand",
+                    "Collapse"
+                  ],
+                  "name": "Tab Group picker",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "TabGroupPickerButton?TabGroup="
+                  },
+                  "ref_id": "@szq7awoxdjyzp:e5",
+                  "role": "menubutton",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "role": "group",
+              "states": [
+                "offscreen"
+              ]
+            },
+            {
+              "children": [
+                {
+                  "children_count": 2,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "BackForwardSegmentedControl"
+                  },
+                  "role": "group",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "role": "group",
+              "states": [
+                "offscreen"
+              ]
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "name": "Darker",
+              "ref_id": "@szq7awoxdjyzp:e6",
+              "role": "button",
+              "states": [
+                "offscreen"
+              ]
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "description": "Show Search Menu",
+                  "name": "Show Search Menu",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "UnifiedField._magnifyingGlassButton"
+                  },
+                  "ref_id": "@szq7awoxdjyzp:e7",
+                  "role": "button",
+                  "states": [
+                    "offscreen"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                  ],
+                  "name": "smart search field",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "WEB_BROWSER_ADDRESS_AND_SEARCH_FIELD"
+                  },
+                  "ref_id": "@szq7awoxdjyzp:e8",
+                  "role": "textfield",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "role": "group",
+              "states": [
+                "offscreen"
+              ]
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "name": "Downloads",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "DownloadsButton"
+              },
+              "ref_id": "@szq7awoxdjyzp:e9",
+              "role": "button",
+              "states": [
+                "offscreen"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "name": "Share",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "ShareButton"
+              },
+              "ref_id": "@szq7awoxdjyzp:e10",
+              "role": "button",
+              "states": [
+                "disabled",
+                "offscreen"
+              ]
+            },
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "name": "New Tab",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "NewTabButton"
+              },
+              "ref_id": "@szq7awoxdjyzp:e11",
+              "role": "button",
+              "states": [
+                "offscreen"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Tab Overview",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "TabOverviewButton"
+              },
+              "ref_id": "@szq7awoxdjyzp:e12",
+              "role": "button",
+              "states": [
+                "offscreen"
+              ]
+            }
+          ],
+          "ref_id": "@szq7awoxdjyzp:e3",
+          "role": "toolbar",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "description": "(9) Every UI/UX Concept Explained in Under 10 Minutes - YouTube",
+              "name": "(9) Every UI/UX Concept Explained in Under 10 Minutes - YouTube",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "TabBarTab?isPinned=false&isNarrow=false&isActive=false"
+              },
+              "ref_id": "@szq7awoxdjyzp:e13",
+              "role": "radiobutton",
+              "states": [
+                "offscreen"
+              ],
+              "value": "false"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "Toggle",
+                "RightClick",
+                "ScrollTo"
+              ],
+              "description": "Start Page",
+              "name": "Start Page",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "TabBarTab?isPinned=false&isNarrow=false&isActive=true"
+              },
+              "ref_id": "@szq7awoxdjyzp:e14",
+              "role": "radiobutton",
+              "states": [
+                "checked",
+                "offscreen"
+              ],
+              "value": "true"
+            }
+          ],
+          "name": "Tab bar, 2 tabs",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "TabBar?isSeparate=false"
+          },
+          "role": "unknown",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@szq7awoxdjyzp:e15",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@szq7awoxdjyzp:e16",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@szq7awoxdjyzp:e17",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        }
+      ],
+      "name": "Start Page",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "SafariWindow?IsSecure=false&UUID=C40382D2-6D0D-4E1F-869E-80E235218035"
+      },
+      "role": "window",
+      "states": [
+        "offscreen"
+      ]
+    },
+    "window": {
+      "id": "w-27784",
+      "title": "Start Page"
+    }
+  }
+}

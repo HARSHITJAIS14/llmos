@@ -1,0 +1,33 @@
+[
+  {
+    "app_name": "Firefox",
+    "bounds": {
+      "height": 108.0,
+      "width": 92.0,
+      "x": 15.0,
+      "y": 775.0
+    },
+    "id": "w-28142",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25827,
+    "process_instance": "macos-proc-v1:1788103718:965662",
+    "title": "New Tab",
+    "visible": true
+  },
+  {
+    "app_name": "Firefox",
+    "bounds": {
+      "height": 0.0,
+      "width": 0.0,
+      "x": 0.0,
+      "y": 1440.0
+    },
+    "id": "w-28141",
+    "is_focused": false,
+    "pid": 25827,
+    "process_instance": "macos-proc-v1:1788103718:965662",
+    "title": "Firefox",
+    "visible": false
+  }
+]

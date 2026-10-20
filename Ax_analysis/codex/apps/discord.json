@@ -1,0 +1,505 @@
+{
+  "schema_version": "1.0",
+  "app_key": "discord",
+  "identity": {
+    "name": "Discord",
+    "bundle_id": "com.hnc.Discord",
+    "bundle_id_match": "exact",
+    "framework": "electron",
+    "secondary_frameworks": [],
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "Electron Framework.framework, Squirrel.framework and 4 Discord Helper apps (GPU, Plugin, Renderer, base)"
+      },
+      {
+        "source": "bundle_hint",
+        "observation": "capture tool hint list = ['electron']"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 7 nodes, root_kids 4 (3 unnamed 16x16 buttons + 1 group chain), max depth 3"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "window > group x6 > webarea at depth 7, all 6 intermediates unnamed groups"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "unnamed group share 0.72 default, 0.538 forced (>0.45 = Electron)"
+      },
+      {
+        "source": "wrapper_chain_length",
+        "observation": "max single-child unnamed wrapper chain = 5 (>=3 only in web content)"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "forced tree reaches depth 25; default stops at the depth-10 cap"
+      }
+    ]
+  },
+  "category": "messaging",
+  "fidelity": {
+    "default": {
+      "nodes": 25,
+      "max_depth": 10,
+      "max_depth_requested": 10,
+      "frontier_nodes": 2,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 3,
+      "ref_count": 18,
+      "has_webarea": true,
+      "offscreen_nodes": 1,
+      "error_code": null,
+      "skeleton_nodes": 7
+    },
+    "forced": {
+      "nodes": 507,
+      "max_depth": 25,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 222,
+      "ref_count": 500,
+      "has_webarea": true,
+      "offscreen_nodes": 1,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 20.28,
+    "default_score": 0.049,
+    "forced_score": 1.0,
+    "best_capture": "forced",
+    "ladder_verdict": "recapture_deeper"
+  },
+  "readiness": {
+    "default_rung": "R4_depth_frontier",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "depth_frontier"
+      ],
+      "chromium_shell_skeleton": true,
+      "cause": "depth_cap"
+    },
+    "capture_plan": {
+      "max_depth": 40,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "Husk is the depth cap (481/482 new nodes under 1 frontier node); real window visible+focused. Background read inferred, not measured."
+    },
+    "handshake": {
+      "status": "unproven",
+      "note": "Default tree has a webarea and hits depth 10, so the tool gate was false; depth 40 alone gave 25 -> 507 nodes."
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "webarea",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 1.9,
+      "kinds": [
+        "ax_dom_identifier"
+      ],
+      "reject_patterns": [
+        "^(:r[0-9a-z]+:|_r_[0-9a-z]+_)$",
+        "^uid_\\d+$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 100.0,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": []
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_dom_identifier",
+      "value": "app-mount",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "React app root container",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "popover-portal",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "popover / menu portal layer",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "online-tab",
+      "match": "exact",
+      "tier": "high",
+      "role": "tabpanel",
+      "purpose": "friends list tab panel (Online tab)",
+      "seen_in_captures": 1
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": true,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "typetext_present",
+    "offscreen_recovery": "scroll_to",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 19,
+        "verb": "Click"
+      },
+      {
+        "role": "link",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 24,
+        "verb": "Click"
+      },
+      {
+        "role": "radiobutton",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus",
+          "SetValue",
+          "Toggle"
+        ],
+        "count": 4,
+        "verb": "Toggle",
+        "note": "tab-style radiobuttons under tablist; value 0/1"
+      },
+      {
+        "role": "switch",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus",
+          "SetValue",
+          "Toggle"
+        ],
+        "count": 2,
+        "verb": "Toggle",
+        "note": "2/2 switches have no value key and no checked state: toggle state unreadable in tree"
+      },
+      {
+        "role": "combobox",
+        "actions": [
+          "Click",
+          "Collapse",
+          "Expand",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Click",
+        "note": "readonly, no value: behaves as a menu button"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus",
+          "SetValue",
+          "TypeText"
+        ],
+        "count": 1,
+        "verb": "TypeText",
+        "note": "search field; value key absent when empty"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select",
+        "note": "server rail container"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Select",
+        "note": "DM / friends list containers"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 18,
+        "verb": "SetFocus",
+        "note": "server rail items: no Click; SetFocus only"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role=='statictext'",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "heading",
+        "match": "role=='heading'",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-6"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role=='textfield' and 'TypeText' in actions",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role=='radiobutton' and parent.role=='tablist'",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 95,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "depth_capped_husk",
+      "detect": "has_webarea and any(n.children_count > len(n.children)) or max_depth == requested",
+      "workaround": "recapture same window at --max-depth 40; no activation, no wait",
+      "severity": "blocker",
+      "observed": "default 25 nodes, 2 frontier nodes at depth 10; forced 507 nodes depth 25 (20.3x)",
+      "laws": [
+        "LAW-STR-6",
+        "LAW-LIFE-1",
+        "LAW-LIFE-2",
+        "LAW-LIFE-3"
+      ]
+    },
+    {
+      "kind": "volatile_dom_ids",
+      "detect": "native_id.value matches '^(:r[0-9a-z]+:|_r_[0-9a-z]+_)$' or '^uid_\\d+$'",
+      "workaround": "never persist; resolve by role+name under the webarea",
+      "severity": "high",
+      "observed": "forced: 30 of 36 ax_dom_identifier values are React _r_N_ ids, 3 more are sequential uid_N",
+      "laws": [
+        "LAW-ID-3"
+      ]
+    },
+    {
+      "kind": "readonly_control_as_button",
+      "detect": "role=='combobox' and 'readonly' in states and 'value' not in node",
+      "workaround": "Click / Expand it; never type into it",
+      "severity": "low",
+      "observed": "1/1 combobox is readonly with no value (16x16 overflow menu)",
+      "laws": [
+        "LAW-TXT-11"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures of the same titled window",
+      "workaround": "re-pick window by title + bounds every session; never cache window id",
+      "severity": "low",
+      "observed": "default w-28267 vs forced w-28485: same title, same 1248x918 bounds",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "check disabled state before acting",
+      "severity": "low",
+      "observed": "forced: 2/2 disabled nodes keep Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first: skeleton, then depth-10 snapshot of the window by id",
+      "tested": true
+    },
+    {
+      "channel": "ax_deep",
+      "when": "any children_count > len(children) or max depth == 10",
+      "precondition": "same window id",
+      "tested": true
+    },
+    {
+      "channel": "ax_scoped",
+      "when": "error INTERNAL containing 'RefMap' on the deep capture",
+      "precondition": "frontier nodes carry ref_id (2/2 here)",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "target not in deep tree (e.g. quick switcher Cmd+K to jump by typed name)",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "switch state or other state missing from tree",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T21:03:19+05:30",
+      "2026-08-30T21:03:22+05:30",
+      "2026-08-30T21:03:22+05:30",
+      "2026-08-30T21:15:00+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "activated",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "discord/meta.json",
+      "discord/windows.json",
+      "discord/skeleton.json",
+      "discord/full.json",
+      "discord/forced.json",
+      "discord/surfaces.json",
+      "discord/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

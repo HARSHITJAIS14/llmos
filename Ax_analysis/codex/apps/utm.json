@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0",
+  "app_key": "utm",
+  "identity": {
+    "name": "UTM",
+    "bundle_id": "com.utmapp.UTM",
+    "bundle_id_match": "exact",
+    "framework": "swiftui",
+    "secondary_frameworks": [],
+    "framework_confidence": "medium",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "40 embedded frameworks, all C/QEMU libs (glib, EGL, GLESv2, gcrypt...); no Electron/Qt/Chromium UI toolkit"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 12 nodes, root_kids 6; root id 'home', child id 'home, SidebarNavigationSplitView'; SF Symbol ids plus, play.circle.fill"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "button 12, statictext 5, group 4, treeitem 2, cell 2, image 2 of 31; 5/5 statictext name==value"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "group 4/31 = 12.9%"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 8 at both --max-depth 10 and 40, 0 frontier nodes"
+      }
+    ]
+  },
+  "category": "virtualization",
+  "fidelity": {
+    "default": {
+      "nodes": 31,
+      "max_depth": 8,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 18,
+      "ref_count": 26,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 12,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 31,
+      "max_depth": 8,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 18,
+      "ref_count": 26,
+      "has_webarea": false,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 12,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 1.0,
+    "default_score": 1.0,
+    "forced_score": 1.0,
+    "best_capture": "default",
+    "ladder_verdict": "trust"
+  },
+  "readiness": {
+    "default_rung": "TRUST",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "background 31 nodes, 0 offscreen; foreground 31 nodes, 30/30 same content and bounds"
+    },
+    "handshake": {
+      "status": "not_applicable"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": false,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 12.5,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 73.3,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "button",
+        "statictext"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "home",
+      "match": "exact",
+      "tier": "high",
+      "role": "dialog",
+      "purpose": "main library window root (role flips dialog/window)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "home, SidebarNavigationSplitView",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "sidebar split view",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "plus",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "new VM toolbar button (unnamed)",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "play.circle.fill",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "per-VM Run button (one per row)",
+      "seen_in_captures": 2
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": true,
+    "disabled_keeps_click": true,
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus",
+          "SetValue"
+        ],
+        "count": 12,
+        "verb": "Click",
+        "note": "12/12 Click; 2 unnamed toolbar buttons also expose SetValue"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "Click"
+        ],
+        "count": 2,
+        "verb": "Click",
+        "note": "VM row; per-VM menu via RightClick on row content"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Scroll"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role==statictext",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "row",
+        "match": "role==treeitem under outline (2/2 named, 0 value)",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "cell",
+        "match": "role==cell (children image, statictext x2, Run button)",
+        "read_from": "children_join",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 0,
+    "offscreen_click": "forbidden",
+    "root_role_varies": true
+  },
+  "quirks": [
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick the window every session",
+      "severity": "low",
+      "observed": "window id changed between default and forced; 30/30 same content and bounds",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "manager window: library, Run buttons, create VM",
+      "tested": true
+    },
+    {
+      "channel": "app_api",
+      "when": "VM lifecycle tasks (start, stop, clone)",
+      "precondition": "utmctl CLI available",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "task enters a running guest display (framebuffer, no AX tree)",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:58:43+05:30",
+      "2026-08-30T21:19:21+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "utm/meta.json",
+      "utm/windows.json",
+      "utm/skeleton.json",
+      "utm/full.json",
+      "utm/forced.json",
+      "utm/surfaces.json",
+      "utm/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

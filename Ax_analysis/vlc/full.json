@@ -1,0 +1,1095 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "VLC",
+    "complete": true,
+    "ref_count": 54,
+    "snapshot_id": "s258wfpui9oank",
+    "tree": {
+      "bounds": {
+        "height": 803.0,
+        "width": 1280.0,
+        "x": 2560.0,
+        "y": 565.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 739.0,
+            "width": 1280.0,
+            "x": 2560.0,
+            "y": 593.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 739.0,
+                "width": 238.0,
+                "x": 2560.0,
+                "y": 593.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 741.0,
+                    "width": 240.0,
+                    "x": 2559.0,
+                    "y": 592.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 603.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 603.0
+                          },
+                          "name": "LIBRARY",
+                          "ref_id": "@s258wfpui9oank:e4",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "LIBRARY",
+                      "ref_id": "@s258wfpui9oank:e3",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 622.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 622.0
+                          },
+                          "name": "Playlist",
+                          "ref_id": "@s258wfpui9oank:e6",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "selected",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Playlist",
+                      "ref_id": "@s258wfpui9oank:e5",
+                      "role": "treeitem",
+                      "states": [
+                        "selected",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 650.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 650.0
+                          },
+                          "name": "Media Library",
+                          "ref_id": "@s258wfpui9oank:e8",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Media Library",
+                      "ref_id": "@s258wfpui9oank:e7",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 691.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 691.0
+                          },
+                          "name": "MY COMPUTER",
+                          "ref_id": "@s258wfpui9oank:e10",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "MY COMPUTER",
+                      "ref_id": "@s258wfpui9oank:e9",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 710.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 710.0
+                          },
+                          "name": "My Videos",
+                          "ref_id": "@s258wfpui9oank:e12",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "My Videos",
+                      "ref_id": "@s258wfpui9oank:e11",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 738.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 738.0
+                          },
+                          "name": "My Music",
+                          "ref_id": "@s258wfpui9oank:e14",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "My Music",
+                      "ref_id": "@s258wfpui9oank:e13",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 766.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 766.0
+                          },
+                          "name": "My Pictures",
+                          "ref_id": "@s258wfpui9oank:e16",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "My Pictures",
+                      "ref_id": "@s258wfpui9oank:e15",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 807.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 807.0
+                          },
+                          "name": "LOCAL NETWORK",
+                          "ref_id": "@s258wfpui9oank:e18",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "LOCAL NETWORK",
+                      "ref_id": "@s258wfpui9oank:e17",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 826.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 826.0
+                          },
+                          "name": "Bonjour Network Discovery",
+                          "ref_id": "@s258wfpui9oank:e20",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Bonjour Network Discovery",
+                      "ref_id": "@s258wfpui9oank:e19",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 854.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 854.0
+                          },
+                          "name": "Universal Plug'n'Play",
+                          "ref_id": "@s258wfpui9oank:e22",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Universal Plug'n'Play",
+                      "ref_id": "@s258wfpui9oank:e21",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 882.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 882.0
+                          },
+                          "name": "Network streams (SAP)",
+                          "ref_id": "@s258wfpui9oank:e24",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Network streams (SAP)",
+                      "ref_id": "@s258wfpui9oank:e23",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 923.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 923.0
+                          },
+                          "name": "INTERNET",
+                          "ref_id": "@s258wfpui9oank:e26",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "INTERNET",
+                      "ref_id": "@s258wfpui9oank:e25",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 942.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 942.0
+                          },
+                          "name": "Podcasts",
+                          "ref_id": "@s258wfpui9oank:e28",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Podcasts",
+                      "ref_id": "@s258wfpui9oank:e27",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 970.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 970.0
+                          },
+                          "name": "Jamendo Selections",
+                          "ref_id": "@s258wfpui9oank:e30",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Jamendo Selections",
+                      "ref_id": "@s258wfpui9oank:e29",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 238.0,
+                        "x": 2560.0,
+                        "y": 998.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 218.0,
+                            "x": 2570.0,
+                            "y": 998.0
+                          },
+                          "name": "Icecast Radio Directory",
+                          "ref_id": "@s258wfpui9oank:e32",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Icecast Radio Directory",
+                      "ref_id": "@s258wfpui9oank:e31",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:197"
+                  },
+                  "ref_id": "@s258wfpui9oank:e2",
+                  "role": "outline",
+                  "states": [
+                    "focused"
+                  ]
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:193"
+              },
+              "ref_id": "@s258wfpui9oank:e1",
+              "role": "scrollarea"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "SetValue",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 21.0,
+                "width": 152.0,
+                "x": 3681.0,
+                "y": 594.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 22.0,
+                    "width": 25.0,
+                    "x": 3683.0,
+                    "y": 594.0
+                  },
+                  "name": "search",
+                  "ref_id": "@s258wfpui9oank:e34",
+                  "role": "button",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "name": "Search the playlist. Results will be selected in the table.",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:357"
+              },
+              "ref_id": "@s258wfpui9oank:e33",
+              "role": "textfield",
+              "states": [
+                "offscreen"
+              ]
+            },
+            {
+              "bounds": {
+                "height": 230.0,
+                "width": 300.0,
+                "x": 3169.5,
+                "y": 860.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 22.0,
+                    "width": 101.0,
+                    "x": 3269.0,
+                    "y": 1053.0
+                  },
+                  "description": "Open a dialog to select the media to play",
+                  "name": "Open media...",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:66"
+                  },
+                  "ref_id": "@s258wfpui9oank:e35",
+                  "role": "button",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:9"
+              },
+              "role": "group",
+              "states": [
+                "offscreen"
+              ]
+            }
+          ],
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:187"
+          },
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 2.0,
+            "x": 2567.0,
+            "y": 1337.5
+          },
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:639"
+          },
+          "ref_id": "@s258wfpui9oank:e36",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 31.0,
+            "x": 2567.0,
+            "y": 1337.5
+          },
+          "description": "Go to previous item",
+          "name": "Next",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:626"
+          },
+          "ref_id": "@s258wfpui9oank:e37",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 29.0,
+            "x": 2596.0,
+            "y": 1337.5
+          },
+          "name": "Play",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:612"
+          },
+          "ref_id": "@s258wfpui9oank:e38",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 31.0,
+            "x": 2623.0,
+            "y": 1337.5
+          },
+          "description": "Go to next item",
+          "name": "Forward",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:599"
+          },
+          "ref_id": "@s258wfpui9oank:e39",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 2.0,
+            "x": 2652.0,
+            "y": 1337.5
+          },
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:585"
+          },
+          "ref_id": "@s258wfpui9oank:e40",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 31.0,
+            "x": 2656.0,
+            "y": 1337.5
+          },
+          "name": "Stop",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:570"
+          },
+          "ref_id": "@s258wfpui9oank:e41",
+          "role": "button",
+          "states": [
+            "disabled",
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 31.0,
+            "x": 2689.0,
+            "y": 1337.5
+          },
+          "name": "Show/Hide Playlist",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:547"
+          },
+          "ref_id": "@s258wfpui9oank:e42",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 2.0,
+            "x": 2718.0,
+            "y": 1337.5
+          },
+          "description": "Change repeat mode. Modes: repeat one, repeat all and no repeat.",
+          "name": "Repeat",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:533"
+          },
+          "ref_id": "@s258wfpui9oank:e43",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 2.0,
+            "x": 2718.0,
+            "y": 1337.5
+          },
+          "name": "Shuffle",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:519"
+          },
+          "ref_id": "@s258wfpui9oank:e44",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "SetValue"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 930.0,
+            "x": 2726.0,
+            "y": 1342.0
+          },
+          "description": "Playback position",
+          "name": "Position",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:505"
+          },
+          "ref_id": "@s258wfpui9oank:e45",
+          "role": "slider",
+          "states": [
+            "disabled",
+            "readonly",
+            "offscreen"
+          ],
+          "value": "0"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 13.0,
+            "width": 7.0,
+            "x": 3722.0,
+            "y": 1343.5
+          },
+          "name": "Mute",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:487"
+          },
+          "ref_id": "@s258wfpui9oank:e46",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "SetValue",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 15.0,
+            "width": 50.0,
+            "x": 3730.0,
+            "y": 1342.5
+          },
+          "children": [
+            {
+              "available_actions": [
+                "SetValue"
+              ],
+              "bounds": {
+                "height": 17.0,
+                "width": 17.0,
+                "x": 3764.0,
+                "y": 1341.5
+              },
+              "ref_id": "@s258wfpui9oank:e48",
+              "role": "handle",
+              "states": [
+                "offscreen"
+              ],
+              "value": "320"
+            }
+          ],
+          "name": "Volume",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:477"
+          },
+          "ref_id": "@s258wfpui9oank:e47",
+          "role": "slider",
+          "states": [
+            "offscreen"
+          ],
+          "value": "320"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 13.0,
+            "width": 15.0,
+            "x": 3781.0,
+            "y": 1343.5
+          },
+          "name": "Full Volume",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:468"
+          },
+          "ref_id": "@s258wfpui9oank:e49",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 2.0,
+            "x": 3802.0,
+            "y": 1337.5
+          },
+          "description": "Open Audio Effects window",
+          "name": "Audio Effects",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:446"
+          },
+          "ref_id": "@s258wfpui9oank:e50",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "Toggle",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 25.0,
+            "width": 31.0,
+            "x": 3802.0,
+            "y": 1337.5
+          },
+          "name": "Fullscreen",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:431"
+          },
+          "ref_id": "@s258wfpui9oank:e51",
+          "role": "switch",
+          "states": [
+            "offscreen"
+          ],
+          "value": "0"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 14.0,
+            "width": 12.0,
+            "x": 2568.0,
+            "y": 572.0
+          },
+          "ref_id": "@s258wfpui9oank:e52",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 14.0,
+            "width": 12.0,
+            "x": 2608.0,
+            "y": 572.0
+          },
+          "ref_id": "@s258wfpui9oank:e53",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 14.0,
+            "width": 12.0,
+            "x": 2588.0,
+            "y": 572.0
+          },
+          "ref_id": "@s258wfpui9oank:e54",
+          "role": "button",
+          "states": [
+            "offscreen"
+          ]
+        }
+      ],
+      "name": "VLC media player",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:122"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28113",
+      "title": "VLC media player"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "task": "single_icon",
+  "repeat": 2,
+  "image": {
+    "original_size": [
+      155,
+      106
+    ],
+    "submitted_size": [
+      280,
+      280
+    ],
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "padding": "right/bottom only"
+  },
+  "questions": {
+    "function": {
+      "type": "choice",
+      "instructions": "What function does the control in `image` serve?",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    }
+  },
+  "seconds": 0.37654904200462624,
+  "headers_seconds": 0.3764900420210324,
+  "http_status": 200,
+  "response": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "function": {
+        "type": "choice",
+        "choice": "search",
+        "confidence": 0.97,
+        "probabilities": {
+          "navigation": 0.0,
+          "sidebar": 0.01,
+          "search": 0.97,
+          "notifications": 0.0,
+          "profile": 0.0,
+          "window_controls": 0.0,
+          "tab_overview": 0.0,
+          "main_menu": 0.0,
+          "new_tab": 0.0,
+          "clear": 0.0,
+          "copy": 0.0,
+          "unknown": 0.02
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 756,
+      "output_tokens": 107
+    }
+  },
+  "validation_issues": []
+}

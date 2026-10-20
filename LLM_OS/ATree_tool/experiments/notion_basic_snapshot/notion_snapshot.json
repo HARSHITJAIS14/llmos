@@ -1,0 +1,215 @@
+{
+    "version": "2.3",
+    "ok": true,
+    "command": "snapshot",
+    "data": {
+        "app": "Notion",
+        "complete": true,
+        "ref_count": 10,
+        "snapshot_id": "s2da4g01xczrfl",
+        "tree": {
+            "children": [
+                {
+                    "available_actions": [
+                        "SetFocus"
+                    ],
+                    "children": [
+                        {
+                            "available_actions": [
+                                "SetFocus"
+                            ],
+                            "children": [
+                                {
+                                    "available_actions": [
+                                        "SetFocus"
+                                    ],
+                                    "children": [
+                                        {
+                                            "available_actions": [
+                                                "SetFocus"
+                                            ],
+                                            "children": [
+                                                {
+                                                    "available_actions": [
+                                                        "SetFocus"
+                                                    ],
+                                                    "children": [
+                                                        {
+                                                            "available_actions": [
+                                                                "SetFocus"
+                                                            ],
+                                                            "children": [
+                                                                {
+                                                                    "available_actions": [
+                                                                        "SetFocus"
+                                                                    ],
+                                                                    "children": [
+                                                                        {
+                                                                            "available_actions": [
+                                                                                "RightClick",
+                                                                                "ScrollTo",
+                                                                                "SetFocus"
+                                                                            ],
+                                                                            "children": [
+                                                                                {
+                                                                                    "available_actions": [
+                                                                                        "RightClick",
+                                                                                        "ScrollTo"
+                                                                                    ],
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "available_actions": [
+                                                                                                "RightClick",
+                                                                                                "ScrollTo"
+                                                                                            ],
+                                                                                            "children_count": 6,
+                                                                                            "ref_id": "@s2da4g01xczrfl:e3",
+                                                                                            "role": "group",
+                                                                                            "states": [
+                                                                                                "offscreen"
+                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                                                    "native_id": {
+                                                                                        "kind": "ax_dom_identifier",
+                                                                                        "value": "root"
+                                                                                    },
+                                                                                    "ref_id": "@s2da4g01xczrfl:e2",
+                                                                                    "role": "group",
+                                                                                    "states": [
+                                                                                        "offscreen"
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "name": "Tab Bar",
+                                                                            "ref_id": "@s2da4g01xczrfl:e1",
+                                                                            "role": "webarea",
+                                                                            "states": [
+                                                                                "focused",
+                                                                                "offscreen"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "role": "group",
+                                                                    "states": [
+                                                                        "offscreen"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "available_actions": [
+                                                                        "SetFocus"
+                                                                    ],
+                                                                    "children": [
+                                                                        {
+                                                                            "available_actions": [
+                                                                                "RightClick",
+                                                                                "ScrollTo",
+                                                                                "SetFocus"
+                                                                            ],
+                                                                            "children": [
+                                                                                {
+                                                                                    "available_actions": [
+                                                                                        "RightClick",
+                                                                                        "ScrollTo"
+                                                                                    ],
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "available_actions": [
+                                                                                                "RightClick",
+                                                                                                "ScrollTo"
+                                                                                            ],
+                                                                                            "children_count": 4,
+                                                                                            "native_id": {
+                                                                                                "kind": "ax_dom_identifier",
+                                                                                                "value": "notion-app"
+                                                                                            },
+                                                                                            "ref_id": "@s2da4g01xczrfl:e6",
+                                                                                            "role": "group"
+                                                                                        },
+                                                                                        {
+                                                                                            "available_actions": [
+                                                                                                "RightClick",
+                                                                                                "ScrollTo"
+                                                                                            ],
+                                                                                            "children_count": 1,
+                                                                                            "ref_id": "@s2da4g01xczrfl:e7",
+                                                                                            "role": "group",
+                                                                                            "states": [
+                                                                                                "offscreen"
+                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                                                    "ref_id": "@s2da4g01xczrfl:e5",
+                                                                                    "role": "group"
+                                                                                }
+                                                                            ],
+                                                                            "name": "LLM OS",
+                                                                            "ref_id": "@s2da4g01xczrfl:e4",
+                                                                            "role": "webarea",
+                                                                            "states": [
+                                                                                "focused"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "role": "group"
+                                                                }
+                                                            ],
+                                                            "role": "group"
+                                                        }
+                                                    ],
+                                                    "role": "group"
+                                                }
+                                            ],
+                                            "role": "group"
+                                        }
+                                    ],
+                                    "role": "group"
+                                }
+                            ],
+                            "role": "group"
+                        }
+                    ],
+                    "name": "LLM OS ",
+                    "role": "group"
+                },
+                {
+                    "available_actions": [
+                        "Click"
+                    ],
+                    "ref_id": "@s2da4g01xczrfl:e8",
+                    "role": "button",
+                    "states": [
+                        "offscreen"
+                    ]
+                },
+                {
+                    "available_actions": [
+                        "Click",
+                        "RightClick"
+                    ],
+                    "ref_id": "@s2da4g01xczrfl:e9",
+                    "role": "button",
+                    "states": [
+                        "offscreen"
+                    ]
+                },
+                {
+                    "available_actions": [
+                        "Click"
+                    ],
+                    "ref_id": "@s2da4g01xczrfl:e10",
+                    "role": "button",
+                    "states": [
+                        "offscreen"
+                    ]
+                }
+            ],
+            "name": "LLM OS ",
+            "role": "window"
+        },
+        "window": {
+            "id": "w-35559",
+            "title": "Notion"
+        }
+    }
+}

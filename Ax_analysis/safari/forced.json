@@ -1,0 +1,3047 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "Safari",
+  "complete": false,
+  "nodes_observed": 229,
+  "ref_count": 145,
+  "snapshot_id": "s3oonkxr0208eo",
+  "tree": {
+   "bounds": {
+    "height": 803.0,
+    "width": 1087.0,
+    "x": 2753.0,
+    "y": 565.0
+   },
+   "children": [
+    {
+     "bounds": {
+      "height": 803.0,
+      "width": 1087.0,
+      "x": 2753.0,
+      "y": 565.0
+     },
+     "children": [
+      {
+       "bounds": {
+        "height": 803.0,
+        "width": 1087.0,
+        "x": 2753.0,
+        "y": 565.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Scroll",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 713.0,
+          "width": 1087.0,
+          "x": 2753.0,
+          "y": 655.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "RightClick",
+            "Select",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 1671.0,
+            "width": 1070.0,
+            "x": 2753.0,
+            "y": 655.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "ScrollTo",
+              "Select"
+             ],
+             "bounds": {
+              "height": 554.0,
+              "width": 728.0,
+              "x": 2924.0,
+              "y": 719.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 42.0,
+                "width": 728.0,
+                "x": 2924.0,
+                "y": 719.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 42.0,
+                  "width": 728.0,
+                  "x": 2924.0,
+                  "y": 719.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 114.0,
+                    "x": 2923.0,
+                    "y": 718.0
+                   },
+                   "name": "Favourites",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:25"
+                   },
+                   "ref_id": "@s3oonkxr0208eo:e4",
+                   "role": "button",
+                   "states": [
+                    "disabled"
+                   ]
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "Toggle",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 87.5,
+                    "x": 3565.5,
+                    "y": 723.0
+                   },
+                   "description": "Show All in Favourites",
+                   "name": "Show All",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:41"
+                   },
+                   "ref_id": "@s3oonkxr0208eo:e5",
+                   "role": "switch",
+                   "value": "0"
+                  }
+                 ],
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "favoritesItemIdentifierHeader"
+                 },
+                 "role": "group"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 2924.0,
+                "y": 761.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 2923.0,
+                  "y": 839.0
+                 },
+                 "name": "Apple",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e7",
+                 "role": "button",
+                 "value": "Apple"
+                }
+               ],
+               "name": "Apple",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e6",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3017.5,
+                "y": 761.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3016.5,
+                  "y": 839.0
+                 },
+                 "name": "iCloud",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e9",
+                 "role": "button",
+                 "value": "iCloud"
+                }
+               ],
+               "name": "iCloud",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e8",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3111.5,
+                "y": 761.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3110.5,
+                  "y": 839.0
+                 },
+                 "name": "Google",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e11",
+                 "role": "button",
+                 "value": "Google"
+                }
+               ],
+               "name": "Google",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e10",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3205.0,
+                "y": 761.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3204.0,
+                  "y": 839.0
+                 },
+                 "name": "Yahoo",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e13",
+                 "role": "button",
+                 "value": "Yahoo"
+                }
+               ],
+               "name": "Yahoo",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e12",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3299.0,
+                "y": 761.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3298.0,
+                  "y": 839.0
+                 },
+                 "name": "Bing",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e15",
+                 "role": "button",
+                 "value": "Bing"
+                }
+               ],
+               "name": "Bing",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e14",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3392.5,
+                "y": 761.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3391.5,
+                  "y": 839.0
+                 },
+                 "name": "Wikipedia",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e17",
+                 "role": "button",
+                 "value": "Wikipedia"
+                }
+               ],
+               "name": "Wikipedia",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e16",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3486.5,
+                "y": 761.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3485.5,
+                  "y": 839.0
+                 },
+                 "name": "Facebook",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e19",
+                 "role": "button",
+                 "value": "Facebook"
+                }
+               ],
+               "name": "Facebook",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e18",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3580.0,
+                "y": 761.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3579.0,
+                  "y": 839.0
+                 },
+                 "name": "Twitter",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e21",
+                 "role": "button",
+                 "value": "Twitter"
+                }
+               ],
+               "name": "Twitter",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e20",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 2924.0,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 2923.0,
+                  "y": 970.0
+                 },
+                 "name": "Linkedin",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e23",
+                 "role": "button",
+                 "value": "Linkedin"
+                }
+               ],
+               "name": "Linkedin",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e22",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3017.5,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 30.0,
+                  "width": 74.0,
+                  "x": 3016.5,
+                  "y": 970.0
+                 },
+                 "name": "The Weather Channel",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e25",
+                 "role": "button",
+                 "value": "The Weather Channel"
+                }
+               ],
+               "name": "The Weather Channel",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e24",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3111.5,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3110.5,
+                  "y": 970.0
+                 },
+                 "name": "Hotstar",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e27",
+                 "role": "button",
+                 "value": "Hotstar"
+                }
+               ],
+               "name": "Hotstar",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e26",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3205.0,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3204.0,
+                  "y": 970.0
+                 },
+                 "name": "Zomato",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e29",
+                 "role": "button",
+                 "value": "Zomato"
+                }
+               ],
+               "name": "Zomato",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e28",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3299.0,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3298.0,
+                  "y": 970.0
+                 },
+                 "name": "TripAdvisor",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e31",
+                 "role": "button",
+                 "value": "TripAdvisor"
+                }
+               ],
+               "name": "TripAdvisor",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e30",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3392.5,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 74.0,
+                  "x": 3391.5,
+                  "y": 970.0
+                 },
+                 "name": "NDTV",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e33",
+                 "role": "button",
+                 "value": "NDTV"
+                }
+               ],
+               "name": "NDTV",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e32",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3486.5,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 29.0,
+                  "width": 74.0,
+                  "x": 3485.5,
+                  "y": 970.0
+                 },
+                 "name": "Machine_learning",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e35",
+                 "role": "button",
+                 "value": "Machine_learning"
+                }
+               ],
+               "name": "Machine_learning",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e34",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3580.0,
+                "y": 892.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 29.0,
+                  "width": 74.0,
+                  "x": 3579.0,
+                  "y": 970.0
+                 },
+                 "name": "Intern - Google Sheets",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "StartPageTouchIconViewItem._titleTextField"
+                 },
+                 "ref_id": "@s3oonkxr0208eo:e37",
+                 "role": "button",
+                 "value": "Intern - Google Sheets"
+                }
+               ],
+               "name": "Intern - Google Sheets",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e36",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 2924.0,
+                "y": 1023.0
+               },
+               "name": "Strivers A2Z DSA Course/Sheet - Crack Any FAANG or PBCs",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e38",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3017.714285714286,
+                "y": 1023.0
+               },
+               "name": "\u00a0To-Do Database | Calendar view",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e39",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3111.4285714285716,
+                "y": 1023.0
+               },
+               "name": "karpathy/nn-zero-to-hero: Neural Networks: Zero to Hero",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e40",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 71.99999999999994,
+                "x": 3205.1428571428573,
+                "y": 1023.0
+               },
+               "name": "CS229: Machine Learning - The Summer Edition!",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e41",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3298.857142857143,
+                "y": 1023.0
+               },
+               "name": "Surge",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e42",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3392.5714285714284,
+                "y": 1023.0
+               },
+               "name": "Dynalist",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e43",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3486.285714285714,
+                "y": 1023.0
+               },
+               "name": "Bruce_wayne__ - Codeforces",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e44",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3580.0,
+                "y": 1023.0
+               },
+               "name": "My Courses",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e45",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 2924.0,
+                "y": 1154.0
+               },
+               "name": "Codechef",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e46",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3017.714285714286,
+                "y": 1154.0
+               },
+               "name": "CSES",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e47",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3111.4285714285716,
+                "y": 1154.0
+               },
+               "name": "AtCoder Problems",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e48",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 71.99999999999994,
+                "x": 3205.1428571428573,
+                "y": 1154.0
+               },
+               "name": "gsoc-2026 (Channel) - C2SI - Slack",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e49",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3298.857142857143,
+                "y": 1154.0
+               },
+               "name": "c2siorg/b0bot: B0Bot - Bug Zero Twitter Bot",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e50",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 119.0,
+                "width": 72.0,
+                "x": 3392.5714285714284,
+                "y": 1154.0
+               },
+               "name": "Department of CSE, IIT Kanpur - Login",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "linkRecommendationCollectionViewItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e51",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              }
+             ],
+             "name": "Favourites",
+             "native_id": {
+              "kind": "ax_identifier",
+              "value": "favoritesItemIdentifier"
+             },
+             "ref_id": "@s3oonkxr0208eo:e3",
+             "role": "list",
+             "states": [
+              "disabled"
+             ]
+            },
+            {
+             "available_actions": [
+              "ScrollTo",
+              "Select"
+             ],
+             "bounds": {
+              "height": 598.0,
+              "width": 728.0,
+              "x": 2924.0,
+              "y": 1048.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 42.0,
+                "width": 728.0,
+                "x": 2924.0,
+                "y": 1048.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 42.0,
+                  "width": 728.0,
+                  "x": 2924.0,
+                  "y": 1048.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 135.0,
+                    "x": 2923.0,
+                    "y": 1047.0
+                   },
+                   "name": "Suggestions",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:25"
+                   },
+                   "ref_id": "@s3oonkxr0208eo:e53",
+                   "role": "button",
+                   "states": [
+                    "disabled"
+                   ]
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "Toggle",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 18.0,
+                    "width": 87.5,
+                    "x": 3565.5,
+                    "y": 1052.0
+                   },
+                   "description": "Show All in Suggestions",
+                   "name": "Show All",
+                   "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:41"
+                   },
+                   "ref_id": "@s3oonkxr0208eo:e54",
+                   "role": "switch",
+                   "value": "0"
+                  }
+                 ],
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "suggestionsItemIdentifierHeader"
+                 },
+                 "role": "group"
+                }
+               ],
+               "role": "group",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 2924.0,
+                "y": 1090.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 180.0,
+                  "width": 176.0,
+                  "x": 2924.0,
+                  "y": 1090.0
+                 },
+                 "name": "YouTube\nyoutube.com",
+                 "ref_id": "@s3oonkxr0208eo:e56",
+                 "role": "link"
+                }
+               ],
+               "name": "YouTube - youtube.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e55",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3108.0,
+                "y": 1090.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 180.0,
+                  "width": 176.0,
+                  "x": 3108.0,
+                  "y": 1090.0
+                 },
+                 "name": "\u200eGoogle Gemini\ngemini.google.com",
+                 "ref_id": "@s3oonkxr0208eo:e58",
+                 "role": "link"
+                }
+               ],
+               "name": "\u200eGoogle Gemini - gemini.google.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e57",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3292.0,
+                "y": 1090.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 180.0,
+                  "width": 176.0,
+                  "x": 3292.0,
+                  "y": 1090.0
+                 },
+                 "name": "IIT Kanpur Webmail :: Welcome to IIT Kanpur Webmail\nnwm.iitk.ac.in",
+                 "ref_id": "@s3oonkxr0208eo:e60",
+                 "role": "link"
+                }
+               ],
+               "name": "IIT Kanpur Webmail :: Welcome to IIT Kanpur Webmail - nwm.iitk.ac.in",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e59",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3476.0,
+                "y": 1090.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 180.0,
+                  "width": 176.0,
+                  "x": 3476.0,
+                  "y": 1090.0
+                 },
+                 "name": "Instagram\ninstagram.com",
+                 "ref_id": "@s3oonkxr0208eo:e62",
+                 "role": "link"
+                }
+               ],
+               "name": "Instagram - instagram.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e61",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 2924.0,
+                "y": 1278.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 180.0,
+                  "width": 176.0,
+                  "x": 2924.0,
+                  "y": 1278.0
+                 },
+                 "name": "Codeforces\ncodeforces.com",
+                 "ref_id": "@s3oonkxr0208eo:e64",
+                 "role": "link"
+                }
+               ],
+               "name": "Codeforces - codeforces.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e63",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3108.0,
+                "y": 1278.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 180.0,
+                  "width": 176.0,
+                  "x": 3108.0,
+                  "y": 1278.0
+                 },
+                 "name": "monkeytype.com\nmonkeytype.com",
+                 "ref_id": "@s3oonkxr0208eo:e66",
+                 "role": "link"
+                }
+               ],
+               "name": "monkeytype.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e65",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3292.0,
+                "y": 1278.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 180.0,
+                  "width": 176.0,
+                  "x": 3292.0,
+                  "y": 1278.0
+                 },
+                 "name": "Your projects - Overleaf, Online LaTeX Editor\noverleaf.com",
+                 "ref_id": "@s3oonkxr0208eo:e68",
+                 "role": "link"
+                }
+               ],
+               "name": "Your projects - Overleaf, Online LaTeX Editor - overleaf.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e67",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3476.0,
+                "y": 1278.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 180.0,
+                  "width": 176.0,
+                  "x": 3476.0,
+                  "y": 1278.0
+                 },
+                 "name": "github.com\ngithub.com",
+                 "ref_id": "@s3oonkxr0208eo:e70",
+                 "role": "link"
+                }
+               ],
+               "name": "github.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e69",
+               "role": "button",
+               "states": [
+                "disabled"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 2924.0,
+                "y": 1466.0
+               },
+               "name": "Course: CS345: Algorithms II | Moodle - moodle.cse.iitk.ac.in",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e71",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3108.0,
+                "y": 1466.0
+               },
+               "name": "Inbox (5,222) - justharshitjaiswal14@gmail.com - Gmail - mail.google.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e72",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3292.0,
+                "y": 1466.0
+               },
+               "name": "Sign In - Google Accounts - accounts.google.com",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e73",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "bounds": {
+                "height": 180.0,
+                "width": 176.0,
+                "x": 3476.0,
+                "y": 1466.0
+               },
+               "name": "IITK Placement 2026 - iitk-spo26.netlify.app",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "highlightItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e74",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              }
+             ],
+             "name": "Suggestions",
+             "native_id": {
+              "kind": "ax_identifier",
+              "value": "suggestionsItemIdentifier"
+             },
+             "ref_id": "@s3oonkxr0208eo:e52",
+             "role": "list",
+             "states": [
+              "disabled"
+             ]
+            },
+            {
+             "available_actions": [
+              "ScrollTo",
+              "Select"
+             ],
+             "bounds": {
+              "height": 345.0,
+              "width": 728.0,
+              "x": 2924.0,
+              "y": 1495.0
+             },
+             "ref_id": "@s3oonkxr0208eo:e75",
+             "role": "list",
+             "states": [
+              "disabled",
+              "offscreen"
+             ]
+            },
+            {
+             "available_actions": [
+              "ScrollTo",
+              "Select"
+             ],
+             "bounds": {
+              "height": 154.0,
+              "width": 728.0,
+              "x": 2924.0,
+              "y": 1877.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 112.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 1919.0
+               },
+               "name": "B - Find Permutation 2 - AtCoder is a programming contest site for anyone from beginners to experts. We hold weekly programming contests online.",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "readingListItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e77",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 112.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 1919.0
+               },
+               "name": "Submit",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "readingListItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e78",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              }
+             ],
+             "ref_id": "@s3oonkxr0208eo:e76",
+             "role": "list",
+             "states": [
+              "disabled",
+              "offscreen"
+             ]
+            },
+            {
+             "available_actions": [
+              "ScrollTo",
+              "Select"
+             ],
+             "bounds": {
+              "height": 1042.0,
+              "width": 728.0,
+              "x": 2924.0,
+              "y": 2068.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2110.0
+               },
+               "name": "Claude",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e80",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2110.0
+               },
+               "name": "Monkeytype | A minimalistic, customizable typing test",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e81",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2158.0
+               },
+               "name": "Instagram",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e82",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2158.0
+               },
+               "name": "Monkeytype | A minimalistic, customizable typing test",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e83",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2206.0
+               },
+               "name": "\"Internship :(\" - justharshitjaiswal14@gmail.com - Gmail",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e84",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2206.0
+               },
+               "name": "(9) Mr. Rager - YouTube",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e85",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2254.0
+               },
+               "name": "HARSHIT JAISWAL | LinkedIn",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e86",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2254.0
+               },
+               "name": "Stripe: Economic infrastructure for the internet. | Y Combinator",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e87",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2302.0
+               },
+               "name": "Startups for Shared Cloud Browsing - Google Gemini",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e88",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2302.0
+               },
+               "name": "co browsing - Google Search",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e89",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2350.0
+               },
+               "name": "Space | Infinite space on your computer.",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e90",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2350.0
+               },
+               "name": "(9) Patrick Collison: Is AI Breaking the Lean Startup Playbook? - YouTube",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e91",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2398.0
+               },
+               "name": "Feed | LinkedIn",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e92",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2398.0
+               },
+               "name": "Contests - Codeforces",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e93",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2446.0
+               },
+               "name": "Domain Name Search | Free Domain Availability Tool - Spaceship",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e94",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2446.0
+               },
+               "name": "pclub dp | Notion",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e95",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2494.0
+               },
+               "name": "IIT Kanpur Webmail :: Search result",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e96",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2494.0
+               },
+               "name": "(8) Meatball | Award-Winning Comedy Short Film (4k) - YouTube",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e97",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2542.0
+               },
+               "name": "(8) Airbnb YC pitch - YouTube",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e98",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2542.0
+               },
+               "name": "(8) \ud83c\udf0a How Underwater Tunnels Are Actually Built \ud83e\udd2f - YouTube",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e99",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2590.0
+               },
+               "name": "(8) I visited India\u2019s tech capital - YouTube",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e100",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2590.0
+               },
+               "name": "TypeScript Learning Roadmap",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e101",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2638.0
+               },
+               "name": "CS330: OPERATING SYSTEMS",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e102",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2638.0
+               },
+               "name": "Fixing Pipeline Deadlocks in C - Google Gemini",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e103",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2686.0
+               },
+               "name": "Dashboard | Claude Platform",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e104",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2686.0
+               },
+               "name": "Instagram",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e105",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2734.0
+               },
+               "name": "Dashboard | Claude Platform",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e106",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2734.0
+               },
+               "name": "Company Name Ideas and Branding - Google Gemini",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e107",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2782.0
+               },
+               "name": "(2) Post | LinkedIn",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e108",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2782.0
+               },
+               "name": "(8) INDIA\u2019S GOT LATENT S2 EP5 ft. Orry, Archana Puran Singh, Sharon Verma, Nishant Suri - YouTube",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e109",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2830.0
+               },
+               "name": "Buy Credits | Claude Platform",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e110",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2830.0
+               },
+               "name": "Claude",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e111",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2878.0
+               },
+               "name": "Your projects - Overleaf, Online LaTeX Editor",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e112",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2878.0
+               },
+               "name": "Curriculum vitae (2) - Online LaTeX Editor Overleaf",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e113",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2926.0
+               },
+               "name": "Tables - Overleaf, Online LaTeX Editor",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e114",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2926.0
+               },
+               "name": "Curriculum vitae (2) - Online LaTeX Editor Overleaf",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e115",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 2974.0
+               },
+               "name": "Your projects - Overleaf, Online LaTeX Editor",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e116",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 2974.0
+               },
+               "name": "Your projects - Overleaf, Online LaTeX Editor",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e117",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 3022.0
+               },
+               "name": "Your projects - Overleaf, Online LaTeX Editor",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e118",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 3022.0
+               },
+               "name": "Your projects - Overleaf, Online LaTeX Editor",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e119",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 2924.0,
+                "y": 3070.0
+               },
+               "name": "Your projects - Overleaf, Online LaTeX Editor",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e120",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 360.0,
+                "x": 3292.0,
+                "y": 3070.0
+               },
+               "name": "macos on azure - Google Search",
+               "native_id": {
+                "kind": "ax_identifier",
+                "value": "recentlyClosedTabsItem"
+               },
+               "ref_id": "@s3oonkxr0208eo:e121",
+               "role": "button",
+               "states": [
+                "disabled",
+                "offscreen"
+               ]
+              }
+             ],
+             "ref_id": "@s3oonkxr0208eo:e79",
+             "role": "list",
+             "states": [
+              "disabled",
+              "offscreen"
+             ]
+            }
+           ],
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "StartPageCollectionView"
+           },
+           "ref_id": "@s3oonkxr0208eo:e2",
+           "role": "list",
+           "states": [
+            "focused"
+           ]
+          },
+          {
+           "available_actions": [
+            "SetValue"
+           ],
+           "bounds": {
+            "height": 697.5,
+            "width": 19.0,
+            "x": 3822.0,
+            "y": 654.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "SetValue"
+             ],
+             "bounds": {
+              "height": 314.0,
+              "width": 11.0,
+              "x": 3826.0,
+              "y": 658.0
+             },
+             "ref_id": "@s3oonkxr0208eo:e123",
+             "role": "handle",
+             "value": "0"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 3823.0,
+              "y": 655.0
+             },
+             "ref_id": "@s3oonkxr0208eo:e124",
+             "role": "button"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 3823.0,
+              "y": 655.0
+             },
+             "ref_id": "@s3oonkxr0208eo:e125",
+             "role": "button"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 375.0,
+              "width": 11.0,
+              "x": 3826.0,
+              "y": 972.5
+             },
+             "ref_id": "@s3oonkxr0208eo:e126",
+             "role": "button"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 0.0,
+              "width": 11.0,
+              "x": 3826.0,
+              "y": 658.0
+             },
+             "ref_id": "@s3oonkxr0208eo:e127",
+             "role": "button"
+            }
+           ],
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "_NS:28"
+           },
+           "ref_id": "@s3oonkxr0208eo:e122",
+           "role": "scrollbar",
+           "value": "0"
+          }
+         ],
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "_NS:21"
+         },
+         "ref_id": "@s3oonkxr0208eo:e1",
+         "role": "scrollarea"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 24.0,
+          "width": 56.0,
+          "x": 3765.0,
+          "y": 1325.0
+         },
+         "description": "customisations",
+         "name": "Edit",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "customizationsPopoverButton"
+         },
+         "ref_id": "@s3oonkxr0208eo:e128",
+         "role": "button"
+        }
+       ],
+       "role": "tablist"
+      }
+     ],
+     "role": "group"
+    },
+    {
+     "available_actions": [
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 52.0,
+      "width": 1087.0,
+      "x": 2753.0,
+      "y": 565.0
+     },
+     "children": [
+      {
+       "bounds": {
+        "height": 52.0,
+        "width": 75.0,
+        "x": 2845.0,
+        "y": 565.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 38.0,
+          "width": 41.5,
+          "x": 2848.0,
+          "y": 572.0
+         },
+         "name": "show sidebar",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "SidebarButton"
+         },
+         "ref_id": "@s3oonkxr0208eo:e130",
+         "role": "button"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus",
+          "Expand",
+          "Collapse"
+         ],
+         "bounds": {
+          "height": 38.0,
+          "width": 20.0,
+          "x": 2887.5,
+          "y": 572.0
+         },
+         "name": "Tab Group picker",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "TabGroupPickerButton?TabGroup="
+         },
+         "ref_id": "@s3oonkxr0208eo:e131",
+         "role": "menubutton"
+        }
+       ],
+       "role": "group"
+      },
+      {
+       "bounds": {
+        "height": 52.0,
+        "width": 81.0,
+        "x": 2920.0,
+        "y": 565.0
+       },
+       "children": [
+        {
+         "bounds": {
+          "height": 38.0,
+          "width": 75.0,
+          "x": 2923.0,
+          "y": 572.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "RightClick"
+           ],
+           "bounds": {
+            "height": 36.0,
+            "width": 36.0,
+            "x": 2924.0,
+            "y": 573.0
+           },
+           "name": "Go back",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "BackButton"
+           },
+           "ref_id": "@s3oonkxr0208eo:e132",
+           "role": "button",
+           "states": [
+            "disabled"
+           ]
+          },
+          {
+           "available_actions": [
+            "Click",
+            "RightClick"
+           ],
+           "bounds": {
+            "height": 36.0,
+            "width": 36.0,
+            "x": 2961.0,
+            "y": 573.0
+           },
+           "name": "Go forward",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "ForwardButton"
+           },
+           "ref_id": "@s3oonkxr0208eo:e133",
+           "role": "button",
+           "states": [
+            "disabled"
+           ]
+          }
+         ],
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "BackForwardSegmentedControl"
+         },
+         "role": "group"
+        }
+       ],
+       "role": "group"
+      },
+      {
+       "available_actions": [
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 44.0,
+        "x": 3029.5,
+        "y": 565.0
+       },
+       "name": "Darker",
+       "ref_id": "@s3oonkxr0208eo:e134",
+       "role": "button"
+      },
+      {
+       "bounds": {
+        "height": 52.0,
+        "width": 446.0,
+        "x": 3073.5,
+        "y": 565.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click"
+         ],
+         "bounds": {
+          "height": 30.0,
+          "width": 23.5,
+          "x": 3193.5,
+          "y": 576.5
+         },
+         "description": "Show Search Menu",
+         "name": "Show Search Menu",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "UnifiedField._magnifyingGlassButton"
+         },
+         "ref_id": "@s3oonkxr0208eo:e135",
+         "role": "button"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "RightClick",
+          "SetValue",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 31.0,
+          "width": 413.0,
+          "x": 3100.5,
+          "y": 583.0
+         },
+         "name": "smart search field",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "WEB_BROWSER_ADDRESS_AND_SEARCH_FIELD"
+         },
+         "ref_id": "@s3oonkxr0208eo:e136",
+         "role": "textfield"
+        }
+       ],
+       "role": "group"
+      },
+      {
+       "available_actions": [
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 41.0,
+        "x": 3678.0,
+        "y": 565.0
+       },
+       "name": "Downloads",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "DownloadsButton"
+       },
+       "ref_id": "@s3oonkxr0208eo:e137",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 37.0,
+        "x": 3719.0,
+        "y": 565.0
+       },
+       "name": "Share",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "ShareButton"
+       },
+       "ref_id": "@s3oonkxr0208eo:e138",
+       "role": "button",
+       "states": [
+        "disabled"
+       ]
+      },
+      {
+       "available_actions": [
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 37.0,
+        "x": 3756.0,
+        "y": 565.0
+       },
+       "name": "New Tab",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "NewTabButton"
+       },
+       "ref_id": "@s3oonkxr0208eo:e139",
+       "role": "button"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 43.0,
+        "x": 3793.0,
+        "y": 565.0
+       },
+       "name": "Tab Overview",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "TabOverviewButton"
+       },
+       "ref_id": "@s3oonkxr0208eo:e140",
+       "role": "button"
+      }
+     ],
+     "ref_id": "@s3oonkxr0208eo:e129",
+     "role": "toolbar"
+    },
+    {
+     "bounds": {
+      "height": 38.0,
+      "width": 1087.0,
+      "x": 2753.0,
+      "y": 617.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "Click",
+        "Toggle",
+        "RightClick",
+        "ScrollTo"
+       ],
+       "bounds": {
+        "height": 32.0,
+        "width": 535.0,
+        "x": 2761.0,
+        "y": 617.0
+       },
+       "description": "(9) Every UI/UX Concept Explained in Under 10 Minutes - YouTube",
+       "name": "(9) Every UI/UX Concept Explained in Under 10 Minutes - YouTube",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "TabBarTab?isPinned=false&isNarrow=false&isActive=false"
+       },
+       "ref_id": "@s3oonkxr0208eo:e141",
+       "role": "radiobutton",
+       "value": "false"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "Toggle",
+        "RightClick",
+        "ScrollTo"
+       ],
+       "bounds": {
+        "height": 32.0,
+        "width": 535.0,
+        "x": 3297.0,
+        "y": 617.0
+       },
+       "description": "Start Page",
+       "name": "Start Page",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "TabBarTab?isPinned=false&isNarrow=false&isActive=true"
+       },
+       "ref_id": "@s3oonkxr0208eo:e142",
+       "role": "radiobutton",
+       "states": [
+        "checked"
+       ],
+       "value": "true"
+      }
+     ],
+     "name": "Tab bar, 2 tabs",
+     "native_id": {
+      "kind": "ax_identifier",
+      "value": "TabBar?isSeparate=false"
+     },
+     "role": "unknown"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2771.0,
+      "y": 583.0
+     },
+     "ref_id": "@s3oonkxr0208eo:e143",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2817.0,
+      "y": 583.0
+     },
+     "ref_id": "@s3oonkxr0208eo:e144",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2794.0,
+      "y": 583.0
+     },
+     "ref_id": "@s3oonkxr0208eo:e145",
+     "role": "button"
+    }
+   ],
+   "name": "Start Page",
+   "native_id": {
+    "kind": "ax_identifier",
+    "value": "SafariWindow?IsSecure=false&UUID=C40382D2-6D0D-4E1F-869E-80E235218035"
+   },
+   "role": "window"
+  },
+  "truncated": true,
+  "window": {
+   "id": "w-27784",
+   "title": "Start Page"
+  }
+ }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27686",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27684",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27681",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-24885",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-24884",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-24886",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-24887",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27683",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  },
+  {
+    "app_name": "Finder",
+    "bounds": {
+      "height": 64.0,
+      "width": 64.0,
+      "x": 0.0,
+      "y": 940.0
+    },
+    "id": "w-95",
+    "is_focused": false,
+    "pid": 1450,
+    "process_instance": "macos-proc-v1:1787785262:160480",
+    "title": "Finder",
+    "visible": false
+  }
+]

@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.0",
+  "app_key": "firefox",
+  "identity": {
+    "name": "Firefox",
+    "bundle_id": "org.mozilla.firefox",
+    "bundle_id_match": "exact",
+    "framework": "gecko",
+    "secondary_frameworks": [],
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "only ChannelPrefs.framework; exe is Mozilla firefox binary; 0 hints"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "window > group > group > tabpanel > scrollarea > webarea (depth 5): tabpanel in path = Gecko"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 37 nodes, not the 7-node Chromium shell"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.333 default, 0.434 forced (Gecko ~0.43)"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "Click on 197/206 non-interactive nodes in forced (Gecko signature)"
+      }
+    ]
+  },
+  "category": "browser",
+  "fidelity": {
+    "default": {
+      "nodes": 93,
+      "max_depth": 10,
+      "max_depth_requested": 10,
+      "frontier_nodes": 9,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 44,
+      "ref_count": 92,
+      "has_webarea": true,
+      "offscreen_nodes": 12,
+      "error_code": null,
+      "skeleton_nodes": 37
+    },
+    "forced": {
+      "nodes": 288,
+      "max_depth": 21,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 140,
+      "ref_count": 287,
+      "has_webarea": true,
+      "offscreen_nodes": 39,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 3.097,
+    "default_score": 0.323,
+    "forced_score": 1.0,
+    "best_capture": "forced",
+    "ladder_verdict": "recapture_deeper"
+  },
+  "readiness": {
+    "default_rung": "R4_depth_frontier",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "depth_frontier"
+      ],
+      "chromium_shell_skeleton": false,
+      "cause": "depth_cap"
+    },
+    "capture_plan": {
+      "max_depth": 40,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": true,
+      "reason": "Only visible WS entry is a 92x108 thumbnail proxy (window minimized / other Space); activate before coordinate actions. Background read inferred."
+    },
+    "handshake": {
+      "status": "unproven",
+      "note": "Gecko; depth 40 explains the data: 93 -> 288, 93/93 default paths kept"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 0,
+        "height": 0,
+        "x": 0,
+        "y": 1440,
+        "count": 1,
+        "kind": "helper_surface"
+      },
+      {
+        "width": 92,
+        "height": 108,
+        "x": 15,
+        "y": 775,
+        "count": 1,
+        "kind": "thumbnail_proxy"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": true,
+    "empty_list_is_normal": true,
+    "address_by": "window_id",
+    "process_count_seen": 11,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 34.9,
+      "kinds": [
+        "ax_dom_identifier"
+      ],
+      "reject_patterns": [
+        "^main-button$",
+        "^panel-\\d+-\\d+$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 90.4,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "button",
+        "statictext"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_dom_identifier",
+      "value": "nav-bar",
+      "match": "exact",
+      "tier": "high",
+      "role": "toolbar",
+      "purpose": "navigation toolbar",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "back-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "back button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "forward-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "forward button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "reload-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "reload button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "sidebar-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "sidebar toggle button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "urlbar",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "address bar container",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "urlbar-input",
+      "match": "exact",
+      "tier": "high",
+      "role": "combobox",
+      "purpose": "address / search input",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "fxa-toolbar-menu-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "account menu button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "unified-extensions-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "extensions menu button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "alltabs-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "list all tabs button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "PanelUI-menu-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "app menu (hamburger) button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "PersonalToolbar",
+      "match": "exact",
+      "tier": "high",
+      "role": "toolbar",
+      "purpose": "bookmarks toolbar",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "PlacesChevron",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "more bookmarks overflow button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "OtherBookmarks",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "other bookmarks folder button",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "tabbrowser-tabs",
+      "match": "exact",
+      "tier": "high",
+      "role": "tablist",
+      "purpose": "tab strip",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "tabs-newtab-button",
+      "match": "exact",
+      "tier": "high",
+      "role": "button",
+      "purpose": "new tab button",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "tabbrowser-tabpanels",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "tab content panels container",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "notifications-toolbar",
+      "match": "exact",
+      "tier": "high",
+      "role": "toolbar",
+      "purpose": "notification bar",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "a11y-announcement",
+      "match": "exact",
+      "tier": "high",
+      "role": "alert",
+      "purpose": "screen-reader announcement region",
+      "seen_in_captures": 3
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "statuspanel-label",
+      "match": "exact",
+      "tier": "high",
+      "role": "status",
+      "purpose": "link hover status label",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "focus-timer-spinbutton",
+      "match": "exact",
+      "tier": "high",
+      "role": "incrementor",
+      "purpose": "new-tab focus timer minutes",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "widgets-container",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "new-tab widgets container",
+      "seen_in_captures": 1
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": false,
+    "rightclick_ambient": true,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "typetext_present",
+    "offscreen_recovery": "scroll_to",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 58,
+        "verb": "Click"
+      },
+      {
+        "role": "link",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 12,
+        "verb": "Click"
+      },
+      {
+        "role": "combobox",
+        "actions": [
+          "Click",
+          "Collapse",
+          "Expand",
+          "ScrollTo",
+          "Select",
+          "SetFocus",
+          "SetValue",
+          "TypeText"
+        ],
+        "count": 2,
+        "verb": "TypeText",
+        "note": "urlbar-input has TypeText+SetValue; engine picker is readonly"
+      },
+      {
+        "role": "radiobutton",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus",
+          "Toggle"
+        ],
+        "count": 3,
+        "verb": "Toggle",
+        "note": "tabs; value may be the string true"
+      },
+      {
+        "role": "switch",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus",
+          "Toggle"
+        ],
+        "count": 5,
+        "verb": "Toggle",
+        "note": "sidebar launchers; value 0/1"
+      },
+      {
+        "role": "incrementor",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus",
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "Select"
+        ],
+        "count": 3,
+        "verb": "Select"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role=='statictext'",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "heading",
+        "match": "role=='heading'",
+        "read_from": "name",
+        "parse": "heading_level",
+        "laws": [
+          "LAW-TXT-6"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role in {'switch','radiobutton'}",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "native_id=='urlbar-input'",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "ax_root",
+    "ws_matches_ax_root": false,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 39,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "depth_capped_husk",
+      "detect": "has_webarea and any(n.children_count > len(n.children)) or max_depth == requested",
+      "workaround": "recapture same window at --max-depth 40",
+      "severity": "high",
+      "observed": "default 93 nodes, 9 frontier nodes at depth 10 (all with ref_id); forced 288 nodes depth 21 (3.10x)",
+      "laws": [
+        "LAW-STR-6",
+        "LAW-LIFE-1",
+        "LAW-LIFE-2"
+      ]
+    },
+    {
+      "kind": "click_everywhere",
+      "detect": "framework=='gecko' and Click on statictext/group/toolbar",
+      "workaround": "filter actionable by role, not by Click",
+      "severity": "high",
+      "observed": "forced: Click on 197/206 non-interactive-role nodes; statictext 37/37",
+      "laws": [
+        "LAW-ACT-5"
+      ]
+    },
+    {
+      "kind": "ambiguous_process",
+      "detect": "error.code=='AMBIGUOUS_TARGET' and details.candidate_count > 1",
+      "workaround": "address by window id or parent pid, never --app name",
+      "severity": "high",
+      "observed": "list-surfaces --app matched 11 Firefox processes",
+      "laws": [
+        "LAW-LIFE-10"
+      ]
+    },
+    {
+      "kind": "thumbnail_proxy_window",
+      "detect": "only non-ghost WS entry has width <= 200 and height <= 200",
+      "workaround": "match window by title; take bounds from AX root",
+      "severity": "high",
+      "observed": "WS 92x108 vs AX root 1249x923",
+      "laws": [
+        "LAW-WIN-4",
+        "LAW-WIN-5"
+      ]
+    },
+    {
+      "kind": "ghost_only_window_list",
+      "detect": "no WS entry survives ghost + thumbnail filter",
+      "workaround": "snapshot anyway; use AX root bounds",
+      "severity": "low",
+      "observed": "2 entries: 1 0x0 helper surface + 1 thumbnail",
+      "laws": [
+        "LAW-WIN-10"
+      ]
+    },
+    {
+      "kind": "volatile_dom_ids",
+      "detect": "native_id in {'main-button'} or matches '^panel-\\d+-\\d+$'",
+      "workaround": "do not persist; resolve by role+name",
+      "severity": "low",
+      "observed": "'main-button' shared by 24 nodes in forced; tab panel id changed panel-3-1 -> panel-3-2 between captures",
+      "laws": [
+        "LAW-ID-3"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick window every session",
+      "severity": "low",
+      "observed": "default w-28142 vs forced w-28557, same title and 1249x923 bounds",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    },
+    {
+      "kind": "disabled_keeps_click",
+      "detect": "'disabled' in states and 'Click' in actions",
+      "workaround": "check disabled state before acting",
+      "severity": "low",
+      "observed": "2/2 disabled nav buttons keep Click",
+      "laws": [
+        "LAW-ACT-7"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "always first",
+      "tested": true
+    },
+    {
+      "channel": "ax_deep",
+      "when": "any frontier node or max depth == 10",
+      "tested": true
+    },
+    {
+      "channel": "ax_scoped",
+      "when": "error INTERNAL containing 'RefMap'",
+      "precondition": "frontier nodes carry ref_id (9/9 here)",
+      "tested": false
+    },
+    {
+      "channel": "cdp",
+      "when": "page content beyond AX needed",
+      "precondition": "Firefox launched with --remote-debugging-port (BiDi)",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "chrome shortcuts named in the tree (e.g. Cmd+B bookmarks, Cmd+L address bar)",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "all else fails",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T20:58:49+05:30",
+      "2026-08-30T20:58:51+05:30",
+      "2026-08-30T20:58:51+05:30",
+      "2026-08-30T21:15:15+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "activated",
+      "forced"
+    ],
+    "surface": "start_page",
+    "sources": [
+      "firefox/meta.json",
+      "firefox/windows.json",
+      "firefox/skeleton.json",
+      "firefox/full.json",
+      "firefox/forced.json",
+      "firefox/surfaces.json",
+      "firefox/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "seconds": 9.476969666022342,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"label\":\"sidebar_recommendations\",\"observations\":[\"A column of recommended/related video items on the right side of the YouTube watch interface\",\"Top filter chip row with options: 'All', 'From the series', 'From Source...'\", \"Five video recommendation cards stacked vertically, each containing a thumbnail on the left, video title, channel name ('Sourcery with Moll...'), view counts, relative timestamps ('2 mo ago', '3 mo ago'), and an 'Auto-dubbed' badge\"],\"interpretations\":[\"Related video recommendation list tailored to the currently playing video/series.\"],\"uncertainties\":[],\"children\":[{\"label\":\"filter_chip_bar\",\"bbox\":[47,24,960,78],\"inspect\":false,\"reason\":\"Filter chips for narrowing recommended videos\"},{\"label\":\"video_card_item\",\"bbox\":[47,85,952,246],\"inspect\":false,\"reason\":\"First recommended video card\"},{\"label\":\"video_card_item\",\"bbox\":[47,258,952,419],\"inspect\":false,\"reason\":\"Second recommended video card\"},{\"label\":\"video_card_item\",\"bbox\":[47,432,952,593],\"inspect\":false,\"reason\":\"Third recommended video card\"},{\"label\":\"video_card_item\",\"bbox\":[47,605,952,766],\"inspect\":false,\"reason\":\"Fourth recommended video card\"},{\"label\":\"video_card_item\",\"bbox\":[47,779,952,940],\"inspect\":false,\"reason\":\"Fifth recommended video card\"}]}",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmkKZwFpFH0T/nHzYhBxkzFe7fyXdK7AUa2z3YiARJH88dXyvmGy2sb7t4hk40QdaGN11qdVZSgOPgIqrZFMP5YvFwwR0qfDtQr0vLyAQHrFhIRaKaLjtZu3HpETKft6SOyqHsCLdeubiXY="
+            }
+          },
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1792247249,
+    "id": "zIXTaua3Kdzeg8UP7IOiwAU",
+    "model": "gemini-3.8-flash",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 340,
+      "prompt_tokens": 3675,
+      "total_tokens": 4015
+    }
+  }
+}

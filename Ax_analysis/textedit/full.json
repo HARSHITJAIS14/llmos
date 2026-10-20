@@ -1,0 +1,2198 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "TextEdit",
+    "complete": true,
+    "ref_count": 105,
+    "snapshot_id": "s3sfcqhfwdb32n",
+    "tree": {
+      "bounds": {
+        "height": 448.0,
+        "width": 893.0,
+        "x": 833.0,
+        "y": 271.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 448.0,
+            "width": 893.0,
+            "x": 833.0,
+            "y": 271.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 432.0,
+                "width": 207.0,
+                "x": 841.0,
+                "y": 279.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 982.0,
+                    "width": 192.0,
+                    "x": 840.0,
+                    "y": 278.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 289.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 289.0
+                          },
+                          "name": "TextEdit",
+                          "ref_id": "@s3sfcqhfwdb32n:e4",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "TextEdit",
+                      "ref_id": "@s3sfcqhfwdb32n:e3",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 321.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 321.0
+                          },
+                          "name": "Recents",
+                          "ref_id": "@s3sfcqhfwdb32n:e6",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Recents",
+                      "ref_id": "@s3sfcqhfwdb32n:e5",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 353.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 353.0
+                          },
+                          "name": "Shared",
+                          "ref_id": "@s3sfcqhfwdb32n:e8",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Shared",
+                      "ref_id": "@s3sfcqhfwdb32n:e7",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 398.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 398.0
+                          },
+                          "name": "Favourites",
+                          "ref_id": "@s3sfcqhfwdb32n:e10",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Favourites",
+                      "ref_id": "@s3sfcqhfwdb32n:e9",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 417.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 417.0
+                          },
+                          "name": "Desktop",
+                          "ref_id": "@s3sfcqhfwdb32n:e12",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "selected"
+                          ]
+                        }
+                      ],
+                      "name": "Desktop",
+                      "ref_id": "@s3sfcqhfwdb32n:e11",
+                      "role": "treeitem",
+                      "states": [
+                        "selected"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 449.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 449.0
+                          },
+                          "name": "Documents",
+                          "ref_id": "@s3sfcqhfwdb32n:e14",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Documents",
+                      "ref_id": "@s3sfcqhfwdb32n:e13",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 481.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 481.0
+                          },
+                          "name": "Pictures",
+                          "ref_id": "@s3sfcqhfwdb32n:e16",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Pictures",
+                      "ref_id": "@s3sfcqhfwdb32n:e15",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 513.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 513.0
+                          },
+                          "name": "Downloads",
+                          "ref_id": "@s3sfcqhfwdb32n:e18",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Downloads",
+                      "ref_id": "@s3sfcqhfwdb32n:e17",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 545.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 545.0
+                          },
+                          "name": "Music",
+                          "ref_id": "@s3sfcqhfwdb32n:e20",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Music",
+                      "ref_id": "@s3sfcqhfwdb32n:e19",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 577.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 577.0
+                          },
+                          "name": "Applications",
+                          "ref_id": "@s3sfcqhfwdb32n:e22",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Applications",
+                      "ref_id": "@s3sfcqhfwdb32n:e21",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 609.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 609.0
+                          },
+                          "name": "Quick",
+                          "ref_id": "@s3sfcqhfwdb32n:e24",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Quick",
+                      "ref_id": "@s3sfcqhfwdb32n:e23",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 654.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 654.0
+                          },
+                          "name": "Locations",
+                          "ref_id": "@s3sfcqhfwdb32n:e26",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Locations",
+                      "ref_id": "@s3sfcqhfwdb32n:e25",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 673.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 673.0
+                          },
+                          "name": "iCloud\u00a0Drive",
+                          "ref_id": "@s3sfcqhfwdb32n:e28",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "iCloud Drive",
+                      "ref_id": "@s3sfcqhfwdb32n:e27",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 705.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 705.0
+                          },
+                          "name": "MacDroid",
+                          "ref_id": "@s3sfcqhfwdb32n:e30",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "MacDroid",
+                      "ref_id": "@s3sfcqhfwdb32n:e29",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 737.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 737.0
+                          },
+                          "name": "harshit",
+                          "ref_id": "@s3sfcqhfwdb32n:e32",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "harshit",
+                      "ref_id": "@s3sfcqhfwdb32n:e31",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 769.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 769.0
+                          },
+                          "name": "harshit\u2019s MacBook Air",
+                          "ref_id": "@s3sfcqhfwdb32n:e34",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "harshit\u2019s MacBook Air",
+                      "ref_id": "@s3sfcqhfwdb32n:e33",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 801.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 801.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 17.0,
+                                "width": 19.5,
+                                "x": 1091.0,
+                                "y": 806.0
+                              },
+                              "description": "eject",
+                              "name": "Eject",
+                              "ref_id": "@s3sfcqhfwdb32n:e37",
+                              "role": "button",
+                              "states": [
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "name": "HeyClicky",
+                          "ref_id": "@s3sfcqhfwdb32n:e36",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "HeyClicky",
+                      "ref_id": "@s3sfcqhfwdb32n:e35",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 846.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 846.0
+                          },
+                          "name": "Tags",
+                          "ref_id": "@s3sfcqhfwdb32n:e39",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Tags",
+                      "ref_id": "@s3sfcqhfwdb32n:e38",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 865.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 865.0
+                          },
+                          "name": "Red",
+                          "ref_id": "@s3sfcqhfwdb32n:e41",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Red",
+                      "ref_id": "@s3sfcqhfwdb32n:e40",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 897.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 897.0
+                          },
+                          "name": "Orange",
+                          "ref_id": "@s3sfcqhfwdb32n:e43",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Orange",
+                      "ref_id": "@s3sfcqhfwdb32n:e42",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 929.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 929.0
+                          },
+                          "name": "Yellow",
+                          "ref_id": "@s3sfcqhfwdb32n:e45",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Yellow",
+                      "ref_id": "@s3sfcqhfwdb32n:e44",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 961.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 961.0
+                          },
+                          "name": "Green",
+                          "ref_id": "@s3sfcqhfwdb32n:e47",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Green",
+                      "ref_id": "@s3sfcqhfwdb32n:e46",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 993.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 993.0
+                          },
+                          "name": "Blue",
+                          "ref_id": "@s3sfcqhfwdb32n:e49",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Blue",
+                      "ref_id": "@s3sfcqhfwdb32n:e48",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 1025.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 1025.0
+                          },
+                          "name": "Purple",
+                          "ref_id": "@s3sfcqhfwdb32n:e51",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Purple",
+                      "ref_id": "@s3sfcqhfwdb32n:e50",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 1057.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 1057.0
+                          },
+                          "name": "Grey",
+                          "ref_id": "@s3sfcqhfwdb32n:e53",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Grey",
+                      "ref_id": "@s3sfcqhfwdb32n:e52",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 1089.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 1089.0
+                          },
+                          "name": "All Tags\u2026",
+                          "ref_id": "@s3sfcqhfwdb32n:e55",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "All Tags\u2026",
+                      "ref_id": "@s3sfcqhfwdb32n:e54",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 1134.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 1134.0
+                          },
+                          "name": "Media",
+                          "ref_id": "@s3sfcqhfwdb32n:e57",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Media",
+                      "ref_id": "@s3sfcqhfwdb32n:e56",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 1153.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 1153.0
+                          },
+                          "name": "Music",
+                          "ref_id": "@s3sfcqhfwdb32n:e59",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Music",
+                      "ref_id": "@s3sfcqhfwdb32n:e58",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 1185.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 1185.0
+                          },
+                          "name": "Photos",
+                          "ref_id": "@s3sfcqhfwdb32n:e61",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Photos",
+                      "ref_id": "@s3sfcqhfwdb32n:e60",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 190.0,
+                        "x": 841.0,
+                        "y": 1217.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 170.0,
+                            "x": 851.0,
+                            "y": 1217.0
+                          },
+                          "name": "Movies",
+                          "ref_id": "@s3sfcqhfwdb32n:e63",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Movies",
+                      "ref_id": "@s3sfcqhfwdb32n:e62",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    }
+                  ],
+                  "name": "sidebar",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:8"
+                  },
+                  "ref_id": "@s3sfcqhfwdb32n:e2",
+                  "role": "outline"
+                },
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 434.0,
+                    "width": 19.0,
+                    "x": 1030.0,
+                    "y": 278.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetValue"
+                      ],
+                      "bounds": {
+                        "height": 187.5,
+                        "width": 11.0,
+                        "x": 1034.0,
+                        "y": 282.0
+                      },
+                      "ref_id": "@s3sfcqhfwdb32n:e65",
+                      "role": "handle",
+                      "value": "0"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 1031.0,
+                        "y": 279.0
+                      },
+                      "ref_id": "@s3sfcqhfwdb32n:e66",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 1031.0,
+                        "y": 279.0
+                      },
+                      "ref_id": "@s3sfcqhfwdb32n:e67",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 238.0,
+                        "width": 11.0,
+                        "x": 1034.0,
+                        "y": 470.0
+                      },
+                      "ref_id": "@s3sfcqhfwdb32n:e68",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 11.0,
+                        "x": 1034.0,
+                        "y": 282.0
+                      },
+                      "ref_id": "@s3sfcqhfwdb32n:e69",
+                      "role": "button"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:70"
+                  },
+                  "ref_id": "@s3sfcqhfwdb32n:e64",
+                  "role": "scrollbar",
+                  "value": "0"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:61"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e1",
+              "role": "scrollarea"
+            },
+            {
+              "bounds": {
+                "height": 318.0,
+                "width": 893.0,
+                "x": 833.0,
+                "y": 336.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 320.0,
+                    "width": 895.0,
+                    "x": 832.0,
+                    "y": 335.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 318.0,
+                        "width": 245.0,
+                        "x": 1048.0,
+                        "y": 336.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 488.0,
+                            "width": 230.0,
+                            "x": 1047.0,
+                            "y": 335.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 369.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 24.0,
+                                    "x": 1084.0,
+                                    "y": 371.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e73",
+                                  "role": "textfield",
+                                  "value": "YC"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 439.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 164.0,
+                                    "x": 1084.0,
+                                    "y": 441.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e74",
+                                  "role": "textfield",
+                                  "value": "Competitive Programming"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 509.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 42.0,
+                                    "x": 1084.0,
+                                    "y": 511.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e75",
+                                  "role": "textfield",
+                                  "value": "dassa"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 531.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 44.0,
+                                    "x": 1084.0,
+                                    "y": 533.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e76",
+                                  "role": "textfield",
+                                  "value": "Endee"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 553.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 43.0,
+                                    "x": 1084.0,
+                                    "y": 555.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e77",
+                                  "role": "textfield",
+                                  "states": [
+                                    "selected"
+                                  ],
+                                  "value": "Quant"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 628.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 77.0,
+                                    "x": 1084.0,
+                                    "y": 630.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e78",
+                                  "role": "textfield",
+                                  "value": "(2) CP4.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 698.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 168.0,
+                                    "x": 1084.0,
+                                    "y": 700.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e79",
+                                  "role": "textfield",
+                                  "value": "Competitive Programming.zip"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 768.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 39.0,
+                                    "x": 1084.0,
+                                    "y": 770.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e80",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "\\\\.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1064.0,
+                                "y": 790.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 45.0,
+                                    "x": 1084.0,
+                                    "y": 792.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e81",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Aspire"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3sfcqhfwdb32n:e72",
+                          "role": "list",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "ref_id": "@s3sfcqhfwdb32n:e71",
+                      "role": "scrollarea"
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 318.0,
+                        "width": 245.0,
+                        "x": 1293.0,
+                        "y": 336.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 542.0,
+                            "width": 230.0,
+                            "x": 1292.0,
+                            "y": 335.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 369.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 168.0,
+                                    "x": 1329.0,
+                                    "y": 371.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e84",
+                                  "role": "textfield",
+                                  "value": "Operating Systems - Three Easy Pieces.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 439.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 168.0,
+                                    "x": 1329.0,
+                                    "y": 441.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e85",
+                                  "role": "textfield",
+                                  "value": "a-practical-guide-to-quantitative-finance-interviews_compressed.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 461.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 168.0,
+                                    "x": 1329.0,
+                                    "y": 463.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e86",
+                                  "role": "textfield",
+                                  "value": "Fifty_Challenging_Problems_in_Probability.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 483.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 168.0,
+                                    "x": 1329.0,
+                                    "y": 485.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e87",
+                                  "role": "textfield",
+                                  "value": "Timothy Falcon Crack - Heard on the Street, Quantitative Questions from Wall Street Job Interviews (2014, Timothy Crack) - libgen.lc copy"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 558.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 132.0,
+                                    "x": 1329.0,
+                                    "y": 560.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e88",
+                                  "role": "textfield",
+                                  "value": "Quant Bible- MIT.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 580.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 120.0,
+                                    "x": 1329.0,
+                                    "y": 582.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e89",
+                                  "role": "textfield",
+                                  "value": "QUANT GUIDE.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 655.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 74.0,
+                                    "x": 1329.0,
+                                    "y": 657.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e90",
+                                  "role": "textfield",
+                                  "value": "hso201.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 677.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 74.0,
+                                    "x": 1329.0,
+                                    "y": 679.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e91",
+                                  "role": "textfield",
+                                  "value": "Timothy Falcon Crack - Heard on the Street, Quantitative Questions from Wall Street Job Interviews (2014, Timothy Crack) - libgen.lc.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 752.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 74.0,
+                                    "x": 1329.0,
+                                    "y": 754.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e92",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "Quant_Trading_Accelerator"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 822.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 55.0,
+                                    "x": 1329.0,
+                                    "y": 824.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e93",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "baby.txt"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 23.0,
+                                "width": 190.5,
+                                "x": 1309.0,
+                                "y": 844.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 55.0,
+                                    "x": 1329.0,
+                                    "y": 846.0
+                                  },
+                                  "ref_id": "@s3sfcqhfwdb32n:e94",
+                                  "role": "textfield",
+                                  "states": [
+                                    "offscreen"
+                                  ],
+                                  "value": "preview-9781292410623_A42194213.pdf"
+                                }
+                              ],
+                              "role": "group",
+                              "states": [
+                                "focused",
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s3sfcqhfwdb32n:e83",
+                          "role": "list"
+                        }
+                      ],
+                      "ref_id": "@s3sfcqhfwdb32n:e82",
+                      "role": "scrollarea"
+                    }
+                  ],
+                  "name": "column view",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "ColumnView"
+                  },
+                  "ref_id": "@s3sfcqhfwdb32n:e70",
+                  "role": "browser"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "bounds": {
+                "height": 26.0,
+                "width": 49.0,
+                "x": 1067.0,
+                "y": 290.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 23.0,
+                    "x": 1068.0,
+                    "y": 291.0
+                  },
+                  "name": "back",
+                  "ref_id": "@s3sfcqhfwdb32n:e95",
+                  "role": "button",
+                  "states": [
+                    "disabled"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 24.0,
+                    "width": 23.0,
+                    "x": 1092.0,
+                    "y": 291.0
+                  },
+                  "name": "forward",
+                  "ref_id": "@s3sfcqhfwdb32n:e96",
+                  "role": "button",
+                  "states": [
+                    "disabled"
+                  ]
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:16"
+              },
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 26.0,
+                "width": 69.0,
+                "x": 1122.0,
+                "y": 290.0
+              },
+              "name": "column view",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "View Options"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e97",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 26.0,
+                "width": 66.5,
+                "x": 1197.0,
+                "y": 290.0
+              },
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "Group or Sort By"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e98",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 26.0,
+                "width": 232.0,
+                "x": 1271.0,
+                "y": 290.0
+              },
+              "name": "Where:",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "where popup"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e99",
+              "role": "combobox",
+              "states": [
+                "readonly"
+              ],
+              "value": "Quant"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "SetValue",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 26.0,
+                "width": 196.5,
+                "x": 1510.5,
+                "y": 290.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "bounds": {
+                    "height": 9.0,
+                    "width": 15.5,
+                    "x": 1517.5,
+                    "y": 299.0
+                  },
+                  "name": "search",
+                  "ref_id": "@s3sfcqhfwdb32n:e101",
+                  "role": "button"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "Search"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e100",
+              "role": "textfield"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 26.0,
+                "width": 119.0,
+                "x": 1067.0,
+                "y": 674.0
+              },
+              "name": "New Document",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "NewDocumentButton"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e102",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 26.0,
+                "width": 118.5,
+                "x": 1192.0,
+                "y": 674.0
+              },
+              "name": "Show Options",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OptionsButton"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e103",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 26.0,
+                "width": 76.0,
+                "x": 1549.0,
+                "y": 674.0
+              },
+              "name": "Cancel",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "CancelButton"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e104",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "bounds": {
+                "height": 26.0,
+                "width": 76.0,
+                "x": 1631.0,
+                "y": 674.0
+              },
+              "name": "Open",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OKButton"
+              },
+              "ref_id": "@s3sfcqhfwdb32n:e105",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            }
+          ],
+          "role": "group"
+        }
+      ],
+      "name": "Open",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "open-panel"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28178",
+      "title": "Open"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27689",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27688",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27685",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27682",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 500.0,
+      "width": 500.0,
+      "x": 0.0,
+      "y": 940.0
+    },
+    "id": "w-27336",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27256",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27255",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 145.0,
+      "width": 125.0,
+      "x": 2576.0,
+      "y": 1033.0
+    },
+    "id": "w-27259",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "Pehli Mohabbat | YouTube Music",
+    "visible": true
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27258",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  },
+  {
+    "app_name": "YT Music",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27257",
+    "is_focused": false,
+    "pid": 11656,
+    "process_instance": "macos-proc-v1:1788086571:601878",
+    "title": "YT Music",
+    "visible": false
+  }
+]

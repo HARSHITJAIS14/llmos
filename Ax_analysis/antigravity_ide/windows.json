@@ -1,0 +1,153 @@
+[
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27659",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27661",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27660",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 64.0,
+      "width": 64.0,
+      "x": 0.0,
+      "y": 940.0
+    },
+    "id": "w-27243",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 161.0,
+      "width": 178.0,
+      "x": 15.0,
+      "y": 654.0
+    },
+    "id": "w-27238",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "YC \u2014 CLI tool integrations fo\u2026",
+    "visible": true
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27237",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27234",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27236",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-27235",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  },
+  {
+    "app_name": "Antigravity IDE",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-27658",
+    "is_focused": false,
+    "pid": 10858,
+    "process_instance": "macos-proc-v1:1788086489:573951",
+    "title": "Antigravity IDE",
+    "visible": false
+  }
+]

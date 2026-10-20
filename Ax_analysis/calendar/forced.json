@@ -1,0 +1,2782 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "Calendar",
+  "complete": true,
+  "ref_count": 158,
+  "snapshot_id": "s1bs2qiu8y0srg",
+  "tree": {
+   "bounds": {
+    "height": 598.0,
+    "width": 935.0,
+    "x": 1564.0,
+    "y": 422.0
+   },
+   "children": [
+    {
+     "bounds": {
+      "height": 598.0,
+      "width": 935.0,
+      "x": 1564.0,
+      "y": 422.0
+     },
+     "children": [
+      {
+       "bounds": {
+        "height": 582.0,
+        "width": 229.5,
+        "x": 1572.0,
+        "y": 430.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Scroll",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 312.0,
+          "width": 229.5,
+          "x": 1572.0,
+          "y": 474.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "RightClick",
+            "Select",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 422.0,
+            "width": 214.5,
+            "x": 1571.0,
+            "y": 473.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 474.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 474.0
+               },
+               "name": "Google",
+               "ref_id": "@s1bs2qiu8y0srg:e4",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "name": "Google",
+             "ref_id": "@s1bs2qiu8y0srg:e3",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 506.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 506.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 152.0,
+                  "x": 1613.0,
+                  "y": 513.0
+                 },
+                 "name": "Google",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendarlist-title-field:Holidays in India"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e7",
+                 "role": "textfield",
+                 "value": "Holidays in India"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 514.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e8",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "Google",
+               "ref_id": "@s1bs2qiu8y0srg:e6",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s1bs2qiu8y0srg:e5",
+             "role": "treeitem"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 538.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 538.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 152.0,
+                  "x": 1613.0,
+                  "y": 545.0
+                 },
+                 "name": "Google",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendarlist-title-field:justharshitjaiswal14@gmail.com"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e11",
+                 "role": "textfield",
+                 "value": "justharshitjaiswal14@gmail.com"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 546.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e12",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "Google",
+               "ref_id": "@s1bs2qiu8y0srg:e10",
+               "role": "cell",
+               "states": [
+                "focused",
+                "selected"
+               ]
+              }
+             ],
+             "ref_id": "@s1bs2qiu8y0srg:e9",
+             "role": "treeitem",
+             "states": [
+              "selected"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 570.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 570.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 152.0,
+                  "x": 1613.0,
+                  "y": 577.0
+                 },
+                 "name": "Google",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendarlist-title-field:Holidays in India"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e15",
+                 "role": "textfield",
+                 "value": "Holidays in India"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 578.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e16",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "Google",
+               "ref_id": "@s1bs2qiu8y0srg:e14",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s1bs2qiu8y0srg:e13",
+             "role": "treeitem"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 615.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 615.0
+               },
+               "name": "iCloud",
+               "ref_id": "@s1bs2qiu8y0srg:e18",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "name": "iCloud",
+             "ref_id": "@s1bs2qiu8y0srg:e17",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 647.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 647.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 152.0,
+                  "x": 1613.0,
+                  "y": 654.0
+                 },
+                 "name": "iCloud",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendarlist-title-field:Home"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e21",
+                 "role": "textfield",
+                 "value": "Home"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 655.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e22",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "iCloud",
+               "ref_id": "@s1bs2qiu8y0srg:e20",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s1bs2qiu8y0srg:e19",
+             "role": "treeitem"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 679.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 679.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 152.0,
+                  "x": 1613.0,
+                  "y": 686.0
+                 },
+                 "name": "iCloud",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendarlist-title-field:Work"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e25",
+                 "role": "textfield",
+                 "value": "Work"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 687.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e26",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "iCloud",
+               "ref_id": "@s1bs2qiu8y0srg:e24",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s1bs2qiu8y0srg:e23",
+             "role": "treeitem"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 724.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 724.0
+               },
+               "name": "Other",
+               "ref_id": "@s1bs2qiu8y0srg:e28",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "name": "Other",
+             "ref_id": "@s1bs2qiu8y0srg:e27",
+             "role": "treeitem",
+             "states": [
+              "expanded"
+             ]
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 756.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 756.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 764.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e31",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "Scheduled Reminders",
+               "ref_id": "@s1bs2qiu8y0srg:e30",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "name": "Scheduled Reminders",
+             "ref_id": "@s1bs2qiu8y0srg:e29",
+             "role": "treeitem"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 788.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 788.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 796.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e34",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "Birthdays",
+               "ref_id": "@s1bs2qiu8y0srg:e33",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "name": "Birthdays",
+             "ref_id": "@s1bs2qiu8y0srg:e32",
+             "role": "treeitem"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 820.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 820.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetValue",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 18.0,
+                  "width": 132.5,
+                  "x": 1613.0,
+                  "y": 827.0
+                 },
+                 "name": "Subscribed Calendars",
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendarlist-title-field:India Holidays"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e37",
+                 "role": "textfield",
+                 "value": "India Holidays"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 11.0,
+                  "width": 13.5,
+                  "x": 1748.0,
+                  "y": 830.5
+                 },
+                 "name": "shared",
+                 "ref_id": "@s1bs2qiu8y0srg:e38",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 828.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e39",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "Subscribed Calendars",
+               "ref_id": "@s1bs2qiu8y0srg:e36",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "ref_id": "@s1bs2qiu8y0srg:e35",
+             "role": "treeitem"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 32.0,
+              "width": 212.5,
+              "x": 1572.0,
+              "y": 852.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 32.0,
+                "width": 192.5,
+                "x": 1582.0,
+                "y": 852.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "Toggle",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 16.0,
+                  "width": 16.0,
+                  "x": 1589.5,
+                  "y": 860.0
+                 },
+                 "native_id": {
+                  "kind": "ax_identifier",
+                  "value": "calendar-checkbox-button"
+                 },
+                 "ref_id": "@s1bs2qiu8y0srg:e42",
+                 "role": "checkbox",
+                 "states": [
+                  "checked"
+                 ],
+                 "value": "1"
+                }
+               ],
+               "name": "Siri Suggestions",
+               "ref_id": "@s1bs2qiu8y0srg:e41",
+               "role": "cell",
+               "states": [
+                "focused"
+               ]
+              }
+             ],
+             "name": "Siri Suggestions",
+             "ref_id": "@s1bs2qiu8y0srg:e40",
+             "role": "treeitem"
+            }
+           ],
+           "name": "Calendar Sources",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "CalendarsView"
+           },
+           "ref_id": "@s1bs2qiu8y0srg:e2",
+           "role": "outline"
+          },
+          {
+           "available_actions": [
+            "SetValue"
+           ],
+           "bounds": {
+            "height": 314.0,
+            "width": 19.0,
+            "x": 1783.5,
+            "y": 473.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "SetValue"
+             ],
+             "bounds": {
+              "height": 234.5,
+              "width": 11.0,
+              "x": 1787.5,
+              "y": 477.0
+             },
+             "ref_id": "@s1bs2qiu8y0srg:e44",
+             "role": "handle",
+             "value": "0"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 1784.5,
+              "y": 474.0
+             },
+             "ref_id": "@s1bs2qiu8y0srg:e45",
+             "role": "button"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 1784.5,
+              "y": 474.0
+             },
+             "ref_id": "@s1bs2qiu8y0srg:e46",
+             "role": "button"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 71.0,
+              "width": 11.0,
+              "x": 1787.5,
+              "y": 712.0
+             },
+             "ref_id": "@s1bs2qiu8y0srg:e47",
+             "role": "button"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 0.0,
+              "width": 11.0,
+              "x": 1787.5,
+              "y": 477.0
+             },
+             "ref_id": "@s1bs2qiu8y0srg:e48",
+             "role": "button"
+            }
+           ],
+           "ref_id": "@s1bs2qiu8y0srg:e43",
+           "role": "scrollbar",
+           "value": "0"
+          }
+         ],
+         "ref_id": "@s1bs2qiu8y0srg:e1",
+         "role": "scrollarea"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 11.0,
+          "width": 12.0,
+          "x": 1595.0,
+          "y": 816.0
+         },
+         "name": "previous month",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "MiniCalPrevMonthButton"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e49",
+         "role": "button"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 11.0,
+          "width": 12.0,
+          "x": 1769.5,
+          "y": 816.0
+         },
+         "name": "next month",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "MiniCalNextMonthButton"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e50",
+         "role": "button"
+        },
+        {
+         "bounds": {
+          "height": 174.0,
+          "width": 213.5,
+          "x": 1572.0,
+          "y": 841.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 30.0,
+            "x": 1586.0,
+            "y": 865.0
+           },
+           "name": "26, Sunday, July",
+           "ref_id": "@s1bs2qiu8y0srg:e51",
+           "role": "button",
+           "value": "26"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1616.0,
+            "y": 865.0
+           },
+           "name": "27, Monday, July",
+           "ref_id": "@s1bs2qiu8y0srg:e52",
+           "role": "button",
+           "value": "27"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1645.0,
+            "y": 865.0
+           },
+           "name": "28, Tuesday, July",
+           "ref_id": "@s1bs2qiu8y0srg:e53",
+           "role": "button",
+           "value": "28"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1674.0,
+            "y": 865.0
+           },
+           "name": "29, Wednesday, July",
+           "ref_id": "@s1bs2qiu8y0srg:e54",
+           "role": "button",
+           "value": "29"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1703.0,
+            "y": 865.0
+           },
+           "name": "30, Thursday, July",
+           "ref_id": "@s1bs2qiu8y0srg:e55",
+           "role": "button",
+           "value": "30"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1732.0,
+            "y": 865.0
+           },
+           "name": "31, Friday, July",
+           "ref_id": "@s1bs2qiu8y0srg:e56",
+           "role": "button",
+           "value": "31"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1761.0,
+            "y": 865.0
+           },
+           "name": "1, Saturday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e57",
+           "role": "button",
+           "states": [
+            "pressed"
+           ],
+           "value": "1"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 30.0,
+            "x": 1586.0,
+            "y": 889.0
+           },
+           "name": "2, Sunday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e58",
+           "role": "button",
+           "value": "2"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1616.0,
+            "y": 889.0
+           },
+           "name": "3, Monday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e59",
+           "role": "button",
+           "value": "3"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1645.0,
+            "y": 889.0
+           },
+           "name": "4, Tuesday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e60",
+           "role": "button",
+           "value": "4"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1674.0,
+            "y": 889.0
+           },
+           "name": "5, Wednesday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e61",
+           "role": "button",
+           "value": "5"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1703.0,
+            "y": 889.0
+           },
+           "name": "6, Thursday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e62",
+           "role": "button",
+           "value": "6"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1732.0,
+            "y": 889.0
+           },
+           "name": "7, Friday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e63",
+           "role": "button",
+           "value": "7"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1761.0,
+            "y": 889.0
+           },
+           "name": "8, Saturday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e64",
+           "role": "button",
+           "value": "8"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 30.0,
+            "x": 1586.0,
+            "y": 913.0
+           },
+           "name": "9, Sunday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e65",
+           "role": "button",
+           "value": "9"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1616.0,
+            "y": 913.0
+           },
+           "name": "10, Monday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e66",
+           "role": "button",
+           "value": "10"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1645.0,
+            "y": 913.0
+           },
+           "name": "11, Tuesday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e67",
+           "role": "button",
+           "value": "11"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1674.0,
+            "y": 913.0
+           },
+           "name": "12, Wednesday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e68",
+           "role": "button",
+           "value": "12"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1703.0,
+            "y": 913.0
+           },
+           "name": "13, Thursday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e69",
+           "role": "button",
+           "value": "13"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1732.0,
+            "y": 913.0
+           },
+           "name": "14, Friday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e70",
+           "role": "button",
+           "value": "14"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1761.0,
+            "y": 913.0
+           },
+           "name": "15, Saturday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e71",
+           "role": "button",
+           "value": "15"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 30.0,
+            "x": 1586.0,
+            "y": 937.0
+           },
+           "name": "16, Sunday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e72",
+           "role": "button",
+           "value": "16"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1616.0,
+            "y": 937.0
+           },
+           "name": "17, Monday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e73",
+           "role": "button",
+           "value": "17"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1645.0,
+            "y": 937.0
+           },
+           "name": "18, Tuesday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e74",
+           "role": "button",
+           "value": "18"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1674.0,
+            "y": 937.0
+           },
+           "name": "19, Wednesday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e75",
+           "role": "button",
+           "value": "19"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1703.0,
+            "y": 937.0
+           },
+           "name": "20, Thursday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e76",
+           "role": "button",
+           "value": "20"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1732.0,
+            "y": 937.0
+           },
+           "name": "21, Friday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e77",
+           "role": "button",
+           "value": "21"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 24.0,
+            "width": 29.0,
+            "x": 1761.0,
+            "y": 937.0
+           },
+           "name": "22, Saturday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e78",
+           "role": "button",
+           "value": "22"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 30.0,
+            "x": 1586.0,
+            "y": 961.0
+           },
+           "name": "23, Sunday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e79",
+           "role": "button",
+           "value": "23"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1616.0,
+            "y": 961.0
+           },
+           "name": "24, Monday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e80",
+           "role": "button",
+           "value": "24"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1645.0,
+            "y": 961.0
+           },
+           "name": "25, Tuesday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e81",
+           "role": "button",
+           "value": "25"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1674.0,
+            "y": 961.0
+           },
+           "name": "26, Wednesday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e82",
+           "role": "button",
+           "value": "26"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1703.0,
+            "y": 961.0
+           },
+           "name": "27, Thursday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e83",
+           "role": "button",
+           "value": "27"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1732.0,
+            "y": 961.0
+           },
+           "name": "28, Friday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e84",
+           "role": "button",
+           "value": "28"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1761.0,
+            "y": 961.0
+           },
+           "name": "29, Saturday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e85",
+           "role": "button",
+           "value": "29"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 30.0,
+            "x": 1586.0,
+            "y": 984.0
+           },
+           "name": "today, 30, Sunday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e86",
+           "role": "button",
+           "value": "30"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1616.0,
+            "y": 984.0
+           },
+           "name": "31, Monday, August",
+           "ref_id": "@s1bs2qiu8y0srg:e87",
+           "role": "button",
+           "value": "31"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1645.0,
+            "y": 984.0
+           },
+           "name": "1, Tuesday, September",
+           "ref_id": "@s1bs2qiu8y0srg:e88",
+           "role": "button",
+           "states": [
+            "pressed"
+           ],
+           "value": "1"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1674.0,
+            "y": 984.0
+           },
+           "name": "2, Wednesday, September",
+           "ref_id": "@s1bs2qiu8y0srg:e89",
+           "role": "button",
+           "value": "2"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1703.0,
+            "y": 984.0
+           },
+           "name": "3, Thursday, September",
+           "ref_id": "@s1bs2qiu8y0srg:e90",
+           "role": "button",
+           "value": "3"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1732.0,
+            "y": 984.0
+           },
+           "name": "4, Friday, September",
+           "ref_id": "@s1bs2qiu8y0srg:e91",
+           "role": "button",
+           "value": "4"
+          },
+          {
+           "available_actions": [
+            "Click"
+           ],
+           "bounds": {
+            "height": 23.0,
+            "width": 29.0,
+            "x": 1761.0,
+            "y": 984.0
+           },
+           "name": "5, Saturday, September",
+           "ref_id": "@s1bs2qiu8y0srg:e92",
+           "role": "button",
+           "value": "5"
+          }
+         ],
+         "name": "August",
+         "role": "grid"
+        }
+       ],
+       "role": "group"
+      },
+      {
+       "bounds": {
+        "height": 598.0,
+        "width": 935.0,
+        "x": 1564.0,
+        "y": 422.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 726.0,
+          "width": 250.0,
+          "x": 1861.5,
+          "y": 354.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "RightClick"
+           ],
+           "bounds": {
+            "height": 22.0,
+            "width": 250.5,
+            "x": 1860.5,
+            "y": 565.0
+           },
+           "name": "Onam. 26 August 2026, All-Day",
+           "ref_id": "@s1bs2qiu8y0srg:e94",
+           "role": "statictext"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "RightClick"
+           ],
+           "bounds": {
+            "height": 22.0,
+            "width": 250.5,
+            "x": 1860.5,
+            "y": 587.0
+           },
+           "name": "Onam. 26 August 2026, All-Day",
+           "ref_id": "@s1bs2qiu8y0srg:e95",
+           "role": "statictext"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "RightClick"
+           ],
+           "bounds": {
+            "height": 22.0,
+            "width": 250.5,
+            "x": 1860.5,
+            "y": 609.0
+           },
+           "name": "Onam. 26 August 2026, All-Day",
+           "ref_id": "@s1bs2qiu8y0srg:e96",
+           "role": "statictext"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "RightClick"
+           ],
+           "bounds": {
+            "height": 22.0,
+            "width": 250.5,
+            "x": 1860.5,
+            "y": 631.0
+           },
+           "name": "Milad un-Nabi. 26 August 2026, All-Day",
+           "ref_id": "@s1bs2qiu8y0srg:e97",
+           "role": "statictext"
+          }
+         ],
+         "name": "Wednesday, 26 August",
+         "ref_id": "@s1bs2qiu8y0srg:e93",
+         "role": "list",
+         "states": [
+          "focused"
+         ]
+        },
+        {
+         "bounds": {
+          "height": 128.0,
+          "width": 196.0,
+          "x": 2118.0,
+          "y": 491.0
+         },
+         "children": [
+          {
+           "bounds": {
+            "height": 128.0,
+            "width": 196.0,
+            "x": 1571.0,
+            "y": 491.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 19.0,
+              "width": 28.0,
+              "x": 2118.0,
+              "y": 508.0
+             },
+             "name": "26, Sunday, July",
+             "ref_id": "@s1bs2qiu8y0srg:e98",
+             "role": "button",
+             "value": "26"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 19.0,
+              "width": 28.0,
+              "x": 2146.0,
+              "y": 508.0
+             },
+             "name": "27, Monday, July",
+             "ref_id": "@s1bs2qiu8y0srg:e99",
+             "role": "button",
+             "value": "27"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 19.0,
+              "width": 28.0,
+              "x": 2174.0,
+              "y": 508.0
+             },
+             "name": "28, Tuesday, July",
+             "ref_id": "@s1bs2qiu8y0srg:e100",
+             "role": "button",
+             "value": "28"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 19.0,
+              "width": 28.0,
+              "x": 2202.0,
+              "y": 508.0
+             },
+             "name": "29, Wednesday, July",
+             "ref_id": "@s1bs2qiu8y0srg:e101",
+             "role": "button",
+             "value": "29"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 19.0,
+              "width": 28.0,
+              "x": 2230.0,
+              "y": 508.0
+             },
+             "name": "30, Thursday, July",
+             "ref_id": "@s1bs2qiu8y0srg:e102",
+             "role": "button",
+             "value": "30"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 19.0,
+              "width": 28.0,
+              "x": 2258.0,
+              "y": 508.0
+             },
+             "name": "31, Friday, July",
+             "ref_id": "@s1bs2qiu8y0srg:e103",
+             "role": "button",
+             "value": "31"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 19.0,
+              "width": 28.0,
+              "x": 2286.0,
+              "y": 508.0
+             },
+             "name": "1, Saturday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e104",
+             "role": "button",
+             "states": [
+              "pressed"
+             ],
+             "value": "1"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2118.0,
+              "y": 527.0
+             },
+             "name": "2, Sunday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e105",
+             "role": "button",
+             "value": "2"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2146.0,
+              "y": 527.0
+             },
+             "name": "3, Monday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e106",
+             "role": "button",
+             "value": "3"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2174.0,
+              "y": 527.0
+             },
+             "name": "4, Tuesday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e107",
+             "role": "button",
+             "value": "4"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2202.0,
+              "y": 527.0
+             },
+             "name": "5, Wednesday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e108",
+             "role": "button",
+             "value": "5"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2230.0,
+              "y": 527.0
+             },
+             "name": "6, Thursday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e109",
+             "role": "button",
+             "value": "6"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2258.0,
+              "y": 527.0
+             },
+             "name": "7, Friday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e110",
+             "role": "button",
+             "value": "7"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2286.0,
+              "y": 527.0
+             },
+             "name": "8, Saturday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e111",
+             "role": "button",
+             "value": "8"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2118.0,
+              "y": 545.0
+             },
+             "name": "9, Sunday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e112",
+             "role": "button",
+             "value": "9"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2146.0,
+              "y": 545.0
+             },
+             "name": "10, Monday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e113",
+             "role": "button",
+             "value": "10"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2174.0,
+              "y": 545.0
+             },
+             "name": "11, Tuesday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e114",
+             "role": "button",
+             "value": "11"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2202.0,
+              "y": 545.0
+             },
+             "name": "12, Wednesday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e115",
+             "role": "button",
+             "value": "12"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2230.0,
+              "y": 545.0
+             },
+             "name": "13, Thursday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e116",
+             "role": "button",
+             "value": "13"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2258.0,
+              "y": 545.0
+             },
+             "name": "14, Friday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e117",
+             "role": "button",
+             "value": "14"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2286.0,
+              "y": 545.0
+             },
+             "name": "15, Saturday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e118",
+             "role": "button",
+             "value": "15"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2118.0,
+              "y": 563.0
+             },
+             "name": "16, Sunday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e119",
+             "role": "button",
+             "value": "16"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2146.0,
+              "y": 563.0
+             },
+             "name": "17, Monday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e120",
+             "role": "button",
+             "value": "17"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2174.0,
+              "y": 563.0
+             },
+             "name": "18, Tuesday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e121",
+             "role": "button",
+             "value": "18"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2202.0,
+              "y": 563.0
+             },
+             "name": "19, Wednesday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e122",
+             "role": "button",
+             "value": "19"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2230.0,
+              "y": 563.0
+             },
+             "name": "20, Thursday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e123",
+             "role": "button",
+             "value": "20"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2258.0,
+              "y": 563.0
+             },
+             "name": "21, Friday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e124",
+             "role": "button",
+             "value": "21"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2286.0,
+              "y": 563.0
+             },
+             "name": "22, Saturday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e125",
+             "role": "button",
+             "value": "22"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2118.0,
+              "y": 581.0
+             },
+             "name": "23, Sunday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e126",
+             "role": "button",
+             "value": "23"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2146.0,
+              "y": 581.0
+             },
+             "name": "24, Monday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e127",
+             "role": "button",
+             "value": "24"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2174.0,
+              "y": 581.0
+             },
+             "name": "25, Tuesday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e128",
+             "role": "button",
+             "value": "25"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2202.0,
+              "y": 581.0
+             },
+             "name": "26, Wednesday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e129",
+             "role": "button",
+             "states": [
+              "selected"
+             ],
+             "value": "26"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2230.0,
+              "y": 581.0
+             },
+             "name": "27, Thursday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e130",
+             "role": "button",
+             "value": "27"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2258.0,
+              "y": 581.0
+             },
+             "name": "28, Friday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e131",
+             "role": "button",
+             "value": "28"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2286.0,
+              "y": 581.0
+             },
+             "name": "29, Saturday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e132",
+             "role": "button",
+             "value": "29"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2118.0,
+              "y": 599.0
+             },
+             "name": "today, 30, Sunday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e133",
+             "role": "button",
+             "value": "30"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2146.0,
+              "y": 599.0
+             },
+             "name": "31, Monday, August",
+             "ref_id": "@s1bs2qiu8y0srg:e134",
+             "role": "button",
+             "value": "31"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2174.0,
+              "y": 599.0
+             },
+             "name": "1, Tuesday, September",
+             "ref_id": "@s1bs2qiu8y0srg:e135",
+             "role": "button",
+             "states": [
+              "pressed"
+             ],
+             "value": "1"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2202.0,
+              "y": 599.0
+             },
+             "name": "2, Wednesday, September",
+             "ref_id": "@s1bs2qiu8y0srg:e136",
+             "role": "button",
+             "value": "2"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2230.0,
+              "y": 599.0
+             },
+             "name": "3, Thursday, September",
+             "ref_id": "@s1bs2qiu8y0srg:e137",
+             "role": "button",
+             "value": "3"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2258.0,
+              "y": 599.0
+             },
+             "name": "4, Friday, September",
+             "ref_id": "@s1bs2qiu8y0srg:e138",
+             "role": "button",
+             "value": "4"
+            },
+            {
+             "available_actions": [
+              "Click"
+             ],
+             "bounds": {
+              "height": 18.0,
+              "width": 28.0,
+              "x": 2286.0,
+              "y": 599.0
+             },
+             "name": "5, Saturday, September",
+             "ref_id": "@s1bs2qiu8y0srg:e139",
+             "role": "button",
+             "value": "5"
+            }
+           ],
+           "name": "August",
+           "role": "grid"
+          }
+         ],
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "sidebar-mini-month"
+         },
+         "role": "unknown"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "RightClick"
+         ],
+         "bounds": {
+          "height": 22.0,
+          "width": 199.5,
+          "x": 2130.0,
+          "y": 663.5
+         },
+         "name": "Milad un-Nabi",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "title-field"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e140",
+         "role": "statictext",
+         "value": "Milad un-Nabi"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus",
+          "Expand",
+          "Collapse"
+         ],
+         "bounds": {
+          "height": 22.0,
+          "width": 146.5,
+          "x": 2331.5,
+          "y": 662.0
+         },
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "calendar-button"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e141",
+         "role": "combobox",
+         "states": [
+          "readonly"
+         ],
+         "value": "Holidays in India"
+        },
+        {
+         "available_actions": [
+          "Click"
+         ],
+         "bounds": {
+          "height": 18.0,
+          "width": 350.0,
+          "x": 2130.0,
+          "y": 715.5
+         },
+         "name": "Wednesday, 26 August 2026  ",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "date-time-button"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e142",
+         "role": "button",
+         "value": "Wednesday, 26 August 2026"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "RightClick"
+         ],
+         "bounds": {
+          "height": 18.0,
+          "width": 340.0,
+          "x": 2130.0,
+          "y": 761.5
+         },
+         "name": "Public holiday",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "notes-field"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e143",
+         "role": "statictext",
+         "value": "Public holiday"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 27.0,
+          "width": 27.0,
+          "x": 2361.0,
+          "y": 489.0
+         },
+         "name": "previous day",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "previous day"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e144",
+         "role": "button"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 27.0,
+          "width": 68.0,
+          "x": 2390.0,
+          "y": 489.0
+         },
+         "name": "Today",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "today-button"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e145",
+         "role": "button"
+        },
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 27.0,
+          "width": 27.0,
+          "x": 2460.0,
+          "y": 489.0
+         },
+         "name": "next day",
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "next day"
+         },
+         "ref_id": "@s1bs2qiu8y0srg:e146",
+         "role": "button"
+        }
+       ],
+       "name": "Day Calendar Area",
+       "native_id": {
+        "kind": "ax_identifier",
+        "value": "active-view"
+       },
+       "role": "group",
+       "value": "26 August 2026"
+      }
+     ],
+     "role": "group"
+    },
+    {
+     "available_actions": [
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 52.0,
+      "width": 935.0,
+      "x": 1564.0,
+      "y": 422.0
+     },
+     "children": [
+      {
+       "bounds": {
+        "height": 52.0,
+        "width": 74.0,
+        "x": 1727.5,
+        "y": 422.0
+       },
+       "children": [
+        {
+         "bounds": {
+          "height": 30.0,
+          "width": 67.5,
+          "x": 1731.0,
+          "y": 433.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "Toggle",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 28.0,
+            "width": 31.0,
+            "x": 1732.0,
+            "y": 434.0
+           },
+           "name": "Calendar",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "calendars-button"
+           },
+           "ref_id": "@s1bs2qiu8y0srg:e148",
+           "role": "radiobutton",
+           "states": [
+            "checked"
+           ],
+           "value": "1"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "Toggle",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 28.0,
+            "width": 33.5,
+            "x": 1764.0,
+            "y": 434.0
+           },
+           "name": "Inbox",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "inbox-button"
+           },
+           "ref_id": "@s1bs2qiu8y0srg:e149",
+           "role": "radiobutton",
+           "value": "0"
+          }
+         ],
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "CalendarsControl"
+         },
+         "role": "radiogroup"
+        }
+       ],
+       "role": "group"
+      },
+      {
+       "available_actions": [
+        "Click",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 52.0,
+        "width": 44.0,
+        "x": 1805.5,
+        "y": 422.0
+       },
+       "name": "Add Event",
+       "ref_id": "@s1bs2qiu8y0srg:e150",
+       "role": "button"
+      },
+      {
+       "bounds": {
+        "height": 52.0,
+        "width": 251.0,
+        "x": 2025.5,
+        "y": 422.0
+       },
+       "children": [
+        {
+         "bounds": {
+          "height": 38.0,
+          "width": 245.0,
+          "x": 2028.5,
+          "y": 429.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "Click",
+            "Toggle",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 36.0,
+            "width": 60.0,
+            "x": 2029.5,
+            "y": 430.0
+           },
+           "name": "Day",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "day-button"
+           },
+           "ref_id": "@s1bs2qiu8y0srg:e151",
+           "role": "radiobutton",
+           "states": [
+            "checked"
+           ],
+           "value": "1"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "Toggle",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 36.0,
+            "width": 60.0,
+            "x": 2090.5,
+            "y": 430.0
+           },
+           "name": "Week",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "week-button"
+           },
+           "ref_id": "@s1bs2qiu8y0srg:e152",
+           "role": "radiobutton",
+           "value": "0"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "Toggle",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 36.0,
+            "width": 60.0,
+            "x": 2151.5,
+            "y": 430.0
+           },
+           "name": "Month",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "month-button"
+           },
+           "ref_id": "@s1bs2qiu8y0srg:e153",
+           "role": "radiobutton",
+           "value": "0"
+          },
+          {
+           "available_actions": [
+            "Click",
+            "Toggle",
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 36.0,
+            "width": 60.0,
+            "x": 2212.5,
+            "y": 430.0
+           },
+           "name": "Year",
+           "native_id": {
+            "kind": "ax_identifier",
+            "value": "year-button"
+           },
+           "ref_id": "@s1bs2qiu8y0srg:e154",
+           "role": "radiobutton",
+           "value": "0"
+          }
+         ],
+         "native_id": {
+          "kind": "ax_identifier",
+          "value": "views-switcher"
+         },
+         "role": "radiogroup"
+        }
+       ],
+       "role": "group"
+      },
+      {
+       "bounds": {
+        "height": 52.0,
+        "width": 45.0,
+        "x": 2450.0,
+        "y": 422.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "Click",
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 38.0,
+          "width": 38.5,
+          "x": 2453.5,
+          "y": 429.0
+         },
+         "name": "Search",
+         "ref_id": "@s1bs2qiu8y0srg:e155",
+         "role": "textfield"
+        }
+       ],
+       "role": "group"
+      }
+     ],
+     "ref_id": "@s1bs2qiu8y0srg:e147",
+     "role": "toolbar"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 1582.0,
+      "y": 440.0
+     },
+     "ref_id": "@s1bs2qiu8y0srg:e156",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 1628.0,
+      "y": 440.0
+     },
+     "ref_id": "@s1bs2qiu8y0srg:e157",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 1605.0,
+      "y": 440.0
+     },
+     "ref_id": "@s1bs2qiu8y0srg:e158",
+     "role": "button"
+    }
+   ],
+   "name": "Calendar",
+   "native_id": {
+    "kind": "ax_identifier",
+    "value": "CALMainWindow"
+   },
+   "role": "window"
+  },
+  "window": {
+   "id": "w-28471",
+   "title": "Calendar"
+  }
+ }
+}

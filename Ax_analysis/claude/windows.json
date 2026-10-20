@@ -1,0 +1,138 @@
+[
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28308",
+    "is_focused": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": false
+  },
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28307",
+    "is_focused": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": false
+  },
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28306",
+    "is_focused": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": false
+  },
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28305",
+    "is_focused": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": false
+  },
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28301",
+    "is_focused": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": false
+  },
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 600.0,
+      "width": 600.0,
+      "x": 388.0,
+      "y": 158.0
+    },
+    "id": "w-28298",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": true
+  },
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28304",
+    "is_focused": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": false
+  },
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28303",
+    "is_focused": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": false
+  },
+  {
+    "app_name": "Claude",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28302",
+    "is_focused": false,
+    "pid": 26936,
+    "process_instance": "macos-proc-v1:1788103841:423025",
+    "title": "Claude",
+    "visible": false
+  }
+]

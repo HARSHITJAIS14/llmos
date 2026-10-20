@@ -1,0 +1,89 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Calendar",
+    "complete": true,
+    "ref_count": 3,
+    "snapshot_id": "s256ve9m6zjuk4",
+    "tree": {
+      "bounds": {
+        "height": 195.0,
+        "width": 282.0,
+        "x": 1355.0,
+        "y": 193.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "Click",
+            "RightClick",
+            "SetValue",
+            "SetFocus",
+            "TypeText"
+          ],
+          "bounds": {
+            "height": 24.0,
+            "width": 226.0,
+            "x": 1383.0,
+            "y": 331.0
+          },
+          "name": "New Quick Event",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "QuickEventCell"
+          },
+          "ref_id": "@s256ve9m6zjuk4:e1",
+          "role": "textfield",
+          "states": [
+            "focused"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 40.0,
+            "width": 32.0,
+            "x": 1422.5,
+            "y": 223.0
+          },
+          "name": "New Event",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "QuickEventNewEventButton"
+          },
+          "ref_id": "@s256ve9m6zjuk4:e2",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 40.0,
+            "width": 33.5,
+            "x": 1537.0,
+            "y": 223.0
+          },
+          "name": "New Reminder",
+          "native_id": {
+            "kind": "ax_identifier",
+            "value": "QuickEventNewReminderButton"
+          },
+          "ref_id": "@s256ve9m6zjuk4:e3",
+          "role": "button"
+        }
+      ],
+      "role": "popover"
+    },
+    "window": {
+      "id": "w-79843",
+      "title": "Calendar"
+    }
+  }
+}

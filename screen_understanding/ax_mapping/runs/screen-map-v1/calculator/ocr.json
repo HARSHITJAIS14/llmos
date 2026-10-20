@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "source": "Apple Vision OCR fast",
+  "image_sha256": "6c1bdd5850d3b505410106779e200d321a4910dd98ab8fb4401bb4feae3ba8c1",
+  "status": "empty_or_failed",
+  "image_size": [
+    460,
+    816
+  ],
+  "items": [],
+  "processing_ms": 40.62712506856769,
+  "warning": "OCR can miss or misread visible text; it does not prove clickability."
+}

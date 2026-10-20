@@ -1,0 +1,572 @@
+{
+  "schema_version": "1.0",
+  "app_key": "notion",
+  "identity": {
+    "name": "Notion",
+    "bundle_id": "notion.id",
+    "bundle_id_match": "exact",
+    "framework": "electron",
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "Electron Framework.framework, Squirrel.framework, 4 Helper apps (GPU/Renderer/Plugin)"
+      },
+      {
+        "source": "bundle_hint",
+        "observation": "hints: electron"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 7 nodes, root_kids 4, max depth 3"
+      },
+      {
+        "source": "webarea_path",
+        "observation": "window > group x7 (all unnamed) > webarea at depth 8, 2 webareas"
+      },
+      {
+        "source": "noise_ratio",
+        "observation": "noise 0.539 in forced (1004 nodes), 0.632 in default; above 0.45 Electron band"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "forced max depth 30; interactive median depth 23, max 27"
+      }
+    ]
+  },
+  "category": "productivity",
+  "fidelity": {
+    "default": {
+      "nodes": 19,
+      "max_depth": 10,
+      "max_depth_requested": 10,
+      "frontier_nodes": 3,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 4,
+      "ref_count": 10,
+      "has_webarea": true,
+      "offscreen_nodes": 0,
+      "skeleton_nodes": 7,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 1004,
+      "max_depth": 30,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 373,
+      "ref_count": 995,
+      "has_webarea": true,
+      "offscreen_nodes": 454,
+      "skeleton_nodes": null,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 52.84,
+    "default_score": 0.019,
+    "forced_score": 1.0,
+    "best_capture": "forced",
+    "ladder_verdict": "recapture_deeper"
+  },
+  "readiness": {
+    "default_rung": "R4_depth_frontier",
+    "husk": {
+      "default_is_husk": true,
+      "signals": [
+        "depth_frontier"
+      ],
+      "chromium_shell_skeleton": true,
+      "cause": "depth_cap"
+    },
+    "capture_plan": {
+      "max_depth": 40,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "depth-10 tree is an exact prefix of depth-40 (19/19 paths); 985 new nodes under 3 frontier nodes. Depth, not focus"
+    },
+    "handshake": {
+      "status": "unproven",
+      "note": "default capture has a webarea and hits depth 10, so the tool gate never fired; depth explains the data"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "value_prefix",
+      "ancestor_path"
+    ],
+    "search_root": "webarea",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 0,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 18.9,
+      "kinds": [
+        "ax_dom_identifier"
+      ],
+      "reject_patterns": [
+        "^:r[0-9a-z]+:$"
+      ]
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 65.4,
+      "with_bounds_unique_pct": 88.8,
+      "nth_required_roles": [
+        "button",
+        "combobox",
+        "link",
+        "treeitem"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_dom_identifier",
+      "value": "root",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "renderer root container",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "notion-app",
+      "match": "exact",
+      "tier": "high",
+      "role": "group",
+      "purpose": "app root container",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "main",
+      "match": "exact",
+      "tier": "high",
+      "role": "main",
+      "purpose": "page content region",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "skip-to-content",
+      "match": "exact",
+      "tier": "high",
+      "role": "link",
+      "purpose": "skip to content link",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "sidebar-tab-home",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "sidebar home tab",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "sidebar-tab-chats",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "sidebar chats tab",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "sidebar-tab-meetings",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "sidebar meetings tab",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "sidebar-tab-inbox",
+      "match": "exact",
+      "tier": "high",
+      "role": "radiobutton",
+      "purpose": "sidebar inbox tab",
+      "seen_in_captures": 1
+    },
+    {
+      "kind": "ax_dom_identifier",
+      "value": "sidebar-tabpanel-home",
+      "match": "exact",
+      "tier": "high",
+      "role": "tabpanel",
+      "purpose": "sidebar home tab panel",
+      "seen_in_captures": 1
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": true,
+    "disabled_keeps_click": true,
+    "text_entry": "type_text",
+    "editable_textfield_test": "typetext_present",
+    "offscreen_recovery": "scroll_to",
+    "menubutton_has_expand": null,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 94,
+        "verb": "Click",
+        "note": "2 disabled buttons keep Click"
+      },
+      {
+        "role": "link",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 35,
+        "verb": "Click"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus",
+          "SetValue",
+          "TypeText"
+        ],
+        "count": 34,
+        "verb": "TypeText",
+        "note": "34/34 TypeText, only 1/34 SetFocus"
+      },
+      {
+        "role": "combobox",
+        "actions": [
+          "Click",
+          "Collapse",
+          "Expand",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 33,
+        "verb": "Click",
+        "note": "33/33 readonly: click, never type"
+      },
+      {
+        "role": "radiobutton",
+        "actions": [
+          "Click",
+          "RightClick",
+          "ScrollTo",
+          "SetFocus",
+          "SetValue",
+          "Toggle"
+        ],
+        "count": 14,
+        "verb": "Toggle",
+        "note": "value '0'/'1'"
+      },
+      {
+        "role": "outline",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "Select"
+        ],
+        "count": 4,
+        "verb": "Select"
+      },
+      {
+        "role": "treeitem",
+        "actions": [
+          "RightClick",
+          "ScrollTo",
+          "SetFocus"
+        ],
+        "count": 25,
+        "verb": "SetFocus",
+        "note": "no Click; act on the named child link/button"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "statictext",
+        "match": "role==statictext under webarea",
+        "read_from": "name_or_value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-2"
+        ]
+      },
+      {
+        "target": "document_body",
+        "match": "role==textfield and no name and ancestor.role==main",
+        "read_from": "value",
+        "parse": "split_lines",
+        "laws": [
+          "LAW-TXT-12"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==textfield and 'TypeText' in actions",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role==radiobutton and 'Toggle' in actions",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10",
+          "LAW-ACT-2"
+        ]
+      },
+      {
+        "target": "placeholder",
+        "match": "role==textfield and 'value' not in node",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-7"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "view_change_overlap",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": true,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch",
+      "any_action"
+    ],
+    "zero_area_nodes": 459,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "depth_capped_husk",
+      "detect": "has webarea and any node children_count > len(children), or max depth == --max-depth",
+      "workaround": "recapture same window at --max-depth 40; no activation, no wait",
+      "severity": "blocker",
+      "observed": "default 19 nodes, 3 frontier nodes (children_count 6/4/1), depth 10; depth-40 gives 1004 nodes (52.8x)",
+      "laws": [
+        "LAW-STR-6",
+        "LAW-LIFE-1",
+        "LAW-LIFE-2",
+        "LAW-LIFE-3"
+      ]
+    },
+    {
+      "kind": "volatile_dom_ids",
+      "detect": "ax_dom_identifier matches ^:r[0-9a-z]+:$",
+      "workaround": "never persist these ids; resolve by role+name+nth instead",
+      "severity": "high",
+      "observed": "82 of 91 dom ids are React useId values",
+      "laws": [
+        "LAW-ID-3"
+      ]
+    },
+    {
+      "kind": "zero_area_clones",
+      "detect": "bounds width==0 or height==0",
+      "workaround": "drop zero-area nodes before resolution; never click them",
+      "severity": "high",
+      "observed": "459 of 1004 nodes zero-area, 92 of them interactive",
+      "laws": [
+        "LAW-ID-7"
+      ]
+    },
+    {
+      "kind": "non_unique_role_name",
+      "detect": "(role,name) unique share < 70%",
+      "workaround": "use nth index plus bounds check; multi-match is an error",
+      "severity": "high",
+      "observed": "117/179 named interactives unique (65.4%); 88.8% with bounds, 100% after dropping zero-area",
+      "laws": [
+        "LAW-ID-6"
+      ]
+    },
+    {
+      "kind": "readonly_control_as_button",
+      "detect": "role==combobox and 'readonly' in states",
+      "workaround": "Click/Expand it to open its menu; never type into it",
+      "severity": "low",
+      "observed": "33/33 comboboxes readonly",
+      "laws": [
+        "LAW-TXT-11"
+      ]
+    },
+    {
+      "kind": "document_as_single_value",
+      "detect": "unnamed textfield under main with a long value",
+      "workaround": "read value and split lines; type at a known caret, avoid SetValue on the whole page",
+      "severity": "high",
+      "observed": "1 unnamed textfield holds 2311 chars of page body",
+      "laws": [
+        "LAW-TXT-12"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs from cached id",
+      "workaround": "re-pick the window every session",
+      "severity": "low",
+      "observed": "w-28279 default, w-28612 forced",
+      "laws": [
+        "LAW-LIFE-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "default depth-10 snapshot to classify only",
+      "tested": true
+    },
+    {
+      "channel": "ax_deep",
+      "when": "frontier nodes present or depth==cap; recapture --max-depth 40",
+      "tested": true
+    },
+    {
+      "channel": "ax_scoped",
+      "when": "error INTERNAL containing 'RefMap' (forced output was 1,074,609 bytes with 995 refs, near the 1MB limit)",
+      "tested": false
+    },
+    {
+      "channel": "cdp",
+      "when": "need DOM-level reads or hover-only affordances",
+      "precondition": "app launched with --remote-debugging-port",
+      "tested": false
+    },
+    {
+      "channel": "app_api",
+      "when": "bulk page reads or writes",
+      "precondition": "Notion integration token",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "navigation by quick find (Cmd+P) faster than tree search",
+      "precondition": "window activated",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "drag handles and hover-revealed block controls",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T21:03:58+05:30",
+      "2026-08-30T21:15:41+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "main",
+    "sources": [
+      "notion/meta.json",
+      "notion/windows.json",
+      "notion/skeleton.json",
+      "notion/full.json",
+      "notion/forced.json",
+      "notion/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

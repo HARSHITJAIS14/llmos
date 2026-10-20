@@ -1,0 +1,64 @@
+{
+  "app": "\u200eWhatsApp",
+  "was_running": false,
+  "captures": {
+    "windows": 1,
+    "skeleton": {
+      "ok": true,
+      "bytes": 1536,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 13214,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "activated",
+  "pid": 26627,
+  "bundle_id": "net.whatsapp.WhatsApp",
+  "framework_signals": {
+    "exe": "/Applications/WhatsApp.app/Contents/MacOS/WhatsApp",
+    "bundle": "/Applications/WhatsApp.app",
+    "frameworks": [
+      "SharedModules.framework",
+      "WAAppKitBridge.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "\u200eWhatsApp",
+    "bounds": {
+      "height": 96.0,
+      "width": 130.0,
+      "x": -146.0,
+      "y": 627.0
+    },
+    "id": "w-28243",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26627,
+    "process_instance": "macos-proc-v1:1788103832:942680",
+    "title": "\u200eWhatsApp",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "note": "",
+    "nodes_before_drill": 48,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 48,
+    "bytes": 24284
+  }
+}

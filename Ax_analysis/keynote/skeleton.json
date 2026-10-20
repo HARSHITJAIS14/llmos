@@ -1,0 +1,92 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Keynote",
+    "complete": true,
+    "ref_count": 7,
+    "snapshot_id": "s3edh0tscxqm52",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Scroll"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "ref_id": "@s3edh0tscxqm52:e2",
+                  "role": "link",
+                  "value": "*Apple Intelligence features require a supported device, language and region. Learn more\u2026"
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "name": "Complete feature list",
+                  "ref_id": "@s3edh0tscxqm52:e3",
+                  "role": "link"
+                }
+              ],
+              "ref_id": "@s3edh0tscxqm52:e1",
+              "role": "scrollarea"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "SetFocus"
+          ],
+          "name": "Continue",
+          "ref_id": "@s3edh0tscxqm52:e4",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s3edh0tscxqm52:e5",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s3edh0tscxqm52:e6",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s3edh0tscxqm52:e7",
+          "role": "button"
+        }
+      ],
+      "name": "What\u2019s New in Keynote",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "_NS:32"
+      },
+      "role": "window",
+      "states": [
+        "focused"
+      ]
+    },
+    "window": {
+      "id": "w-28256",
+      "title": "What\u2019s New in Keynote"
+    }
+  }
+}

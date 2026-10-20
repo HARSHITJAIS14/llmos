@@ -1,0 +1,102 @@
+{
+  "app": "UTM",
+  "was_running": false,
+  "captures": {
+    "windows": 1,
+    "skeleton": {
+      "ok": true,
+      "bytes": 1347,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 6305,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 155,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 25783,
+  "bundle_id": "com.utmapp.UTM",
+  "framework_signals": {
+    "exe": "/Applications/UTM.app/Contents/MacOS/UTM",
+    "bundle": "/Applications/UTM.app",
+    "frameworks": [
+      "EGL.framework",
+      "GLESv2.framework",
+      "crypto.1.1.framework",
+      "epoxy.0.framework",
+      "ffi.8.framework",
+      "gcrypt.20.framework",
+      "gio-2.0.0.framework",
+      "glib-2.0.0.framework",
+      "gmodule-2.0.0.framework",
+      "gobject-2.0.0.framework",
+      "gpg-error.0.framework",
+      "gstallocators-1.0.0.framework",
+      "gstapp-1.0.0.framework",
+      "gstaudio-1.0.0.framework",
+      "gstbase-1.0.0.framework",
+      "gstcheck-1.0.0.framework",
+      "gstcontroller-1.0.0.framework",
+      "gstfft-1.0.0.framework",
+      "gstnet-1.0.0.framework",
+      "gstpbutils-1.0.0.framework",
+      "gstreamer-1.0.0.framework",
+      "gstriff-1.0.0.framework",
+      "gstrtp-1.0.0.framework",
+      "gstrtsp-1.0.0.framework",
+      "gstsdp-1.0.0.framework",
+      "gsttag-1.0.0.framework",
+      "gstvideo-1.0.0.framework",
+      "gthread-2.0.0.framework",
+      "iconv.2.framework",
+      "intl.8.framework",
+      "jpeg.62.framework",
+      "json-glib-1.0.0.framework",
+      "libswift_Concurrency.dylib",
+      "opus.0.framework",
+      "phodav-3.0.0.framework",
+      "pixman-1.0.framework",
+      "png16.16.framework",
+      "qemu-aarch64-softmmu.framework",
+      "qemu-alpha-softmmu.framework",
+      "qemu-arm-softmmu.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "UTM",
+    "bounds": {
+      "height": 1410.0,
+      "width": 1393.0,
+      "x": 1167.0,
+      "y": 30.0
+    },
+    "id": "w-28085",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25783,
+    "process_instance": "macos-proc-v1:1788103714:1702",
+    "title": "UTM",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "note": "",
+    "nodes_before_drill": 31,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 31,
+    "bytes": 12350
+  }
+}

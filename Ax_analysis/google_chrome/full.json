@@ -1,0 +1,805 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Google Chrome",
+    "complete": true,
+    "ref_count": 30,
+    "snapshot_id": "s3inyv1kp2o0vf",
+    "tree": {
+      "bounds": {
+        "height": 923.0,
+        "width": 1249.0,
+        "x": 244.0,
+        "y": 33.0
+      },
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "bounds": {
+            "height": 923.0,
+            "width": 1249.0,
+            "x": 244.0,
+            "y": 33.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "RightClick",
+                "SetFocus"
+              ],
+              "bounds": {
+                "height": 923.0,
+                "width": 1249.0,
+                "x": 244.0,
+                "y": 33.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 923.0,
+                    "width": 1249.0,
+                    "x": 244.0,
+                    "y": 33.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 923.0,
+                        "width": 1249.0,
+                        "x": 244.0,
+                        "y": 33.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 81.0,
+                            "width": 1249.0,
+                            "x": 244.0,
+                            "y": 73.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 46.0,
+                                "width": 1249.0,
+                                "x": 244.0,
+                                "y": 73.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 34.0,
+                                    "width": 34.0,
+                                    "x": 250.0,
+                                    "y": 79.0
+                                  },
+                                  "name": "Back",
+                                  "ref_id": "@s3inyv1kp2o0vf:e2",
+                                  "role": "button",
+                                  "states": [
+                                    "disabled"
+                                  ]
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 34.0,
+                                    "width": 34.0,
+                                    "x": 286.0,
+                                    "y": 79.0
+                                  },
+                                  "name": "Forward",
+                                  "ref_id": "@s3inyv1kp2o0vf:e3",
+                                  "role": "button",
+                                  "states": [
+                                    "disabled"
+                                  ]
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 34.0,
+                                    "width": 34.0,
+                                    "x": 322.0,
+                                    "y": 79.0
+                                  },
+                                  "name": "Reload",
+                                  "ref_id": "@s3inyv1kp2o0vf:e4",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "RightClick",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 34.0,
+                                    "width": 989.0,
+                                    "x": 365.0,
+                                    "y": 79.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 24.0,
+                                        "x": 370.0,
+                                        "y": 84.0
+                                      },
+                                      "name": "Search icon",
+                                      "ref_id": "@s3inyv1kp2o0vf:e6",
+                                      "role": "image"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "SetValue",
+                                        "SetFocus",
+                                        "TypeText"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 908.0,
+                                        "x": 402.0,
+                                        "y": 84.0
+                                      },
+                                      "name": "Address and search bar",
+                                      "ref_id": "@s3inyv1kp2o0vf:e7",
+                                      "role": "textfield"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 24.0,
+                                        "width": 24.0,
+                                        "x": 1318.0,
+                                        "y": 84.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "SetFocus"
+                                          ],
+                                          "bounds": {
+                                            "height": 24.0,
+                                            "width": 24.0,
+                                            "x": 1318.0,
+                                            "y": 84.0
+                                          },
+                                          "name": "Zoom: 110%",
+                                          "ref_id": "@s3inyv1kp2o0vf:e8",
+                                          "role": "button"
+                                        }
+                                      ],
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "ref_id": "@s3inyv1kp2o0vf:e5",
+                                  "role": "group"
+                                },
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 34.0,
+                                    "width": 34.0,
+                                    "x": 1363.0,
+                                    "y": 79.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "SetValue",
+                                        "Select",
+                                        "SetFocus",
+                                        "TypeText",
+                                        "Expand",
+                                        "Collapse"
+                                      ],
+                                      "bounds": {
+                                        "height": 34.0,
+                                        "width": 34.0,
+                                        "x": 1363.0,
+                                        "y": 79.0
+                                      },
+                                      "name": "Extensions",
+                                      "ref_id": "@s3inyv1kp2o0vf:e9",
+                                      "role": "combobox"
+                                    }
+                                  ],
+                                  "role": "group"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 34.0,
+                                    "width": 34.0,
+                                    "x": 1417.0,
+                                    "y": 79.0
+                                  },
+                                  "name": "HARSHIT",
+                                  "ref_id": "@s3inyv1kp2o0vf:e10",
+                                  "role": "button"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetValue",
+                                    "Select",
+                                    "SetFocus",
+                                    "TypeText",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 34.0,
+                                    "width": 34.0,
+                                    "x": 1453.0,
+                                    "y": 79.0
+                                  },
+                                  "name": "Chrome",
+                                  "ref_id": "@s3inyv1kp2o0vf:e11",
+                                  "role": "combobox"
+                                }
+                              ],
+                              "role": "toolbar"
+                            },
+                            {
+                              "available_actions": [
+                                "RightClick"
+                              ],
+                              "bounds": {
+                                "height": 34.0,
+                                "width": 1249.0,
+                                "x": 244.0,
+                                "y": 119.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 28.0,
+                                    "width": 36.0,
+                                    "x": 250.0,
+                                    "y": 119.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 28.0,
+                                        "width": 28.0,
+                                        "x": 250.0,
+                                        "y": 119.0
+                                      },
+                                      "name": "Tab groups",
+                                      "ref_id": "@s3inyv1kp2o0vf:e13",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "name": "Saved tab groups",
+                                  "role": "toolbar"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 28.0,
+                                    "width": 81.0,
+                                    "x": 296.0,
+                                    "y": 119.0
+                                  },
+                                  "name": "90 in 30",
+                                  "ref_id": "@s3inyv1kp2o0vf:e14",
+                                  "role": "button"
+                                }
+                              ],
+                              "name": "Bookmarks",
+                              "ref_id": "@s3inyv1kp2o0vf:e12",
+                              "role": "toolbar"
+                            }
+                          ],
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 746.0,
+                            "width": 1249.0,
+                            "x": 244.0,
+                            "y": 210.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 746.0,
+                                "width": 1249.0,
+                                "x": 244.0,
+                                "y": 210.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 746.0,
+                                    "width": 1249.0,
+                                    "x": 244.0,
+                                    "y": 210.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick",
+                                        "ScrollTo",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 746.0,
+                                        "width": 1249.0,
+                                        "x": 244.0,
+                                        "y": 210.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "RightClick",
+                                            "ScrollTo"
+                                          ],
+                                          "bounds": {
+                                            "height": 746.0,
+                                            "width": 1249.0,
+                                            "x": 244.0,
+                                            "y": 210.0
+                                          },
+                                          "children": [
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 746.0,
+                                                "width": 1249.0,
+                                                "x": 244.0,
+                                                "y": 210.0
+                                              },
+                                              "children_count": 1,
+                                              "native_id": {
+                                                "kind": "ax_dom_identifier",
+                                                "value": "backgroundImage"
+                                              },
+                                              "ref_id": "@s3inyv1kp2o0vf:e17",
+                                              "role": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 746.0,
+                                                "width": 1249.0,
+                                                "x": 244.0,
+                                                "y": 210.0
+                                              },
+                                              "children_count": 10,
+                                              "native_id": {
+                                                "kind": "ax_dom_identifier",
+                                                "value": "content"
+                                              },
+                                              "ref_id": "@s3inyv1kp2o0vf:e18",
+                                              "role": "group"
+                                            },
+                                            {
+                                              "available_actions": [
+                                                "RightClick",
+                                                "ScrollTo"
+                                              ],
+                                              "bounds": {
+                                                "height": 0.0,
+                                                "width": 330.0,
+                                                "x": 244.0,
+                                                "y": 956.0
+                                              },
+                                              "ref_id": "@s3inyv1kp2o0vf:e19",
+                                              "role": "image",
+                                              "states": [
+                                                "offscreen"
+                                              ]
+                                            }
+                                          ],
+                                          "ref_id": "@s3inyv1kp2o0vf:e16",
+                                          "role": "group"
+                                        }
+                                      ],
+                                      "name": "New tab",
+                                      "ref_id": "@s3inyv1kp2o0vf:e15",
+                                      "role": "webarea",
+                                      "states": [
+                                        "focused"
+                                      ]
+                                    }
+                                  ],
+                                  "role": "group"
+                                }
+                              ],
+                              "role": "group"
+                            }
+                          ],
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 56.0,
+                            "width": 1249.0,
+                            "x": 244.0,
+                            "y": 154.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 56.0,
+                                "width": 1249.0,
+                                "x": 244.0,
+                                "y": 154.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 20.0,
+                                    "width": 686.0,
+                                    "x": 544.0,
+                                    "y": 172.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 20.0,
+                                        "width": 627.0,
+                                        "x": 544.0,
+                                        "y": 172.0
+                                      },
+                                      "name": "Continue where you left off: Chrome can restore your tabs every time you restart. To turn this on, go to",
+                                      "ref_id": "@s3inyv1kp2o0vf:e20",
+                                      "role": "statictext",
+                                      "value": "Continue where you left off: Chrome can restore your tabs every time you restart. To turn this on, go to"
+                                    },
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 20.0,
+                                        "width": 55.0,
+                                        "x": 1175.0,
+                                        "y": 172.0
+                                      },
+                                      "name": "Settings, opens in new tab.",
+                                      "ref_id": "@s3inyv1kp2o0vf:e21",
+                                      "role": "link"
+                                    }
+                                  ],
+                                  "role": "group"
+                                },
+                                {
+                                  "available_actions": [
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 28.0,
+                                    "width": 44.0,
+                                    "x": 1433.0,
+                                    "y": 168.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 28.0,
+                                        "width": 28.0,
+                                        "x": 1449.0,
+                                        "y": 168.0
+                                      },
+                                      "name": "Close",
+                                      "ref_id": "@s3inyv1kp2o0vf:e22",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "role": "group"
+                                }
+                              ],
+                              "name": "Infobar",
+                              "role": "alertdialog"
+                            }
+                          ],
+                          "name": "Infobar Container",
+                          "role": "group"
+                        },
+                        {
+                          "available_actions": [
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 41.0,
+                            "width": 1163.0,
+                            "x": 330.0,
+                            "y": 33.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 41.0,
+                                "width": 28.0,
+                                "x": 336.0,
+                                "y": 33.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "SetValue",
+                                    "Select",
+                                    "SetFocus",
+                                    "TypeText",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 28.0,
+                                    "width": 28.0,
+                                    "x": 336.0,
+                                    "y": 39.0
+                                  },
+                                  "name": "Tab search",
+                                  "ref_id": "@s3inyv1kp2o0vf:e23",
+                                  "role": "combobox"
+                                }
+                              ],
+                              "role": "group"
+                            },
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 41.0,
+                                "width": 256.0,
+                                "x": 358.0,
+                                "y": 33.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 41.0,
+                                    "width": 256.0,
+                                    "x": 358.0,
+                                    "y": 33.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "Toggle",
+                                        "RightClick",
+                                        "SetValue",
+                                        "SetFocus"
+                                      ],
+                                      "bounds": {
+                                        "height": 41.0,
+                                        "width": 256.0,
+                                        "x": 358.0,
+                                        "y": 33.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click",
+                                            "SetFocus"
+                                          ],
+                                          "bounds": {
+                                            "height": 28.0,
+                                            "width": 28.0,
+                                            "x": 572.0,
+                                            "y": 39.0
+                                          },
+                                          "name": "Close",
+                                          "ref_id": "@s3inyv1kp2o0vf:e25",
+                                          "role": "button"
+                                        }
+                                      ],
+                                      "name": "New tab",
+                                      "ref_id": "@s3inyv1kp2o0vf:e24",
+                                      "role": "radiobutton",
+                                      "states": [
+                                        "checked",
+                                        "selected"
+                                      ],
+                                      "value": "true"
+                                    }
+                                  ],
+                                  "role": "tablist"
+                                }
+                              ],
+                              "role": "group"
+                            },
+                            {
+                              "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 41.0,
+                                "width": 28.0,
+                                "x": 608.0,
+                                "y": 33.0
+                              },
+                              "name": "New tab",
+                              "ref_id": "@s3inyv1kp2o0vf:e26",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "SetFocus"
+                              ],
+                              "bounds": {
+                                "height": 40.0,
+                                "width": 124.0,
+                                "x": 1369.0,
+                                "y": 33.0
+                              },
+                              "children": [
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetFocus"
+                                  ],
+                                  "bounds": {
+                                    "height": 40.0,
+                                    "width": 124.0,
+                                    "x": 1369.0,
+                                    "y": 33.0
+                                  },
+                                  "name": "Open Gemini in Chrome",
+                                  "ref_id": "@s3inyv1kp2o0vf:e27",
+                                  "role": "button"
+                                }
+                              ],
+                              "role": "group"
+                            }
+                          ],
+                          "role": "group"
+                        }
+                      ],
+                      "role": "group"
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "ref_id": "@s3inyv1kp2o0vf:e1",
+              "role": "group"
+            }
+          ],
+          "name": "New tab - Google Chrome \u2013 HARSHIT",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 256.0,
+            "y": 45.5
+          },
+          "ref_id": "@s3inyv1kp2o0vf:e28",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 302.0,
+            "y": 45.5
+          },
+          "ref_id": "@s3inyv1kp2o0vf:e29",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 279.0,
+            "y": 45.5
+          },
+          "ref_id": "@s3inyv1kp2o0vf:e30",
+          "role": "button"
+        }
+      ],
+      "name": "New tab - Google Chrome \u2013 HARSHIT",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28145",
+      "title": "New tab"
+    }
+  }
+}

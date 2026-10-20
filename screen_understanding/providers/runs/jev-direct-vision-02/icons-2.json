@@ -1,0 +1,328 @@
+{
+  "task": "icons",
+  "repeat": 2,
+  "image": {
+    "original_size": [
+      2398,
+      390
+    ],
+    "submitted_size": [
+      1568,
+      280
+    ],
+    "scale_x": 0.6538782318598833,
+    "scale_y": 0.6538461538461539,
+    "padding": "right/bottom only"
+  },
+  "questions": {
+    "38": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 38 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "39": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 39 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "41": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 41 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "47": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 47 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "48": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 48 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "53": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 53 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "54": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 54 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    },
+    "58": {
+      "type": "choice",
+      "instructions": "What is the function of control marked 58 by a red box in the screenshot in `image`? Use surrounding context.",
+      "criteria": {
+        "navigation": "Back and forward browser navigation",
+        "sidebar": "Show or hide the browser sidebar",
+        "search": "Submit a search query",
+        "notifications": "Open notifications",
+        "profile": "Open the user profile/account menu",
+        "window_controls": "Close, minimize or fullscreen the window",
+        "tab_overview": "Show an overview of open browser tabs",
+        "main_menu": "Show the YouTube navigation menu",
+        "new_tab": "Create a new browser tab",
+        "clear": "Clear entered text",
+        "copy": "Copy content to the clipboard",
+        "unknown": "Unknown or none of these functions"
+      }
+    }
+  },
+  "seconds": 0.9615113330073655,
+  "headers_seconds": 0.9612739579752088,
+  "http_status": 200,
+  "response": {
+    "model": "jev-1.14.0",
+    "answers": {
+      "38": {
+        "type": "choice",
+        "choice": "navigation",
+        "confidence": 1.0,
+        "probabilities": {
+          "navigation": 1.0,
+          "sidebar": 0.0,
+          "search": 0.0,
+          "notifications": 0.0,
+          "profile": 0.0,
+          "window_controls": 0.0,
+          "tab_overview": 0.0,
+          "main_menu": 0.0,
+          "new_tab": 0.0,
+          "clear": 0.0,
+          "copy": 0.0,
+          "unknown": 0.0
+        }
+      },
+      "39": {
+        "type": "choice",
+        "choice": "tab_overview",
+        "confidence": 0.65,
+        "probabilities": {
+          "navigation": 0.0,
+          "sidebar": 0.32,
+          "search": 0.0,
+          "notifications": 0.0,
+          "profile": 0.0,
+          "window_controls": 0.0,
+          "tab_overview": 0.68,
+          "main_menu": 0.0,
+          "new_tab": 0.0,
+          "clear": 0.0,
+          "copy": 0.0,
+          "unknown": 0.0
+        }
+      },
+      "41": {
+        "type": "choice",
+        "choice": "search",
+        "confidence": 1.0,
+        "probabilities": {
+          "navigation": 0.0,
+          "sidebar": 0.0,
+          "search": 1.0,
+          "notifications": 0.0,
+          "profile": 0.0,
+          "window_controls": 0.0,
+          "tab_overview": 0.0,
+          "main_menu": 0.0,
+          "new_tab": 0.0,
+          "clear": 0.0,
+          "copy": 0.0,
+          "unknown": 0.0
+        }
+      },
+      "47": {
+        "type": "choice",
+        "choice": "notifications",
+        "confidence": 1.0,
+        "probabilities": {
+          "navigation": 0.0,
+          "sidebar": 0.0,
+          "search": 0.0,
+          "notifications": 1.0,
+          "profile": 0.0,
+          "window_controls": 0.0,
+          "tab_overview": 0.0,
+          "main_menu": 0.0,
+          "new_tab": 0.0,
+          "clear": 0.0,
+          "copy": 0.0,
+          "unknown": 0.0
+        }
+      },
+      "48": {
+        "type": "choice",
+        "choice": "profile",
+        "confidence": 1.0,
+        "probabilities": {
+          "navigation": 0.0,
+          "sidebar": 0.0,
+          "search": 0.0,
+          "notifications": 0.0,
+          "profile": 1.0,
+          "window_controls": 0.0,
+          "tab_overview": 0.0,
+          "main_menu": 0.0,
+          "new_tab": 0.0,
+          "clear": 0.0,
+          "copy": 0.0,
+          "unknown": 0.0
+        }
+      },
+      "53": {
+        "type": "choice",
+        "choice": "window_controls",
+        "confidence": 0.95,
+        "probabilities": {
+          "navigation": 0.0,
+          "sidebar": 0.0,
+          "search": 0.0,
+          "notifications": 0.0,
+          "profile": 0.0,
+          "window_controls": 0.95,
+          "tab_overview": 0.03,
+          "main_menu": 0.0,
+          "new_tab": 0.01,
+          "clear": 0.0,
+          "copy": 0.0,
+          "unknown": 0.01
+        }
+      },
+      "54": {
+        "type": "choice",
+        "choice": "copy",
+        "confidence": 0.45,
+        "probabilities": {
+          "navigation": 0.0,
+          "sidebar": 0.02,
+          "search": 0.0,
+          "notifications": 0.0,
+          "profile": 0.0,
+          "window_controls": 0.0,
+          "tab_overview": 0.4,
+          "main_menu": 0.0,
+          "new_tab": 0.07,
+          "clear": 0.0,
+          "copy": 0.5,
+          "unknown": 0.01
+        }
+      },
+      "58": {
+        "type": "choice",
+        "choice": "main_menu",
+        "confidence": 1.0,
+        "probabilities": {
+          "navigation": 0.0,
+          "sidebar": 0.0,
+          "search": 0.0,
+          "notifications": 0.0,
+          "profile": 0.0,
+          "window_controls": 0.0,
+          "tab_overview": 0.0,
+          "main_menu": 1.0,
+          "new_tab": 0.0,
+          "clear": 0.0,
+          "copy": 0.0,
+          "unknown": 0.0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 3397,
+      "output_tokens": 848
+    }
+  },
+  "validation_issues": []
+}

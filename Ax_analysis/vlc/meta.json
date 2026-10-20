@@ -1,0 +1,67 @@
+{
+  "app": "VLC",
+  "was_running": false,
+  "captures": {
+    "windows": 9,
+    "skeleton": {
+      "ok": true,
+      "bytes": 5360,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 13344,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 25780,
+  "bundle_id": "org.videolan.vlc",
+  "framework_signals": {
+    "exe": "/Applications/VLC.app/Contents/MacOS/VLC",
+    "bundle": "/Applications/VLC.app",
+    "frameworks": [
+      "Breakpad.framework",
+      "Growl.framework",
+      "Sparkle.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "VLC",
+    "bounds": {
+      "height": 157.0,
+      "width": 125.0,
+      "x": 2576.0,
+      "y": 1121.0
+    },
+    "id": "w-28113",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25780,
+    "process_instance": "macos-proc-v1:1788103713:936199",
+    "title": "VLC media player",
+    "visible": true
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 57,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 57,
+    "truncated_after": 0,
+    "bytes": 21474
+  }
+}

@@ -1,0 +1,2899 @@
+{
+ "version": "2.3",
+ "ok": true,
+ "command": "snapshot",
+ "data": {
+  "app": "Brave Browser",
+  "complete": true,
+  "ref_count": 151,
+  "snapshot_id": "s2961zkoooyclh",
+  "tree": {
+   "bounds": {
+    "height": 802.0,
+    "width": 1036.0,
+    "x": 2633.0,
+    "y": 566.0
+   },
+   "children": [
+    {
+     "available_actions": [
+      "SetFocus"
+     ],
+     "bounds": {
+      "height": 802.0,
+      "width": 1036.0,
+      "x": 2633.0,
+      "y": 566.0
+     },
+     "children": [
+      {
+       "available_actions": [
+        "RightClick",
+        "SetFocus"
+       ],
+       "bounds": {
+        "height": 802.0,
+        "width": 1036.0,
+        "x": 2633.0,
+        "y": 566.0
+       },
+       "children": [
+        {
+         "available_actions": [
+          "SetFocus"
+         ],
+         "bounds": {
+          "height": 802.0,
+          "width": 1036.0,
+          "x": 2633.0,
+          "y": 566.0
+         },
+         "children": [
+          {
+           "available_actions": [
+            "SetFocus"
+           ],
+           "bounds": {
+            "height": 802.0,
+            "width": 1036.0,
+            "x": 2633.0,
+            "y": 566.0
+           },
+           "children": [
+            {
+             "available_actions": [
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 75.0,
+              "width": 1036.0,
+              "x": 2633.0,
+              "y": 606.0
+             },
+             "children": [
+              {
+               "bounds": {
+                "height": 40.0,
+                "width": 1036.0,
+                "x": 2633.0,
+                "y": 606.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 2639.0,
+                  "y": 612.0
+                 },
+                 "name": "Back",
+                 "native_id": {
+                  "kind": "ax_dom_identifier",
+                  "value": "view_1001"
+                 },
+                 "ref_id": "@s2961zkoooyclh:e2",
+                 "role": "button",
+                 "states": [
+                  "disabled"
+                 ]
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 2669.0,
+                  "y": 612.0
+                 },
+                 "name": "Forward",
+                 "native_id": {
+                  "kind": "ax_dom_identifier",
+                  "value": "view_1002"
+                 },
+                 "ref_id": "@s2961zkoooyclh:e3",
+                 "role": "button",
+                 "states": [
+                  "disabled"
+                 ]
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 2699.0,
+                  "y": 612.0
+                 },
+                 "name": "Reload",
+                 "native_id": {
+                  "kind": "ax_dom_identifier",
+                  "value": "view_1003"
+                 },
+                 "ref_id": "@s2961zkoooyclh:e4",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 2819.0,
+                  "y": 612.0
+                 },
+                 "name": "Bookmark this tab",
+                 "native_id": {
+                  "kind": "ax_dom_identifier",
+                  "value": "view_1005"
+                 },
+                 "ref_id": "@s2961zkoooyclh:e5",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "RightClick",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 32.0,
+                  "width": 536.0,
+                  "x": 2856.0,
+                  "y": 610.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 28.0,
+                    "x": 2858.0,
+                    "y": 612.0
+                   },
+                   "name": "Search icon",
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "view_1011"
+                   },
+                   "ref_id": "@s2961zkoooyclh:e7",
+                   "role": "image"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus",
+                    "TypeText"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 392.0,
+                    "x": 2894.0,
+                    "y": 612.0
+                   },
+                   "name": "Address and search bar",
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "view_1012"
+                   },
+                   "ref_id": "@s2961zkoooyclh:e8",
+                   "role": "textfield",
+                   "states": [
+                    "focused"
+                   ]
+                  },
+                  {
+                   "available_actions": [
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 28.0,
+                    "x": 3294.0,
+                    "y": 612.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "Click",
+                      "SetFocus"
+                     ],
+                     "bounds": {
+                      "height": 28.0,
+                      "width": 28.0,
+                      "x": 3294.0,
+                      "y": 612.0
+                     },
+                     "name": "Zoom: 110%",
+                     "ref_id": "@s2961zkoooyclh:e9",
+                     "role": "button"
+                    }
+                   ],
+                   "role": "group"
+                  },
+                  {
+                   "available_actions": [
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 70.0,
+                    "x": 3322.0,
+                    "y": 612.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "Click",
+                      "SetValue",
+                      "Select",
+                      "SetFocus",
+                      "TypeText",
+                      "Expand",
+                      "Collapse"
+                     ],
+                     "bounds": {
+                      "height": 28.0,
+                      "width": 30.0,
+                      "x": 3329.0,
+                      "y": 612.0
+                     },
+                     "name": "Brave Shields",
+                     "ref_id": "@s2961zkoooyclh:e10",
+                     "role": "combobox"
+                    },
+                    {
+                     "available_actions": [
+                      "Click",
+                      "SetValue",
+                      "Select",
+                      "SetFocus",
+                      "TypeText",
+                      "Expand",
+                      "Collapse"
+                     ],
+                     "bounds": {
+                      "height": 28.0,
+                      "width": 30.0,
+                      "x": 3362.0,
+                      "y": 612.0
+                     },
+                     "name": "Brave Rewards",
+                     "ref_id": "@s2961zkoooyclh:e11",
+                     "role": "combobox"
+                    }
+                   ],
+                   "role": "group"
+                  }
+                 ],
+                 "ref_id": "@s2961zkoooyclh:e6",
+                 "role": "group"
+                },
+                {
+                 "available_actions": [
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 58.0,
+                  "x": 3455.0,
+                  "y": 612.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "SetValue",
+                    "Select",
+                    "SetFocus",
+                    "TypeText",
+                    "Expand",
+                    "Collapse"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 28.0,
+                    "x": 3455.0,
+                    "y": 612.0
+                   },
+                   "name": "Volume Booster",
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "view_1009"
+                   },
+                   "ref_id": "@s2961zkoooyclh:e12",
+                   "role": "combobox"
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "SetValue",
+                    "Select",
+                    "SetFocus",
+                    "TypeText",
+                    "Expand",
+                    "Collapse"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 28.0,
+                    "x": 3485.0,
+                    "y": 612.0
+                   },
+                   "name": "Extensions",
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "view_1006"
+                   },
+                   "ref_id": "@s2961zkoooyclh:e13",
+                   "role": "combobox"
+                  }
+                 ],
+                 "role": "group"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 3515.0,
+                  "y": 612.0
+                 },
+                 "name": "Show Sidebar",
+                 "ref_id": "@s2961zkoooyclh:e14",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "SetValue",
+                  "Select",
+                  "SetFocus",
+                  "TypeText",
+                  "Expand",
+                  "Collapse"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 3545.0,
+                  "y": 612.0
+                 },
+                 "name": "Brave Wallet",
+                 "ref_id": "@s2961zkoooyclh:e15",
+                 "role": "combobox"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "RightClick",
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 3575.0,
+                  "y": 612.0
+                 },
+                 "name": "Leo AI",
+                 "ref_id": "@s2961zkoooyclh:e16",
+                 "role": "button"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "SetValue",
+                  "Select",
+                  "SetFocus",
+                  "TypeText",
+                  "Expand",
+                  "Collapse"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 3605.0,
+                  "y": 612.0
+                 },
+                 "name": "VPN",
+                 "ref_id": "@s2961zkoooyclh:e17",
+                 "role": "combobox"
+                },
+                {
+                 "available_actions": [
+                  "Click",
+                  "SetValue",
+                  "Select",
+                  "SetFocus",
+                  "TypeText",
+                  "Expand",
+                  "Collapse"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 3635.0,
+                  "y": 612.0
+                 },
+                 "name": "Brave",
+                 "native_id": {
+                  "kind": "ax_dom_identifier",
+                  "value": "view_1007"
+                 },
+                 "ref_id": "@s2961zkoooyclh:e18",
+                 "role": "combobox"
+                }
+               ],
+               "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "view_1000"
+               },
+               "role": "toolbar"
+              },
+              {
+               "available_actions": [
+                "RightClick"
+               ],
+               "bounds": {
+                "height": 34.0,
+                "width": 1036.0,
+                "x": 2633.0,
+                "y": 646.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 36.0,
+                  "x": 2639.0,
+                  "y": 647.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 28.0,
+                    "x": 2639.0,
+                    "y": 647.0
+                   },
+                   "name": "Tab groups",
+                   "ref_id": "@s2961zkoooyclh:e20",
+                   "role": "button"
+                  }
+                 ],
+                 "name": "Saved tab groups",
+                 "role": "toolbar"
+                },
+                {
+                 "available_actions": [
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 533.0,
+                  "x": 2691.0,
+                  "y": 647.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "RightClick"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 386.0,
+                    "x": 2691.0,
+                    "y": 647.0
+                   },
+                   "name": "For quick access, place your bookmarks here on the bookmarks bar.",
+                   "ref_id": "@s2961zkoooyclh:e21",
+                   "role": "statictext",
+                   "value": "For quick access, place your bookmarks here on the bookmarks bar."
+                  },
+                  {
+                   "available_actions": [
+                    "Click",
+                    "RightClick",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 28.0,
+                    "width": 143.0,
+                    "x": 3081.0,
+                    "y": 647.0
+                   },
+                   "name": "Import bookmarks now \u2026",
+                   "ref_id": "@s2961zkoooyclh:e22",
+                   "role": "link"
+                  }
+                 ],
+                 "native_id": {
+                  "kind": "ax_dom_identifier",
+                  "value": "view_100001"
+                 },
+                 "role": "group"
+                }
+               ],
+               "name": "Bookmarks",
+               "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "view_1025"
+               },
+               "ref_id": "@s2961zkoooyclh:e19",
+               "role": "toolbar"
+              }
+             ],
+             "role": "group"
+            },
+            {
+             "available_actions": [
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 687.0,
+              "width": 1036.0,
+              "x": 2633.0,
+              "y": 681.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 687.0,
+                "width": 1036.0,
+                "x": 2633.0,
+                "y": 681.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "SetFocus"
+                 ],
+                 "bounds": {
+                  "height": 687.0,
+                  "width": 1036.0,
+                  "x": 2633.0,
+                  "y": 681.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "RightClick",
+                    "ScrollTo",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 687.0,
+                    "width": 1036.0,
+                    "x": 2633.0,
+                    "y": 681.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "RightClick",
+                      "ScrollTo"
+                     ],
+                     "bounds": {
+                      "height": 687.0,
+                      "width": 1021.0,
+                      "x": 2633.0,
+                      "y": 681.0
+                     },
+                     "children": [
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 687.0,
+                        "width": 1021.0,
+                        "x": 2633.0,
+                        "y": 681.0
+                       },
+                       "ref_id": "@s2961zkoooyclh:e25",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 687.0,
+                        "width": 1021.0,
+                        "x": 2633.0,
+                        "y": 681.0
+                       },
+                       "ref_id": "@s2961zkoooyclh:e26",
+                       "role": "group"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 687.0,
+                        "width": 1021.0,
+                        "x": 2633.0,
+                        "y": 681.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "Click",
+                          "RightClick",
+                          "ScrollTo",
+                          "SetFocus"
+                         ],
+                         "bounds": {
+                          "height": 18.0,
+                          "width": 18.0,
+                          "x": 2646.0,
+                          "y": 694.0
+                         },
+                         "ref_id": "@s2961zkoooyclh:e28",
+                         "role": "button"
+                        },
+                        {
+                         "available_actions": [
+                          "Click",
+                          "RightClick",
+                          "ScrollTo",
+                          "SetFocus"
+                         ],
+                         "bounds": {
+                          "height": 38.0,
+                          "width": 38.0,
+                          "x": 3603.0,
+                          "y": 694.0
+                         },
+                         "ref_id": "@s2961zkoooyclh:e29",
+                         "role": "button"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 1.0,
+                          "width": 1.0,
+                          "x": 2633.0,
+                          "y": 681.0
+                         },
+                         "ref_id": "@s2961zkoooyclh:e30",
+                         "role": "group"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 91.0,
+                          "width": 555.0,
+                          "x": 2866.0,
+                          "y": 716.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 80.0,
+                            "x": 2866.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 36.0,
+                              "x": 2888.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fhotstar.com%2F",
+                             "ref_id": "@s2961zkoooyclh:e33",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 17.0,
+                              "width": 69.0,
+                              "x": 2872.0,
+                              "y": 788.0
+                             },
+                             "name": "JioHotstar",
+                             "ref_id": "@s2961zkoooyclh:e34",
+                             "role": "statictext",
+                             "value": "JioHotstar"
+                            }
+                           ],
+                           "name": "JioHotstar",
+                           "ref_id": "@s2961zkoooyclh:e32",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 79.0,
+                            "x": 2946.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 35.0,
+                              "x": 2968.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fwww.bestfreestreaming.org%2F",
+                             "ref_id": "@s2961zkoooyclh:e36",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 17.0,
+                              "width": 79.0,
+                              "x": 2946.0,
+                              "y": 788.0
+                             },
+                             "name": "BestFreeStreaming.org",
+                             "ref_id": "@s2961zkoooyclh:e37",
+                             "role": "statictext",
+                             "value": "BestFreeStreaming.org"
+                            }
+                           ],
+                           "name": "BestFreeStreaming.org",
+                           "ref_id": "@s2961zkoooyclh:e35",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 79.0,
+                            "x": 3025.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 35.0,
+                              "x": 3047.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fwww.hotstar.com%2Fin%2Fshows%2Fthe-martian%2F1260015509",
+                             "ref_id": "@s2961zkoooyclh:e39",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 17.0,
+                              "width": 69.0,
+                              "x": 3030.0,
+                              "y": 788.0
+                             },
+                             "name": "JioHotstar",
+                             "ref_id": "@s2961zkoooyclh:e40",
+                             "role": "statictext",
+                             "value": "JioHotstar"
+                            }
+                           ],
+                           "name": "JioHotstar",
+                           "ref_id": "@s2961zkoooyclh:e38",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 80.0,
+                            "x": 3104.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 36.0,
+                              "x": 3126.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Faniwatchtv.to%2F",
+                             "ref_id": "@s2961zkoooyclh:e42",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 17.0,
+                              "width": 78.0,
+                              "x": 3105.0,
+                              "y": 788.0
+                             },
+                             "name": "FASTPANEL",
+                             "ref_id": "@s2961zkoooyclh:e43",
+                             "role": "statictext",
+                             "value": "FASTPANEL"
+                            }
+                           ],
+                           "name": "FASTPANEL",
+                           "ref_id": "@s2961zkoooyclh:e41",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 80.0,
+                            "x": 3183.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 36.0,
+                              "x": 3205.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=http%3A%2F%2Fntv.cx%2F",
+                             "ref_id": "@s2961zkoooyclh:e45",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 17.0,
+                              "width": 75.0,
+                              "x": 3183.0,
+                              "y": 788.0
+                             },
+                             "name": "NTVSTREAM",
+                             "ref_id": "@s2961zkoooyclh:e46",
+                             "role": "statictext",
+                             "value": "NTVSTREAM"
+                            }
+                           ],
+                           "name": "NTVSTREAM",
+                           "ref_id": "@s2961zkoooyclh:e44",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 80.0,
+                            "x": 3262.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 36.0,
+                              "x": 3284.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fsiiirwc94.blogspot.com%2Fp%2Fmatchday01.html",
+                             "ref_id": "@s2961zkoooyclh:e48",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 17.0,
+                              "width": 79.0,
+                              "x": 3262.0,
+                              "y": 788.0
+                             },
+                             "name": "MATCHDAY01 \u2014 WC 3 2026",
+                             "ref_id": "@s2961zkoooyclh:e49",
+                             "role": "statictext",
+                             "value": "MATCHDAY01 \u2014 WC 3 2026"
+                            }
+                           ],
+                           "name": "MATCHDAY01 \u2014 WC 3 2026",
+                           "ref_id": "@s2961zkoooyclh:e47",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 80.0,
+                            "x": 3341.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 36.0,
+                              "x": 3363.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fmonkeytype.com%2F",
+                             "ref_id": "@s2961zkoooyclh:e51",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 17.0,
+                              "width": 76.0,
+                              "x": 3341.0,
+                              "y": 788.0
+                             },
+                             "name": "Monkeytype",
+                             "ref_id": "@s2961zkoooyclh:e52",
+                             "role": "statictext",
+                             "value": "Monkeytype"
+                            }
+                           ],
+                           "name": "Monkeytype",
+                           "ref_id": "@s2961zkoooyclh:e50",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 1.0,
+                            "x": 3420.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fwww.flickcall.com%2Finvite-hotstar.html%3Fredirect%3Dhttps%253A%252F%252Fwww.hotstar.com%252Fin%252Fmovies%252Fdhurandhar%252F1271642559%252Fwatch%253Ffcparty%253D8aa4419b-dc29-4b47-a3bb-c6892e6c988b",
+                             "ref_id": "@s2961zkoooyclh:e54",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 1.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 806.0
+                             },
+                             "name": "https://www.flickcall.com/invite-hotstar.html?redirect=https%3A%2F%2Fwww.hotstar.com%2Fin%2Fmovies%2Fdhurandhar%2F1271642559%2Fwatch%3Ffcparty%3D8aa4419b-dc29-4b47-a3bb-c6892e6c988b",
+                             "ref_id": "@s2961zkoooyclh:e55",
+                             "role": "statictext",
+                             "value": "https://www.flickcall.com/invite-hotstar.html?redirect=https%3A%2F%2Fwww.hotstar.com%2Fin%2Fmovies%2Fdhurandhar%2F1271642559%2Fwatch%3Ffcparty%3D8aa4419b-dc29-4b47-a3bb-c6892e6c988b"
+                            }
+                           ],
+                           "name": "https://www.flickcall.com/invite-hotstar.html?redirect=https%3A%2F%2Fwww.hotstar.com%2Fin%2Fmovies%2Fdhurandhar%2F1271642559%2Fwatch%3Ffcparty%3D8aa4419b-dc29-4b47-a3bb-c6892e6c988b",
+                           "ref_id": "@s2961zkoooyclh:e53",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 1.0,
+                            "x": 3420.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fwww.youtube.com%2F",
+                             "ref_id": "@s2961zkoooyclh:e57",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 1.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 806.0
+                             },
+                             "name": "(50) YouTube",
+                             "ref_id": "@s2961zkoooyclh:e58",
+                             "role": "statictext",
+                             "value": "(50) YouTube"
+                            }
+                           ],
+                           "name": "(50) YouTube",
+                           "ref_id": "@s2961zkoooyclh:e56",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 1.0,
+                            "x": 3420.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fhianime.tv%2F",
+                             "ref_id": "@s2961zkoooyclh:e60",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 1.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 806.0
+                             },
+                             "name": "Redirecting...",
+                             "ref_id": "@s2961zkoooyclh:e61",
+                             "role": "statictext",
+                             "value": "Redirecting..."
+                            }
+                           ],
+                           "name": "Redirecting...",
+                           "ref_id": "@s2961zkoooyclh:e59",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 1.0,
+                            "x": 3420.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Fhianimes.se%2Fdetails%2Fattack-on-titan-izofpb",
+                             "ref_id": "@s2961zkoooyclh:e63",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 1.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 806.0
+                             },
+                             "name": "hianimes.se/details/attack-on-titan-izofpb",
+                             "ref_id": "@s2961zkoooyclh:e64",
+                             "role": "statictext",
+                             "value": "hianimes.se/details/attack-on-titan-izofpb"
+                            }
+                           ],
+                           "name": "hianimes.se/details/attack-on-titan-izofpb",
+                           "ref_id": "@s2961zkoooyclh:e62",
+                           "role": "link"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 91.0,
+                            "width": 1.0,
+                            "x": 3420.0,
+                            "y": 716.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 36.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 729.0
+                             },
+                             "name": "/?size=64&pageUrl=https%3A%2F%2Ffmhy.net%2Fvideo%23live-sports",
+                             "ref_id": "@s2961zkoooyclh:e66",
+                             "role": "image"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 1.0,
+                              "width": 1.0,
+                              "x": 3420.0,
+                              "y": 806.0
+                             },
+                             "name": "Movies / TV / Anime \u2022 freemediaheckyeah",
+                             "ref_id": "@s2961zkoooyclh:e67",
+                             "role": "statictext",
+                             "value": "Movies / TV / Anime \u2022 freemediaheckyeah"
+                            }
+                           ],
+                           "name": "Movies / TV / Anime \u2022 freemediaheckyeah",
+                           "ref_id": "@s2961zkoooyclh:e65",
+                           "role": "link"
+                          }
+                         ],
+                         "ref_id": "@s2961zkoooyclh:e31",
+                         "role": "group"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 11.0,
+                          "width": 555.0,
+                          "x": 2866.0,
+                          "y": 824.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo",
+                            "Select"
+                           ],
+                           "bounds": {
+                            "height": 11.0,
+                            "width": 40.0,
+                            "x": 3124.0,
+                            "y": 824.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 11.0,
+                              "width": 9.0,
+                              "x": 3129.0,
+                              "y": 824.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                               ],
+                               "bounds": {
+                                "height": 9.0,
+                                "width": 9.0,
+                                "x": 3129.0,
+                                "y": 825.0
+                               },
+                               "name": "Page 1",
+                               "ref_id": "@s2961zkoooyclh:e71",
+                               "role": "button"
+                              }
+                             ],
+                             "ref_id": "@s2961zkoooyclh:e70",
+                             "role": "group"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 11.0,
+                              "width": 9.0,
+                              "x": 3149.0,
+                              "y": 824.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                               ],
+                               "bounds": {
+                                "height": 9.0,
+                                "width": 9.0,
+                                "x": 3149.0,
+                                "y": 825.0
+                               },
+                               "name": "Page 2",
+                               "ref_id": "@s2961zkoooyclh:e73",
+                               "role": "button"
+                              }
+                             ],
+                             "ref_id": "@s2961zkoooyclh:e72",
+                             "role": "group"
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e69",
+                           "role": "list"
+                          }
+                         ],
+                         "name": "Pagination",
+                         "ref_id": "@s2961zkoooyclh:e68",
+                         "role": "navigation"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 119.0,
+                          "width": 625.0,
+                          "x": 2831.0,
+                          "y": 716.0
+                         },
+                         "ref_id": "@s2961zkoooyclh:e74",
+                         "role": "group"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 53.0,
+                          "width": 969.0,
+                          "x": 2659.0,
+                          "y": 870.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 53.0,
+                            "width": 458.0,
+                            "x": 2915.0,
+                            "y": 870.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 53.0,
+                              "width": 458.0,
+                              "x": 2915.0,
+                              "y": 870.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetValue",
+                                "SetFocus",
+                                "TypeText"
+                               ],
+                               "bounds": {
+                                "height": 25.0,
+                                "width": 355.0,
+                                "x": 2965.0,
+                                "y": 884.0
+                               },
+                               "name": "Ask anything, find anything\u2026",
+                               "ref_id": "@s2961zkoooyclh:e78",
+                               "role": "textfield"
+                              },
+                              {
+                               "available_actions": [
+                                "RightClick",
+                                "ScrollTo"
+                               ],
+                               "bounds": {
+                                "height": 34.0,
+                                "width": 33.0,
+                                "x": 2924.0,
+                                "y": 880.0
+                               },
+                               "children": [
+                                {
+                                 "available_actions": [
+                                  "Click",
+                                  "ScrollTo",
+                                  "SetFocus",
+                                  "Expand",
+                                  "Collapse"
+                                 ],
+                                 "bounds": {
+                                  "height": 34.0,
+                                  "width": 33.0,
+                                  "x": 2924.0,
+                                  "y": 880.0
+                                 },
+                                 "children": [
+                                  {
+                                   "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "ScrollTo",
+                                    "SetFocus"
+                                   ],
+                                   "bounds": {
+                                    "height": 18.0,
+                                    "width": 18.0,
+                                    "x": 2931.0,
+                                    "y": 888.0
+                                   },
+                                   "ref_id": "@s2961zkoooyclh:e81",
+                                   "role": "button"
+                                  }
+                                 ],
+                                 "ref_id": "@s2961zkoooyclh:e80",
+                                 "role": "combobox",
+                                 "states": [
+                                  "readonly"
+                                 ]
+                                }
+                               ],
+                               "ref_id": "@s2961zkoooyclh:e79",
+                               "role": "group"
+                              }
+                             ],
+                             "ref_id": "@s2961zkoooyclh:e77",
+                             "role": "group"
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e76",
+                           "role": "group"
+                          }
+                         ],
+                         "ref_id": "@s2961zkoooyclh:e75",
+                         "role": "group"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 25.0,
+                          "width": 128.0,
+                          "x": 3080.0,
+                          "y": 1009.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 23.0,
+                            "width": 128.0,
+                            "x": 3080.0,
+                            "y": 1012.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 14.0,
+                              "width": 110.0,
+                              "x": 3089.0,
+                              "y": 1016.0
+                             },
+                             "name": "Photo by Lezian Ilir",
+                             "ref_id": "@s2961zkoooyclh:e84",
+                             "role": "statictext",
+                             "value": "Photo by Lezian Ilir"
+                            }
+                           ],
+                           "name": "Photo by Lezian Ilir",
+                           "ref_id": "@s2961zkoooyclh:e83",
+                           "role": "link"
+                          }
+                         ],
+                         "ref_id": "@s2961zkoooyclh:e82",
+                         "role": "group"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 142.0,
+                          "width": 564.0,
+                          "x": 2862.0,
+                          "y": 1051.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 71.0,
+                            "width": 53.0,
+                            "x": 2862.0,
+                            "y": 1051.0
+                           },
+                           "ref_id": "@s2961zkoooyclh:e86",
+                           "role": "button"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 71.0,
+                            "width": 53.0,
+                            "x": 2862.0,
+                            "y": 1122.0
+                           },
+                           "ref_id": "@s2961zkoooyclh:e87",
+                           "role": "button"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 31.0,
+                            "width": 29.0,
+                            "x": 3383.0,
+                            "y": 1064.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "Click",
+                              "ScrollTo",
+                              "SetFocus",
+                              "Expand",
+                              "Collapse"
+                             ],
+                             "bounds": {
+                              "height": 31.0,
+                              "width": 29.0,
+                              "x": 3383.0,
+                              "y": 1064.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                               ],
+                               "bounds": {
+                                "height": 20.0,
+                                "width": 20.0,
+                                "x": 3388.0,
+                                "y": 1069.0
+                               },
+                               "children": [
+                                {
+                                 "available_actions": [
+                                  "RightClick",
+                                  "ScrollTo"
+                                 ],
+                                 "bounds": {
+                                  "height": 20.0,
+                                  "width": 20.0,
+                                  "x": 3388.0,
+                                  "y": 1069.0
+                                 },
+                                 "ref_id": "@s2961zkoooyclh:e91",
+                                 "role": "group"
+                                }
+                               ],
+                               "ref_id": "@s2961zkoooyclh:e90",
+                               "role": "button"
+                              }
+                             ],
+                             "ref_id": "@s2961zkoooyclh:e89",
+                             "role": "combobox",
+                             "states": [
+                              "readonly"
+                             ]
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e88",
+                           "role": "group"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 20.0,
+                            "width": 476.0,
+                            "x": 2932.0,
+                            "y": 1069.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 17.0,
+                              "width": 43.0,
+                              "x": 2932.0,
+                              "y": 1070.0
+                             },
+                             "name": "STATS",
+                             "ref_id": "@s2961zkoooyclh:e93",
+                             "role": "statictext",
+                             "value": "STATS"
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e92",
+                           "role": "group"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 29.0,
+                            "width": 135.0,
+                            "x": 2932.0,
+                            "y": 1113.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 75.0,
+                              "x": 2932.0,
+                              "y": 1114.0
+                             },
+                             "name": "22,498",
+                             "ref_id": "@s2961zkoooyclh:e95",
+                             "role": "statictext",
+                             "value": "22,498"
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e94",
+                           "role": "group"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 14.0,
+                            "width": 135.0,
+                            "x": 2932.0,
+                            "y": 1143.0
+                           },
+                           "name": "Trackers & ads blocked",
+                           "ref_id": "@s2961zkoooyclh:e96",
+                           "role": "statictext",
+                           "value": "Trackers & ads blocked"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 29.0,
+                            "width": 99.0,
+                            "x": 3144.0,
+                            "y": 1113.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 40.0,
+                              "x": 3144.0,
+                              "y": 1114.0
+                             },
+                             "name": "285",
+                             "ref_id": "@s2961zkoooyclh:e98",
+                             "role": "statictext",
+                             "value": "285"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 7.0,
+                              "x": 3184.0,
+                              "y": 1114.0
+                             },
+                             "name": ".",
+                             "ref_id": "@s2961zkoooyclh:e99",
+                             "role": "statictext",
+                             "value": "."
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 14.0,
+                              "x": 3190.0,
+                              "y": 1114.0
+                             },
+                             "name": "2",
+                             "ref_id": "@s2961zkoooyclh:e100",
+                             "role": "statictext",
+                             "value": "2"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 6.0,
+                              "x": 3203.0,
+                              "y": 1114.0
+                             },
+                             "ref_id": "@s2961zkoooyclh:e101",
+                             "role": "statictext",
+                             "value": " "
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 19.0,
+                              "width": 25.0,
+                              "x": 3208.0,
+                              "y": 1120.0
+                             },
+                             "name": "MB",
+                             "ref_id": "@s2961zkoooyclh:e102",
+                             "role": "statictext",
+                             "value": "MB"
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e97",
+                           "role": "group"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 14.0,
+                            "width": 99.0,
+                            "x": 3144.0,
+                            "y": 1143.0
+                           },
+                           "name": "Bandwidth saved",
+                           "ref_id": "@s2961zkoooyclh:e103",
+                           "role": "statictext",
+                           "value": "Bandwidth saved"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 29.0,
+                            "width": 89.0,
+                            "x": 3319.0,
+                            "y": 1113.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 25.0,
+                              "x": 3319.0,
+                              "y": 1114.0
+                             },
+                             "name": "19",
+                             "ref_id": "@s2961zkoooyclh:e105",
+                             "role": "statictext",
+                             "value": "19"
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 26.0,
+                              "width": 6.0,
+                              "x": 3343.0,
+                              "y": 1114.0
+                             },
+                             "ref_id": "@s2961zkoooyclh:e106",
+                             "role": "statictext",
+                             "value": " "
+                            },
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 19.0,
+                              "width": 60.0,
+                              "x": 3348.0,
+                              "y": 1120.0
+                             },
+                             "name": "Minutes",
+                             "ref_id": "@s2961zkoooyclh:e107",
+                             "role": "statictext",
+                             "value": "Minutes"
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e104",
+                           "role": "group"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 14.0,
+                            "width": 66.0,
+                            "x": 3319.0,
+                            "y": 1143.0
+                           },
+                           "name": "Time saved",
+                           "ref_id": "@s2961zkoooyclh:e108",
+                           "role": "statictext",
+                           "value": "Time saved"
+                          }
+                         ],
+                         "ref_id": "@s2961zkoooyclh:e85",
+                         "role": "group"
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 141.0,
+                          "width": 564.0,
+                          "x": 2862.0,
+                          "y": 1210.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 47.0,
+                            "width": 53.0,
+                            "x": 2862.0,
+                            "y": 1210.0
+                           },
+                           "ref_id": "@s2961zkoooyclh:e110",
+                           "role": "button"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 47.0,
+                            "width": 53.0,
+                            "x": 2862.0,
+                            "y": 1257.0
+                           },
+                           "ref_id": "@s2961zkoooyclh:e111",
+                           "role": "button"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 48.0,
+                            "width": 53.0,
+                            "x": 2862.0,
+                            "y": 1303.0
+                           },
+                           "ref_id": "@s2961zkoooyclh:e112",
+                           "role": "button"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 31.0,
+                            "width": 29.0,
+                            "x": 3383.0,
+                            "y": 1223.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "Click",
+                              "ScrollTo",
+                              "SetFocus",
+                              "Expand",
+                              "Collapse"
+                             ],
+                             "bounds": {
+                              "height": 31.0,
+                              "width": 29.0,
+                              "x": 3383.0,
+                              "y": 1223.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "Click",
+                                "RightClick",
+                                "ScrollTo",
+                                "SetFocus"
+                               ],
+                               "bounds": {
+                                "height": 20.0,
+                                "width": 20.0,
+                                "x": 3388.0,
+                                "y": 1227.0
+                               },
+                               "children": [
+                                {
+                                 "available_actions": [
+                                  "RightClick",
+                                  "ScrollTo"
+                                 ],
+                                 "bounds": {
+                                  "height": 20.0,
+                                  "width": 20.0,
+                                  "x": 3388.0,
+                                  "y": 1227.0
+                                 },
+                                 "ref_id": "@s2961zkoooyclh:e116",
+                                 "role": "group"
+                                }
+                               ],
+                               "ref_id": "@s2961zkoooyclh:e115",
+                               "role": "button"
+                              }
+                             ],
+                             "ref_id": "@s2961zkoooyclh:e114",
+                             "role": "combobox",
+                             "states": [
+                              "readonly"
+                             ]
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e113",
+                           "role": "group"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 16.0,
+                            "width": 76.0,
+                            "x": 2959.0,
+                            "y": 1229.0
+                           },
+                           "name": "BRAVE VPN",
+                           "ref_id": "@s2961zkoooyclh:e117",
+                           "role": "statictext",
+                           "value": "BRAVE VPN"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 14.0,
+                            "width": 67.0,
+                            "x": 3052.0,
+                            "y": 1230.0
+                           },
+                           "name": "Powered by",
+                           "ref_id": "@s2961zkoooyclh:e118",
+                           "role": "statictext",
+                           "value": "Powered by"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 13.0,
+                            "width": 61.0,
+                            "x": 3123.0,
+                            "y": 1231.0
+                           },
+                           "name": "/93ac61335b53dcf0bf241bb832e71066.svg",
+                           "ref_id": "@s2961zkoooyclh:e119",
+                           "role": "image"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 15.0,
+                            "width": 176.0,
+                            "x": 2954.0,
+                            "y": 1257.0
+                           },
+                           "name": "Extra privacy & security online",
+                           "ref_id": "@s2961zkoooyclh:e120",
+                           "role": "statictext",
+                           "value": "Extra privacy & security online"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 15.0,
+                            "width": 207.0,
+                            "x": 2954.0,
+                            "y": 1279.0
+                           },
+                           "name": "Hide your IP & change your location",
+                           "ref_id": "@s2961zkoooyclh:e121",
+                           "role": "statictext",
+                           "value": "Hide your IP & change your location"
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 15.0,
+                            "width": 191.0,
+                            "x": 2954.0,
+                            "y": 1301.0
+                           },
+                           "name": "Protect every app on your device",
+                           "ref_id": "@s2961zkoooyclh:e122",
+                           "role": "statictext",
+                           "value": "Protect every app on your device"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 40.0,
+                            "width": 127.0,
+                            "x": 3281.0,
+                            "y": 1256.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 20.0,
+                              "width": 101.0,
+                              "x": 3294.0,
+                              "y": 1266.0
+                             },
+                             "children": [
+                              {
+                               "available_actions": [
+                                "RightClick",
+                                "ScrollTo"
+                               ],
+                               "bounds": {
+                                "height": 17.0,
+                                "width": 91.0,
+                                "x": 3299.0,
+                                "y": 1267.0
+                               },
+                               "name": "Start free trial",
+                               "ref_id": "@s2961zkoooyclh:e125",
+                               "role": "statictext",
+                               "value": "Start free trial"
+                              }
+                             ],
+                             "ref_id": "@s2961zkoooyclh:e124",
+                             "role": "group"
+                            }
+                           ],
+                           "name": "Start free trial",
+                           "ref_id": "@s2961zkoooyclh:e123",
+                           "role": "button"
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 18.0,
+                            "width": 115.0,
+                            "x": 3287.0,
+                            "y": 1300.0
+                           },
+                           "name": "Already purchased?",
+                           "ref_id": "@s2961zkoooyclh:e126",
+                           "role": "button"
+                          }
+                         ],
+                         "ref_id": "@s2961zkoooyclh:e109",
+                         "role": "group"
+                        }
+                       ],
+                       "ref_id": "@s2961zkoooyclh:e27",
+                       "role": "main"
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 0.0,
+                        "width": 1021.0,
+                        "x": 2633.0,
+                        "y": 1368.0
+                       },
+                       "children": [
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 0.0,
+                          "width": 568.0,
+                          "x": 2860.0,
+                          "y": 1368.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 0.0,
+                            "width": 432.0,
+                            "x": 2928.0,
+                            "y": 1368.0
+                           },
+                           "name": "Turn on Brave News and never miss a story",
+                           "ref_id": "@s2961zkoooyclh:e129",
+                           "role": "statictext",
+                           "states": [
+                            "offscreen"
+                           ],
+                           "value": "Turn on Brave News and never miss a story"
+                          }
+                         ],
+                         "name": "Turn on Brave News and never miss a story",
+                         "ref_id": "@s2961zkoooyclh:e128",
+                         "role": "heading",
+                         "states": [
+                          "offscreen"
+                         ]
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 0.0,
+                          "width": 568.0,
+                          "x": 2860.0,
+                          "y": 1368.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 0.0,
+                            "width": 549.0,
+                            "x": 2869.0,
+                            "y": 1368.0
+                           },
+                           "name": "Follow your favourite sources, in a single feed. Just open a tab in Brave, scroll down, and \u2026 voila!",
+                           "ref_id": "@s2961zkoooyclh:e131",
+                           "role": "statictext",
+                           "states": [
+                            "offscreen"
+                           ],
+                           "value": "Follow your favourite sources, in a single feed. Just open a tab in Brave, scroll down, and \u2026 voila!"
+                          }
+                         ],
+                         "ref_id": "@s2961zkoooyclh:e130",
+                         "role": "group",
+                         "states": [
+                          "offscreen"
+                         ]
+                        },
+                        {
+                         "available_actions": [
+                          "RightClick",
+                          "ScrollTo"
+                         ],
+                         "bounds": {
+                          "height": 0.0,
+                          "width": 568.0,
+                          "x": 2860.0,
+                          "y": 1368.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 0.0,
+                            "width": 421.0,
+                            "x": 2889.0,
+                            "y": 1368.0
+                           },
+                           "name": "Brave News is ad-supported with private, anonymised ads. ",
+                           "ref_id": "@s2961zkoooyclh:e133",
+                           "role": "statictext",
+                           "states": [
+                            "offscreen"
+                           ],
+                           "value": "Brave News is ad-supported with private, anonymised ads. "
+                          },
+                          {
+                           "available_actions": [
+                            "Click",
+                            "RightClick",
+                            "ScrollTo",
+                            "SetFocus"
+                           ],
+                           "bounds": {
+                            "height": 0.0,
+                            "width": 85.0,
+                            "x": 3309.0,
+                            "y": 1368.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 0.0,
+                              "width": 85.0,
+                              "x": 3309.0,
+                              "y": 1368.0
+                             },
+                             "name": "Learn more.",
+                             "ref_id": "@s2961zkoooyclh:e135",
+                             "role": "statictext",
+                             "states": [
+                              "offscreen"
+                             ],
+                             "value": "Learn more."
+                            }
+                           ],
+                           "name": "Learn more.",
+                           "ref_id": "@s2961zkoooyclh:e134",
+                           "role": "link",
+                           "states": [
+                            "offscreen"
+                           ]
+                          },
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 0.0,
+                            "width": 5.0,
+                            "x": 3394.0,
+                            "y": 1368.0
+                           },
+                           "name": ".",
+                           "ref_id": "@s2961zkoooyclh:e136",
+                           "role": "statictext",
+                           "states": [
+                            "offscreen"
+                           ],
+                           "value": "."
+                          }
+                         ],
+                         "ref_id": "@s2961zkoooyclh:e132",
+                         "role": "group",
+                         "states": [
+                          "offscreen"
+                         ]
+                        },
+                        {
+                         "available_actions": [
+                          "Click",
+                          "RightClick",
+                          "ScrollTo",
+                          "SetFocus"
+                         ],
+                         "bounds": {
+                          "height": 0.0,
+                          "width": 568.0,
+                          "x": 2860.0,
+                          "y": 1368.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 0.0,
+                            "width": 157.0,
+                            "x": 3065.0,
+                            "y": 1368.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 0.0,
+                              "width": 148.0,
+                              "x": 3070.0,
+                              "y": 1368.0
+                             },
+                             "name": "Turn on Brave News",
+                             "ref_id": "@s2961zkoooyclh:e139",
+                             "role": "statictext",
+                             "states": [
+                              "offscreen"
+                             ],
+                             "value": "Turn on Brave News"
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e138",
+                           "role": "group",
+                           "states": [
+                            "offscreen"
+                           ]
+                          }
+                         ],
+                         "name": "Turn on Brave News",
+                         "ref_id": "@s2961zkoooyclh:e137",
+                         "role": "button",
+                         "states": [
+                          "offscreen"
+                         ]
+                        },
+                        {
+                         "available_actions": [
+                          "Click",
+                          "RightClick",
+                          "ScrollTo",
+                          "SetFocus"
+                         ],
+                         "bounds": {
+                          "height": 0.0,
+                          "width": 568.0,
+                          "x": 2860.0,
+                          "y": 1368.0
+                         },
+                         "children": [
+                          {
+                           "available_actions": [
+                            "RightClick",
+                            "ScrollTo"
+                           ],
+                           "bounds": {
+                            "height": 0.0,
+                            "width": 89.0,
+                            "x": 3099.0,
+                            "y": 1368.0
+                           },
+                           "children": [
+                            {
+                             "available_actions": [
+                              "RightClick",
+                              "ScrollTo"
+                             ],
+                             "bounds": {
+                              "height": 0.0,
+                              "width": 80.0,
+                              "x": 3104.0,
+                              "y": 1368.0
+                             },
+                             "name": "No, thanks",
+                             "ref_id": "@s2961zkoooyclh:e142",
+                             "role": "statictext",
+                             "states": [
+                              "offscreen"
+                             ],
+                             "value": "No, thanks"
+                            }
+                           ],
+                           "ref_id": "@s2961zkoooyclh:e141",
+                           "role": "group",
+                           "states": [
+                            "offscreen"
+                           ]
+                          }
+                         ],
+                         "name": "No, thanks",
+                         "ref_id": "@s2961zkoooyclh:e140",
+                         "role": "button",
+                         "states": [
+                          "offscreen"
+                         ]
+                        }
+                       ],
+                       "ref_id": "@s2961zkoooyclh:e127",
+                       "role": "group",
+                       "states": [
+                        "offscreen"
+                       ]
+                      },
+                      {
+                       "available_actions": [
+                        "RightClick",
+                        "ScrollTo"
+                       ],
+                       "bounds": {
+                        "height": 0.0,
+                        "width": 1021.0,
+                        "x": 2633.0,
+                        "y": 1368.0
+                       },
+                       "ref_id": "@s2961zkoooyclh:e143",
+                       "role": "group",
+                       "states": [
+                        "offscreen"
+                       ]
+                      }
+                     ],
+                     "native_id": {
+                      "kind": "ax_dom_identifier",
+                      "value": "root"
+                     },
+                     "ref_id": "@s2961zkoooyclh:e24",
+                     "role": "group"
+                    }
+                   ],
+                   "name": "New Tab",
+                   "ref_id": "@s2961zkoooyclh:e23",
+                   "role": "webarea",
+                   "states": [
+                    "focused"
+                   ]
+                  }
+                 ],
+                 "role": "group"
+                }
+               ],
+               "role": "group"
+              }
+             ],
+             "role": "group"
+            },
+            {
+             "available_actions": [
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 40.0,
+              "width": 950.0,
+              "x": 2719.0,
+              "y": 566.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 28.0,
+                "x": 3631.0,
+                "y": 566.0
+               },
+               "children": [
+                {
+                 "available_actions": [
+                  "Click",
+                  "SetValue",
+                  "Select",
+                  "SetFocus",
+                  "TypeText",
+                  "Expand",
+                  "Collapse"
+                 ],
+                 "bounds": {
+                  "height": 28.0,
+                  "width": 28.0,
+                  "x": 3631.0,
+                  "y": 572.0
+                 },
+                 "name": "Tab search",
+                 "ref_id": "@s2961zkoooyclh:e144",
+                 "role": "combobox"
+                }
+               ],
+               "role": "group"
+              },
+              {
+               "available_actions": [
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 248.0,
+                "x": 2722.0,
+                "y": 566.0
+               },
+               "children": [
+                {
+                 "bounds": {
+                  "height": 40.0,
+                  "width": 248.0,
+                  "x": 2722.0,
+                  "y": 566.0
+                 },
+                 "children": [
+                  {
+                   "available_actions": [
+                    "Click",
+                    "Toggle",
+                    "RightClick",
+                    "SetValue",
+                    "SetFocus"
+                   ],
+                   "bounds": {
+                    "height": 40.0,
+                    "width": 248.0,
+                    "x": 2722.0,
+                    "y": 566.0
+                   },
+                   "children": [
+                    {
+                     "available_actions": [
+                      "Click",
+                      "SetFocus"
+                     ],
+                     "bounds": {
+                      "height": 28.0,
+                      "width": 28.0,
+                      "x": 2937.0,
+                      "y": 572.0
+                     },
+                     "name": "Close",
+                     "ref_id": "@s2961zkoooyclh:e146",
+                     "role": "button"
+                    }
+                   ],
+                   "name": "New tab - Memory usage - 79.8 MB",
+                   "native_id": {
+                    "kind": "ax_dom_identifier",
+                    "value": "view_20"
+                   },
+                   "ref_id": "@s2961zkoooyclh:e145",
+                   "role": "radiobutton",
+                   "states": [
+                    "checked",
+                    "selected"
+                   ],
+                   "value": "true"
+                  }
+                 ],
+                 "role": "tablist"
+                }
+               ],
+               "native_id": {
+                "kind": "ax_dom_identifier",
+                "value": "view_21"
+               },
+               "role": "group"
+              },
+              {
+               "available_actions": [
+                "Click",
+                "RightClick",
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 40.0,
+                "width": 28.0,
+                "x": 2974.0,
+                "y": 566.0
+               },
+               "name": "New tab",
+               "ref_id": "@s2961zkoooyclh:e147",
+               "role": "button"
+              }
+             ],
+             "role": "group"
+            },
+            {
+             "available_actions": [
+              "SetFocus"
+             ],
+             "bounds": {
+              "height": 0.0,
+              "width": 0.0,
+              "x": 2633.0,
+              "y": 566.0
+             },
+             "children": [
+              {
+               "available_actions": [
+                "RightClick",
+                "SetFocus"
+               ],
+               "bounds": {
+                "height": 0.0,
+                "width": 0.0,
+                "x": 2633.0,
+                "y": 566.0
+               },
+               "ref_id": "@s2961zkoooyclh:e148",
+               "role": "group",
+               "states": [
+                "offscreen"
+               ]
+              }
+             ],
+             "role": "group",
+             "states": [
+              "offscreen"
+             ]
+            }
+           ],
+           "role": "group"
+          }
+         ],
+         "role": "group"
+        }
+       ],
+       "ref_id": "@s2961zkoooyclh:e1",
+       "role": "group"
+      }
+     ],
+     "name": "New tab - Brave",
+     "role": "group"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2645.0,
+      "y": 578.0
+     },
+     "ref_id": "@s2961zkoooyclh:e149",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click",
+      "RightClick"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2691.0,
+      "y": 578.0
+     },
+     "ref_id": "@s2961zkoooyclh:e150",
+     "role": "button"
+    },
+    {
+     "available_actions": [
+      "Click"
+     ],
+     "bounds": {
+      "height": 16.0,
+      "width": 16.0,
+      "x": 2668.0,
+      "y": 578.0
+     },
+     "ref_id": "@s2961zkoooyclh:e151",
+     "role": "button"
+    }
+   ],
+   "name": "New tab - Brave",
+   "role": "window"
+  },
+  "window": {
+   "id": "w-28472",
+   "title": "New tab"
+  }
+ }
+}

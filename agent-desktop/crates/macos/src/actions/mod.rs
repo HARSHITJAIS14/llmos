@@ -1,0 +1,34 @@
+pub(crate) mod activate_descendant;
+pub(crate) mod activation_effect;
+mod adapter;
+pub(crate) mod ax_helpers;
+#[cfg(target_os = "macos")]
+pub(crate) mod ax_mutation;
+pub(crate) mod chain;
+mod chain_context;
+mod chain_def;
+pub(crate) mod chain_defs;
+mod chain_delivery;
+pub(crate) mod chain_disclosure_steps;
+pub(crate) mod chain_menu_steps;
+mod chain_step;
+pub(crate) mod chain_step_exec;
+pub(crate) mod chain_value_write;
+pub(crate) mod chain_verify;
+pub(crate) mod container_select;
+pub(crate) mod delivery_tracker;
+pub(crate) mod dispatch;
+pub(crate) mod extras;
+mod physical_click;
+mod physical_keyboard;
+mod physical_target;
+pub(crate) mod post_state;
+pub(crate) mod scroll;
+pub(crate) mod scroll_into_view;
+mod scroll_read;
+pub(crate) mod select_menu;
+pub(crate) mod toggle_state;
+pub(crate) mod type_text;
+
+pub(crate) use delivery_tracker::DeliveryTracker;
+pub(crate) use dispatch::perform_action;

@@ -1,0 +1,67 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Discord",
+    "complete": true,
+    "ref_count": 3,
+    "snapshot_id": "s7iacd65fehrv",
+    "tree": {
+      "children": [
+        {
+          "available_actions": [
+            "SetFocus"
+          ],
+          "children": [
+            {
+              "available_actions": [
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "SetFocus"
+                  ],
+                  "children_count": 1,
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "name": "Friends - Discord",
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s7iacd65fehrv:e1",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "ref_id": "@s7iacd65fehrv:e2",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "ref_id": "@s7iacd65fehrv:e3",
+          "role": "button"
+        }
+      ],
+      "name": "Friends - Discord",
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28267",
+      "title": "Friends - Discord"
+    }
+  }
+}

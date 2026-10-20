@@ -1,0 +1,5 @@
+{
+  "repo": "microsoft/Florence-2-base-ft",
+  "revision": "f6c1a25888ffc1d945ee8a1a77ac833c7303d46e",
+  "adaptation": "auto_map repo prefix removed to load pinned local code"
+}

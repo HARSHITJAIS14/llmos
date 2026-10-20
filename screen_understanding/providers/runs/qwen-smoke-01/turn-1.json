@@ -1,0 +1,57 @@
+{
+  "response": {
+    "id": "gen-1792294662-KDw321UasDDXGT4GVGcA",
+    "object": "chat.completion",
+    "created": 1792294662,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Cerebras",
+    "system_fingerprint": "fp_829e8c8e5020fd230ff0",
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "\n\n3",
+          "refusal": null,
+          "reasoning": "User asks: How many r's are in the word 'strawberry'? Need answer briefly. Let's count: strawberry letters s t r a w b e r r y. r at position 3, 8, 9? Let's spell: s(1) t(2) r(3) a(4) w(5) b(6) e(7) r(8) r(9) y(10). So 3 r's. Need brief.\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "User asks: How many r's are in the word 'strawberry'? Need answer briefly. Let's count: strawberry letters s t r a w b e r r y. r at position 3, 8, 9? Let's spell: s(1) t(2) r(3) a(4) w(5) b(6) e(7) r(8) r(9) y(10). So 3 r's. Need brief.\n",
+              "format": "unknown",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 68,
+      "completion_tokens": 108,
+      "total_tokens": 176,
+      "cost": 0.00022824,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00022824,
+        "upstream_inference_prompt_cost": 6.732e-05,
+        "upstream_inference_completions_cost": 0.00016092
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 105,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "total_seconds": 3.308385125012137
+}

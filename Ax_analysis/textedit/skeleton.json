@@ -1,0 +1,248 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "TextEdit",
+    "complete": true,
+    "ref_count": 15,
+    "snapshot_id": "s2aqtn1hmtswif",
+    "tree": {
+      "children": [
+        {
+          "children": [
+            {
+              "available_actions": [
+                "Scroll",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Select",
+                    "SetFocus"
+                  ],
+                  "children_count": 31,
+                  "name": "sidebar",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:8"
+                  },
+                  "ref_id": "@s2aqtn1hmtswif:e2",
+                  "role": "outline"
+                },
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "children_count": 5,
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:70"
+                  },
+                  "ref_id": "@s2aqtn1hmtswif:e3",
+                  "role": "scrollbar",
+                  "value": "0"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:61"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e1",
+              "role": "scrollarea"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "children_count": 2,
+                  "name": "column view",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "ColumnView"
+                  },
+                  "ref_id": "@s2aqtn1hmtswif:e4",
+                  "role": "browser"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "name": "back",
+                  "ref_id": "@s2aqtn1hmtswif:e5",
+                  "role": "button",
+                  "states": [
+                    "disabled"
+                  ]
+                },
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "name": "forward",
+                  "ref_id": "@s2aqtn1hmtswif:e6",
+                  "role": "button",
+                  "states": [
+                    "disabled"
+                  ]
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:16"
+              },
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "name": "column view",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "View Options"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e7",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "Group or Sort By"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e8",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "name": "Where:",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "where popup"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e9",
+              "role": "combobox",
+              "states": [
+                "readonly"
+              ],
+              "value": "Quant"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "RightClick",
+                "SetValue",
+                "SetFocus"
+              ],
+              "children": [
+                {
+                  "available_actions": [
+                    "Click"
+                  ],
+                  "name": "search",
+                  "ref_id": "@s2aqtn1hmtswif:e11",
+                  "role": "button"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "Search"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e10",
+              "role": "textfield"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "New Document",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "NewDocumentButton"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e12",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Show Options",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OptionsButton"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e13",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus"
+              ],
+              "name": "Cancel",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "CancelButton"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e14",
+              "role": "button"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "name": "Open",
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "OKButton"
+              },
+              "ref_id": "@s2aqtn1hmtswif:e15",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            }
+          ],
+          "role": "group"
+        }
+      ],
+      "name": "Open",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "open-panel"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-28178",
+      "title": "Open"
+    }
+  }
+}

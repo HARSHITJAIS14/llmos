@@ -1,0 +1,2 @@
+{"screen_id": "mac_0001", "stage": "stage_c_global", "model": "gemini-3.8-flash", "thinking_level": "HIGH", "elapsed_seconds": 80.7378, "prompt_tokens": 6304, "candidates_tokens": 1253, "thoughts_tokens": 9894, "total_tokens": 17451, "finish_reason": "STOP"}
+{"screen_id": "mac_0001", "stage": "stage_d_regional", "model": "gemini-3.8-flash", "thinking_level": "HIGH", "elapsed_seconds": 231.5642, "prompt_tokens": 8720, "candidates_tokens": 12602, "thoughts_tokens": 30174, "total_tokens": 51496, "finish_reason": "STOP"}

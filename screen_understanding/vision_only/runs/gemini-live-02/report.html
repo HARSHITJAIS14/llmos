@@ -1,0 +1,139 @@
+<!doctype html><meta charset="utf-8"><title>Recursive screen interpretation</title><style>body{font:16px system-ui;background:#f5f5f5;max-width:1200px;margin:32px auto;padding:16px}img{max-width:100%;height:auto}article{background:white;padding:24px;margin:24px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}</style><h1>Recursive screen interpretation</h1><p>Model hypotheses; inspect evidence and uncertainty.</p><img src="overview.png"><h2>Reconciled context</h2><pre>{}</pre><article id="r0"><h2>r0: browser_youtube_window</h2><img src="crops/r0.png"><pre>{
+  &quot;id&quot;: &quot;r0&quot;,
+  &quot;parent&quot;: null,
+  &quot;depth&quot;: 0,
+  &quot;label&quot;: &quot;browser_youtube_window&quot;,
+  &quot;box&quot;: [
+    0,
+    0,
+    2398,
+    1830
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;crop_file&quot;: &quot;crops/r0.png&quot;,
+  &quot;crop_box&quot;: [
+    0,
+    0,
+    2398,
+    1830
+  ],
+  &quot;observations&quot;: [
+    &quot;Mac OS style window frame with top controls (red, yellow, green buttons).&quot;,
+    &quot;Safari-style tab and URL bar showing &#x27;youtube.com&#x27;.&quot;,
+    &quot;YouTube Premium interface header with search bar, create button, notifications badge (&#x27;9+&#x27;), and profile icon (&#x27;H&#x27;).&quot;,
+    &quot;Main content area with embedded video player displaying logos (Founders Fund, Polymarket, Lighter, Figma, Varda, etc.).&quot;,
+    &quot;Video metadata underneath: title &#x27;Brian Singerman: \&quot;If SpaceX Didn&#x27;t Work, Founders Fund Wouldn&#x27;t Exist\&quot;&#x27;, channel &#x27;Sourcery with Molly O&#x27;Shea&#x27;, Subscribe button, like/dislike/share buttons, and expandable description box.&quot;,
+    &quot;Right sidebar containing recommendation video list with category filter pills at the top.&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;Desktop web browser running YouTube viewing an interview video.&quot;,
+    &quot;The video content features a discussion about Founders Fund portfolio companies.&quot;
+  ],
+  &quot;uncertainties&quot;: [],
+  &quot;proposal_issues&quot;: []
+}</pre></article><article id="r1"><h2>r1: window_titlebar</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r1&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;window_titlebar&quot;,
+  &quot;box&quot;: [
+    113,
+    81,
+    2285,
+    243
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Standard macOS window controls, tabs, and URL bar.&quot;
+}</pre></article><article id="r2"><h2>r2: youtube_header</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r2&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;youtube_header&quot;,
+  &quot;box&quot;: [
+    113,
+    243,
+    2285,
+    375
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Main navigation and search header of YouTube.&quot;
+}</pre></article><article id="r3"><h2>r3: video_player_content_area</h2><img src="crops/r3.png"><pre>{
+  &quot;id&quot;: &quot;r3&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_player_content_area&quot;,
+  &quot;box&quot;: [
+    141,
+    392,
+    1549,
+    1180
+  ],
+  &quot;status&quot;: &quot;analyzed&quot;,
+  &quot;reason&quot;: &quot;Examine video player controls, current timestamp, and embedded graphics detail.&quot;,
+  &quot;crop_file&quot;: &quot;crops/r3.png&quot;,
+  &quot;crop_box&quot;: [
+    94,
+    345,
+    1596,
+    1227
+  ],
+  &quot;observations&quot;: [
+    &quot;A white-to-grey gradient background displayed within the YouTube video player viewport.&quot;,
+    &quot;Upper left contains Founders Fund logo with stripes icon.&quot;,
+    &quot;Upper right shows a hamburger menu icon inside the video frame.&quot;,
+    &quot;Rows of company logos displayed: Polymarket, Lighter, Figma, Varda Space Industries, General Matter, Impulse Space, Hadrian, ENTER.&quot;,
+    &quot;Overlayed italic stylized text &#x27;AT THE BEST PRICE POSSIBLE&#x27; centered over Impulse and Hadrian.&quot;,
+    &quot;Bottom right corner features a square watermark icon with &#x27;S Sourcery&#x27;.&quot;
+  ],
+  &quot;interpretations&quot;: [
+    &quot;Frame from an interview video displaying portfolio companies or investments associated with Founders Fund.&quot;
+  ],
+  &quot;uncertainties&quot;: [],
+  &quot;proposal_issues&quot;: []
+}</pre></article><article id="r4"><h2>r4: video_details</h2><img src="crops/r4.png"><pre>{
+  &quot;id&quot;: &quot;r4&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;video_details&quot;,
+  &quot;box&quot;: [
+    141,
+    1211,
+    1549,
+    1629
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Contains video title, channel info, action buttons, and text description.&quot;,
+  &quot;crop_file&quot;: &quot;crops/r4.png&quot;,
+  &quot;crop_box&quot;: [
+    116,
+    1186,
+    1574,
+    1654
+  ]
+}</pre></article><article id="r5"><h2>r5: recommended_sidebar</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r5&quot;,
+  &quot;parent&quot;: &quot;r0&quot;,
+  &quot;depth&quot;: 1,
+  &quot;label&quot;: &quot;recommended_sidebar&quot;,
+  &quot;box&quot;: [
+    1573,
+    392,
+    2230,
+    1654
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Sidebar list of related videos and category chips.&quot;
+}</pre></article><article id="r6"><h2>r6: video_viewport</h2><img src="source.png"><pre>{
+  &quot;id&quot;: &quot;r6&quot;,
+  &quot;parent&quot;: &quot;r3&quot;,
+  &quot;depth&quot;: 2,
+  &quot;label&quot;: &quot;video_viewport&quot;,
+  &quot;box&quot;: [
+    150,
+    394,
+    1545,
+    1150
+  ],
+  &quot;status&quot;: &quot;uninspected&quot;,
+  &quot;reason&quot;: &quot;Main video player screen showing graphic slides.&quot;
+}</pre></article>

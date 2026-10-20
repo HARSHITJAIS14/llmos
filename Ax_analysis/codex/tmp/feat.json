@@ -1,0 +1,1333 @@
+{
+ "antigravity_ide": {
+  "app": "antigravity_ide",
+  "src": "full.json",
+  "n_nodes": 22,
+  "max_depth": 10,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 15,
+   "webarea": 1,
+   "list": 2,
+   "button": 3
+  },
+  "actions": {
+   "SetFocus": 7,
+   "RightClick": 13,
+   "ScrollTo": 12,
+   "Click": 5,
+   "Select": 2
+  },
+  "native_kinds": {
+   "other": 1
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': 'fc2ef056-4526-4a92-8": 1
+  },
+  "webareas": [
+   [
+    7,
+    11
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 5,
+  "named_groups": 1,
+  "states": {
+   "offscreen": 6
+  }
+ },
+ "brave_browser": {
+  "app": "brave_browser",
+  "src": "forced.json",
+  "n_nodes": 170,
+  "max_depth": 16,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 48,
+   "toolbar": 3,
+   "button": 29,
+   "image": 14,
+   "textfield": 2,
+   "combobox": 11,
+   "statictext": 40,
+   "link": 15,
+   "webarea": 1,
+   "main": 1,
+   "navigation": 1,
+   "list": 1,
+   "heading": 1,
+   "tablist": 1,
+   "radiobutton": 1
+  },
+  "actions": {
+   "SetFocus": 74,
+   "RightClick": 134,
+   "Click": 59,
+   "SetValue": 11,
+   "TypeText": 10,
+   "Select": 9,
+   "Expand": 11,
+   "Collapse": 11,
+   "ScrollTo": 121,
+   "Toggle": 1
+  },
+  "native_kinds": {
+   "other": 15
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': 'view_1000'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'view_1001'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'view_1002'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'view_1003'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'view_1005'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'view_1011'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'view_1012'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'view_1009'}": 1
+  },
+  "webareas": [
+   [
+    8,
+    120
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 8,
+  "named_groups": 1,
+  "states": {
+   "disabled": 2,
+   "focused": 2,
+   "readonly": 3,
+   "offscreen": 19,
+   "checked": 1,
+   "selected": 1
+  }
+ },
+ "calendar": {
+  "app": "calendar",
+  "src": "forced.json",
+  "n_nodes": 170,
+  "max_depth": 7,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 6,
+   "scrollarea": 1,
+   "outline": 1,
+   "treeitem": 12,
+   "cell": 12,
+   "textfield": 7,
+   "checkbox": 9,
+   "button": 99,
+   "scrollbar": 1,
+   "handle": 1,
+   "grid": 2,
+   "list": 1,
+   "statictext": 6,
+   "unknown": 1,
+   "combobox": 1,
+   "toolbar": 1,
+   "radiogroup": 2,
+   "radiobutton": 6
+  },
+  "actions": {
+   "Scroll": 1,
+   "SetFocus": 33,
+   "RightClick": 16,
+   "Select": 2,
+   "Click": 140,
+   "SetValue": 8,
+   "Toggle": 15,
+   "Expand": 1,
+   "Collapse": 1
+  },
+  "native_kinds": {
+   "other": 36
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'calendar-checkbox-button": 9,
+   "{'kind': 'ax_identifier', 'value': 'calendarlist-title-field": 6,
+   "{'kind': 'ax_identifier', 'value': 'CALMainWindow'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'CalendarsView'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'MiniCalPrevMonthButton'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'MiniCalNextMonthButton'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'active-view'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'sidebar-mini-month'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 0,
+  "named_groups": 1,
+  "states": {
+   "expanded": 3,
+   "focused": 13,
+   "checked": 11,
+   "selected": 3,
+   "pressed": 4,
+   "readonly": 1
+  }
+ },
+ "claude": {
+  "app": "claude",
+  "src": "forced.json",
+  "n_nodes": 36,
+  "max_depth": 14,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 22,
+   "webarea": 2,
+   "statictext": 6,
+   "button": 4,
+   "status": 1
+  },
+  "actions": {
+   "SetFocus": 12,
+   "RightClick": 25,
+   "ScrollTo": 24,
+   "Click": 4
+  },
+  "native_kinds": {
+   "other": 4
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': 'root'}": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'portal-root'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': '_r_0_'}": 1
+  },
+  "webareas": [
+   [
+    7,
+    1
+   ],
+   [
+    8,
+    21
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 7,
+  "named_groups": 2,
+  "states": {
+   "focused": 2,
+   "offscreen": 2
+  }
+ },
+ "discord": {
+  "app": "discord",
+  "src": "forced.json",
+  "n_nodes": 507,
+  "max_depth": 25,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 276,
+   "webarea": 1,
+   "log": 2,
+   "button": 19,
+   "statictext": 108,
+   "link": 24,
+   "navigation": 3,
+   "outline": 1,
+   "treeitem": 18,
+   "image": 33,
+   "list": 2,
+   "heading": 5,
+   "combobox": 1,
+   "splitter": 1,
+   "switch": 2,
+   "main": 1,
+   "tablist": 1,
+   "radiobutton": 4,
+   "tabpanel": 1,
+   "textfield": 1,
+   "status": 1,
+   "complementary": 1
+  },
+  "actions": {
+   "SetFocus": 76,
+   "RightClick": 497,
+   "ScrollTo": 497,
+   "Click": 51,
+   "Select": 3,
+   "Expand": 1,
+   "Collapse": 1,
+   "Toggle": 6,
+   "SetValue": 6,
+   "TypeText": 1
+  },
+  "native_kinds": {
+   "other": 36
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': 'app-mount'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': '_r_7_'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': '_r_a_'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': '_r_c_'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': '_r_g_'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': '_r_j_'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': '_r_l_'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': '_r_o_'}": 1
+  },
+  "webareas": [
+   [
+    7,
+    496
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 71,
+  "named_groups": 3,
+  "states": {
+   "focused": 1,
+   "disabled": 2,
+   "selected": 2,
+   "readonly": 1,
+   "checked": 1,
+   "offscreen": 1
+  }
+ },
+ "finder": {
+  "app": "finder",
+  "src": "forced.json",
+  "n_nodes": 1599,
+  "max_depth": 7,
+  "complete": false,
+  "roles": {
+   "window": 1,
+   "group": 767,
+   "scrollarea": 2,
+   "outline": 1,
+   "treeitem": 27,
+   "cell": 27,
+   "button": 5,
+   "scrollbar": 1,
+   "handle": 1,
+   "browser": 1,
+   "list": 1,
+   "textfield": 765
+  },
+  "actions": {
+   "Scroll": 3,
+   "RightClick": 768,
+   "Select": 2,
+   "Click": 821,
+   "SetFocus": 4,
+   "SetValue": 767
+  },
+  "native_kinds": {
+   "other": 5
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'FinderWindow'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:61'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:8'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:70'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'ColumnView'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 6,
+  "group_chain": 0,
+  "named_groups": 0,
+  "states": {
+   "selected": 2,
+   "focused": 793,
+   "expanded": 3,
+   "offscreen": 1535
+  }
+ },
+ "firefox": {
+  "app": "firefox",
+  "src": "forced.json",
+  "n_nodes": 288,
+  "max_depth": 21,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 133,
+   "toolbar": 3,
+   "button": 58,
+   "splitter": 3,
+   "combobox": 2,
+   "image": 2,
+   "tablist": 2,
+   "radiobutton": 3,
+   "statictext": 37,
+   "switch": 5,
+   "tabpanel": 1,
+   "scrollarea": 1,
+   "webarea": 1,
+   "complementary": 3,
+   "heading": 10,
+   "article": 3,
+   "link": 12,
+   "main": 1,
+   "list": 3,
+   "incrementor": 1,
+   "radiogroup": 1,
+   "status": 1,
+   "alert": 1
+  },
+  "actions": {
+   "Click": 279,
+   "RightClick": 283,
+   "ScrollTo": 284,
+   "SetFocus": 62,
+   "Expand": 2,
+   "Collapse": 2,
+   "SetValue": 2,
+   "Select": 4,
+   "TypeText": 1,
+   "Toggle": 8
+  },
+  "native_kinds": {
+   "other": 56
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': 'main-button'}": 28,
+   "{'kind': 'ax_dom_identifier', 'value': 'customizableui-speci": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'nav-bar'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'sidebar-button'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'back-button'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'forward-button'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'reload-button'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'vertical-spacer'}": 1
+  },
+  "webareas": [
+   [
+    5,
+    220
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 21,
+  "named_groups": 8,
+  "states": {
+   "disabled": 2,
+   "readonly": 1,
+   "checked": 2,
+   "selected": 1,
+   "focused": 1,
+   "offscreen": 39
+  }
+ },
+ "gemini": {
+  "app": "gemini",
+  "src": "forced.json",
+  "n_nodes": 222,
+  "max_depth": 9,
+  "complete": false,
+  "roles": {
+   "window": 1,
+   "group": 9,
+   "button": 78,
+   "textfield": 2,
+   "scrollarea": 2,
+   "outline": 1,
+   "treeitem": 60,
+   "cell": 60,
+   "heading": 2,
+   "scrollbar": 1,
+   "handle": 1,
+   "menubutton": 2,
+   "toolbar": 1,
+   "statictext": 1,
+   "sheet": 1
+  },
+  "actions": {
+   "Click": 142,
+   "SetFocus": 17,
+   "RightClick": 62,
+   "SetValue": 4,
+   "Scroll": 2,
+   "Select": 1,
+   "TypeText": 1
+  },
+  "native_kinds": {
+   "other": 14
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'notebooks/96b07995-8873-": 2,
+   "{'kind': 'ax_identifier', 'value': 'notebooks/755199e5-b135-": 2,
+   "{'kind': 'ax_identifier', 'value': 'notebooks/8d0dce88-826f-": 2,
+   "{'kind': 'ax_identifier', 'value': 'notebooks/1bb492ee-b189-": 2,
+   "{'kind': 'ax_identifier', 'value': 'sidebar_toggle'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'newNotebookRow'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'mic_button'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'stc_button'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 1,
+  "named_groups": 1,
+  "states": {
+   "expanded": 3,
+   "focused": 60,
+   "selected": 3,
+   "offscreen": 115,
+   "disabled": 1
+  }
+ },
+ "google_chrome": {
+  "app": "google_chrome",
+  "src": "forced.json",
+  "n_nodes": 69,
+  "max_depth": 14,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 45,
+   "webarea": 1,
+   "heading": 1,
+   "statictext": 6,
+   "button": 9,
+   "textfield": 2,
+   "image": 3,
+   "checkbox": 1
+  },
+  "actions": {
+   "SetFocus": 15,
+   "RightClick": 61,
+   "ScrollTo": 60,
+   "Click": 12,
+   "SetValue": 3,
+   "TypeText": 2,
+   "Toggle": 1
+  },
+  "native_kinds": {
+   "other": 46
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': 'background'}": 4,
+   "{'kind': 'ax_dom_identifier', 'value': 'profileCardContainer": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'profileCardButton'}": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'avatarContainer'}": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'gaiaName'}": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'profileNameInputWrap": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'nameInput'}": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'row-container'}": 2
+  },
+  "webareas": [
+   [
+    6,
+    59
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 10,
+  "named_groups": 3,
+  "states": {
+   "focused": 1,
+   "required": 2,
+   "offscreen": 2
+  }
+ },
+ "keynote": {
+  "app": "keynote",
+  "src": "forced.json",
+  "n_nodes": 689,
+  "max_depth": 7,
+  "complete": false,
+  "roles": {
+   "window": 1,
+   "group": 312,
+   "scrollarea": 3,
+   "outline": 1,
+   "treeitem": 26,
+   "cell": 26,
+   "button": 5,
+   "scrollbar": 1,
+   "handle": 1,
+   "browser": 1,
+   "list": 2,
+   "textfield": 310
+  },
+  "actions": {
+   "Scroll": 4,
+   "SetFocus": 8,
+   "Select": 3,
+   "Click": 364,
+   "SetValue": 312,
+   "RightClick": 313
+  },
+  "native_kinds": {
+   "other": 5
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'open-panel'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:61'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:8'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:70'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'ColumnView'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 6,
+  "group_chain": 0,
+  "named_groups": 0,
+  "states": {
+   "focused": 337,
+   "expanded": 3,
+   "selected": 3,
+   "offscreen": 604
+  }
+ },
+ "microsoft_word": {
+  "app": "microsoft_word",
+  "src": "forced.json",
+  "n_nodes": 103,
+  "max_depth": 7,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "scrollarea": 2,
+   "list": 2,
+   "group": 9,
+   "button": 21,
+   "disclosure": 1,
+   "radiobutton": 8,
+   "table": 1,
+   "row": 13,
+   "cell": 39,
+   "scrollbar": 1,
+   "handle": 1,
+   "menubutton": 1,
+   "tablist": 1,
+   "toolbar": 1,
+   "textfield": 1
+  },
+  "actions": {
+   "Scroll": 2,
+   "Select": 3,
+   "SetFocus": 17,
+   "ScrollTo": 1,
+   "Click": 80,
+   "Expand": 1,
+   "Collapse": 1,
+   "Toggle": 8,
+   "RightClick": 4,
+   "SetValue": 3
+  },
+  "native_kinds": {
+   "other": 5
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'DocStage'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:192'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:120'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:126'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:131'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 0,
+  "named_groups": 0,
+  "states": {
+   "focused": 40,
+   "disabled": 7,
+   "checked": 2,
+   "offscreen": 17
+  }
+ },
+ "music": {
+  "app": "music",
+  "src": "forced.json",
+  "n_nodes": 975,
+  "max_depth": 12,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 369,
+   "tablist": 1,
+   "scrollarea": 1,
+   "webarea": 1,
+   "navigation": 1,
+   "switch": 43,
+   "link": 155,
+   "search": 1,
+   "button": 73,
+   "combobox": 1,
+   "statictext": 307,
+   "main": 1,
+   "radiobutton": 11,
+   "heading": 4,
+   "toolbar": 2,
+   "slider": 1,
+   "progressbar": 1,
+   "scrollbar": 1
+  },
+  "actions": {
+   "SetFocus": 343,
+   "RightClick": 964,
+   "ScrollTo": 961,
+   "Scroll": 1,
+   "Click": 305,
+   "Toggle": 54,
+   "SetValue": 3,
+   "Select": 1,
+   "TypeText": 1,
+   "Expand": 1,
+   "Collapse": 1
+  },
+  "native_kinds": {
+   "other": 179
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': 'background'}": 31,
+   "{'kind': 'ax_dom_identifier', 'value': 'waves'}": 30,
+   "{'kind': 'ax_dom_identifier', 'value': 'thumbnail-corner-ove": 30,
+   "{'kind': 'ax_dom_identifier', 'value': 'footer-button'}": 30,
+   "{'kind': 'ax_dom_identifier', 'value': 'play-button'}": 17,
+   "{'kind': 'ax_dom_identifier', 'value': 'button'}": 16,
+   "{'kind': 'ax_dom_identifier', 'value': 'items'}": 4,
+   "{'kind': 'ax_dom_identifier', 'value': 'more-content-button'": 3
+  },
+  "webareas": [
+   [
+    6,
+    958
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 3,
+  "named_groups": 72,
+  "states": {
+   "focused": 3,
+   "offscreen": 716,
+   "disabled": 3,
+   "checked": 2
+  }
+ },
+ "notes": {
+  "app": "notes",
+  "src": "forced.json",
+  "n_nodes": 49,
+  "max_depth": 7,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 3,
+   "scrollarea": 3,
+   "outline": 1,
+   "treeitem": 6,
+   "cell": 9,
+   "unknown": 1,
+   "textfield": 3,
+   "table": 1,
+   "row": 2,
+   "statictext": 2,
+   "scrollbar": 1,
+   "toolbar": 1,
+   "button": 12,
+   "menubutton": 3
+  },
+  "actions": {
+   "Scroll": 3,
+   "SetFocus": 16,
+   "RightClick": 9,
+   "Select": 2,
+   "Click": 27,
+   "SetValue": 4,
+   "TypeText": 1,
+   "Expand": 3,
+   "Collapse": 3
+  },
+  "native_kinds": {
+   "other": 11
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': '_NS:6'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:46'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:50'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'FolderCell'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:11'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:120'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'ICMNoteListTableView_asL": 1,
+   "{'kind': 'ax_identifier', 'value': 'ICMNoteListCell'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 0,
+  "named_groups": 0,
+  "states": {
+   "focused": 9,
+   "expanded": 2,
+   "selected": 4,
+   "disabled": 5
+  }
+ },
+ "notion": {
+  "app": "notion",
+  "src": "forced.json",
+  "n_nodes": 1004,
+  "max_depth": 30,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 543,
+   "webarea": 2,
+   "button": 94,
+   "statictext": 163,
+   "image": 40,
+   "link": 35,
+   "navigation": 1,
+   "combobox": 33,
+   "tablist": 5,
+   "radiobutton": 14,
+   "tabpanel": 1,
+   "outline": 4,
+   "treeitem": 25,
+   "splitter": 2,
+   "banner": 1,
+   "main": 1,
+   "textfield": 34,
+   "status": 2,
+   "note": 2,
+   "alert": 1
+  },
+  "actions": {
+   "SetFocus": 203,
+   "RightClick": 960,
+   "ScrollTo": 992,
+   "Click": 209,
+   "Expand": 33,
+   "Collapse": 33,
+   "Toggle": 14,
+   "SetValue": 43,
+   "Select": 4,
+   "TypeText": 34
+  },
+  "native_kinds": {
+   "other": 91
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': ':r3:'}": 2,
+   "{'kind': 'ax_dom_identifier', 'value': ':r4:'}": 2,
+   "{'kind': 'ax_dom_identifier', 'value': 'root'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': ':r2:'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'notion-app'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'skip-to-content'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'sidebar-tab-home'}": 1,
+   "{'kind': 'ax_dom_identifier', 'value': 'sidebar-tab-chats'}": 1
+  },
+  "webareas": [
+   [
+    8,
+    43
+   ],
+   [
+    8,
+    947
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 113,
+  "named_groups": 2,
+  "states": {
+   "focused": 2,
+   "disabled": 2,
+   "readonly": 33,
+   "checked": 5,
+   "selected": 5,
+   "expanded": 6,
+   "offscreen": 454
+  }
+ },
+ "obs": {
+  "app": "obs",
+  "src": "full.json",
+  "n_nodes": 62,
+  "max_depth": 3,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "button": 36,
+   "menubutton": 2,
+   "scrollbar": 3,
+   "list": 2,
+   "row": 5,
+   "statictext": 5,
+   "group": 1,
+   "checkbox": 3,
+   "slider": 3,
+   "incrementor": 1
+  },
+  "actions": {
+   "Click": 38,
+   "SetFocus": 32,
+   "Expand": 2,
+   "Collapse": 2,
+   "SetValue": 4,
+   "Select": 2,
+   "Toggle": 3,
+   "RightClick": 1
+  },
+  "native_kinds": {
+   "other": 58
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'OBSApp.OBSBasic.mixerDoc": 14,
+   "{'kind': 'ax_identifier', 'value': 'OBSApp.OBSBasic.sourcesD": 13,
+   "{'kind': 'ax_identifier', 'value': 'OBSApp.OBSBasic.scenesDo": 11,
+   "{'kind': 'ax_identifier', 'value': 'OBSApp.OBSBasic.centralw": 7,
+   "{'kind': 'ax_identifier', 'value': 'OBSApp.OBSBasic.controls": 7,
+   "{'kind': 'ax_identifier', 'value': 'OBSApp.OBSBasic.transiti": 6
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 0,
+  "named_groups": 0,
+  "states": {
+   "focused": 1,
+   "disabled": 8,
+   "readonly": 3
+  }
+ },
+ "reminders": {
+  "app": "reminders",
+  "src": "forced.json",
+  "n_nodes": 88,
+  "max_depth": 9,
+  "complete": false,
+  "roles": {
+   "window": 1,
+   "group": 9,
+   "scrollarea": 2,
+   "outline": 2,
+   "treeitem": 14,
+   "cell": 15,
+   "grid": 1,
+   "button": 23,
+   "unknown": 3,
+   "statictext": 2,
+   "textfield": 8,
+   "layoutitem": 1,
+   "menubutton": 1,
+   "switch": 5,
+   "toolbar": 1
+  },
+  "actions": {
+   "Scroll": 2,
+   "SetFocus": 27,
+   "RightClick": 19,
+   "Select": 2,
+   "Click": 50,
+   "SetValue": 7,
+   "Toggle": 5
+  },
+  "native_kinds": {
+   "other": 35
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'TTRMRemindersListCellVie": 5,
+   "{'kind': 'ax_identifier', 'value': '_NS:97'}": 5,
+   "{'kind': 'ax_identifier', 'value': '_NS:31'}": 5,
+   "{'kind': 'ax_identifier', 'value': '_NS:7'}": 4,
+   "{'kind': 'ax_identifier', 'value': '_NS:57'}": 2,
+   "{'kind': 'ax_identifier', 'value': '_NS:10'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:15'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:37'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 6,
+  "group_chain": 1,
+  "named_groups": 5,
+  "states": {
+   "focused": 15,
+   "expanded": 8,
+   "selected": 2,
+   "readonly": 1
+  }
+ },
+ "safari": {
+  "app": "safari",
+  "src": "forced.json",
+  "n_nodes": 157,
+  "max_depth": 8,
+  "complete": false,
+  "roles": {
+   "window": 1,
+   "group": 9,
+   "tablist": 1,
+   "scrollarea": 1,
+   "list": 6,
+   "button": 121,
+   "switch": 2,
+   "link": 8,
+   "scrollbar": 1,
+   "handle": 1,
+   "toolbar": 1,
+   "menubutton": 1,
+   "textfield": 1,
+   "unknown": 1,
+   "radiobutton": 2
+  },
+  "actions": {
+   "Scroll": 1,
+   "SetFocus": 12,
+   "RightClick": 82,
+   "Select": 6,
+   "ScrollTo": 7,
+   "Click": 22,
+   "Toggle": 4,
+   "SetValue": 3,
+   "Expand": 1,
+   "Collapse": 1
+  },
+  "native_kinds": {
+   "other": 129
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'recentlyClosedTabsItem'}": 42,
+   "{'kind': 'ax_identifier', 'value': 'linkRecommendationCollec": 30,
+   "{'kind': 'ax_identifier', 'value': 'StartPageTouchIconViewIt": 16,
+   "{'kind': 'ax_identifier', 'value': 'highlightItem'}": 12,
+   "{'kind': 'ax_identifier', 'value': '_NS:25'}": 2,
+   "{'kind': 'ax_identifier', 'value': '_NS:41'}": 2,
+   "{'kind': 'ax_identifier', 'value': 'suggestionsItemIdentifie": 2,
+   "{'kind': 'ax_identifier', 'value': 'readingListItem'}": 2
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 3,
+  "named_groups": 0,
+  "states": {
+   "focused": 1,
+   "disabled": 98,
+   "offscreen": 51,
+   "checked": 1
+  }
+ },
+ "telegram": {
+  "app": "telegram",
+  "src": "forced_warm.json",
+  "n_nodes": 1,
+  "max_depth": 0,
+  "complete": false,
+  "roles": {
+   "window": 1
+  },
+  "actions": {},
+  "native_kinds": {
+   "other": 1
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': '_NS:13'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 1,
+  "group_chain": 0,
+  "named_groups": 0,
+  "states": {
+   "focused": 1
+  }
+ },
+ "textedit": {
+  "app": "textedit",
+  "src": "forced.json",
+  "n_nodes": 129,
+  "max_depth": 7,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 23,
+   "scrollarea": 3,
+   "outline": 1,
+   "treeitem": 30,
+   "cell": 30,
+   "button": 12,
+   "scrollbar": 1,
+   "handle": 1,
+   "browser": 1,
+   "list": 2,
+   "textfield": 21,
+   "menubutton": 2,
+   "combobox": 1
+  },
+  "actions": {
+   "Scroll": 4,
+   "SetFocus": 15,
+   "Select": 3,
+   "Click": 92,
+   "SetValue": 23,
+   "RightClick": 24,
+   "Expand": 3,
+   "Collapse": 3
+  },
+  "native_kinds": {
+   "other": 14
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'open-panel'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:61'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:8'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:70'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'ColumnView'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:16'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'View Options'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'Group or Sort By'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 0,
+  "named_groups": 0,
+  "states": {
+   "focused": 51,
+   "expanded": 4,
+   "selected": 3,
+   "offscreen": 43,
+   "disabled": 3,
+   "readonly": 1
+  }
+ },
+ "utm": {
+  "app": "utm",
+  "src": "forced.json",
+  "n_nodes": 31,
+  "max_depth": 8,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 4,
+   "scrollarea": 1,
+   "outline": 1,
+   "treeitem": 2,
+   "cell": 2,
+   "image": 2,
+   "statictext": 5,
+   "button": 12,
+   "toolbar": 1
+  },
+  "actions": {
+   "Scroll": 1,
+   "SetFocus": 11,
+   "Select": 1,
+   "Click": 15,
+   "RightClick": 12,
+   "SetValue": 2
+  },
+  "native_kinds": {
+   "other": 5
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'play.circle.fill'}": 2,
+   "{'kind': 'ax_identifier', 'value': 'home'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'home, SidebarNavigationS": 1,
+   "{'kind': 'ax_identifier', 'value': 'plus'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 1,
+  "named_groups": 0,
+  "states": {
+   "focused": 3
+  }
+ },
+ "vlc": {
+  "app": "vlc",
+  "src": "forced.json",
+  "n_nodes": 57,
+  "max_depth": 5,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 2,
+   "scrollarea": 1,
+   "outline": 1,
+   "treeitem": 15,
+   "cell": 15,
+   "textfield": 1,
+   "button": 17,
+   "slider": 2,
+   "handle": 1,
+   "switch": 1
+  },
+  "actions": {
+   "Scroll": 1,
+   "SetFocus": 13,
+   "Select": 1,
+   "Click": 34,
+   "RightClick": 2,
+   "SetValue": 4,
+   "Toggle": 1
+  },
+  "native_kinds": {
+   "other": 22
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': '_NS:122'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:187'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:193'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:197'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:357'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:9'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:66'}": 1,
+   "{'kind': 'ax_identifier', 'value': '_NS:639'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 0,
+  "named_groups": 0,
+  "states": {
+   "focused": 16,
+   "expanded": 4,
+   "selected": 2,
+   "disabled": 6,
+   "readonly": 1
+  }
+ },
+ "whatsapp": {
+  "app": "whatsapp",
+  "src": "forced.json",
+  "n_nodes": 48,
+  "max_depth": 7,
+  "complete": true,
+  "roles": {
+   "dialog": 1,
+   "group": 15,
+   "button": 24,
+   "splitter": 2,
+   "heading": 1,
+   "textfield": 1,
+   "statictext": 2,
+   "link": 2
+  },
+  "actions": {
+   "RightClick": 44,
+   "ScrollTo": 43,
+   "Click": 32,
+   "SetFocus": 23,
+   "SetValue": 2,
+   "Scroll": 15
+  },
+  "native_kinds": {
+   "other": 7
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'SceneWindow'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'Sidebar_view'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'MediaHub'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'Toolbar'}": 1,
+   "{'kind': 'ax_identifier', 'value': 'NavigationBar_NewChatBut": 1,
+   "{'kind': 'ax_identifier', 'value': 'TokenizedSearchBar_TextV": 1,
+   "{'kind': 'ax_identifier', 'value': 'ChatListView_TableView'}": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 4,
+  "named_groups": 2,
+  "states": {
+   "focused": 1
+  }
+ },
+ "yt_music": {
+  "app": "yt_music",
+  "src": "forced.json",
+  "n_nodes": 975,
+  "max_depth": 12,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "group": 369,
+   "tablist": 1,
+   "scrollarea": 1,
+   "webarea": 1,
+   "navigation": 1,
+   "switch": 43,
+   "link": 155,
+   "search": 1,
+   "button": 73,
+   "combobox": 1,
+   "statictext": 307,
+   "main": 1,
+   "radiobutton": 11,
+   "heading": 4,
+   "toolbar": 2,
+   "slider": 1,
+   "progressbar": 1,
+   "scrollbar": 1
+  },
+  "actions": {
+   "SetFocus": 343,
+   "RightClick": 964,
+   "ScrollTo": 961,
+   "Scroll": 1,
+   "Click": 305,
+   "Toggle": 54,
+   "SetValue": 3,
+   "Select": 1,
+   "TypeText": 1,
+   "Expand": 1,
+   "Collapse": 1
+  },
+  "native_kinds": {
+   "other": 179
+  },
+  "native_samples": {
+   "{'kind': 'ax_dom_identifier', 'value': 'background'}": 31,
+   "{'kind': 'ax_dom_identifier', 'value': 'waves'}": 30,
+   "{'kind': 'ax_dom_identifier', 'value': 'thumbnail-corner-ove": 30,
+   "{'kind': 'ax_dom_identifier', 'value': 'footer-button'}": 30,
+   "{'kind': 'ax_dom_identifier', 'value': 'play-button'}": 17,
+   "{'kind': 'ax_dom_identifier', 'value': 'button'}": 16,
+   "{'kind': 'ax_dom_identifier', 'value': 'items'}": 4,
+   "{'kind': 'ax_dom_identifier', 'value': 'more-content-button'": 3
+  },
+  "webareas": [
+   [
+    6,
+    958
+   ]
+  ],
+  "truncated_nodes": 0,
+  "group_chain": 3,
+  "named_groups": 72,
+  "states": {
+   "focused": 3,
+   "offscreen": 716,
+   "disabled": 3,
+   "checked": 2
+  }
+ },
+ "zoom_us": {
+  "app": "zoom_us",
+  "src": "forced.json",
+  "n_nodes": 44,
+  "max_depth": 4,
+  "complete": true,
+  "roles": {
+   "window": 1,
+   "button": 26,
+   "group": 8,
+   "unknown": 7,
+   "textfield": 1,
+   "link": 1
+  },
+  "actions": {
+   "Click": 32,
+   "SetFocus": 19,
+   "RightClick": 8
+  },
+  "native_kinds": {
+   "other": 5
+  },
+  "native_samples": {
+   "{'kind': 'ax_identifier', 'value': 'BE879434-7586-419E-A605-": 1,
+   "{'kind': 'ax_identifier', 'value': 'B18226D0-0D7B-47FF-8355-": 1,
+   "{'kind': 'ax_identifier', 'value': '223383A7-2587-49A7-ACCA-": 1,
+   "{'kind': 'ax_identifier', 'value': '69237609-33D7-4B17-9C98-": 1,
+   "{'kind': 'ax_identifier', 'value': '3F58B35D-5A96-497E-9171-": 1
+  },
+  "webareas": [],
+  "truncated_nodes": 0,
+  "group_chain": 1,
+  "named_groups": 1,
+  "states": {
+   "disabled": 4,
+   "focused": 1,
+   "readonly": 1,
+   "offscreen": 6
+  }
+ }
+}

@@ -1,0 +1,818 @@
+{
+  "schema_version": "0.1.0",
+  "screen_id": "mac_0012",
+  "image": {
+    "path": "source.png",
+    "sha256": "8a05bffcff398a02aeb44e40d7cc92196289ffec64d58f4c25b368ff7a81dadc",
+    "width": 2498,
+    "height": 1846,
+    "scale_factor": 2.0,
+    "coordinate_space": "source_pixels_xyxy"
+  },
+  "screen_context": {
+    "description": "Real Visual Studio Code window displaying python source file crop_transform.py with traffic lights, titlebar search, left-hand activity bar, tab strip, breadcrumbs path, syntax-highlighted editor with minimap, and bottom status bar.",
+    "view_types": [
+      "code_editor",
+      "ide_workspace"
+    ],
+    "visible_app_names": [
+      "Visual Studio Code"
+    ],
+    "uncertainties": []
+  },
+  "nodes": [
+    {
+      "id": "n_0000",
+      "level": "screen",
+      "bbox": [
+        0,
+        0,
+        2498,
+        1846
+      ],
+      "parent_id": null,
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "screen",
+      "semantic_name": "Full Screen Root",
+      "description": "Full screen canvas.",
+      "context_description": "Root canvas.",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "not_applicable"
+      },
+      "evidence": [
+        "Display bounds"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0001",
+      "level": "window",
+      "bbox": [
+        0,
+        0,
+        2498,
+        1846
+      ],
+      "parent_id": "n_0000",
+      "proposal_ids": [],
+      "box_status": "added",
+      "role": "window",
+      "semantic_name": "Visual Studio Code Window",
+      "description": "VS Code application window.",
+      "context_description": "Main window frame.",
+      "function": null,
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [],
+      "state": {
+        "selected": "true",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Window frame with traffic lights and status bar"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0002",
+      "level": "region",
+      "bbox": [
+        0,
+        0,
+        2498,
+        70
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [
+        "d_0001",
+        "d_0005",
+        "d_0007",
+        "d_0008",
+        "d_0010",
+        "d_0012",
+        "d_0015",
+        "d_0016",
+        "d_0017",
+        "d_0019",
+        "d_0026",
+        "d_0032",
+        "d_0038",
+        "d_0042",
+        "d_0049"
+      ],
+      "box_status": "added",
+      "role": "toolbar",
+      "semantic_name": "VS Code Titlebar and Search",
+      "description": "Top titlebar with traffic lights, global search bar, and window layout toggle icons.",
+      "context_description": "Top row of VS Code.",
+      "function": {
+        "label": "quick_open",
+        "description": "Open files or search commands",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Search",
+          "bbox": [
+            850,
+            20,
+            940,
+            50
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Center search pill and window action buttons"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0003",
+      "level": "region",
+      "bbox": [
+        0,
+        70,
+        96,
+        1780
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [
+        "d_0003",
+        "d_0006",
+        "d_0024",
+        "d_0029",
+        "d_0037",
+        "d_0047"
+      ],
+      "box_status": "added",
+      "role": "sidebar",
+      "semantic_name": "Activity Bar",
+      "description": "Narrow vertical activity icon bar on left edge for toggling Explorer, Search, Source Control, and Extensions.",
+      "context_description": "Far left sidebar.",
+      "function": {
+        "label": "toggle_activity_view",
+        "description": "Switch active sidebar pane",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "list",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "true",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Vertical column of tool icons and badge pill"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0004",
+      "level": "region",
+      "bbox": [
+        96,
+        70,
+        2498,
+        140
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [
+        "d_0018",
+        "d_0043"
+      ],
+      "box_status": "added",
+      "role": "tab_strip",
+      "semantic_name": "Editor Tab Strip",
+      "description": "Tab bar presenting open files with crop_transform.py active.",
+      "context_description": "Above editor.",
+      "function": {
+        "label": "switch_editor_tab",
+        "description": "Switch active file",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "crop_transform.py",
+          "bbox": [
+            160,
+            90,
+            420,
+            125
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Active tab chip with close button and warning count"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0005",
+      "level": "region",
+      "bbox": [
+        96,
+        140,
+        2498,
+        200
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [
+        "d_0009",
+        "d_0014",
+        "d_0022",
+        "d_0028"
+      ],
+      "box_status": "added",
+      "role": "toolbar",
+      "semantic_name": "Editor Breadcrumbs Path",
+      "description": "File location breadcrumbs showing folder path from Users to crop_transform.py.",
+      "context_description": "Directly above code canvas.",
+      "function": {
+        "label": "navigate_breadcrumb",
+        "description": "Jump to parent folder",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "crop_transform.py",
+          "bbox": [
+            1130,
+            155,
+            1370,
+            185
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Breadcrumb chevrons and directory links"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0006",
+      "level": "region",
+      "bbox": [
+        96,
+        200,
+        2220,
+        1780
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [
+        "d_0013",
+        "d_0027",
+        "d_0033",
+        "d_0034",
+        "d_0035",
+        "d_0040",
+        "d_0041",
+        "d_0044",
+        "d_0045",
+        "d_0046",
+        "d_0048"
+      ],
+      "box_status": "added",
+      "role": "main_content",
+      "semantic_name": "Code Editor Canvas",
+      "description": "Monospace syntax-highlighted code editing canvas with line numbers 1 to 45.",
+      "context_description": "Main editor workspace.",
+      "function": {
+        "label": "edit_code",
+        "description": "Edit Python source code",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "text",
+      "visible_text": [
+        {
+          "text": "class CropTransform:",
+          "bbox": [
+            240,
+            640,
+            540,
+            680
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Code lines, keywords, strings, and line number column"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0007",
+      "level": "region",
+      "bbox": [
+        2220,
+        200,
+        2498,
+        1780
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [
+        "d_0020",
+        "d_0036"
+      ],
+      "box_status": "added",
+      "role": "main_content",
+      "semantic_name": "Code Minimap",
+      "description": "Thumbnail overview map of full source file on the right side of the editor.",
+      "context_description": "Right side of editor.",
+      "function": {
+        "label": "scroll_minimap",
+        "description": "Quick-scroll file",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "image",
+      "visible_text": [],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Miniature code rendering with visible scroll slider"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    },
+    {
+      "id": "n_0008",
+      "level": "region",
+      "bbox": [
+        0,
+        1780,
+        2498,
+        1846
+      ],
+      "parent_id": "n_0001",
+      "proposal_ids": [
+        "d_0002",
+        "d_0004",
+        "d_0021",
+        "d_0023",
+        "d_0025",
+        "d_0039"
+      ],
+      "box_status": "added",
+      "role": "toolbar",
+      "semantic_name": "VS Code Status Bar",
+      "description": "Bottom status strip displaying errors count, cursor position Ln 1 Col 1, UTF-8 encoding, Python environment, and notification bell.",
+      "context_description": "Bottom edge of window.",
+      "function": {
+        "label": "view_status_info",
+        "description": "View workspace status",
+        "status": "observed"
+      },
+      "surface": "native_app_ui",
+      "content_type": "container",
+      "visible_text": [
+        {
+          "text": "Ln 1, Col 1",
+          "bbox": [
+            1150,
+            1800,
+            1300,
+            1835
+          ],
+          "legibility": "legible"
+        },
+        {
+          "text": "UTF-8",
+          "bbox": [
+            1480,
+            1800,
+            1560,
+            1835
+          ],
+          "legibility": "legible"
+        }
+      ],
+      "state": {
+        "selected": "not_applicable",
+        "checked": "not_applicable",
+        "expanded": "not_applicable",
+        "disabled_appearance": "false"
+      },
+      "evidence": [
+        "Dark horizontal status strip with icons and text metrics"
+      ],
+      "uncertainties": [],
+      "review_status": "reviewed_correct"
+    }
+  ],
+  "relations": [],
+  "coverage": {
+    "status": "complete",
+    "uninspected_regions": [],
+    "unresolved_proposal_ids": [],
+    "proposals_disposition": {
+      "d_0001": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0002": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0003": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0004": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0005": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0006": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0007": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0008": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0009": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0005"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0010": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0011": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Enclosed within n_0008"
+      },
+      "d_0012": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0013": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0014": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0005"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0015": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0016": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0017": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0018": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0019": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0020": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0007"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0021": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0022": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0005"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0023": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0024": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0025": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0026": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0027": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0028": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0005"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0029": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0030": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0031": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Enclosed within n_0002"
+      },
+      "d_0032": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0033": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0034": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0035": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0036": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0007"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0037": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0038": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0039": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0008"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0040": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0041": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0042": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0043": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0004"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0044": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0045": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0046": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0047": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0003"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0048": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0006"
+        ],
+        "reason": "Matches annotated control bounding box"
+      },
+      "d_0049": {
+        "disposition": "retained",
+        "node_ids": [
+          "n_0002"
+        ],
+        "reason": "Matches annotated control bounding box"
+      }
+    }
+  },
+  "annotation_provenance": {
+    "model_requested": "gemini-3.8-flash-antigravity",
+    "model_returned": "gemini-3.8-flash-antigravity",
+    "thinking_requested": "high",
+    "prompt_version": "0.1.0",
+    "human_reviewed": true,
+    "audit_applied": true
+  }
+}

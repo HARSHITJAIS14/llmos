@@ -1,0 +1,33 @@
+[
+  {
+    "app_name": "TextEdit",
+    "bounds": {
+      "height": 64.0,
+      "width": 678.0,
+      "x": 1048.0,
+      "y": 655.0
+    },
+    "id": "w-28185",
+    "is_focused": false,
+    "pid": 26059,
+    "process_instance": "macos-proc-v1:1788103734:701805",
+    "title": "Save Panel Accessory View",
+    "visible": false
+  },
+  {
+    "app_name": "TextEdit",
+    "bounds": {
+      "height": 448.0,
+      "width": 893.0,
+      "x": 833.0,
+      "y": 271.0
+    },
+    "id": "w-28178",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 26059,
+    "process_instance": "macos-proc-v1:1788103734:701805",
+    "title": "Open",
+    "visible": false
+  }
+]

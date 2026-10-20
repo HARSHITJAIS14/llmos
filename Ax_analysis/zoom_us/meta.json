@@ -1,0 +1,104 @@
+{
+  "app": "zoom.us",
+  "was_running": false,
+  "captures": {
+    "windows": 4,
+    "skeleton": {
+      "ok": true,
+      "bytes": 4438,
+      "error": null
+    },
+    "full": {
+      "ok": true,
+      "bytes": 14138,
+      "error": null
+    },
+    "surfaces": {
+      "ok": true,
+      "bytes": 98,
+      "error": null
+    }
+  },
+  "errors": [],
+  "capture_mode": "background",
+  "pid": 25165,
+  "bundle_id": "us.zoom.xos",
+  "framework_signals": {
+    "exe": "/Applications/zoom.us.app/Contents/MacOS/zoom.us",
+    "bundle": "/Applications/zoom.us.app",
+    "frameworks": [
+      "AnnoUI.bundle",
+      "CptHost.app",
+      "Lottie.framework",
+      "MailClient.framework",
+      "PTUIBridge.framework",
+      "Prism.framework",
+      "RingtoneRes.bundle",
+      "Scintilla.framework",
+      "SpacesClient.framework",
+      "Transcode.app",
+      "VoiceNotesUI.bundle",
+      "ZMDB.framework",
+      "ZMScreenshot.app",
+      "ZMScreenshotKit.framework",
+      "ZoomAIC.framework",
+      "ZoomAppUISDK.framework",
+      "ZoomAutoUpdater.app",
+      "ZoomCCVideoUI.bundle",
+      "ZoomClips.app",
+      "ZoomHybridConf.app",
+      "ZoomKit.framework",
+      "ZoomMeetingBridge.framework",
+      "ZoomPerformancer.framework",
+      "ZoomPhone.app",
+      "ZoomProxy.framework",
+      "ZoomSetting.framework",
+      "ZoomSettingEx.framework",
+      "ZoomSpeechSDK.bundle",
+      "ZoomTask.framework",
+      "ZoomTelemetry.bundle",
+      "ZoomUninstaller.app",
+      "ZoomUnit.framework",
+      "airhost.app",
+      "annoter.bundle",
+      "aomagent.bundle",
+      "aomhost.app",
+      "asproxy.framework",
+      "asrkernel.framework",
+      "caphost.app",
+      "cmmbiz.framework"
+    ],
+    "hints": []
+  },
+  "best_window": {
+    "app_name": "zoom.us",
+    "bounds": {
+      "height": 960.0,
+      "width": 1280.0,
+      "x": 640.0,
+      "y": 143.0
+    },
+    "id": "w-27980",
+    "is_focused": false,
+    "minimized": false,
+    "pid": 25165,
+    "process_instance": "macos-proc-v1:1788103660:742765",
+    "title": "Zoom Workplace",
+    "visible": false
+  },
+  "forced_capture": {
+    "ok": true,
+    "nodes_before_drill": 44,
+    "truncated_before": 0,
+    "drill": {
+      "requests": 0,
+      "ok": 0,
+      "failed": 0,
+      "wall_capped": false,
+      "seconds": 0.0
+    },
+    "nodes_after_drill": 44,
+    "truncated_after": 0,
+    "bytes": 14291
+  }
+}

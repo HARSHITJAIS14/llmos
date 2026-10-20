@@ -1,0 +1,15 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "list-surfaces",
+  "data": {
+    "pid": 26055,
+    "surfaces": [
+      {
+        "id": "focused-window",
+        "title": "My writings \u2013 1 note",
+        "type": "alert"
+      }
+    ]
+  }
+}

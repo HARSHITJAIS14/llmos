@@ -1,0 +1,19 @@
+{
+  "screen_id": "mac_0008",
+  "source_path": "/Users/harshit/Desktop/YC/screen_understanding/dataset/pilot_v001/screens/mac_0008/source.png",
+  "sha256": "74ae25508d267ab043347488a68e207c2810a1d44e797496ecbe16d0c5563f26",
+  "width": 1840,
+  "height": 872,
+  "scale_factor": 2.0,
+  "stratum": "finder_and_desktop",
+  "app_family": "finder",
+  "session_group_id": "sess_mac_0008",
+  "appearance": "dark",
+  "source_provenance": "Real macOS native screencapture of Finder",
+  "local_screening_status": "screened_safe_no_pii",
+  "pair_id": null,
+  "frame_order": null,
+  "eligibility": "eligible",
+  "exclusion_reason": null,
+  "timestamp": 1792306092.789145
+}

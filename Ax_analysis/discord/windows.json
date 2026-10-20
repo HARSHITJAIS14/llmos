@@ -1,0 +1,138 @@
+[
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28323",
+    "is_focused": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Discord",
+    "visible": false
+  },
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28322",
+    "is_focused": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Discord",
+    "visible": false
+  },
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28321",
+    "is_focused": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Discord",
+    "visible": false
+  },
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 29.0,
+      "width": 1280.0,
+      "x": 2560.0,
+      "y": 536.0
+    },
+    "id": "w-28320",
+    "is_focused": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Discord",
+    "visible": false
+  },
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28319",
+    "is_focused": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Discord",
+    "visible": false
+  },
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28318",
+    "is_focused": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Discord",
+    "visible": false
+  },
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28317",
+    "is_focused": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Discord",
+    "visible": false
+  },
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 30.0,
+      "width": 2560.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "w-28316",
+    "is_focused": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Discord",
+    "visible": false
+  },
+  {
+    "app_name": "Discord",
+    "bounds": {
+      "height": 918.0,
+      "width": 1248.0,
+      "x": 244.0,
+      "y": 522.0
+    },
+    "id": "w-28267",
+    "is_focused": true,
+    "minimized": false,
+    "pid": 26851,
+    "process_instance": "macos-proc-v1:1788103838:760035",
+    "title": "Friends - Discord",
+    "visible": true
+  }
+]

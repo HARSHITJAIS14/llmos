@@ -1,0 +1,160 @@
+{
+  "provider": "gemini-3.1-flash-lite",
+  "screen": "screen_0041",
+  "condition": "image",
+  "prompt_sha256": "4e7c04adffef95f3d837f650e602796bdd42573ce92ff37769e3df141e987a6c",
+  "auxiliary_boxes": 0,
+  "seconds": 17.381702792015858,
+  "raw_text": "{\n  \"q1\": \"o3\",\n  \"q2\": \"o2\",\n  \"q3\": \"o1\",\n  \"q4\": \"o0\",\n  \"q5\": \"o1\",\n  \"q6\": \"o3\",\n  \"g1\": [343, 443, 966, 495],\n  \"g2\": [343, 575, 966, 627]\n}",
+  "model_returned": "gemini-3.1-flash-lite",
+  "usage": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 115,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 1638,
+    "prompt_tokens_details": [
+      {
+        "modality": "IMAGE",
+        "token_count": 1085
+      },
+      {
+        "modality": "TEXT",
+        "token_count": 553
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1753,
+    "traffic_type": null
+  },
+  "answers": {
+    "q1": "o3",
+    "q2": "o2",
+    "q3": "o1",
+    "q4": "o0",
+    "q5": "o1",
+    "q6": "o3",
+    "g1": [
+      343,
+      443,
+      966,
+      495
+    ],
+    "g2": [
+      343,
+      575,
+      966,
+      627
+    ]
+  },
+  "scores": {
+    "q1": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q2": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q3": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q4": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q5": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q6": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "g1": {
+      "type": "box",
+      "valid": true,
+      "point_hit": true,
+      "iou": 0.7927325468265934
+    },
+    "g2": {
+      "type": "box",
+      "valid": true,
+      "point_hit": true,
+      "iou": 0.8085626098388071
+    }
+  },
+  "strict_scores": {
+    "q1": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q2": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q3": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q4": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q5": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "q6": {
+      "type": "choice",
+      "valid": true,
+      "correct": true
+    },
+    "g1": {
+      "type": "box",
+      "valid": false,
+      "point_hit": false,
+      "iou": 0.0
+    },
+    "g2": {
+      "type": "box",
+      "valid": false,
+      "point_hit": false,
+      "iou": 0.0
+    }
+  },
+  "coordinate_units": {
+    "g1": {
+      "rule": "0\u20131000; divided by 1000; axis order unchanged",
+      "normalized_answer": [
+        0.343,
+        0.443,
+        0.966,
+        0.495
+      ]
+    },
+    "g2": {
+      "rule": "0\u20131000; divided by 1000; axis order unchanged",
+      "normalized_answer": [
+        0.343,
+        0.575,
+        0.966,
+        0.627
+      ]
+    }
+  }
+}

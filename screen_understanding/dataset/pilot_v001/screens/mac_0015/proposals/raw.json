@@ -1,0 +1,179 @@
+{
+  "detector": "omniparser-detector.pt",
+  "device": "cuda:0",
+  "weights_sha256": "dab3d4351ad00b035db829909a4db98354d5a90f6990e4ac00222a9a95d4bf57",
+  "image_size": [
+    2420,
+    1846
+  ],
+  "conf_threshold": 0.1,
+  "iou_threshold": 0.1,
+  "proposal_count": 15,
+  "proposals": [
+    {
+      "id": "d_0001",
+      "bbox": [
+        2345.59,
+        62.42,
+        2407.26,
+        122.8
+      ],
+      "label": "icon",
+      "confidence": 0.7424
+    },
+    {
+      "id": "d_0002",
+      "bbox": [
+        52.58,
+        259.51,
+        83.33,
+        301.49
+      ],
+      "label": "icon",
+      "confidence": 0.6062
+    },
+    {
+      "id": "d_0003",
+      "bbox": [
+        576.1,
+        140.67,
+        644.03,
+        192.45
+      ],
+      "label": "icon",
+      "confidence": 0.6011
+    },
+    {
+      "id": "d_0004",
+      "bbox": [
+        14.99,
+        218.91,
+        263.63,
+        262.92
+      ],
+      "label": "icon",
+      "confidence": 0.5925
+    },
+    {
+      "id": "d_0005",
+      "bbox": [
+        14.69,
+        261.04,
+        46.29,
+        301.54
+      ],
+      "label": "icon",
+      "confidence": 0.5384
+    },
+    {
+      "id": "d_0006",
+      "bbox": [
+        253.07,
+        144.79,
+        306.75,
+        188.57
+      ],
+      "label": "icon",
+      "confidence": 0.5185
+    },
+    {
+      "id": "d_0007",
+      "bbox": [
+        309.41,
+        144.75,
+        349.69,
+        189.38
+      ],
+      "label": "icon",
+      "confidence": 0.5152
+    },
+    {
+      "id": "d_0008",
+      "bbox": [
+        158.85,
+        9.3,
+        200.55,
+        54.38
+      ],
+      "label": "icon",
+      "confidence": 0.478
+    },
+    {
+      "id": "d_0009",
+      "bbox": [
+        103.33,
+        10.1,
+        145.91,
+        52.05
+      ],
+      "label": "icon",
+      "confidence": 0.3637
+    },
+    {
+      "id": "d_0010",
+      "bbox": [
+        350.41,
+        141.19,
+        426.82,
+        190.56
+      ],
+      "label": "icon",
+      "confidence": 0.3383
+    },
+    {
+      "id": "d_0011",
+      "bbox": [
+        14.47,
+        11.04,
+        51.46,
+        54.34
+      ],
+      "label": "icon",
+      "confidence": 0.2835
+    },
+    {
+      "id": "d_0012",
+      "bbox": [
+        0.09,
+        4.3,
+        11.47,
+        56.89
+      ],
+      "label": "icon",
+      "confidence": 0.1697
+    },
+    {
+      "id": "d_0013",
+      "bbox": [
+        153.78,
+        0.0,
+        1964.32,
+        66.9
+      ],
+      "label": "icon",
+      "confidence": 0.1654
+    },
+    {
+      "id": "d_0014",
+      "bbox": [
+        57.51,
+        11.89,
+        96.35,
+        52.85
+      ],
+      "label": "icon",
+      "confidence": 0.1482
+    },
+    {
+      "id": "d_0015",
+      "bbox": [
+        152.6,
+        66.39,
+        1965.48,
+        122.63
+      ],
+      "label": "icon",
+      "confidence": 0.1284
+    }
+  ]
+}

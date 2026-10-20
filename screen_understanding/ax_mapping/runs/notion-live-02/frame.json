@@ -1,0 +1,37 @@
+{
+  "capture_bounds": {
+    "height": 923.0,
+    "width": 1249.0,
+    "x": 221.0,
+    "y": 33.0
+  },
+  "image_size": [
+    2498,
+    1846
+  ],
+  "ax_origin": "top_left",
+  "ax_depth_limit": 30,
+  "screenshot_time": 1792429684.908846,
+  "ax_time": 1792429684.4256456,
+  "max_skew_ms": 250,
+  "screenshot_window_id": "w-48180",
+  "ax_window_id": "w-48180",
+  "ax_snapshot_id": "s3uezw8u2kx1m3",
+  "validation": {
+    "window_geometry_unchanged": true,
+    "process_instance_unchanged": true,
+    "ax_signature_unchanged": false,
+    "ax_root_matches_capture_bounds": true,
+    "screenshot_sha256": "bc2b22b30578ff67fab6fdaaac166341473632342209ba66044b2dac9e42dd65",
+    "ax_before_ms": 562.5829696655273,
+    "screenshot_ms": 159.25002098083496,
+    "ax_after_ms": 458.4219455718994,
+    "capture_mode": "region",
+    "frontmost_pid_checks": [
+      82850,
+      82850
+    ],
+    "occlusion_note": "Region capture includes any occluders; frontmost PID alone cannot exclude floating windows.",
+    "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim."
+  }
+}

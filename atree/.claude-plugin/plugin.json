@@ -1,0 +1,15 @@
+{
+  "name": "atree",
+  "version": "0.2.4",
+  "description": "macOS desktop automation via accessibility trees: skeleton-first perception, identity-keyed state diffs, hook-enforced verification, evidence-gated learning, and a per-app episodic registry. Wraps the agent-desktop CLI.",
+  "author": {
+    "name": "Suryansh Kumar",
+    "email": "suryansh.kumar@scalerailabs.com"
+  },
+  "keywords": [
+    "macos",
+    "desktop-automation",
+    "accessibility",
+    "agent-desktop"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "list-surfaces",
+  "data": {
+    "pid": 74766,
+    "surfaces": []
+  }
+}

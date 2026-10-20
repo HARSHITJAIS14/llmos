@@ -1,0 +1,62 @@
+{
+  "scope": "Notion live test: existing LLM OS page and open side peek. Same ax-entities-v1 rules; depth 30 after depth 14 left 11 frontiers. Guarded screen-region image, not an isolated window image. No accuracy ground truth.",
+  "rules_sha256": {
+    "render_overlay.py": "06d22eca45e0ff81a3b2748b04ffe40165ba95802ecff9d6660e66675b15f2e9",
+    "canonicalize.py": "758543814f6ec62519044e242375bc6753d5be8859c1dc68f70c0d9b437d596c"
+  },
+  "results": [
+    {
+      "app": "Notion",
+      "source": "/Users/harshit/Desktop/YC/screen_understanding/ax_mapping/runs/notion-live-02",
+      "counts": {
+        "projected": 717,
+        "entities": 504,
+        "controls": 176,
+        "merged_nodes": 213,
+        "ambiguous_controls": 66
+      },
+      "lossless_membership": true,
+      "capture_status": "blocked",
+      "capture_reasons": [
+        "capture_time_skew",
+        "visible_AX_changed_during_capture",
+        "AX_changed_without_visible_stability_check"
+      ],
+      "validation": {
+        "window_geometry_unchanged": true,
+        "process_instance_unchanged": true,
+        "ax_signature_unchanged": false,
+        "ax_root_matches_capture_bounds": true,
+        "screenshot_sha256": "bc2b22b30578ff67fab6fdaaac166341473632342209ba66044b2dac9e42dd65",
+        "ax_before_ms": 562.5829696655273,
+        "screenshot_ms": 159.25002098083496,
+        "ax_after_ms": 458.4219455718994,
+        "capture_mode": "region",
+        "frontmost_pid_checks": [
+          82850,
+          82850
+        ],
+        "occlusion_note": "Region capture includes any occluders; frontmost PID alone cannot exclude floating windows.",
+        "note": "Sequential bracketed observations, not an atomic OS snapshot. No action correctness claim.",
+        "visible_ax_signature_unchanged": false
+      },
+      "skew_ms": 483.2003116607666,
+      "p50_processing_ms": 18.103770504239947,
+      "p95_processing_ms": 19.03833309188485,
+      "node_count_is_not_accuracy": true,
+      "capture_depth_limit": 30
+    }
+  ],
+  "failures": [
+    {
+      "app": "Notion exact-window capture",
+      "detail": "Window screenshot failed in notion-live-01. This capture uses the window rectangle with Notion verified frontmost before and after."
+    }
+  ],
+  "limits": [
+    "No manually labeled cross-app precision/recall benchmark.",
+    "No detector/OCR visual proposals used in these live tests; native AX projection and canonicalization only.",
+    "Full screenshots retained. Canonical control counts do not measure visual coverage.",
+    "Mapping timing excludes screenshot capture, AX IPC and downstream model inference."
+  ]
+}

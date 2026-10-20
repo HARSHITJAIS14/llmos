@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.0",
+  "app_key": "microsoft_word",
+  "identity": {
+    "name": "Microsoft Word",
+    "bundle_id": "com.microsoft.Word",
+    "bundle_id_match": "exact",
+    "framework": "custom_cpp",
+    "secondary_frameworks": [],
+    "framework_confidence": "high",
+    "framework_evidence": [
+      {
+        "source": "bundle_frameworks",
+        "observation": "40 embedded frameworks: MsoCF, COMBase, OLE, OfficeArt, MicrosoftRichEdit, CocoaUI, FluentUI; no Electron/Qt/Catalyst"
+      },
+      {
+        "source": "role_histogram",
+        "observation": "default 106 nodes: cell 39, button 24, row 13, radiobutton 8; row at scale only in custom C++"
+      },
+      {
+        "source": "max_depth_band",
+        "observation": "max depth 7 at default and at --max-depth 40"
+      },
+      {
+        "source": "skeleton_fingerprint",
+        "observation": "skeleton 32 nodes, root_kids 9, no webarea"
+      }
+    ]
+  },
+  "category": "office",
+  "fidelity": {
+    "default": {
+      "nodes": 106,
+      "max_depth": 7,
+      "max_depth_requested": 10,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 62,
+      "ref_count": 95,
+      "has_webarea": false,
+      "offscreen_nodes": 17,
+      "skeleton_nodes": 32,
+      "error_code": null
+    },
+    "forced": {
+      "nodes": 103,
+      "max_depth": 7,
+      "max_depth_requested": 40,
+      "frontier_nodes": 0,
+      "complete": true,
+      "nodes_observed": null,
+      "named_nodes": 59,
+      "ref_count": 92,
+      "has_webarea": false,
+      "offscreen_nodes": 17,
+      "skeleton_nodes": null,
+      "error_code": null
+    },
+    "forced_over_default_ratio": 0.972,
+    "default_score": 1.0,
+    "forced_score": 0.972,
+    "best_capture": "default",
+    "ladder_verdict": "trust"
+  },
+  "readiness": {
+    "default_rung": "TRUST",
+    "husk": {
+      "default_is_husk": false,
+      "signals": [],
+      "chromium_shell_skeleton": false,
+      "cause": "none"
+    },
+    "capture_plan": {
+      "max_depth": 10,
+      "skeleton_first": true,
+      "scoped_drill": false,
+      "drill_truncation_boundary": false
+    },
+    "background_read_ok": true,
+    "needs_activation": {
+      "read": false,
+      "act": false,
+      "reason": "background 106 nodes vs foreground depth-40 103; same roles and names"
+    },
+    "handshake": {
+      "status": "not_applicable"
+    },
+    "settle_ms": {
+      "after_launch": 2000,
+      "after_activate": 0
+    }
+  },
+  "window_picking": {
+    "ghost_signatures": [
+      {
+        "width": 1280,
+        "height": 29,
+        "x": 2560,
+        "y": 536,
+        "count": 4,
+        "kind": "menubar_strip"
+      },
+      {
+        "width": 2560,
+        "height": 30,
+        "x": 0,
+        "y": 0,
+        "count": 4,
+        "kind": "menubar_strip"
+      }
+    ],
+    "real_window_test": {
+      "min_width": 201,
+      "min_height": 201,
+      "title_differs_from_app_proves_real": true,
+      "bounds_must_match_ax_root": true,
+      "min_nodes": 13
+    },
+    "thumbnail_proxy_seen": false,
+    "empty_list_is_normal": false,
+    "address_by": "window_id",
+    "process_count_seen": 1,
+    "window_id_drifts": true
+  },
+  "selector_strategy": {
+    "chain": [
+      "native_id",
+      "role_name_nth",
+      "ancestor_path"
+    ],
+    "search_root": "window",
+    "normalize": {
+      "strip_invisible": true,
+      "invisible_chars_seen": 50,
+      "nfc": true,
+      "trim": true
+    },
+    "identity_field": "name",
+    "native_id": {
+      "coverage_interactive_pct": 0.0,
+      "kinds": [
+        "ax_identifier"
+      ],
+      "reject_patterns": []
+    },
+    "uniqueness": {
+      "role_name_unique_pct": 81.7,
+      "with_bounds_unique_pct": 100.0,
+      "nth_required_roles": [
+        "cell",
+        "radiobutton"
+      ]
+    },
+    "exclude_zero_area": true,
+    "on_multi_match": "error",
+    "view_change_overlap": {
+      "abort_below": 0.6,
+      "reuse_above": 0.9
+    }
+  },
+  "stable_anchors": [
+    {
+      "kind": "ax_identifier",
+      "value": "DocStage",
+      "match": "exact",
+      "tier": "high",
+      "role": "window",
+      "purpose": "start screen window (new and recent files)",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:126",
+      "match": "exact",
+      "tier": "low",
+      "role": "table",
+      "purpose": "recent files table",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:120",
+      "match": "exact",
+      "tier": "low",
+      "role": "scrollarea",
+      "purpose": "recent files table scroll area",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:192",
+      "match": "exact",
+      "tier": "low",
+      "role": "group",
+      "purpose": "recent files pane container",
+      "seen_in_captures": 2
+    },
+    {
+      "kind": "ax_identifier",
+      "value": "_NS:131",
+      "match": "exact",
+      "tier": "low",
+      "role": "group",
+      "purpose": "table header button group",
+      "seen_in_captures": 2
+    }
+  ],
+  "action_capability": {
+    "click_is_signal": true,
+    "rightclick_ambient": false,
+    "disabled_keeps_click": false,
+    "text_entry": "set_value",
+    "editable_textfield_test": "setfocus_present",
+    "offscreen_recovery": "container_scroll",
+    "menubutton_has_expand": false,
+    "unknown_role_policy": "click_means_button",
+    "roles": [
+      {
+        "role": "button",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus"
+        ],
+        "count": 24,
+        "verb": "Click"
+      },
+      {
+        "role": "cell",
+        "actions": [
+          "Click"
+        ],
+        "count": 39,
+        "verb": "Click",
+        "note": "identity lives here, not on row"
+      },
+      {
+        "role": "row",
+        "actions": [
+          "Click"
+        ],
+        "count": 13,
+        "verb": "Click",
+        "note": "0/13 named; address via child cell"
+      },
+      {
+        "role": "radiobutton",
+        "actions": [
+          "Click",
+          "SetFocus",
+          "Toggle"
+        ],
+        "count": 8,
+        "verb": "Toggle",
+        "note": "nav tabs and filters"
+      },
+      {
+        "role": "disclosure",
+        "actions": [
+          "Click",
+          "Collapse",
+          "Expand"
+        ],
+        "count": 1,
+        "verb": "Expand"
+      },
+      {
+        "role": "table",
+        "actions": [
+          "RightClick",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "Select"
+      },
+      {
+        "role": "list",
+        "actions": [
+          "ScrollTo",
+          "Select",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Select"
+      },
+      {
+        "role": "textfield",
+        "actions": [
+          "Click",
+          "RightClick",
+          "SetFocus",
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue",
+        "note": "search field; no TypeText"
+      },
+      {
+        "role": "menubutton",
+        "actions": [
+          "SetFocus"
+        ],
+        "count": 1,
+        "verb": "SetFocus",
+        "note": "account menu; no Click or Expand"
+      },
+      {
+        "role": "scrollarea",
+        "actions": [
+          "Scroll",
+          "SetFocus"
+        ],
+        "count": 2,
+        "verb": "Scroll"
+      },
+      {
+        "role": "scrollbar",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      },
+      {
+        "role": "handle",
+        "actions": [
+          "SetValue"
+        ],
+        "count": 1,
+        "verb": "SetValue"
+      }
+    ]
+  },
+  "read_recipes": {
+    "tree_readable": "full",
+    "recipes": [
+      {
+        "target": "cell",
+        "match": "role==cell and parent.role==row",
+        "read_from": "name",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4",
+          "LAW-ID-5",
+          "LAW-ID-10"
+        ]
+      },
+      {
+        "target": "row",
+        "match": "role==row (no name)",
+        "read_from": "children_join",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-4",
+          "LAW-ID-5"
+        ]
+      },
+      {
+        "target": "toggle_state",
+        "match": "role==radiobutton; value in {'0','1','true','false'}",
+        "read_from": "value",
+        "parse": "bool_01",
+        "laws": [
+          "LAW-TXT-10"
+        ]
+      },
+      {
+        "target": "input_field",
+        "match": "role==textfield and parent.role==group and parent.parent.role==toolbar",
+        "read_from": "value",
+        "parse": "none",
+        "laws": [
+          "LAW-TXT-1",
+          "LAW-TXT-7"
+        ]
+      }
+    ]
+  },
+  "verify_recipes": {
+    "channel": "tree",
+    "after_type": "value_key_equals",
+    "after_toggle": "value_01_flip",
+    "after_click": "resnapshot_diff",
+    "resnapshot_after_action": true,
+    "never_compare_name": true
+  },
+  "geometry": {
+    "bounds_source": "window_server",
+    "ws_matches_ax_root": true,
+    "stable_across_activation": false,
+    "invalidate_on": [
+      "activate",
+      "launch",
+      "space_switch"
+    ],
+    "zero_area_nodes": 3,
+    "offscreen_click": "forbidden",
+    "root_role_varies": false
+  },
+  "quirks": [
+    {
+      "kind": "bidi_salted_text",
+      "detect": "U+200E etc. inside name/value",
+      "workaround": "strip invisible chars before every compare",
+      "severity": "high",
+      "observed": "50 U+200E chars inside 9 cell names (date-bearing)",
+      "laws": [
+        "LAW-ID-10"
+      ]
+    },
+    {
+      "kind": "unnamed_list_items",
+      "detect": "role==row with no name",
+      "workaround": "address row by named child cell or by index",
+      "severity": "high",
+      "observed": "0/13 rows named; 33/39 cells named",
+      "laws": [
+        "LAW-ID-5",
+        "LAW-TXT-4"
+      ]
+    },
+    {
+      "kind": "menubutton_no_expand",
+      "detect": "role==menubutton and Expand not in actions",
+      "workaround": "SetFocus then press Space/Return; verify by re-snapshot",
+      "severity": "high",
+      "observed": "1/1 menubutton has only SetFocus (no Click, no Expand)",
+      "laws": [
+        "LAW-ACT-3"
+      ]
+    },
+    {
+      "kind": "mass_focused",
+      "detect": "count(focused) > 3",
+      "workaround": "real focus = the focused list/table container",
+      "severity": "low",
+      "observed": "40/106 focused (39 cell, 1 list)",
+      "laws": [
+        "LAW-ACT-10"
+      ]
+    },
+    {
+      "kind": "window_id_drift",
+      "detect": "best window id differs between captures",
+      "workaround": "re-pick best window by --window-id every session",
+      "severity": "low",
+      "observed": "w-28255 -> w-28558; window moved x 1374 -> 2740, 0/103 bounds equal",
+      "laws": [
+        "LAW-LIFE-6"
+      ]
+    },
+    {
+      "kind": "offscreen_needs_container_scroll",
+      "detect": "offscreen node without ScrollTo",
+      "workaround": "Scroll the table scrollarea, then re-snapshot",
+      "severity": "high",
+      "observed": "17 offscreen (12 cell, 4 row, 1 button), 0 with ScrollTo",
+      "laws": [
+        "LAW-ACT-11"
+      ]
+    }
+  ],
+  "escalation": [
+    {
+      "channel": "ax",
+      "when": "default; tree complete and trusted",
+      "tested": true
+    },
+    {
+      "channel": "app_api",
+      "when": "document editing beyond the start screen",
+      "precondition": "AppleScript automation permission",
+      "tested": false
+    },
+    {
+      "channel": "keyboard",
+      "when": "menubutton or unnamed button cannot be driven by AX (Cmd+N, Cmd+O)",
+      "tested": false
+    },
+    {
+      "channel": "vision",
+      "when": "unnamed visible buttons with no named neighbor",
+      "tested": false
+    }
+  ],
+  "provenance": {
+    "captured_at": [
+      "2026-08-30T21:03:31+05:30",
+      "2026-08-30T21:15:26+05:30"
+    ],
+    "agent_desktop_version": "0.8.1",
+    "output_version": "2.3",
+    "app_version": null,
+    "macos_version": null,
+    "capture_modes": [
+      "background",
+      "forced"
+    ],
+    "surface": "start_page",
+    "sources": [
+      "microsoft_word/meta.json",
+      "microsoft_word/windows.json",
+      "microsoft_word/skeleton.json",
+      "microsoft_word/full.json",
+      "microsoft_word/forced.json",
+      "microsoft_word/analysis.md"
+    ],
+    "excluded_sources": [],
+    "verified": false,
+    "codex_confidence": "high"
+  }
+}

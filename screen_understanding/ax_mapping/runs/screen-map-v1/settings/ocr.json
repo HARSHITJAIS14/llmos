@@ -1,0 +1,638 @@
+{
+  "version": 1,
+  "source": "Apple Vision OCR fast",
+  "image_sha256": "bd8fd453237e3e7b3c9d72b5bd83dbfc12492039b899b0496c47354e3e3cc4eb",
+  "status": "observations_returned",
+  "image_size": [
+    1446,
+    1606
+  ],
+  "items": [
+    {
+      "id": "T0001",
+      "kind": "text",
+      "bbox": [
+        633.0,
+        40.999999999999986,
+        804.0,
+        68.99999999999991
+      ],
+      "text": "Appearance",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0002",
+      "kind": "text",
+      "bbox": [
+        505.99999999999994,
+        131.0,
+        651.0,
+        154.99999999999991
+      ],
+      "text": "Appearance",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0003",
+      "kind": "text",
+      "bbox": [
+        54.99999999999999,
+        138.00000000000003,
+        175.0,
+        162.99999999999994
+      ],
+      "text": "Q Search",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0004",
+      "kind": "text",
+      "bbox": [
+        142.0,
+        215.99999999999997,
+        330.0,
+        238.00000000000006
+      ],
+      "text": "Harshit Jaiswal",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0005",
+      "kind": "text",
+      "bbox": [
+        960.0,
+        234.00000000000006,
+        1007.0,
+        249.99999999999994
+      ],
+      "text": "Auto",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0006",
+      "kind": "text",
+      "bbox": [
+        1123.0,
+        233.00000000000003,
+        1174.0,
+        253.99999999999994
+      ],
+      "text": "Light",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0007",
+      "kind": "text",
+      "bbox": [
+        1287.0,
+        233.00000000000003,
+        1337.0000000000002,
+        249.99999999999991
+      ],
+      "text": "Dark",
+      "confidence": 1.0
+    },
+    {
+      "id": "T0008",
+      "kind": "text",
+      "bbox": [
+        140.0,
+        250.99999999999994,
+        293.0,
+        272.0
+      ],
+      "text": "Apple Account",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0009",
+      "kind": "text",
+      "bbox": [
+        507.99999999999994,
+        303.99999999999994,
+        652.0,
+        329.00000000000006
+      ],
+      "text": "Liquid Glass",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0010",
+      "kind": "text",
+      "bbox": [
+        48.0,
+        326.00000000000006,
+        161.0,
+        366.00000000000006
+      ],
+      "text": "\u2022 Wi-Fi",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0011",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        337.99999999999994,
+        966.9999999999999,
+        359.0
+      ],
+      "text": "Choose your preferred look for Liquid Glass.",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0012",
+      "kind": "text",
+      "bbox": [
+        100.0,
+        400.0,
+        213.0,
+        419.9999999999999
+      ],
+      "text": "Bluetooth",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0013",
+      "kind": "text",
+      "bbox": [
+        1120.0,
+        407.0,
+        1176.0,
+        424.9999999999999
+      ],
+      "text": "Clear",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0014",
+      "kind": "text",
+      "bbox": [
+        1279.0,
+        407.0,
+        1344.0,
+        423.9999999999999
+      ],
+      "text": "rinted",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0015",
+      "kind": "text",
+      "bbox": [
+        100.0,
+        464.00000000000006,
+        200.0,
+        483.99999999999994
+      ],
+      "text": "Network",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0016",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        515.9999999999999,
+        592.0,
+        536.0
+      ],
+      "text": "Theme",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0017",
+      "kind": "text",
+      "bbox": [
+        98.0,
+        529.0,
+        149.0,
+        548.0000000000001
+      ],
+      "text": "VPN",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0018",
+      "kind": "text",
+      "bbox": [
+        100.0,
+        592.9999999999999,
+        185.99999999999997,
+        617.0
+      ],
+      "text": "Battery",
+      "confidence": 1.0
+    },
+    {
+      "id": "T0019",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        588.0,
+        586.0,
+        608.9999999999999
+      ],
+      "text": "Colour",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0020",
+      "kind": "text",
+      "bbox": [
+        728.0,
+        642.0000000000001,
+        844.0000000000001,
+        659.0
+      ],
+      "text": "Multicolour",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0021",
+      "kind": "text",
+      "bbox": [
+        99.00000000000001,
+        681.9999999999999,
+        190.0,
+        703.0
+      ],
+      "text": "General",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0022",
+      "kind": "text",
+      "bbox": [
+        1156.0,
+        708.0,
+        1314.0,
+        740.0000000000001
+      ],
+      "text": "\u2022Automatic",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0023",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        713.0,
+        752.0,
+        738.0000000000001
+      ],
+      "text": "Text highlight colour",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0024",
+      "kind": "text",
+      "bbox": [
+        98.0,
+        746.0000000000001,
+        249.0,
+        770.9999999999999
+      ],
+      "text": "Accessibility",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0025",
+      "kind": "text",
+      "bbox": [
+        99.00000000000001,
+        811.0,
+        243.0,
+        834.9999999999999
+      ],
+      "text": "Appearance",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0026",
+      "kind": "text",
+      "bbox": [
+        507.99999999999994,
+        808.0,
+        736.0,
+        832.9999999999999
+      ],
+      "text": "Icon & widget style",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0027",
+      "kind": "text",
+      "bbox": [
+        98.0,
+        873.9999999999999,
+        384.0,
+        899.0
+      ],
+      "text": "Apple Intelligence & Siri",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0028",
+      "kind": "text",
+      "bbox": [
+        1002.0,
+        881.0,
+        1079.0,
+        898.0000000000001
+      ],
+      "text": "Default",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0029",
+      "kind": "text",
+      "bbox": [
+        1123.0,
+        881.0,
+        1170.0,
+        898.0000000000001
+      ],
+      "text": "Dark",
+      "confidence": 1.0
+    },
+    {
+      "id": "T0030",
+      "kind": "text",
+      "bbox": [
+        1221.0,
+        881.0,
+        1275.0,
+        899.0000000000001
+      ],
+      "text": "Clear",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0031",
+      "kind": "text",
+      "bbox": [
+        1317.0,
+        881.0,
+        1382.0,
+        898.0000000000001
+      ],
+      "text": "Tinted",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0032",
+      "kind": "text",
+      "bbox": [
+        48.0,
+        936.0,
+        294.0,
+        962.9999999999999
+      ],
+      "text": "'C Desktop & Dock",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0033",
+      "kind": "text",
+      "bbox": [
+        1156.0,
+        980.0,
+        1314.0,
+        1012.0
+      ],
+      "text": "\u2022Automatic",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0034",
+      "kind": "text",
+      "bbox": [
+        507.99999999999994,
+        986.0,
+        666.0,
+        1005.9999999999999
+      ],
+      "text": "Folder colour",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0035",
+      "kind": "text",
+      "bbox": [
+        100.0,
+        1002.0000000000001,
+        198.0,
+        1027.0
+      ],
+      "text": "Displays",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0036",
+      "kind": "text",
+      "bbox": [
+        100.0,
+        1067.0,
+        213.0,
+        1086.0
+      ],
+      "text": "Menu Bar",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0037",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        1105.0,
+        620.0,
+        1126.0
+      ],
+      "text": "Windows",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0038",
+      "kind": "text",
+      "bbox": [
+        99.00000000000001,
+        1130.0,
+        207.0,
+        1155.0
+      ],
+      "text": "Spotlight",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0039",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        1178.0,
+        711.0,
+        1199.0
+      ],
+      "text": "Sidebar icon size",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0040",
+      "kind": "text",
+      "bbox": [
+        1220.0,
+        1179.0,
+        1314.0,
+        1199.0
+      ],
+      "text": "Medium",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0041",
+      "kind": "text",
+      "bbox": [
+        99.00000000000001,
+        1194.0,
+        219.0,
+        1219.0
+      ],
+      "text": "Wallpaper",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0042",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        1255.0,
+        1067.0,
+        1280.0
+      ],
+      "text": "Tint window background with wallpaper colour",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0043",
+      "kind": "text",
+      "bbox": [
+        100.0,
+        1284.0,
+        250.0,
+        1304.0
+      ],
+      "text": "Notif ications",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0044",
+      "kind": "text",
+      "bbox": [
+        99.00000000000001,
+        1348.0,
+        174.0,
+        1369.0
+      ],
+      "text": "Sound",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0045",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        1348.0,
+        704.0,
+        1369.0
+      ],
+      "text": "Show scroll bars",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0046",
+      "kind": "text",
+      "bbox": [
+        548.0,
+        1396.0,
+        1063.0,
+        1421.0
+      ],
+      "text": "Automatically based on mouse or trackpad",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0047",
+      "kind": "text",
+      "bbox": [
+        48.0,
+        1402.0,
+        170.0,
+        1434.0
+      ],
+      "text": "e Focus",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0048",
+      "kind": "text",
+      "bbox": [
+        549.0,
+        1441.0,
+        726.0,
+        1466.0
+      ],
+      "text": "When scrolling",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0049",
+      "kind": "text",
+      "bbox": [
+        86.0,
+        1476.0,
+        249.0,
+        1500.0
+      ],
+      "text": ". Screen Time",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0050",
+      "kind": "text",
+      "bbox": [
+        548.0,
+        1486.0,
+        631.0,
+        1511.0
+      ],
+      "text": "Always",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0051",
+      "kind": "text",
+      "bbox": [
+        61.00000000000001,
+        1562.0,
+        245.99999999999997,
+        1587.0
+      ],
+      "text": "a Lock Screen",
+      "confidence": 0.5
+    },
+    {
+      "id": "T0052",
+      "kind": "text",
+      "bbox": [
+        506.99999999999994,
+        1560.0,
+        789.9999999999999,
+        1581.0
+      ],
+      "text": "Click in the scroll bar to",
+      "confidence": 0.5
+    }
+  ],
+  "processing_ms": 59.79075003415346,
+  "warning": "OCR can miss or misread visible text; it does not prove clickability."
+}

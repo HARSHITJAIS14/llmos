@@ -1,0 +1,4037 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Finder",
+    "complete": true,
+    "ref_count": 171,
+    "snapshot_id": "s2kwljgjbfhabu",
+    "tree": {
+      "bounds": {
+        "height": 436.0,
+        "width": 920.0,
+        "x": 275.0,
+        "y": 155.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 436.0,
+            "width": 920.0,
+            "x": 275.0,
+            "y": 155.0
+          },
+          "children": [
+            {
+              "available_actions": [
+                "Scroll"
+              ],
+              "bounds": {
+                "height": 376.0,
+                "width": 207.0,
+                "x": 283.0,
+                "y": 207.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "RightClick",
+                    "Select"
+                  ],
+                  "bounds": {
+                    "height": 844.0,
+                    "width": 209.0,
+                    "x": 282.0,
+                    "y": 206.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 207.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 207.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 214.0
+                              },
+                              "name": "Recents",
+                              "role": "statictext",
+                              "value": "Recents"
+                            }
+                          ],
+                          "name": "Recents",
+                          "ref_id": "@s2kwljgjbfhabu:e4",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Recents",
+                      "ref_id": "@s2kwljgjbfhabu:e3",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 239.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 239.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 246.0
+                              },
+                              "name": "Shared",
+                              "role": "statictext",
+                              "value": "Shared"
+                            }
+                          ],
+                          "name": "Shared",
+                          "ref_id": "@s2kwljgjbfhabu:e6",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Shared",
+                      "ref_id": "@s2kwljgjbfhabu:e5",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 284.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 284.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 21.0,
+                                "width": 189.0,
+                                "x": 298.0,
+                                "y": 283.0
+                              },
+                              "name": "Favourites",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "xSidebarHeader"
+                              },
+                              "role": "statictext",
+                              "value": "Favourites"
+                            }
+                          ],
+                          "name": "Favourites",
+                          "ref_id": "@s2kwljgjbfhabu:e8",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Favourites",
+                      "ref_id": "@s2kwljgjbfhabu:e7",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 303.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 303.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 310.0
+                              },
+                              "name": "Desktop",
+                              "role": "statictext",
+                              "value": "Desktop"
+                            }
+                          ],
+                          "name": "Desktop",
+                          "ref_id": "@s2kwljgjbfhabu:e10",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Desktop",
+                      "ref_id": "@s2kwljgjbfhabu:e9",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 335.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 335.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 342.0
+                              },
+                              "name": "Pictures",
+                              "role": "statictext",
+                              "value": "Pictures"
+                            }
+                          ],
+                          "name": "Pictures",
+                          "ref_id": "@s2kwljgjbfhabu:e12",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Pictures",
+                      "ref_id": "@s2kwljgjbfhabu:e11",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 367.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 367.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 374.0
+                              },
+                              "name": "Documents",
+                              "role": "statictext",
+                              "value": "Documents"
+                            }
+                          ],
+                          "name": "Documents",
+                          "ref_id": "@s2kwljgjbfhabu:e14",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Documents",
+                      "ref_id": "@s2kwljgjbfhabu:e13",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 399.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 399.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 406.0
+                              },
+                              "name": "Downloads",
+                              "role": "statictext",
+                              "value": "Downloads"
+                            }
+                          ],
+                          "name": "Downloads",
+                          "ref_id": "@s2kwljgjbfhabu:e16",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Downloads",
+                      "ref_id": "@s2kwljgjbfhabu:e15",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 431.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 431.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 438.0
+                              },
+                              "name": "Music",
+                              "role": "statictext",
+                              "value": "Music"
+                            }
+                          ],
+                          "name": "Music",
+                          "ref_id": "@s2kwljgjbfhabu:e18",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Music",
+                      "ref_id": "@s2kwljgjbfhabu:e17",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 463.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 463.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 470.0
+                              },
+                              "name": "Applications",
+                              "role": "statictext",
+                              "value": "Applications"
+                            }
+                          ],
+                          "name": "Applications",
+                          "ref_id": "@s2kwljgjbfhabu:e20",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Applications",
+                      "ref_id": "@s2kwljgjbfhabu:e19",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 495.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 495.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 502.0
+                              },
+                              "name": "Quick",
+                              "role": "statictext",
+                              "value": "Quick"
+                            }
+                          ],
+                          "name": "Quick",
+                          "ref_id": "@s2kwljgjbfhabu:e22",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Quick",
+                      "ref_id": "@s2kwljgjbfhabu:e21",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 540.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 540.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 21.0,
+                                "width": 189.0,
+                                "x": 298.0,
+                                "y": 539.0
+                              },
+                              "name": "Locations",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "xSidebarHeader"
+                              },
+                              "role": "statictext",
+                              "value": "Locations"
+                            }
+                          ],
+                          "name": "Locations",
+                          "ref_id": "@s2kwljgjbfhabu:e24",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "Locations",
+                      "ref_id": "@s2kwljgjbfhabu:e23",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 559.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 559.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 566.0
+                              },
+                              "name": "iCloud\u00a0Drive",
+                              "role": "statictext",
+                              "value": "iCloud\u00a0Drive"
+                            }
+                          ],
+                          "name": "iCloud\u00a0Drive",
+                          "ref_id": "@s2kwljgjbfhabu:e26",
+                          "role": "cell",
+                          "states": [
+                            "focused"
+                          ]
+                        }
+                      ],
+                      "name": "iCloud Drive",
+                      "ref_id": "@s2kwljgjbfhabu:e25",
+                      "role": "treeitem"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 591.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 591.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 598.0
+                              },
+                              "name": "MacDroid",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "MacDroid"
+                            }
+                          ],
+                          "name": "MacDroid",
+                          "ref_id": "@s2kwljgjbfhabu:e28",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "MacDroid",
+                      "ref_id": "@s2kwljgjbfhabu:e27",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 623.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 623.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 630.0
+                              },
+                              "name": "harshit",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "harshit"
+                            }
+                          ],
+                          "name": "harshit",
+                          "ref_id": "@s2kwljgjbfhabu:e30",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "harshit",
+                      "ref_id": "@s2kwljgjbfhabu:e29",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 655.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 655.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 662.0
+                              },
+                              "name": "harshit\u2019s MacBook Air",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "harshit\u2019s MacBook Air"
+                            }
+                          ],
+                          "name": "harshit\u2019s MacBook Air",
+                          "ref_id": "@s2kwljgjbfhabu:e32",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "harshit\u2019s MacBook Air",
+                      "ref_id": "@s2kwljgjbfhabu:e31",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 687.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 687.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 694.0
+                              },
+                              "name": "AirDrop",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "AirDrop"
+                            }
+                          ],
+                          "name": "AirDrop",
+                          "ref_id": "@s2kwljgjbfhabu:e34",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "AirDrop",
+                      "ref_id": "@s2kwljgjbfhabu:e33",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 719.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 719.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 726.0
+                              },
+                              "name": "Bin",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Bin"
+                            }
+                          ],
+                          "name": "Bin",
+                          "ref_id": "@s2kwljgjbfhabu:e36",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Bin",
+                      "ref_id": "@s2kwljgjbfhabu:e35",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 19.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 764.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 19.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 764.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 21.0,
+                                "width": 189.0,
+                                "x": 298.0,
+                                "y": 763.0
+                              },
+                              "name": "Tags",
+                              "native_id": {
+                                "kind": "ax_identifier",
+                                "value": "xSidebarHeader"
+                              },
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Tags"
+                            }
+                          ],
+                          "name": "Tags",
+                          "ref_id": "@s2kwljgjbfhabu:e38",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Tags",
+                      "ref_id": "@s2kwljgjbfhabu:e37",
+                      "role": "treeitem",
+                      "states": [
+                        "expanded",
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 783.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 783.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 790.0
+                              },
+                              "name": "Red",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Red"
+                            }
+                          ],
+                          "name": "Red",
+                          "ref_id": "@s2kwljgjbfhabu:e40",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Red",
+                      "ref_id": "@s2kwljgjbfhabu:e39",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 815.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 815.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 822.0
+                              },
+                              "name": "Orange",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Orange"
+                            }
+                          ],
+                          "name": "Orange",
+                          "ref_id": "@s2kwljgjbfhabu:e42",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Orange",
+                      "ref_id": "@s2kwljgjbfhabu:e41",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 847.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 847.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 854.0
+                              },
+                              "name": "Yellow",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Yellow"
+                            }
+                          ],
+                          "name": "Yellow",
+                          "ref_id": "@s2kwljgjbfhabu:e44",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Yellow",
+                      "ref_id": "@s2kwljgjbfhabu:e43",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 879.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 879.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 886.0
+                              },
+                              "name": "Green",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Green"
+                            }
+                          ],
+                          "name": "Green",
+                          "ref_id": "@s2kwljgjbfhabu:e46",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Green",
+                      "ref_id": "@s2kwljgjbfhabu:e45",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 911.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 911.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 918.0
+                              },
+                              "name": "Blue",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Blue"
+                            }
+                          ],
+                          "name": "Blue",
+                          "ref_id": "@s2kwljgjbfhabu:e48",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Blue",
+                      "ref_id": "@s2kwljgjbfhabu:e47",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 943.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 943.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 950.0
+                              },
+                              "name": "Purple",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Purple"
+                            }
+                          ],
+                          "name": "Purple",
+                          "ref_id": "@s2kwljgjbfhabu:e50",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Purple",
+                      "ref_id": "@s2kwljgjbfhabu:e49",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 975.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 975.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 982.0
+                              },
+                              "name": "Grey",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "Grey"
+                            }
+                          ],
+                          "name": "Grey",
+                          "ref_id": "@s2kwljgjbfhabu:e52",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "Grey",
+                      "ref_id": "@s2kwljgjbfhabu:e51",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 207.0,
+                        "x": 283.0,
+                        "y": 1007.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 187.0,
+                            "x": 293.0,
+                            "y": 1007.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 18.0,
+                                "width": 145.0,
+                                "x": 328.0,
+                                "y": 1014.0
+                              },
+                              "name": "All Tags\u2026",
+                              "role": "statictext",
+                              "states": [
+                                "offscreen"
+                              ],
+                              "value": "All Tags\u2026"
+                            }
+                          ],
+                          "name": "All Tags\u2026",
+                          "ref_id": "@s2kwljgjbfhabu:e54",
+                          "role": "cell",
+                          "states": [
+                            "focused",
+                            "offscreen"
+                          ]
+                        }
+                      ],
+                      "name": "All Tags\u2026",
+                      "ref_id": "@s2kwljgjbfhabu:e53",
+                      "role": "treeitem",
+                      "states": [
+                        "offscreen"
+                      ]
+                    },
+                    {
+                      "bounds": {
+                        "height": 842.0,
+                        "width": 187.0,
+                        "x": 293.0,
+                        "y": 207.0
+                      },
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "AutomaticTableColumnIdentifier.0"
+                      },
+                      "role": "column"
+                    }
+                  ],
+                  "name": "sidebar",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:8"
+                  },
+                  "ref_id": "@s2kwljgjbfhabu:e2",
+                  "role": "outline"
+                },
+                {
+                  "available_actions": [
+                    "SetValue"
+                  ],
+                  "bounds": {
+                    "height": 368.5,
+                    "width": 19.0,
+                    "x": 472.0,
+                    "y": 206.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "SetValue"
+                      ],
+                      "bounds": {
+                        "height": 170.5,
+                        "width": 6.0,
+                        "x": 481.0,
+                        "y": 210.0
+                      },
+                      "ref_id": "@s2kwljgjbfhabu:e56",
+                      "role": "handle",
+                      "value": "0"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 473.0,
+                        "y": 207.0
+                      },
+                      "ref_id": "@s2kwljgjbfhabu:e57",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 0.0,
+                        "x": 473.0,
+                        "y": 207.0
+                      },
+                      "ref_id": "@s2kwljgjbfhabu:e58",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 189.5,
+                        "width": 6.0,
+                        "x": 481.0,
+                        "y": 381.0
+                      },
+                      "ref_id": "@s2kwljgjbfhabu:e59",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click"
+                      ],
+                      "bounds": {
+                        "height": 0.0,
+                        "width": 6.0,
+                        "x": 481.0,
+                        "y": 210.0
+                      },
+                      "ref_id": "@s2kwljgjbfhabu:e60",
+                      "role": "button"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:70"
+                  },
+                  "ref_id": "@s2kwljgjbfhabu:e55",
+                  "role": "scrollbar",
+                  "states": [
+                    "hidden"
+                  ],
+                  "value": "0"
+                }
+              ],
+              "native_id": {
+                "kind": "ax_identifier",
+                "value": "_NS:61"
+              },
+              "ref_id": "@s2kwljgjbfhabu:e1",
+              "role": "scrollarea"
+            },
+            {
+              "bounds": {
+                "height": 384.0,
+                "width": 0.0,
+                "x": 490.0,
+                "y": 207.0
+              },
+              "role": "splitter",
+              "states": [
+                "disabled"
+              ],
+              "value": "215"
+            },
+            {
+              "bounds": {
+                "height": 436.0,
+                "width": 920.0,
+                "x": 275.0,
+                "y": 155.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Scroll",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 384.0,
+                    "width": 705.0,
+                    "x": 490.0,
+                    "y": 207.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "RightClick",
+                        "Select",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 386.0,
+                        "width": 707.0,
+                        "x": 489.0,
+                        "y": 206.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 212.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 705.0,
+                                "x": 490.0,
+                                "y": 212.0
+                              },
+                              "ref_id": "@s2kwljgjbfhabu:e64",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 705.0,
+                                "x": 490.0,
+                                "y": 212.0
+                              },
+                              "ref_id": "@s2kwljgjbfhabu:e65",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 705.0,
+                                "x": 490.0,
+                                "y": 212.0
+                              },
+                              "ref_id": "@s2kwljgjbfhabu:e66",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 705.0,
+                                "x": 490.0,
+                                "y": 212.0
+                              },
+                              "ref_id": "@s2kwljgjbfhabu:e67",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "ref_id": "@s2kwljgjbfhabu:e63",
+                          "role": "treeitem",
+                          "states": [
+                            "expanded"
+                          ]
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 240.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 240.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 242.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 96.0,
+                                    "x": 536.0,
+                                    "y": 241.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e70",
+                                  "role": "textfield",
+                                  "value": "agent-desktop"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 239.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e71",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e69",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 240.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 241.0
+                                  },
+                                  "name": "16 Aug 2026 at 2:20\u202fPM",
+                                  "role": "statictext",
+                                  "value": "16 Aug 2026 at 2:20\u202fPM"
+                                }
+                              ],
+                              "name": "16 Aug 2026 at 2:20\u202fPM",
+                              "ref_id": "@s2kwljgjbfhabu:e72",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 240.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 241.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e73",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 240.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 241.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e74",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "16 Aug 2026 at 2:20 PM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e68",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 260.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 260.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 262.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 53.0,
+                                    "x": 536.0,
+                                    "y": 261.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e77",
+                                  "role": "textfield",
+                                  "value": "arc-cua"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 259.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e78",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e76",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 260.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 261.0
+                                  },
+                                  "name": "30 Sep 2026 at 1:35\u202fAM",
+                                  "role": "statictext",
+                                  "value": "30 Sep 2026 at 1:35\u202fAM"
+                                }
+                              ],
+                              "name": "30 Sep 2026 at 1:35\u202fAM",
+                              "ref_id": "@s2kwljgjbfhabu:e79",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 260.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 261.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e80",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 260.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 261.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e81",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "30 Sep 2026 at 1:35 AM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e75",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 280.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 280.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 282.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 38.0,
+                                    "x": 536.0,
+                                    "y": 281.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e84",
+                                  "role": "textfield",
+                                  "value": "atree"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 279.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e85",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e83",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 280.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 281.0
+                                  },
+                                  "name": "29 Aug 2026 at 9:15\u202fPM",
+                                  "role": "statictext",
+                                  "value": "29 Aug 2026 at 9:15\u202fPM"
+                                }
+                              ],
+                              "name": "29 Aug 2026 at 9:15\u202fPM",
+                              "ref_id": "@s2kwljgjbfhabu:e86",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 280.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 281.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e87",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 280.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 281.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e88",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "29 Aug 2026 at 9:15 PM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e82",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 300.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 300.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 302.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 60.0,
+                                    "x": 536.0,
+                                    "y": 301.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e91",
+                                  "role": "textfield",
+                                  "value": "atree_v2"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 299.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e92",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e90",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 300.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 301.0
+                                  },
+                                  "name": "1 Sep 2026 at 2:43\u202fAM",
+                                  "role": "statictext",
+                                  "value": "1 Sep 2026 at 2:43\u202fAM"
+                                }
+                              ],
+                              "name": "1 Sep 2026 at 2:43\u202fAM",
+                              "ref_id": "@s2kwljgjbfhabu:e93",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 300.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 301.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e94",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 300.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 301.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e95",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "1 Sep 2026 at 2:43 AM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e89",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 320.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 320.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 322.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 78.0,
+                                    "x": 536.0,
+                                    "y": 321.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e98",
+                                  "role": "textfield",
+                                  "value": "Ax_analysis"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 319.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e99",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e97",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 320.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 321.0
+                                  },
+                                  "name": "30 Aug 2026 at 9:45\u202fPM",
+                                  "role": "statictext",
+                                  "value": "30 Aug 2026 at 9:45\u202fPM"
+                                }
+                              ],
+                              "name": "30 Aug 2026 at 9:45\u202fPM",
+                              "ref_id": "@s2kwljgjbfhabu:e100",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 320.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 321.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e101",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 320.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 321.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e102",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "30 Aug 2026 at 9:45 PM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e96",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 340.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 340.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 342.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 115.0,
+                                    "x": 536.0,
+                                    "y": 341.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e105",
+                                  "role": "textfield",
+                                  "value": "jarvis-ai-assistant"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 339.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e106",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e104",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 340.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 341.0
+                                  },
+                                  "name": "19 Aug 2026 at 2:07\u202fPM",
+                                  "role": "statictext",
+                                  "value": "19 Aug 2026 at 2:07\u202fPM"
+                                }
+                              ],
+                              "name": "19 Aug 2026 at 2:07\u202fPM",
+                              "ref_id": "@s2kwljgjbfhabu:e107",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 340.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 341.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e108",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 340.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 341.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e109",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "19 Aug 2026 at 2:07 PM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e103",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 360.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 360.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 362.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 57.0,
+                                    "x": 536.0,
+                                    "y": 361.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e112",
+                                  "role": "textfield",
+                                  "value": "LLM_OS"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 359.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e113",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e111",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 360.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 361.0
+                                  },
+                                  "name": "30 Aug 2026 at 12:18\u202fAM",
+                                  "role": "statictext",
+                                  "value": "30 Aug 2026 at 12:18\u202fAM"
+                                }
+                              ],
+                              "name": "30 Aug 2026 at 12:18\u202fAM",
+                              "ref_id": "@s2kwljgjbfhabu:e114",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 360.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 361.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e115",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 360.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 361.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e116",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "30 Aug 2026 at 12:18 AM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e110",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 380.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 380.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 382.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 29.0,
+                                    "x": 536.0,
+                                    "y": 381.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e119",
+                                  "role": "textfield",
+                                  "value": "lsfg"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 379.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e120",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e118",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 380.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 381.0
+                                  },
+                                  "name": "30 Sep 2026 at 4:16\u202fAM",
+                                  "role": "statictext",
+                                  "value": "30 Sep 2026 at 4:16\u202fAM"
+                                }
+                              ],
+                              "name": "30 Sep 2026 at 4:16\u202fAM",
+                              "ref_id": "@s2kwljgjbfhabu:e121",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 380.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 381.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e122",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 380.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 381.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e123",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "30 Sep 2026 at 4:16 AM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e117",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 400.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 400.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 402.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 142.0,
+                                    "x": 536.0,
+                                    "y": 401.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e126",
+                                  "role": "textfield",
+                                  "value": "screen_understanding"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 399.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e127",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e125",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 400.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 401.0
+                                  },
+                                  "name": "Today at 9:16\u202fPM",
+                                  "role": "statictext",
+                                  "value": "Today at 9:16\u202fPM"
+                                }
+                              ],
+                              "name": "Today at 9:16\u202fPM",
+                              "ref_id": "@s2kwljgjbfhabu:e128",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 400.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 401.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e129",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 400.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 401.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e130",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "Today at 9:16 PM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e124",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 420.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 270.0,
+                                "x": 516.0,
+                                "y": 420.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 422.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 37.0,
+                                    "x": 536.0,
+                                    "y": 421.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e133",
+                                  "role": "textfield",
+                                  "value": "temp"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e132",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 420.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 421.0
+                                  },
+                                  "name": "1 Sep 2026 at 3:58\u202fAM",
+                                  "role": "statictext",
+                                  "value": "1 Sep 2026 at 3:58\u202fAM"
+                                }
+                              ],
+                              "name": "1 Sep 2026 at 3:58\u202fAM",
+                              "ref_id": "@s2kwljgjbfhabu:e134",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 420.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 46.0,
+                                    "x": 1013.0,
+                                    "y": 421.0
+                                  },
+                                  "name": "1.7 MB",
+                                  "role": "statictext",
+                                  "value": "1.7 MB"
+                                }
+                              ],
+                              "name": "1.7 MB",
+                              "ref_id": "@s2kwljgjbfhabu:e135",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 420.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 74.0,
+                                    "x": 1070.0,
+                                    "y": 421.0
+                                  },
+                                  "name": "PNG image",
+                                  "role": "statictext",
+                                  "value": "PNG image"
+                                }
+                              ],
+                              "name": "PNG image",
+                              "ref_id": "@s2kwljgjbfhabu:e136",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "1 Sep 2026 at 3:58 AM 1.7 MB PNG image",
+                          "ref_id": "@s2kwljgjbfhabu:e131",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 440.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 440.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 442.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 75.0,
+                                    "x": 536.0,
+                                    "y": 441.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e139",
+                                  "role": "textfield",
+                                  "value": "testing_out"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 439.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e140",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e138",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 440.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 441.0
+                                  },
+                                  "name": "1 Sep 2026 at 2:12\u202fAM",
+                                  "role": "statictext",
+                                  "value": "1 Sep 2026 at 2:12\u202fAM"
+                                }
+                              ],
+                              "name": "1 Sep 2026 at 2:12\u202fAM",
+                              "ref_id": "@s2kwljgjbfhabu:e141",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 440.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 441.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e142",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 440.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 441.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e143",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "1 Sep 2026 at 2:12 AM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e137",
+                          "role": "treeitem"
+                        },
+                        {
+                          "available_actions": [
+                            "Click"
+                          ],
+                          "bounds": {
+                            "height": 20.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 460.0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 284.0,
+                                "x": 516.0,
+                                "y": 460.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16.0,
+                                    "width": 16.0,
+                                    "x": 516.0,
+                                    "y": 462.0
+                                  },
+                                  "role": "image"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "RightClick",
+                                    "SetValue"
+                                  ],
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 77.0,
+                                    "x": 536.0,
+                                    "y": 461.0
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e146",
+                                  "role": "textfield",
+                                  "value": "vlm_testing"
+                                },
+                                {
+                                  "available_actions": [
+                                    "Click",
+                                    "Expand",
+                                    "Collapse"
+                                  ],
+                                  "bounds": {
+                                    "height": 22.0,
+                                    "width": 15.0,
+                                    "x": 501.0,
+                                    "y": 459.0
+                                  },
+                                  "native_id": {
+                                    "kind": "ax_identifier",
+                                    "value": "NSOutlineViewDisclosureButtonKey"
+                                  },
+                                  "ref_id": "@s2kwljgjbfhabu:e147",
+                                  "role": "disclosure",
+                                  "value": "0"
+                                }
+                              ],
+                              "ref_id": "@s2kwljgjbfhabu:e145",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 460.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 169.0,
+                                    "x": 792.0,
+                                    "y": 461.0
+                                  },
+                                  "name": "2 Sep 2026 at 2:04\u202fAM",
+                                  "role": "statictext",
+                                  "value": "2 Sep 2026 at 2:04\u202fAM"
+                                }
+                              ],
+                              "name": "2 Sep 2026 at 2:04\u202fAM",
+                              "ref_id": "@s2kwljgjbfhabu:e148",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 460.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 15.0,
+                                    "x": 1044.0,
+                                    "y": 461.0
+                                  },
+                                  "name": "--",
+                                  "role": "statictext",
+                                  "value": "--"
+                                }
+                              ],
+                              "name": "--",
+                              "ref_id": "@s2kwljgjbfhabu:e149",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            },
+                            {
+                              "bounds": {
+                                "height": 20.0,
+                                "width": 115.0,
+                                "x": 1064.0,
+                                "y": 460.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 18.0,
+                                    "width": 41.0,
+                                    "x": 1070.0,
+                                    "y": 461.0
+                                  },
+                                  "name": "Folder",
+                                  "role": "statictext",
+                                  "value": "Folder"
+                                }
+                              ],
+                              "name": "Folder",
+                              "ref_id": "@s2kwljgjbfhabu:e150",
+                              "role": "cell",
+                              "states": [
+                                "focused"
+                              ]
+                            }
+                          ],
+                          "name": "2 Sep 2026 at 2:04 AM -- Folder",
+                          "ref_id": "@s2kwljgjbfhabu:e144",
+                          "role": "treeitem"
+                        },
+                        {
+                          "bounds": {
+                            "height": 384.0,
+                            "width": 286.0,
+                            "x": 500.0,
+                            "y": 207.0
+                          },
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "name"
+                          },
+                          "role": "column"
+                        },
+                        {
+                          "bounds": {
+                            "height": 384.0,
+                            "width": 181.0,
+                            "x": 786.0,
+                            "y": 207.0
+                          },
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "dateModified"
+                          },
+                          "role": "column"
+                        },
+                        {
+                          "bounds": {
+                            "height": 384.0,
+                            "width": 97.0,
+                            "x": 967.0,
+                            "y": 207.0
+                          },
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "size"
+                          },
+                          "role": "column"
+                        },
+                        {
+                          "bounds": {
+                            "height": 384.0,
+                            "width": 121.0,
+                            "x": 1064.0,
+                            "y": 207.0
+                          },
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "kind"
+                          },
+                          "role": "column"
+                        },
+                        {
+                          "bounds": {
+                            "height": 0.0,
+                            "width": 705.0,
+                            "x": 490.0,
+                            "y": 207.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 286.0,
+                                "x": 500.0,
+                                "y": 207.0
+                              },
+                              "name": "Name",
+                              "ref_id": "@s2kwljgjbfhabu:e151",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 181.0,
+                                "x": 786.0,
+                                "y": 207.0
+                              },
+                              "name": "Date Modified",
+                              "ref_id": "@s2kwljgjbfhabu:e152",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 97.0,
+                                "x": 967.0,
+                                "y": 207.0
+                              },
+                              "name": "Size",
+                              "ref_id": "@s2kwljgjbfhabu:e153",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 28.0,
+                                "width": 121.0,
+                                "x": 1064.0,
+                                "y": 207.0
+                              },
+                              "name": "Kind",
+                              "ref_id": "@s2kwljgjbfhabu:e154",
+                              "role": "button"
+                            }
+                          ],
+                          "native_id": {
+                            "kind": "ax_identifier",
+                            "value": "_NS:13"
+                          },
+                          "role": "group"
+                        }
+                      ],
+                      "name": "list view",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "ListView"
+                      },
+                      "ref_id": "@s2kwljgjbfhabu:e62",
+                      "role": "outline",
+                      "states": [
+                        "focused"
+                      ]
+                    },
+                    {
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 296.0,
+                        "x": 490.0,
+                        "y": 207.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16.0,
+                            "width": 34.0,
+                            "x": 536.0,
+                            "y": 212.0
+                          },
+                          "name": "Name",
+                          "role": "statictext",
+                          "value": "Name"
+                        },
+                        {
+                          "bounds": {
+                            "height": 10.0,
+                            "width": 11.5,
+                            "x": 767.0,
+                            "y": 216.0
+                          },
+                          "name": "go up",
+                          "role": "image"
+                        }
+                      ],
+                      "name": "Name, Ascending order",
+                      "ref_id": "@s2kwljgjbfhabu:e155",
+                      "role": "button"
+                    },
+                    {
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 181.0,
+                        "x": 786.0,
+                        "y": 207.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16.0,
+                            "width": 76.0,
+                            "x": 792.0,
+                            "y": 212.0
+                          },
+                          "name": "Date Modified",
+                          "role": "statictext",
+                          "value": "Date Modified"
+                        }
+                      ],
+                      "name": "Date Modified",
+                      "ref_id": "@s2kwljgjbfhabu:e156",
+                      "role": "button"
+                    },
+                    {
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 97.0,
+                        "x": 967.0,
+                        "y": 207.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16.0,
+                            "width": 25.0,
+                            "x": 973.0,
+                            "y": 212.0
+                          },
+                          "name": "Size",
+                          "role": "statictext",
+                          "value": "Size"
+                        }
+                      ],
+                      "name": "Size",
+                      "ref_id": "@s2kwljgjbfhabu:e157",
+                      "role": "button"
+                    },
+                    {
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 131.0,
+                        "x": 1064.0,
+                        "y": 207.0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16.0,
+                            "width": 26.0,
+                            "x": 1070.0,
+                            "y": 212.0
+                          },
+                          "name": "Kind",
+                          "role": "statictext",
+                          "value": "Kind"
+                        }
+                      ],
+                      "name": "Kind",
+                      "ref_id": "@s2kwljgjbfhabu:e158",
+                      "role": "button"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:188"
+                  },
+                  "ref_id": "@s2kwljgjbfhabu:e61",
+                  "role": "scrollarea"
+                },
+                {
+                  "bounds": {
+                    "height": 28.0,
+                    "width": 705.0,
+                    "x": 490.0,
+                    "y": 591.0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 16.0,
+                        "width": 169.0,
+                        "x": 753.0,
+                        "y": 597.0
+                      },
+                      "name": "12 items, 133.35 GB available",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "statusBarText"
+                      },
+                      "role": "statictext",
+                      "states": [
+                        "offscreen"
+                      ],
+                      "value": "12 items, 133.35 GB available"
+                    }
+                  ],
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "statusBar"
+                  },
+                  "role": "unknown",
+                  "states": [
+                    "offscreen"
+                  ]
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 920.0,
+            "x": 275.0,
+            "y": 155.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 81.0,
+                "x": 494.0,
+                "y": 155.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 75.0,
+                    "x": 497.0,
+                    "y": 162.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 498.0,
+                        "y": 163.0
+                      },
+                      "name": "back",
+                      "ref_id": "@s2kwljgjbfhabu:e160",
+                      "role": "button",
+                      "states": [
+                        "disabled"
+                      ]
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 535.0,
+                        "y": 163.0
+                      },
+                      "name": "forward",
+                      "ref_id": "@s2kwljgjbfhabu:e161",
+                      "role": "button",
+                      "states": [
+                        "disabled"
+                      ]
+                    }
+                  ],
+                  "name": "Back/Forward",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "_NS:51"
+                  },
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 57.0,
+                "x": 885.0,
+                "y": 155.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus",
+                    "Expand",
+                    "Collapse"
+                  ],
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 51.0,
+                    "x": 888.0,
+                    "y": 162.0
+                  },
+                  "name": "list view",
+                  "ref_id": "@s2kwljgjbfhabu:e162",
+                  "role": "combobox",
+                  "states": [
+                    "readonly"
+                  ],
+                  "value": "as List"
+                }
+              ],
+              "role": "group"
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 58.0,
+                "x": 950.0,
+                "y": 155.0
+              },
+              "name": "Group",
+              "ref_id": "@s2kwljgjbfhabu:e163",
+              "role": "menubutton"
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 41.0,
+                "x": 1016.0,
+                "y": 155.0
+              },
+              "name": "Share",
+              "ref_id": "@s2kwljgjbfhabu:e164",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 40.0,
+                "x": 1057.0,
+                "y": 155.0
+              },
+              "name": "Edit Tags",
+              "ref_id": "@s2kwljgjbfhabu:e165",
+              "role": "button",
+              "states": [
+                "disabled"
+              ]
+            },
+            {
+              "available_actions": [
+                "Click",
+                "SetFocus",
+                "Expand",
+                "Collapse"
+              ],
+              "bounds": {
+                "height": 52.0,
+                "width": 41.0,
+                "x": 1097.0,
+                "y": 155.0
+              },
+              "name": "Action",
+              "ref_id": "@s2kwljgjbfhabu:e166",
+              "role": "menubutton"
+            },
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 45.0,
+                "x": 1146.0,
+                "y": 155.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 38.0,
+                    "width": 38.5,
+                    "x": 1149.5,
+                    "y": 162.0
+                  },
+                  "name": "Search",
+                  "ref_id": "@s2kwljgjbfhabu:e167",
+                  "role": "textfield"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s2kwljgjbfhabu:e159",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 293.0,
+            "y": 173.0
+          },
+          "ref_id": "@s2kwljgjbfhabu:e168",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 339.0,
+            "y": 173.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 14.0,
+                "width": 14.0,
+                "x": 340.0,
+                "y": 174.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 14.0,
+                    "width": 14.0,
+                    "x": 340.0,
+                    "y": 174.0
+                  },
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s2kwljgjbfhabu:e169",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 316.0,
+            "y": 173.0
+          },
+          "ref_id": "@s2kwljgjbfhabu:e170",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 310.0,
+            "x": 575.0,
+            "y": 155.0
+          },
+          "name": "YC",
+          "ref_id": "@s2kwljgjbfhabu:e171",
+          "role": "statictext",
+          "value": "YC"
+        }
+      ],
+      "name": "YC",
+      "native_id": {
+        "kind": "ax_identifier",
+        "value": "FinderWindow"
+      },
+      "role": "window"
+    },
+    "window": {
+      "id": "w-47097",
+      "title": "YC"
+    }
+  }
+}

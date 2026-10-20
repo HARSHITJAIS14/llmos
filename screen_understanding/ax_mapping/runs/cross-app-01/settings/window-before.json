@@ -1,0 +1,16 @@
+{
+  "app_name": "System Settings",
+  "bounds": {
+    "height": 803.0,
+    "width": 723.0,
+    "x": 492.0,
+    "y": 93.0
+  },
+  "id": "w-47210",
+  "is_focused": true,
+  "minimized": false,
+  "pid": 72577,
+  "process_instance": "macos-proc-v1:1792426160:336005",
+  "title": "Appearance",
+  "visible": true
+}

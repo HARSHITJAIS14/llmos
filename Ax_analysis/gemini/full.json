@@ -1,0 +1,3434 @@
+{
+  "version": "2.3",
+  "ok": true,
+  "command": "snapshot",
+  "data": {
+    "app": "Gemini",
+    "complete": false,
+    "nodes_observed": 220,
+    "ref_count": 201,
+    "snapshot_id": "s24zjcc37k24rq",
+    "tree": {
+      "bounds": {
+        "height": 803.0,
+        "width": 1087.0,
+        "x": 2753.0,
+        "y": 565.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 803.0,
+            "width": 1087.0,
+            "x": 2753.0,
+            "y": 565.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 803.0,
+                "width": 1087.0,
+                "x": 2753.0,
+                "y": 565.0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 787.0,
+                    "width": 230.0,
+                    "x": 2761.0,
+                    "y": 573.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 28.0,
+                        "width": 28.0,
+                        "x": 2953.0,
+                        "y": 581.0
+                      },
+                      "name": "Toggle sidebar",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "sidebar_toggle"
+                      },
+                      "ref_id": "@s24zjcc37k24rq:e1",
+                      "role": "button"
+                    },
+                    {
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 214.0,
+                        "x": 2769.0,
+                        "y": 617.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 28.0,
+                            "width": 105.0,
+                            "x": 2771.0,
+                            "y": 619.0
+                          },
+                          "name": "Chat",
+                          "ref_id": "@s24zjcc37k24rq:e2",
+                          "role": "button"
+                        },
+                        {
+                          "available_actions": [
+                            "Click",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 17.0,
+                            "width": 59.0,
+                            "x": 2911.25,
+                            "y": 624.5
+                          },
+                          "name": "Spark, BETA",
+                          "ref_id": "@s24zjcc37k24rq:e3",
+                          "role": "button"
+                        }
+                      ],
+                      "name": "Mode toggle",
+                      "role": "group"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "RightClick",
+                        "SetValue",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 31.0,
+                        "width": 221.0,
+                        "x": 2765.75,
+                        "y": 653.75
+                      },
+                      "name": "Search",
+                      "ref_id": "@s24zjcc37k24rq:e4",
+                      "role": "textfield"
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 613.0,
+                        "width": 230.0,
+                        "x": 2761.0,
+                        "y": 689.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "Select",
+                            "SetFocus"
+                          ],
+                          "bounds": {
+                            "height": 613.0,
+                            "width": 230.0,
+                            "x": 2761.0,
+                            "y": 689.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 689.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 0.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 689.0
+                                  },
+                                  "ref_id": "@s24zjcc37k24rq:e8",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e7",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 689.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 689.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click"
+                                      ],
+                                      "bounds": {
+                                        "height": 32.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 689.0
+                                      },
+                                      "name": "New chat",
+                                      "ref_id": "@s24zjcc37k24rq:e11",
+                                      "role": "button",
+                                      "states": [
+                                        "selected"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e10",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "selected"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e9",
+                              "role": "treeitem",
+                              "states": [
+                                "selected"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 721.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 721.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click"
+                                      ],
+                                      "bounds": {
+                                        "height": 32.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 721.0
+                                      },
+                                      "name": "Library",
+                                      "ref_id": "@s24zjcc37k24rq:e14",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e13",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e12",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 766.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 766.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 32.0,
+                                        "width": 197.0,
+                                        "x": 2775.0,
+                                        "y": 766.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click"
+                                          ],
+                                          "bounds": {
+                                            "height": 24.0,
+                                            "width": 185.0,
+                                            "x": 2777.0,
+                                            "y": 770.0
+                                          },
+                                          "ref_id": "@s24zjcc37k24rq:e17",
+                                          "role": "heading"
+                                        }
+                                      ],
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e16",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e15",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 798.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 798.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click"
+                                      ],
+                                      "bounds": {
+                                        "height": 32.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 798.0
+                                      },
+                                      "name": "New notebook",
+                                      "native_id": {
+                                        "kind": "ax_identifier",
+                                        "value": "newNotebookRow"
+                                      },
+                                      "ref_id": "@s24zjcc37k24rq:e20",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e19",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e18",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 843.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 843.0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 32.0,
+                                        "width": 197.0,
+                                        "x": 2775.0,
+                                        "y": 843.0
+                                      },
+                                      "children": [
+                                        {
+                                          "available_actions": [
+                                            "Click"
+                                          ],
+                                          "bounds": {
+                                            "height": 24.0,
+                                            "width": 185.0,
+                                            "x": 2777.0,
+                                            "y": 847.0
+                                          },
+                                          "ref_id": "@s24zjcc37k24rq:e23",
+                                          "role": "heading"
+                                        }
+                                      ],
+                                      "role": "group"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e22",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e21",
+                              "role": "treeitem",
+                              "states": [
+                                "expanded"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 875.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 875.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 876.5
+                                      },
+                                      "name": "Preparing for Competitive Programming",
+                                      "ref_id": "@s24zjcc37k24rq:e26",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e25",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e24",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 907.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 907.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 908.5
+                                      },
+                                      "name": "Why Computer Use Agents Are Slow",
+                                      "ref_id": "@s24zjcc37k24rq:e29",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e28",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e27",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 939.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 939.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 940.5
+                                      },
+                                      "name": "Startups for Shared Cloud Browsing",
+                                      "ref_id": "@s24zjcc37k24rq:e32",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e31",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e30",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 971.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 971.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 972.5
+                                      },
+                                      "name": "Optimizing $n$-th Root Binary Search",
+                                      "ref_id": "@s24zjcc37k24rq:e35",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e34",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e33",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1003.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1003.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1004.5
+                                      },
+                                      "name": "Fixing Pipeline Deadlocks in C",
+                                      "ref_id": "@s24zjcc37k24rq:e38",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e37",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e36",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1035.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1035.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1036.5
+                                      },
+                                      "name": "Polyacrylate Process Constraint Review",
+                                      "ref_id": "@s24zjcc37k24rq:e41",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e40",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e39",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1067.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1067.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1068.5
+                                      },
+                                      "name": "Quiz Evaluation and Score Breakdown",
+                                      "ref_id": "@s24zjcc37k24rq:e44",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e43",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e42",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1099.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1099.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1100.5
+                                      },
+                                      "name": "MLFQ Scheduling for Process A and B",
+                                      "ref_id": "@s24zjcc37k24rq:e47",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e46",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e45",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1131.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1131.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1132.5
+                                      },
+                                      "name": "Optimizing Muscle Growth and Recovery",
+                                      "ref_id": "@s24zjcc37k24rq:e50",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e49",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e48",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1163.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1163.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1164.5
+                                      },
+                                      "name": "Removing Ants From Laptop Keyboard",
+                                      "ref_id": "@s24zjcc37k24rq:e53",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e52",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e51",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1195.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1195.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1196.5
+                                      },
+                                      "name": "Effective Cable Triceps Exercises",
+                                      "ref_id": "@s24zjcc37k24rq:e56",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e55",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e54",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1227.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1227.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1228.5
+                                      },
+                                      "name": "Adjusting Chest Press for Lower Chest",
+                                      "ref_id": "@s24zjcc37k24rq:e59",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e58",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e57",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1259.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1259.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1260.5
+                                      },
+                                      "name": "Decentralized LLM Token Economy",
+                                      "ref_id": "@s24zjcc37k24rq:e62",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e61",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e60",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1291.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1291.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1292.5
+                                      },
+                                      "name": "How to Change Gemini Account",
+                                      "ref_id": "@s24zjcc37k24rq:e65",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e64",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e63",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1323.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1323.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1324.5
+                                      },
+                                      "name": "Downloading Stream Results in Aspen",
+                                      "ref_id": "@s24zjcc37k24rq:e68",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e67",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e66",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1355.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1355.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1356.5
+                                      },
+                                      "name": "Seated Chest Press Machine Purpose",
+                                      "ref_id": "@s24zjcc37k24rq:e71",
+                                      "role": "button"
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e70",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e69",
+                              "role": "treeitem"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1387.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1387.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1388.5
+                                      },
+                                      "name": "Stacking Gemini Subscriptions Explained",
+                                      "ref_id": "@s24zjcc37k24rq:e74",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e73",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e72",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1419.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1419.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 29.0,
+                                        "width": 181.0,
+                                        "x": 2777.0,
+                                        "y": 1420.5
+                                      },
+                                      "name": "Do You Need to Guess in Sudoku?",
+                                      "ref_id": "@s24zjcc37k24rq:e77",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e76",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e75",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1451.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1451.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Claude Team Subscription Options",
+                                      "ref_id": "@s24zjcc37k24rq:e80",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e79",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e78",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1483.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1483.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "A Polite Greeting",
+                                      "ref_id": "@s24zjcc37k24rq:e83",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e82",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e81",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1515.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1515.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Building Complex AI Agents with LangGraph",
+                                      "ref_id": "@s24zjcc37k24rq:e86",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e85",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e84",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1547.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1547.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Engineering High-Scale ANN Retrieval",
+                                      "ref_id": "@s24zjcc37k24rq:e89",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e88",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e87",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1579.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1579.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Find Missing Geometric Progression Term",
+                                      "ref_id": "@s24zjcc37k24rq:e92",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e91",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e90",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1611.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1611.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Efficient DAG Path Verification Algorithm",
+                                      "ref_id": "@s24zjcc37k24rq:e95",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e94",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e93",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1643.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1643.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Coding Profile: CP Focus, ML Skills",
+                                      "ref_id": "@s24zjcc37k24rq:e98",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e97",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e96",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1675.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1675.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Vegetarian Protein Sources for Muscle",
+                                      "ref_id": "@s24zjcc37k24rq:e101",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e100",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e99",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1707.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1707.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Convert Text Grid to C++ Vector",
+                                      "ref_id": "@s24zjcc37k24rq:e104",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e103",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e102",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1739.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1739.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "SRTF Scheduling Example Solved",
+                                      "ref_id": "@s24zjcc37k24rq:e107",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e106",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e105",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1771.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1771.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Resume Entry Formatting Conversion",
+                                      "ref_id": "@s24zjcc37k24rq:e110",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e109",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e108",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1803.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1803.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Meeting Request for UGP Roadmap",
+                                      "ref_id": "@s24zjcc37k24rq:e113",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e112",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e111",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1835.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1835.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Verilog Code for Processor Lab",
+                                      "ref_id": "@s24zjcc37k24rq:e116",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e115",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e114",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1867.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1867.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Fixing C++ Code Logic Error",
+                                      "ref_id": "@s24zjcc37k24rq:e119",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e118",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e117",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1899.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1899.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Text-Only GUI Agent Research",
+                                      "ref_id": "@s24zjcc37k24rq:e122",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e121",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e120",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1931.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1931.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Pomegranate Juice and Fatigue Explained",
+                                      "ref_id": "@s24zjcc37k24rq:e125",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e124",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e123",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1963.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1963.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Jharkhand Paper Leak: Protests and Demands",
+                                      "ref_id": "@s24zjcc37k24rq:e128",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e127",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e126",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 1995.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 1995.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Polaroid Photo of Couple",
+                                      "ref_id": "@s24zjcc37k24rq:e131",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e130",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e129",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2027.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2027.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Mac External Monitor Purple Flicker",
+                                      "ref_id": "@s24zjcc37k24rq:e134",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e133",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e132",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2059.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2059.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Verilog Code for Processor Lab",
+                                      "ref_id": "@s24zjcc37k24rq:e137",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e136",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e135",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2091.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2091.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Linux Pipe IPC Explained In-Depth",
+                                      "ref_id": "@s24zjcc37k24rq:e140",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e139",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e138",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2123.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2123.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Divide and Conquer House Robber IV",
+                                      "ref_id": "@s24zjcc37k24rq:e143",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e142",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e141",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2155.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2155.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Triceps Clicking: Causes and Solutions",
+                                      "ref_id": "@s24zjcc37k24rq:e146",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e145",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e144",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2187.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2187.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Manage UTM Windows VM Disk Space",
+                                      "ref_id": "@s24zjcc37k24rq:e149",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e148",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e147",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2219.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2219.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Mac 1440p Monitor Direct Settings",
+                                      "ref_id": "@s24zjcc37k24rq:e152",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e151",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e150",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2251.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2251.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Wispr Flow: AI Voice Dictation Explained",
+                                      "ref_id": "@s24zjcc37k24rq:e155",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e154",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e153",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2283.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2283.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "AI Status and Readiness Check",
+                                      "ref_id": "@s24zjcc37k24rq:e158",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e157",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e156",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2315.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2315.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "GPU Basics for Curious Minds",
+                                      "ref_id": "@s24zjcc37k24rq:e161",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e160",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e159",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2347.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2347.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Freeing Parallels VM Storage Space",
+                                      "ref_id": "@s24zjcc37k24rq:e164",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e163",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e162",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2379.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2379.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Stop Background Terminal Processes",
+                                      "ref_id": "@s24zjcc37k24rq:e167",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e166",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e165",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2411.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2411.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Understanding CPU and Memory Utilization",
+                                      "ref_id": "@s24zjcc37k24rq:e170",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e169",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e168",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2443.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2443.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Gym Split: Frequency Over Intensity",
+                                      "ref_id": "@s24zjcc37k24rq:e173",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e172",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e171",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2475.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2475.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "C as a Computational Model",
+                                      "ref_id": "@s24zjcc37k24rq:e176",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e175",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e174",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 32.0,
+                                "width": 213.0,
+                                "x": 2761.0,
+                                "y": 2507.0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 32.0,
+                                    "width": 193.0,
+                                    "x": 2771.0,
+                                    "y": 2507.0
+                                  },
+                                  "children": [
+                                    {
+                                      "available_actions": [
+                                        "Click",
+                                        "RightClick"
+                                      ],
+                                      "bounds": {
+                                        "height": 0.0,
+                                        "width": 0.0,
+                                        "x": 0.0,
+                                        "y": 1440.0
+                                      },
+                                      "name": "Best English Songs Starting With O",
+                                      "ref_id": "@s24zjcc37k24rq:e179",
+                                      "role": "button",
+                                      "states": [
+                                        "offscreen"
+                                      ]
+                                    }
+                                  ],
+                                  "ref_id": "@s24zjcc37k24rq:e178",
+                                  "role": "cell",
+                                  "states": [
+                                    "focused",
+                                    "offscreen"
+                                  ]
+                                }
+                              ],
+                              "ref_id": "@s24zjcc37k24rq:e177",
+                              "role": "treeitem",
+                              "states": [
+                                "offscreen"
+                              ]
+                            }
+                          ],
+                          "name": "Sidebar",
+                          "ref_id": "@s24zjcc37k24rq:e6",
+                          "role": "outline"
+                        },
+                        {
+                          "available_actions": [
+                            "SetValue"
+                          ],
+                          "bounds": {
+                            "height": 615.0,
+                            "width": 19.0,
+                            "x": 2973.0,
+                            "y": 688.0
+                          },
+                          "children": [
+                            {
+                              "available_actions": [
+                                "SetValue"
+                              ],
+                              "bounds": {
+                                "height": 187.0,
+                                "width": 11.0,
+                                "x": 2977.0,
+                                "y": 692.0
+                              },
+                              "ref_id": "@s24zjcc37k24rq:e181",
+                              "role": "handle",
+                              "value": "0"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 2974.0,
+                                "y": 689.0
+                              },
+                              "ref_id": "@s24zjcc37k24rq:e182",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 0.0,
+                                "x": 2974.0,
+                                "y": 689.0
+                              },
+                              "ref_id": "@s24zjcc37k24rq:e183",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 419.5,
+                                "width": 11.0,
+                                "x": 2977.0,
+                                "y": 879.5
+                              },
+                              "ref_id": "@s24zjcc37k24rq:e184",
+                              "role": "button"
+                            },
+                            {
+                              "available_actions": [
+                                "Click"
+                              ],
+                              "bounds": {
+                                "height": 0.0,
+                                "width": 11.0,
+                                "x": 2977.0,
+                                "y": 692.0
+                              },
+                              "ref_id": "@s24zjcc37k24rq:e185",
+                              "role": "button"
+                            }
+                          ],
+                          "ref_id": "@s24zjcc37k24rq:e180",
+                          "role": "scrollbar",
+                          "value": "0"
+                        }
+                      ],
+                      "ref_id": "@s24zjcc37k24rq:e5",
+                      "role": "scrollarea"
+                    },
+                    {
+                      "available_actions": [
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 17.0,
+                        "width": 110.5,
+                        "x": 2800.0,
+                        "y": 1314.0
+                      },
+                      "name": "Account and settings",
+                      "ref_id": "@s24zjcc37k24rq:e186",
+                      "role": "menubutton"
+                    },
+                    {
+                      "available_actions": [
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 17.0,
+                        "width": 20.5,
+                        "x": 2800.0,
+                        "y": 1331.0
+                      },
+                      "name": "Account and settings",
+                      "ref_id": "@s24zjcc37k24rq:e187",
+                      "role": "menubutton"
+                    }
+                  ],
+                  "role": "group"
+                },
+                {
+                  "bounds": {
+                    "height": 803.0,
+                    "width": 1087.0,
+                    "x": 2753.0,
+                    "y": 565.0
+                  },
+                  "children": [
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 3051.5,
+                        "y": 1316.0
+                      },
+                      "name": "Attach",
+                      "ref_id": "@s24zjcc37k24rq:e188",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Scroll",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 32.0,
+                        "width": 549.0,
+                        "x": 3095.5,
+                        "y": 1318.0
+                      },
+                      "children": [
+                        {
+                          "available_actions": [
+                            "RightClick",
+                            "SetValue",
+                            "SetFocus",
+                            "TypeText"
+                          ],
+                          "bounds": {
+                            "height": 32.0,
+                            "width": 549.0000000000001,
+                            "x": 3095.5,
+                            "y": 1318.0
+                          },
+                          "name": "Ask Gemini",
+                          "ref_id": "@s24zjcc37k24rq:e190",
+                          "role": "textfield"
+                        }
+                      ],
+                      "ref_id": "@s24zjcc37k24rq:e189",
+                      "role": "scrollarea",
+                      "value": "Ask Gemini"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 24.0,
+                        "width": 39.0,
+                        "x": 3652.5,
+                        "y": 1322.0
+                      },
+                      "name": "Pro, Choose model",
+                      "ref_id": "@s24zjcc37k24rq:e191",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 3699.5,
+                        "y": 1316.0
+                      },
+                      "name": "Use microphone (\u2318D)",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "mic_button"
+                      },
+                      "ref_id": "@s24zjcc37k24rq:e192",
+                      "role": "button"
+                    },
+                    {
+                      "available_actions": [
+                        "Click",
+                        "SetFocus"
+                      ],
+                      "bounds": {
+                        "height": 36.0,
+                        "width": 36.0,
+                        "x": 3743.5,
+                        "y": 1316.0
+                      },
+                      "name": "Speak to Window",
+                      "native_id": {
+                        "kind": "ax_identifier",
+                        "value": "stc_button"
+                      },
+                      "ref_id": "@s24zjcc37k24rq:e193",
+                      "role": "button"
+                    }
+                  ],
+                  "role": "group"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "group"
+        },
+        {
+          "available_actions": [
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 1087.0,
+            "x": 2753.0,
+            "y": 565.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 52.0,
+                "width": 81.0,
+                "x": 3755.0,
+                "y": 565.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 36.0,
+                    "width": 36.0,
+                    "x": 3756.0,
+                    "y": 575.0
+                  },
+                  "name": "Temporary chat",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "tempChat_button"
+                  },
+                  "ref_id": "@s24zjcc37k24rq:e195",
+                  "role": "button"
+                },
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 36.0,
+                    "width": 36.0,
+                    "x": 3792.0,
+                    "y": 575.0
+                  },
+                  "name": "Temporary chat",
+                  "native_id": {
+                    "kind": "ax_identifier",
+                    "value": "collapse_button"
+                  },
+                  "ref_id": "@s24zjcc37k24rq:e196",
+                  "role": "button"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "ref_id": "@s24zjcc37k24rq:e194",
+          "role": "toolbar"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 2771.0,
+            "y": 583.0
+          },
+          "ref_id": "@s24zjcc37k24rq:e197",
+          "role": "button",
+          "states": [
+            "disabled"
+          ]
+        },
+        {
+          "available_actions": [
+            "Click",
+            "RightClick"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 2817.0,
+            "y": 583.0
+          },
+          "ref_id": "@s24zjcc37k24rq:e198",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 16.0,
+            "width": 16.0,
+            "x": 2794.0,
+            "y": 583.0
+          },
+          "ref_id": "@s24zjcc37k24rq:e199",
+          "role": "button"
+        },
+        {
+          "available_actions": [
+            "Click"
+          ],
+          "bounds": {
+            "height": 52.0,
+            "width": 719.5,
+            "x": 2995.0,
+            "y": 565.0
+          },
+          "ref_id": "@s24zjcc37k24rq:e200",
+          "role": "statictext"
+        },
+        {
+          "bounds": {
+            "height": 512.0,
+            "width": 512.0,
+            "x": 3041.0,
+            "y": 710.0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 512.0,
+                "width": 512.0,
+                "x": 3041.0,
+                "y": 710.0
+              },
+              "children": [
+                {
+                  "available_actions": [
+                    "Click",
+                    "SetFocus"
+                  ],
+                  "bounds": {
+                    "height": 42.0,
+                    "width": 63.5,
+                    "x": 3465.5,
+                    "y": 1156.0
+                  },
+                  "name": "Next",
+                  "ref_id": "@s24zjcc37k24rq:e201",
+                  "role": "button"
+                }
+              ],
+              "role": "group"
+            }
+          ],
+          "role": "sheet"
+        }
+      ],
+      "name": "Gemini \u2013 New chat",
+      "role": "window"
+    },
+    "truncated": true,
+    "window": {
+      "id": "w-23839",
+      "title": "Gemini"
+    }
+  }
+}
